@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Comments</title>
+ <link>https://www.drupal.cz</link>
+ <description>Komentáře</description>
+ <language>cs</language>
+<item>
+ <title>Doplnění</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac#comment-104041</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac&quot;&gt;PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)&lt;/a&gt;:&lt;/p&gt;
+
+V tabulce je ještě sloupec values, takže výpis dat vypadá např. takto:
+[geshifilter-code] 6 Karel 6 Novák 7 Franta 7 Vonásek atd.
+[/geshifilter-code]</description>
+ <pubDate> <key>pubDate</key>
+ <value>Tue, 06 Feb 2018 05:09:27 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Anonymous</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104041 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>HOOK_bloc­k_alter</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/zjisteni-block-id&quot;&gt;Zjištění block ID&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;HOOK_block_al­ter(&amp;amp;$variables) ?&lt;/p&gt;</description>
+ <pubDate> <key>pubDate</key>
+ <value>Mon, 05 Feb 2018 05:52:50 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>karlos</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104036 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Koukám, že je to známá, leč</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku&quot;&gt;Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku&lt;/a&gt;:&lt;/p&gt;
+
+Koukám, že je to známá, leč neopravená chyba v Drupalu (https://goo.gl/eic86W).&lt;br /&gt;
+&lt;br /&gt;
+Dá se to udělat nějak jinak? Koukal jsem, že je na to dokonce i modul, ale
+bohužel jen pro Drupal 7 (https://goo.gl/zB6zev).</description>
+ <pubDate> <key>pubDate</key>
+ <value>Sat, 03 Feb 2018 15:38:00 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Anonymous</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104031 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Musel jsem povolit v souboru</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku&quot;&gt;Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku&lt;/a&gt;:&lt;/p&gt;
+
+Musel jsem povolit v souboru services.yml debug: true a už to funguje.
+Vypisuje mi to:&lt;br /&gt;
+&lt;br /&gt;
+‚counter‘ ⇒ string(13) „1“
+
+&lt;br /&gt;
+&lt;br /&gt;
+A před tím samozřejmě pole, která používám (titulek, body,
+obrázek).</description>
+ <pubDate> <key>pubDate</key>
+ <value>Fri, 02 Feb 2018 16:10:48 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Anonymous</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104026 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>a kdyz do tech souboru</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku&quot;&gt;Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;a kdyz do tech souboru napises jen nejaky text navic tak se zobrazi? existuje
+tam ukazkovy sites/develop­ment.services­.yml – jinak mas twig sablony
+kešované&lt;/p&gt;</description>
+ <pubDate> <key>pubDate</key>
+ <value>Thu, 01 Feb 2018 12:18:41 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>karlos</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104021 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Zkusil jsem to, ale v šabloně</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku&quot;&gt;Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku&lt;/a&gt;:&lt;/p&gt;
+
+Zkusil jsem to, ale v šabloně se nic nevypisuje. Nemělo by se něco
+změnit v souboru settings.php nebo services.yml, aby to fungovalo? Podle
+některých návodů to tak vypadá, ale já ty soubory mám jiné než
+v tutoriálech.</description>
+ <pubDate> <key>pubDate</key>
+ <value>Thu, 01 Feb 2018 11:35:55 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Anonymous</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104016 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>http://www.oznamkujucitele.cz</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv&quot;&gt;http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc &lt;/a&gt;:&lt;/p&gt;
+
+http://www.oznamkujucitele.cz/ucitel/19362
+moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka
+života a smrti moc prosím o radu jak smazat nebo jestli by to někdo
+nesmazal děkuju</description>
+ <pubDate> <key>pubDate</key>
+ <value>Tue, 30 Jan 2018 17:16:49 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Anonymous</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104011 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>potřeboval bych odstranit komentář </title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu&quot;&gt;Lze zjistit IP adresu anonyma, který napsal komentář k nějakýmu nodu?&lt;/a&gt;:&lt;/p&gt;
+
+http://www.oznamkujucitele.cz/ucitel/19362&lt;strong&gt;&lt;/strong&gt;&lt;br /&gt;
+moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka
+života a smrti moc prosím o radu jak smazat nebo jestli by to někdo
+nesmazal děkuju</description>
+ <pubDate> <key>pubDate</key>
+ <value>Tue, 30 Jan 2018 13:37:03 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Anonymous</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104006 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>mas devel a zapnuty kint?</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku&quot;&gt;Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;mas devel a zapnuty kint? kdyz das v twig sablone {{ kint() }} tak to vypise
+vsechny dostupne promenne. podle me ten counter bude spis neco jako
+rows.counter&lt;/p&gt;</description>
+ <pubDate> <key>pubDate</key>
+ <value>Sun, 28 Jan 2018 20:53:36 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>karlos</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 104001 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Tak imo jedině naprogramovat.</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node#comment-103996</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node&quot;&gt;Webform per user per node&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;Tak imo jedině naprogramovat. Určitě by šel hook_form_alter(), ale možná bude existovat i něco specifičtějšího &lt;a href=&quot;http://www.drupalcontrib.org/api/drupal/contributions%21webform%21webform.api.php/7&quot; title=&quot;http://www.drupalcontrib.org/api/drupal/contributions%21webform%21webform.api.php/7&quot;&gt;http://www.drupalcontrib.org/api/drupal/contributions%21webform%21webfor...&lt;/a&gt;&lt;/p&gt;
+</description>
+ <pubDate> <key>pubDate</key>
+ <value>Fri, 19 Jan 2018 07:02:45 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Eva Rázgová</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103996 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>no ten clon nieje vhodne</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node#comment-103991</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node&quot;&gt;Webform per user per node&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;no ten clon nieje vhodne riesenie… mal by to byt ten isty formular.&lt;/p&gt;</description>
+ <pubDate> <key>pubDate</key>
+ <value>Thu, 18 Jan 2018 07:49:36 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>pipuch</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103991 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>A musí to být tentýž</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node#comment-103986</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node&quot;&gt;Webform per user per node&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;A musí to být tentýž formulář? Formuláře se dají snadno klonovat pomocí modulu node_clone (&lt;a href=&quot;https://www.drupal.org/project/node_clone&quot; title=&quot;https://www.drupal.org/project/node_clone&quot;&gt;https://www.drupal.org/project/node_clone&lt;/a&gt;). Tj. naklonovat uzel a s ním se naklonuje celý webform. &lt;/p&gt;
+</description>
+ <pubDate> <key>pubDate</key>
+ <value>Thu, 18 Jan 2018 07:42:55 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Eva Rázgová</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103986 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Práce už začala:</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/drupal-commerce-v-cesku-asi-bez-fungujici-komunity-vyvojaru#comment-103981</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/drupal-commerce-v-cesku-asi-bez-fungujici-komunity-vyvojaru&quot;&gt;Drupal Commerce - v Česku asi bez fungujici  komunity vyvojářů&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;Práce už začala: &lt;a href=&quot;https://github.com/Drupalcz/community-tasks/issues&quot;&gt;https://github.com/…tasks/issues&lt;/a&gt;&lt;/p&gt;</description>
+ <pubDate> <key>pubDate</key>
+ <value>Mon, 15 Jan 2018 12:57:00 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Honza Pobořil</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103981 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Moc děkuji, Evo, opět jste to</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni#comment-103976</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni&quot;&gt;Inventura a jak na ní?&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;Moc děkuji, Evo, opět jste to trefila úplně přesně! :-) Už to funguje
+jak má a ani mi to moc jako opruz nepřišlo, jen mi chvilku trvalo než jsem
+odhalil kde se definují pole do kolekce
+(admin/structu­re/field-collections/).&lt;/p&gt;
+
+&lt;p&gt;Ještě jednou moc díky!&lt;/p&gt;
+
+&lt;p&gt;Přeji krásný den,&lt;/p&gt;
+
+&lt;p&gt;Robii&lt;/p&gt;</description>
+ <pubDate> <key>pubDate</key>
+ <value>Wed, 10 Jan 2018 11:27:57 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Robii</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103976 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>jj, field_collection. neco</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni#comment-103971</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni&quot;&gt;Inventura a jak na ní?&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;jj, field_collection. neco takoveho resim ted na D8 a tam jsem si udelal
+vlastni field – ale v D8 mi to vygenerovala Console pomoci 3 prikazu takze
+pohoda. Jak to definovat v D7 nevim.&lt;/p&gt;</description>
+ <pubDate> <key>pubDate</key>
+ <value>Wed, 10 Jan 2018 06:30:30 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>karlos</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103971 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>VYŘEŠENO</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views#comment-103966</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views&quot;&gt;Jak vyhledávat v poli soubor (multiupload) - VIEWS&lt;/a&gt;:&lt;/p&gt;
+
+Už to mám, stačí použít :delta.</description>
+ <pubDate> <key>pubDate</key>
+ <value>Tue, 09 Jan 2018 11:00:45 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Anonymous</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103966 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Píšu jen z hlavy, tak mě</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views#comment-103961</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views&quot;&gt;Jak vyhledávat v poli soubor (multiupload) - VIEWS&lt;/a&gt;:&lt;/p&gt;
+
+Píšu jen z hlavy, tak mě berte s rezervou – přes FID se myslím na
+název souboru dostat nejde, to je identifikační číslo souboru
+
+Spíše přes URL, pokud tam taková volba je. Kdyžtak zkusit přidat
+„relationship“ na soubor, s tím by pak mohlo být dostupných víc
+možností…</description>
+ <pubDate> <key>pubDate</key>
+ <value>Tue, 09 Jan 2018 10:51:12 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Eva Rázgová</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103961 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>To je asi (bohužel) zadání na</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni#comment-103956</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni&quot;&gt;Inventura a jak na ní?&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;To je asi (bohužel) zadání na modul field_collection. &lt;a href=&quot;https://www.drupal.org/project/field_collection&quot; title=&quot;https://www.drupal.org/project/field_collection&quot;&gt;https://www.drupal.org/project/field_collection&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&quot;Bohužel&quot; proto, že je s tím taky trochu opruz, ale ten výsledný editační form (vše v jednom uzlu nakonec) je dobrý.&lt;/p&gt;
+</description>
+ <pubDate> <key>pubDate</key>
+ <value>Tue, 09 Jan 2018 10:47:00 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Eva Rázgová</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103956 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Jestliže jste vložil text ve</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prava-poli-uzivatelskych-uctu#comment-103951</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prava-poli-uzivatelskych-uctu&quot;&gt;Práva polí uživatelských účtů&lt;/a&gt;:&lt;/p&gt;
+
+Jestliže jste vložil text ve formátu, k němuž uživatel nemá
+oprávnění, Drupal ho k poli nepustí, protože by mohl provést nesmyslné
+změny (bez příslušného formátu) a „odemknout“ zakázaný formát mu
+nemůže. Musíte to sladit, buď změnit výchozí formát, nebo přidat
+uživateli oprávnění (to druhé samozřejmě po důkladné úvaze, že to je
+bezpečné).</description>
+ <pubDate> <key>pubDate</key>
+ <value>Tue, 09 Jan 2018 10:43:36 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>Eva Rázgová</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103951 at https://www.drupal.cz</value>
+</guid>
+</item>
+<item>
+ <title>Čeština</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prava-poli-uzivatelskych-uctu#comment-103946</link>
+ <description>&lt;p&gt;In reply to &lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prava-poli-uzivatelskych-uctu&quot;&gt;Práva polí uživatelských účtů&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;Jen tak na okraj: nikoliv „rádi by jste“, ale „rádi byste“.&lt;/p&gt;</description>
+ <pubDate> <key>pubDate</key>
+ <value>Tue, 09 Jan 2018 08:25:53 +0000</value>
+</pubDate>
+ <dc:creator> <key>dc:creator</key>
+ <value>milada</value>
+</dc:creator>
+ <guid> <key>guid</key>
+ <attributes> <isPermaLink>false</isPermaLink>
+</attributes>
+ <value>comment 103946 at https://www.drupal.cz</value>
+</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>frankye&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/frankye</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>DrupalCampCS už budúci víkend 28-29.05 2016</title>
+ <link>https://www.drupal.cz/blog/frankye/drupalcampcs-uz-buduci-vikend-28-2905-2016</link>
+ <description>&lt;p&gt;Tento rok na DrupalCampeCS prinášame niekoľko noviniek a zaujímavých
+rečníkov.&lt;/p&gt;
+
+&lt;p&gt;Čo ťa čaká na DrupalCampCS tento rok?&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;oddelený československý a anglický track&lt;/li&gt;
+
+	&lt;li&gt;15 prednášajúcich so 14 prednáškami z 5 krajín&lt;/li&gt;
+
+	&lt;li&gt;Jeffrey “Jam” McGuire – jedna z najvýraznejších osobností
+	Drupal sveta&lt;/li&gt;
+
+	&lt;li&gt;Marek Matulka, vývojár v SensioLabs UK, ktorý sa priam&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/frankye/drupalcampcs-uz-buduci-vikend-28-2905-2016&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupalcampcs-uz-buduci-vikend-28-2905-2016#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupalcamp">drupalcamp</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/55846</wfw:commentRss>
+ <pubDate>Fri, 20 May 2016 09:52:27 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">55846 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.sk a D8</title>
+ <link>https://www.drupal.cz/blog/frankye/drupalsk-d8</link>
+ <description>&lt;p&gt;Na Slovensku sa chystáme na migráciu Drupal.sk na D8. Ak by sa niekto
+našiel, kto sa chce zdokonaliť v D8 ešte pred jeho oficiálnym štartom a
+zároveň pomôcť s vylepšením Drupal.sk nájdete nás v stredu
+04.06.2014 vo Wezeo. Viac sa dočítate na &lt;a href=&quot;http://drupal.sk/node/1943&quot;&gt;drupal.sk&lt;/a&gt;, prípadne na &lt;a href=&quot;https://www.facebook.com/events/1509679109255413/&quot;&gt;facebooku&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupalsk-d8#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/26111</wfw:commentRss>
+ <pubDate>Mon, 02 Jun 2014 14:02:14 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">26111 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal školenia | SDA</title>
+ <link>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda</link>
+ <description>&lt;p&gt;Slovenská Drupal Asociácia sa chystá organizovať Drupal školenia.
+Základné info na &lt;a href=&quot;http://drupal.sk/node/1897&quot;&gt;drupal.sk&lt;/a&gt; .
+Pomôžte nám získať viac info o vašich požiadavkách v ankete &lt;a href=&quot;https://apps.facebook.com/polldaddy-polls/?view=poll&amp;amp;id=7558115&quot;&gt;na
+facebooku&lt;/a&gt;, alebo v komentároch na drupal.sk, alebo tu.&lt;/p&gt;
+
+&lt;p&gt;Ďakujeme&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22956</wfw:commentRss>
+ <pubDate>Wed, 13 Nov 2013 11:59:01 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">22956 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Slovenská Drupal inštalácia</title>
+ <link>https://www.drupal.cz/blog/frankye/slovenska-drupal-instalacia</link>
+ <description>&lt;p&gt;Ahojte Drupalisti,&lt;br /&gt;
+za účelom uľahčenia života (sebe, ale verím, že aj početnej skupine
+Drupalistov) som vyvinul &lt;a href=&quot;http://drupal.org/project/slovak_install&quot;&gt;Slovenskú Drupal
+inštaláciu&lt;/a&gt; aj so všetkým, čo k tomu v základe patrí (na kompletné
+funkcie môžete pozrieť tu:&lt;a href=&quot;http://drupal.sk/node/1520&quot;&gt;http://drupal.sk/node/1520&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Sťahujte a testujte tu: &lt;a href=&quot;http://drupal.org/project/slovak_install&quot;&gt;http://drupal.org/…ovak_install&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tu ale plány so Sloven&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/frankye/slovenska-drupal-instalacia&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/slovenska-drupal-instalacia#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/16146</wfw:commentRss>
+ <pubDate>Wed, 14 Nov 2012 08:56:53 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">16146 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Slovenská Drupal Asociácia start-party</title>
+ <link>https://www.drupal.cz/blog/frankye/slovenska-drupal-asociacia-start-party</link>
+ <description>&lt;p&gt;Ahojte Drupalisti, v posledných dňoch sme dostali pozitívnu odpoveď
+z Ministerstva vnútra k registrácii nášho Občianskeho združenia
+„Slovenská Drupal Asociácia (SDA)“, čo by sa patrilo patrične
+osláviť.&lt;/p&gt;
+
+&lt;p&gt;Čítajte viac na &lt;a href=&quot;http://drupal.sk/node/1480&quot;&gt;drupal.sk&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/frankye/slovenska-drupal-asociacia-start-party&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/slovenska-drupal-asociacia-start-party#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/15511</wfw:commentRss>
+ <pubDate>Thu, 11 Oct 2012 14:22:55 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">15511 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>04.10.2012 Drupal Translation Sprint - Bratislava</title>
+ <link>https://www.drupal.cz/blog/frankye/04102012-drupal-translation-sprint-bratislava</link>
+ <description>&lt;p&gt;Vo štvrtok (04.10.2012) sa bude konať na Štefanovičovej 8 v Bratislave
+(priestory SVEN Creative, s.r.o.) Drupal Translation Sprint – Bratislava. Ak
+máte záujem prísť viac čítajte na &lt;a href=&quot;http://drupal.sk/node/1465&quot;&gt;Drupal.sk&lt;/a&gt;.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/04102012-drupal-translation-sprint-bratislava#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/bratislava">bratislava</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-setkani">Drupal setkání</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/15171</wfw:commentRss>
+ <pubDate>Fri, 28 Sep 2012 08:35:24 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">15171 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal meetup v Žiline 10.09.2010</title>
+ <link>https://www.drupal.cz/blog/frankye/drupal-meetup-v-ziline-10092010</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://drupal.sk/node/708&quot; title=&quot;Drupal meetup v Žiline 10.09.2010&quot;&gt; &lt;img align=&quot;right&quot; src=&quot;http://drupal.sk/files/drupal_meetup.jpg&quot; alt=&quot;Drupal meetup v Žiline 10.09.2010&quot; /&gt;&lt;/a&gt; Pozývame všetkých drupalistov
+(aj potenciálnych drupalistov) v &lt;strong&gt;piatok 10.09.2010 do priestorov
+Stanice Záriečie&lt;/strong&gt; v Žiline.&lt;/p&gt;
+
+&lt;p&gt;Stretnutie je naplánované na piatok, a v &lt;strong&gt;sobotu 11.09.2010 bude
+na tom istom mieste &lt;a href=&quot;http://barcamp-za.sk/&quot; title=&quot;BarCamp Žilina&quot;&gt;BarCamp Žilina&lt;/a&gt;&lt;/strong&gt;, ktorý ako sa zdá svojimi
+predchádzajúcimi ročníkmi ukázal, že má čo ponúknuť.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/frankye/drupal-meetup-v-ziline-10092010&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupal-meetup-v-ziline-10092010#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7973</wfw:commentRss>
+ <pubDate>Wed, 04 Aug 2010 12:20:03 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">7973 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

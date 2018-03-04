@@ -1,0 +1,1240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;První kroky s Drupalem&quot;" href="https://www.drupal.cz/crss/node/4369" />
+<link rel="shortcut icon" href="https://www.drupal.cz/misc/favicon.ico" type="image/x-icon" />
+ <title>První kroky s Drupalem | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="../../files/css/css_742b444d6fb5ddf981f05293331cc2ea.css" />
+ <script type="text/javascript" src="../../files/js/js_205e2f76c16b8df9f08dad7fc176465b.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="prvni-kroky-s-drupalem.html#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="../../node/index.html">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="../../o-systemu-drupal.html"><span>O Drupalu</span></a></li>
+<li><a href="../../blog.html"><span>Blogy</span></a></li>
+<li><a href="../../faq.html"><span>FAQ</span></a></li>
+<li><a href="../../forum.1.html"><span>Fórum</span></a></li>
+<li><a href="../../prezentace.html"><span>Prezentace</span></a></li>
+<li><a href="../../preklad-drupalu-do-cestiny-zakladni-informace.html"><span>Překlady</span></a></li>
+<li><a href="../../katalog.1.html"><span>Katalog</span></a></li>
+<li><a href="../../ke-stazeni.html"><span>Stáhnout</span></a></li>
+<li><a href="../../sluzby.html"><span>Služby</span></a></li>
+<li><a href="../../staff.html"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="../../node/index.html">Domů</a></div>        <h2 class="title">První kroky s Drupalem</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-4369">
+    <span class="submitted">Vložil/a <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a>, 5 Leden, 2009 - 09:20</span>
+    <div class="pcontent"><p>Začínáte s Drupalem a nevíte, za který konec to vzít? Jestli vás
+neurazí text ve stylu „Ema mele maso“, čtěte dál.</p>
+
+<p><em>Text vychází z verze Drupalu 6.x a z častých dotazů na fóru
+Drupal.cz. Nejedná se o návod, jak zacházet s jednotlivými moduly, ale
+spíše o tipy, jak začít, kde a co vůbec hledat… Jak by řekl medvídek
+Pú: „Je užitečné vědět, co hledáte, když něco hledáte. Snáze to pak
+poznáte, když to najdete.“ (Roger E. Allen: Pú a management).</em></p>
+
+<h2>Hosting</h2>
+
+<p>Vyberte si hosting, který podporuje Drupal. Podrobnější popis
+potřebných parametrů najdete na těchto stránkách (<a href="../../o-systemu-drupal.html">O systému Drupal</a>) nebo na
+stránkách Drupal.org (<a href="https://drupal.org/requirements">System
+requirements</a>). Na odstrašující příklady se můžete podívat do <a href="../../webhosting/nefunkcni.1.html">Černé knihy
+webhostingů</a>.</p>
+
+<h2>Testovací web</h2>
+
+<p>To se samozřejmě netýká jen Drupalu. Kromě „ostrého“ webu je dobré
+mít taky web testovací. Nejlépe na lokálním serveru, případně i na
+hostingu.</p>
+
+<h2>Před instalací</h2>
+
+<p>Je potřeba založit (prázdnou) databázi, která musí mít
+kódování/porov­návání UTF8_czech_ci.</p>
+
+<h2>Instalace</h2>
+
+<p>Běží to skoro samo; minimum věcí se musí upravit ručně. Ne-li na
+první, tak již na druhý pohled dávají všechny dobrý smysl a jsou
+jednoduché.</p>
+
+<p>Drupal rozbalte na server a balíček s českým překladem taky – do
+stejného adresáře. Teď přijdou na řadu ty úpravy:<br />
+</p>
+
+<ol>
+	<li>Jděte do složky sites/default, zkopírujte si někam soubor
+	default.settin­gs.php, přejmenujte ho na settings.php a zkopírujte zpět na
+	stejné místo. (Kdybyste to neudělali, Drupal si o to při instalaci stejně
+	řekne). Vytvořte ve stejné složce adresář files.</li>
+
+	<li>Novému souboru settings.php změňte práva tak, aby se do něj dalo
+	zapisovat. Stejně změňte práva i adresáře files. Když to neuděláte,
+	Drupal si o to při instalaci opět řekne sám; do souboru settings.php musí
+	totiž zapsat údaje potřebné pro připojení k databázi.</li>
+
+	<li>Možná budete muset udělat drobnou změnu v souboru .htaccess –
+	například, pokud budete chtít na svém webu čistá URL (nejspíš ano).
+	Téměř určitě vám poradí váš poskytovatel hostingu, možná má na
+	svých stránkách i návod. O tohle si Drupal neřekne, ale nemusel by dobře
+	fungovat, popřípadě se na stránku s instalací vůbec nedostanete.</li>
+
+	<li>Změňte práva souboru settings.php zpět na nezapisovatelné.</li>
+</ol>
+ V prohlížeči zadejte adresu vašeho webu a projděte dalšími kroky
+instalace. Pokud nepracujete na lokálu, respektive pokud jste sami
+nevytvářeli databázi, měli byste mít potřebné údaje od svého
+poskytovatele hostingu.
+<h2>Vítejte na Vašem novém Drupal webu</h2>
+
+<p>… je hláška, která vás určitě potěší. Pod ní je cosi jako
+stručný návod, jak postupovat dál. Ještě než se do toho pustíte,
+udělejte krátkou odbočku do adresáře <strong>sites</strong>  – je to
+jeden z adresářů Drupalu, které jste nahráli na server. Pro vaši další
+práci bude naprosto zásadní.</p>
+
+<h2>Sites: sem patří všechno, co se týká VAŠEHO KONKRÉTNÍHO webu</h2>
+
+<p>Nejdřív se podívejte do složky <strong>sites/default</strong> na již
+známý soubor <strong>settings.php</strong> a všimněte si, že sem Drupal
+zapsal vámi zadané údaje týkající se připojení k databázi: $db_url =
+(…). Kdybyste časem kopírovali váš web na jiný server a/nebo ho
+připojovali k jinak pojmenované databázi (což se může stát), upravíte
+settings.php tak, aby všechny údaje souhlasily.</p>
+
+<p>Nyní otevřete složku <strong>sites/all</strong> a založte si zde dva
+nové adresáře: <strong>modules</strong> a <strong>themes</strong>. Jak názvy
+napovídají, jeden bude sloužit jako úložiště pro nově nahrané moduly,
+druhý pro témata vzhledu. Když budete později potřebovat jakékoliv úpravy
+(třeba v souborech CSS), <strong>needitujte ani moduly a témata v jádru,
+ale ani moduly a originální témata ve složce sites. Veškeré úpravy
+správně patří do vašeho vlastního tématu vzhledu</strong>, které pro
+začátek nejspíš odvodíte z některého již existujícího tématu. Bude
+také ve složce sites/all/themes, buďto jako podsložka rodičovského
+tématu, nebo vedle něj – v Drupalu 6 je to jedno. Základní návod na
+odvození podtématu najdete například v souboru README tématu Zen.</p>
+
+<p>Tématy se pro tuto chvíli nebudeme zabývat, ale zato vám doporučím
+jeden hezký modul.</p>
+
+<h2>Udělejte si radost: Administration menu</h2>
+
+<p>Dovolím si subjektivní poznámku: uživatelsky příjemné administrační
+rozhraní se nepozná podle barevných ikonek, ale podle toho, že má nějakou
+logiku a funguje rychle. Takže: modul <strong><em>Administration
+menu</em></strong> je bonbónek v nenápadném obalu – a vy si ho dejte hned
+na začátku. Ušetří vám neuvěřitelně mnoho klikání, a tudíž také
+času a sil. Stáhněte ho z Drupal.org (<a href="https://drupal.org/project/admin_menu">http://drupal.org/…t/admin_menu</a>),
+rozbalte do nově vytvořeného adresáře sites/all/modules a zapněte
+v administraci modulů (Administrace &gt; Prvky webu &gt; Moduly). Na vašich
+stránkách se na horním okraji objeví černá lišta se samorozbalovacím
+menu, které vám umožní rychlý přístup ke všem nastavením i k tvorbě
+obsahu webu.</p>
+
+<h2>Pokusný obsah, typy obsahu</h2>
+
+<p>V návodu ve vaší nové instalaci Drupalu je tvorba obsahu až na
+posledním místě. Ovšem pokud se s Drupalem teprve seznamujete, asi budete
+nějaký pokusný obsah potřebovat, abyste vůbec viděli, „co to dělá“,
+a tudíž také, co chcete konfigurovat. Na začátku máte možnost vytvořit
+2 typy obsahu: stránku a článek. Liší se pouze výchozím nastavením
+některých parametrů (viz vysvětlivky na vašem webu v sekci Vytvořit
+obsah). Další typy obsahu si později můžete vytvořit sami, nebo je
+získáte spolu s některými moduly (Poll – Anketa, Image – Obrázek
+apod.).</p>
+
+<p>Časem nejspíš dospějete k tomu, že si budete chtít jednotlivé typy
+obsahu více upravit „k obrazu svému“, co do struktury (článek nemusí
+mít jen nadpis a text) i vzhledu (úvodník kurzívou apod.). K tomu
+použijete modul <strong><em>Content Construction Kit – CCK</em></strong>.
+Pro tuto chvíli bude stačit, že o něm víte. Až si ho budete chtít
+ochočit, možná vám pomůže článek <a href="jak-zacit-content-construction-kit-cck.html">Jak
+začít – Content Construction Kit (CCK)</a>.</p>
+
+<h2>Vstupní formáty</h2>
+
+<p>Už při vkládání pokusného obsahu byste si měli všimnout, že Drupal
+nabízí dva základní formáty vstupu: <strong>Filtered HTML</strong> a
+<strong>Full HTML</strong> (jejich konfiguraci najdete v Nastavení webu &gt;
+Vstupní formáty). Když bude třeba, můžete později přidat i vlastní
+formáty/filtry. Filtry slouží k zabezpečení webu proti případným
+útokům prostřednictvím webových formulářů. Z toho je asi zřejmé, že
+<strong>k formátu Full HTML (případně PHP code, pokud v modulech zapnete
+PHP filter) mají mít přístup pouze důvěryhodní uživatelé
+</strong>(obvykle admin, popřípadě role typu editor, redaktor apod.).</p>
+
+<h2>Hezká URL</h2>
+
+<p>Jakmile začnete tvořit obsah, určitě vás napadne, že by bylo lepší
+mít URL například ve tvaru nazev_domeny/na­zev_uzlu, než
+nazev_domeny/no­de/1… Na úplném začátku můžete vystačit s modulem
+<strong><em>Path</em></strong> (v jádře), s jehož pomocí lze při
+vytváření obsahu zadat URL ručně. URL se však může tvořit
+i automaticky například podle názvu uzlu, ale třeba také podle tématické
+kategorie na vašem webu (nazev_domeny/na­zev_kategorie/na­zev_clanku).
+K tomu slouží modul <strong><em>Pathauto</em></strong> (vyžaduje také modul
+<strong><em>Token</em></strong> + pro rozumné zacházení s diakritikou
+<strong><em>Transliteration</em></strong>; případně budete potřebovat
+ještě <strong><em>Path Redirect</em></strong> k přesměrování z již
+existujících URL). Možnosti Pathauto plně doceníte teprve v kombinaci
+s dalšími moduly, které umožňují hierarchizovat a třídit
+obsah webu.</p>
+
+<h2>Jak začít tvořit strukturu stránek (hierarchie, menu)</h2>
+
+<p>Modul <strong><em>Menu</em></strong> je v jádře a po instalaci je
+automaticky zapnutý. Přes Prvky webu &gt; Menu můžete přidávat odkazy do
+existujících menu a vytvářet další vlastní menu. Každé nově
+vytvořené menu generuje nový blok, který je třeba „zprovoznit“
+v administraci blo­ků.</p>
+
+<p>Při vytváření obsahu můžete každý nový příspěvek/uzel rovnou
+přidat do menu, pokud je to třeba – tedy pokud pro něj chcete samostatný
+odkaz. Jiná věc je, když má položka menu odkazovat na celou skupinu
+uzlů – třeba na články zařazené do konkrétní rubriky. K tomu jsou
+zapotřebí další moduly (viz níže) – například Taxonomy, Taxonomy
+Menu, Views apod.</p>
+
+<p>Za pomoci základních možností modulu Menu pravděpodobně vytvoříte
+odkaz na kontaktní stránku webu (kontaktní formulář vyžaduje zapnutý
+modul <strong><em>Contact</em></strong>), případně na některé statické
+stránky (typ obsahu „Stránka“ ).</p>
+
+<p>Další modul jádra, který slouží k hierarchizaci obsahu, se jmenuje
+<strong><em>Book</em></strong> (kniha). Hodí se pro uspořádání uzlů,
+které mají nejen hierarchii, ale také smysluplné pořadí, jež by měl
+návštěvník webu sledovat. Modul vytvoří každému uzlu jakousi patičku
+s odkazy na předchozí a následující uzel. Pomocí modulu Book je možné
+uspořádat třeba jen část webu, kde tyto funkce dávají smysl –
+výborně se hodí k publikování seriálu, návodu členěného do
+kapitol apod.</p>
+
+<p>V administraci bloků se při zapnutí modulu automaticky objeví blok Obsah
+knihy, ve kterém je menu vytvořené knihou. Menu se umí samo rozbalit
+v momentě, kdy uživatel zabrouzdá na odpovídající část webu, což je
+celkem často hledaná funkce.</p>
+
+<p>Ačkoliv Book vytváří vlastní typ obsahu, do knihy můžete kdykoliv
+přiřadit již existující typy obsahu a uzly. Ale pozor: když se vám
+náhodou kniha přestane líbit a smažete ji, přijdete o všechny uzly,
+které jste do ní zařadili.</p>
+
+<h2>Nechceme všechno pohromadě – aneb škatulkování obsahu</h2>
+
+<p>První možnost už znáte: je to rozdělení na různé <strong>typy
+obsahu</strong> (výchozí jsou stránka a článek, další mohou být
+například anketa, akce…). Každý typ obsahu má své nastavení, kde
+můžete mimo jiné zadat, jestli se má zobrazovat na titulní stránce. Když
+se ale nějaký typ obsahu nebude zobrazovat na titulní stránce, jak se
+k němu návštěvník webu dostane? Některé cesty jsou v Drupalu
+„prošlápnuté“, jiné si musíte vyznačit sami. V zásadě se můžete
+vydat těmito směry:</p>
+
+<ul>
+	<li>V hierarchii webu vytvoříte cestu k jednotlivým uzlům (moduly Menu a
+	Book – viz výše).</li>
+
+	<li>Některé moduly automaticky vytvářejí pro „své“ typy obsahu nové
+	odkazy v menu a/nebo bloky (např. modul <strong><em>Poll</em></strong> –
+	pro ankety, <strong><em>Image</em></strong> – pro obrázky,
+	<strong><em>Event</em></strong> – pro akce).</li>
+
+	<li>Na vybrané typy obsahu vytvoříte vlastní <strong>pohled</strong> (modul
+	<strong><em>Views</em></strong> – podrobnější návod na jeho použití
+	najdete v článku <a href="jak-zacit-views-2.html">Jak
+	začít – Views 2</a>).</li>
+</ul>
+
+<p>Další možnost je rozdělit uzly do <strong>kategorií</strong>. K tomu se
+nejčastěji používá modul <strong><em>Taxonomy</em></strong> (je v jádře
+a po instalaci je zapnutý). Kategorie se může týkat třeba tématu článku,
+ale také typu zboží v katalogu nebo jeho barvy… Kategorie, které
+„patří k sobě“, jsou – v terminologii Drupalu – součástí
+jednoho <strong>slovníku</strong>. Samotný modul Taxonomy po zapnutí žádné
+slovníky neobsahuje, je třeba je vytvořit a pojmenovat. Když zůstaneme
+u zmíněných příkladů, pak jeden slovník bude „Téma článku“,
+druhý „Typ zboží“ a třetí „Barva“. První slovník by se vztahoval
+k typu obsahu „článek“, druhé dva nejspíš k nově vytvořenému typu
+obsahu („katalogový odkaz“ nebo něco podobného). Do jednotlivých
+slovníků pak budete přidávat kategorie: pro Téma článku například:
+internet, zvířata, psychologie…, pro Typ zboží: hračky, knihy, výtvarné
+potřeby atd. Kategorie můžete připravit předem, nebo je rovnou vytvářet
+ve chvíli, kdy přidáváte nový uzel (k tomu musí být zaškrtnutá volba
+Tagy v konfiguraci slovníku). Každopádně, jakmile máte nějaké uzly a
+k nim přiřazené kategorie, vyvstává opět otázka, jak se uživatel webu
+k jednotlivým kategoriím dostane:</p>
+
+<ul>
+	<li>Jak si jistě všimnete, každá „škatulka“ má svou URL. Pokud
+	kategorií není moc, lze si alespoň teoreticky představit ruční přidání
+	jednotlivých odkazů na kategorie do menu a zadání odpovídající cesty.
+	Můžete si vyzkoušet, že to funguje, nicméně: asi jste si nepořizovali
+	redakční systém proto, abyste pak menu dělali jen ručně (a museli ho
+	aktualizovat pokaždé, když přidáte nebo změníte některou
+	z kategorií…).</li>
+
+	<li>Některé moduly automaticky zakládají vlastní slovník a odpovídající
+	odkaz v menu; z vámi zadaných kategorií pak vytvoří nabídku: je to
+	například <strong><em>Forum</em></strong> nebo <strong><em>Image</em></strong>
+	(resp. <strong><em>Image Gallery</em></strong>).</li>
+
+	<li>K vytvoření různých přehledů a nabídek na základě taxonomických
+	kategorií slouží řada modulů. K nejoblíbenějším patří modul
+	<strong><em>Taxonomy menu</em></strong>, možná i proto, že podle
+	klíčových slov „taxonomy“ a „menu“ je první na ráně. Podstatně
+	hůř se hledají další moduly s podobnou funkcí – například
+	<strong><em>Directory, Taxonomy List, Vocabulary Index</em></strong>.</li>
+
+	<li>Výpis taxonomických kategorií nebo uzlů, které do nich patří, je
+	možný i pomocí <strong><em>Views</em></strong>. Má to smysl hlavně tam,
+	kde vám nevyhovují hotová řešení poskytovaná jinými moduly.</li>
+</ul>
+
+<h2>Jak na obrázky a galerie</h2>
+
+<p>Jednoduchou galerii obrázků poskytuje například modul
+<strong><em>Image</em></strong>. Jak už bylo řečeno, jeho galerie
+(<strong><em>Image Gallery</em></strong>) je automaticky propojená s modulem
+Taxonomy – založí vlastní slovník, do kterého budete vkládat kategorie.
+Odkaz na galerii najdete jako novou položku v menu.</p>
+
+<p>Modul Image zároveň nabízí jeden ze způsobů, jak přidat obrázky
+k uzlům (zapnout <strong><em>Image Attach</em></strong>). Na většině
+náročnějších webů s ním nevystačíte. Pokud se spokojíte
+s automatickým zobrazením jednoho obrázku u každého uzlu, může vám
+vyhovovat (ostatní obrázky jsou dostupné jako přílohy; do textu je můžete
+vložit pomocí tagu &lt;img&gt;). Daleko širší spektrum možností nabízí
+například <strong><em>Image Assist</em></strong>, nebo
+<strong><em>IMCE</em></strong>. Oba moduly fungují jak samostatně, tak
+v kombinaci s některými WYSIWYG editory.</p>
+
+<p>Způsobů, jak zacházet v Drupalu s obrázky, je samozřejmě mnohem víc;
+podrobnější přehled najdete třeba v knize <a href="http://www.tkqlhce.com/fg102xdmjdl035A9819084A2A48?url=http%3A%2F%2Fwww.abebooks.co.uk%2Fservlet%2FBookDetailsPL%3Fbi%3D1231090344" target="_top">Drupal Multimedia</a> (zahrnuje i video a audio).</p>
+
+<h2>Kde a jak hledat další moduly</h2>
+
+<ul>
+	<li><strong>Google</strong>: když ke svým klíčovým slovům přidáte
+	„drupal“, výsledek se skoro jistě dostaví; možná budete mít štěstí
+	a najdete k modulu i ukázky, videotutoriál apod. (může a nemusí to být
+	na oficiálních stránkách Drupal.org; věřte nebo ne, Drupal používá
+	docela dost lidí a řada z nich se ráda dělí o své zkušenosti).</li>
+
+	<li><strong>www.drupalmodu­les.com</strong>: velmi komfortní vyhledávání
+	modulů podle různých kritérií; najdete zde i hodnocení a statistiky
+	oblíbenosti..</li>
+
+	<li><strong>www.drupal.org</strong>: v sekci Modules (<a href="https://drupal.org/project/Modules">http://drupal.org/project/Modules</a>)
+	je vyhledávací pole „Search modules“. Na stránce můžete mimo jiné
+	vyhledávat moduly podle kategorií (blok Projects), nebo si nechat vypsat
+	nejnověji vydané či aktualizované moduly (blok Sort by: Last release, Recent
+	activity) – to sice neřeší váš problém, když něco rychle sháníte;
+	nicméně sledovat čas od času nové moduly a verze je užitečné a
+	inspirativní.</li>
+</ul>
+
+<h2>Tipy na literaturu k Drupalu</h2>
+ najdete například na adrese: <a href="https://drupal.org/books">http://drupal.org/books</a>
+<p><strong>Eva Rázgová</strong></p>
+
+<p><em> Aktualizováno 23. 4. 2009 s ohledem na změny na stránkách
+Drupal.org (vyhledávání na stránce modulů) a změny v podporovaných
+modulech (původně uváděný modul Taxonomy DHTML už není podporován; je
+doporučeno nahradit ho moduly Taxonomy Menu a DHTML menu).</em></p><div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-3840" class="social-add digglink" onmouseover="showSocials(3840)" onmouseout="hideSocials(3840)"><a class="social-href-link" href="prvni-kroky-s-drupalem.html#">Linkni to!</a>
+<div class="social-links" id="social-links-3840">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/zacatecnici/prvni-kroky-s-drupalem&amp;title=První kroky s Drupalem" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/zacatecnici/prvni-kroky-s-drupalem&amp;title=První kroky s Drupalem" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/zacatecnici/prvni-kroky-s-drupalem" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/zacatecnici/prvni-kroky-s-drupalem&amp;title=První kroky s Drupalem" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-15989"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-15989" class="active">Děkuji... :-)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.mestostankov.info" rel="nofollow">Zdenda_Valenta</a> (bez ověření) dne 6 Leden, 2009 - 10:09.  </div>
+
+  <div class="content">
+    <p>Jsem naprostý začátečník a tenhle článek je úplně bezva –
+přišel jako na zavolanou. Vím z vlastní zkušenosti, kolik práce dá
+napsat nějaký podobně obsáhlý návod jednoduše a smysluplně. Vám se to
+podařilo. Děkuji.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16020"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16020" class="active">dotaz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel soony (bez ověření) dne 8 Leden, 2009 - 14:15.  </div>
+
+  <div class="content">
+    <p>jen by mě zajímalo proč tu není ke stahnutí balík už s těma změnama
+a musí si to každý měnit ? Jsem laik tak prosím o schovívavost. Jinak
+díky za článek</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16021"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16021" class="active">Musí</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 8 Leden, 2009 - 14:33.  </div>
+
+  <div class="content">
+    <p>To soony: musí, vyplývá to z logiky věci.<br />
+</p>
+
+<ul>
+	<li>To, že v instalaci není settings.php (ale musíte si ho vytvořit), je
+	pokud se nepletu novinka D6 a je to chytré, protože si ho pak při upgradu za
+	žádných okolností nemůžete překopírovat, ani omylem (budou tam
+	unikátní informace pro připojení k vaší databázi).<br />
+</li>
+
+	<li>Změna práv: primárně ten soubor nesmí být zapisovatelný (z výše
+	uvedených důvodů); a vy právo k zápisu povolíte jen pro krátký okamžik
+	instalace, kdy do něj Drupal zapíše údaje. Musíte to mít prostě pod
+	kontrolou a je to tak dobře.<br />
+</li>
+
+	<li>A případné změny v soutoru .htacces se liší podle toho, kde máte
+	hosting, takže to ani „předpřipravit“ nejde.<br />
+</li>
+</ul>
+
+<p>Prostě věřte, že je to vychytaný ;-)</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16049"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16049" class="active">Pěknej článek Emo ;-),</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/wojtha.1.html" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 10 Leden, 2009 - 10:56.  </div>
+
+  <div class="content">
+    <p>Pěknej článek Emo ;-), musel dát spoustu práce. Už dlouho si řikám,
+že bych měl taky něco napsat, ale nějak neni čas :-( Snad za pár
+týdnů …</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16188"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16188" class="active">Jak instalovat jiný jazyk ?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.visualbasic.ic.cz/drupal-6-9" rel="nofollow">Help in IC</a> (bez ověření) dne 16 Leden, 2009 - 14:18.  </div>
+
+  <div class="content">
+    <p>Můžete mi říct jak mám instalovat jiný jazyk do Drupal 6.9 ?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16192"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16192" class="active">Co presne myslite? Myslite</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2009 - 16:45.  </div>
+
+  <div class="content">
+    <p>Co presne myslite? Myslite cestinu rozhrani ci jiny jazyk rozhrani ci jiny
+jazyk uzlu?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-16356"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16356" class="active">Adresář files a přepisovatelnost</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel babalak (bez ověření) dne 25 Leden, 2009 - 09:48.  </div>
+
+  <div class="content">
+    <p>Zdar, chtěl bych se zeptat jak mam vytvorit soubor files a udělat
+settings.php zapisovatelnými pro web, pač mam mac tak nwm jak to
+udelat. Diky</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16359"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16359" class="active">Files by mal byť</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/paapi.html" title="Zobrazit profil uživatele.">paapi</a> dne 25 Leden, 2009 - 12:46.  </div>
+
+  <div class="content">
+    <p>Files by mal byť adresár.</p>
+
+<p>Čo sa týka nastavenia práv, pomôcť by mohlo toto: <a href="https://drupal.org/node/202483">http://drupal.org/node/202483</a></p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-16361"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16361" class="active">Sem v těchle věcech debil</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/babalak.html" title="Zobrazit profil uživatele.">babalak</a> dne 25 Leden, 2009 - 15:27.  </div>
+
+  <div class="content">
+    <p>Sem v těchle věcech debil takze co je adresář???? DIky</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16362"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16362" class="active">Adresař je složka a debil</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 25 Leden, 2009 - 16:29.  </div>
+
+  <div class="content">
+    <p>Adresař je složka a debil by se nezeptal takže ty nejsi. :-)</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-16441"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16441" class="active">Drupal</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Marika (bez ověření) dne 29 Leden, 2009 - 15:44.  </div>
+
+  <div class="content">
+    <p>Ahoj,</p>
+
+<p>poradí mi někdo prosím, jak v drupalu vytvořit relevantní url odkazy?
+Myslím jako když mám hlavní stránku a v ní chci mít ještě odkzay Něco
+o mě, Kontakty a dále..</p>
+
+<p>Prosím odpovězte mi na e-mail <a href="../../cdn-cgi/l/email-protection.html#721a1d0013191d04131f13001b1913320117081c131f5c1108">horakovamarika&#64;seznam.cz</a></p>
+
+<p>Díky moc!!</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16482"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16482" class="active">odkazy</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/mysak-drupal-org.html" title="Zobrazit profil uživatele."><span class="__cf_email__" data-cfemail="1b7662687a705b7f696e6b7a773574697c">[email&#160;protected]</span></a> dne 30 Leden, 2009 - 17:05.  </div>
+
+  <div class="content">
+    <p>Ahoj, používám většinou „primary link“. Při tvorbě stránky např.
+kontakty, v položce nastavení menu: do „Nadpis odkazu menu“ napíšu
+„kontakty“ dále zvolím „Nadřazená položka“ „primary link“ a
+v primary link nahoře(většinou) na stránce se objeví odkaz kontakty,
+který směruje do vytvořené stránky kontakty… Ještě je dobré se
+kouknout do administrace témata na povolení primary link..</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16487"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16487" class="active">omylem posláno 2×</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/mysak-drupal-org.html" title="Zobrazit profil uživatele."><span class="__cf_email__" data-cfemail="e4899d97858fa4809691948588ca8b9683">[email&#160;protected]</span></a> dne 30 Leden, 2009 - 21:53.  </div>
+
+  <div class="content">
+    <p>omylem posláno 2×</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-16493"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16493" class="active">ďakujem za perfektný</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 31 Leden, 2009 - 17:51.  </div>
+
+  <div class="content">
+    <p>ďakujem za perfektný návod konečne som to zvládol ale ešte by som
+potreboval poradiť ako dám do toho slovenčinu a bude všetko ok</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16533"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16533" class="active">V jaké fázi? Při</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 3 Únor, 2009 - 08:30.  </div>
+
+  <div class="content">
+    <p>V jaké fázi? Při instalaci stejně jako češtinu. Po instalaci –
+jazyky &gt; přidat jazyk. Taky záleží, jestli to má být jen slovensky,
+nebo vícejazyčně.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16554"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16554" class="active">Administration menu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://obchod.ptgolf.cz" rel="nofollow">gotye</a> (bez ověření) dne 5 Únor, 2009 - 10:39.  </div>
+
+  <div class="content">
+    <p>Dobrý den,stáhl jsem si na zdejší radu Administration menu,a když teď
+chci kouknout na moduly tak namísto modulů zmizí administrace a objeví se
+bílá obrazovka a nic.Nevíte někdo co s tím??</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16556"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16556" class="active">White Screen Of Death –</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 5 Únor, 2009 - 10:50.  </div>
+
+  <div class="content">
+    <p>White Screen Of Death – asi mas maly memory_limit v PHP malo by byt aspon
+24mb – to je najcastejsia chyba.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16557"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16557" class="active">Administration menu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/gotye.html" title="Zobrazit profil uživatele.">gotye</a> dne 5 Únor, 2009 - 10:57.  </div>
+
+  <div class="content">
+    <p>Děkuji za odpověď Teď to hodilo hlášku:Internal Server Error</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16558"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16558" class="active">Myslíš že to bude tím</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/gotye.html" title="Zobrazit profil uživatele.">gotye</a> dne 5 Únor, 2009 - 10:58.  </div>
+
+  <div class="content">
+    <p>Myslíš že to bude tím memory_limit ?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16559"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16559" class="active">Memory limit mám 16MB</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/gotye.html" title="Zobrazit profil uživatele.">gotye</a> dne 5 Únor, 2009 - 11:22.  </div>
+
+  <div class="content">
+    <p>Memory limit mám 16MB navýšení stojí nějaké peníze,tak že zřejmě
+odinstaluji modul,ale bohužel nevím jak nato. Můžete mi poradit??</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16560"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16560" class="active">Copak to je řešení??? Co</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 5 Únor, 2009 - 11:28.  </div>
+
+  <div class="content">
+    <p>Copak to je řešení??? Co třeba vybrat si lepší hosting?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16562"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16562" class="active">Pokud se nedostaneš do</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/agir.html" title="Zobrazit profil uživatele.">agir</a> dne 5 Únor, 2009 - 12:19.  </div>
+
+  <div class="content">
+    <p>Pokud se nedostaneš do administrace tak přímým zásahem do databáze lze
+konkrétní modul deaktivovat.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16728"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16728" class="active">Nezdařená instalace</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Simpleton (bez ověření) dne 12 Únor, 2009 - 03:13.  </div>
+
+  <div class="content">
+    <p>Zdravíčko, při instalaci Drupalu na ic.cz se z „Nastavení webu“
+vracím zpět na „Kontrolu požadavků“, zřejmě nesprávně odpravňuji
+adresář /sites/default a soubor settings.php proti zápisu. Mohl by mi někdo
+ta práva upřesnit?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16732"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16732" class="active">777 (A píše vám Drupal,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 12 Únor, 2009 - 08:29.  </div>
+
+  <div class="content">
+    <p>777 (A píše vám Drupal, že nemá práva k zápisu? )</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16784"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16784" class="active">Ano, píše, protože jsem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Simpleton (bez ověření) dne 13 Únor, 2009 - 12:18.  </div>
+
+  <div class="content">
+    <p>Ano, píše, protože jsem mu je na jeho výzvu odejmul, nicméně jsem se
+tak ale dostal zpět do druhého bodu instalace, což bych mohl dělat
+donekonečna. Někdě chybuji, nevím, kde.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-16787"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16787" class="active">Taky se mi to jednou stalo,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 13 Únor, 2009 - 13:17.  </div>
+
+  <div class="content">
+    <p>Taky se mi to jednou stalo, vyřešili to na hostingu…<br />
+P.S. Proč Drupal na IC.cz???(<a href="../../webhosting/nefunkcni.1.html">http://www.drupal.cz/…ng/nefunkcni</a>)</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16912"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16912" class="active">Velmi rád bych se</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 16 Únor, 2009 - 17:42.  </div>
+
+  <div class="content">
+    <p>Velmi rád bych se ztotožnil s názorem, že ve Drupalu jde všechno
+snadno. Já ale ztroskotal na jedné jediné prosté věci – přidat položku
+do menu a k ní přiřadit primitivní vzorovou stránku. Sice jsem vytvořil
+menu, k němu připojil stránku a dokonce se mi vše ukázalo v mém menu.
+Problém je v tom, že jakýkoli JINÝ uživatel, než jsem já, mé nové menu
+neuvidí. Možná je to otázka práv nebo něčeho podobného, jsem
+přesvědčený, že to fungovat musí, když to používají tisíce lidí, ale
+ani 3 dny pečlivého hledání mi neprozradily, jak na to. S tou
+intuitivností bych tedy zase tak optimistický nebyl :-)</p>
+
+<p>Ale jinak díky, měl jsem hezký víkend :-)</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16913"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16913" class="active">Pravděpodobně to bude</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 16 Únor, 2009 - 18:16.  </div>
+
+  <div class="content">
+    <p>Pravděpodobně to bude otázka práv, ale není přesně jasné, co je to za
+stránku. Vytvořil jste tedy celé nové menu (= nový blok)? Například je
+možné, že uživatel nemá přístup k celému bloku (nastavení bloků,
+i když pochybuju, to jste asi neměnil…), nebo nemá přístup třeba
+k modulu, který souvisí s tou vytvořenou stránkou (oprávnění). To
+všechno jste prošel? Event. nepoužíváte jiné téma vzhledu pro
+administraci? Ještě zkuste nastavení webu: výkon: vyčistit cache. Pokud to
+není ani jedna z těch variant, chtělo by to více info.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16917"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16917" class="active">V naprosto čistém Drupalu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 17 Únor, 2009 - 09:59.  </div>
+
+  <div class="content">
+    <p>V naprosto čistém Drupalu na Ignumu jsem udělal toto:</p>
+
+<p>Administer → Site buildings → Menus → Add menu : Vytvořil jsem menu
+Administer → Site buildings → Menus → Navigation : Přesunul jsem pozici
+v menu tak, aby byla v hlavním menu a uložil Create content → Page<br />
+Parent Item – Vytvořené menu<br />
+Publishing Options – Published</p>
+
+<p>Víc nic – když jsem přihlášený jako admin, tak to vidím, když si
+udělám uživatele guest-guest, tak ten nevidí nic.</p>
+
+<p>Asi to bude nějaká zakuklená chyba, nicméně o to ani tak nejde. Chtěl
+jsem jen trošku polemizovat s tím, že Drupal je intuitivní záležitost.
+Berte mě jako příklad toho nejjednoduššího uživatele – nějak jsem to
+nainstaloval a chci co nejdříve a nejrychleji udělat pár položek menu a na
+ně dát nějaké texty. Nic složitého. A hned na začátku narazím na
+takovýto zádrhel, který nejsem schopen ani po několika dne vyřešit.</p>
+
+<p>Kdybych nebyl úporný a nevěřil, že Drupal je dobrý produkt, tak pro mě
+v tento okamžik Drupal navždy skončil a šel bych zkusit něco jiného (a
+tam bych asi také na něco narazil :-))</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16918"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16918" class="active">Vzhledem k tomu, co píše</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 17 Únor, 2009 - 10:36.  </div>
+
+  <div class="content">
+    <p>Vzhledem k tomu, co píše náš šr. viz níže (<a href="prvni-kroky-s-drupalem.html#comment-16916">http://www.drupal.cz/…y-s-drupalem#…</a>);
+odpověděla jsem Vám už ve fóru, tady <a href="../../forum/po-instalaci/jak-na/problem-s-vytvorenim-menu.html">http://www.drupal.cz/…vorenim-menu</a></p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-16915"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16915" class="active">Otazka je aj ci je dany</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Únor, 2009 - 21:43.  </div>
+
+  <div class="content">
+    <p>Otazka je aj ci je dany obsah „vydany“…</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-16916"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16916" class="active">Prosim – v pristich dnech</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Únor, 2009 - 21:56.  </div>
+
+  <div class="content">
+    <p>Prosim – v pristich dnech uzavru komentare k tomuto clanku. Je zbytecne
+„zahnojeny“ dotazy, ktere by mely jit do fora – proto nez pridate
+komentar sem, rozmyslete se, kam se budete ptat. DIky.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16994"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16994" class="active">Import vytvoreného webu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Fero (bez ověření) dne 20 Únor, 2009 - 14:30.  </div>
+
+  <div class="content">
+    <p>Zdravím,</p>
+
+<p>som úplný amatér, ale chcem sa spýtať, ak už mám vytvorenú stránku
+s vlastným dizajnom (v css), je možné nejako ju „naimportovať“ ?</p>
+
+<p>Dik.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-16996"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="prvni-kroky-s-drupalem.html#comment-16996" class="active">O takej hotovej stranke</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 20 Únor, 2009 - 17:00.  </div>
+
+  <div class="content">
+    <p>O takej hotovej stranke v HTML musis uvazovat ako o sablone do ktorej
+vlozis potrebne znacky (vypisy napriklad obsahu – <code>&lt;?php print
+$content ?&gt;</code>) a premenujes ju na <code>page.tpl.php</code>. Vyzaduje to
+urcite znalosti z oblasti HTML, nieco malo PHP a ochotu experimentovat (a citat
+si navody).</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script data-cfasync="false" src="../../cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script><script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="https://www.drupal.cz/clanky/zacatecnici/prvni-kroky-s-drupalem?destination=node%2F4369"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="../../user/register.html" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="../../user/password.html" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-43fed3b7cf4773d6dcbb77ad50605bde" value="form-43fed3b7cf4773d6dcbb77ad50605bde"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="../../node/52781.html"><img src="../../files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="../../bezpecnost.html">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="../akce.1.html" class="tagadelic level4">akce</a> 
+<a href="../bezpecnost.1.html" class="tagadelic level6">bezpečnost</a> 
+<a href="../cck.html" class="tagadelic level2">CCK</a> 
+<a href="../como-ganhar-dinheiro.html" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="../como-ganhar-dinheiro-na-internet.html" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="../como-ganhar-dinheiro-pela-internet.html" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="../drupal.html" class="tagadelic level3">drupal</a> 
+<a href="https://www.drupal.cz/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="../drupal-7x.html" class="tagadelic level1">Drupal 7.x</a> 
+<a href="../drupalcamp.1.html" class="tagadelic level1">drupalcamp</a> 
+<a href="../drupalcon.html" class="tagadelic level1">drupalcon</a> 
+<a href="../drupal-setkani.html" class="tagadelic level2">Drupal setkání</a> 
+<a href="../forex-broker.html" class="tagadelic level1">forex broker</a> 
+<a href="../forex-trading-strategies.html" class="tagadelic level1">forex trading strategies</a> 
+<a href="../fx-trading.html" class="tagadelic level2">FX trading</a> 
+<a href="../game-war-cheats.html" class="tagadelic level1">game of war cheats</a> 
+<a href="../ganhar-dinheiro.html" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="../ganhar-dinheiro-na-internet.html" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="../godus-cheats.html" class="tagadelic level1">godus cheats</a> 
+<a href="../image.html" class="tagadelic level1">image</a> 
+<a href="../landlord-house-insurance.html" class="tagadelic level1">landlord house insurance</a> 
+<a href="../lokalizace.html" class="tagadelic level1">lokalizace</a> 
+<a href="../moduly.html" class="tagadelic level6">moduly</a> 
+<a href="../navod.html" class="tagadelic level2">navod</a> 
+<a href="../online-forex-trading.html" class="tagadelic level1">online forex trading</a> 
+<a href="../online-trading.html" class="tagadelic level1">online trading</a> 
+<a href="../ostatni.html" class="tagadelic level3">ostatní</a> 
+<a href="../overwatch-aimbot.html" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="../php.html" class="tagadelic level1">php</a> 
+<a href="../pro-webmastery.1.html" class="tagadelic level5">pro webmastery</a> 
+<a href="../preklad.html" class="tagadelic level1">překlad</a> 
+<a href="../prekladatelsky-sprint.html" class="tagadelic level1">překladatelský sprint</a> 
+<a href="../preklady.html" class="tagadelic level2">překlady</a> 
+<a href="../pripadove-studie.html" class="tagadelic level2">případové studie</a> 
+<a href="../setkani.1.html" class="tagadelic level5">setkání</a> 
+<a href="../setkani-akce.html" class="tagadelic level5">setkání, akce</a> 
+<a href="../synthetic-opal.html" class="tagadelic level3">synthetic opal</a> 
+<a href="../synthetic-opals.html" class="tagadelic level3">synthetic opals</a> 
+<a href="../theming.html" class="tagadelic level2">theming</a> 
+<a href="../tipy-triky.html" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="../ubercart.html" class="tagadelic level1">UberCart</a> 
+<a href="../views.html" class="tagadelic level2">views</a> 
+<a href="../vyvoj.html" class="tagadelic level2">vývoj</a> 
+<a href="../vyvoj-drupalu.html" class="tagadelic level5">vývoj drupalu</a> 
+<a href="../zacatecnici.1.html" class="tagadelic level5">začátečníci</a> 
+<a href="../sablony-vzhled.html" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="../../forum.1.html" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html#comment-104041">Doplnění</a><br />před 7 hod 20 min</li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 6 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 20 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 20 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104021">a kdyz do tech souboru</a><br />před 5 dnů 10 min</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 5 dnů 53 min</li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 19 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu.html#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 22 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="../../aggregator/pisou-na-slovensku.html" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="../../rss.xml" title="RSS Kanal"><img src="https://www.drupal.cz/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="../novinky-na-webu/seznam-rss-zdroju-drupal-cz.html">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="../../kontakt/sluzby.html">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="../../sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="../../files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":414,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

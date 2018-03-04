@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>blueminds&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/divamys</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal Kosice Meetup 2014-07-02 17:00</title>
+ <link>https://www.drupal.cz/blog/blueminds/drupal-kosice-meetup-2014-07-02-1700</link>
+ <description>&lt;p&gt;Tymto pozyvam nie len Drupalistov a koderov, ktori sa chcu dozvediet co
+horuce sa pecie v D8 kuchyni, ale aj ostatnych co su vo web IT zainteresovani,
+respektive im nie je web publishing cudzia tema, na Drupal KE meetup, ktory sa
+uskutocni 2.7. o 17:00 v priestoroch firmy smilingwords.eu na &lt;a href=&quot;http://www.kosicego.sk/#&quot;&gt;http://www.kosicego.sk/&lt;/a&gt;… ulici.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/blueminds/drupal-kosice-meetup-2014-07-02-1700&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/blueminds/drupal-kosice-meetup-2014-07-02-1700#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/26186</wfw:commentRss>
+ <pubDate>Wed, 18 Jun 2014 08:18:04 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">26186 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Máte prekladateľskú agentúru? Poskytnite služby online.</title>
+ <link>https://www.drupal.cz/blog/blueminds/mate-prekladatelsku-agenturu-poskytnite-sluzby-online</link>
+ <description>&lt;p&gt;V Drupale je k dispozícii sada modulov, ktoré vám umožnia
+automatizovať zasielanie a prijímanie prekladov (napr. na služby ako Gengo,
+Nativy, Bing, Google…). Naviac sme vytvorili Drupal distro, ktoré predstavuje
+kompletný prekladateľský server, ktorého využitie môžu nájsť pre
+prekladateľské agentúry.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/blueminds/mate-prekladatelsku-agenturu-poskytnite-sluzby-online&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/blueminds/mate-prekladatelsku-agenturu-poskytnite-sluzby-online#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21991</wfw:commentRss>
+ <pubDate>Sat, 21 Sep 2013 13:12:23 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">21991 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Prečo Drupal 8 - biznisovo</title>
+ <link>https://www.drupal.cz/blog/blueminds/preco-drupal-8-biznisovo</link>
+ <description>&lt;p&gt;Týchto pár odstavcov je iba moja úvaha ktorá vznikla pri pár pivách po
+tom ako mi zrušili let a ja som len tak zo zábavy stvrdol na letisku o pár
+hodin viac.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/blueminds/preco-drupal-8-biznisovo&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/blueminds/preco-drupal-8-biznisovo#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21846</wfw:commentRss>
+ <pubDate>Tue, 10 Sep 2013 07:34:59 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">21846 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 8: Drupal ne-Drupal</title>
+ <link>https://www.drupal.cz/blog/divamys/drupal-8-drupal-ne-drupal</link>
+ <description>&lt;p&gt;Všade je Drupalu 8 plno len u nás sa moc nespomína. Preto skúsim
+napísať pár slov o tejto novej verzii.&lt;/p&gt;
+
+&lt;p&gt;Takže prečo Drupal ne-Drupal? Okrem toho že sa zmenilo snáď všetko,
+zmenilo sa aj to, že klasickým procedurálnym spôsobom sa v Drupale už
+neprogramuje.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/divamys/drupal-8-drupal-ne-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/divamys/drupal-8-drupal-ne-drupal#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21626</wfw:commentRss>
+ <pubDate>Fri, 23 Aug 2013 09:19:28 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">21626 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Genova - automatizujte rutinne pisanie kodu</title>
+ <link>https://www.drupal.cz/blog/divamys/genova-automatizujte-rutinne-pisanie-kodu</link>
+ <description>&lt;p&gt;Na drupal.org sme nedavno postli nas novy modul GENOVA. GENOVA je Drush
+utilita zamerana na Drupal developerov, ktorí často programujú custom moduly
+do Drupalu. Jej úlohou je automatizovať rutinné písanie kódu ako napr.
+schema, hook implementacie, Drupal arrays, atd. Kedze sme GENOVU vytvorili ako
+nastroj pre vyvojarov, hlavným cielom bolo aby bola rozsiritelna.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/divamys/genova-automatizujte-rutinne-pisanie-kodu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/divamys/genova-automatizujte-rutinne-pisanie-kodu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12331</wfw:commentRss>
+ <pubDate>Thu, 31 May 2012 10:53:00 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">12331 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>ColHub - nasa nova technologicka hracka</title>
+ <link>https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka</link>
+ <description>&lt;p&gt;Cca pred pol rokom sme si uvedomili, ze nemame k dispozicii vhodny nastroj
+na tvorbu obsahu, ktory by splnal tieto zakladne poziadavky:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Velky pocet spolupracovnikov, pricom by praca bola organizovana.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10910</wfw:commentRss>
+ <pubDate>Wed, 18 Jan 2012 21:53:08 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">10910 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

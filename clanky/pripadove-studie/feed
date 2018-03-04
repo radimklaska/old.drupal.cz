@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - případové studie</title>
+ <link>https://www.drupal.cz/taxonomy/term/35/0</link>
+ <description>Studie konkrétního použití Drupalu. Od rozhodnutí až k implementaci, podrobně přímo pro Vás.</description>
+ <language>cs</language>
+<item>
+ <title>AP metalia</title>
+ <link>https://www.drupal.cz/clanky/pripadove-studie/ap-metalia</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Jan Štefl        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ukázka rychle realizovaného webu postaveného na principech prezentovaných
+v přednášce Od grafického návrhu k funkčnímu webu. Vstupem byl
+grafický návrh. Konfigurace Drupalu proběhla během odpoledne. Tvorba
+šablony zabrala další odpoledne. Přípomínky zákazníka další
+1–2 hod.&lt;/p&gt;&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/ap-metalia-0.1.pdf&quot; type=&quot;application/pdf; length=352724&quot;&gt;ap-metalia-0.1.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/2priloha1-0.1.pdf&quot; type=&quot;application/pdf; length=917633&quot;&gt;2priloha1-0.1.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/5priloha2-0.1.pdf&quot; type=&quot;application/pdf; length=317821&quot;&gt;5priloha2-0.1.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/drupal-setkani-praha-20-rijna-2010&quot;&gt;Drupal setkání - Praha - 20. Říjen 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/pripadove-studie/ap-metalia#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/prezentace">Prezentace</category>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8491</wfw:commentRss>
+ <pubDate>Wed, 20 Oct 2010 16:41:30 +0000</pubDate>
+ <dc:creator>Honza.Stefl</dc:creator>
+ <guid isPermaLink="false">8491 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Portál pro přijímací řízení ve městě Brně</title>
+ <link>https://www.drupal.cz/clanky/pripadove-studie/portal-pro-prijimaci-rizeni-ve-meste-brne</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Petr Okurek        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Systém pro zpřehlednění a zjednodušení přijímacího řízení do
+mateřských škol, který bude vyhovovat rodičům, školám a jejich
+zřizovatelům. Poskytne údaje o aktuálním umístění přihlášeného
+dítěte do MŠ, počtu volných míst, přihlášených a přijatých dětí
+k předškolnímu vzdělávání.&lt;/p&gt;&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace-materske-skoly.pdf&quot; type=&quot;application/pdf; length=209862&quot; title=&quot;prezentace-materske-skoly.pdf&quot;&gt;Prezentace portálu pro přijímací řízení ve městě Brně&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/drupal-setkani-praha-20-rijna-2010&quot;&gt;Drupal setkání - Praha - 20. Říjen 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pripadove-studie/portal-pro-prijimaci-rizeni-ve-meste-brne&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pripadove-studie/portal-pro-prijimaci-rizeni-ve-meste-brne#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/prezentace">Prezentace</category>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8490</wfw:commentRss>
+ <pubDate>Wed, 20 Oct 2010 16:37:27 +0000</pubDate>
+ <dc:creator>Honza.Stefl</dc:creator>
+ <guid isPermaLink="false">8490 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal ako univerzálna platforma pre stavbu univerzitných webov</title>
+ <link>https://www.drupal.cz/blog/havran/drupal-ako-univerzalna-platforma-pre-stavbu-univerzitnych-webov</link>
+ <description>&lt;p&gt;Dnes som vystúpil na našom pravidelnom malom seminári &lt;a href=&quot;http://www.fem.uniag.sk/sit2010/&quot;&gt;SIT 2010&lt;/a&gt; (už 13-ty ročník)
+s príspevkom na tému „Drupal ako univerzálna platforma pre stavbu
+univerzitných webov“. Prezentáciu dávam k nahliadnutiu v prílohe,
+príspevok bude niekedy neskôr.&lt;/p&gt;
+
+&lt;p&gt;Ešte poznámka k PDF – tie grafy sú z vyhodnotenia stránok vysokých
+škôl a univerzít v počte 33, zo Slovenska.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/drupal-ako-univerzalna-platforma-pre-stavbu-univerzitnych-webov#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/prezentace">Prezentace</category>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <enclosure url="https://www.drupal.cz/files/sit-2010-juraj-chlebec.pdf" length="802583" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7615</wfw:commentRss>
+ <pubDate>Thu, 20 May 2010 12:44:31 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">7615 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Web Fyzikálního ústavu AVČR - případová studie</title>
+ <link>https://www.drupal.cz/clanky/pripadove-studie/web-fyzikalniho-ustavu-avcr-pripadova-studie</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Josef Mareška        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/web_fzu.pdf&quot; type=&quot;application/pdf; length=706332&quot;&gt;web_fzu.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/drupal/drupal-setkani-praha-20-leden-2010&quot;&gt;Drupal setkání - Praha - 20. Leden 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/pripadove-studie/web-fyzikalniho-ustavu-avcr-pripadova-studie#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8275</wfw:commentRss>
+ <pubDate>Thu, 21 Jan 2010 11:15:10 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8275 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Případová studie OpenTheMagazine.com na Drupal.org</title>
+ <link>https://www.drupal.cz/blog/cyberdog/pripadova-studie-openthemagazinecom-na-drupalorg</link>
+ <description>&lt;p&gt;Na drupal.org vyšel &lt;a href=&quot;http://drupal.org/node/629664&quot;&gt;zajímavý
+článek&lt;/a&gt; indického studia &lt;a href=&quot;http://www.srijan.in/&quot;&gt;Srijan&lt;/a&gt;
+o jejich projektu &lt;a href=&quot;openthemagazine.com&quot;&gt;Open Magazine&lt;/a&gt;, což je
+internetová verze papírového časopisu stejného jména.&lt;/p&gt;
+
+&lt;p&gt;Co je na článku velmi zajímavé, je rozpis všech použitých modulů a
+jejich výhod a popis implementace Apache Solr.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/cyberdog/pripadova-studie-openthemagazinecom-na-drupalorg&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/cyberdog/pripadova-studie-openthemagazinecom-na-drupalorg#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6591</wfw:commentRss>
+ <pubDate>Mon, 07 Dec 2009 11:18:54 +0000</pubDate>
+ <dc:creator>cyberdog</dc:creator>
+ <guid isPermaLink="false">6591 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak pracovat s jazyky: úvod, příklad na použití i18n a multisite</title>
+ <link>https://www.drupal.cz/clanky/pripadove-studie/jak-pracovat-s-jazyky-uvod-priklad-na-pouziti-i18n-multisite</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Marek Soták        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/i18n-myfinepix-18-11-09-atomicant.pdf&quot; type=&quot;application/pdf; length=826993&quot;&gt;i18n-myfinepix-18-11-09-atomicant.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/novinky-na-webu/drupal-meet-praha-18-listopad-2009&quot;&gt;Drupal setkání - Praha - 18. Listopad 2009&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/pripadove-studie/jak-pracovat-s-jazyky-uvod-priklad-na-pouziti-i18n-multisite#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <category domain="https://www.drupal.cz/clanky/multisite">multisite</category>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8262</wfw:commentRss>
+ <pubDate>Thu, 19 Nov 2009 10:42:07 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8262 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Whitehouse.gov přešel na Drupal</title>
+ <link>https://www.drupal.cz/whitehousegov-presel-na-drupal</link>
+ <description>&lt;p&gt;Oficiální web prezidenta USA, &lt;a href=&quot;http://www.whitehouse.gov&quot;&gt;Whitehouse.gov&lt;/a&gt; v posledních dnech
+přešel na Drupal. Pro Drupal je to určitě velké vítězství na poli
+vládních kontraktů a hlavně důvěry ze strany US vlády. Na projektu se
+účastnila Acquia, Phase 2, GTID, Akamai a Terremark Federal Group.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/whitehousegov-presel-na-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6293</wfw:commentRss>
+ <pubDate>Sun, 25 Oct 2009 09:20:35 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">6293 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Informační server Hybrid</title>
+ <link>https://www.drupal.cz/clanky/pripadove-studie/informacni-server-hybrid</link>
+ <description>&lt;p&gt;Projekt informačního serveru &lt;a href=&quot;http://www.hybrid.cz&quot;&gt;Hybrid&lt;/a&gt;
+vznikl jako reakce na dosud nevyplněné místo na českém internetu. Server
+zabývající se všeobecně zelenou dopravou a alternativními pohony dosud na
+českém internetu chyběl.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pripadove-studie/informacni-server-hybrid&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pripadove-studie/informacni-server-hybrid#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/291</wfw:commentRss>
+ <pubDate>Thu, 09 Nov 2006 22:15:00 +0000</pubDate>
+ <dc:creator>farey</dc:creator>
+ <guid isPermaLink="false">291 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ochrana proti spamu v Drupalu III. - Bayes a DNS blacklisty</title>
+ <link>https://www.drupal.cz/clanky/moduly/ochrana-proti-spamu-v-drupalu-ii-bayes-a-dns-blacklisty</link>
+ <description>&lt;p&gt;Dnešní díl seriálu bude pojednávat o Bayes databázích a DNS blacklistech pro odchytávání spamu v Drupalu.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/moduly/ochrana-proti-spamu-v-drupalu-ii-bayes-a-dns-blacklisty&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/moduly/ochrana-proti-spamu-v-drupalu-ii-bayes-a-dns-blacklisty#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/35</wfw:commentRss>
+ <pubDate>Wed, 01 Nov 2006 22:00:01 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">35 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Stránky obce Braníškov s Drupalem</title>
+ <link>https://www.drupal.cz/clanky/pripadove-studie/stranky-obce-braniskov-s-drupalem</link>
+ <description>&lt;p&gt;Webové stránky obce &lt;a href=&quot;http://www.braniskov.cz&quot;&gt;Braníškov&lt;/a&gt; jsem
+začal vytvářet již kolem roku 2000, tehdy ještě za pomoci rámců a
+statického HTML. S postupem doby design zastaral a „ruční“ úpravy kódu
+se staly ztrátou drahocenného času. A tak nastala doba přechodu na
+redakční systém. Proč právě Drupal a jak si s touto rolí poradil?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pripadove-studie/stranky-obce-braniskov-s-drupalem&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pripadove-studie/stranky-obce-braniskov-s-drupalem#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/153</wfw:commentRss>
+ <pubDate>Mon, 02 Oct 2006 22:05:00 +0000</pubDate>
+ <dc:creator>NetSide</dc:creator>
+ <guid isPermaLink="false">153 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Portál pro rodinu - splněný sen</title>
+ <link>https://www.drupal.cz/clanky/pripadove-studie/portal-pro-rodinu-splneny-sen</link>
+ <description>&lt;p&gt;Ano, portál pro rodinu &lt;a href=&quot;http://www.moje-rodina.cz&quot;&gt;www.moje-rodina.cz&lt;/a&gt; je mým splněným snem.
+Myslím si, že těchto magazínů není nikdy dost a navíc jich je v ČR
+prozatím velmi málo. Protože nejsem žádný velký programátor, smířil
+jsem se s myšlenkou, že se k němu asi nikdy neprobojuji, nebo budu muset
+našetřit pořádný balík na splnění snu a zprovoznění podnikatelského
+záměru.&lt;/p&gt;
+
+&lt;p&gt;Ani nevím, jak jsem se o RS Drupal dozvěděl, ale byl tu a mně připadal
+velmi jednoduchý. I když jsem tehdy neznal dobře PHP (i když je pravdou,
+že jsem pokročilým programátorem jiných jazyků), tak jsem jej byl schopen
+nainstalovat. K mému překvapení dokonce fungoval!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pripadove-studie/portal-pro-rodinu-splneny-sen&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pripadove-studie/portal-pro-rodinu-splneny-sen#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/109</wfw:commentRss>
+ <pubDate>Fri, 22 Sep 2006 22:01:01 +0000</pubDate>
+ <dc:creator>Brumisek</dc:creator>
+ <guid isPermaLink="false">109 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

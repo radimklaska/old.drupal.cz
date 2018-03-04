@@ -1,0 +1,84 @@
+<?php
+// $Id: views-view-field.tpl.php,v 1.1 2008/05/16 22:22:32 merlinofchaos Exp $
+ /**
+  * This template is used to print a single field in a view. It is not
+  * actually used in default Views, as this is registered as a theme
+  * function which has better performance. For single overrides, the
+  * template is perfectly okay.
+  *
+  * Variables available:
+  * - $view: The view object
+  * - $field: The field handler object that can process the input
+  * - $row: The raw SQL result that can be used
+  * - $output: The processed output that will normally be used.
+  *
+  * When fetching output from the $row, this construct should be used:
+  * $data = $row->{$field->field_alias}
+  *
+  * The above will guarantee that you'll always get the correct data,
+  * regardless of any changes in the aliasing that might happen if
+  * the view is modified.
+  */
+
+
+/**
+ **  Views override template used in CZ Drupal meeting 20091118
+ **
+ **  Keep in mind that this is a teaching tool. Its not really a great
+ **  implementation. 'grid' classes dont really need to be added, we 
+ **  can add selectors to our CSS, as BESH suggested. Lightbox slideshows
+ **  can probably be determined by CSS classes as Michal Cais suggested,
+ **  which means we could join 2 views to solve the entire problem.
+ **
+ **  Andrew Burcin, TechnoErgonomics <andrew@technoergonomics.com>
+ **/
+
+?>
+<?php 
+#dpm($row);
+
+$count = $row->nodequeue_nodes_node_position;
+
+# Views outputs only the FID from the files table, we need to get the 
+# URL via the field_file_load function
+$file = field_file_load($row->node_data_field_picture_image_field_picture_image_fid);
+
+# Set grid style (size) and choose the actual imagecache profile to use
+  if ($count < 5) {  # different behavior for the first 4 and the rest
+    $classes='grid-4 ';
+    $img = theme('imagecache', 'picture_large', $file['filepath']);
+  } else {
+    $classes='grid-2 ';
+    $img = theme('imagecache', 'picture_small', $file['filepath']);
+}
+
+
+# We'll need to set alpha and omega on first and last images to fit the
+# 960 grid. 
+  if ($count < 5) {
+    if 
+      ($count % 2 ) {
+      $classes .= 'alpha ';
+    } else {
+      $classes .= 'omega ';
+  }
+}
+  if ($count > 4) {
+  $classes .= (($count - 1) % 4 ? '' : 'alpha ');
+  $classes .= (($count) % 4 ? '' : 'omega ');
+  $classes .= (($count - 1) % 2 ? '' : 'align-right ');
+}
+
+  # $classes .= $count
+
+ ?> 
+
+<?php
+#
+#  The content variables have been build so
+#  here is where the content finally gets printed
+#
+?>
+<div class="<?php print $classes; ?>">
+  <a href="<?php print '/' .$file['filepath']; ?>" rel="lightbox[pics]"><? print $img; ?></a>
+</div>

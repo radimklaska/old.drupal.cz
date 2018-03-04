@@ -1,0 +1,1398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;TinyMCE a Drupal 5 - instalace pro začátečníky&quot;" href="https://www.drupal.cz/crss/node/621" />
+<link rel="shortcut icon" href="https://www.drupal.cz/misc/favicon.ico" type="image/x-icon" />
+ <title>TinyMCE a Drupal 5 - instalace pro začátečníky | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="../../files/css/css_89f0b64afb4ba47f586bd984f765f0a7.css" />
+ <script type="text/javascript" src="../../files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="../../node/index.html">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="../../o-systemu-drupal.html"><span>O Drupalu</span></a></li>
+<li><a href="../../blog.html"><span>Blogy</span></a></li>
+<li><a href="../../faq.html"><span>FAQ</span></a></li>
+<li><a href="../../forum.1.html"><span>Fórum</span></a></li>
+<li><a href="../../prezentace.html"><span>Prezentace</span></a></li>
+<li><a href="../../preklad-drupalu-do-cestiny-zakladni-informace.html"><span>Překlady</span></a></li>
+<li><a href="../../katalog.1.html"><span>Katalog</span></a></li>
+<li><a href="../../ke-stazeni.html"><span>Stáhnout</span></a></li>
+<li><a href="../../sluzby.html"><span>Služby</span></a></li>
+<li><a href="../../staff.html"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="../../node/index.html">Domů</a></div>        <h2 class="title">TinyMCE a Drupal 5 - instalace pro začátečníky</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-621">
+    <span class="submitted">Vložil/a <a href="../../user/spatnynick.html" title="Zobrazit profil uživatele.">SpatnyNick</a>, 26 Leden, 2007 - 00:00</span>
+    <div class="pcontent"><p>Většina administrátorů Drupalu určitě brzy přijdou do kontaktu
+s poměrně dobrým JavaScriptovým editorem obsahu TinyMCE. Nebudu se zde
+rozepisovat nad tím, co všechno umí a neumí, dobře to tu již bylo popsáno
+kolegou v <a href="../moduly/tinymce-editor-pro-fajnsmekry-i-bezne-uzivatele.html">článku
+o tomto editoru</a> a určitě byste našli na internetu mnoho dalších
+dobrých článků, oslavujících (i hanících) tento editor.</p>
+
+<p>Budeme se spíše zajímat, jak tento modul můžeme přinutit ke spolupráci
+s Drupalem v jeho nejnovější verzi, tedy <a href="../novinky-na-webu/webova-revoluce-drupal-5.html">ve verzi 5.0</a>.</p>
+
+<p>TinyMCE je do Drupalu možné implementovat již delší dobu pomocí modulu.
+Ten se nečekaně jmenuje TinyMCE WYSIWYG Editor a počíst si o něm, nebo si
+ho dokonce i stáhnout můžete zde: <a href="https://drupal.org/project/tinymce">http://drupal.org/project/tinymce</a></p>
+
+<p>Modul byl sice v konci prosince přepracován na podporu Drupalu verze 5,
+ale bohužel od předchozí verze ztratil MNOHO konfiguračních možností a
+parametrů. I díky tomu jsem při jeho instalaci pod Drupal 5 narazil na pár
+problémů a vzhledem k tomu, že mě to stálo několik dost hodin mého
+života, které bych obvykle a radši strávil způsobem úplně jiným, rozhodl
+jsem se s Vámi podělit o své zkušenosti a třeba tím někomu
+i pomoci.</p>
+
+<p>Před tím, než se pustíme do step-by-step instalace, musím na sebe
+prozradit, že se rozhodně nepovažuji za odborníka na Linux, Drupal nebo
+cokoliv jiného. Úplně klidně zde tedy narazíte například na mé
+oblíbené řešení problému sto dvaceti čtyřmi příkazy a dvanácti
+moduly, přitom to samé jde udělat jedním zaškrtávacím nastavením
+v menu, o kterém ale já zatím nevím (i když bývá zpravidla
+zvýrazněno červeně a je o něm psáno na prvním řádku README). Proto
+Vám je pod článkem otevřena diskuze a rád se také přiučím, opravdu.</p>
+
+<p>Při instalaci modulu TinyMCE jsem měl tyto problémy:</p>
+
+<ul>
+	<li>instalaci modulu a TinyMCE pluginu samotného, to si snadno vyřešíme</li>
+
+	<li>instalaci jazyka českého, menší problém, který vyřešíme
+	také snadno</li>
+
+	<li>po instalaci jazyka jeho aktivaci, to už byl větší oříšek, protože
+	jsem TinyMCE moc neznal a nový modul neumožňuje v konfiguraci jeho výběr
+	(proč by to také dělal, když to může každý uživatel nakonfigurovat
+	přímo v nějakém souboru…)</li>
+</ul>
+
+<p>Zkraťme to, jdeme na instalaci.</p>
+
+Stažení modulu
+
+<ul>
+	<li>Stáhněte modul TinyMCE ze stránky <a href="https://drupal.org/project/tinymce">http://drupal.org/project/tinymce</a></li>
+
+	<li>Rozbalte ho a nahrajte na Váš server, tak, jako se normálně <a href="../moduly/jak-instalovat-moduly-pro-drupal.html">instalují moduly</a>
+	s jediným rozdílem: Modul nahrajte do cesty
+	<em>sites/all/modu­les</em>.</li>
+</ul>
+
+Stažení pluginu
+
+<ul>
+	<li>Ze stránky <a href="https://prdownloads.sourceforge.net/tinymce">http://prdownloads.sourceforge.net/tinymce</a>
+	stáhněte projekt TinyMCE ve formátu .tar.gz.</li>
+
+	<li>Na Vašem serveru vytvořte v podadresáři tinymce adresář
+	<em>includes</em></li>
+
+	<li>Do tohoto nahrajte rozbalený projekt TinyMCE</li>
+</ul>
+
+Stažení češtiny
+
+<p>Češtinu musíte stáhnout ručně z adresy <a href="http://tinymce.moxiecode.com/language.php">http://tinymce.moxiecode.com/language.php</a>;
+označte cs a vyberte třeba gzip; Potom obsah staženého souboru
+tinymce_lpacka­ge.tgz nahrajte do opět adresáře <em>includes</em>.</p>
+
+Instalace
+
+<p>Tak a máme nainstalováno. Pokud jsem někde neudělal chybu (a to sem se
+snažil abych neudělal), měla by to být všechno hračka. Nyní můžeme
+modul v Drupalu zapnout (<em>Administrace → Moduly</em>) a nastavte si
+v <em>Administrace → TinyMCE</em> profil třeba Compact.</p>
+
+<p><strong>Upozorňuji:</strong> zatím nenastavujte práva pro zobrazení Tiny,
+to uděláme později. Jenom modul zapněte, zvolte profil Compact a
+uložte.</p>
+
+Zapnutí češtiny a konfigurace
+
+<p>Nový modul umožňuje pouze výběr ze tří variant zobrazení (a tím se
+na stránkách ještě chlubí) – Full, Compact a Basic. Kdo jste poznali
+starší modul, konfigurace byla podstatně lepší. Byl dokonce možný
+i výběr jazyka, se kterým chcete Tiny zobrazovat, takže jste si mohli
+český jazyk nejenom nainstalovat, ale i používat.</p>
+
+<p>Dobrá zpráva ale přeci jenom je, že to jde i nyní. Ne už tak hezkým a
+snadným způsobem, jako dřív, ale jde. Musíte využít jednoho ze
+stávajících profilů v adresáři
+<em>sites/all/modu­les/tinymce/the­mes</em> a upravit ho. Tyto profily jsou
+uloženy v souborech tinymce_*.js. My jsme se tedy rozhodli, že si zvolíme a
+upravíme profil compact, takže nás bude zajímat soubor tinymce_compact.js.
+Ten si otevřeme a vložíme především tuto řádku někde ze začátku:</p>
+
+<pre class="php"><code>language : "cs",</code></pre>
+
+<p>V tomto souboru můžete provézt i další konfigurace dle vlastních
+požadavků – přidávání nebo ubírání tlačítek je díky němu zcela
+na vás.</p>
+
+<p>Například já jsem si exportoval nastavení z Drupalu 4.7 (kde se toto
+Vaše aktuální nastavení mimochodem dá krásně najít v HTML zdroji
+každé stránky, které Tiny modul zobrazuje):</p>
+
+<pre class="php"><code>tinyMCE.init({
+  mode : "exact",
+  theme : "advanced",
+  relative_urls : false,
+  document_base_url : "/drupal47/",
+  language : "cs",
+  safari_warning : false,
+  entity_encoding : "raw",
+  verify_html : true,
+  preformatted : false,
+  convert_fonts_to_styles : true,
+  plugins : "advhr,emotions,paste,searchreplace,table",
+  theme_advanced_toolbar_location : "top",
+  theme_advanced_toolbar_align : "left",
+  theme_advanced_path_location : "bottom",
+  theme_advanced_resizing : true,
+  theme_advanced_blockformats : "p,address,pre,h1,h2,h3,h4,h5,h6",
+  theme_advanced_buttons3 : "advhr,cut,copy,paste,visualaid,removeformat,charmap,emotions,pastetext,pasteword,tablecontrols",
+  theme_advanced_buttons1 : "bold,italic,underline,strikethrough,justifyleft,justifycenter,justifyright,justifyfull,bullist,numlist,outdent,indent,undo,redo,link,unlink,formatselect,fontselect,fontsizeselect",
+  theme_advanced_buttons2 : "forecolor,backcolor,sup,sub,replace",
+  extended_valid_elements : "hr[class|width|size|noshade]",
+  content_css : "example_full.css",
+  elements : "edit-body"
+});</code></pre>
+
+<p>Nyní můžete přiřadit právo na používání modulu požadovaným
+rolím, v menu <em>Administrace → Kontrola přístupu → Modul
+tinymce</em>.</p>
+
+<p>Pro správnou funkci editoru je třeba ve formátech textu povolit potřebné
+HTML tagy v menu <em>Administrace → Formáty textu</em>.</p>
+
+Na závěr pár tipů
+
+<ul>
+	<li>Můžete použít také modul IMCE. Potom budete moct komfortněji vkládat
+	do textů obrázky a soubory (já to dělám přes moduly Image a Upload).</li>
+
+	<li>Pokud si chcete určit, kde zalomit teaser, můžete použít do tinymce
+	modul, který se myslím jmenuje drupalbreak. Sám opět (zatím)
+	nepoužívám.</li>
+
+	<li>Pokud by Vám čeština nechtěla naběhnout hned po prvním otevření
+	psaní článku, zkuste nezoufat a dejte refresh. Klidně několikrát.</li>
+</ul>
+
+<p>Doufám že vám mé story alespoň trochu pomohlo, jedu domů, posílejte
+komentáře jak to udělat jednodušeji a lépe a přeji Vám všem hezký
+den. B.</p><div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-9893" class="social-add digglink" onmouseover="showSocials(9893)" onmouseout="hideSocials(9893)"><a class="social-href-link" href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#">Linkni to!</a>
+<div class="social-links" id="social-links-9893">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/zacatecnici/tinymce-a-drupal-5-instalace-pro-zacatecniky&amp;title=TinyMCE a Drupal 5 - instalace pro začátečníky" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/zacatecnici/tinymce-a-drupal-5-instalace-pro-zacatecniky&amp;title=TinyMCE a Drupal 5 - instalace pro začátečníky" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/zacatecnici/tinymce-a-drupal-5-instalace-pro-zacatecniky" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/zacatecnici/tinymce-a-drupal-5-instalace-pro-zacatecniky&amp;title=TinyMCE a Drupal 5 - instalace pro začátečníky" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-2154"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-2154" class="active"> Ať dělám co dělám, tak</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Uda (bez ověření) dne 28 Leden, 2007 - 18:25.  </div>
+
+  <div class="content">
+    <p>Ať dělám co dělám, tak mi to při kliknutí vytvořit článek, nebo
+upravit nezobrazí nic … jako by tam onen modul nebyl :-(</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/2154" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-2162"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-2162" class="active"> Zřejmě nemáte soubory</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/spatnynick.html" title="Zobrazit profil uživatele.">SpatnyNick</a> dne 28 Leden, 2007 - 23:55.  </div>
+
+  <div class="content">
+    <p>Zřejmě nemáte soubory přesně v těch cestách, kde mají být.
+Zkontrolujte jestli máte v adresáři modulu tinymce tyto cesty (jestli
+v cestě nepřebývá nějaký adresář)</p>
+
+<p>includes\jscrip­ts\tiny_mce\lan­gs\…<br />
+includes\jscrip­ts\tiny_mce\plu­gins\…<br />
+ atd.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/2162" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-2183"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-2183" class="active"> Ahoj, diky za navod, pomohl</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/paulos003.html" title="Zobrazit profil uživatele.">paulos003</a> dne 30 Leden, 2007 - 02:31.  </div>
+
+  <div class="content">
+    <p>Ahoj, diky za navod, pomohl a funguje to. Takovych prispevku pro neznalky by
+mohlo byt vice:-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/2183" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-2470"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-2470" class="active">Css</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/radek-pliska.html" title="Zobrazit profil uživatele.">Radek Pliska</a> dne 12 Únor, 2007 - 16:23.  </div>
+
+  <div class="content">
+    <p>Ahoj snažím se ale už nevím co dal. Nainstaloval sem TinyMce pro Drupal
+5. Na straně se zobrazí vše co má, ale když napíšu nějaký text
+s formátováním a zalomením. Tak se zobrazí čistý text??? Css mam
+nastavený na Themes a formát textu na full, zkousel sem snad už vše. Kde
+dělám chybu? Diky Radek</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/2470" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2476"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-2476" class="active"> zdravím. zkuste</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/spatnynick.html" title="Zobrazit profil uživatele.">SpatnyNick</a> dne 13 Únor, 2007 - 00:12.  </div>
+
+  <div class="content">
+    <p>zdravím. zkuste zkontrolovat jestli nemáte rozházený nastavení full HTML
+filtru, v menu Administrace-&gt;Formáty textu-&gt;Full HTML-&gt;konfigurace
+(pokud používáte starší verzi drupalu cesta je jiná) hlavně nesmíte mít
+zaplou volbu HTML filtr.</p>
+
+<p>Jinak můžete zkusit vytvořit nějaký obsah s Tiny, pak Tiny modul
+vypnout a kouknout, jestli v editaci toho obsahu co jste s ním vytvořil jsou
+html značky jak mají být… pokud tam jsou ale nezobrazuje se to
+formátované, problém je určitě s filtrem.</p>
+
+<p>Jinak jak už na tomto webu bylo několikrát zmíněno, používat Full HTML
+pro Tiny je bezpečností díra a měl byste to takto použít pouze na
+ladění. Než Tiny dáte do provozu, rozhodně si místo Full vytvořte třeba
+vlastní filtr kde HTMl filtr zapnete a povolte jen ty tagy, které
+potřebujete.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/2476" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3341"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3341" class="active"> Jak je možné si vybrat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/bobik.html" title="Zobrazit profil uživatele.">Honza Pobořil</a> dne 3 Duben, 2007 - 11:26.  </div>
+
+  <div class="content">
+    <p>Jak je možné si vybrat vlastní tagy, které má povolovat? Nikde jsem to
+nenašel.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3341" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3588"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3588" class="active">Jednoduše ;-)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/devilkin.html" title="Zobrazit profil uživatele.">devilkin</a> dne 19 Duben, 2007 - 01:14.  </div>
+
+  <div class="content">
+    <p>Administrace → Nastavení webu → Formáty textu</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3588" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><a id="comment-2584"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-2584" class="active">nespouští se tinyMCE</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Eddie (bez ověření) dne 19 Únor, 2007 - 17:15.  </div>
+
+  <div class="content">
+    <p>Nějak, nevím proč se přestal spouštět celý modul TinyMCE a zablokuje
+to zobrazení dané stránky, když tento modul vypnu tak to funguje, ale né
+pak samotný aplet pro tvorbu. Pokud je modul zapnut, jak sem psal, prostě se
+mi nezobrazí stránka, pořad loaduje a nic se neděje. Mám obavu,že to má
+nějakou souvislost s dalšími moduly které jsem doinstaloval. CCK třeba.
+Poradí někdo nějakou vychytávku ?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/2584" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2593"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-2593" class="active"> Problém může být taky</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/spatnynick.html" title="Zobrazit profil uživatele.">SpatnyNick</a> dne 19 Únor, 2007 - 18:39.  </div>
+
+  <div class="content">
+    <p>Problém může být taky téma vzhledu… zkuste změnit na nějaké
+výchozí a povypínat moduly. Když to nepomůže asi bych zkusil kompletně
+smazat a přeinstalovat Tiny…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/2593" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-3030"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3030" class="active">Stale mi to neide</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel frankye (bez ověření) dne 16 Březen, 2007 - 15:55.  </div>
+
+  <div class="content">
+    <p>Skusam rozne verzie podla instalacie, ale moje pokusy su bezvysledne… nevie
+mi niekto poradit? naskor som skusal podla tohto clanku a rovnako je to pisane
+aj v REDAME:TXT v module tinymce
+\sites\all\mo­dules\tinymce\in­cludes\docs<br />
+\sites\all\mo­dules\tinymce\in­cludes\examples<br />
+\sites\all\mo­dules\tinymce\in­cludes\jscrip­ts … vysledok <a href="http://www.online.eu.sk/tinymce2.doc">http://www.online.eu.sk/tinymce2.doc</a></p>
+
+<p>Skusal som aj cestu podla dalsieho autora modules\tinym­ce\includes\…atd a
+dalsia hlaska <a href="http://www.online.eu.sk/tinymce1.doc">http://www.online.eu.sk/tinymce1.doc</a>
+ak teda podla hlasok nastavim: \sites\all\mo­dules\tinymce\ti­nymce alebo
+modules\tinym­ce\tinymce zobrazi sa mi profil, pri nastaveni tam mam aj
+pluginy, z coho mi vychadza ze aj cesta adresara tinymce stiahnuteho z webu
+projektu <a href="https://prdownloads.sourceforge.net/tinymce">http://prdownloads.sourceforge.net/tinymce</a>
+je v poriadku, skusal som aj zmenu templates, aj tmenu nastavenia formatu textu
+a ziadny vysledok. Nevie mi niekto poradit?:-(</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3030" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3038"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3038" class="active">A co mas vlastne za problem?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/radek-pliska.html" title="Zobrazit profil uživatele.">Radek Pliska</a> dne 17 Březen, 2007 - 20:42.  </div>
+
+  <div class="content">
+    <p>No ja zatím provozuju Drupal 5 jen na locale. Ale od počátku sem nemel
+problemy nainstalovat TinyMce. Z ⇒ <a href="http://ftp.osuosl.org/pub/drupal/files/projects/tinymce-5.x-1.x-dev.tar.gz">http://ftp.osuosl.org/…x-dev.tar.gz</a>
+jsem si stahl modul pro drupal 5 a z ⇒ <a href="http://tinymce.moxiecode.com/download.php">http://tinymce.moxiecode.com/download.php</a>
+jsem si stahl samotne TinyMCE v 2.1.0 a k tomu i češtinu. Modul sem
+uložil do adresáře ⇒ modules a samotné Tiny pak do tohoto adresaře.
+Takže to pak vypadalo asi takto ⇒
+\modules\tinym­ce\tinymce\jscrip­ts\tiny_mce\plu­gins\ je to cesta až do
+adresáře s pluginy original Tiny. Vubec sem nikdy nikde v nové verzi
+nenasel ze by me to nabízela nějaká volba „Full, Compact a Basic“ Pri
+prvním spuštění mě modul upozornil že musím nastavit práva a pak
+vytvořit „profil“ kde sem si pak zvol co se uživateli zobrazí a co
+všechno bude moct dělat. A i čeština byla jen otázkou nahrání souboru
+přes ftp a pak zvolení v „profilu“ jaký jazyk použít.</p>
+
+<p>Radek</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3038" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3309"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3309" class="active"> Tak to jste pak měl modul</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/vera-vila.html" title="Zobrazit profil uživatele.">vera-vila</a> dne 1 Duben, 2007 - 01:28.  </div>
+
+  <div class="content">
+    <p>Tak to jste pak měl modul pro verzi 4.x, protože ta prvně nabízela
+vytvoření profilu a další nastavení.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3309" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-3510"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3510" class="active"> Ja som na tom rovnako, len</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous1 (bez ověření) dne 15 Duben, 2007 - 17:45.  </div>
+
+  <div class="content">
+    <p>Ja som na tom rovnako, len s tym ze ak si vytvorim profil nic sa nestane.
+Tiny sa vobec nezobrazi.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3510" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-3067"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3067" class="active">Nefunguje mi image </a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/copikova.html" title="Zobrazit profil uživatele.">copikova</a> dne 19 Březen, 2007 - 10:34.  </div>
+
+  <div class="content">
+    <p>Pracujem s tinyMCE, avsak pri vkladani obrazku do textov vznika nejaka
+chyba, pretoze obrazok sa v konecnom dosledku nezobrazi na stranke. Viete mi
+prosim poradit? Som zaciatocnik…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3067" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3072"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3072" class="active"> máte povolený tag &lt;img&gt;</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/spatnynick.html" title="Zobrazit profil uživatele.">SpatnyNick</a> dne 19 Březen, 2007 - 11:42.  </div>
+
+  <div class="content">
+    <p>máte povolený tag &lt;img&gt; ve zvoleném formátu textu? viz
+administrace-&gt;formáty textu</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3072" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-3308"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3308" class="active"> Ať dělám, co dělám,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/vera-vila.html" title="Zobrazit profil uživatele.">vera-vila</a> dne 1 Duben, 2007 - 01:26.  </div>
+
+  <div class="content">
+    <p>Ať dělám, co dělám, tak Tiny se mi nezobrazuje a to to mám přesně
+podle návodu k instalaci…</p>
+
+<p>Práva mám povolená :o(</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3308" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-3351"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3351" class="active"> ad posledni post: ja jsem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 3 Duben, 2007 - 19:44.  </div>
+
+  <div class="content">
+    <p>ad posledni post: ja jsem to delal take tak a pri uplne stejnem postupu mi to
+na locale nejelo a na serveru bez problemu – doporucuju testnout</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3351" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3356"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3356" class="active"> Mě to práve nejede na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/vera-vila.html" title="Zobrazit profil uživatele.">vera-vila</a> dne 3 Duben, 2007 - 22:06.  </div>
+
+  <div class="content">
+    <p>Mě to práve nejede na serveru a navíc jsem si stáhla a nainstalovala
+i úplně poslední verzi, kde zase instalace byla přímo do modules, ale
+měla jsem tam zase chybu, kterou jsem tu řešila jinde, ale nikdo mi na to
+neodpověděl, čím to může být. NO, snad to časem rozchodím.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3356" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3363"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3363" class="active"> Jestli chceš, můžu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/spatnynick.html" title="Zobrazit profil uživatele.">SpatnyNick</a> dne 4 Duben, 2007 - 11:18.  </div>
+
+  <div class="content">
+    <p>Jestli chceš, můžu poslat můj kompletní adresář s Tiny modulem
+i aplikací… pak by mělo stačit to akorát nakopčit do modules a
+zapnout…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3363" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-3519"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3519" class="active">TinyMCE pro Drupal 5.1</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Cias (bez ověření) dne 16 Duben, 2007 - 08:36.  </div>
+
+  <div class="content">
+    <p>Zdravim, tak jsem ted bojoval s tinymce pro Drupal 5.1 a tam je prozmenu
+potreba tinymce nahrat do jmenosite/modu­les/tinymce atd… proste uz ne
+sites/all/modules atd.. no je to kazdopadne haluz. No ale co abych jen nenadavl
+tak programici tiny to napsali do readme takze se stim da poprat rychle. Snad to
+nekomu pomuze ;)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3519" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3527"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3527" class="active"> To jsem také zkoušela, je</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/vera-vila.html" title="Zobrazit profil uživatele.">vera-vila</a> dne 16 Duben, 2007 - 15:09.  </div>
+
+  <div class="content">
+    <p>To jsem také zkoušela, je to nejnovější verez Tiny, a stejně mi to
+nefungovalo :o(</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3527" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3539"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3539" class="active">tiny</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.ivzdelani.cz" rel="nofollow">Cias</a> (bez ověření) dne 17 Duben, 2007 - 06:53.  </div>
+
+  <div class="content">
+    <p>No je potreba to nahrat do modules/tinymce pak jeste do
+modules/tinym­ce/tinymce nahrat vlastni „aplikaci“. Pak je dulezite
+vytvorit profil a vtom profilu zapnout zobrazovani tinymce (basic setup &gt;
+default state = true) dale je potreba nastavit pro tiny opravneni pak uz by tiny
+melo jet bez problemu(pripadne pri tvorbe obsahu zkontrolovat pod textboxem
+prepinatko enable/disable rich text format). Pred jakymakoliv zmenama doporucuju
+tiny nejprve deaktivovat v modulech a pote teprve provadet zmeny a nasledne
+modul opet zapnout.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3539" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3549"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3549" class="active"> Tohle všechno jsem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/vera-vila.html" title="Zobrazit profil uživatele.">vera-vila</a> dne 17 Duben, 2007 - 16:06.  </div>
+
+  <div class="content">
+    <p>Tohle všechno jsem dělala, Tiny používám běžně už od D 4.7, měla
+jsem nahrané všechno na svých místech, oprávnění i profily, ale Tiny mi
+prostě nenaběhlo… Vůbec absolutně ani známka toho, že by mělo být
+kompletně nainstalované, povolené, nahrané ve správných adresářích,
+udělaný profil, oprávnění… Prostě mi v D5 vůbe nenaběhl, přitom
+v D4.7 mi funguje bez problémů a nahrává se úplně stejně, jako
+nejnovější verze modulu pro D5 i samotného softwaru… Prostě jsem ho
+nerozchodila, a to ani na localhostu, ať jsem se snažila sebevíc…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3549" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3563"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-3563" class="active"> používám tu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/spatnynick.html" title="Zobrazit profil uživatele.">SpatnyNick</a> dne 17 Duben, 2007 - 20:49.  </div>
+
+  <div class="content">
+    <p>používám tu neoficiální verzi, která je postavená na 4.7 verzi Tiny
+modulu, ale je tam zrádná jedna věc – když to nainstalujete, vytvoříte
+profil a zapnete ho pro nějaké role, musíte jít pak s adminem do „můj
+účet/Editovat“ a tam se sám i jako admin do některé té role přiřadit.
+Jinak to adminovi Tiny nezobrazí, i když je pro Drupal admin ve všech
+rolích, pro tiny prostě ne dokud ho nepřiřadíte… nevím jestli je to ten
+problém který to způsobuje, ale bacha na to</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/3563" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div><a id="comment-4524"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-4524" class="active">Vyřešeno: na vině byl Theme</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.power-joga.cz" rel="nofollow">Filip</a> (bez ověření) dne 22 Červen, 2007 - 10:12.  </div>
+
+  <div class="content">
+    <p>Měl jsem stejný problém jako vera-vila: vše bylo nainstalováno, ale
+TinyMCE se nezobrazoval. Pak jsem se koukl ve Firefoxu do konzole, která
+říkala, že nebyl načten JavaScript soubor. Trochu jsem pátral a našel <a href="https://drupal.org/node/133086">http://drupal.org/node/133086</a>, viz
+komentář #6.</p>
+
+<p>Přidejte prostě ve svém tématu <span class="php">&lt;?php print $scripts
+?&gt;</span> někam do headeru stránky (třeba za print $styles) a TinyMCE bude
+fungovat.</p>
+
+<p>Jinak, tenhle návod je už zastaralý, použijte raději README.
+Mějte se!</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/4524" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-7389"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-7389" class="active">dotaz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel mennn (bez ověření) dne 21 Říjen, 2007 - 15:58.  </div>
+
+  <div class="content">
+    <p>Při nahraní na server mi to hodi hlasku : Could not find the TinyMCE engine
+installed at sites/all/modu­les/tinymce/ti­nymce/. Please download TinyMCE,
+uncompress it and copy the folder into sites/all/modu­les/tinymce. to je
+v pořádku???Dyt už to tam nahrané mám!!!</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/7389" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-7392"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-7392" class="active">tu sa pise, ze treba Plugin</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/sano.html" title="Zobrazit profil uživatele.">sano.a</a> dne 21 Říjen, 2007 - 17:13.  </div>
+
+  <div class="content">
+    <p>tu sa pise, ze treba Plugin nahrat do adresara
+<cite>../modules/ti­nymce/includes</cite> no a o tom to je, ja mam plugin
+nahrany v adresari <cite>../modules/ti­nymce/tinymce</cite>. V tej hlaske to
+tam aj mas: <cite>Could not find the TinyMCE engine installed at
+sites/all/modu­les/<b>tinymce/ti­nymce</b>/</cite></p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/7392" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-7805"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-7805" class="active">Tiny funguje jen při vytváření obsahu, ne při editaci</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 2 Listopad, 2007 - 13:56.  </div>
+
+  <div class="content">
+    <p>Zdravím, kombinací několika postupů se mi po dlouhém a úmorném boji
+podařilo rozchodit TinyMCE na Drupalu 5.2. Nakopíroval jsem ho do
+sites/all/modu­les/tinymce. Akorát ten další podadresář se musí jmenovat
+znovu tinymce, ne includes. Vše funguje jak má včetně nastavení. Problém
+je v tom, že se Tiny zobrazí pouze když vytvářím nový obsah. Když chci
+editovat již vytvořené tak jako by tam vůbec nebyl. Nestalo se někomu něco
+podobného? Co s tím?</p>
+
+<p>Díky Petr</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/7805" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-9287"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-9287" class="active">Prave som zistil preco sa mi</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 29 Prosinec, 2007 - 17:58.  </div>
+
+  <div class="content">
+    <p>Prave som zistil preco sa mi tento modul dobre nezobrazoval. Mam vo firefoxe
+nainstalovany modul web developer a tam bol defaltne nastaveny disable java
+script strict warning a ked som ho vypol tak sa modul zobrazuje</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/9287" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10630"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-10630" class="active">kompletace</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Aleš (bez ověření) dne 1 Březen, 2008 - 19:50.  </div>
+
+  <div class="content">
+    <p>po par hodinach se mi zdarilo tinymce dostat do psani clanku, ale po odeslani
+se to holt prevedlo, jako kdybych to ani pomoci tinymce neformatoval. mohl by
+nekdo dat nejaky odkaz nebo zaslat mailem kompletni obsah tinymce, ktery by plne
+fungoval po prekopirovani do adresare modules? pro drupal.5.7 dekuji</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/10630" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10633"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-10633" class="active">rek bych, ze problem bude</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/sign.1.html" title="Zobrazit profil uživatele.">Marek Sotak</a> dne 2 Březen, 2008 - 01:34.  </div>
+
+  <div class="content">
+    <p>rek bych, ze problem bude v input filtrech, zkus zaskrtnout v input
+filtrech pod polem kde mas tinymce full html, a posli to, pokud ti to pak bude
+fungovat, tak si pridej html znacky, ktery pouzivas (disable rich text – a
+uvidis co je tam za znacky) do zakladniho filtru a pouzivej ho pak.</p>
+
+<p>nebo pak problem muze byt v tom, ze pouzivas tinymce css. v nastaveni
+myslim muzes vybrat jinej, nebo pridej vlastni.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/10633" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10636"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-10636" class="active">vyreseno</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Aleš (bez ověření) dne 2 Březen, 2008 - 12:34.  </div>
+
+  <div class="content">
+    <p>diky za tip, uz se mi to zadarilo</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/10636" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10860"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-10860" class="active">Ahoj prosím poraďte mi kde</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel peter (bez ověření) dne 13 Březen, 2008 - 19:10.  </div>
+
+  <div class="content">
+    <p>Ahoj prosím poraďte mi kde robím chybu pri inštaláci, podľa mńa je to
+uplne jednoduché ale je to napísané dosť nejasne. krok 1. Stiahnem si modul
+tinyMCE yo stranky <a href="https://drupal.org/project/tinymce">http://drupal.org/project/tinymce</a>
+subor sa volá 5.x-1.9 ten si rozbalený nahrám do sites/all/module takže
+dostanem cestu sites/all/modu­le/tinymce a v tom tinymce 9 súborov prvý je
+plugins a posledný tinymce module. krok 2. stiahnem si plugin z horeuvedenej
+stránky teraz neviem čo tam mám stiahnuť tinyMCE 3.0.5 zip alebo ten dev.
+zip súbor alebo ten compresor čo vlastne a čo s ním potom nahram ho
+rozbalený ako jeden subor alebo ho rozbaliť uplne a nahrať až tie súbory
+čo sú v ňom . Neviem poraďte mi prosím.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/10860" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10862"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-10862" class="active">odkaz enable rich-text vobec</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 13 Březen, 2008 - 19:56.  </div>
+
+  <div class="content">
+    <p>odkaz enable rich-text vobec nefunguje</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/10862" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10872"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-10872" class="active">Už som na to prišiel. Tu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 14 Březen, 2008 - 10:20.  </div>
+
+  <div class="content">
+    <p>Už som na to prišiel. Tu pomože asi len skušať a skušať x spôsobov.
+Myslím že ich určite aj pár existuje.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/10872" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-11246"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-11246" class="active">fakt nevim uz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 1 Duben, 2008 - 22:52.  </div>
+
+  <div class="content">
+    <p>absolutne nechapu tomuto kroku…</p>
+
+<p>instalace.. Nyní můžeme modul v Drupalu zapnout (Administrace → Moduly)
+a nastavte si v Administrace → TinyMCE profil třeba Compact.</p>
+
+<p>kde to najdu to „administrace“ prosim poradte</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/11246" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-13668"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-13668" class="active">je to hnedka v navigaci,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Sin (bez ověření) dne 22 Srpen, 2008 - 22:06.  </div>
+
+  <div class="content">
+    <p>je to hnedka v navigaci, kdyz se prihlasis, ja jsem rihlasen jako admin a
+mam to tu…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/13668" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-16585"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-16585" class="active">Neaktuální</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Barka (bez ověření) dne 6 Únor, 2009 - 15:15.  </div>
+
+  <div class="content">
+    <p>Návod by byl pěkný, kdyby byl aktuální. Jenže postup, který asi
+fungoval v roce 2007, na začátku roku 2009 bohužel nějak hapruje. Takže
+ať dělám co dělám, nejen že v průběhu snahy o instalaci TinyMCE
+narážím na to, že některý odkaz v návodu mě hodí jinam než bych
+předpokládala a soubory, u kterých odhaduju, že bych si je měla stáhnout,
+mají poněkud jiné názvy než praví návod, jelikož ty názvy z návodu se
+na daných stránkách s downloady jaksi nevyskytují, ale ze všeho nejvíc
+nesedí poslední část. Tedy dostávám neustále hlášku „Could not find
+the TinyMCE engine installed at sites/all/modu­les/tinymce/ti­nymce/. Please
+download TinyMCE, uncompress it and copy the folder into
+sites/all/modu­les/tinymce.“ Ovšem když se pokusím stahovat TinyMCE
+z odkazu, který mi nabízí tato hláška, dostanu se zase k úplně jinak
+nazvaným souborům, než jak je popisuje úvodní část návodu. Takže…co
+s tím?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/16585" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-17584"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-17584" class="active">Prosím o radu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/richardn.html" title="Zobrazit profil uživatele.">richardn</a> dne 13 Březen, 2009 - 23:26.  </div>
+
+  <div class="content">
+    <p>Prosím o pomoc, Nedaří se mi instalovat do Drupalu 6 TinyMCE a IMCE
+modul pro psanía foto. Pokoušel jsem se podle návodu na internetu ale,
+nedaří se mi. Podařilo se mi instalovat jen modul FCK ale, ten má modrou
+plochu a nejde nastavit barva písma a jiná nastavení. Pokoušel jsem se
+Hledat ale, bohužel. Děkuji předem za pomoc</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/17584" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17600"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-17600" class="active">TinyMCE Rada je možná</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/radek-pliska.html" title="Zobrazit profil uživatele.">Radek Pliska</a> dne 15 Březen, 2009 - 13:58.  </div>
+
+  <div class="content">
+    <p>Ale jaksi nevím jaké moduly pro TinyMCE používáte. Vím že je jich
+více. Osobně používám <a href="https://drupal.org/project/tinytinymce">http://drupal.org/…/tinytinymce</a>.
+Je zde možná plná konfigurace TinyMCE a bezproblémová integrace IMCE
+modulu.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/17600" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-34227"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="tinymce-a-drupal-5-instalace-pro-zacatecniky.html#comment-34227" class="active">Zdravím, mám takový problém</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel hcdady (bez ověření) dne 1 Březen, 2011 - 07:44.  </div>
+
+  <div class="content">
+    <p>Zdravím, mám takový problém s tinymce nainstalovaný ho mám vše
+vypadá že běží správně jen když cokoli v editoru vložím tak se mi
+zobrazí v html codu například když chci jen zvětšit písmo tak se
+zobrazí na stránce [size= x-large]dfsfsdfsf­dfs[/size], nevíte náhodou
+někdo co s tím</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/621/34227" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="https://www.drupal.cz/comment/reply/621"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="../../filter/tips.html">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-974fa0727c711d5ae27fbd15d8a9c0ab" value="form-974fa0727c711d5ae27fbd15d8a9c0ab"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="https://www.drupal.cz/clanky/zacatecnici/tinymce-a-drupal-5-instalace-pro-zacatecniky?destination=node%2F621"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="../../user/register.html" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="../../user/password.html" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-8dfed43bb603faacf41bdb287082cb9a" value="form-8dfed43bb603faacf41bdb287082cb9a"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="../../node/52781.html"><img src="../../files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="../../bezpecnost.html">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="../akce.1.html" class="tagadelic level4">akce</a> 
+<a href="../bezpecnost.1.html" class="tagadelic level6">bezpečnost</a> 
+<a href="../cck.html" class="tagadelic level2">CCK</a> 
+<a href="../como-ganhar-dinheiro.html" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="../como-ganhar-dinheiro-na-internet.html" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="../como-ganhar-dinheiro-pela-internet.html" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="../drupal.html" class="tagadelic level3">drupal</a> 
+<a href="https://www.drupal.cz/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="../drupal-7x.html" class="tagadelic level1">Drupal 7.x</a> 
+<a href="../drupalcamp.1.html" class="tagadelic level1">drupalcamp</a> 
+<a href="../drupalcon.html" class="tagadelic level1">drupalcon</a> 
+<a href="../drupal-setkani.html" class="tagadelic level2">Drupal setkání</a> 
+<a href="../forex.html" class="tagadelic level1">forex</a> 
+<a href="../forex-broker.html" class="tagadelic level1">forex broker</a> 
+<a href="../forex-trading-strategies.html" class="tagadelic level1">forex trading strategies</a> 
+<a href="../fx-trading.html" class="tagadelic level2">FX trading</a> 
+<a href="../game-war-cheats.html" class="tagadelic level1">game of war cheats</a> 
+<a href="../ganhar-dinheiro.html" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="../ganhar-dinheiro-na-internet.html" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="../godus-cheats.html" class="tagadelic level1">godus cheats</a> 
+<a href="../image.html" class="tagadelic level1">image</a> 
+<a href="../landlord-house-insurance.html" class="tagadelic level1">landlord house insurance</a> 
+<a href="../lokalizace.html" class="tagadelic level1">lokalizace</a> 
+<a href="../moduly.html" class="tagadelic level6">moduly</a> 
+<a href="../navod.html" class="tagadelic level2">navod</a> 
+<a href="../online-forex-trading.html" class="tagadelic level1">online forex trading</a> 
+<a href="../ostatni.html" class="tagadelic level3">ostatní</a> 
+<a href="../overwatch-aimbot.html" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="../php.html" class="tagadelic level1">php</a> 
+<a href="../pro-webmastery.1.html" class="tagadelic level5">pro webmastery</a> 
+<a href="../preklad.html" class="tagadelic level1">překlad</a> 
+<a href="../prekladatelsky-sprint.html" class="tagadelic level1">překladatelský sprint</a> 
+<a href="../preklady.html" class="tagadelic level2">překlady</a> 
+<a href="../pripadove-studie.html" class="tagadelic level2">případové studie</a> 
+<a href="../setkani.1.html" class="tagadelic level5">setkání</a> 
+<a href="../setkani-akce.html" class="tagadelic level5">setkání, akce</a> 
+<a href="../synthetic-opal.html" class="tagadelic level3">synthetic opal</a> 
+<a href="../synthetic-opals.html" class="tagadelic level3">synthetic opals</a> 
+<a href="../theming.html" class="tagadelic level2">theming</a> 
+<a href="../tipy-triky.html" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="../ubercart.html" class="tagadelic level1">UberCart</a> 
+<a href="../views.html" class="tagadelic level2">views</a> 
+<a href="../vyvoj.html" class="tagadelic level2">vývoj</a> 
+<a href="../vyvoj-drupalu.html" class="tagadelic level5">vývoj drupalu</a> 
+<a href="../zacatecnici.1.html" class="tagadelic level5">začátečníci</a> 
+<a href="../sablony-vzhled.html" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="../../forum.1.html" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html#comment-104041">Doplnění</a><br />před 6 hod 15 min</li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 5 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 19 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 19 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 23 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 23 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 18 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu.html#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 21 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="../../aggregator/pisou-na-slovensku.html" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="../../rss.xml" title="RSS Kanal"><img src="https://www.drupal.cz/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="../novinky-na-webu/seznam-rss-zdroju-drupal-cz.html">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="../../kontakt/sluzby.html">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="../../sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="../../files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":277,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

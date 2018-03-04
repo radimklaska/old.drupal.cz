@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kategorizujeme obsah efektivně</title>
+    <base href="" />
+    <link type="text/css" rel="stylesheet" href="https://www.drupal.cz/misc/print.css" />
+      </head>
+  <body>
+        
+    <div id="node-848" class="section-1">
+  <h1 class="book-heading">Kategorizujeme obsah efektivně</h1>
+  <p>Jedna z nejsilnějších stránek v Drupalu je velmi pokročilá možnost
+kategorizace obsahu. Můžete svůj obsah vkládat do víceméně libovolných
+hierarchických stromů a tyto stromy zobrazovat, navzájem vázat a používat
+pro zobrazení obsahu. Dnes se podíváme na základní modul pro kategorizaci
+obsahu v Drupalu: Modul Taxonomy.</p>
+
+<p>Taxonomie je vědní disciplína, která se zabývá klasifikací organismů
+do hierarchicky uspořádaných kategorií. Touto disciplínou se inspiroval
+Drupal a proto již v dávné době vznikl modul jménem
+<strong>Taxonomy</strong>, který se dostal do základní distribuce, proto
+není nutné ho stahovat zvlášť. Vznikly i alternativy tohoto modulu,
+namátkou modul Category, o kterém jsme již psali.</p>
+
+<p>Nejdříve bychom si měli ujasnit terminologii:</p>
+
+<h2>Slovník</h2>
+ <strong>Slovník</strong> je základní pojem v terminologii taxonomie.
+Představte si ho jako kontejner, do kterého spadají
+<strong>termíny</strong>.
+<h2>Termín</h2>
+ Termín je podřazený slovníkuů. Vyjadřuje vlastně jednotlivé pojmy,
+chcete-li rubriky v nějakém slovníku.
+<h2>Příklady</h2>
+
+<h2>Základní</h2>
+ Oba pojmy si ukážeme na základním příkladu:
+<img src="../../../files/clanky.png" width="451" height="185" alt="Taxonomie - priklad s clanky" />
+
+<p>Typický příklad, který využije skoro každý, kdo v Drupalu tvoří
+nějaký osobní web s články. Slovníkem je zde krychle
+<strong>Články</strong>. Jednotlivé termíny jsou článkům podřazeny,
+představte si, že se dají složit do krychle s články. Vytvořením
+podobné taxonomie jsme si vlastně zkopírovali strom na tomto serveru. Máme
+články, které spadají do různých rubrik :-)</p>
+
+<h2>Hierarchie</h2>
+ Nyní složitější příklad:
+<img src="../../../files/shop_0.png" alt="Pokrocila taxonomie" />
+
+<p>Tento ukazuje složitější hierarchii. Vidíte, že lze nejen tvořit
+termíny podřízené slovníku, ale jednotlivé termíny mohou být
+i podřízeny předchozím termínům. <em>RHEL ES</em> patří tedy do
+slovníku Software a zároveň je termín <em>Red Hat</em> jeho rodičem.
+Termín <em>Premium</em> je podřízen termínům <em>RHEL AS</em> a <em>Red
+Hat</em> a v neposlední řadě je termín <em>NOD32</em> jeho rodičem, pojem
+tedy může mít více rodičů.</p>
+
+<h2>Hierarchie seznamem</h2>
+ Na příkladu vypůjčeném z dokumentace na Drupal.org si ukážeme podobnou
+hierarchii zobrazenou pomocí seznamu pojmů, který bude možná pro některé
+srozumitelnější:
+<ul>
+	<li>Dairy
+		<ul>
+			<li>Milk</li>
+		</ul>
+	</li>
+
+	<li>Drink
+		<ul>
+			<li>Alchohol
+				<ul>
+					<li>Beer</li>
+
+					<li>Wine</li>
+				</ul>
+			</li>
+
+			<li>Pop</li>
+
+			<li>Milk</li>
+		</ul>
+	</li>
+
+	<li>Meat
+		<ul>
+			<li>Beef</li>
+
+			<li>Chicken</li>
+
+			<li>Lamb</li>
+		</ul>
+	</li>
+
+	<li>Spices
+		<ul>
+			<li>Sugar</li>
+		</ul>
+	</li>
+</ul>
+
+<p>Všimněte si, že termín <em>Milk</em> má více rodičů, je to stejný
+případ jako <em>Premium</em> v předchozím příkladu.</p>
+
+<h2>Freetagging</h2>
+ Tzv. volné označení je sice již konkrétní technikou zadávání termínů
+do slovníku, je vhodné ho ale uvést zde, protože také ilustruje možnosti
+taxonomie. Pokud ho u slovníku zapnete, nemusíte zadávat termíny a při
+přidání obsahu na Vás nevyskočí select políčko, ale formulář pro
+zadání termínů jako pojmů oddělených čárkami. To v podstatě nahrazuje
+„klíčová slova“, nebo-li tak populární Tagy. Každý přidaný tag je
+novým termínem slovníku (pokud již neexistuje). Kromě normálních operací
+termíny můžete např. zobrazovat pomocí shluků (modul Tagadelic), viz.
+příklad:
+<img src="../../../files/tagy.png" alt="Taxonomy - volny vyber" />
+
+<h2>Závěr</h2>
+ Nyní jsme si tedy ukázali, k čemu Taxonomy je, z příkladů je vidět,
+v čem je právě síla Drupalu v možnostech kategorizace. V příštím
+díle tohoto seriálu si ukážeme, jak Taxonomy použít.  <div id="node-919" class="section-2">
+  <h1 class="book-heading">Kategorizujeme obsah efektivně - pokračování - tvoření kategorií </h1>
+  <p>Pokračujeme v seriálu o kategorizaci obsahu. V <a href="../../../clanky/zacatecnici/kategorizujeme-obsah-efektivne.html">minulém
+díle</a> jsme si ukázali, co je modul Taxonomy a k čemu slouží. Dnes se ho
+naučíme ovládat.</p>
+
+<h2>Nastavení slovníku</h2>
+
+<p>Ukázali jsme si základní použití Taxonomy jako modulu pro kategorizaci
+článků, viz. obrázek:</p>
+
+<img src="../../../files/clanky.png" width="451" height="185" alt="Taxonomie - priklad s clanky" />
+
+<p>Nyní se podíváme, jak tuto strukturu vytvořit v Drupalu. Následující
+postup si zapamatujte a vyzkoušejte, jeho začátek bude stejný pro všechny
+další příklady.</p>
+
+<p>Zapneme modul Taxonomy v <em>Administrace → Prvky webu → Moduly</em>.
+Pokud používáme český profil, měl by být zapnutý již po instalaci a
+jdeme na <i>Administrace → Správa obsahu → Kategorie</i>. Toto je
+základní obrazovka administrace modulu Taxonomy. Zde později uvidíme
+vypsané slovníky a možnost slovník editovat či přidat termíny.</p>
+
+<p>Vedle nadpisu Kategorie klikneme na odkaz <em>Přidat slovník</em>. Objeví
+se podobný formulář:</p>
+
+<img src="../../../files/clanky-form.jpg" alt="Formular pro pridani slovniku" />
+
+<p>V něm vyplníme postupně údaje:</p>
+
+<ul>
+	<li><em>Jméno slovníku</em> – Články</li>
+
+	<li><em>Popis</em> – Popis je nějaké vysvětlení tohoto slovníku.
+	Normálně se nikde nezobrazuje, ale mohou ho použít některé moduly, jako
+	např. na těchto stránkách</li>
+
+	<li><em>Text nápovědy</em> – Ten se zobrazí při vybírání tohoto
+	slovníku ve formuláři uživateli</li>
+
+	<li><em>Druhy</em> – Toto políčko říká, které typy obsahu můžeme
+	takto kategorizovat. Nemáme žádné své, vybereme tedy Článek</li>
+
+	<li>Ostatní políčka nyní ignorujeme</li>
+</ul>
+
+<p>Formulář odešleme. Vznikne nám slovník <em>Články</em>. Jak již víme
+z minulého dílu, slovník je pouze kontejner na termíny. U nového
+slovníku tedy klikneme na odkaz <em>Přidat termíny</em>.</p>
+
+<img src="../../../files/clanky-terminy.jpg" alt="Formular pro pridani terminu" />
+
+<p>Tento formulář je již velmi jednoduchý, napíšeme <em>Název
+termínu</em>, tedy <em>Pro webmastery</em>, napíšeme případný popis,
+zbylé pole ignorujeme a odešleme. Takto to uděláme se všemi termíny
+z našeho příkladu.</p>
+
+<p>V tomto okamžiku máme hotovou základní kategorizaci našich článků.
+Projeďte si možnosti v administrační stránce – editaci slovníku,
+výpis termínu a jejich úpravu.</p>
+
+<h2>Zobrazování</h2>
+
+<p>Nastal čas vytvořit nějaké články. Klikněte v menu na <em>Vytvořit
+obsah → Článek</em>. Hned ve formuláři uvidíte nové pole pro výběr
+kategorie článku. Vytvořte si takto několik článků do různých
+kategorií.</p>
+
+<p>To, na co čekáte, je zobrazování seznamu článků z kategorie. Drupal
+v základní instalaci umožňuje zobrazovat obsah přirazený jednotlivým
+termínům. Z administrační obrazovky Taxonomy se vydáme směrem <em>Seznam
+termínů</em> u našeho slovníku. U každého termínu je odkaz
+<em>upravit</em>.</p>
+
+<p>Na tento odkaz pouze ukážeme, v prohlížeči dole se nám zobrazí cesta,
+na kterou odkaz vede:</p>
+
+<img src="../../../files/clanky-id.jpg" alt="Zobrazeni ID terminu" />
+
+<p>Cílem našeho pátrání je identifikátor našeho termínu, číslo,
+kterému budeme říkat <strong>ID</strong>. Náš termín má
+číslo <em>7</em>.</p>
+
+<p>Nyní napíšeme do adresního řádku prohlížeče: <em><a href="http://www.example.com/taxonomy/term/ID">http://www.example.com/…nomy/term/ID</a></em>,
+v našem případě tedy <em><a href="http://www.example.com/taxonomy/term/7">http://www.example.com/taxonomy/term/7</a></em>.
+Již vidíte, že tento odkaz Vám zobrazí seznam článků v dané
+kategorii.</p>
+
+<p>Možná si říkáte, že uvedený postup zjištění ID je složitý. Ano,
+je, ale má za cíl Vás naučit princip, jakým se informace v Taxonomy
+zobrazují. K odkazu na seznam článků se totiž můžete dostat mnohem
+jednodušeji. Stačí na stránce <em>Seznamu termínů</em> kliknout na jméno
+termínu a systém Vás automaticky odkáže právě na námi
+zjištěný odkaz.</p>
+
+<h2>Závěr</h2>
+ Dnes jsme si ukázali jak přidat slovník, jeho termíny a jak zobrazovat
+obsah jednotlivých termínů. Experimentování je teď na Vás. Někdy
+příště se podíváme na pokročilé nastavení, které jsme viděli
+v dalších příkladech v prvním dílu.  </div>
+</div>
+    
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTlVbXFNmBkFGXUMR","queueTime":0,"applicationTime":68,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

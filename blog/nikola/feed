@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Deža&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/nikola</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Freetekno</title>
+ <link>https://www.drupal.cz/blog/deza/freetekno</link>
+ <description>&lt;p&gt;Freetekno je název pro hudební styl asním spojenou scénou. Hudebně se je
+freetekno undergroundová odnož techna má velká „zkreslený“ basový
+rytmus. Většinou není příliš bohatá na tóny a zaměřuje se spíše na
+rytmus a „pohyb“. V dnešní době se čím dál tim víc objevují
+harmonické melodie.&lt;/p&gt;
+
+&lt;p&gt;Freetekno je určeno především k tanci.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/deza/freetekno&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/deza/freetekno#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12136</wfw:commentRss>
+ <pubDate>Tue, 22 May 2012 13:11:57 +0000</pubDate>
+ <dc:creator>Deža</dc:creator>
+ <guid isPermaLink="false">12136 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

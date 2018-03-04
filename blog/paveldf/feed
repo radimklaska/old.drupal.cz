@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>paveldf&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/paveldf</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Plánované akce a aktuality na webu v Drupalu</title>
+ <link>https://www.drupal.cz/blog/paveldf/planovane-akce-aktuality-na-webu-v-drupalu</link>
+ <description>&lt;p&gt;I když náš web &lt;a href=&quot;http://magazin.stripky.eu/&quot;&gt;Střípků
+z regionu&lt;/a&gt; běží už dva roky, přesto se cítím v tom velkém kolotoči
+Drupalu jako začátečník. Pokusím se vám tu popsat jeden problém, který
+jsem zatím řešil provizorně a nepříliš elegantně.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/paveldf/planovane-akce-aktuality-na-webu-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/paveldf/planovane-akce-aktuality-na-webu-v-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/datum">datum</category>
+ <category domain="https://www.drupal.cz/clanky/slovnik">slovník</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12206</wfw:commentRss>
+ <pubDate>Thu, 24 May 2012 10:36:42 +0000</pubDate>
+ <dc:creator>paveldf</dc:creator>
+ <guid isPermaLink="false">12206 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

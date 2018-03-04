@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>rhl&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/rhl</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Dlouhodobá spolupráce - správa a editace Drupalu</title>
+ <link>https://www.drupal.cz/blog/rhl/dlouhodoba-spoluprace-sprava-editace-drupalu</link>
+ <description>&lt;p&gt;Zdravím, hledám pro dlouhodobou spolupráci šikovného Drupalistu.
+Znalosti HTML, CSS. Cena za spolupráci dohodou. Pište na &lt;a href=&quot;mailto:rhladis@coma.cz&quot;&gt;rhladis&amp;#64;coma.cz&lt;/a&gt; Díky&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/rhl/dlouhodoba-spoluprace-sprava-editace-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1575</wfw:commentRss>
+ <pubDate>Mon, 27 Aug 2007 16:26:57 +0000</pubDate>
+ <dc:creator>rhl</dc:creator>
+ <guid isPermaLink="false">1575 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

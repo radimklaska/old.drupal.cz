@@ -1,0 +1,95 @@
+  $view = new stdClass();
+  $view->name = 'registr';
+  $view->description = 'Registr kontaktních informací';
+  $view->access = array (
+  0 => '2',
+);
+  $view->view_args_php = '';
+  $view->page = TRUE;
+  $view->page_title = 'Registr kontaktních informací';
+  $view->page_header = '';
+  $view->page_header_format = '1';
+  $view->page_footer = '';
+  $view->page_footer_format = '1';
+  $view->page_empty = 'Žádné údaje k zobrazení.';
+  $view->page_empty_format = '1';
+  $view->page_type = 'table';
+  $view->url = 'registr';
+  $view->use_pager = FALSE;
+  $view->nodes_per_page = '0';
+  $view->menu = TRUE;
+  $view->menu_title = 'Registr';
+  $view->menu_tab = FALSE;
+  $view->menu_tab_weight = '0';
+  $view->menu_tab_default = FALSE;
+  $view->menu_tab_default_parent = NULL;
+  $view->menu_parent_tab_weight = '0';
+  $view->menu_parent_title = '';
+  $view->sort = array (
+  );
+  $view->argument = array (
+  );
+  $view->field = array (
+    array (
+      'tablename' => 'profile_given_name',
+      'field' => 'value',
+      'label' => 'Jméno',
+      'sortable' => '1',
+    ),
+    array (
+      'tablename' => 'profile_family_name',
+      'field' => 'value',
+      'label' => 'Příjmení',
+      'sortable' => '1',
+      'defaultsort' => 'ASC',
+    ),
+    array (
+      'tablename' => 'profile_street',
+      'field' => 'value',
+      'label' => 'Ulice',
+      'sortable' => '1',
+    ),
+    array (
+      'tablename' => 'profile_city',
+      'field' => 'value',
+      'label' => 'Město',
+      'sortable' => '1',
+    ),
+    array (
+      'tablename' => 'profile_web',
+      'field' => 'value',
+      'label' => 'Web',
+      'sortable' => '1',
+    ),
+    array (
+      'tablename' => 'profile_email',
+      'field' => 'value',
+      'label' => 'E-mail',
+      'sortable' => '1',
+    ),
+    array (
+      'tablename' => 'profile_mobile',
+      'field' => 'value',
+      'label' => 'Mobil',
+      'sortable' => '1',
+    ),
+    array (
+      'tablename' => 'profile_jabber',
+      'field' => 'value',
+      'label' => 'Jabber',
+      'sortable' => '1',
+    ),
+    array (
+      'tablename' => 'profile_icq',
+      'field' => 'value',
+      'label' => 'ICQ',
+      'sortable' => '1',
+    ),
+  );
+  $view->filter = array (
+  );
+  $view->exposed_filter = array (
+  );
+  $view->requires = array(profile_given_name, profile_family_name, profile_street, profile_city, profile_web, profile_email, profile_mobile, profile_jabber, profile_icq);
+  $views[$view->name] = $view;
+ 

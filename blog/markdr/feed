@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>MarkDr&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/markdr</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Mizící vybraná hodnota přepravní sazby</title>
+ <link>https://www.drupal.cz/blog/markdr/mizici-vybrana-hodnota-prepravni-sazby</link>
+ <description>&lt;p&gt;Ubercart, košík, přihlášený i nepřihlášený uživatel:&lt;/p&gt;
+
+&lt;p&gt;1. problém výpočet poštovného je skryt a musím rozkliknout přes
+tlačítko „Klikněte pro výpočet pošotvného“. Lze toto někde nastavit,
+aby bylo „rozkliknuto“?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/markdr/mizici-vybrana-hodnota-prepravni-sazby&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/markdr/mizici-vybrana-hodnota-prepravni-sazby#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/postovne">poštovné</category>
+ <category domain="https://www.drupal.cz/clanky/prepravni-sazba">přepravní sazba</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6433</wfw:commentRss>
+ <pubDate>Mon, 16 Nov 2009 14:55:58 +0000</pubDate>
+ <dc:creator>MarkDr</dc:creator>
+ <guid isPermaLink="false">6433 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

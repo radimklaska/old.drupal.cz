@@ -1,0 +1,1542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Instalace? drupa5 - nefunkcni instalace&quot;" href="https://www.drupal.cz/crss/node/535" />
+<link rel="shortcut icon" href="https://www.drupal.cz/misc/favicon.ico" type="image/x-icon" />
+ <title>Instalace? drupa5 - nefunkcni instalace | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="../../files/css/css_02a36298fc18f7cc1cadbc14f0dcd6ff.css" />
+ <script type="text/javascript" src="../../files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="instalace-drupa5-nefunkcni-instalace.html#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="../../node/index.html">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="../../o-systemu-drupal.html"><span>O Drupalu</span></a></li>
+<li><a href="../../blog.html"><span>Blogy</span></a></li>
+<li><a href="../../faq.html"><span>FAQ</span></a></li>
+<li><a href="../../forum.1.html"><span>Fórum</span></a></li>
+<li><a href="../../prezentace.html"><span>Prezentace</span></a></li>
+<li><a href="../../preklad-drupalu-do-cestiny-zakladni-informace.html"><span>Překlady</span></a></li>
+<li><a href="../../katalog.1.html"><span>Katalog</span></a></li>
+<li><a href="../../ke-stazeni.html"><span>Stáhnout</span></a></li>
+<li><a href="../../sluzby.html"><span>Služby</span></a></li>
+<li><a href="../../staff.html"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="../../node/index.html">Domů</a> » <a href="../../forum.1.html">Témata fóra</a> » <a href="../instalace.html">Instalace</a> » <a href="../instalace-drupalu.html">Instalace Drupalu</a></div>        <h2 class="title">Instalace? drupa5 - nefunkcni instalace</h2>
+        <div class="tabs"></div>
+                  <div class="article  article-535">
+    <span class="submitted">Vložil/a <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a>, 16 Leden, 2007 - 12:04</span>
+  <div class="pcontent">
+    <div class="forum-kat">
+      <b>Kategorie:</b>
+      Instalace Drupalu    </div>
+    <div class="forum-ver">
+      <b>Týká se verze:</b>
+          </div>
+    <p>Zdravim, po precitani clanku na root.cz som sa rozhodol skusit drupal, a na
+svoj WAMP som si nakopiroval drupal, vytvoril DB a spustil instalaciu. Zaujala
+ma hned prva obrazovka – su tam podivne hlasky, ale ok … vsak to nicomu
+nevadi. Zadal som potrebne data do formulara, ako host, uname a psswd. Po
+odoslanoi dat nastalo prekvapenie … nezafungovalo to. A po zadani povodneho
+url na mna prislo mnozstvo chybovych hlasok … zaujimave – alebo smutne? Kde
+sa nachadzaju SQL scripty? WTF – ako sa ten uzasny a neskonale dokonaly
+drupal instaluje?</p>  <div class="forum-topic-navigation clear-block">
+          <a href="../instalace/instalace-drupalu/jak-upgradovat-cesky-preklad-v-drupalu.html" class="topic-previous" title="Přejít na předchozí téma.">‹ Jak upgradovat český překlad v Drupalu</a>
+              <a href="../instalace/instalace-drupalu/zablokovany-drupal-web.html" class="topic-next" title="Přejít na následující téma.">ZABLOKOVANÝ drupal web ›</a>
+      </div>
+  </div>
+  
+  <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-6257" class="social-add digglink" onmouseover="showSocials(6257)" onmouseout="hideSocials(6257)"><a class="social-href-link" href="instalace-drupa5-nefunkcni-instalace.html#">Linkni to!</a>
+<div class="social-links" id="social-links-6257">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/instalace-drupalu/instalace-drupa5-nefunkcni-instalace&amp;title=Instalace? drupa5 - nefunkcni instalace" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/forum/instalace-drupalu/instalace-drupa5-nefunkcni-instalace&amp;title=Instalace? drupa5 - nefunkcni instalace" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/forum/instalace-drupalu/instalace-drupa5-nefunkcni-instalace" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/instalace-drupalu/instalace-drupa5-nefunkcni-instalace&amp;title=Instalace? drupa5 - nefunkcni instalace" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div></div> <!-- article end -->
+<div class="article-spacer">&nbsp;</div>
+<div id="comments">
+  <a id="comment-1777"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1777" class="active"> no uzasny a neskonale</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 12:17.  </div>
+
+  <div class="content">
+    <p>no uzasny a neskonale dokonaly clovek by hlavne poslal ty hlasky. a predstava
+„divne hlasky – no vzdyt to nicemu nevadi“…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1777" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1779"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1779" class="active"> Já jsem také</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/vera-vila.html" title="Zobrazit profil uživatele.">vera-vila</a> dne 16 Leden, 2007 - 12:51.  </div>
+
+  <div class="content">
+    <p>Já jsem také s instalací měla dost problém, jedna chybová hláška za
+druhou, u každého nastavení, prostě všude, kde jsem co změnila…
+A když jsem se pak odhlásila a znovu si na stránky najela, všechno
+fungovalo, žádná další hláška se neobjevila, kromě změny barvy tématu
+garland mi vše najednou funguje…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1779" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1781"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1781" class="active">hlasky na prvej stranke</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 13:13.  </div>
+
+  <div class="content">
+    <p>Notice: Trying to get property of non-object in
+D:\wamp\www\drupal-5.0\includes\for­m.inc on line 324</p>
+
+<p>Notice: Undefined variable: edit in
+D:\wamp\www\drupal-5.0\includes\for­m.inc on line 744</p>
+
+<p>Notice: Undefined variable: redirect in
+D:\wamp\www\drupal-5.0\includes\for­m.inc on line 267</p>
+
+<p>Notice: Undefined variable: base in
+D:\wamp\www\drupal-5.0\includes\for­m.inc on line 460</p>
+
+<p>Notice: Undefined index: #value in D:\wamp\www\drupal-5.0\includes\for­m.inc
+on line 1024</p>
+
+<p>Notice: Undefined index: #value in D:\wamp\www\drupal-5.0\includes\for­m.inc
+on line 1024</p>
+
+<p>Warning: Cannot modify header information – headers already sent by
+(output started at D:\wamp\www\drupal-5.0\includes\for­m.inc:324) in
+D:\wamp\www\drupal-5.0\includes\com­mon.inc on line 141</p>
+
+<p>Notice: Undefined variable: no_module_pre­process in
+D:\wamp\www\drupal-5.0\includes\com­mon.inc on line 1467</p>
+
+<p>Notice: Undefined variable: no_theme_preprocess in
+D:\wamp\www\drupal-5.0\includes\com­mon.inc on line 1488</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1781" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1782"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1782" class="active">hlasky po ulozeni konfiguracie</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 13:15.  </div>
+
+  <div class="content">
+    <p>Notice: Trying to get property of non-object in
+D:\wamp\www\drupal-5.0\includes\for­m.inc on line 324</p>
+
+<p>Notice: Undefined index: pass in
+D:\wamp\www\drupal-5.0\includes\in­stall.mysql.inc on line 32</p>
+
+<p>Notice: Undefined index: comment in
+D:\wamp\www\drupal-5.0\includes\in­stall.inc on line 207</p>
+
+<p>Notice: Undefined index: comment in
+D:\wamp\www\drupal-5.0\includes\in­stall.inc on line 207</p>
+
+<p>Warning: Cannot modify header information – headers already sent by
+(output started at D:\wamp\www\drupal-5.0\includes\for­m.inc:324) in
+D:\wamp\www\drupal-5.0\includes\in­stall.inc on line 573</p>
+
+<p>a nic zatym sa nezobrazuje</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1782" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1783"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1783" class="active">po prepnuti na root stranku</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 13:15.  </div>
+
+  <div class="content">
+    <pre class="php"><code>Warning: Table 'drupal.access' doesn't exist query: SELECT CASE WHEN status=1 THEN 0 ELSE 1 END FROM access WHERE type = 'host' AND LOWER('127.0.0.1') LIKE LOWER(mask) ORDER BY status DESC LIMIT 0, 1 in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: session_start() [function.session-start]: Cannot send session cookie - headers already sent by (output started at D:\wamp\www\drupal-5.0\includes\database.mysql.inc:167) in D:\wamp\www\drupal-5.0\includes\bootstrap.inc on line 811
+
+Warning: session_start() [function.session-start]: Cannot send session cache limiter - headers already sent (output started at D:\wamp\www\drupal-5.0\includes\database.mysql.inc:167) in D:\wamp\www\drupal-5.0\includes\bootstrap.inc on line 811
+
+Warning: Table 'drupal.cache' doesn't exist query: SELECT data, created, headers, expire FROM cache WHERE cid = 'variables' in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.variable' doesn't exist query: SELECT * FROM variable in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Notice: Undefined variable: variables in D:\wamp\www\drupal-5.0\includes\bootstrap.inc on line 349
+
+Warning: Table 'drupal.cache' doesn't exist query: LOCK TABLES cache WRITE in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.cache' doesn't exist query: UPDATE cache SET data = 'N;', created = 1168949642, expire = 0, headers = '' WHERE cid = 'variables' in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Notice: Undefined variable: variables in D:\wamp\www\drupal-5.0\includes\bootstrap.inc on line 356
+
+Warning: Table 'drupal.cache_page' doesn't exist query: SELECT data, created, headers, expire FROM cache_page WHERE cid = 'http://localhost/drupal-5.0/' in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Cannot modify header information - headers already sent by (output started at D:\wamp\www\drupal-5.0\includes\database.mysql.inc:167) in D:\wamp\www\drupal-5.0\includes\bootstrap.inc on line 488
+
+Warning: Cannot modify header information - headers already sent by (output started at D:\wamp\www\drupal-5.0\includes\database.mysql.inc:167) in D:\wamp\www\drupal-5.0\includes\bootstrap.inc on line 489
+
+Warning: Cannot modify header information - headers already sent by (output started at D:\wamp\www\drupal-5.0\includes\database.mysql.inc:167) in D:\wamp\www\drupal-5.0\includes\bootstrap.inc on line 490
+
+Warning: Cannot modify header information - headers already sent by (output started at D:\wamp\www\drupal-5.0\includes\database.mysql.inc:167) in D:\wamp\www\drupal-5.0\includes\bootstrap.inc on line 491
+
+Warning: Table 'drupal.url_alias' doesn't exist query: SELECT COUNT(pid) FROM url_alias in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.system' doesn't exist query: SELECT * FROM system WHERE type = 'theme' in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Notice: Undefined property: stdClass::$theme in D:\wamp\www\drupal-5.0\includes\theme.inc on line 45
+
+Notice: Undefined index: garland in D:\wamp\www\drupal-5.0\includes\theme.inc on line 58
+
+Notice: Trying to get property of non-object in D:\wamp\www\drupal-5.0\includes\theme.inc on line 58
+
+Notice: Undefined index: garland in D:\wamp\www\drupal-5.0\includes\theme.inc on line 67
+
+Notice: Trying to get property of non-object in D:\wamp\www\drupal-5.0\includes\theme.inc on line 67
+
+Notice: Undefined index: garland in D:\wamp\www\drupal-5.0\includes\theme.inc on line 72
+
+Notice: Trying to get property of non-object in D:\wamp\www\drupal-5.0\includes\theme.inc on line 72
+
+Notice: Undefined index: garland in D:\wamp\www\drupal-5.0\includes\theme.inc on line 76
+
+Notice: Trying to get property of non-object in D:\wamp\www\drupal-5.0\includes\theme.inc on line 76
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Cannot modify header information - headers already sent by (output started at D:\\wamp\\www\\drupal-5.0\\includes\\database.mysql.inc:167)&lt;/em&gt; in &lt;em&gt;D:\\wamp\\www\\drupal-5.0\\includes\\common.inc&lt;/em&gt; on line &lt;em&gt;141&lt;/em&gt;.', 2, '', 'http://localhost/drupal-5.0/', '', '127.0.0.1', 1168949642) in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Table &amp;amp;#039;drupal.system&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: SELECT name, filename, throttle, bootstrap FROM system WHERE type = &amp;amp;#039;module&amp;amp;#039; AND status = 1 ORDER BY weight ASC, filename ASC&lt;/em&gt; in &lt;em&gt;D:\\wamp\\www\\drupal-5.0\\includes\\database.mysql.inc&lt;/em&gt; on line &lt;em&gt;167&lt;/em&gt;.', 2, '', 'http://localhost/drupal-5.0/', '', '127.0.0.1', 1168949642) in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Table &amp;amp;#039;drupal.cache_menu&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: SELECT data, created, headers, expire FROM cache_menu WHERE cid = &amp;amp;#039;0:en&amp;amp;#039;&lt;/em&gt; in &lt;em&gt;D:\\wamp\\www\\drupal-5.0\\includes\\database.mysql.inc&lt;/em&gt; on line &lt;em&gt;167&lt;/em&gt;.', 2, '', 'http://localhost/drupal-5.0/', '', '127.0.0.1', 1168949642) in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Table &amp;amp;#039;drupal.cache_menu&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: LOCK TABLES cache_menu WRITE&lt;/em&gt; in &lt;em&gt;D:\\wamp\\www\\drupal-5.0\\includes\\database.mysql.inc&lt;/em&gt; on line &lt;em&gt;167&lt;/em&gt;.', 2, '', 'http://localhost/drupal-5.0/', '', '127.0.0.1', 1168949642) in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Table &amp;amp;#039;drupal.cache_menu&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: UPDATE cache_menu SET data = &amp;amp;#039;a:4:{s:10:\\&amp;amp;quot;path index\\&amp;amp;quot;;a:0:{}s:5:\\&amp;amp;quot;items\\&amp;amp;quot;;a:2:{i:0;a:5:{s:4:\\&amp;amp;quot;path\\&amp;amp;quot;;s:0:\\&amp;amp;quot;\\&amp;amp;quot;;s:5:\\&amp;amp;quot;title\\&amp;amp;quot;;s:0:\\&amp;amp;quot;\\&amp;amp;quot;;s:4:\\&amp;amp;quot;type\\&amp;amp;quot;;i:1;s:3:\\&amp;amp;quot;pid\\&amp;amp;quot;;i:1;s:8:\\&amp;amp;quot;children\\&amp;amp;quot;;a:1:{i:0;i:1;}}i:1;a:6:{s:3:\\&amp;amp;quot;pid\\&amp;amp;quot;;i:0;s:4:\\&amp;amp;quot;path\\&amp;amp;quot;;s:0:\\&amp;amp;quot;\\&amp;amp;quot;;s:5:\\&amp;amp;quot;title\\&amp;amp;quot;;s:10:\\&amp;amp;quot;Navigation\\&amp;amp;quot;;s:6:\\&amp;amp;quot;weight\\&amp;amp;quot;;i:-50;s in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Cannot modify header information - headers already sent by (output started at D:\\wamp\\www\\drupal-5.0\\includes\\database.mysql.inc:167)&lt;/em&gt; in &lt;em&gt;D:\\wamp\\www\\drupal-5.0\\includes\\common.inc&lt;/em&gt; on line &lt;em&gt;141&lt;/em&gt;.', 2, '', 'http://localhost/drupal-5.0/', '', '127.0.0.1', 1168949642) in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Table &amp;amp;#039;drupal.watchdog&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &amp;amp;#039;page not found&amp;amp;#039;, &amp;amp;#039;node&amp;amp;#039;, 1, &amp;amp;#039;&amp;amp;#039;, &amp;amp;#039;http://localhost/drupal-5.0/&amp;amp;#039;, &amp;amp;#039;&amp;amp;#039;, &amp;amp;#039;127.0.0.1&amp;amp;#039;, 1168949642)&lt;/em&gt; in &lt;em&gt;D:\\wamp\\www\\drupal-5.0\\includes\\database.mysql.inc&lt;/em&gt; on line &lt;em&gt;167&lt;/em&gt;.', 2, '', 'http://localhost/drupal-5.0/', '', '127.0.0.1', 1168949642) in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Fatal error: Call to undefined function block_list() in D:\wamp\www\drupal-5.0\includes\theme.inc on line 1013
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Table &amp;amp;#039;drupal.sessions&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: SELECT sid FROM sessions WHERE sid = &amp;amp;#039;529cdad8f27928a4a365d4c40e8db9ce&amp;amp;#039;&lt;/em&gt; in &lt;em&gt;D:\\wamp\\www\\drupal-5.0\\includes\\database.mysql.inc&lt;/em&gt; on line &lt;em&gt;167&lt;/em&gt;.', 2, '', 'http://localhost/drupal-5.0/', '', '127.0.0.1', 1168949642) in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167
+
+Warning: Table 'drupal.watchdog' doesn't exist query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, 'php', '&lt;em&gt;Table &amp;amp;#039;drupal.sessions&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: INSERT INTO sessions (sid, uid, cache, hostname, session, timestamp) VALUES (&amp;amp;#039;529cdad8f27928a4a365d4c40e8db9ce&amp;amp;#039;, 0, 0, &amp;amp;#039;127.0.0.1&amp;amp;#039;, &amp;amp;#039;messages|a:1:{s:5:\\&amp;amp;quot;error\\&amp;amp;quot;;a:7:{i:0;s:201:\\&amp;amp;quot;warning: Cannot modify header information - headers already sent by (output started at D:\\\\wamp\\\\www\\\\drupal-5.0\\\\includes\\\\database.mysql.inc:167) in D:\\\\wamp\\\\www\\\\drupal-5.0\\\\includes\\\\common.inc on line 141.\\&amp;amp;quot;;i:1;s:274:\\&amp;amp;quot;user warning: Table &amp;amp;amp;#039;drupal.system&amp;amp;amp;#039; doesn&amp;amp;amp;#039;t exist\\nquery: SELECT name, filename, throttle, bootstrap FROM system WHERE type = in D:\wamp\www\drupal-5.0\includes\database.mysql.inc on line 167</code></pre>
+
+<p>a tiez sa nic nezobrazuje</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1783" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1786"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1786" class="active"> Uz to tu bolo preberane X</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Leden, 2007 - 15:12.  </div>
+
+  <div class="content">
+    <p>Uz to tu bolo preberane X krat. Je to v nastaveni PHP – notice su len
+upozornenia ktore nijak neprekazaju behu programu. Default nastavenie PHP pre
+beh aplikacie je E_ALL ~ E_NOTICE co znamena ze sa vypisuju len
+<em>podstatne</em> chybove hlasky. Notice su uzitocne jedine pre vyvojara web
+stranok. Pri behu aplikacie v reale by dokonca mali byt vsetky chybove hlasky
+vypnute aby z nich nemohol pripadny utocnik vycitat detaily ktore mu umoznia
+zautocit na web.</p>
+
+<p>Cize riesenie je nastavit si v php.ini error_reporting na E_ALL ~
+E_NOTICE</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1786" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1789"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1789" class="active"> Ale ten zbytek je jina</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 15:56.  </div>
+
+  <div class="content">
+    <p>Ale ten zbytek je jina chyba. Vidim to na stejny problem jako vera-vila a
+rozhodne je problem nekde na WAMP. Mozna maly exec_time?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1789" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1796"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1796" class="active">casu je dost</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 16:59.  </div>
+
+  <div class="content">
+    <p>casom to urcite nie je – odozva bola na klik, takze problem vidim niekde
+inde … mozno v tom ze su tam nevkusne hlasky a potom to padne na setovanie
+hlavicky – znovu … neviem ako u vas, ale u nas take hlasky nevedieme –
+aspon mame jasno ze je vsetko OK.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1796" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1795"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1795" class="active">xXx krat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 17:01.  </div>
+
+  <div class="content">
+    <p>Neviem ako u vas ale u nas sa taketo hlasky povazuju prinajmensom za
+nevkusne – riesenie typu ignorujte to je dost zaujimave. Ignorovat hlasky
+tohto typu sa nevyplaca – castokrat sa stava ze sa takto utajuje zavazna
+chyba a nefunkcnost casti kodu – obcas to moze byt osudove.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1795" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1798"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1798" class="active"> ze Drupalu 5 chybi nekolik</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 17:31.  </div>
+
+  <div class="content">
+    <p>ze Drupalu 5 chybi nekolik kousku do E_ALL kompatibility je znama vec. je to
+take prvni patch, ktery bude commitnut do Drupal 6.x-dev, viz. <a href="https://drupal.org/node/109765">http://drupal.org/node/109765</a></p>
+
+<p>bud se s tim smirte, nebo nepouzivejte Drupal. pripada mi, ze mate jiz
+vyvinuty nejaky podobny system a ted zkousite Drupal a hledate podobnosti s tim
+Vasim. nic neni podobne, vsechno funguje trochu jinak. pak se akorat
+naserete…</p>
+
+<p>p.s.: Drupal je takovy pekny test kvality ceskych webhostingu. ukazuje se, ze
+situace na ceskem trhu je vice nez zoufala. ale to neni vas pripad, protoze
+mate WAMP</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1798" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1804"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1804" class="active"> OT: Jakube, asi mas na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Leden, 2007 - 18:06.  </div>
+
+  <div class="content">
+    <p>OT: Jakube, asi mas na serveri stale zle nastaveny cas :D Ja tu mam na
+hodinkach 18:05 (nieco s tym letnym/zimnym casom urobit mohli aj ked sa ma
+zevraj rusit).</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1804" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1811"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1811" class="active">CMS a podobne</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 18:41.  </div>
+
+  <div class="content">
+    <p>Tie chybky su otazkou par minut … staci definovat var. ale to sa malo
+spravit pri release 5 a nie vydavat patch – tak trochu to smrdi, hlavne ak
+je to tak malo prace ktora je bezvyznamna. Ano pouzivam iny CMS a drupal som si
+chcel skusit na lokalnej masine aby som zistil o co ide … nepodarilo sa.
+Teraz neviem ci WAMP chvalite alebo zavrhujete. Ak mate predstavu ze niekto
+funguje za pomoci WAMP na internete tak potom je to .. hmm .. usmevne to
+vypoveda o tom, ze mate jednoznacne prehlad ze? ;) ostreweby sa nasadzuju
+trosku inak ale … naco riskovat neoverenu aplikaciu na serveri kde je
+produkcia? nie je lepsie pouzit dev. masinu a tym padom wamp? :p</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1811" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1814"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1814" class="active"> nebude se delat patch. to</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 18:51.  </div>
+
+  <div class="content">
+    <p>nebude se delat patch. to je patch do verze 6. ta jiz bude E_ALL
+compliant</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1814" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1815"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1815" class="active"> nechapu proc me urazite.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 18:51.  </div>
+
+  <div class="content">
+    <p>nechapu proc me urazite. nashledanou</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1815" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1820"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1820" class="active">RE:  nechapu proc me urazite.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 18:59.  </div>
+
+  <div class="content">
+    <p>ja vas neurazam rovnako ako vy neurazate mna. nashledanou</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1820" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1818"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1818" class="active"> Ja osobne WAMP nepoznam,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Leden, 2007 - 18:54.  </div>
+
+  <div class="content">
+    <p>Ja osobne WAMP nepoznam, Apache, PHP, MySQL, PostgreSQL si instalujem vzdy
+samostatne – trva to sice trochu dlhsie ale presne viem co mam v systeme a
+ako to mam nastavene.</p>
+
+<p>Holt podla mna sa treba zmierit s tym ze PHP bolo spociatku stavane tak (a
+pokial viem plati to stale) ze premenne dopredu definovat netreba. Standardne
+nastavenie v php.ini bolo cele roky E_ALL ~ E_NOTICE. Neviem ako je to
+v poslednych verziach – PHP 5 nepouzivam. Mozno je to chyba vyvojarov PHP
+ze nenaucili ludo co PHP pouzivaju definovat premenne ako je to v striktnych
+jazykoch ako je Pascal ci C.</p>
+
+<p>Co sa tyka mojho prehladu ako to na Internete funguje tak o tom nic nevies
+tak nemusis skusat byt ironicky. ;-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1818" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1821"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1821" class="active"> WAMP je Windows Apache</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 19:02.  </div>
+
+  <div class="content">
+    <p>WAMP je Windows Apache MySQL PostgreSQL. Windows obdoba LAMP (kde se ten
+pojem ustalil). Kdyz jsem mluvil o WAMPu, tak jsem jenom chtel rict, ze toho
+pana se ty problemy netykaji, protoze ma WAMP, takze vubec nejde o to, jak ma
+kvalitni hosting…</p>
+
+<p>E_ALL je nastaveno v nejakem tom EasyPHP ci co to je. Je to nejaky balik
+PHP+MySQL pro WIndows s lehkou instalaci</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1821" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1823"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1823" class="active">vysvetlenie</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 19:06.  </div>
+
+  <div class="content">
+    <p>som rad ze sa to vyjasnilo. nabuduce viacej pisat – clovek potom nevie ci
+je tercom utoku alebo iba dany clovek nerozpisal myslienku dostatocne.</p>
+
+<p>prajem prijemny vecer … aj pracovat treba ;)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1823" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1829"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1829" class="active"> Dik, viem co je to WAMP :)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Leden, 2007 - 19:20.  </div>
+
+  <div class="content">
+    <p>Dik, viem co je to WAMP :) Len som chcel podotknut ze take baliky s principu
+nemam rad – prave kvoli takym veciam ako ze maju nastaveny error_reporting
+tak ako si mysli autor balicku ze je to vhodne pre mna. A potom sa spusta ludi
+pyta na podobne veci ako ta o ktorej tu debatujeme. Neda sa zistit kto ma aku
+uroven vedomosti a potom sa moze zdat ze napr. Karol je jeden z tych
+nestastnych zaciatocnikov co nemaju ponatia co to NOTICE znamena. Zjavne ponatie
+ma ale to ze sa mu proste nechce prestavovat php.ini a vyskusat instalaciu
+znova, to sme pochopili az po dlhej a neplodnej debate.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1829" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-2513"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2513" class="active">WAMP</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Ján Polák (bez ověření) dne 15 Únor, 2007 - 19:25.  </div>
+
+  <div class="content">
+    <p>Dobrý večer,</p>
+
+<p>rád by som sa spýtal, že ak chce niekto (resp. musi :( ) prevadzkovat
+Apache s SSL na Windows 2003, tak ake ma moznosti? Mne bol doporuceny WAMP,
+pretoze v originale Apache SSL nie je … ale SSL je sucastou instalacie
+WAMP-u.</p>
+
+<p>Dakujem</p>
+
+<p>Jano</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2513" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2514"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2514" class="active"> Pletete si pojmy. WAMP =</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 15 Únor, 2007 - 19:31.  </div>
+
+  <div class="content">
+    <p>Pletete si pojmy. WAMP = Windows Apache MySQL PHP. Takze presne to co rikate.
+Je to jen zkratka. Pokud myslite Wampserver, tak asi ano</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2514" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2515"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2515" class="active"> Vďaka za upresnenie</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Ján Polák (bez ověření) dne 15 Únor, 2007 - 19:46.  </div>
+
+  <div class="content">
+    <p>Vďaka za upresnenie pojmov … :). Co sa tyka Apache s SSL na Windows, tak
+mam aj ine moznosti ako Wampserver?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2515" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2520"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2520" class="active"> Hmm tuna som nasiel nejaky</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 15 Únor, 2007 - 20:25.  </div>
+
+  <div class="content">
+    <p>Hmm tuna som nasiel nejaky postup ako na APACHE 2.2 z SSL na win32. Mozno
+pomoze:</p>
+
+<p><a href="http://smithii.com/apache_for_windows/">http://smithii.com/…for_windows/</a>
+(navod) <a href="https://www.apachelounge.com/download/">http://www.apachelounge.com/download/</a>
+(apache z SSL na stiahnutie)</p>
+
+<p>Na apache.org priamo asi instalacka so SSL nie je. Z tych dvoch odkazov by
+sa to nejak malo dat poskladat.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2520" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2522"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2522" class="active"> Vďaka za rýchlu reakciu.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/jan-polak.html" title="Zobrazit profil uživatele.">Jan Polak</a> dne 15 Únor, 2007 - 20:37.  </div>
+
+  <div class="content">
+    <p>Vďaka za rýchlu reakciu. Pôvodne som chcel použiť WAMP (server), ale
+keď pôjde Apache s SSL na Windows aj bez neho, tak využijem túto cestu …
+neviem prečo tu padlo varovanie pred použitím WAMP (serveru)
+produkčne …</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2522" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2524"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2524" class="active"> Protoze pouzit Apache na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 15 Únor, 2007 - 20:43.  </div>
+
+  <div class="content">
+    <p>Protoze pouzit Apache na Windows je samo o sobe spatna vec :-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2524" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2525"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2525" class="active"> Ale ked mam pod vmware</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 15 Únor, 2007 - 20:47.  </div>
+
+  <div class="content">
+    <p>Ale ked mam pod vmware server na WindowsXP nainstalovane FreeBSD a na nom
+Apache(MySQL|Pos­tgreSQL)PHP tak to chodi jak blesk :D. (No ale priznam ze mam
+na to aj HW :) 2GB RAM a Core2Duo to isti…)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2525" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2527"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2527" class="active"> A to pockej na Red Hat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 15 Únor, 2007 - 20:56.  </div>
+
+  <div class="content">
+    <p>A to pockej na Red Hat Enterprise 5 se zaintegrovanym XENem. K tomu AMD
+Pacifica nebo Intel VT a pujdou na tom virtualizovat i windows</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2527" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-2528"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2528" class="active"> Nemám inú možnosť. Na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/jan-polak.html" title="Zobrazit profil uživatele.">Jan Polak</a> dne 15 Únor, 2007 - 21:16.  </div>
+
+  <div class="content">
+    <p>Nemám inú možnosť. Na jednej strane mam aplikaciu, ktora ma COM rozhranie
+a potrebujem urobit pristup cez internet a jedina moznost je vytvorit instanciu
+COM objektu a to viem iba na Windows … :(.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2528" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div></div></div><a id="comment-1822"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1822" class="active">ironia</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 19:04.  </div>
+
+  <div class="content">
+    <p>nepisal som o tebe – ja na osobne rozhovory kaslem … ale ak si nekto
+rypne tak si mozeme pekne zaflamovat – tiez si rad rypnem. a to ak niekto
+niekomu da fakcu a schyta kopanec si za to moze sam. otakza je ako sa k tomu
+postavi … zial povecsine zacnu plakat a zalovat mamicke ze ho niekto skopal ;)
+takze … nefackovat – diskutovat. a ak fackujes tak sa priprav na
+kopanec ;)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1822" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1824"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1824" class="active"> my si tykame? nechte toho.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 19:07.  </div>
+
+  <div class="content">
+    <p>my si tykame? nechte toho. stravil jsem posledni mesice radami uzivatelum,
+kteri o webovych aplikacich vedeli pravdepodobne nekolikrat mene nez vy. ale
+meli alespon trochu slusnosti se zeptat korektne. vy jste prisel uz rovnou
+s dotazem „nebo ten dokonaly a uzasny durpal neco neumi?“. a mam celkem
+dost prace na to, abych s nekym takovym flamoval. takze se prosim odeberte do
+koncin Vaseho CMS (ktery Vam neberu. kazdy dela co umi sam) a nebo prijdte
+s rozumnym dotazem. v tom pripade vam rad poradim.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1824" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1831"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1831" class="active">„nebo ten dokonaly a uzasny durpal neco neumi?“</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 19:45.  </div>
+
+  <div class="content">
+    <p>„nebo ten dokonaly a uzasny durpal neco neumi?“ ano mate pravdu je to tak
+… ale je to len koli tomu ze komunita okolo drupalu takto vystupuje a navyse
+oficialne spravy sa neskonale chvastaju absolutnou dokonalostou a REVOLUCIOU na
+webe. Ja som len chcel danu revoluciu zazit – zazil som vselico ine ako
+revoluciu ale je to aspon poucne.</p>
+
+<p>Prajem vam pevnejsie nervy – vedenie takehoto webu nieco stoji – ale to
+sam dobre viete. Ja osobne som mal na svojom webe navstevu prave jedneho
+drupalistu. Dodal som mu vseky korektne informacie aj ked trosku provokoval ;)
+link na svoj web nedam – nema to zmysel a mozno by ste ho aj zmazali ;)</p>
+
+<p>Open Source projektom zdar!</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1831" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1832"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1832" class="active"> tomu se rika marketing… </a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 19:59.  </div>
+
+  <div class="content">
+    <p>tomu se rika marketing…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1832" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1833"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1833" class="active">marketing</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 20:09.  </div>
+
+  <div class="content">
+    <p>no co uz … znova som naletel klamnej reklame</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1833" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1835"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1835" class="active"> Neviem ja som take veci</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Leden, 2007 - 20:15.  </div>
+
+  <div class="content">
+    <p>Neviem ja som take veci cital len ako nadsene popisy fanusikov drupalu (a tym
+Jakub je) a nie oficialne spravy :). Oficialna sprava je tu <a href="https://drupal.org/drupal-5.0">http://drupal.org/drupal-5.0</a> a je uplne
+vecna a nijak sa nad ostatne CMS nevyvysuje. To co pises (ufam ze si mozeme
+tykat, aspon som v takychto konferach na to zvyknuty) je len tvoj dojem a je to
+od teba trosku demagogia. Na druhu stranu ked nie si schopny obetovat trochu
+casu pre to aby si sa vecne postavil k problemu a ten prekliaty Drupal konecne
+rozbehal, tak neviem preco sa snazis sudit Drupal na zaklade jednoho svojho
+neuspechu.</p>
+
+<p>Inak JOOMLA som skusal tiez a odradilo ma par vlastnosti (uz ani neviem
+presne co), myslim ze tabulkovy dizajn v administracii, pokial si spominam tak
+neprehladny sablonovy system, dost velky chaos v adresaroch a tusim aj velka
+instalacia. (Google sa dostane vsade). Nijak toto CMS nezatracujem len proste
+pre mna nebolo vhodne.</p>
+
+<p>Ako programator mam rad jednoduche a ciste urobene veci a Joomla mi toto
+nepriniesla. Podla mna je JOOMLA urcena skor ludom ktory chcu mat kompletne CMS
+hned po instalacii – DRUPAL je zasa vhodny pre vyvojarov ktory sa nechcu
+zatazovat zatazovat vytvaranim zakladov ale chcu sa hned pustit do rozsirovania
+funkcionality.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1835" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2532"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2532" class="active"> Ahoj, Drupal nepoznam, ale</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/jan-polak.html" title="Zobrazit profil uživatele.">Jan Polak</a> dne 16 Únor, 2007 - 03:48.  </div>
+
+  <div class="content">
+    <p>Ahoj, Drupal nepoznam, ale Tvoje vyjadrenie ako programatora ma potesilo.
+Drupal je bez tabuliek?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2532" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2533"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2533" class="active"> Ked neratam databazove</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Únor, 2007 - 07:09.  </div>
+
+  <div class="content">
+    <p>Ked neratam databazove tabulky a tabulky zo zoznammi pouzivatelov a podobne
+tak ano :). Drupal je bez tabuliek a da sa (jeho vzhlad) modifikovat pomocou CSS
+(a produkuje validne HTML). O co som sa napr. snazil na enigma.sk. Sice nevyslo
+to na 100% ale vzdy ked ju vidim tak ma potesi zelena fajka z Firefoxu
+Extension Html Validator).</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2533" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2534"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2534" class="active"> Pozrel som www.enigma.sk,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/jan-polak.html" title="Zobrazit profil uživatele.">Jan Polak</a> dne 16 Únor, 2007 - 09:49.  </div>
+
+  <div class="content">
+    <p>Pozrel som <a href="http://www.enigma.sk">www.enigma.sk</a>, sympaticka
+stranka. S IE tusim trochu preblikava, nie?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2534" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2536"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2536" class="active"> To ma na svedomi asi JS co</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Únor, 2007 - 10:32.  </div>
+
+  <div class="content">
+    <p>To ma na svedomi asi JS co robi max-width (tipujem). Kto ale preboha pouziva
+ten zastaraly browser, tak si je sam sebe panom svojho osudu ;) (joke).</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2536" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2538"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2538" class="active"> Drupal pouziva @import na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/jan-polak.html" title="Zobrazit profil uživatele.">Jan Polak</a> dne 16 Únor, 2007 - 11:14.  </div>
+
+  <div class="content">
+    <p>Drupal pouziva @import na prilinkovanie CSS. Niekde som cital, ze to
+sposobuje problemy s preblikavanim. Zaujimalo by ma, ze keby si to nahradil s
+&lt;link …, ci to nezmizne. Teda pre upresnenie, nie vzdy, iba ak je pouzity
+priamo v HTML a to je pripad Drupal …</p>
+A este jedna vec pri pohlade so skriptu. Je tam dost
+, akoby nahradili tabulky div-mi.  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2538" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2539"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2539" class="active"> Ked pozeras do enigmy tak</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Únor, 2007 - 12:21.  </div>
+
+  <div class="content">
+    <p>Ked pozeras do enigmy tak tu som krvopotne vypotil od zakladu sam. HTML + CSS
+(teda vacsinu HTML lebo niektore zakladne veci ma DRUPAL prednastavene –
+trebars vypis blokov (jeho HTML) pokial sablona neexistuje, je zapisany vo
+funkcii). To ze to vyzera tak ako to vyzera mozem za to ja – som to
+prepraskal divmi kvoli dizajnu :))).</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2539" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-2540"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-2540" class="active"> Dobra praca… :). A mozes</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/jan-polak.html" title="Zobrazit profil uživatele.">Jan Polak</a> dne 16 Únor, 2007 - 12:36.  </div>
+
+  <div class="content">
+    <p>Dobra praca … :). A mozes este skusit nahradit ten @import za &lt;link …
+? Zaujimalo by ma, ci sa zmeni spravanie v IE. Ďďď …</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/2540" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><a id="comment-1803"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1803" class="active"> Mam take podozrenie –</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Leden, 2007 - 18:05.  </div>
+
+  <div class="content">
+    <p>Mam take podozrenie – nedal si nahodou prefix na tabulky
+<code>drupal.</code> ?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1803" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1809"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1809" class="active">prefix</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 18:33.  </div>
+
+  <div class="content">
+    <p>nedal a ani to nebolo v zakladnych nastaveniach prednastavene – takze je
+to tym padom vporiadku</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1809" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1810"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1810" class="active"> Aha tak to sa potom</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Leden, 2007 - 18:35.  </div>
+
+  <div class="content">
+    <p>Aha tak to sa potom databaza vola drupal – pomylilo ma to  – ale zjavne
+sa ti nevytvorili tabulky – skus vypnut tie notice a zopakovat
+instalaciu.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1810" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1813"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1813" class="active">cakanie na patch</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 18:47.  </div>
+
+  <div class="content">
+    <p>ano mohol by som ale naco ked zachvilku vyjde patch ;) ja mam casu dost.
+notice mam zapnute koli nedokonalosti v php – aby to bolo viditelne. drupal
+zatial nema umna poziciu aby si vynucoval extra nastavenia :) tesim sa na patch
+a dev … tym padom unstable a tym padom nedoverihodnu verziu :)) cislovanie je
+svina ze? … alebo klientom vravite … dame vam tam unstable dev verziu –
+mozno tam nie je vsetko opravene ale inak je to fakt super.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1813" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1817"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1817" class="active"> normalne bych vas poslal</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Leden, 2007 - 18:54.  </div>
+
+  <div class="content">
+    <p>normalne bych vas poslal tam, kam slunce nesviti, ale snazim se delat neco do
+skoly, tak se nebudu rozcilovat. nashledanou. nepouzivejte prosim Drupal.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1817" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1827"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1827" class="active"> A ten tvoj/vas (tipujem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 16 Leden, 2007 - 19:11.  </div>
+
+  <div class="content">
+    <p>A ten tvoj/vas (tipujem z vlastnej produkcie) CMS funguje bez extra
+nastaveni? A smiem ho niekde vidiet? Ja som si Drupal vybral po odskusani
+niekolkych CMS pre tieto veci – mala instalacia, vyborne dokumentovane API,
+lahka rozsirovatelnost, premysleny sablonovaci system. Skusal som vselico ale
+Drupal ma zaujal od pohladu do instalacie, do zdrojakov aj na funkcnost. Aj ked
+na prvy pohlad vyzera ako skarede kacatko vnutri ma svoju silu. Snad si niekedy
+ten cas na instalaciu najdes.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1827" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1834"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1834" class="active">kludne mi vrav ako chces - nema cenu sa na nico hrat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 20:15.  </div>
+
+  <div class="content">
+    <p>drupal si samozrejme skusim pretoze je to velmi silny CMS – teda aspon som
+ziskal taky dojem. vsetkym cim si clovek prejde ho to obohati. nevylucujem ze
+prejdem na drupal ak ma presvedci ze mi za to stoji. ja teraz obhospodarujem
+jeden nemenovany cms :) a som s nim spokojny pretoze ma vsetko co od neho
+potrebujem. beriem to ako skusku niecoho co nepoznam – nema zmysel sa
+zakuklovat v jednom produkte ked ich je na svete tak uzastne mnozstvo a hlavne
+su castokrat velmi kvalitne :)</p>
+
+<p>vidim to na nejaku konferenciu OS CMS … zeby ta linuxova vystava
+v prahe? ;)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1834" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1836"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1836" class="active">extra nastavenia</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karol-cejka.html" title="Zobrazit profil uživatele.">karol.cejka</a> dne 16 Leden, 2007 - 20:17.  </div>
+
+  <div class="content">
+    <p>ano … instalacia je v par krokoch kde sa definuje DB a podobne veci. po
+prejdeni wizardu sa na konci zmazne instalacny adresar a site je ready. nema tak
+vela predinstalovanych funkcii – ale bezi spolahlivo … toto je ale reklama
+ktora na tieto stranky nepatri – dufam ze majitel stranok nevylezie
+z koze</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1836" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div></div><a id="comment-1847"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="instalace-drupa5-nefunkcni-instalace.html#comment-1847" class="active">Problem pri instalaci</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Aspirin (bez ověření) dne 16 Leden, 2007 - 23:27.  </div>
+
+  <div class="content">
+    <p>Ahoj,</p>
+
+<p>stahl jsem posl verzi Drupalu (5) a pokusil se ji nainstalovat na free
+hosting na ic.cz. Upload souboru ok. Databaze zrizena. Spusteni instalace ok.
+Vyplnim udaje o databazi (host, jmeno, heslo) a: " Failure to connect to your
+MySQL database server. MySQL reports the following message: Can't connect to
+local MySQL server through socket ‚/var/run/mys­qld/mysqld.soc­k‘ (2). Are
+you sure you have the correct username and password? Are you sure that you have
+typed the correct database hostname? Are you sure that the database server is
+running? " vse z uvedeneho je ok a zadavam to spravne. Jine CMS jdou na ic.cz
+nainstalovat bez problemu (Joomla, e107, Tikiwiki, Xoops). Tusi nekdo v cem je
+zrada ?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/535/1847" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="instalace-drupa5-nefunkcni-instalace@page=1.html" title="Přejít na stranu 2" class="active">2</a></li>
+<li class="pager-next"><a href="instalace-drupa5-nefunkcni-instalace@page=1.html" title="Přejít na další stranu" class="active">následující ›</a></li>
+<li class="pager-last last"><a href="instalace-drupa5-nefunkcni-instalace@page=1.html" title="Přejít na poslední stranu" class="active">poslední »</a></li>
+</ul></div><div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="https://www.drupal.cz/comment/reply/535"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="../../filter/tips.html">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-5d4628bc3573c0ec633f21c48049ea31" value="form-5d4628bc3573c0ec633f21c48049ea31"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="https://www.drupal.cz/forum/instalace-drupalu/instalace-drupa5-nefunkcni-instalace?destination=node%2F535"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="../../user/register.html" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="../../user/password.html" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-876a323f3562cf8b8ed25f917b63748d" value="form-876a323f3562cf8b8ed25f917b63748d"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="../../node/52781.html"><img src="../../files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="../../bezpecnost.html">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="../../clanky/akce.1.html" class="tagadelic level4">akce</a> 
+<a href="../../clanky/bezpecnost.1.html" class="tagadelic level6">bezpečnost</a> 
+<a href="../../clanky/cck.html" class="tagadelic level2">CCK</a> 
+<a href="../../clanky/como-ganhar-dinheiro.html" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="../../clanky/como-ganhar-dinheiro-na-internet.html" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="../../clanky/como-ganhar-dinheiro-pela-internet.html" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="../../clanky/drupal.html" class="tagadelic level3">drupal</a> 
+<a href="https://www.drupal.cz/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="../../clanky/drupal-7x.html" class="tagadelic level1">Drupal 7.x</a> 
+<a href="../../clanky/drupalcamp.1.html" class="tagadelic level1">drupalcamp</a> 
+<a href="../../clanky/drupalcon.html" class="tagadelic level1">drupalcon</a> 
+<a href="../../clanky/drupal-setkani.html" class="tagadelic level2">Drupal setkání</a> 
+<a href="../../clanky/forex.html" class="tagadelic level1">forex</a> 
+<a href="../../clanky/forex-broker.html" class="tagadelic level1">forex broker</a> 
+<a href="../../clanky/forex-trading-strategies.html" class="tagadelic level1">forex trading strategies</a> 
+<a href="../../clanky/fx-trading.html" class="tagadelic level2">FX trading</a> 
+<a href="../../clanky/game-war-cheats.html" class="tagadelic level1">game of war cheats</a> 
+<a href="../../clanky/ganhar-dinheiro.html" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="../../clanky/ganhar-dinheiro-na-internet.html" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="../../clanky/godus-cheats.html" class="tagadelic level1">godus cheats</a> 
+<a href="../../clanky/image.html" class="tagadelic level1">image</a> 
+<a href="../../clanky/landlord-house-insurance.html" class="tagadelic level1">landlord house insurance</a> 
+<a href="../../clanky/lokalizace.html" class="tagadelic level1">lokalizace</a> 
+<a href="../../clanky/moduly.html" class="tagadelic level6">moduly</a> 
+<a href="../../clanky/navod.html" class="tagadelic level2">navod</a> 
+<a href="../../clanky/online-forex-trading.html" class="tagadelic level1">online forex trading</a> 
+<a href="../../clanky/ostatni.html" class="tagadelic level3">ostatní</a> 
+<a href="../../clanky/overwatch-aimbot.html" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="../../clanky/php.html" class="tagadelic level1">php</a> 
+<a href="../../clanky/pro-webmastery.1.html" class="tagadelic level5">pro webmastery</a> 
+<a href="../../clanky/preklad.html" class="tagadelic level1">překlad</a> 
+<a href="../../clanky/prekladatelsky-sprint.html" class="tagadelic level1">překladatelský sprint</a> 
+<a href="../../clanky/preklady.html" class="tagadelic level2">překlady</a> 
+<a href="../../clanky/pripadove-studie.html" class="tagadelic level2">případové studie</a> 
+<a href="../../clanky/setkani.1.html" class="tagadelic level5">setkání</a> 
+<a href="../../clanky/setkani-akce.html" class="tagadelic level5">setkání, akce</a> 
+<a href="../../clanky/synthetic-opal.html" class="tagadelic level3">synthetic opal</a> 
+<a href="../../clanky/synthetic-opals.html" class="tagadelic level3">synthetic opals</a> 
+<a href="../../clanky/theming.html" class="tagadelic level2">theming</a> 
+<a href="../../clanky/tipy-triky.html" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="../../clanky/ubercart.html" class="tagadelic level1">UberCart</a> 
+<a href="../../clanky/views.html" class="tagadelic level2">views</a> 
+<a href="../../clanky/vyvoj.html" class="tagadelic level2">vývoj</a> 
+<a href="../../clanky/vyvoj-drupalu.html" class="tagadelic level5">vývoj drupalu</a> 
+<a href="../../clanky/zacatecnici.1.html" class="tagadelic level5">začátečníci</a> 
+<a href="../../clanky/sablony-vzhled.html" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="../po-instalaci/jak-na/zjisteni-block-id.html" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="../po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="../po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="../po-instalaci/jak-na/webform-user-node.html" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="../../forum.1.html" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html#comment-104041">Doplnění</a><br />před 6 hod 42 min</li>
+<li><a href="../po-instalaci/jak-na/zjisteni-block-id.html#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 5 hod</li>
+<li><a href="../po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 20 hod</li>
+<li><a href="../po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 19 hod</li>
+<li><a href="../po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 23 hod</li>
+<li><a href="../po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 5 dnů 16 min</li>
+<li><a href="../po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 18 hod</li>
+<li><a href="../po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu.html#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 22 hod</li>
+<li><a href="../po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="../po-instalaci/jak-na/webform-user-node.html#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="../../aggregator/pisou-na-slovensku.html" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="../../rss.xml" title="RSS Kanal"><img src="https://www.drupal.cz/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="../../clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz.html">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="../../kontakt/sluzby.html">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="../../sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="../../files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":541,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

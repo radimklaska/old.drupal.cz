@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Vojtěch Kusý&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/wojtha</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Poznámka k překládání a schvalování a malý apel: buďte prosím více pečliví!</title>
+ <link>https://www.drupal.cz/blog/wojtha/poznamka-k-prekladani-schvalovani</link>
+ <description>&lt;p&gt;Původně to měl být jen komentář pod &lt;a href=&quot;/node/8116&quot;&gt;blogpostem od
+Emy&lt;/a&gt;, ale nakonec to nabylo takových rozměrů, že jsem to raději poslal
+do blogu…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/poznamka-k-prekladani-schvalovani&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/poznamka-k-prekladani-schvalovani#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8119</wfw:commentRss>
+ <pubDate>Fri, 27 Aug 2010 13:45:42 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">8119 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Dva týdny, dva nové překlady modulů</title>
+ <link>https://www.drupal.cz/blog/wojtha/dva-tydny-dva-nove-preklady-modulu</link>
+ <description>&lt;p&gt;Překlad Drupalu se hýbe! Fakt! Během posledních dvou týdnů přibyly dva
+překlady modulů. Minulou sobotu jsme v rámci &lt;a href=&quot;http://www.drupal.cz/blog/jakub-suchy/jaky-byl-drupal-translation-sprint&quot;&gt;překládacího
+sprintu&lt;/a&gt; v &lt;a href=&quot;http://milujikavu.cz&quot;&gt;kavárně Friends Coffee House&lt;/a&gt;
+přeložili kompletně &lt;a href=&quot;http://drupal.org/cvs?commit=361990&quot;&gt;celý modul
+Date&lt;/a&gt;. Dnes jsem &lt;a href=&quot;http://drupal.org/cvs?commit=365570&quot;&gt;commitnul&lt;/a&gt;
+do CVS nový překlad &lt;a href=&quot;http://drupal.org/project/mollom&quot;&gt;modulu
+Mollom&lt;/a&gt; (Jakubovi patří dík za poctivé schvalování).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/dva-tydny-dva-nove-preklady-modulu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/dva-tydny-dva-nove-preklady-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/preklad">překlad</category>
+ <enclosure url="https://www.drupal.cz/files/date-6.x-2.4-cs.zip" length="22722" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7553</wfw:commentRss>
+ <pubDate>Tue, 11 May 2010 15:19:37 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7553 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kolik má instalace Drupalu proměnných?</title>
+ <link>https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych</link>
+ <description>&lt;p&gt;Při analyzování výkonu jednoho webu mě zajímalo, kolik má proměnných
+(tzn. obsah tabulky variables + globální pole $conf nastavené
+v settings.php) a kolik to je přibližně v bajtech.&lt;/p&gt;
+
+&lt;p&gt;Použil jsem k tomu modul &lt;a href=&quot;http://drupal.org/project/devel&quot;&gt;Devel&lt;/a&gt;. Ten sice sám obsahuje
+„Variable editor“ (velký formulář, kde je možné proměnné přímo
+upravit). Člověk se tam ale jednoduše nedozví počet proměnných a navíc
+při pokusu o přístup na tuto stránku jsem dostával &lt;em&gt;PHP memory limit
+error&lt;/em&gt;…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7284</wfw:commentRss>
+ <pubDate>Wed, 24 Mar 2010 22:37:13 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7284 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na našeptavač (autocomplete) s více parametry</title>
+ <link>https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry</link>
+ <description>&lt;p&gt;Stalo se vám někdy, že jste potřebovali předávat funkci, která
+generuje „nápovědu“ pro textové políčko s automatickým doplňováním
+více parametrů? Mě se to přihodilo zrovna dneska …&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DISCLAIMER: Jen pro Drupal geeky!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7282</wfw:commentRss>
+ <pubDate>Wed, 24 Mar 2010 20:28:53 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7282 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Übercart: jak na &quot;Osobní převzetí zboží v obchodě&quot;?</title>
+ <link>https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode</link>
+ <description>&lt;p&gt;Již několikrát se mi stalo, že se mě někdo ptal, jak vytvořit
+v Čechách celkem běžnou věc – „osobní vyzvednutí zboží
+v obchodě“. Mnoho zvláště menších e-shopů nevyužívá žádné
+platební brány ani dopravce – vystačí si s dobírkou České Pošty.
+Pokud má takový e-shopík nějakou kamennou provozovnu či prodejnu, je
+častým zvykem nabízet kromě dobírky ještě &lt;i&gt;„osobní převzetí
+v obchodě“&lt;/i&gt;, zdarma samozřejmě.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <enclosure url="https://www.drupal.cz/files/uc_pickup.zip" length="6751" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7265</wfw:commentRss>
+ <pubDate>Mon, 22 Mar 2010 16:48:23 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7265 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jaký byl Drupalcamp SK</title>
+ <link>https://www.drupal.cz/blog/wojtha/jaky-byl-drupalcamp-sk</link>
+ <description>&lt;p&gt;Jsem rád, že můžu hned v první větě napsat, že &lt;a href=&quot;http://drupalcamp.sk&quot;&gt;první slovenský Drupalcamp&lt;/a&gt;, který proběhl
+minulý víkend 27–28.2.2010 v Bra­tislavě, se vydařil. Narozdíl od
+českého DCampu, který se snažil být mezinárodní a přednášky probíhali
+výhradně v angličtině, Slováci vsadili na domácí kartu a myslím, že se
+to vyplatilo. Místnost „Nultý prostor“, zůstala celý den z 80–90%
+zaplněná tzn. nějakých 100 drupalistů. Zabodovali i sponzoři, když
+dodali hromadu pizzy pro všechny účastníky zdarma :-)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/jaky-byl-drupalcamp-sk&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/jaky-byl-drupalcamp-sk#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bratislava">bratislava</category>
+ <category domain="https://www.drupal.cz/clanky/konferencia">konferencia</category>
+ <category domain="https://www.drupal.cz/clanky/slovensko">slovensko</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7166</wfw:commentRss>
+ <pubDate>Fri, 05 Mar 2010 10:55:26 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7166 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Modul NodeSymlinks - konečně je tu betaverze</title>
+ <link>https://www.drupal.cz/blog/wojtha/novy-modul-nodesymlinks</link>
+ <description>&lt;p&gt;Posledních pár dnů jsem strávil na dolaďování svého nového
+„dítka“ – &lt;a href=&quot;http://drupal.org/project/nodesymlinks&quot;&gt;modulu
+NodeSymlinks&lt;/a&gt;. Koncept modulu vzniknul někdy před sedmi měsíci, kdy jsem
+potřeboval, aby se několik stránek zobrazovalo v několika menu zároveň,
+ale ne tak, jak je standardně v Drupalu zvykem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/novy-modul-nodesymlinks&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/novy-modul-nodesymlinks#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5950</wfw:commentRss>
+ <pubDate>Tue, 15 Sep 2009 00:54:12 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">5950 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Proč (ne)jet na Drupalcon?</title>
+ <link>https://www.drupal.cz/blog/wojtha/proc-nejet-na-drupalcon</link>
+ <description>&lt;p&gt;Je středa a &lt;a href=&quot;http://paris2009.drupalcon.org/&quot;&gt;Drupalcon Paris
+2009&lt;/a&gt; je v polovině; Jakub, Andrew, Marek a dalších asi 900 drupalistů
+chodí na přednášky a BoFy (něco jako zájmové diskusní kroužky), po
+večerech si užívají noční Paříže … a já sedím doma … Proč?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/proc-nejet-na-drupalcon&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/proc-nejet-na-drupalcon#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupalcon">drupalcon</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5839</wfw:commentRss>
+ <pubDate>Thu, 03 Sep 2009 10:53:19 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">5839 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nepříjemný bug v modulu search - formuláře ve výsledcích hledání nefungují</title>
+ <link>https://www.drupal.cz/blog/wojtha/neprijemny-bug-v-modulu-search-formulare-ve-vysledcich-hledani-nefunguji</link>
+ <description>&lt;p&gt;Dnes jsem skoro hodinu zápasil s tím, že mi nefungovali formuláře
+zobrazené ve výsledcích hledání – konkrétně formulář „Přidat do
+košíku“ generovaný Übercartem. Po půl hodině, kdy jsem se snažil tento
+problém vyřešit sám, jsem to vzdal a začal googlit… A příčina je
+(alespoň pro mě) poměrně překvapivá.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/neprijemny-bug-v-modulu-search-formulare-ve-vysledcich-hledani-nefunguji&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/neprijemny-bug-v-modulu-search-formulare-ve-vysledcich-hledani-nefunguji#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5833</wfw:commentRss>
+ <pubDate>Wed, 02 Sep 2009 17:07:22 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">5833 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

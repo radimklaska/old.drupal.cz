@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Eva Rázgová&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/ema</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Tutoriály k Drupalu 7 ke stažení</title>
+ <link>https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni</link>
+ <description>&lt;p&gt;Uvolnili jsme ke stažení zdarma výukové materiály k Drupalu 7, určené
+původně pro naše školení. Můžete si je stáhnout na adrese: &lt;a href=&quot;http://www.squelle.com/cs/produkty-publikace/vyukove-materialy-uvod-do-drupalu-7&quot;&gt;http://www.squelle.com/…do-drupalu-7&lt;/a&gt;
+Tutoriály byly od začáktu zamýšleny tak, aby byly použitelné
+i samostatně, tj. bez návaznosti na školení.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/45476</wfw:commentRss>
+ <pubDate>Mon, 09 Feb 2015 08:07:13 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">45476 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kdo ještě máte FCK editor, nahraďte ho</title>
+ <link>https://www.drupal.cz/blog/eva-razgova/kdo-jeste-mate-fck-editor-nahradte-ho</link>
+ <description>&lt;p&gt;Kdo ještě máte na webech FCK editor, nahraďte ho modernějším editorem.
+Nespolupracuje totiž s novou verzí Mozilly 15.0 a ani nebude, viz &lt;a href=&quot;http://drupal.org/node/1770728&quot;&gt;http://drupal.org/node/1770728&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Není to problém Drupalu, ale přímo externího editoru. Nicméně i zde
+se o FCKeditoru často psalo, proto se záležitost patrně bude týkat řady
+starších Drupalovských webů.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/eva-razgova/kdo-jeste-mate-fck-editor-nahradte-ho#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/14861</wfw:commentRss>
+ <pubDate>Tue, 11 Sep 2012 11:34:42 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">14861 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz tým</title>
+ <link>https://www.drupal.cz/blog/eva-razgova/drupalcz-tym</link>
+ <description>&lt;p&gt;Jestliže jste až dosud nevěděli, na koho se obrátit, když na Drupal.cz
+potřebujete něco schválit, dát na titulní stranu, opravit… teď už to
+budete vědět – viz &lt;a href=&quot;/staff&quot;&gt;nový odkaz&lt;/a&gt; v hlavním menu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/eva-razgova/drupalcz-tym&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/eva-razgova/drupalcz-tym#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12096</wfw:commentRss>
+ <pubDate>Mon, 21 May 2012 14:12:18 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">12096 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pole v CCK - kdy sdílet, kdy ne?</title>
+ <link>https://www.drupal.cz/blog/eva-razgova/pole-v-cck-kdy-sdilet-kdy-ne</link>
+ <description>&lt;p&gt;Prezentuju a předkládám k dalším komentářům jedno z témat, které
+jsme diskutovali na poslední pražské Drupal hospodě.&lt;/p&gt;
+
+&lt;p&gt;Je lepší mít pro každý typ obsahu unikátní cck pole, nebo je sdílet
+napříč různými typy obsahu (pokud například ve více typech používám
+obrázek, text, datum…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/eva-razgova/pole-v-cck-kdy-sdilet-kdy-ne&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/eva-razgova/pole-v-cck-kdy-sdilet-kdy-ne#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9929</wfw:commentRss>
+ <pubDate>Thu, 23 Jun 2011 14:05:34 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">9929 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vlastní/odvozené téma a bloky, které nerespektují nastavení</title>
+ <link>https://www.drupal.cz/blog/ema/vlastniodvozene-tema-bloky-ktere-nerespektuji-nastaveni</link>
+ <description>&lt;p&gt;Už se vám stalo, že jste nahodili vlastní téma a zjistili, že bloky
+nerespektují původní nastavení? (Nemyslím teď umístění do regionů,
+což je pochopitelné, ale nastavení „uvnitř“ bloku, např ne/zobrazení
+názvu).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/vlastniodvozene-tema-bloky-ktere-nerespektuji-nastaveni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/vlastniodvozene-tema-bloky-ktere-nerespektuji-nastaveni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8981</wfw:commentRss>
+ <pubDate>Fri, 21 Jan 2011 09:29:22 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8981 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak se ve views-view-field.tpl.php dostat k hodnotě jiného pole?</title>
+ <link>https://www.drupal.cz/blog/ema/jak-se-ve-views-view-fieldtplphp-dostat-k-hodnote-jineho-pole</link>
+ <description>&lt;p&gt;Tak jsem dneska zase chvíli koukala na hlášku „Cannot access empty
+property…“, než jsem to našla. Přemýšlela jsem, jestli si to za trest
+opíšu 100×, ale radši to jednou napíšu sem a příště už to najdu
+hned :-))&lt;/p&gt;
+
+&lt;p&gt;Nejprve: jak se ve views-view-field.tpl.php dostat k hodnotě pole, to je
+jednoduché, to je totiž v poznámkách souboru napsáno:&lt;br /&gt;
+$data = $row-&amp;gt;{$field-&amp;gt;field_alias};&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/jak-se-ve-views-view-fieldtplphp-dostat-k-hodnote-jineho-pole&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/jak-se-ve-views-view-fieldtplphp-dostat-k-hodnote-jineho-pole#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8619</wfw:commentRss>
+ <pubDate>Sat, 13 Nov 2010 20:50:59 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8619 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady, schvalování: každé úterý 18-23</title>
+ <link>https://www.drupal.cz/blog/ema/preklady-schvalovani-utery-18-23</link>
+ <description>&lt;p&gt;Společné překlady a schvalování plánuju od nynějška až do odvolání
+&lt;strong&gt;každé&lt;/strong&gt; úterý (s výjimkou svátků), cca 18–23 hod.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/preklady-schvalovani-utery-18-23&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/preklady-schvalovani-utery-18-23#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8516</wfw:commentRss>
+ <pubDate>Sun, 24 Oct 2010 16:58:18 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8516 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>2010 Open Source Awards: hlasujte pro své favority</title>
+ <link>https://www.drupal.cz/blog/ema/2010-open-source-awards-hlasujte-pro-sve-favority</link>
+ <description>&lt;p&gt;Finále soutěže o ceny Open Source Awards, které každoročně vyhlašuje
+vydavatelství PACKT, dnes začalo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/2010-open-source-awards-hlasujte-pro-sve-favority&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/2010-open-source-awards-hlasujte-pro-sve-favority#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8331</wfw:commentRss>
+ <pubDate>Mon, 27 Sep 2010 11:34:40 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8331 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady, schvalování: středa 29. září, cca 18-23 hod.</title>
+ <link>https://www.drupal.cz/blog/ema/preklady-streda-29-zari-cca-18-23-hod</link>
+ <description>&lt;p&gt;Příští překladový dýchánek plánuji na výše uvedený termín.&lt;/p&gt;
+
+&lt;p&gt;Komunikace: IRC: Freenode, #drupal-cz (kdo by tápal, jak na IRC, mrkněte
+prosím sem: &lt;a href=&quot;http://www.drupal.cz/clanky/lokalizace/preklady-schvalovani-streda-22-zari-2010-1600#comment-30887&quot;&gt;http://www.drupal.cz/…ri-2010-1600#…&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Priorita – dotažení rozdělaných věcí z (před)minula.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/preklady-streda-29-zari-cca-18-23-hod&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/preklady-streda-29-zari-cca-18-23-hod#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8318</wfw:commentRss>
+ <pubDate>Fri, 24 Sep 2010 15:25:35 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8318 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Materiály z akcí</title>
+ <link>https://www.drupal.cz/blog/ema/materialy-z-akci</link>
+ <description>&lt;p&gt;Pracovní verzi přehledu prezentací z Drupal akcí najdete &lt;a href=&quot;http://drupal.cz/prezentace&quot;&gt;zde&lt;/a&gt;. Kromě toho, na přednášky se lze
+proklikat i přes tagy v pravém postranním bloku.&lt;/p&gt;
+
+&lt;p&gt;Předem díky za připomínky a nápady.&lt;br /&gt;
+&lt;em&gt;EDIT: Zároveň prosím, kdo ještě máte své prezentace u sebe, abyste
+je &lt;a href=&quot;/node/add/lecture&quot;&gt;přidali&lt;/a&gt;. Děkujeme :-)&lt;/em&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/materialy-z-akci#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8290</wfw:commentRss>
+ <pubDate>Sat, 18 Sep 2010 15:49:47 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8290 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady Drupalu: jak se zapojit, co musím umět, jak mám postupovat?</title>
+ <link>https://www.drupal.cz/blog/ema/preklady-drupalu-jak-se-zapojit-co-musim-umet-jak-mam-postupovat</link>
+ <description>&lt;p&gt;Abychom neodpovídali každém zájemci zvlášť. Je to zhruba takto:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Překládat může v zásadě kdokoliv. Pokud to však má mít
+smysl, měli byste:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Umět (v rozumné míře) anglicky a velmi dobře česky, případně
+	naopak. A/nebo být ochotni hledat (slovníky, porovnání již přeložených
+	řetězců atd.). Jinými slovy, znalosti může nahradit ochota učit se a
+	trpělivost.&lt;/li&gt;
+
+	&lt;li&gt;Být pečliví.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/preklady-drupalu-jak-se-zapojit-co-musim-umet-jak-mam-postupovat&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/preklady-drupalu-jak-se-zapojit-co-musim-umet-jak-mam-postupovat#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/preklad">překlad</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8122</wfw:commentRss>
+ <pubDate>Fri, 27 Aug 2010 19:01:58 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8122 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>&quot;All day&quot; akce a nefungující kalendář</title>
+ <link>https://www.drupal.cz/blog/ema/all-day-akce-nefungujici-kalendar</link>
+ <description>&lt;p&gt;Občas se tu někdo ptal, co s tím, že „all day“ akce se nezobrazí
+v kalendáři (calendar), když se prokliknete z boxíku (bloku) na celý
+měsíc na zobrazení pro jeden den (a myslím, že to nefungovalo ani pro
+týden).&lt;/p&gt;
+
+&lt;p&gt;Tak jsem si konečně udělala čas a ručně (jinak mi to nešlo) jsem
+nasoukala tuhle záplatu &lt;a href=&quot;http://drupal.org/node/447728#comment-2236332&quot;&gt;http://drupal.org/node/447728#…&lt;/a&gt;
+do calendar 6.x-2.x-dev.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/all-day-akce-nefungujici-kalendar&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/all-day-akce-nefungujici-kalendar#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/calendar">calendar</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/date">date</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7818</wfw:commentRss>
+ <pubDate>Mon, 05 Jul 2010 14:03:36 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7818 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>IE a počet CSS souborů</title>
+ <link>https://www.drupal.cz/blog/ema/ie-pocet-css-souboru</link>
+ <description>&lt;p&gt;Už to sem někdo psal do fóra, ale přece: pokud máte totálně rozhozený
+vzhled webu v IE (ještě více, než bývá pro IE obvyklé :-)), může to
+být tím, že IE akceptuje omezený počet CSS souborů (nevím kolik).
+Ověříte povolením v Nastavení webu &amp;gt; Komprimace css souborů
+v Drupalu.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/ie-pocet-css-souboru#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7815</wfw:commentRss>
+ <pubDate>Mon, 05 Jul 2010 06:42:29 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7815 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Success story z Drupal hospody: theming polí ve view a seskupení mnohonásobných hodnot</title>
+ <link>https://www.drupal.cz/blog/ema/theming-poli-ve-view-seskupeni-mnohonasobnych-hodnot</link>
+ <description>&lt;p&gt;Když potřebujete přetížit výstup pole ve view ($output v souboru
+views-view-field.tpl.php), v nápovědě najdete, že potřebná data
+vytáhnete takto:&lt;/p&gt;
+
+&lt;p&gt;$data = $row-&amp;gt;{$field-&amp;gt;field_alias};&lt;/p&gt;
+
+&lt;p&gt;To sice funguje, ale jen do chvíle, kdy je v poli hodnot více a vy
+nastavíte ve view „seskupit mnohonásobné hodnoty“.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/theming-poli-ve-view-seskupeni-mnohonasobnych-hodnot&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/theming-poli-ve-view-seskupeni-mnohonasobnych-hodnot#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7787</wfw:commentRss>
+ <pubDate>Fri, 25 Jun 2010 07:58:36 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7787 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Co se stane s CCK poli v Drupalu 7?</title>
+ <link>https://www.drupal.cz/blog/ema/co-se-stane-s-cck-poli-v-drupalu-7</link>
+ <description>&lt;p&gt;Slidy k přednášce Karen Stevenson „CCK To Fields, Getting There From
+Here“ z DrupalConu SF najdete na stránkách Lullabot.com, &lt;a href=&quot;http://www.lullabot.com/blog/cck-fields-getting-there-here?utm_source=Lullabot+Announcements&amp;amp;utm_campaign=1cef8d4868-Daily+RSS+email+campaign&amp;amp;utm_medium=email#comments&quot;&gt;zde&lt;/a&gt;.
+Vzhledem k oblibě CCK a skutečnosti, že Drupal 7 je „na spadnutí“, je
+to podle mého názoru stěžejní téma.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/co-se-stane-s-cck-poli-v-drupalu-7&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/co-se-stane-s-cck-poli-v-drupalu-7#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/d7">D7</category>
+ <category domain="https://www.drupal.cz/clanky/upgrade">upgrade</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7428</wfw:commentRss>
+ <pubDate>Wed, 21 Apr 2010 08:21:40 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7428 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na Drupal pod Windows: Acquia Stack Installer</title>
+ <link>https://www.drupal.cz/blog/ema/acquia-stack-installer</link>
+ <description>&lt;p&gt;Pokud to s Drupalem myslíte alespoň trochu vážně, dříve nebo později
+budete potřebovat lokální vývojové prostředí (např. pro testování
+záloh nebo nových funkcí webu).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/acquia-stack-installer&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/acquia-stack-installer#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7364</wfw:commentRss>
+ <pubDate>Fri, 09 Apr 2010 21:11:49 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7364 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Rules: jak podmínit uložení příspěvku zaškrtnutím checkboxu</title>
+ <link>https://www.drupal.cz/blog/ema/rules-jak-podminit-ulozeni-prispevku-zaskrtnutim-checkboxu</link>
+ <description>&lt;p&gt;Cílem je, aby se uzel uložil jen při splnění podmínky (typicky:
+zaškrtnutí políčka – něco jako „Souhlasím s pravidly…“; to je
+ale jen příklad, teoreticky může být podmínka jakákoliv).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/rules-jak-podminit-ulozeni-prispevku-zaskrtnutim-checkboxu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/rules-jak-podminit-ulozeni-prispevku-zaskrtnutim-checkboxu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/rules">rules</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7159</wfw:commentRss>
+ <pubDate>Thu, 04 Mar 2010 12:33:12 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7159 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Preklady.drupal.cz: úterý - den schvalovací...</title>
+ <link>https://www.drupal.cz/blog/ema/prekladydrupalcz-utery-den-schvalovaci</link>
+ <description>&lt;p&gt;Na stránce věnované standardům pro český překlad Drupalu jsme
+s Mojžíšem doplnili několik informací k postupu práce: &lt;a href=&quot;http://preklady.drupal.cz/postupy-prace&quot;&gt;http://preklady.drupal.cz/postupy-prace&lt;/a&gt;.
+Dohodli jsme se, že návrhy řetězců a pravidel se budou schvalovat (pokud
+možno) pravidelně každé úterý. Další info viz odkaz. Překlady
+plánujeme i jako jedno z témat na blížící se Drupal setkání.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/prekladydrupalcz-utery-den-schvalovaci#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6787</wfw:commentRss>
+ <pubDate>Mon, 11 Jan 2010 07:39:45 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">6787 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Slovníček a standardy pro překlady</title>
+ <link>https://www.drupal.cz/blog/ema/slovnicek-standardy-pro-preklady</link>
+ <description>&lt;p&gt;Pro urychlení a zpřehlednění práce na překladu Drupalu jsme vytvořili
+stránku &lt;a href=&quot;http://preklady.drupal.cz&quot;&gt;http://preklady.drupal.cz&lt;/a&gt;, kde
+najdete slovníček (jak překládat často se opakující problematické
+řetězce) a další doporučení k překladům (cosi jako pravidla,
+standardy).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/slovnicek-standardy-pro-preklady&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/slovnicek-standardy-pro-preklady#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6655</wfw:commentRss>
+ <pubDate>Tue, 15 Dec 2009 22:52:48 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">6655 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>DrupalCon SF 2010: neváhejte a pojeďte</title>
+ <link>https://www.drupal.cz/blog/ema/drupalcon-sf-2010-nevahejte-pojedte</link>
+ <description>&lt;p&gt;Právě byly otevřeny registrace na &lt;a href=&quot;http://sf2010.drupal.org&quot;&gt;Drupal konferenci v San Franciscu&lt;/a&gt;, která
+se uskuteční 19.-21. dubna 2010 ve světoznámém Moscone centru.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/drupalcon-sf-2010-nevahejte-pojedte&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/drupalcon-sf-2010-nevahejte-pojedte#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6509</wfw:commentRss>
+ <pubDate>Tue, 24 Nov 2009 22:36:53 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">6509 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

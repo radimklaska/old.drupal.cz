@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>libor&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/libor</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Novej trouba v Drupalu</title>
+ <link>https://www.drupal.cz/blog/libor/novej-trouba-v-drupalu</link>
+ <description>&lt;p&gt;Už nějakou dobu jsem hledal redakční systém pro své soukromé stránky.
+Podmínka byla aby byl „free“ (zadara) a samozřejmě „jednoduchá“
+správa. Úplně náhodou jsem narazil na Drupala jako první a tak jsem do
+něj „šel“.&lt;/p&gt;
+
+&lt;p&gt;Než se mi povedlo rozchodit, načetl jsem spoustu článků a diskusí.
+Stejně jsem byl jak Pepíček. Nemám žádné základy HTML, PHP, CSS a nevím
+čeho ještě.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/libor/novej-trouba-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/libor/novej-trouba-v-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4163</wfw:commentRss>
+ <pubDate>Sat, 29 Nov 2008 15:17:31 +0000</pubDate>
+ <dc:creator>libor</dc:creator>
+ <guid isPermaLink="false">4163 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

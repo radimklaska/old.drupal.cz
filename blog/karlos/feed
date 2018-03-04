@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>karlos&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/karlos</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Tribune nejede a nejede.... a jede!</title>
+ <link>https://www.drupal.cz/blog/karlos/tribune-nejede-nejede-jede</link>
+ <description>&lt;p&gt;Dostal jsem od zakaznika pozadavek na chat ve strankach. phpfreechat jsem
+zatim stale nerozjel :( tak jsem zkusil druhy modul a to Tribune. Nainstaloval
+jsem ho, vytvoril obsah tohoto typu a hle: chat nikde. prestoze modul evidentne
+bezel – na tom node byly záložky($tabs), dokonce tam byl i formular pro
+odeslani zpravy do chatu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/tribune-nejede-nejede-jede&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/tribune-nejede-nejede-jede#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7979</wfw:commentRss>
+ <pubDate>Thu, 05 Aug 2010 07:34:58 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7979 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Mollom neumi cesky(resp slovensky)?</title>
+ <link>https://www.drupal.cz/blog/karlos/mollom-neumi-ceskyresp-slovensky</link>
+ <description>&lt;p&gt;po necem jsem patral a narazil na krasny komentar &lt;a href=&quot;http://acquia.com/node/36765#comment-27583&quot;&gt;http://acquia.com/node/36765#…&lt;/a&gt; :-)))&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/mollom-neumi-ceskyresp-slovensky#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7637</wfw:commentRss>
+ <pubDate>Sun, 23 May 2010 21:15:29 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7637 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Trochu o opravnenich</title>
+ <link>https://www.drupal.cz/blog/karlos/trochu-o-opravnenich</link>
+ <description>&lt;p&gt;Ozval se mi znamý s problemem: vytvoril jsem uzivatelskou roli
+„redakce“ priradil ji prava pro upravu obsahu, ale uzivatelum v teto roli
+se nezobrazi zalozky „zobrazit“ a „upravit“. Prosel jsem opravneni a
+nenasel zadny problem. Zkusil jsem vytvorit novy obsah a hle zalozky tam byly.
+Tak jsem se dal na systém „pokus – omyl“. Provedl update drupalu na
+nejnovejsi. Nepomohlo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/trochu-o-opravnenich&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/trochu-o-opravnenich#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7096</wfw:commentRss>
+ <pubDate>Sun, 21 Feb 2010 11:19:54 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7096 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vlastní skype obrázky</title>
+ <link>https://www.drupal.cz/blog/karlos/vlastni-skype-obrazky</link>
+ <description>Zákazník chce na stránce zobrazit ikonu s jeho skype statusem. OK, jednoduse
+to lze treba tady: &lt;a href=&quot;http://www.skype.com/share/buttons/wizard.html&quot;&gt;http://www.skype.com/…/wizard.html&lt;/a&gt;
+ale problem nastava v tom, ze vetsina moznych ikon ma bile pozadi coz je
+problem kdyz mame nejake pozadi stranky. Reseni jsem nakonec nasel na foru a je
+jim adresa
+&lt;pre&gt;http://mystatus­.skype.com/[vas-login].num&lt;/pre&gt;
+ samozrejme bez hranatych zavorek.</description>
+ <comments>https://www.drupal.cz/blog/karlos/vlastni-skype-obrazky#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7078</wfw:commentRss>
+ <pubDate>Wed, 17 Feb 2010 13:30:33 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7078 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Views 3 - umíme OR</title>
+ <link>https://www.drupal.cz/blog/karlos/views-3-umime-or</link>
+ <description>&lt;p&gt;Zkusil jsem aktualni vyvojovou verzi Views 6.x-3.0-alpha2 . Krome par
+drobnych(ale logickych) zmen v rozmisteni prvku v jednotlivych sloupcich jsem
+objevil predevsim perfektni zlepseni filtru – konktretne jde o zapracovani
+operatoru OR a take jsou tam pridany „groups“ ktere umoznuji zavorkovani ve
+zkratce asi takhle: &lt;cite&gt;… where typ_obsahu = ‚narozeniny‘ AND ( rok =
+1960 OR rok = 1965 )&lt;/cite&gt;.&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/views-3-umime-or&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/views-3-umime-or#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7007</wfw:commentRss>
+ <pubDate>Mon, 08 Feb 2010 11:07:14 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7007 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>sbohem taxonomy_breadcrumb</title>
+ <link>https://www.drupal.cz/blog/karlos/sbohem-taxonomybreadcrumb</link>
+ <description>&lt;p&gt;Vzdy jsem s oblibou pouzival modul &lt;a href=&quot;http://drupal.org/project/taxonomy_breadcrumb&quot;&gt;taxonomy breadcrumb&lt;/a&gt;.
+ten ma ale posledni release pres rok stary tak jsem zkoumal a jeho autor
+doporucuje prechod na modul &lt;a href=&quot;http://drupal.org/project/custom_breadcrumbs&quot;&gt;custom breadcrumbs&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/sbohem-taxonomybreadcrumb&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/sbohem-taxonomybreadcrumb#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/taxonomy">taxonomy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6996</wfw:commentRss>
+ <pubDate>Sun, 07 Feb 2010 09:25:59 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">6996 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Artisteer - a koderi nebudou mit co zrat</title>
+ <link>https://www.drupal.cz/blog/karlos/artisteer-koderi-nebudou-mit-co-zrat</link>
+ <description>&lt;p&gt;Na webu Maxiorla jsem videl nadpis clanku(nejak mu to nefunguje takze proto
+jen nadpis) o tomhle programu o kterem jsem jiz slysel a videl nejaky screen.
+Tak jsem ho zkusil, jestli to neni program „jaky svet nevidel“.&lt;/p&gt;
+
+&lt;p&gt;Koderi nebudou mit co zrat. Pekny theme presne podle vasich prani pro Drupal
+si proste naklikate behem pul hodiny. Tech 130 kolacu neni moc kdyz budete
+delat &amp;gt; 1 web.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/artisteer-koderi-nebudou-mit-co-zrat#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5047</wfw:commentRss>
+ <pubDate>Mon, 20 Apr 2009 17:38:05 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">5047 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>ivanjaros.com&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/ivanjarosnet</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Presun blogu</title>
+ <link>https://www.drupal.cz/blog/ivanjarosnet/docasny-presun-blogu</link>
+ <description>&lt;p&gt;Kedze mi vyprsala domena na blog a par ludi sa ma uz pytalo co s nim je, tak
+stav ej taky, ze mi vyprsala domena a nez som si ju znovu registroval, si ju
+registrovla niekto iny. Takze som blog presunul na &lt;b&gt;&lt;a href=&quot;http://www.ivanjaros.com&quot;&gt;IvanJaros.com&lt;/a&gt;&lt;/b&gt;. Vsetky odkazy ktore tu su
+na blog su funkcne avsak namiesto koncovky &lt;b&gt;.net&lt;/b&gt; treba pouzit
+&lt;b&gt;.com&lt;/b&gt;.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ivanjarosnet/docasny-presun-blogu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5884</wfw:commentRss>
+ <pubDate>Tue, 08 Sep 2009 18:09:22 +0000</pubDate>
+ <dc:creator>ivanjaros.com</dc:creator>
+ <guid isPermaLink="false">5884 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal šablóna pre PSPad</title>
+ <link>https://www.drupal.cz/blog/ivanjarosnet/drupal-sablona-pre-pspad</link>
+ <description>&lt;h2&gt;Informácie&lt;/h2&gt;
+ Na programovanie používam &lt;a href=&quot;http://www.pspad.com/sk/&quot;&gt;PSPad&lt;/a&gt;.
+Nedávno som začal robiť na jednom veľkom projekte a začalo mi vadiť
+neustále kopírovanie hookov z webu.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ivanjarosnet/drupal-sablona-pre-pspad&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ivanjarosnet/drupal-sablona-pre-pspad#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5797</wfw:commentRss>
+ <pubDate>Fri, 28 Aug 2009 18:27:31 +0000</pubDate>
+ <dc:creator>ivanjaros.com</dc:creator>
+ <guid isPermaLink="false">5797 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chcete mat mokré sny?</title>
+ <link>https://www.drupal.cz/blog/ivanjarosnet/chcete-mat-mokre-sny</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.lullabot.com/articles/buzzr-demo-video-making-drupal-usable&quot;&gt;http://www.lullabot.com/…rupal-usable&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ivanjarosnet/chcete-mat-mokre-sny#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5790</wfw:commentRss>
+ <pubDate>Thu, 27 Aug 2009 15:43:55 +0000</pubDate>
+ <dc:creator>ivanjaros.com</dc:creator>
+ <guid isPermaLink="false">5790 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pokročilé témovanie v Drupale</title>
+ <link>https://www.drupal.cz/blog/ivanjarosnet/pokrocile-temovanie-v-drupale</link>
+ <description></description>
+ <comments>https://www.drupal.cz/blog/ivanjarosnet/pokrocile-temovanie-v-drupale#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/webdev">webdev</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5004</wfw:commentRss>
+ <pubDate>Fri, 10 Apr 2009 00:07:55 +0000</pubDate>
+ <dc:creator>ivanjaros.com</dc:creator>
+ <guid isPermaLink="false">5004 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

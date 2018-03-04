@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>masagin&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/besh</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal(í) krize aneb skutečný stav Drupalu?</title>
+ <link>https://www.drupal.cz/blog/besh/drupali-krize-aneb-skutecny-stav-drupalu</link>
+ <description>&lt;p&gt;Pokud vás zajímá aktuální stav Drupalu a nespokojíte se s hodinou
+převážně prázdných marketingových frází v &lt;a href=&quot;http://london2011.drupal.org/scheduleitem/keynote-state-drupal&quot;&gt;keynote
+Driese Buytaerta&lt;/a&gt; z DrupalConu v Londýně, pak si určitě přečtěte
+článek &lt;a href=&quot;http://www.unleashedmind.com/en/blog/sun/the-drupal-crisis&quot;&gt;The Drupal
+Crisis&lt;/a&gt; a následný článek &amp;lt;a href=&quot;http://­www.unleash&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/besh/drupali-krize-aneb-skutecny-stav-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/besh/drupali-krize-aneb-skutecny-stav-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/budoucnost-drupalu">budoucnost Drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-krize">Drupal krize</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10262</wfw:commentRss>
+ <pubDate>Mon, 29 Aug 2011 16:33:08 +0000</pubDate>
+ <dc:creator>masagin</dc:creator>
+ <guid isPermaLink="false">10262 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Stylování nových elementů v HTML</title>
+ <link>https://www.drupal.cz/blog/besh/stylovani-novych-elementu-v-html</link>
+ <description>&lt;p&gt;Na &lt;a href=&quot;http://www.drupal.cz/clanky/setkani-akce/drupal-setkani-praha-23-brezen-2011&quot;&gt;posledním
+Drupal setkání&lt;/a&gt; zazněl po &lt;a href=&quot;http://goo.gl/zJjie&quot;&gt;mé prezentaci
+o HTML5&lt;/a&gt; dotaz, jak je to se stylováním nových HTML elementů, když je
+prohlížeč nezná. Je to celkem snadné. Prohlížeč nemusí znát element,
+aby ho mohl ostylovat.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/besh/stylovani-novych-elementu-v-html&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/besh/stylovani-novych-elementu-v-html#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/css">css</category>
+ <category domain="https://www.drupal.cz/clanky/html">html</category>
+ <category domain="https://www.drupal.cz/clanky/html-5">HTML 5</category>
+ <category domain="https://www.drupal.cz/clanky/javascript">javascript</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9503</wfw:commentRss>
+ <pubDate>Mon, 04 Apr 2011 11:23:57 +0000</pubDate>
+ <dc:creator>masagin</dc:creator>
+ <guid isPermaLink="false">9503 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání - leden - shrnutí</title>
+ <link>https://www.drupal.cz/blog/besh/drupal-setkani-praha-20-leden-2010</link>
+ <description>&lt;p&gt;Včera, t.j. 20. 1. 2010, se konalo již třetí neformálni setkání
+Drupalistů v Praze v prostorách &lt;a href=&quot;http://dl.avu.cz/&quot;&gt;DigiLabu
+AVU&lt;/a&gt;. Z 56 registrovaných dorazilo nakonec cca 40 účastníků.&lt;/p&gt;
+
+&lt;p&gt;Začli jsme na čas, akorát místo Andrewa nakonec začla se svojí
+přednáškou &lt;a href=&quot;http://www.drupal.cz/user/ema&quot;&gt;Eva „Ema“
+Rázgová&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/besh/drupal-setkani-praha-20-leden-2010&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/besh/drupal-setkani-praha-20-leden-2010#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6871</wfw:commentRss>
+ <pubDate>Thu, 21 Jan 2010 18:58:33 +0000</pubDate>
+ <dc:creator>masagin</dc:creator>
+ <guid isPermaLink="false">6871 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

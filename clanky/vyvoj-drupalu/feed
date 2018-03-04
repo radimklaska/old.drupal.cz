@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - vývoj drupalu</title>
+ <link>https://www.drupal.cz/taxonomy/term/22/0</link>
+ <description>Pokud vyvíjíte moduly pro Drupal nebo se dokonce účastníte vývoje jádra, tato kategorie je pro Vás jako dělaná. Návody na Forms API, popis hooků, apod.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal školenia | SDA</title>
+ <link>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda</link>
+ <description>&lt;p&gt;Slovenská Drupal Asociácia sa chystá organizovať Drupal školenia.
+Základné info na &lt;a href=&quot;http://drupal.sk/node/1897&quot;&gt;drupal.sk&lt;/a&gt; .
+Pomôžte nám získať viac info o vašich požiadavkách v ankete &lt;a href=&quot;https://apps.facebook.com/polldaddy-polls/?view=poll&amp;amp;id=7558115&quot;&gt;na
+facebooku&lt;/a&gt;, alebo v komentároch na drupal.sk, alebo tu.&lt;/p&gt;
+
+&lt;p&gt;Ďakujeme&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22956</wfw:commentRss>
+ <pubDate>Wed, 13 Nov 2013 11:59:01 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">22956 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ozvěny z Drupal Developer Days Bruxelles 1. díl</title>
+ <link>https://www.drupal.cz/ozveny-z-drupal-developer-days-bruxelles-1-dil</link>
+ <description>&lt;p&gt;S Markem Sotákem (Atomic Ant) a Jakubem Suchým (Acquia) jsme se začátkem
+února jako jediní z Čechoslováků zúčastnili &lt;a href=&quot;http://bxl2011.drupaldays.org/&quot;&gt;Drupal Developer Days v Bruselu
+(DDDB)&lt;/a&gt;. Jakub i Marek si zde vystřihli rovnou i přednášky. Jakub opět
+&lt;a href=&quot;http://bxl2011.drupaldays.org/node/244&quot;&gt;apeloval na psaní bezpečného
+kódu&lt;/a&gt;, Marek zase přednášel &lt;a href=&quot;http://bxl2011.drupaldays.org/node/306&quot;&gt;jak správně obléci modul&lt;/a&gt;
+pomocí nového rendering API v Drupalu 7.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/ozveny-z-drupal-developer-days-bruxelles-1-dil&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/ozveny-z-drupal-developer-days-bruxelles-1-dil#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/konference">konference</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9259</wfw:commentRss>
+ <pubDate>Tue, 01 Mar 2011 11:15:30 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">9259 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Sázkový systém na Drupal.org</title>
+ <link>https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg</link>
+ <description>&lt;p&gt;Rozhodl jsem se dát svojí roční usilovnou práci na drupal.org jako modul
+(diplomová práce). Jedná se o Sázkový systém (&lt;a href=&quot;http://drupal.org/project/betting&quot;&gt;Betting system&lt;/a&gt;) což je sada
+modulů umožňující vést kurzové sázení. Díky systému je možné snadno
+proměnit svůj web na sázkovou kancelář (jako je např. iFortuna.cz).&lt;/p&gt;
+
+&lt;p&gt;Jsem přesvědčen o tom, že pro někoho bude tento modul užitečný.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8135</wfw:commentRss>
+ <pubDate>Mon, 30 Aug 2010 14:06:54 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">8135 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Staň se Drupal profíkem za 20 dní</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni</link>
+ <description>&lt;p&gt;Od včerejška (1.4.2010) začal na blogu poměrné známé „drupal“
+firmy Trellon vycházet 20-ti dílný seriál nazvaný &lt;a href=&quot;http://trellon.com/category/blog-tags/20-apis-20-days&quot;&gt;„20 APIs in
+20 Days“&lt;/a&gt; neboli „20 API za 20 dní“. Během dvaceti dní se proberou
+základy k 20 zajímavým API z různých okruhů a některá témata jsou
+rozhodně zajímavá!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7332</wfw:commentRss>
+ <pubDate>Fri, 02 Apr 2010 15:05:22 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7332 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kolik má instalace Drupalu proměnných?</title>
+ <link>https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych</link>
+ <description>&lt;p&gt;Při analyzování výkonu jednoho webu mě zajímalo, kolik má proměnných
+(tzn. obsah tabulky variables + globální pole $conf nastavené
+v settings.php) a kolik to je přibližně v bajtech.&lt;/p&gt;
+
+&lt;p&gt;Použil jsem k tomu modul &lt;a href=&quot;http://drupal.org/project/devel&quot;&gt;Devel&lt;/a&gt;. Ten sice sám obsahuje
+„Variable editor“ (velký formulář, kde je možné proměnné přímo
+upravit). Člověk se tam ale jednoduše nedozví počet proměnných a navíc
+při pokusu o přístup na tuto stránku jsem dostával &lt;em&gt;PHP memory limit
+error&lt;/em&gt;…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7284</wfw:commentRss>
+ <pubDate>Wed, 24 Mar 2010 22:37:13 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7284 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na našeptavač (autocomplete) s více parametry</title>
+ <link>https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry</link>
+ <description>&lt;p&gt;Stalo se vám někdy, že jste potřebovali předávat funkci, která
+generuje „nápovědu“ pro textové políčko s automatickým doplňováním
+více parametrů? Mě se to přihodilo zrovna dneska …&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DISCLAIMER: Jen pro Drupal geeky!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7282</wfw:commentRss>
+ <pubDate>Wed, 24 Mar 2010 20:28:53 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7282 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Übercart: jak na &quot;Osobní převzetí zboží v obchodě&quot;?</title>
+ <link>https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode</link>
+ <description>&lt;p&gt;Již několikrát se mi stalo, že se mě někdo ptal, jak vytvořit
+v Čechách celkem běžnou věc – „osobní vyzvednutí zboží
+v obchodě“. Mnoho zvláště menších e-shopů nevyužívá žádné
+platební brány ani dopravce – vystačí si s dobírkou České Pošty.
+Pokud má takový e-shopík nějakou kamennou provozovnu či prodejnu, je
+častým zvykem nabízet kromě dobírky ještě &lt;i&gt;„osobní převzetí
+v obchodě“&lt;/i&gt;, zdarma samozřejmě.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <enclosure url="https://www.drupal.cz/files/uc_pickup.zip" length="6751" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7265</wfw:commentRss>
+ <pubDate>Mon, 22 Mar 2010 16:48:23 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7265 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Seriál o vývoji modulov na Interval.CZ</title>
+ <link>https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz</link>
+ <description>&lt;p&gt;Na serveri Interval.CZ sa objavil zaujímavo začínajúci seriál o vývoji
+modulov pre Drupal 6.x. Doporučujem.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://interval.cz/clanky/vyvoj-modulu-pro-cms-system-drupal-6-x/&quot;&gt;Vývoj
+	modulů pro CMS systém Drupal 6.x&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://interval.cz/clanky/vyvoj-modulu-pro-cms-system-drupal-6-x-2-dil/&quot;&gt;Vývoj
+	modulů pro CMS systém Drupal 6.x (2. díl)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6363</wfw:commentRss>
+ <pubDate>Fri, 06 Nov 2009 19:07:43 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">6363 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšel Drupal 7 UNSTABLE 9</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9</link>
+ <description>&lt;p&gt;Včera vyšel Drupal 7 UNSTABLE 9, další z vývojových verzí Drupalu,
+určených hlavně pro testery. Stále nepoužívejte standardně, nicméně
+testujte :-) Jaké jsou změny?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5980</wfw:commentRss>
+ <pubDate>Wed, 16 Sep 2009 22:06:01 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">5980 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.org je upgradován na Drupal 6</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-org-je-upgradovan-na-drupal-6</link>
+ <description>&lt;p&gt;Jistě si někteří z Vás všimli včerejšího výpadku mezinárodního
+anglického webu Drupal.org. Ten nakonec trval o něco déle kvůli
+nepředpokládané chybě, ale Drupal.org nyní běží na Drupal 6. Mezi
+novinkami bych já hlavně ocenil nové vyhledávání pomocí ApacheSolr.
+Konečně!&lt;/p&gt;
+
+&lt;p&gt;(Drupal.cz se vzápětí přidá, protože jsme upgrade chystali, ale zatím
+nestihli.)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-org-je-upgradovan-na-drupal-6#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4680</wfw:commentRss>
+ <pubDate>Thu, 19 Feb 2009 09:00:44 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">4680 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Novinky v Drupalu 7 - popisy oprávnění</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni</link>
+ <description>&lt;p&gt;Začíná malý občasný seriál o novinkách v Drupalu 7. Tedy v tom,
+na co se zatím můžeme jenom těšit :-) Dnes o oprávněních.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3858</wfw:commentRss>
+ <pubDate>Fri, 10 Oct 2008 16:50:52 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">3858 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 6: Evoluce hezky a česky</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky</link>
+ <description>&lt;p&gt;Je nám ctí ohlásit novinku ve světě Drupalu: &lt;strong&gt;Byl vydán Drupal 6&lt;/strong&gt;. Ano, slyšíte dobře, ostrá verze Drupalu 6. Nenechte si ujít nové vlastnosti ani český překlad, čtěte dále.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2403</wfw:commentRss>
+ <pubDate>Wed, 13 Feb 2008 15:40:18 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2403 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak upgradovat na Drupal 6</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6</link>
+ <description>&lt;p&gt;Byl vydán Drupal 6. Jak na něj upgradovat?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2456</wfw:commentRss>
+ <pubDate>Wed, 13 Feb 2008 15:30:23 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2456 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 6.0 RC4</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc4</link>
+ <description>&lt;p&gt;Vyšel čtvrtý release candidate Drupalu 6. Těšíte se na
+stabilní verzi?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc4&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc4#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2437</wfw:commentRss>
+ <pubDate>Sun, 10 Feb 2008 10:48:39 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2437 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Elektronický obchod Ubercart</title>
+ <link>https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.ubercart.org&quot;&gt;Ubercart&lt;/a&gt; je elektronický obchod
+postavený na Drupalu. &lt;a href=&quot;http://www.ubercart.org&quot;&gt;Ubercart&lt;/a&gt; je zcela
+integrován s jádrem Drupalu a jeho rozšiřujícími moduly a poskytuje vám
+běh obchodu na vašem běžném komunitním či firemním webu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2370</wfw:commentRss>
+ <pubDate>Mon, 04 Feb 2008 17:45:30 +0000</pubDate>
+ <dc:creator>PEpe</dc:creator>
+ <guid isPermaLink="false">2370 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšel Drupal 6 RC3</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-6-rc3</link>
+ <description>&lt;p&gt;Vyšel třetí release candidate Drupalu 6. Těšíte se na
+stabilní verzi?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-6-rc3&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-6-rc3#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2366</wfw:commentRss>
+ <pubDate>Wed, 30 Jan 2008 23:59:07 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2366 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšel Drupal 5.7</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-5-7</link>
+ <description>&lt;p&gt;Vyšel Drupal 5.7, opravná verze Drupalu 5.6. &lt;a href=&quot;/ke-stazeni&quot;&gt;Stahujte&lt;/a&gt;.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-5-7#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2352</wfw:commentRss>
+ <pubDate>Tue, 29 Jan 2008 13:36:11 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2352 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšel Drupal 6 RC2 a my sháníme překladatele!</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-6-rc2-my-shanime-prekladatele</link>
+ <description>&lt;p&gt;Velmi stručně: Vyšel Drupal 6 RC2, tedy druhý release candidate. Bylo
+v něm opraveno mnoho kritických i nekritických chyb.&lt;/p&gt;
+
+&lt;p&gt;Stahujte a zkoušejte: &lt;a href=&quot;http://drupal.org/drupal-6.0-rc2&quot;&gt;http://drupal.org/drupal-6.0-rc2&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-6-rc2-my-shanime-prekladatele&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-6-rc2-my-shanime-prekladatele#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2271</wfw:commentRss>
+ <pubDate>Mon, 14 Jan 2008 21:31:23 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2271 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 6.0 RC1</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc1</link>
+ <description>&lt;p&gt;A máme tu Drupal 6.0 Release Candidate 1 a s ním i očekávaný string freeze. Kdo se tentokrát přidá k dělání překladů?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc1&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc1#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2195</wfw:commentRss>
+ <pubDate>Thu, 20 Dec 2007 23:51:01 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2195 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšel Drupal 5.5, opravující kritickou chybu vzniklou Drupalem 5.4</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-5-5-opravujici-kritickou-chybu-vzniklou-drupalem-5-4</link>
+ <description>&lt;p&gt;Oprava bezpečnostní chyby v Drupalu 5.4 způsobila, že RSS feedy
+vycházející z taxonomy jsou prázdné. Proto vyšel Drupal 5.5, který tuto
+chybu opravuje.&lt;/p&gt;
+
+&lt;p&gt;Stahujte: &lt;a href=&quot;http://drupal.org/drupal-5.5&quot;&gt;http://drupal.org/drupal-5.5&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S.: Týká se i Drupalu 4.7.9, vyšel 4.7.10&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-5-5-opravujici-kritickou-chybu-vzniklou-drupalem-5-4#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2128</wfw:commentRss>
+ <pubDate>Fri, 07 Dec 2007 18:39:37 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2128 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

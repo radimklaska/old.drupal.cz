@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Drupal 7.x</title>
+ <link>https://www.drupal.cz/taxonomy/term/737/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Jak počeštit date_popup</title>
+ <link>https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup</link>
+ <description>&lt;p&gt;Úprava spočívá v přidání pár řádků do date_popup.module:
+&amp;lt;?php&lt;br /&gt;
+drupal_add_li­brary(‚system‘, ‚ui.datepicker‘); +&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;// Add i18n support&lt;/li&gt;
+
+	&lt;li&gt;if ($GLOBALS[‚lan­guage‘]-&amp;gt;language != ‚en‘) {&lt;/li&gt;
+
+	&lt;li&gt;// D7.x: &lt;a href=&quot;https://jquery-ui.googlecode.com/svn/tags/1.8.7/ui/i18n/&quot;&gt;https://jquery-ui.googlecode.com/…8.7/ui/i18n/&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;drupal_add_js( drupal_get_pat­h(‚module‘, ‚date_popup‘) .
+	‚/jquery.ui.da­tepicker-‘ . $GLOBALS[‚lan­guage‘]-&amp;gt;language .&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/modul">modul</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11145</wfw:commentRss>
+ <pubDate>Thu, 15 Mar 2012 12:29:40 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">11145 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>ColHub - nasa nova technologicka hracka</title>
+ <link>https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka</link>
+ <description>&lt;p&gt;Cca pred pol rokom sme si uvedomili, ze nemame k dispozicii vhodny nastroj
+na tvorbu obsahu, ktory by splnal tieto zakladne poziadavky:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Velky pocet spolupracovnikov, pricom by praca bola organizovana.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10910</wfw:commentRss>
+ <pubDate>Wed, 18 Jan 2012 21:53:08 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">10910 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Texy! filter 7.x-1.0-alpha1</title>
+ <link>https://www.drupal.cz/blog/havran/texy-filter-7x-10-alpha1</link>
+ <description>&lt;p&gt;Pokial to niekoho potesi tak som sa konecne (vdaka mojmu zamestnavatelovi &lt;a href=&quot;http://mogdesign.eu&quot;&gt;Mogdesign&lt;/a&gt;) dostal ku tomu aby som previedol Texy!
+filter do Drupal 7.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://drupal.org/project/texy&quot;&gt;http://drupal.org/project/texy&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/texy-filter-7x-10-alpha1#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/modul">modul</category>
+ <category domain="https://www.drupal.cz/clanky/texy">Texy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10641</wfw:commentRss>
+ <pubDate>Wed, 16 Nov 2011 13:50:23 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">10641 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7 Administration menu - chybí vám položka Přidat obsah?</title>
+ <link>https://www.drupal.cz/blog/kyberman/drupal-7-administration-menu-chybi-vam-polozka-pridat-obsah</link>
+ <description>&lt;p&gt;Pokud stále marně hledáte odkazy pro přidání obsahu v liště modulu
+Administration menu, existuje jednoduché řešení jak je doplnit. Vytvořil
+jsem si drobný modul, který přidá do administrační lišty položku
+„Přidat obsah“ (hned na začátek za ikonku webu) se všemi typy obsahu
+(v abecedním pořadí), jejichž uzly má uživatel oprávnění
+vytvářet.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kyberman/drupal-7-administration-menu-chybi-vam-polozka-pridat-obsah&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kyberman/drupal-7-administration-menu-chybi-vam-polozka-pridat-obsah#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/administration-menu">Administration menu</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/admin_menu_add_content.zip" length="1103" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10457</wfw:commentRss>
+ <pubDate>Wed, 12 Oct 2011 22:17:32 +0000</pubDate>
+ <dc:creator>Kyberman</dc:creator>
+ <guid isPermaLink="false">10457 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7 - od instalace k e-shopu - 1.část</title>
+ <link>https://www.drupal.cz/clanky/drupal-7x/drupal-7-od-instalace-k-e-shopu-1cast</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Petr Okurek
+Honza Štefl        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://vimeo.com/33532776&quot; rel=&quot;nofollow&quot;&gt;Video na vimeu&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/drupal-7x/drupal-7-od-instalace-k-e-shopu-1cast#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9937</wfw:commentRss>
+ <pubDate>Sat, 25 Jun 2011 14:55:02 +0000</pubDate>
+ <dc:creator>berkas1</dc:creator>
+ <guid isPermaLink="false">9937 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nové číslování verzí Drupal 7+ vyšel Drupal 7.1 a 7.2</title>
+ <link>https://www.drupal.cz/blog/agir/nove-cislovani-verzi-drupal-7-vysel-drupal-71-72</link>
+ <description>&lt;p&gt;25. 5. 2011 vyšly nové verze Drupalu. Od této verze se mění způsob
+vydávání a číslování verzí. Jak jste si možná všimli, tak vyšly dvě
+verze. Rozdíl je tento: &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;7.1 opravuje jen security vulnerabilities&lt;/li&gt;
+
+	&lt;li&gt;7.2 opravuje security vulnerabilities a chyby (bug fixes)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nezapomeňte, že verze 7.2 má upravený .htaccess!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/agir/nove-cislovani-verzi-drupal-7-vysel-drupal-71-72&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/agir/nove-cislovani-verzi-drupal-7-vysel-drupal-71-72#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bezpecnost">bezpečnost</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9775</wfw:commentRss>
+ <pubDate>Thu, 26 May 2011 06:33:30 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9775 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pozor na cron v Drupalu 7, v adrese už nestačí jen cron.php</title>
+ <link>https://www.drupal.cz/blog/krato/pozor-na-cron-v-drupalu-7-v-adrese-uz-nestaci-jen-cronphp</link>
+ <description>&lt;p&gt;Pokud spouštíte cron přes crontab či nastavení spouštění cronu
+v administraci vašeho webhostingu, určitě jste byli zvyklí u Drupalu 4.7,
+5 a 6 do cronu přidávat adresu &lt;i&gt;&lt;a href=&quot;http://www.example.com/&quot;&gt;http://www.example.com/&lt;/a&gt;&lt;/i&gt;cron.php .&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/krato/pozor-na-cron-v-drupalu-7-v-adrese-uz-nestaci-jen-cronphp&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/krato/pozor-na-cron-v-drupalu-7-v-adrese-uz-nestaci-jen-cronphp#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/instalace">instalace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8869</wfw:commentRss>
+ <pubDate>Wed, 05 Jan 2011 14:13:06 +0000</pubDate>
+ <dc:creator>krato</dc:creator>
+ <guid isPermaLink="false">8869 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Rychlá instalace Drupalu 7 a modulů přes ssh</title>
+ <link>https://www.drupal.cz/blog/krato/rychla-instalace-drupalu-7-modulu-pres-ssh</link>
+ <description>&lt;p&gt;Drupal 7 vyšel ve své finální verzi. Pro potřeby rychlého
+„nahození“ Drupalu 7 s desítkami oblímených modulů jsem si sepsal dva
+bashové skripty, které by se vám také mohly hodit, alespoň jako inspirace.
+Spouští se v bashi, tudíž potřebujete přístup na webhostingový server
+přes SSH.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/krato/rychla-instalace-drupalu-7-modulu-pres-ssh&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/krato/rychla-instalace-drupalu-7-modulu-pres-ssh#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/instalace">instalace</category>
+ <enclosure url="https://www.drupal.cz/files/drupal-7.x-download-1.x-alpha1.sh_.txt" length="1336" type="text/plain" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8868</wfw:commentRss>
+ <pubDate>Wed, 05 Jan 2011 14:01:22 +0000</pubDate>
+ <dc:creator>krato</dc:creator>
+ <guid isPermaLink="false">8868 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

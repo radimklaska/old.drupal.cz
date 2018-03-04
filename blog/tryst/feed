@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Tryst&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/tryst</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Search Engine Wars</title>
+ <link>https://www.drupal.cz/blog/tryst/search-engine-wars</link>
+ <description>&lt;p&gt;Asi si říkáte proč je nadpis v angličtině? Z jednoho prostého
+důvodu, protože to vše začalo v anglicky mluvící zemi a to když
+Yahoo.com představilo nový vzhled a funkce svého vyhledávače. Bylo jenom
+otázkou času, který z českých vyhledávačů bude „první“. Ptáte se
+jaké prvenství mám na mysli?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/tryst/search-engine-wars&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/tryst/search-engine-wars#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/135</wfw:commentRss>
+ <pubDate>Tue, 26 Sep 2006 12:34:08 +0000</pubDate>
+ <dc:creator>Tryst</dc:creator>
+ <guid isPermaLink="false">135 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

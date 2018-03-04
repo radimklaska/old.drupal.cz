@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>cyberdog&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/cyberdog</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Případová studie OpenTheMagazine.com na Drupal.org</title>
+ <link>https://www.drupal.cz/blog/cyberdog/pripadova-studie-openthemagazinecom-na-drupalorg</link>
+ <description>&lt;p&gt;Na drupal.org vyšel &lt;a href=&quot;http://drupal.org/node/629664&quot;&gt;zajímavý
+článek&lt;/a&gt; indického studia &lt;a href=&quot;http://www.srijan.in/&quot;&gt;Srijan&lt;/a&gt;
+o jejich projektu &lt;a href=&quot;openthemagazine.com&quot;&gt;Open Magazine&lt;/a&gt;, což je
+internetová verze papírového časopisu stejného jména.&lt;/p&gt;
+
+&lt;p&gt;Co je na článku velmi zajímavé, je rozpis všech použitých modulů a
+jejich výhod a popis implementace Apache Solr.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/cyberdog/pripadova-studie-openthemagazinecom-na-drupalorg&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/cyberdog/pripadova-studie-openthemagazinecom-na-drupalorg#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6591</wfw:commentRss>
+ <pubDate>Mon, 07 Dec 2009 11:18:54 +0000</pubDate>
+ <dc:creator>cyberdog</dc:creator>
+ <guid isPermaLink="false">6591 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

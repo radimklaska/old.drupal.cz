@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - php</title>
+ <link>https://www.drupal.cz/taxonomy/term/612/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Podmínka v Rules na základě $_SERVER[&#039;HTTP_REFERER&#039;]</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/podminka-v-rules-na-zaklade-serverhttpreferer</link>
+ <description>&lt;p&gt;Na stránkách, které připravuji pro klienta budu využívat externího
+rezervačního systému youcanbook.me (bohužel jsem nenašel žádný modul pro
+Drupal, který by byl použitelný). Ten umožňuje po provedení rezervace
+přesměrovat uživatele zpět na zdrojové stránky. Proto jsem chtěl, aby se
+po příchodu zobrazila informační zpráva (něco jako „Děkujeme za Vaši
+rezervaci“).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/podminka-v-rules-na-zaklade-serverhttpreferer&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/podminka-v-rules-na-zaklade-serverhttpreferer#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/http">http</category>
+ <category domain="https://www.drupal.cz/clanky/http-referrer">http referrer</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <category domain="https://www.drupal.cz/clanky/rules">rules</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11109</wfw:commentRss>
+ <pubDate>Tue, 06 Mar 2012 12:15:43 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11109 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak efektivně ladit a debugovat v PHP   </title>
+ <link>https://www.drupal.cz/clanky/php/jak-efektivne-ladit-debugovat-v-php</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    David Grudl        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://www.youtube.com/watch?v=v3NFItpfHCg&quot; rel=&quot;nofollow&quot;&gt;Videozáznam - YouTube&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/akce/drupal-setkani-praha-26-dubna-2011-zamereno-na-vyvojare&quot;&gt;Drupal setkání - Praha - 26. dubna 2011 - Zaměřeno na vývojáře&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/php/jak-efektivne-ladit-debugovat-v-php#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/debugging">debugging</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10053</wfw:commentRss>
+ <pubDate>Mon, 18 Jul 2011 12:33:51 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">10053 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7 module developer, anyone?</title>
+ <link>https://www.drupal.cz/blog/praguebob/drupal-7-module-developer-anyone</link>
+ <description>&lt;p&gt;I may need a Drupal 7 module developer during the next 3 months for a
+significant project. If anyone is capable and interested, please contact me with
+your CV and quote your daily rate w/o VAT. A muzeme mluvit cesky, ale jadro
+toho sytemu bude v aj… :-)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/praguebob/drupal-7-module-developer-anyone#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/contract">contract</category>
+ <category domain="https://www.drupal.cz/clanky/developer">developer</category>
+ <category domain="https://www.drupal.cz/clanky/module">module</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <category domain="https://www.drupal.cz/clanky/project">project</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7940</wfw:commentRss>
+ <pubDate>Tue, 27 Jul 2010 14:44:09 +0000</pubDate>
+ <dc:creator>PragueBob</dc:creator>
+ <guid isPermaLink="false">7940 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kolik má instalace Drupalu proměnných?</title>
+ <link>https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych</link>
+ <description>&lt;p&gt;Při analyzování výkonu jednoho webu mě zajímalo, kolik má proměnných
+(tzn. obsah tabulky variables + globální pole $conf nastavené
+v settings.php) a kolik to je přibližně v bajtech.&lt;/p&gt;
+
+&lt;p&gt;Použil jsem k tomu modul &lt;a href=&quot;http://drupal.org/project/devel&quot;&gt;Devel&lt;/a&gt;. Ten sice sám obsahuje
+„Variable editor“ (velký formulář, kde je možné proměnné přímo
+upravit). Člověk se tam ale jednoduše nedozví počet proměnných a navíc
+při pokusu o přístup na tuto stránku jsem dostával &lt;em&gt;PHP memory limit
+error&lt;/em&gt;…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7284</wfw:commentRss>
+ <pubDate>Wed, 24 Mar 2010 22:37:13 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7284 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšel Drupal 6.16 a 5.22</title>
+ <link>https://www.drupal.cz/clanky/bezpecnost/vysel-drupal-616-522</link>
+ <description>&lt;p&gt;Pro ty, kdo to již nevěděli z emailu: vyšly nové verze Drupal 6.16 a
+5.22. Opravují několik nedostatků v bezpečnosti a pár dalších chyb&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aktualizace webů s Drupalem 5.x a 6.x na nové verze je velice
+doporučována.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Kompletní info o&lt;a href=&quot;http://drupal.org/drupal-6.16&quot;&gt; verzích Drupalu
+6.16 a 5.22 zde&lt;/a&gt; (anglicky)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/bezpecnost/vysel-drupal-616-522&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/bezpecnost/vysel-drupal-616-522#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bezpecnost">bezpečnost</category>
+ <category domain="https://www.drupal.cz/clanky/aktualizace">aktualizace</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/jadro">jádro</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <category domain="https://www.drupal.cz/clanky/update">update</category>
+ <category domain="https://www.drupal.cz/clanky/upgrade">upgrade</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7190</wfw:commentRss>
+ <pubDate>Tue, 09 Mar 2010 14:46:49 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">7190 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Setřídění pole podle abecedy včetně diakritiky</title>
+ <link>https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky</link>
+ <description>&lt;p&gt;Nedávno jsem na svém webu nasadil modul „tagadelic“ a přešel ze
+statických kategorií na tagy. Nechal jsem si je zobrazovat v bloku podobně
+jako zde na drupal.cz.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7137</wfw:commentRss>
+ <pubDate>Mon, 01 Mar 2010 22:36:43 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">7137 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zabezpečení PHP pomocí Suhosin</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/zabezpeceni-php-pomoci-suhosin</link>
+ <description>&lt;p&gt;Na anglickém blogu jsem vydal článek o zabezpečování PHP pomocí
+technologie Suhosin, podívejte se: &lt;a href=&quot;http://www.dynamiteheads.com/blog/jakub-suchy/drupal-security-using-suhosin-secure-php-installations&quot;&gt;Drupal
+security: using suhosin to secure PHP&lt;/a&gt;.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/zabezpeceni-php-pomoci-suhosin#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bezpecnost">bezpečnost</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6953</wfw:commentRss>
+ <pubDate>Mon, 01 Feb 2010 10:24:09 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">6953 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Georgius&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/georgius</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Stale se ucime</title>
+ <link>https://www.drupal.cz/blog/georgius/stale-se-ucime</link>
+ <description>&lt;p&gt;celej zivot&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/georgius/stale-se-ucime#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/362</wfw:commentRss>
+ <pubDate>Wed, 15 Nov 2006 22:18:23 +0000</pubDate>
+ <dc:creator>Georgius</dc:creator>
+ <guid isPermaLink="false">362 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

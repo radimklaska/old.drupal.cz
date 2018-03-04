@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>valdo&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/valdo</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal workshop v Žiline 1.9.2010</title>
+ <link>https://www.drupal.cz/blog/valdo/drupal-workshop-v-ziline-192010</link>
+ <description>&lt;p&gt;Dňa 1. septembra Vás pozývame do Žiliny na workshop „Efficiently
+Managing Many Drupal Sites“.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/valdo/drupal-workshop-v-ziline-192010&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/valdo/drupal-workshop-v-ziline-192010#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/workshop">workshop</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8133</wfw:commentRss>
+ <pubDate>Mon, 30 Aug 2010 09:21:08 +0000</pubDate>
+ <dc:creator>valdo</dc:creator>
+ <guid isPermaLink="false">8133 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal meetup Žilina - 16.7.2010</title>
+ <link>https://www.drupal.cz/blog/valdo/drupal-meetup-v-ziline-1672010</link>
+ <description>&lt;p&gt;Pozývame všetkých na &lt;strong&gt;Drupal meetup v Žiline v piatok
+16.7.2010 od 14.00&lt;/strong&gt;. Stretneme sa v podkrovných priestoroch &lt;a href=&quot;http://www.stanica.sk/&quot;&gt;Stanice Záriečie&lt;/a&gt;, kde sa konal tento aj
+minulý rok žilinský BarCamp.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/valdo/drupal-meetup-v-ziline-1672010&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/valdo/drupal-meetup-v-ziline-1672010#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7866</wfw:commentRss>
+ <pubDate>Thu, 01 Jul 2010 18:17:53 +0000</pubDate>
+ <dc:creator>valdo</dc:creator>
+ <guid isPermaLink="false">7866 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - drupal</title>
+ <link>https://www.drupal.cz/taxonomy/term/481/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Novinky: Views Autocomplete Filters a jQuery UI Account Dialogs</title>
+ <link>https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs</link>
+ <description>&lt;b&gt;Views Autocomplete Filters&lt;/b&gt;&lt;br /&gt;
+Autor opravil chybu a modul je plně funkční. Modul přidává funkci
+našeptávače k exposed filtrům, šikovná věc.&lt;br /&gt;
+ &lt;a href=&quot;http://drupal.org/project/views_autocomplete_filters&quot;&gt;http://drupal.org/…lete_filters&lt;/a&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;jQuery UI Account Dialogs&lt;/b&gt;&lt;br /&gt;
+Přidává efektní jquery okna pro registraci, při žádosti o zapomenuté
+heslo nebo odhlašování&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <enclosure url="https://www.drupal.cz/files/1_2.jpg" length="76507" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9625</wfw:commentRss>
+ <pubDate>Wed, 27 Apr 2011 15:34:35 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">9625 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal ako univerzálna platforma pre stavbu univerzitných webov</title>
+ <link>https://www.drupal.cz/blog/havran/drupal-ako-univerzalna-platforma-pre-stavbu-univerzitnych-webov</link>
+ <description>&lt;p&gt;Dnes som vystúpil na našom pravidelnom malom seminári &lt;a href=&quot;http://www.fem.uniag.sk/sit2010/&quot;&gt;SIT 2010&lt;/a&gt; (už 13-ty ročník)
+s príspevkom na tému „Drupal ako univerzálna platforma pre stavbu
+univerzitných webov“. Prezentáciu dávam k nahliadnutiu v prílohe,
+príspevok bude niekedy neskôr.&lt;/p&gt;
+
+&lt;p&gt;Ešte poznámka k PDF – tie grafy sú z vyhodnotenia stránok vysokých
+škôl a univerzít v počte 33, zo Slovenska.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/drupal-ako-univerzalna-platforma-pre-stavbu-univerzitnych-webov#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/prezentace">Prezentace</category>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <enclosure url="https://www.drupal.cz/files/sit-2010-juraj-chlebec.pdf" length="802583" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7615</wfw:commentRss>
+ <pubDate>Thu, 20 May 2010 12:44:31 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">7615 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>DrupalCon Kodaň 2010 - registrace otevřena</title>
+ <link>https://www.drupal.cz/clanky/drupalcon/drupalcon-kodan-2010-registrace-otevrena</link>
+ <description>&lt;p&gt;Včera večer bylo na konferenci DrupalCon SF oznámeno spuštění webu
+evropského DrupalConu, který se tento rok bude konat v Kodani. Lístky jsou
+po limitovanou dobu (do 21.4.) za nižší cenu, tj. 249+25% daň ⇒ 311 EUR.
+Normální cena: 279+25% daň ⇒ 349 EUR.&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/drupalcon/drupalcon-kodan-2010-registrace-otevrena&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/drupalcon/drupalcon-kodan-2010-registrace-otevrena#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/drupalcon">drupalcon</category>
+ <category domain="https://www.drupal.cz/clanky/konference">konference</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7424</wfw:commentRss>
+ <pubDate>Tue, 20 Apr 2010 08:23:35 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">7424 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšel Drupal 6.16 a 5.22</title>
+ <link>https://www.drupal.cz/clanky/bezpecnost/vysel-drupal-616-522</link>
+ <description>&lt;p&gt;Pro ty, kdo to již nevěděli z emailu: vyšly nové verze Drupal 6.16 a
+5.22. Opravují několik nedostatků v bezpečnosti a pár dalších chyb&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aktualizace webů s Drupalem 5.x a 6.x na nové verze je velice
+doporučována.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Kompletní info o&lt;a href=&quot;http://drupal.org/drupal-6.16&quot;&gt; verzích Drupalu
+6.16 a 5.22 zde&lt;/a&gt; (anglicky)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/bezpecnost/vysel-drupal-616-522&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/bezpecnost/vysel-drupal-616-522#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bezpecnost">bezpečnost</category>
+ <category domain="https://www.drupal.cz/clanky/aktualizace">aktualizace</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/jadro">jádro</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <category domain="https://www.drupal.cz/clanky/update">update</category>
+ <category domain="https://www.drupal.cz/clanky/upgrade">upgrade</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7190</wfw:commentRss>
+ <pubDate>Tue, 09 Mar 2010 14:46:49 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">7190 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání - Praha - 20. Leden 2010</title>
+ <link>https://www.drupal.cz/clanky/drupal/drupal-setkani-praha-20-leden-2010</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Již třetí setkání nejen drupalistů v Praze proběhne 20.1.2010.&lt;br /&gt;
+&lt;br /&gt;
+Start: 17.00 (konec 21.00)&lt;br /&gt;
+Místo: AVU – U Akademie 4, Praha 7 – Mapa: &lt;a href=&quot;http://moourl.com/dczmeetup&quot;&gt;http://moourl.com/dczmeetup&lt;/a&gt; Nejbližší
+stanice: Kamenická nebo Letenské náměstí&lt;br /&gt;
+Fotky prostor: &lt;a href=&quot;http://www.flickr.com/photos/30032901@N04/sets/72157622725367562/&quot;&gt;http://www.flickr.com/…22725367562/&lt;/a&gt;&lt;br /&gt;
+Fotky z předchozího setkání: &lt;a href=&quot;http://www.flickr.com/photos/30032901@N04/sets/72157622899592663/&quot;&gt;http://www.flickr.com/…22899592663/&lt;/a&gt;&lt;br /&gt;
+Počet míst: 60 Vstup na setkání je &lt;strong&gt;ZDARMA&lt;/strong&gt; po registraci&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/drupal/drupal-setkani-praha-20-leden-2010&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/drupal/drupal-setkani-praha-20-leden-2010#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <enclosure url="https://www.drupal.cz/files/Views_arguments_s_poznamkami_3.pdf" length="816757" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6672</wfw:commentRss>
+ <pubDate>Fri, 18 Dec 2009 13:48:22 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">6672 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání - Praha - 16. Prosinec 2009</title>
+ <link>https://www.drupal.cz/clanky/drupal/drupal-setkani-praha-16-prosinec-2009</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Po &lt;a href=&quot;http://www.drupal.cz/blog/sign/drupal-setkani-1811-shrnuti&quot; title=&quot;18-11-09 setkani&quot;&gt;předchozím úspěšném setkání&lt;/a&gt; se
+&lt;strong&gt;16. prosince&lt;/strong&gt; uskuteční další setkání nejen drupalistů
+v Praze.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Start:&lt;/strong&gt; 17.00 (konec 21.00)&lt;br /&gt;
+&lt;strong&gt;Místo:&lt;/strong&gt; AVU – U Akademie 4, Praha 7 – Mapa: &lt;a href=&quot;http://moourl.com/dczmeetup&quot;&gt;http://moourl.com/dczmeetup&lt;/a&gt; Nejbližší
+stanice: Kamenická nebo Letenské náměstí&lt;br /&gt;
+&lt;strong&gt;Fotky prostor:&lt;/strong&gt; &lt;a href=&quot;http://www.flickr.com/photos/30032901@N04/sets/72157622725367562/&quot;&gt;http://www.flickr.com/…22725367562/&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Počet míst:&lt;/strong&gt; 50 (&lt;strong&gt;zbyvaji 3 mista&lt;/strong&gt;
+[14.12.])&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/drupal/drupal-setkani-praha-16-prosinec-2009&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/drupal/drupal-setkani-praha-16-prosinec-2009#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6459</wfw:commentRss>
+ <pubDate>Mon, 23 Nov 2009 13:13:27 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">6459 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání 18.11. shrnuti</title>
+ <link>https://www.drupal.cz/blog/sign/drupal-setkani-1811-shrnuti</link>
+ <description>&lt;p&gt;Prvni „neformalni“ prazske setkani mame za sebou a musim rict, ze se
+urcite povedlo. Na celou akci se dostavilo neco pres 20 lidi
+(z 32 registro­vanych) – jedna drupalistka dorazila dokonce az z decina!,
+coz si myslim, ze je docela uspech a duvod proc takovou akci zopakovat
+za mesic.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sign/drupal-setkani-1811-shrnuti&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sign/drupal-setkani-1811-shrnuti#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <enclosure url="https://www.drupal.cz/files/i18n-myfinepix-18-11-09-atomicant.pdf" length="826993" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6456</wfw:commentRss>
+ <pubDate>Thu, 19 Nov 2009 11:08:57 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">6456 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ubercart 2.0 oficiální release</title>
+ <link>https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release</link>
+ <description>&lt;p&gt;Oficiální release Ubercartu 2.0 pro Drupal 6 už od středy
+21.10. zde:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://drupal.org/project/ubercart&quot;&gt;http://drupal.org/…ect/ubercart&lt;/a&gt;
+nebo &lt;a href=&quot;http://www.ubercart.org/news/oct-21-2009/ubercart_20_drupal_6_released&quot;&gt;http://www.ubercart.org/…l_6_released&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/eshop">eshop</category>
+ <category domain="https://www.drupal.cz/clanky/novinka">novinka</category>
+ <category domain="https://www.drupal.cz/clanky/novinky">novinky</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6286</wfw:commentRss>
+ <pubDate>Sat, 24 Oct 2009 16:29:29 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">6286 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Opera 10 a chyba při uploadu</title>
+ <link>https://www.drupal.cz/blog/kecinzer/opera-10-chyba-pri-uploadu</link>
+ <description>&lt;p&gt;Pokud používáte Operu 10 a setkali jste se s problémem, že vám
+v Drupalu přestaly jít nahrávat soubory (po kliknutí na přidat se zobrazí
+průběh, ale hned na to vyskočí chybová JS hláška), existuje
+řešení.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/opera-10-chyba-pri-uploadu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/opera-10-chyba-pri-uploadu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/opravy">opravy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6043</wfw:commentRss>
+ <pubDate>Fri, 25 Sep 2009 14:37:24 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">6043 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nepříjemný bug v modulu search - formuláře ve výsledcích hledání nefungují</title>
+ <link>https://www.drupal.cz/blog/wojtha/neprijemny-bug-v-modulu-search-formulare-ve-vysledcich-hledani-nefunguji</link>
+ <description>&lt;p&gt;Dnes jsem skoro hodinu zápasil s tím, že mi nefungovali formuláře
+zobrazené ve výsledcích hledání – konkrétně formulář „Přidat do
+košíku“ generovaný Übercartem. Po půl hodině, kdy jsem se snažil tento
+problém vyřešit sám, jsem to vzdal a začal googlit… A příčina je
+(alespoň pro mě) poměrně překvapivá.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/neprijemny-bug-v-modulu-search-formulare-ve-vysledcich-hledani-nefunguji&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/neprijemny-bug-v-modulu-search-formulare-ve-vysledcich-hledani-nefunguji#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5833</wfw:commentRss>
+ <pubDate>Wed, 02 Sep 2009 17:07:22 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">5833 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Dve dnesni zajimavosti</title>
+ <link>https://www.drupal.cz/blog/sign/dve-dnesni-zajimavosti</link>
+ <description>&lt;p&gt;Dve dnesni udalosti, ktere si myslim je dobre sdelit i ostatnim. :)&lt;/p&gt;
+
+&lt;p&gt;Predevsim dnesni commit do jadra D7.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sign/dve-dnesni-zajimavosti&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sign/dve-dnesni-zajimavosti#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5727</wfw:commentRss>
+ <pubDate>Wed, 19 Aug 2009 16:29:57 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">5727 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>70 beautiful Drupal sites</title>
+ <link>https://www.drupal.cz/blog/mogdesign/70-beautiful-drupal-sites</link>
+ <description>&lt;p&gt;Pozrite si 70 dobre vyzerajucich stranok postavenych na Drupale&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mogdesign.eu/blog/70-beautiful-drupal-sites/&quot;&gt;http://mogdesign.eu/…rupal-sites/&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/70-beautiful-drupal-sites#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/inspiracia">inspiracia</category>
+ <category domain="https://www.drupal.cz/clanky/webdesign">webdesign</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5416</wfw:commentRss>
+ <pubDate>Tue, 30 Jun 2009 11:46:32 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">5416 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Registrácia na DrupalCon Paris otvorená</title>
+ <link>https://www.drupal.cz/blog/mogdesign/registracia-na-drupalcon-paris-otvorena</link>
+ <description>&lt;p&gt;Každý kto sleduje dianie okolo Drupalu, určite vie, že najbližšia
+konferencia &lt;a href=&quot;http://paris2009.drupalcon.org/&quot;&gt;DrupalCon bude 1. –
+5. Septembra 2009 v Paríži&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pred pár dňami bola otvorená registrácia, &lt;a href=&quot;http://paris2009.drupalcon.org/ticket&quot;&gt;cena lístku&lt;/a&gt; na celú
+konferenciu je 195€, je však pravdepodobné, že s blížiacim sa septembrom
+bude cena narastať.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mogdesign/registracia-na-drupalcon-paris-otvorena&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/registracia-na-drupalcon-paris-otvorena#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/drupalcon">drupalcon</category>
+ <category domain="https://www.drupal.cz/clanky/konferencia">konferencia</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5213</wfw:commentRss>
+ <pubDate>Mon, 25 May 2009 12:59:53 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">5213 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Dnešní aktualizace Drupal 6.11 a 5.17 !!!!!</title>
+ <link>https://www.drupal.cz/blog/tiborteam/dnesni-aktualizace-drupal-611-517</link>
+ <description>&lt;p&gt;Drupal 6.11 and 5.17, maintenance releases fixing problems reported using
+the bug tracking system, as well as a critical security vulnerability, are now
+available for download. Drupal 6.11 also fixes performance issues with the menu
+cache and update status cache among other smaller issues.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/tiborteam/dnesni-aktualizace-drupal-611-517#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5088</wfw:commentRss>
+ <pubDate>Thu, 30 Apr 2009 06:19:39 +0000</pubDate>
+ <dc:creator>TiborTeam</dc:creator>
+ <guid isPermaLink="false">5088 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>25 dobre vyzerajucich free drupal tem</title>
+ <link>https://www.drupal.cz/blog/mogdesign/25-dobre-vyzerajucich-free-drupal-tem</link>
+ <description>&lt;p&gt;Zo vsetkych stran pocuvam ako su drupal stranky a temy skarede, co je
+z casti aj pravda a tak som sa pozrel na temy na drupal.org a vybral som
+25 najkrajsich drupal 6 tem, aby som si potvrdil ze stranka v Drupale moze
+byt pekna aj ked pouziva standardne drupal temy.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mogdesign/25-dobre-vyzerajucich-free-drupal-tem&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/25-dobre-vyzerajucich-free-drupal-tem#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/tema">tema</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4949</wfw:commentRss>
+ <pubDate>Tue, 31 Mar 2009 13:21:52 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">4949 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>První česká Drupal konference, 24.5.2008 - úvodní přednáška</title>
+ <link>https://www.drupal.cz/clanky/drupal/prvni-ceska-drupal-konference-2452008-uvodni-prednaska</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Jakub Suchý        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/drupal-konference-uvod.pdf&quot; type=&quot;application/pdf; length=3116393&quot;&gt;drupal-konference-uvod.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/prvni-ceska-drupal-konference-24-5-2008&quot;&gt;První česká Drupal konference - 24.5.2008&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/drupal/prvni-ceska-drupal-konference-2452008-uvodni-prednaska#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8263</wfw:commentRss>
+ <pubDate>Sun, 25 May 2008 10:45:00 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8263 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

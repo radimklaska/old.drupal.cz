@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>zurek&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/zurek</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Eshop na Drupalu</title>
+ <link>https://www.drupal.cz/blog/zurek/eshop-na-drupalu</link>
+ <description>&lt;p&gt;Nevíte prosím, někdo, jestli není počeštěná verze eshopu &lt;a href=&quot;http://drupal.org/project/ubercart&quot;&gt;http://drupal.org/…ect/ubercart&lt;/a&gt; ?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/zurek/eshop-na-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1232</wfw:commentRss>
+ <pubDate>Thu, 07 Jun 2007 07:09:49 +0000</pubDate>
+ <dc:creator>zurek</dc:creator>
+ <guid isPermaLink="false">1232 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

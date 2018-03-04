@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>borgo&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/borgo</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Efficiently Managing Many Drupal Sites - Workshop, Bratislava, 3.-4. September 2010</title>
+ <link>https://www.drupal.cz/blog/borgo/efficiently-managing-many-drupal-sites-workshop-bratislava-3-4-september-2010</link>
+ <description>&lt;p&gt;&lt;strong&gt;V dňoch 3.-4. Septembra vás pozývame do Bratislavy na workshop
+“Efficiently Managing Many Drupal Sites”.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Prednášať bude &lt;a href=&quot;http://davehall.com.au/&quot;&gt;Dave Hall&lt;/a&gt; (&lt;a href=&quot;http://twitter.com/skwashd&quot;&gt;@skwashd&lt;/a&gt;), ktorý sa v Bratislave
+zastaví cestou z Drupalconu a začne tak svoju &lt;a href=&quot;http://davehall.com.au/blog/dave/2010/07/22/travelling-speaking-scaling-and-aegiring&quot;&gt;prednáškovú
+tour&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dave sa venuje optimalizácii workflow pri nasadzovaní a správe Drupal
+projektov. Má bohaté skúsenosti s multi-site inštaláciami v systéme &lt;a href=&quot;http://groups.drupal.org/aegir/overview&quot;&gt;Aegir&lt;/a&gt;. Pracuje pre klientov
+po celom svete.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/borgo/efficiently-managing-many-drupal-sites-workshop-bratislava-3-4-september-2010&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/borgo/efficiently-managing-many-drupal-sites-workshop-bratislava-3-4-september-2010#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7913</wfw:commentRss>
+ <pubDate>Fri, 23 Jul 2010 13:05:49 +0000</pubDate>
+ <dc:creator>borgo</dc:creator>
+ <guid isPermaLink="false">7913 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Registrácia na bratislavský DrupalCamp je otvorená</title>
+ <link>https://www.drupal.cz/blog/borgo/registracia-na-bratislavsky-drupalcamp-je-otvorena</link>
+ <description>&lt;p&gt;Tešíme sa na stretnutie 27. a 28. Februára v priestoroch A4 – Nultý
+priestor (A4 – Zero space) na Nám. SNP v Bratislave.&lt;/p&gt;
+
+&lt;p&gt;Informácie o programe, ubytovaní a ďalšie podrobnosti hľadajte na
+stránke &lt;a href=&quot;http://www.drupalcamp.sk&quot;&gt;http://www.drupalcamp.sk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vítaní sú všetci, ktorí sa zaujímajú o open source CMS Drupal,
+jednotlivci aj firmy, užívatelia, developeri aj webmastri.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/borgo/registracia-na-bratislavsky-drupalcamp-je-otvorena&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/borgo/registracia-na-bratislavsky-drupalcamp-je-otvorena#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bratislava">bratislava</category>
+ <category domain="https://www.drupal.cz/clanky/drupalcamp">drupalcamp</category>
+ <category domain="https://www.drupal.cz/clanky/slovensko">slovensko</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6916</wfw:commentRss>
+ <pubDate>Wed, 27 Jan 2010 08:42:29 +0000</pubDate>
+ <dc:creator>borgo</dc:creator>
+ <guid isPermaLink="false">6916 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Bratislava meetup, Sobota 12. December 2009</title>
+ <link>https://www.drupal.cz/blog/borgo/bratislava-meetup-sobota-12-december-2009</link>
+ <description>&lt;p&gt;Na stretnuti v ramci DrupalCampu vo Viedni sme sa dohodli, ze v sobotu
+12.12.2009 spravime v Bratislave Drupal meetup.&lt;/p&gt;
+
+&lt;p&gt;Stretneme sa tento krat najma kvoli stranke drupal.sk. Chceli by sme na nej
+trosku popracovat.&lt;/p&gt;
+
+&lt;p&gt;Pozyvame vsetkych, ktori maju zaujem pomoct, maju napady, zrucnosti, alebo sa
+chcu len tak stretnut.&lt;/p&gt;
+
+&lt;p&gt;Presne miesto zatial nie je urcene, uvidime podla zaujmu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/borgo/bratislava-meetup-sobota-12-december-2009&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/borgo/bratislava-meetup-sobota-12-december-2009#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6557</wfw:commentRss>
+ <pubDate>Wed, 02 Dec 2009 15:49:01 +0000</pubDate>
+ <dc:creator>borgo</dc:creator>
+ <guid isPermaLink="false">6557 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

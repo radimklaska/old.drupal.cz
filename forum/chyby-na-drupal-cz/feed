@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Chyby na Drupal.cz</title>
+ <link>https://www.drupal.cz/taxonomy/term/39/0</link>
+ <description>Chyby a návrhy na Drupal.cz</description>
+ <language>cs</language>
+<item>
+ <title>Hledám drupalistu, který pomůže udělat nezbytné drobné změny na webu.</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/hledam-drupalistu-ktery-pomuze-udelat-nezbytne-drobne-zmeny-na-webu</link>
+ <description>Hledám drupalistu, který ni pomůže upravit nezbytné chyby na
+stávajícím webu www.fenixpersonal.cz (nevím, jakou verzi
+Drupalu mám):
+
+&lt;ul&gt;
+	&lt;li&gt;Odstranit chybové hlášky, zobrazují se u detailu prac.
+	pozice, např.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/chyby-na-drupalcz/hledam-drupalistu-ktery-pomuze-udelat-nezbytne-drobne-zmeny-na-webu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/hledam-drupalistu-ktery-pomuze-udelat-nezbytne-drobne-zmeny-na-webu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/66886</wfw:commentRss>
+ <pubDate>Fri, 17 Mar 2017 09:00:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">66886 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7 - &quot;Cesta&quot;</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/drupal-7-cesta</link>
+ <description>Dobrý den, můžete mi prosím poradit co napsat do pole „Cesta“?
+Chtěla jsem v položce menu v jedné záložce vytvořit další záložku
+ale nevím co napsat do tohoto políčka..jsem úplný laik, přišla jsem
+k tomu jak slepý k houslím, tak se omluvám za hloupé otázky…Díky za
+odpověď.</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/drupal-7-cesta#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/54441</wfw:commentRss>
+ <pubDate>Mon, 11 Apr 2016 09:18:15 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">54441 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Články na Drupal.cz</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/clanky-na-drupalcz</link>
+ <description>&lt;p&gt;Zdravím,&lt;/p&gt;
+
+&lt;p&gt;jako uživatel Drupalucézet si při vytváření nového obsahu mohu jako
+jednu z možností zvolit tzv. „článek“ (směřuje normálně do
+„/node/add/story“)&lt;/p&gt;
+
+&lt;p&gt;Kde potom najdu takto vytvořený obsah?&lt;/p&gt;
+
+&lt;p&gt;Najdou jej někde ostatní uživatelé?&lt;/p&gt;
+
+&lt;p&gt;Předem děkuji&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/clanky-na-drupalcz#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52316</wfw:commentRss>
+ <pubDate>Mon, 12 Oct 2015 14:23:29 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">52316 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Po kliknutí na odkaz ma odhlási</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/po-kliknuti-na-odkaz-ma-odhlasi</link>
+ <description>&lt;p&gt;Zdravím, prihlásenie do fora bez problémov. Po kliknutí na odkaz „Jak
+na to?“ ma automaticky odhlási. U ostatných odkazov je všetko v poriadku.
+Toto sa mi stalo prvý krát dnes. Zatial som na fore nemal nikdy žiadne
+problémy.&lt;/p&gt;
+
+&lt;p&gt;Ps. Je to len môj postreh, ale odkedy drupal.cz šlape na zabezpečenej
+stránke pozorujem často dvojité načítavanie stránok.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/chyby-na-drupalcz/po-kliknuti-na-odkaz-ma-odhlasi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/po-kliknuti-na-odkaz-ma-odhlasi#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/51221</wfw:commentRss>
+ <pubDate>Mon, 15 Jun 2015 21:07:03 +0000</pubDate>
+ <dc:creator>Berny</dc:creator>
+ <guid isPermaLink="false">51221 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>login blok se zobrazí 2x (ANDROMEDA)</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/login-blok-se-zobrazi-2x-andromeda</link>
+ <description>&lt;p&gt;Zdravím, nemůžu se zbavit login bloku v tématu andromeda. Ačkoli jej
+mám v struktura/blocks jen v oblasti sidebar, zobrazuje se mi i vlevo
+nahoře v místě headeru, čímž se mi rozhodí celá stránka.&lt;/p&gt;
+
+&lt;p&gt;Podařilo se mi ho identifikovat a vymazat v mozilla firebugu, ale nevím,
+kde ho najít v templatech. Neporadí někdo? Díky moc.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/login-blok-se-zobrazi-2x-andromeda#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/50701</wfw:commentRss>
+ <pubDate>Sun, 31 May 2015 11:22:31 +0000</pubDate>
+ <dc:creator>kamob</dc:creator>
+ <guid isPermaLink="false">50701 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Anti spamový filter blokuje moje příspěvky ve foru</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/anti-spamovy-filter-blokuje-moje-prispevky-ve-foru</link>
+ <description>&lt;p&gt;Ahoj tak jsem se snažil poslat příspěvěk do fóra a mollom nebo co
+používáte jako antispamový filter mě blokuje…že muj příspěvek nebu
+akceptován…&lt;/p&gt;
+
+&lt;p&gt;Díky za info&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/anti-spamovy-filter-blokuje-moje-prispevky-ve-foru#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/48081</wfw:commentRss>
+ <pubDate>Thu, 16 Apr 2015 12:52:23 +0000</pubDate>
+ <dc:creator>marinex</dc:creator>
+ <guid isPermaLink="false">48081 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>ztráta dat při aktualizaci stránky</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/ztrata-dat-pri-aktualizaci-stranky</link>
+ <description>Dobrý den. Při aktualizaci stránky se po potvrzení „uložit“ zratí
+veškerá data z dané stránky. Tohle se mi za poslední měsíc stalo asi
+čtyřikrát. Protože mi tahle situace zbytečně zkracuje život, chtěl bych
+se zeptat na koho se obrátit s prosbou a žádostí, aby se to přestalo
+stávat. Děkuji. roman vehovský</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/ztrata-dat-pri-aktualizaci-stranky#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/45346</wfw:commentRss>
+ <pubDate>Wed, 04 Feb 2015 13:19:57 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">45346 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz - forum: pridejte prosim verzi 8.0.x</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/drupalcz-forum-pridejte-prosim-verzi-80x</link>
+ <description>Myslim, uz by to tady melo mit sve misto.
+
+A kdyby pri te prilezitosti nekdo z redakce vycistil slovnik Tagy takto
+bude skvely.</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/drupalcz-forum-pridejte-prosim-verzi-80x#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/44916</wfw:commentRss>
+ <pubDate>Fri, 23 Jan 2015 13:30:24 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">44916 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Promazte ty tagy tady</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/promazte-ty-tagy-tady</link>
+ <description>Jak tady padaly spamy tak to zasvinilo i slovnik Tags – viz
+oblacek vpravo</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/promazte-ty-tagy-tady#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/41911</wfw:commentRss>
+ <pubDate>Thu, 13 Nov 2014 20:31:37 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">41911 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Hledám někoho kdo mi pomůže odstranit chyby. Cena dohodou.</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/hledam-nekoho-kdo-mi-pomuze-odstranit-chyby-cena-dohodou</link>
+ <description>Zdravím,
+
+hledám někoho kdo mi pomůže odstranit pár chyb v drupalu. Cena
+dohodou.
+
+Kontaktujte mě prosím na: parizek.petr (zavinac) itechs.cz skype:
+marcus.flintus
+
+Děkuji, Petr Pařízek</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/hledam-nekoho-kdo-mi-pomuze-odstranit-chyby-cena-dohodou#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/33916</wfw:commentRss>
+ <pubDate>Thu, 04 Sep 2014 14:54:44 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">33916 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nejde se přihlásit</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/nejde-se-prihlasit</link>
+ <description>Poraďte, prosím, někdo: Dneska se mi Drupal začal chovat divně –
+nejde mi přihlásit se na Admina.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/chyby-na-drupalcz/nejde-se-prihlasit&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/nejde-se-prihlasit#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/26466</wfw:commentRss>
+ <pubDate>Mon, 14 Jul 2014 10:34:07 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">26466 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Letní čas</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/letni-cas</link>
+ <description>&lt;p&gt;Je o hodinu posunutý čas příspěvků…&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/letni-cas#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25616</wfw:commentRss>
+ <pubDate>Tue, 15 Apr 2014 06:56:25 +0000</pubDate>
+ <dc:creator>Petr Illek</dc:creator>
+ <guid isPermaLink="false">25616 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>spatne se zobrazujici stranky a hlaska...</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/spatne-se-zobrazujici-stranky-hlaska</link>
+ <description>Zdravim, chtel bych se zeptat na hlasku &quot; # Warning: file_put_conten­ts():
+Filename cannot be empty in file_unmanaged_sa­ve_data() (line 1900 of
+/data/web/vir­tuals/54058/vir­tual/www/inclu­des/file.inc). # Soubor nelze
+vytvořit. # Warning: tempnam(): open_basedir restriction in effect.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/chyby-na-drupalcz/spatne-se-zobrazujici-stranky-hlaska&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/spatne-se-zobrazujici-stranky-hlaska#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25611</wfw:commentRss>
+ <pubDate>Tue, 15 Apr 2014 06:10:35 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">25611 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Modul Automatic Nodetitles</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/modul-automatic-nodetitles</link>
+ <description>&lt;p&gt;Zdravím. Dnes jsem zjistil chybu, něčeho co dříve fungovalo. Respektive
+funguje to, ale jinak než by mělo. Poslední prověřený a funkční stav byl
+na Drupal 7.23 s modulem Automatic Nodetitle 7.x-1.0. Modul doplnil
+automaticky nadpis uzlu podle parametrů v případě, že nadpis
+nebyl zadán.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/chyby-na-drupalcz/modul-automatic-nodetitles&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/modul-automatic-nodetitles#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24296</wfw:commentRss>
+ <pubDate>Thu, 09 Jan 2014 10:21:34 +0000</pubDate>
+ <dc:creator>zperina</dc:creator>
+ <guid isPermaLink="false">24296 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>komentář pod hledáním</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/komentar-pod-hledanim</link>
+ <description>&lt;p&gt;Vážený Jakube, pod výsledky vyhledávání jsem přidal komentář …
+tak si jej &lt;em&gt;pak&lt;/em&gt; prosím smažte…dík&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/komentar-pod-hledanim#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/23156</wfw:commentRss>
+ <pubDate>Wed, 20 Nov 2013 06:20:05 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">23156 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chyba, která mi vznikla při přidání funkce if do souboru upravující vzhled nového obsahu.</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/chyba-ktera-mi-vznikla-pri-pridani-funkce-if-do-souboru-upravujici-vzhled-noveho-obsahu</link>
+ <description>Zdravím,
+
+potřeboval bych poradit s jednou chybou, která mi vznikla při přidání
+funkce if do souboru upravující vzhled nového obsahu.
+
+Chyba: &lt;strong&gt;Notice: Undefined index: field_sample_file in include() (line
+122 of
+/home4/hologram/pu­blic_html/mid­nighthologram­.com/sites/all/the­mes/midnightho­logram/node–product.tpl.php).&lt;/strong&gt;
+
+Soubor:&lt;br /&gt;
+…&lt;br /&gt;
+&amp;lt;?php print render($conten­t[&#039;field_&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/chyby-na-drupalcz/chyba-ktera-mi-vznikla-pri-pridani-funkce-if-do-souboru-upravujici-vzhled-noveho-obsahu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/chyba-ktera-mi-vznikla-pri-pridani-funkce-if-do-souboru-upravujici-vzhled-noveho-obsahu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21861</wfw:commentRss>
+ <pubDate>Tue, 10 Sep 2013 17:52:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">21861 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Prosím pomoc!</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/prosim-pomoc</link>
+ <description>zdravím, na webu se mi zobrazuje tato hláška: warning: Creating default
+object from empty value in
+/home/users/michal­n/goauldi.9e.cz/web/mo­dules/taxonomy/ta­xonomy.pages.inc
+on line 33.
+
+jedná se o drupal 6.28… nevíte, co s tím může být:</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/prosim-pomoc#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/20566</wfw:commentRss>
+ <pubDate>Fri, 07 Jun 2013 15:25:50 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">20566 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>SPAM</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/spam</link>
+ <description>&lt;p&gt;Dnes sme mali hromadu spamu. Co s tym? Zrusit anonymny pristup?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/spam#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/20136</wfw:commentRss>
+ <pubDate>Wed, 05 Jun 2013 05:53:51 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">20136 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Webform - problém se zobrazením výsledků - žádost o pomoc</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/webform-problem-se-zobrazenim-vysledku-zadost-o-pomoc</link>
+ <description>&lt;p&gt;Dobrý den, mám problém se zobrazením výsledků formulářů v modulu
+webform. Náhle se přestaly výsledky zobrazovat a jsou pouze uloženy v SQL
+databázi. Po odeslání formuláře uživatelem mi přijde na mail pouze výpis
+kolonek formuláře bez zadaných hodnot.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/chyby-na-drupalcz/webform-problem-se-zobrazenim-vysledku-zadost-o-pomoc&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/webform-problem-se-zobrazenim-vysledku-zadost-o-pomoc#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/18341</wfw:commentRss>
+ <pubDate>Sun, 24 Mar 2013 21:50:49 +0000</pubDate>
+ <dc:creator>ofiko</dc:creator>
+ <guid isPermaLink="false">18341 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Podpora a servis</title>
+ <link>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/podpora-servis</link>
+ <description>&lt;p&gt;dobry den, potřebuji někoho kdo umi s drupalem, potřebuju opravovat a
+servisovat stranky&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/chyby-na-drupalcz/podpora-servis#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/39">Chyby na Drupal.cz</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/15981</wfw:commentRss>
+ <pubDate>Mon, 05 Nov 2012 13:34:38 +0000</pubDate>
+ <dc:creator>ivanR</dc:creator>
+ <guid isPermaLink="false">15981 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

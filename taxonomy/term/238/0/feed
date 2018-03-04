@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Úpravy témat vzhledu</title>
+ <link>https://www.drupal.cz/taxonomy/term/238/0</link>
+ <description>Toto téma není pro lidi, kteří shání návod, jak upravit samotný vzhled webu. Použijte HTML/CSS/SEO. Správné dotazy: Sháníte template funkci? Potřebujete upravit šablonu?</description>
+ <language>cs</language>
+<item>
+ <title>Posuvné sidebary</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/posuvne-sidebary</link>
+ <description>Dobrý den,
+
+mám web na Drupalu, téma vzhledu AT Core a rád bych měl posuvné sidebary
+(aby byly stále na očích i při posouvání stránky dolů). Position:fixed
+zlobilo a jiná řešení co jsemzkoušel nefungovala. Webje zatím na
+adrese http://DMDU.netprostor.cz</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/posuvne-sidebary#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/80181</wfw:commentRss>
+ <pubDate>Fri, 03 Nov 2017 11:37:47 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">80181 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tema vzhladu pre D8</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/tema-vzhladu-pre-d8</link>
+ <description>&lt;p&gt;Zdravím, v D7 používam tému vzhladu Garland. Je možné používať
+túto tému i v D8 ?&lt;/p&gt;
+
+&lt;p&gt;Ďakujem.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/tema-vzhladu-pre-d8#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/75971</wfw:commentRss>
+ <pubDate>Sun, 03 Sep 2017 19:35:48 +0000</pubDate>
+ <dc:creator>Berny</dc:creator>
+ <guid isPermaLink="false">75971 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>&quot;Větvička&quot; a úpravy šablony Bootstrap</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/vetvicka-upravy-sablony-bootstrap</link>
+ <description>Máte někdo zkušenosti s „Větvičkou“ a úpravami vlastních šablon
+(page, node…)? Dáváte vlastní šablony do složky Templates nebo
+vytváříte podsložky system, node apod.? V D7 to fungovalo tak i tak.</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/vetvicka-upravy-sablony-bootstrap#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/75326</wfw:commentRss>
+ <pubDate>Sat, 19 Aug 2017 09:34:11 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">75326 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tvorba šablony pro Drupal</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/tvorba-sablony-pro-drupal</link>
+ <description>&lt;p&gt;Dobrý den,&lt;/p&gt;
+
+&lt;p&gt;zakládám nový filmový portál Moviefan.cz, už dříve jsem používal
+Drupal na webu Playall.cz, filmshot.cz, sexyrady.cz a byl jsem spokojený a
+hledám nějakého šikovného „drupalistu“, který mi nakóduje layout na
+Drupal z designu z .psd + vyřeší player na trailery?&lt;/p&gt;
+
+&lt;p&gt;Pište mi, prosím své cenové nabidky na mail: &lt;a href=&quot;mailto:slavek.anlauf@gmail.com&quot;&gt;slavek.anlauf&amp;#64;gmail.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dekuji a s pozdravem…&lt;/p&gt;
+
+&lt;p&gt;Slávek Anlauf&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/tvorba-sablony-pro-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/75231</wfw:commentRss>
+ <pubDate>Thu, 03 Aug 2017 16:52:55 +0000</pubDate>
+ <dc:creator>Slávek Anlauf</dc:creator>
+ <guid isPermaLink="false">75231 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Čas se nepropisuji</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/cas-se-nepropisuji</link>
+ <description>&lt;p&gt;Ahoj, Mám problém s pridanim css na stránku. Mám vlastní theme, ale
+bohužel se mi nechtějí vlastní css přidat do HTML hlavičky, neví někdo
+čím by to mohlo být, jelikož jinde to funguje v pořádku a u mě na
+localhostu bohužel vůbec. Jsou přidávány přes funkci drupal_add_css&lt;/p&gt;
+
+&lt;p&gt;Diky&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/cas-se-nepropisuji#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/73696</wfw:commentRss>
+ <pubDate>Fri, 02 Jun 2017 03:37:38 +0000</pubDate>
+ <dc:creator>Chuchy</dc:creator>
+ <guid isPermaLink="false">73696 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vlastní vzhled pro /user/%/orders/%</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/vlastni-vzhled-pro-userorders</link>
+ <description>&lt;p&gt;Detail dokončené objednávky je na /user/%/orders/%. Jenže to vypadá dost
+ošklivě. Jak se jmenuje šablona, ve které jde vzhled této stránky
+upravit?&lt;/p&gt;
+
+&lt;p&gt;PS: neplést se stránkou /user/%/orders, kterou generuje Views.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/vlastni-vzhled-pro-userorders#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/73546</wfw:commentRss>
+ <pubDate>Wed, 31 May 2017 11:26:48 +0000</pubDate>
+ <dc:creator>siva01</dc:creator>
+ <guid isPermaLink="false">73546 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Na jaké theme se naučit upravovat vzhled stránek - node, page</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/na-jake-theme-se-naucit-upravovat-vzhled-stranek-node-page</link>
+ <description>&lt;p&gt;Doporučíte mi, na jakém vzhledu/theme je nejjednodušší se naučit
+upravovat rozložení stránek pro jednotlivé typy node, Views?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/na-jake-theme-se-naucit-upravovat-vzhled-stranek-node-page&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/na-jake-theme-se-naucit-upravovat-vzhled-stranek-node-page#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/73106</wfw:commentRss>
+ <pubDate>Fri, 26 May 2017 06:10:24 +0000</pubDate>
+ <dc:creator>smiesek</dc:creator>
+ <guid isPermaLink="false">73106 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Bootstrap Themes / Úvodní dynamická stránka</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/bootstrap-themes-uvodni-dynamicka-stranka</link>
+ <description>Ahoj, našel jsem mnoho návodů na úpravu a přizpůsobení úvodní strany
+webu při použití Bootstrap Themes.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/bootstrap-themes-uvodni-dynamicka-stranka&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/bootstrap-themes-uvodni-dynamicka-stranka#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/71286</wfw:commentRss>
+ <pubDate>Sun, 30 Apr 2017 17:11:02 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">71286 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Obrázek v titulku vedle nadpisu a popisu článku. </title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/obrazek-v-titulku-vedle-nadpisu-popisu-clanku</link>
+ <description>&lt;p&gt;Mohl bych poprosit o radu jak nejlépe postupovat?&lt;/p&gt;
+
+&lt;p&gt;Jedná se mi o náhledový obrázek ve výpisu titulku u obsahu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/obrazek-v-titulku-vedle-nadpisu-popisu-clanku&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/obrazek-v-titulku-vedle-nadpisu-popisu-clanku#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/57281</wfw:commentRss>
+ <pubDate>Tue, 02 Aug 2016 21:12:48 +0000</pubDate>
+ <dc:creator>romikFCB</dc:creator>
+ <guid isPermaLink="false">57281 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Problém s template blogger theme</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/problem-s-template-blogger-theme</link>
+ <description>Dobrý den, mohl bych poprosit o radu? Upgradoval jsem D6 na D7. Import
+probehl v poradku.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/problem-s-template-blogger-theme&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/problem-s-template-blogger-theme#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/57201</wfw:commentRss>
+ <pubDate>Wed, 27 Jul 2016 10:31:42 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">57201 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Přidání překlad vlajky do nav / bootstrap</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/pridani-preklad-vlajky-do-nav-bootstrap</link>
+ <description>&lt;p&gt;Ráda bych se obrátila o pomoc na ty, co mají více zkušeností
+s úpravou a stylováním css.&lt;/p&gt;
+
+&lt;p&gt;Používám theme botstrap s defaultním nastavením
+navigačního menu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/pridani-preklad-vlajky-do-nav-bootstrap&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/pridani-preklad-vlajky-do-nav-bootstrap#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/56941</wfw:commentRss>
+ <pubDate>Sat, 16 Jul 2016 16:42:36 +0000</pubDate>
+ <dc:creator>smiesek</dc:creator>
+ <guid isPermaLink="false">56941 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jiná barva jen jednoho nadpisu (odkazu) příspěvku</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/jina-barva-jen-jednoho-nadpisu-odkazu-prispevku</link>
+ <description>&lt;p&gt;Ahoj,&lt;/p&gt;
+
+&lt;p&gt;bylo by nějak realizovatelné, aby jeden konkrétní nadpis (odkaz)
+příspěvku byl jinou barvou než zbytek? V šabloně je CSS stylem
+definovaný font/barva/velikost nadpisů odkazů, ale pořád přemýšlím jak
+vnutit Drupalu, aby byl jen pro jeden konkrétní odkaz jinak.&lt;/p&gt;
+
+&lt;p&gt;Nemáte nějaký nápad?&lt;/p&gt;
+
+&lt;p&gt;Díky.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/jina-barva-jen-jednoho-nadpisu-odkazu-prispevku#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/56086</wfw:commentRss>
+ <pubDate>Mon, 30 May 2016 17:17:23 +0000</pubDate>
+ <dc:creator>PetrVac</dc:creator>
+ <guid isPermaLink="false">56086 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Velikost obrázků vedle textů</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/velikost-obrazku-vedle-textu</link>
+ <description>&lt;p&gt;Dobrý den, na webu v sekci reference jsem dodnes měl správnou velikost
+obrázků v textu, ale bez jakékoliv aktualizace či změny se u všech
+referencí změnily velikosti obrázků. Každou referenci mám zvlášť a na
+všechny udělaný jeden View. V referenci mám udělanou tabulku, která má
+2 sloupce a 1 řádek. Vlevo je text a vpravo obrázek o rozměrech 250×200.
+Náhled ve View viz.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/velikost-obrazku-vedle-textu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/velikost-obrazku-vedle-textu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/1.JPG" length="113661" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/55546</wfw:commentRss>
+ <pubDate>Mon, 09 May 2016 12:46:28 +0000</pubDate>
+ <dc:creator>lukasfigo</dc:creator>
+ <guid isPermaLink="false">55546 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Úprava souboru node.tpl.php</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/uprava-souboru-nodetplphp</link>
+ <description>&lt;p&gt;V souvislosti s použitím modulu &lt;strong&gt;Printer, email and PDF
+versions&lt;/strong&gt; je tam možnost úpravy jednotlivých šablon.&lt;/p&gt;
+
+&lt;p&gt;Při té příležitosti bych se ráda zeptala, co mě napadlo již včera a
+spíše se ujistila, zdali postup chápání je správný a nebo
+úplně mimo.&lt;/p&gt;
+
+&lt;p&gt;Při studování jsem došla k následujícímu:&lt;/p&gt;
+
+&lt;p&gt;Budu mít vlastní typ Obsahu „&lt;strong&gt;Akce&lt;/strong&gt;“.&lt;/p&gt;
+
+&lt;p&gt;Pro úpravu toho typu použiju vý&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/uprava-souboru-nodetplphp&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/uprava-souboru-nodetplphp#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/54761</wfw:commentRss>
+ <pubDate>Thu, 21 Apr 2016 01:44:27 +0000</pubDate>
+ <dc:creator>smiesek</dc:creator>
+ <guid isPermaLink="false">54761 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>nějaký ZEN pro D8 ?</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/nejaky-zen-pro-d8</link>
+ <description>&lt;p&gt;Zdravím,&lt;/p&gt;
+
+&lt;p&gt;kterou „base“ šablonu pro Drupal 8 byste doporučili?&lt;/p&gt;
+
+&lt;p&gt;Na drupalu 7 používám Zen (ve verzi 7.x-5.x) včetně těch blbinek, jako
+třeba Sass a Compass…&lt;/p&gt;
+
+&lt;p&gt;Co byste mi doporučili použít nyní na D8? (něco srovnatelného nebo
+lepšího, klidně se doučím i nějaké další blbinky ;-) )&lt;/p&gt;
+
+&lt;p&gt;Pozn. Zen zatím pro D8 není a nevypadá, že bude rychle.&lt;/p&gt;
+
+&lt;p&gt;Dík&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/nejaky-zen-pro-d8#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53926</wfw:commentRss>
+ <pubDate>Fri, 11 Mar 2016 15:57:18 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">53926 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Bootstrap ver. 3.1 a výše jak bez CDN</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/bootstrap-ver-31-vyse-jak-bez-cdn</link>
+ <description>&lt;p&gt;Ahoj rád bych si zpovoznil bootstrap 7.x – 3.4 narazil jsem na jeden
+problém snad mi poradíte je tam adresář starterkits a v něm 2 výchozí
+subtémata CDN a LESS. Jedno je používáno s CDN a druhé se musí
+zkompilovat pomocí less procesoru. Potřeboval bych to s CDN bez CDN :-) zní
+to asi divně… jde o to, že chci používat lokální verzi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/bootstrap-ver-31-vyse-jak-bez-cdn&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/bootstrap-ver-31-vyse-jak-bez-cdn#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53461</wfw:commentRss>
+ <pubDate>Tue, 23 Feb 2016 14:16:41 +0000</pubDate>
+ <dc:creator>marinex</dc:creator>
+ <guid isPermaLink="false">53461 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>úprava existující proměnné</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/uprava-existujici-promenne</link>
+ <description>&lt;p&gt;Ahoj v html.tpl.php se vypisuje proměnná $head. jakým způsobem mohu
+přepsat data která v ní jsou a také další přidávat? Díky&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/uprava-existujici-promenne#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53301</wfw:commentRss>
+ <pubDate>Wed, 17 Feb 2016 12:26:21 +0000</pubDate>
+ <dc:creator>maxy_obr</dc:creator>
+ <guid isPermaLink="false">53301 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>výchozí soubory  tpl.php</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/vychozi-soubory-tplphp</link>
+ <description>&lt;p&gt;Ahoj asi dobře nechápu úpravu tpl. Pochopil jsem to tak, že
+modules/system jsou ty systémové které se použijí pokud nejsou vyplněné
+v modulu a pokud je chci nahradit použiji soubor stejného názvu např
+htlm.tpl.php ve složce daného tématu. Ale to mi ho nenahradí. Jak to tedy
+je. Díky za rady&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/vychozi-soubory-tplphp#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53281</wfw:commentRss>
+ <pubDate>Tue, 16 Feb 2016 19:44:57 +0000</pubDate>
+ <dc:creator>maxy_obr</dc:creator>
+ <guid isPermaLink="false">53281 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vlastní node.tpl.php pro konkrétní termín slovníku</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/vlastni-nodetplphp-pro-konkretni-termin-slovniku</link>
+ <description>&lt;p&gt;Dobrý den, nedaří se mi v D7 vytvořit node.tpl.php pro konkrétní
+termín ze slovníku. Potřebuji mít pro vybrané termíny slovníku vlastní
+šablonu node. Zkoušel jsem např. &lt;a href=&quot;http://drupal.stackexchange.com/questions/23688/change-tpl-file-based-on-taxonomy-term&quot;&gt;http://drupal.stackexchange.com/…axonomy-term&lt;/a&gt;
+ale nefunguje mi. Můžete mi prosím poradit, jak na to?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/vlastni-nodetplphp-pro-konkretni-termin-slovniku#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52761</wfw:commentRss>
+ <pubDate>Sun, 13 Dec 2015 21:54:39 +0000</pubDate>
+ <dc:creator>panda</dc:creator>
+ <guid isPermaLink="false">52761 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Na stránkách se objevuje nechtěný odkaz na hlavní stránku</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/na-strankach-se-objevuje-nechteny-odkaz-na-hlavni-stranku</link>
+ <description>Dobrý den,
+
+na stránkách se mi zobrazuje odkaz na hlavní menu, které jsem tam nedala
+a ani ho nikde v nastavení nelze vymazat. Nejspíš to tam Drupál přidává
+sám a lze to upravit někde ve struktuře, ale nevím kde… Vzhled jsem
+dělala v tématu Stark, na již vytvořené a funkční stránky. Tak je
+možné že jsem špatně vložila soubor page.tpl.php nebo tak něco.
+Kopírovala jsem to z modulů-systém.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/na-strankach-se-objevuje-nechteny-odkaz-na-hlavni-stranku&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/na-strankach-se-objevuje-nechteny-odkaz-na-hlavni-stranku#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/238">Úpravy témat vzhledu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52616</wfw:commentRss>
+ <pubDate>Sat, 14 Nov 2015 22:47:46 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52616 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

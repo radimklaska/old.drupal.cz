@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>igorik&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/igorik</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Modul pre zoznam najaktivnejsich bloggerov</title>
+ <link>https://www.drupal.cz/blog/igorik/skvely-novy-modul-pre-zoznam-najaktivnejsich-bloggerov</link>
+ <description>&lt;p&gt;Ahoj,&lt;/p&gt;
+
+&lt;p&gt;pred casom sme v tomto threade &lt;a href=&quot;http://www.drupal.cz/forum/po-instalaci/jak-na/ako-spravit-zoznam-bloggerov-aj-s-poctom-ich-blogov-cez-views&quot;&gt;http://www.drupal.cz/…ov-cez-views&lt;/a&gt;
+riesili ako vytvorit cez views zoznam najaktivnejsich bloggerov.&lt;/p&gt;
+
+&lt;p&gt;ja som potreboval mat zoznam bloggerov zoradeny podla poctu blogov ktore ten
+ktory user napisal (zoznam najaktivnejsich bloggerov), a mat to vo views.
+Normalnym sposobom to docielit rozumne neslo, a ked hej, tak to bolo dost
+narocne na vypocet (pocitanie stoviek/tisicok nodov/blogov)&lt;/p&gt;
+
+&lt;p&gt;nechal som preto spravit modul blog_statistics a nechal ho pridat aj pre
+ostatnych na drupal.org &lt;a href=&quot;http://drupal.org/project/blog_statistics&quot;&gt;http://drupal.org/…g_statistics&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/igorik/skvely-novy-modul-pre-zoznam-najaktivnejsich-bloggerov&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/igorik/skvely-novy-modul-pre-zoznam-najaktivnejsich-bloggerov#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/blog">blog</category>
+ <category domain="https://www.drupal.cz/clanky/drupalorg">drupal.org</category>
+ <category domain="https://www.drupal.cz/clanky/modul">modul</category>
+ <category domain="https://www.drupal.cz/clanky/somvprahesk">somvprahe.sk</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6530</wfw:commentRss>
+ <pubDate>Sat, 28 Nov 2009 15:14:25 +0000</pubDate>
+ <dc:creator>igorik</dc:creator>
+ <guid isPermaLink="false">6530 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>johhan&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/johhan</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal 8 šablony</title>
+ <link>https://www.drupal.cz/blog/johhan/drupal-8-sablony</link>
+ <description>&lt;p&gt;Drupal.org v tuto chvíli vylistuje 70 šablon pro Drupal 8.x. Je mezi nimi
+několik starých dobrých známých base (základních, univerzálních)
+šablon. Vě většině případů zde ale naleznete dev verze šablon nebo
+poměrně staré verze (několik měsíců, ale je možné, že Vám
+poběží)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/johhan/drupal-8-sablony#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52411</wfw:commentRss>
+ <pubDate>Mon, 19 Oct 2015 13:43:59 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">52411 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz as WYSINWYW, to snad ne!?</title>
+ <link>https://www.drupal.cz/blog/johhan/drupalcz-wysinwyw-snad-ne</link>
+ <description>&lt;p&gt;Tak nevím.&lt;/p&gt;
+
+&lt;p&gt;Mám &lt;i&gt;nějaké&lt;/i&gt; představy o webu, který bych chtěl (budovat).&lt;/p&gt;
+
+&lt;p&gt;Drupal měl být vhodná stavebnice.&lt;/p&gt;
+
+&lt;p&gt;Ale jak tak procházím &lt;b&gt;Drupal.cz&lt;/b&gt;, mám silný pocit, že
+&lt;cite&gt;&lt;i&gt;TO&lt;/i&gt; rozhodně není to, jak si svůj budoucí web
+představuji&lt;/cite&gt;:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/johhan/drupalcz-wysinwyw-snad-ne&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/johhan/drupalcz-wysinwyw-snad-ne#comments</comments>
+ <enclosure url="https://www.drupal.cz/files/drupalcz-vyhledavacka-jsconsola_3.gif" length="61461" type="image/gif" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5662</wfw:commentRss>
+ <pubDate>Tue, 11 Aug 2009 10:00:32 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">5662 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>sebeja&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/sebeja</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal i v Ostravě...</title>
+ <link>https://www.drupal.cz/blog/sebeja/drupal-i-v-ostrave</link>
+ <description>&lt;p&gt;Zdravím všechny nadšené drupalisty :o)&lt;/p&gt;
+
+&lt;p&gt;Koukám na web a zjišťuji, že setkání probíhají v Praze. Severní
+Morava nemusí být pozadu. Pojďme udělat své setkání.&lt;/p&gt;
+
+&lt;p&gt;Jsem ochoten vše zaštítit a organizovat. Jako spíše podprůměrnému
+uživateli systému se konzultace na odborné úrovni šikne. Setkání by mělo
+proběhnout odpoledne až večer. Počet účastníků, kolem padesáti, je
+ideální.&lt;/p&gt;
+
+&lt;p&gt;Reagujte, pište.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sebeja/drupal-i-v-ostrave&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sebeja/drupal-i-v-ostrave#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-setkani">Drupal setkání</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9198</wfw:commentRss>
+ <pubDate>Fri, 18 Feb 2011 13:48:24 +0000</pubDate>
+ <dc:creator>sebeja</dc:creator>
+ <guid isPermaLink="false">9198 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

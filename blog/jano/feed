@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>jano&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/jano</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Aký používate responsive design na drupal 7?</title>
+ <link>https://www.drupal.cz/blog/jano/aky-pouzivate-responsive-design-na-drupal-7</link>
+ <description>&lt;p&gt;Ahoj, toto je môj prvý web po anglicky: &lt;a href=&quot;http://www.commoditytradingmanual.com/&quot; title=&quot;Commodity trading&quot;&gt;Commodity trading&lt;/a&gt; – manuál je určený pre
+anglicky hovoriace auditórium začínajúcich obchodníkov s kommoditami
+(commodities).&lt;/p&gt;
+
+&lt;p&gt;Z technického hladiska to nie je nič prevratné. Je to drupal
+7 inštalácia a základné modruly. Nosný modul je book. Na webe je zapnutý
+základný dizajn.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jano/aky-pouzivate-responsive-design-na-drupal-7&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jano/aky-pouzivate-responsive-design-na-drupal-7#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21316</wfw:commentRss>
+ <pubDate>Tue, 06 Aug 2013 10:52:05 +0000</pubDate>
+ <dc:creator>jano</dc:creator>
+ <guid isPermaLink="false">21316 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

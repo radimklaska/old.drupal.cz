@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>RedWeb&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/linda-vratnickova</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Druhý den v Londýně</title>
+ <link>https://www.drupal.cz/blog/redweb/druhy-den-v-londyne</link>
+ <description>&lt;p&gt;Většinu dne bych charakterizovala velice jednoznačně… československé
+priatelstvo :-) L.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/redweb/druhy-den-v-londyne#comments</comments>
+ <enclosure url="https://www.drupal.cz/files/DSC_0188.jpg" length="341951" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10221</wfw:commentRss>
+ <pubDate>Mon, 22 Aug 2011 22:51:30 +0000</pubDate>
+ <dc:creator>RedWeb</dc:creator>
+ <guid isPermaLink="false">10221 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>První den v Londýně</title>
+ <link>https://www.drupal.cz/blog/redweb/prvni-den-v-londyne</link>
+ <description>&lt;p&gt;Jsme tu a už se moooc těšíme na zítřek :-) Dnes jsme prošli krásy
+historického Londýna a jsme plní zážitků. V Pakistánské restauraci jsme
+si dali medium hot… a pusa hoří ještě teď… :-D (po 5 pivech)…
+Pokusíme se psát každý den, co jsme se dozvěděli a jak bylo.&lt;/p&gt;
+
+&lt;p&gt;Petr, Petr, Jožo a Linda&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/redweb/prvni-den-v-londyne#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupalcon-london-2011">DrupalCon London 2011</category>
+ <enclosure url="https://www.drupal.cz/files/DSC_0173_m.jpg" length="379074" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10216</wfw:commentRss>
+ <pubDate>Sun, 21 Aug 2011 22:47:10 +0000</pubDate>
+ <dc:creator>RedWeb</dc:creator>
+ <guid isPermaLink="false">10216 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

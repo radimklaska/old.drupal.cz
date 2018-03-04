@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>mogdesign&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/mogdesign</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>70 beautiful Drupal sites</title>
+ <link>https://www.drupal.cz/blog/mogdesign/70-beautiful-drupal-sites</link>
+ <description>&lt;p&gt;Pozrite si 70 dobre vyzerajucich stranok postavenych na Drupale&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mogdesign.eu/blog/70-beautiful-drupal-sites/&quot;&gt;http://mogdesign.eu/…rupal-sites/&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/70-beautiful-drupal-sites#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/inspiracia">inspiracia</category>
+ <category domain="https://www.drupal.cz/clanky/webdesign">webdesign</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5416</wfw:commentRss>
+ <pubDate>Tue, 30 Jun 2009 11:46:32 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">5416 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Registrácia na DrupalCon Paris otvorená</title>
+ <link>https://www.drupal.cz/blog/mogdesign/registracia-na-drupalcon-paris-otvorena</link>
+ <description>&lt;p&gt;Každý kto sleduje dianie okolo Drupalu, určite vie, že najbližšia
+konferencia &lt;a href=&quot;http://paris2009.drupalcon.org/&quot;&gt;DrupalCon bude 1. –
+5. Septembra 2009 v Paríži&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pred pár dňami bola otvorená registrácia, &lt;a href=&quot;http://paris2009.drupalcon.org/ticket&quot;&gt;cena lístku&lt;/a&gt; na celú
+konferenciu je 195€, je však pravdepodobné, že s blížiacim sa septembrom
+bude cena narastať.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mogdesign/registracia-na-drupalcon-paris-otvorena&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/registracia-na-drupalcon-paris-otvorena#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/drupalcon">drupalcon</category>
+ <category domain="https://www.drupal.cz/clanky/konferencia">konferencia</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5213</wfw:commentRss>
+ <pubDate>Mon, 25 May 2009 12:59:53 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">5213 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zbierka Drupal Tutorialov</title>
+ <link>https://www.drupal.cz/blog/mogdesign/zbierka-drupal-tutorialov</link>
+ <description>&lt;p&gt;Na mojom blogu som publikoval velku zbierku Drupal tutorialov
+(v anglictine) – hlavne screencasty, od zaciatocnikov po zlozitejsie…&lt;/p&gt;
+
+&lt;p&gt;Ultimate Drupal Tutorial Collection: &lt;a href=&quot;http://mogdesign.eu/blog/ultimate-drupal-tutorial-collection/&quot;&gt;http://mogdesign.eu/…-collection/&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/zbierka-drupal-tutorialov#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5168</wfw:commentRss>
+ <pubDate>Mon, 18 May 2009 17:10:17 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">5168 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Mojich top 10drupal modulov</title>
+ <link>https://www.drupal.cz/blog/mogdesign/mojich-top-10drupal-modulov</link>
+ <description>&lt;p&gt;Na mojom blogu som publikoval clanok o 10 moduloch, ktore pouzivam takmer
+na kazdej stranke ktoru robim… &lt;a href=&quot;http://mogdesign.eu/blog/top-10-drupal-modules-for-every-website/&quot;&gt;http://mogdesign.eu/…ery-website/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Zaujimalo by ma vidiet vasich 10 modulov, bez ktorych sa pr tvorbe stranok
+neviete zaobist a pouzivate ich stale…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mogdesign/mojich-top-10drupal-modulov&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/mojich-top-10drupal-modulov#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5002</wfw:commentRss>
+ <pubDate>Thu, 09 Apr 2009 19:32:35 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">5002 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>25 dobre vyzerajucich free drupal tem</title>
+ <link>https://www.drupal.cz/blog/mogdesign/25-dobre-vyzerajucich-free-drupal-tem</link>
+ <description>&lt;p&gt;Zo vsetkych stran pocuvam ako su drupal stranky a temy skarede, co je
+z casti aj pravda a tak som sa pozrel na temy na drupal.org a vybral som
+25 najkrajsich drupal 6 tem, aby som si potvrdil ze stranka v Drupale moze
+byt pekna aj ked pouziva standardne drupal temy.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mogdesign/25-dobre-vyzerajucich-free-drupal-tem&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/25-dobre-vyzerajucich-free-drupal-tem#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/tema">tema</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4949</wfw:commentRss>
+ <pubDate>Tue, 31 Mar 2009 13:21:52 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">4949 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nahlad novej Drupal.org </title>
+ <link>https://www.drupal.cz/blog/mogdesign/nahlad-novej-drupal-org</link>
+ <description>&lt;p&gt;Na DrupalCon, Washington DC zakladatel Dries Buytaert vo svojej kazdorocnej
+Sprave o Drupalu ukazal nahlad novej drupal.org webstranky.&lt;/p&gt;
+
+&lt;p&gt;Najdete ju na &lt;a href=&quot;http://staging.dosprint.org&quot;&gt;http://staging.dosprint.org&lt;/a&gt; meno aj heslo
+je: demo&lt;/p&gt;
+
+&lt;p&gt;Klobuk dolu pred vsetkymi sprintermi, ktori previedli design Marka Boultona
+na zivu stranku…&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mogdesign/nahlad-novej-drupal-org#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4768</wfw:commentRss>
+ <pubDate>Wed, 04 Mar 2009 16:14:42 +0000</pubDate>
+ <dc:creator>mogdesign</dc:creator>
+ <guid isPermaLink="false">4768 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

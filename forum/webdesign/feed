@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Webdesign</title>
+ <link>https://www.drupal.cz/taxonomy/term/40/0</link>
+ <description>Obecně o webdesignu, někdo tomu říká kreslení. Nic, než obrázky či dotazy k designu by se tu nemělo objevit.</description>
+ <language>cs</language>
+<item>
+ <title>Obrázek v náhledu článku</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/obrazek-v-nahledu-clanku</link>
+ <description>Zdravím, chtěl bych dosáhnout stavu, že v náhledu článku budu mít
+nadpis a pod ním napravo titulní obrázek a nalevo náhled textu.
+V nastavení článku (struktura/typy obsahu/článek) jsem toto nenašel.
+Hledal jsem i v nastavení stylu obrázků (nastavení/me­dia/styly
+obrázků) ale ani zde není možnost takového nastavení.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/obrazek-v-nahledu-clanku&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/obrazek-v-nahledu-clanku#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/49416</wfw:commentRss>
+ <pubDate>Wed, 29 Apr 2015 13:01:00 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">49416 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>3 obrázky v riadku a responzivita webu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/3-obrazky-v-riadku-responzivita-webu</link>
+ <description>&lt;p&gt;Zdravim, prosim o radu, ako postupovat na webe, ak chcem mat na webe
+3 obrazky vedla seba pri zobrazeni na pocitaci (napr. 3 obrazky width=300px na
+monitore), ktore sa pri zobrazeni na mobilnom zariadeni s mensou zobrazovacou
+sirkou tieto usporiada pod seba. Skusal som ich nastavit ako float left, width
+33,3333%, … Viete mi poradit, prosím?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/3-obrazky-v-riadku-responzivita-webu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/36666</wfw:commentRss>
+ <pubDate>Sun, 05 Oct 2014 19:39:54 +0000</pubDate>
+ <dc:creator>jadu</dc:creator>
+ <guid isPermaLink="false">36666 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>hezký design webů drupalu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/hezky-design-webu-drupalu</link>
+ <description>&lt;p&gt;Zdravím konferu,&lt;/p&gt;
+
+&lt;p&gt;trošku si zoufám, když vidím, kolik je pro wordpress témat, jak jsou
+hezky zpracovaný a jak různorodé se dají najít (za peníze). Nejsem ale
+schopen najít podobné témata pro Drupal… Proč to tak je?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/hezky-design-webu-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/hezky-design-webu-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/35516</wfw:commentRss>
+ <pubDate>Tue, 23 Sep 2014 20:48:05 +0000</pubDate>
+ <dc:creator>Martin Kamín ZULU</dc:creator>
+ <guid isPermaLink="false">35516 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nice menus nezobrazuje pododkazy</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/nice-menus-nezobrazuje-pododkazy</link>
+ <description>&lt;p&gt;Zdravím, chtěl jsem se zeptat. Mám naimportovaný modul nice menus
+v bočním panelu. Do včerejška v pohodě fungoval. Dělal jsem galerii a
+dělal jsem změny v modulech, netýkalo se to přímo tohoto modulu, ale
+chtěl jsem se zeptat co mohlo způsobit nezobrazování podmenu v nice menu.
+Je možné že jsem udělal někde chybu. Zkusil jsem odinstalování a zpětné
+nainstalování ale nepomohlo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/nice-menus-nezobrazuje-pododkazy&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/nice-menus-nezobrazuje-pododkazy#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/26491</wfw:commentRss>
+ <pubDate>Wed, 16 Jul 2014 07:24:41 +0000</pubDate>
+ <dc:creator>shakki</dc:creator>
+ <guid isPermaLink="false">26491 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Logo stránky v drupalu - nezobrazuje se</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/logo-stranky-v-drupalu-nezobrazuje-se</link>
+ <description>&lt;p&gt;Zdravím všechny znalce drupalu, s drupalem začínám a při nastavení
+záhlaví, konkrétně přidání vlastního loga, se mi logo nezobrazuje jak
+má. Konkrétně se mi zobrazí klasicky bílý čtverec s křížkem, který
+asi značí že obrázek se nezobrazil. Zkoušel jsem změnit rozměry, typ
+obrázku z .jpg na .png. Je zajímavé, že když logo vložím do informací
+u menu ve formě odkazu, obrázek se zobrazí.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/logo-stranky-v-drupalu-nezobrazuje-se&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/logo-stranky-v-drupalu-nezobrazuje-se#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25951</wfw:commentRss>
+ <pubDate>Fri, 16 May 2014 08:09:52 +0000</pubDate>
+ <dc:creator>shakki</dc:creator>
+ <guid isPermaLink="false">25951 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Stav HTTP požiadavky - zlyhalo</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/stav-http-poziadavky-zlyhalo</link>
+ <description>&lt;p&gt;Pozdravujem, neporadil by mi niekto čo s tým. Vďaka&lt;/p&gt;
+
+&lt;p&gt;Drupal 6.28 Aktualizácie databázy Aktuálne CAPTCHA Already 12 blocked
+form submissions CKEditor 3.6.2 You are using a feature that requires
+$cookie_domain to be set, but it is not set in your settings.php file (CKFinder
+is enabled in the Advanced profile).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/stav-http-poziadavky-zlyhalo&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/stav-http-poziadavky-zlyhalo#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25446</wfw:commentRss>
+ <pubDate>Fri, 28 Mar 2014 21:54:12 +0000</pubDate>
+ <dc:creator>petrik1</dc:creator>
+ <guid isPermaLink="false">25446 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pozadí základní stránky jako obrázek</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/pozadi-zakladni-stranky-jako-obrazek</link>
+ <description>&lt;p&gt;Ahoj Mám dotaz. Chtěl bych dosáhnout toho, že pozadí základní stránky
+nebude barevné, ale tvořené obrázkem. Přes který bude možno psát text,
+vložit tabulku (obsahující obrázky či text)… Nevíte prosím jak toho
+dosáhnout? Jako šablonu využívám Bartíka, který je takový
+nejohebnější. Pokud to nepopisuji srozumitelne, vložil jsem do přílohy
+obrázek, jak jsem si to namaloval. Díky Heralik&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/pozadi-zakladni-stranky-jako-obrazek#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/Pozarni_servis_web.jpg" length="155645" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25271</wfw:commentRss>
+ <pubDate>Tue, 18 Mar 2014 10:46:19 +0000</pubDate>
+ <dc:creator>Heralik</dc:creator>
+ <guid isPermaLink="false">25271 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>1</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/zmiznutie-slideshow</link>
+ <description>&lt;p&gt;1&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/zmiznutie-slideshow#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21596</wfw:commentRss>
+ <pubDate>Tue, 20 Aug 2013 09:00:20 +0000</pubDate>
+ <dc:creator>kenbi</dc:creator>
+ <guid isPermaLink="false">21596 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Učební křivka aneb nejlepší postup jak pochopit Drupal (nejen design layout ;)</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/ucebni-krivka-aneb-nejlepsi-postup-jak-pochopit-drupal-nejen-design-layout</link>
+ <description>&lt;p&gt;Zdravím vespolek,&lt;/p&gt;
+
+&lt;p&gt;mám knihu od Polzera – Drupal 7 (2011) a pomalu s ní „bojuji“ :)
+Mám tip od někoho, že je to prý nejlepší kniha, která se vyplatí číst.
+Sice mám zkušenosti s CMS (CMS MS, GS), základy php, (X)Html, CSS, ale
+i tak si myslím, že Drupal je dost &lt;b&gt;silné kafe&lt;/b&gt;…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dotaz:&lt;/strong&gt; jaký je nejlepší postup učení a pochopení
+Drupalu (pochopení fungování a současně i p&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/ucebni-krivka-aneb-nejlepsi-postup-jak-pochopit-drupal-nejen-design-layout&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/ucebni-krivka-aneb-nejlepsi-postup-jak-pochopit-drupal-nejen-design-layout#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21536</wfw:commentRss>
+ <pubDate>Thu, 15 Aug 2013 13:49:47 +0000</pubDate>
+ <dc:creator>canisterapie</dc:creator>
+ <guid isPermaLink="false">21536 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pomoc real estate REALITNÝ KANCELAŘ</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/pomoc-real-estate-realitny-kancelar</link>
+ <description>Hledám Pomoc drupal 7 v sekci real estate REALITNÝ KANCELAŘ zakladní
+nastvení mám jedna se o zasuvný moduly a jine cenu za zprovoznění pište
+domluvíme se děkuji</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/pomoc-real-estate-realitny-kancelar#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/18586</wfw:commentRss>
+ <pubDate>Fri, 05 Apr 2013 11:31:39 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">18586 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Označení menu, že obsahuje nový komentář</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/oznaceni-menu-ze-obsahuje-novy-komentar</link>
+ <description>&lt;p&gt;Dobre poledne, mam jednoho zakaznika, ktery prisel s docela specifickym
+pozadavkem. Chtel by v menu upozorneni, ze v dane sekci je novy
+clanek/komentar apod. Tzn. poku v menu je napr.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/oznaceni-menu-ze-obsahuje-novy-komentar&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/oznaceni-menu-ze-obsahuje-novy-komentar#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/17651</wfw:commentRss>
+ <pubDate>Sun, 17 Feb 2013 10:18:24 +0000</pubDate>
+ <dc:creator>ftipalek</dc:creator>
+ <guid isPermaLink="false">17651 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nový design doporučte firmu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/novy-design-doporucte-firmu</link>
+ <description>&lt;p&gt;Chtěl bych doporučit nějakou kvalitní firmu na redesign mého webu,
+která má zkušenosti s Drupalem.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/novy-design-doporucte-firmu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/15076</wfw:commentRss>
+ <pubDate>Thu, 27 Sep 2012 09:12:51 +0000</pubDate>
+ <dc:creator>zabiak</dc:creator>
+ <guid isPermaLink="false">15076 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Umístění názvu blogu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/umisteni-nazvu-blogu</link>
+ <description>&lt;p&gt;Dobrý den, použil jsem thema Kanji 7.x-2.2 a názvy článků jsou jako
+poslední. Jak je dostanu jako první? &lt;a href=&quot;http://www.generals.cz/cs/node/61&quot;&gt;Napřiklad&lt;/a&gt; Honza&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/umisteni-nazvu-blogu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/13626</wfw:commentRss>
+ <pubDate>Mon, 30 Jul 2012 09:00:30 +0000</pubDate>
+ <dc:creator>JanDoh</dc:creator>
+ <guid isPermaLink="false">13626 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Converse Leather Shoes</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/converse-leather-shoes</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.conversenewshoes.com/&quot;&gt;&lt;b&gt;Converse Leather
+Shoes&lt;/b&gt;&lt;/a&gt;double tongue feature trainers. Featuring the design features that
+make these an all time classic. Rubberised sole unit and toe cap with branding
+on the heel and canvas upper construction. Fold the double tongue down to reveal
+the funky contrasting print and colours underneath.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/converse-leather-shoes&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/converse-leather-shoes#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12976</wfw:commentRss>
+ <pubDate>Mon, 02 Jul 2012 06:10:30 +0000</pubDate>
+ <dc:creator>tianyi</dc:creator>
+ <guid isPermaLink="false">12976 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>artisteer pro drupal</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/artisteer-pro-drupal</link>
+ <description>&lt;p&gt;Drupal nainstalovanej, project (šablona) v Artisteeru hotová.
+Nainstalovanej soubor blabla.zip. Ale jak dál? Co je další krok? Díky
+soudruzi! :D&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/artisteer-pro-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11631</wfw:commentRss>
+ <pubDate>Thu, 19 Apr 2012 22:37:54 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">11631 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Javascript - zvecsenie obrazka pohybom mysi cez obrazok </title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/javascript-zvecsenie-obrazka-pri-pohybom-mysi-cez-obrazok</link>
+ <description>&lt;p&gt;Poprosil by som o radu, potreboval by som na stranke spravit, aby sa pri
+pohybe mysou cez obrazok (alebo text) objavil velky nahlad obrazka, bez potreby
+kliknutia. Cital som nejake clanky na tuto temu, docital som sa ze to ma nejaky
+suvis s Javascriptom, ze jeto potrebne implementovat do temy. Ak ma niekto
+nejaku skusenost poprosil by som o radu.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/javascript-zvecsenie-obrazka-pri-pohybom-mysi-cez-obrazok#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11126</wfw:commentRss>
+ <pubDate>Mon, 12 Mar 2012 07:34:28 +0000</pubDate>
+ <dc:creator>joujou</dc:creator>
+ <guid isPermaLink="false">11126 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Uprava &quot;vystupu&quot; modulu PRINT</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/uprava-vystupu-modulu-print</link>
+ <description>&lt;p&gt;Ako upravit vystup vzhladu „Odoslat priatelovi na mail“ z modulu
+PRINT(6.x-1.x-dev)?&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;pre pole „Adresa prijemcov“ doplnujuci text k „textarea“ aby zacinal
+	tam, kde zacina pole „textarea“&lt;br /&gt;
+	&lt;em&gt;(ak je vacsie rozlisenie uz to nie je pekne)&lt;em&gt;&lt;/em&gt;&lt;/em&gt;&lt;/li&gt;
+
+	&lt;li&gt;pre pole „Adresa prijemcov“ skratit dlzku „textarea“&lt;/li&gt;
+
+	&lt;li&gt;doplnit medzeru medzi tlacitka „Vymazat formular“ a „Zrusit“&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Vdaka.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/uprava-vystupu-modulu-print#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <enclosure url="https://www.drupal.cz/files/drupal-print.gif" length="20860" type="image/gif" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10929</wfw:commentRss>
+ <pubDate>Mon, 23 Jan 2012 12:06:24 +0000</pubDate>
+ <dc:creator>PeterZ</dc:creator>
+ <guid isPermaLink="false">10929 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Garland banner na uvodnej stranke </title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/garland-banner-na-uvodnej-stranke</link>
+ <description>&lt;p&gt;Zdravim&lt;/p&gt;
+
+&lt;p&gt;Pri teme Garland chcem na uvodnu stranku umiestnit banner zlozeny z dvoch
+obrazkov. Kazdy z obrazkov bude sluzit ako link &amp;lt; a href=&quot;&quot; Obrazky som
+umiestnil do tabulky a vsetko je to v bloku Nadpis. Mam problem s tym ze tie
+obrazky su trochu rozhadzane jeden je umiestneny vyssie a druhy nizsie neviem si
+stym poradit. Chcem aby boli vedla seba v jednej rovine neviete
+poradit ako?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/garland-banner-na-uvodnej-stranke#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10417</wfw:commentRss>
+ <pubDate>Thu, 06 Oct 2011 08:13:34 +0000</pubDate>
+ <dc:creator>joujou</dc:creator>
+ <guid isPermaLink="false">10417 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Diakritika</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/diakritika</link>
+ <description>&lt;p&gt;Zdravím, dělám si vzhled přes Aristeer a narazil sem na problém. Vše je
+ok, akorád při horním menu(tlačítka) mi nejdou háčky a čárky. Zkoušel
+sem jiný tlačítka, i celej jinej vzhled(přes Aristeer) ale háčky a
+čárky nefungujou,místo nich se oběvují jiné znaky. Originální témata
+jsou v pořádku.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/diakritika&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/diakritika#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9643</wfw:commentRss>
+ <pubDate>Sun, 01 May 2011 17:23:31 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">9643 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>centrovanie 3 div tagov </title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/centrovanie-3-div-tagov</link>
+ <description>&lt;p&gt;Zdravim pani a damy,&lt;/p&gt;
+
+&lt;p&gt;robim jeden dizajn a neviem vycentrovat 3 div tagy naraz. Vysvetlim ze
+o co ide…&lt;/p&gt;
+
+&lt;p&gt;hlavny div tag je vlastne stranka ma sirku 950px a je vycentrovany na stred
+… lenze chcem pridat z kazdej strany (zlava a z prava) take tienovanie
+proste obrazok … tie obrazky budu mat asi 100px na sirku… jeden na jednu
+stranu druhy na druhu&lt;/p&gt;
+
+&lt;p&gt;tu ale nastava problem …&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/webdesign/centrovanie-3-div-tagov&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/webdesign/centrovanie-3-div-tagov#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/webdesign">Webdesign</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9553</wfw:commentRss>
+ <pubDate>Mon, 11 Apr 2011 19:43:14 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">9553 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

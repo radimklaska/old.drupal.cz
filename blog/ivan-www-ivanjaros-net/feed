@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>ivan@www.ivanjaros.net&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/ivan-www-ivanjaros-net</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Pridte na virtualne stretnutie slovenske komunity Drupalu</title>
+ <link>https://www.drupal.cz/blog/ivan-www-ivanjaros-net/pridte-na-virtualne-stretnutie-slovenske-komunity-drupalu</link>
+ <description>&lt;p&gt;Oznamujem vám, že &lt;strong&gt;vo štvrtok 8.1.2009 o 19:00 hodine&lt;/strong&gt; sa
+na jabberi uskutoční virtuálna konferencia slovenskej komunity Drupalu.&lt;/p&gt;
+
+&lt;p&gt;Adresa miestnosti je &lt;strong&gt;&lt;a href=&quot;mailto:drupal@conf.netlab.cz&quot;&gt;drupal&amp;#64;conf.netlab.cz&lt;/a&gt;&lt;/strong&gt;
+(link &lt;a href=&quot;http://live.jabbim.cz/muckl/muckl.html?conf_room=drupal&quot;&gt;http://live.jabbim.cz/…l/muckl.html?…&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Cieľom tohto stretnutia je prebrať pôsobenie komunity Drupalu na Slovensku
+a dohodnúť sa na spoločnom postupe pri&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ivan-www-ivanjaros-net/pridte-na-virtualne-stretnutie-slovenske-komunity-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ivan-www-ivanjaros-net/pridte-na-virtualne-stretnutie-slovenske-komunity-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4384</wfw:commentRss>
+ <pubDate>Sun, 04 Jan 2009 13:41:36 +0000</pubDate>
+ <dc:creator>ivan@www.ivanjaros.net</dc:creator>
+ <guid isPermaLink="false">4384 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

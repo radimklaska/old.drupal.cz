@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - workshop</title>
+ <link>https://www.drupal.cz/taxonomy/term/20/0</link>
+ <description>Jednou za čas v této rubrice najdete téma, o kterém budeme společně diskutovat.</description>
+ <language>cs</language>
+<item>
+ <title>Workshop - git pro začátečníky</title>
+ <link>https://www.drupal.cz/clanky/workshop/workshop-git-pro-zacatecniky</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Tímto bych rád pozval všechny se zájmem o git na workshop „Git pro
+začátečníky“, který se &lt;strong&gt;uskuteční&lt;/strong&gt; 12.8.2012.&lt;/p&gt;
+
+&lt;p&gt;Cílem workshopu je seznámit vás se základy používání gitu, abyste
+zvládli každodenní použití. Registrace je povinná – registrujte se
+prosím co nejdřív a považujte ji za závaznou – musím vědět, kolik
+míst mám rezervovat… Díky. Informace o konání budou upřesněny,
+po př&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/workshop/workshop-git-pro-zacatecniky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/workshop/workshop-git-pro-zacatecniky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/workshop">workshop</category>
+ <category domain="https://www.drupal.cz/clanky/git">Git</category>
+ <category domain="https://www.drupal.cz/clanky/github">github</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/13661</wfw:commentRss>
+ <pubDate>Tue, 31 Jul 2012 06:40:13 +0000</pubDate>
+ <dc:creator>berkas1</dc:creator>
+ <guid isPermaLink="false">13661 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal workshop v Žiline 1.9.2010</title>
+ <link>https://www.drupal.cz/blog/valdo/drupal-workshop-v-ziline-192010</link>
+ <description>&lt;p&gt;Dňa 1. septembra Vás pozývame do Žiliny na workshop „Efficiently
+Managing Many Drupal Sites“.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/valdo/drupal-workshop-v-ziline-192010&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/valdo/drupal-workshop-v-ziline-192010#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/workshop">workshop</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8133</wfw:commentRss>
+ <pubDate>Mon, 30 Aug 2010 09:21:08 +0000</pubDate>
+ <dc:creator>valdo</dc:creator>
+ <guid isPermaLink="false">8133 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Dokončili jsme další školení - názory</title>
+ <link>https://www.drupal.cz/clanky/workshop/dokoncili-jsme-dalsi-skoleni-nazory</link>
+ <description>&lt;p&gt;Dnes odpoledne jsme ukončili školení „Co vše dokážete v Drupalu bez
+kódování“. Společně s účastníky jsme si vytvořili web pro online
+noviny a ukázali si na něm CCK, Views a Panels.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/workshop/dokoncili-jsme-dalsi-skoleni-nazory&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/workshop/dokoncili-jsme-dalsi-skoleni-nazory#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/workshop">workshop</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4619</wfw:commentRss>
+ <pubDate>Wed, 11 Feb 2009 21:01:27 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">4619 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Workshop: Co čekáte od CMS?</title>
+ <link>https://www.drupal.cz/clanky/workshop/workshop-co-cekate-od-cms</link>
+ <description>&lt;p&gt;Tímto článkem startujeme sérii workshopů – společných prací –
+na téma CMS Drupal. Společně prodiskutujeme určité téma, z jehož
+výsledků budeme čerpat v dalším díle.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/workshop/workshop-co-cekate-od-cms&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/workshop/workshop-co-cekate-od-cms#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/workshop">workshop</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/63</wfw:commentRss>
+ <pubDate>Wed, 13 Dec 2006 22:00:02 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">63 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

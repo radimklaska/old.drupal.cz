@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Ostatní</title>
+ <link>https://www.drupal.cz/taxonomy/term/11/0</link>
+ <description>Co se jinam nevešlo. Obecná diskuse.</description>
+ <language>cs</language>
+<item>
+ <title>D7 Facebook Autopost přestal správně pracovat</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/d7-facebook-autopost-prestal-spravne-pracovat</link>
+ <description>&lt;p&gt;Pomocí modulu Facebook Autopost posílám nově napsané příspěvky na
+školní facebook, ale začal tam psát, že stránka neexistuje, a
+neposlouchají ani obrázky.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/d7-facebook-autopost-prestal-spravne-pracovat&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/d7-facebook-autopost-prestal-spravne-pracovat#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/FB září 2017 podle uvedeného Rules_0.JPG" length="43268" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/77046</wfw:commentRss>
+ <pubDate>Wed, 13 Sep 2017 15:56:24 +0000</pubDate>
+ <dc:creator>milada</dc:creator>
+ <guid isPermaLink="false">77046 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Je mod_deflate bezpečný?</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/je-moddeflate-bezpecny</link>
+ <description>&lt;p&gt;Četl jsem, že můžu zrychlit web přes mod_deflate, ale také jsem četl,
+že u některých aplikací to je bezpečností díra. Můžu to používat na
+virtuálním severu, kde mi běží jen Drupal?&lt;/p&gt;
+
+&lt;p&gt;Má smysl přes to prohnat všechny soubory, nebo jen některé? Podle čeho
+bych měl posoudit, co komprimovat ano a co ne?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/je-moddeflate-bezpecny#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/75316</wfw:commentRss>
+ <pubDate>Tue, 15 Aug 2017 15:10:53 +0000</pubDate>
+ <dc:creator>siva01</dc:creator>
+ <guid isPermaLink="false">75316 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jakou distribuci Drupal 8 nainstalovat?</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/jakou-distribuci-drupal-8-nainstalovat</link>
+ <description>&lt;p&gt;Dobrý den, máte někdo zkušenosti s distribucemi drupalu 8? Je nějaká,
+která mi zjednoduší vytvoření nového webu pro nabídku a organizaci akcí
+(workshopů, přednášek a setkání)? Akce se často opakují a potřebuji je
+zadávat jen výběrem (číselník) podle názvu akce s přidáním času,
+místa a případné doplňující informace.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/jakou-distribuci-drupal-8-nainstalovat&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/jakou-distribuci-drupal-8-nainstalovat#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/64986</wfw:commentRss>
+ <pubDate>Sun, 19 Feb 2017 16:08:03 +0000</pubDate>
+ <dc:creator>ivo_m</dc:creator>
+ <guid isPermaLink="false">64986 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Podpora pre D7</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/podpora-pre-d7</link>
+ <description>&lt;p&gt;Zdravím, do kedy bude poskytovaná podpora bezpečnostných aktualizácií
+pre D7 ? Na nete som hladal, no neviem. Našiel som rôzne informácie.&lt;/p&gt;
+
+&lt;p&gt;Ďakujem.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/podpora-pre-d7#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/59111</wfw:commentRss>
+ <pubDate>Wed, 09 Nov 2016 18:47:33 +0000</pubDate>
+ <dc:creator>Berny</dc:creator>
+ <guid isPermaLink="false">59111 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Migrace blogu z Drupalu 7 na WordPress</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/migrace-blogu-z-drupalu-7-na-wordpress</link>
+ <description>&lt;p&gt;Ahoj, mam web na Drupalu 7, ktery bych rad zmigroval na WordPress. Nic proti
+Drupalu, mam ho rad. Ale na tomto blogu potrebuji WordPress.&lt;/p&gt;
+
+&lt;p&gt;Na webu je nekolik set clanku vcetne obrazku a komentaru. Pouze jeden
+uzivatel. Potrebuju premigrovat obrazky, komentare a clanky.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/migrace-blogu-z-drupalu-7-na-wordpress&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/migrace-blogu-z-drupalu-7-na-wordpress#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/58891</wfw:commentRss>
+ <pubDate>Mon, 24 Oct 2016 09:28:13 +0000</pubDate>
+ <dc:creator>tuxmartin</dc:creator>
+ <guid isPermaLink="false">58891 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Provokativní dotaz na ecommerce (+ drupal)</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/provokativni-dotaz-na-ecommerce-drupal</link>
+ <description>&lt;p&gt;Chodím teď častěji na webtrh, než sem, a je tam teď hodně zajímavý
+dotaz – tak jestli se někdo cítí se k tomu vyjádřit (zde či tam) Dost
+by mne zajímal Váš názor.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://webtrh.cz/354250-ecommerce-platformu-zvolit-zacinajici-eshop&quot; title=&quot;Kterou ecommerce platformu si zvolit jako začínající eshop builder?&quot;&gt;Kterou
+ecommerce platformu si zvolit jako začínající eshop builder&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Dot&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/provokativni-dotaz-na-ecommerce-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/provokativni-dotaz-na-ecommerce-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/57786</wfw:commentRss>
+ <pubDate>Thu, 01 Sep 2016 10:49:22 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">57786 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Prodám knihy o Drupalu</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/prodam-knihy-o-drupalu</link>
+ <description>&lt;p&gt;Prodám následující knihy: Drupal 7 Podrobný průvodce tvorbou a
+správou webů (Jan Polzer, 2011) – 220 Kč 333 tipů a triků pro Drupal
+(Jan Polzer, 2010) – 200 Kč Drupal Programování modulů ( Matt Butcher,
+Larry Garfield, John Wilkins, Matt Farina, Ken Rickard, Greg Dunlap) –
+220 Kč&lt;/p&gt;
+
+&lt;p&gt;Cena plus poštovné. Při odběru všech knih dám slevu.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/prodam-knihy-o-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/56421</wfw:commentRss>
+ <pubDate>Thu, 16 Jun 2016 09:43:57 +0000</pubDate>
+ <dc:creator>xbubox</dc:creator>
+ <guid isPermaLink="false">56421 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>nefunkční šablona</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/nefunkcni-sablona</link>
+ <description>Nastavil jsem novou šablonu, ale hlásí to chybu v template.php, dá se
+nějak nastavit původní šablona? Díky za pomoc.</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/nefunkcni-sablona#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/54551</wfw:commentRss>
+ <pubDate>Fri, 15 Apr 2016 22:46:30 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">54551 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kniha od Polzera</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/kniha-od-polzera</link>
+ <description>Sháním knihu Drupal 7 od Polzera, nikde už ji neprodávají. Nemá někdo
+a nechce se jí zbavit?</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/kniha-od-polzera#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53646</wfw:commentRss>
+ <pubDate>Fri, 26 Feb 2016 16:58:01 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">53646 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Anonyme přijedeš na setkání? ;)</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/anonyme-prijedes-na-setkani</link>
+ <description>&lt;p&gt;Viz &lt;a href=&quot;https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-1722016&quot;&gt;https://www.drupal.cz/…raha-1722016&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/anonyme-prijedes-na-setkani#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53236</wfw:commentRss>
+ <pubDate>Mon, 15 Feb 2016 15:46:20 +0000</pubDate>
+ <dc:creator>Petr Illek</dc:creator>
+ <guid isPermaLink="false">53236 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kolik potřebuji internetových dat na měsíc, určený výhradně pro Drupal?</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/kolik-potrebuji-internetovych-dat-na-mesic-urceny-vyhradne-pro-drupal</link>
+ <description>&lt;p&gt;Zdravím všechny milovníky Drupalu, rád bych dostal Vaší pomoc. Rozhodl
+jsem se, že se začnu učit používat Drupal 8 a hledám mobilní
+internet.&lt;/p&gt;
+
+&lt;p&gt;Jsem naprostý začátečník.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/kolik-potrebuji-internetovych-dat-na-mesic-urceny-vyhradne-pro-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/kolik-potrebuji-internetovych-dat-na-mesic-urceny-vyhradne-pro-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53026</wfw:commentRss>
+ <pubDate>Thu, 04 Feb 2016 19:16:59 +0000</pubDate>
+ <dc:creator>ShamirBRO</dc:creator>
+ <guid isPermaLink="false">53026 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>počítadlo na jednotlivé nody</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/pocitadlo-na-jednotlive-nody</link>
+ <description>&lt;p&gt;Potreboval by som na jeden node dať počítadlo, ktoré by mi počítalo
+zobrazenia len tejto stranky – -node. Drupal 6 Vďaka&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/pocitadlo-na-jednotlive-nody#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52986</wfw:commentRss>
+ <pubDate>Wed, 03 Feb 2016 14:42:17 +0000</pubDate>
+ <dc:creator>petrik1</dc:creator>
+ <guid isPermaLink="false">52986 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7, nebo Drupal 8 ?</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/drupal-7-nebo-drupal-8</link>
+ <description>&lt;p&gt;Jaké jsou rozdíly mezi Drupalem 7 a Drupalem 8? Budu využívat Drupal pro
+tvorbu mích webových stránek a potřebuji vybrat. Mimochodem chci kvalitní
+vzhled stránek (budu se v tom učit a dělat web klidně 5 měsíců). Co by
+jste raději zvolili? Neumím programovat, umím pouze základy HTML, ale vše
+potřebné se můžu doučit. Je Drupal 8 o dost jednodušší na
+pochopení?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/drupal-7-nebo-drupal-8&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/drupal-7-nebo-drupal-8#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52961</wfw:commentRss>
+ <pubDate>Mon, 01 Feb 2016 18:28:59 +0000</pubDate>
+ <dc:creator>ShamirBRO</dc:creator>
+ <guid isPermaLink="false">52961 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Node.js a Drupal 8</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/nodejs-drupal-8</link>
+ <description>&lt;p&gt;Ahoj snažím se rozjet node.js na Drupal 8. Nejprve bych se chtěl zeptat
+zda není problém to testovat na XAMPP. Jak mohu otestovat funkčnost node.js
+po prikazu node serve.js se vypise pouze – Started http server.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/nodejs-drupal-8&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/nodejs-drupal-8#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52756</wfw:commentRss>
+ <pubDate>Thu, 10 Dec 2015 23:02:19 +0000</pubDate>
+ <dc:creator>maxy_obr</dc:creator>
+ <guid isPermaLink="false">52756 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Datum - špatně zobrazuje zbývající čas</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/datum-spatne-zobrazuje-zbyvajici-cas</link>
+ <description>Ahoj všem,
+
+mám nastavený pomocí typu obsahu „akci“, kde se ukazuje zbývající
+čas do dané události. Nejprve vše fungovalo dobře, ale nyní mi to ukazuje
+„zbývající čas do akce“ úplně jiný. Místo 31 dní, ukazuje, že
+akce bude zítra … :( Tak nějak nechápu.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/datum-spatne-zobrazuje-zbyvajici-cas&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/datum-spatne-zobrazuje-zbyvajici-cas#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52591</wfw:commentRss>
+ <pubDate>Tue, 10 Nov 2015 07:17:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52591 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zobrazení tlačítek ZOBRAZIT a UPRAVIT a nechtěná editace obsahu pro anonymní uživatele</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/zobrazeni-tlacitek-zobrazit-upravit-nechtena-editace-obsahu-pro-anonymni-uzivatele</link>
+ <description>Zdravím, používám distribuci Drupal Commons a ani nevím kdy, asi po
+aktualizaci, které nebyly bez chyb, se objevily anonymním uživatelům
+nažádoucí tlačítka (ZOBRAZIT, UPRAVIT, atd…) u veškerého obsahu.
+Nastavení práv je v pořádku – pro anonymní uživatele není povoleno
+cokoliv editovat, ale i tak se to zobrazuje.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/zobrazeni-tlacitek-zobrazit-upravit-nechtena-editace-obsahu-pro-anonymni-uzivatele&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/zobrazeni-tlacitek-zobrazit-upravit-nechtena-editace-obsahu-pro-anonymni-uzivatele#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52556</wfw:commentRss>
+ <pubDate>Wed, 04 Nov 2015 19:48:14 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52556 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vydání D8</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/vydani-d8</link>
+ <description>&lt;p&gt;Ahoj chtěl jsem se zeptat zda se dá přibližně předpokládat vydání
+D8. Je mi jasné, že je to celkem hloupá otázka, ale s vydáním RC1 se
+udává brzké vydání. Na stránkách má přitom Pořád více jak 6 000
+chyb. Vůbec netuším co si pod tou chvilkou mám předtavit měsíc,
+půl roku?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/ostatni/vydani-d8&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/vydani-d8#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52496</wfw:commentRss>
+ <pubDate>Wed, 28 Oct 2015 16:41:15 +0000</pubDate>
+ <dc:creator>maxy_obr</dc:creator>
+ <guid isPermaLink="false">52496 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>načítava staré dáta</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/nacitava-stare-data</link>
+ <description>&lt;p&gt;Včera sa mi udialo čosi nemilé. stránka &lt;a href=&quot;http://www.zsjeleniaba.edu.sk&quot;&gt;www.zsjeleniaba.edu.sk&lt;/a&gt; mi načítava
+staré dáta a neviem prečo. Z ničoho nič. Help please.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/nacitava-stare-data#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52486</wfw:commentRss>
+ <pubDate>Tue, 27 Oct 2015 06:30:47 +0000</pubDate>
+ <dc:creator>petrik1</dc:creator>
+ <guid isPermaLink="false">52486 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>chatrooms </title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/chatrooms</link>
+ <description>&lt;p&gt;AHoj mohl by mi tu někdo zkušenější poradit. Potřeboval bych pro drupal
+chatovací místnost nejlépe i s audio přenosem. Takže asi nějaké
+klasické webky ale tak aby se dali vypnout a dalo se přenášet jen audio.
+Zkoušel jsem přímo modul chatrooms ale musí se pokaždé refreshovat a to mi
+v dnešní době přijde strašné.. nebo pokud je to moje chyba a dá se to
+nějak nastavit budu rád za radu.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/chatrooms#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52236</wfw:commentRss>
+ <pubDate>Sun, 04 Oct 2015 23:32:24 +0000</pubDate>
+ <dc:creator>maxy_obr</dc:creator>
+ <guid isPermaLink="false">52236 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Hodinova sazba</title>
+ <link>https://www.drupal.cz/forum/mix/ostatni/hodinova-sazba</link>
+ <description>Jaka byva prumerna hodinova sazba pro Drupal programatora, napriklad v Praze
+nebo Brne? Rekneme ze na nejakou trvalejsi spolupraci a ne prilezitostne.</description>
+ <comments>https://www.drupal.cz/forum/mix/ostatni/hodinova-sazba#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/11">Ostatní</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52056</wfw:commentRss>
+ <pubDate>Wed, 23 Sep 2015 14:26:11 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52056 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Peter Hajduček&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/peter-hajducek</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Riešenie problému s cache pri pridávani komentárov</title>
+ <link>https://www.drupal.cz/blog/peter-hajducek/riesenie-problemu-s-cache-pri-pridavani-komentarov</link>
+ <description>&lt;p&gt;Ahojte,&lt;/p&gt;
+
+&lt;p&gt;dnes som strávil dosť veľa času nad riešením problému
+s komentovaním. Problém spočíva v tom, že keď som umožnil komentáre
+neprihláseným uživateľom, po pridaní komentáru sa im nezobrazil, lebo node
+bol uložený v cache.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/peter-hajducek/riesenie-problemu-s-cache-pri-pridavani-komentarov&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/peter-hajducek/riesenie-problemu-s-cache-pri-pridavani-komentarov#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cache">cache</category>
+ <category domain="https://www.drupal.cz/clanky/comment">comment</category>
+ <category domain="https://www.drupal.cz/clanky/url">url</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6673</wfw:commentRss>
+ <pubDate>Fri, 18 Dec 2009 15:19:17 +0000</pubDate>
+ <dc:creator>Peter Hajduček</dc:creator>
+ <guid isPermaLink="false">6673 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>
