@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - tipy &amp; triky</title>
+ <link>https://www.drupal.cz/taxonomy/term/14/0</link>
+ <description>Malé návody a vychytávky při používání Drupalu.</description>
+ <language>cs</language>
+<item>
+ <title>Jak vytvořit vlastní layout pro modul Panels</title>
+ <link>https://www.drupal.cz/clanky/tipy-triky/jak-vytvorit-vlastni-layout-pro-modul-panels</link>
+ <description>&lt;p&gt;Modul &lt;a href=&quot;http://drupal.org/project/panels&quot;&gt;Panels&lt;/a&gt; patří mezi
+rodinné stříbro Drupalu a umožňuje využití různých efektivních
+rozvržení textů, obrázků a dalších prvků jak pro stránky s výpisy
+typu frontpage, tak i osobitější práci s výpisy jednotlivých nodů. Už
+základní modul obsahuje velké množství layoutů, které jde navíc ještě
+obměnit tak, že některý z podregionů necháte prázdný.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/tipy-triky/jak-vytvorit-vlastni-layout-pro-modul-panels&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/tipy-triky/jak-vytvorit-vlastni-layout-pro-modul-panels#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <enclosure url="https://www.drupal.cz/files/panels_layout.jpg" length="69592" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12366</wfw:commentRss>
+ <pubDate>Wed, 27 Jun 2012 11:12:00 +0000</pubDate>
+ <dc:creator>Pavel Ovesný</dc:creator>
+ <guid isPermaLink="false">12366 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Views Slideshow v akci: animovaná záhlaví, bannery, rotace článků </title>
+ <link>https://www.drupal.cz/clanky/tipy-triky/views-slideshow-v-akci-animovana-zahlavi-bannery-rotace-clanku</link>
+ <description>&lt;p&gt;Prolínání fotek v hlavičce či obrázkových a textových nabídek
+doporučených článků patří k oblíbeným prvkům moderních webů.
+Většinu této funkcinality lze docílit pomocí knihovny
+&lt;strong&gt;JQuery&lt;/strong&gt;. Ovšem ne každý má takto všestranné znalosti, a
+tak přichází na řadu použití některého z hotových řešení.
+V případě &lt;strong&gt;Drupalu&lt;/strong&gt; použití některého z doplňkových
+modulů.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/tipy-triky/views-slideshow-v-akci-animovana-zahlavi-bannery-rotace-clanku&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/tipy-triky/views-slideshow-v-akci-animovana-zahlavi-bannery-rotace-clanku#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <enclosure url="https://www.drupal.cz/files/slideshow.jpg" length="57321" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12376</wfw:commentRss>
+ <pubDate>Fri, 15 Jun 2012 11:22:45 +0000</pubDate>
+ <dc:creator>Pavel Ovesný</dc:creator>
+ <guid isPermaLink="false">12376 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Upravujeme výsledky vyhledávání v Drupalu</title>
+ <link>https://www.drupal.cz/clanky/tipy-triky/upravujeme-vysledky-vyhledavani-v-drupalu</link>
+ <description>&lt;p&gt;Základní struktura výsledků vyhledávání v &lt;strong&gt;Drupalu&lt;/strong&gt;
+neposkytuje vždy zrovna takovou strukturu dat, jakou bychom si představovali.
+Formátování lze častečně přizpůsobit pro jednotlivé typy obsahu
+v nastavení zobrazení polí (display field), opravdu komplexním a silným
+nástrojem je však vytvoření vyhledávacích šablon
+v příslušném theme.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/tipy-triky/upravujeme-vysledky-vyhledavani-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/tipy-triky/upravujeme-vysledky-vyhledavani-v-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12381</wfw:commentRss>
+ <pubDate>Mon, 11 Jun 2012 11:25:10 +0000</pubDate>
+ <dc:creator>Pavel Ovesný</dc:creator>
+ <guid isPermaLink="false">12381 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Dva moduly usnadňující práci v administračním rozhraní</title>
+ <link>https://www.drupal.cz/dva-moduly-usnadnujici-praci-v-administracnim-rozhrani</link>
+ <description>&lt;h3&gt;Formuláře pro vkládání obsahu podle vašich představ&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://drupal.org/project/nodeformcols&quot;&gt;Node form
+columns&lt;/a&gt;&lt;/strong&gt; je velice užitečný modul, který umožňuje obměnit a
+zpřehlednit formulář pro vkládání jednotlivých obsahů, což se
+především hodí v případě co nejpřehlednější uživatelská práce
+s nimi. Modul nejenže umožňuje přesunout rozbalovací nabídky (např.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/dva-moduly-usnadnujici-praci-v-administracnim-rozhrani&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/dva-moduly-usnadnujici-praci-v-administracnim-rozhrani#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <enclosure url="https://www.drupal.cz/files/nodecolumn.jpg" length="18037" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12371</wfw:commentRss>
+ <pubDate>Sat, 09 Jun 2012 11:20:16 +0000</pubDate>
+ <dc:creator>Pavel Ovesný</dc:creator>
+ <guid isPermaLink="false">12371 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Více autorů pro jeden uzel</title>
+ <link>https://www.drupal.cz/clanky/tipy-triky/vice-autoru-pro-jeden-uzel</link>
+ <description>&lt;p&gt;&lt;strong&gt;Drupal&lt;/strong&gt; v základním nastavení umožnuje mít u jednoho
+nodu pouze jednoho autora, který má podle oprávnění přiděleny kompetence
+k editaci či případnému smazání uzlu. V praxi se může vyskytnout
+situace, kdy je potřeba mít u jednoho nodu více autorů, kteří mohou
+s příslušným článkem nakládat.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/tipy-triky/vice-autoru-pro-jeden-uzel&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/tipy-triky/vice-autoru-pro-jeden-uzel#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-6x">Drupal 6.x</category>
+ <enclosure url="https://www.drupal.cz/files/nodeaccess_userreference.jpg" length="48713" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12361</wfw:commentRss>
+ <pubDate>Fri, 08 Jun 2012 11:06:48 +0000</pubDate>
+ <dc:creator>Pavel Ovesný</dc:creator>
+ <guid isPermaLink="false">12361 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak počeštit date_popup</title>
+ <link>https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup</link>
+ <description>&lt;p&gt;Úprava spočívá v přidání pár řádků do date_popup.module:
+&amp;lt;?php&lt;br /&gt;
+drupal_add_li­brary(‚system‘, ‚ui.datepicker‘); +&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;// Add i18n support&lt;/li&gt;
+
+	&lt;li&gt;if ($GLOBALS[‚lan­guage‘]-&amp;gt;language != ‚en‘) {&lt;/li&gt;
+
+	&lt;li&gt;// D7.x: &lt;a href=&quot;https://jquery-ui.googlecode.com/svn/tags/1.8.7/ui/i18n/&quot;&gt;https://jquery-ui.googlecode.com/…8.7/ui/i18n/&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;drupal_add_js( drupal_get_pat­h(‚module‘, ‚date_popup‘) .
+	‚/jquery.ui.da­tepicker-‘ . $GLOBALS[‚lan­guage‘]-&amp;gt;language .&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/modul">modul</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11145</wfw:commentRss>
+ <pubDate>Thu, 15 Mar 2012 12:29:40 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">11145 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak zprovoznit hledání pomocí Apache Solr</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0</link>
+ <description>&lt;p&gt;Pokládal jsem dotaz do fóra, jaké vyhledávání používáte. A při tom
+jsem si řekl, že zkusím zprovoznit vyhledávání přes Solr. A jelikož
+jsem uspěl, tak se s vámi podělím. Předem upozorňuji, že se jedná
+o platformu Windows, ale pro linux je všude hafo návodů a navíc to bude
+skoro stejné…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/Jak_na_hledani_Apache_Solr_0.pdf" length="384730" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9748</wfw:commentRss>
+ <pubDate>Fri, 20 May 2011 14:45:02 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9748 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak zprovoznit hledání pomocí Apache Solr</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr</link>
+ <description>&lt;p&gt;Pokládal jsem dotaz do fóra, jaké vyhledávání používáte. A při tom
+jsem si řekl, že zkusím zprovoznit vyhledávání přes Solr. A jelikož
+jsem uspěl, tak se s vámi podělím. Předem upozorňuji, že se jedná
+o platformu Windows, ale pro linux je všude hafo návodů a navíc to bude
+skoro stejné…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/vyhledavani">vyhledávání</category>
+ <enclosure url="https://www.drupal.cz/files/Jak_na_hledani_Apache_Solr.pdf" length="392641" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9742</wfw:commentRss>
+ <pubDate>Thu, 19 May 2011 10:14:14 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9742 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Novinky: Views Autocomplete Filters a jQuery UI Account Dialogs</title>
+ <link>https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs</link>
+ <description>&lt;b&gt;Views Autocomplete Filters&lt;/b&gt;&lt;br /&gt;
+Autor opravil chybu a modul je plně funkční. Modul přidává funkci
+našeptávače k exposed filtrům, šikovná věc.&lt;br /&gt;
+ &lt;a href=&quot;http://drupal.org/project/views_autocomplete_filters&quot;&gt;http://drupal.org/…lete_filters&lt;/a&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;jQuery UI Account Dialogs&lt;/b&gt;&lt;br /&gt;
+Přidává efektní jquery okna pro registraci, při žádosti o zapomenuté
+heslo nebo odhlašování&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <enclosure url="https://www.drupal.cz/files/1_2.jpg" length="76507" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9625</wfw:commentRss>
+ <pubDate>Wed, 27 Apr 2011 15:34:35 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">9625 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Success story z Drupal hospody: theming polí ve view a seskupení mnohonásobných hodnot</title>
+ <link>https://www.drupal.cz/blog/ema/theming-poli-ve-view-seskupeni-mnohonasobnych-hodnot</link>
+ <description>&lt;p&gt;Když potřebujete přetížit výstup pole ve view ($output v souboru
+views-view-field.tpl.php), v nápovědě najdete, že potřebná data
+vytáhnete takto:&lt;/p&gt;
+
+&lt;p&gt;$data = $row-&amp;gt;{$field-&amp;gt;field_alias};&lt;/p&gt;
+
+&lt;p&gt;To sice funguje, ale jen do chvíle, kdy je v poli hodnot více a vy
+nastavíte ve view „seskupit mnohonásobné hodnoty“.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/theming-poli-ve-view-seskupeni-mnohonasobnych-hodnot&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/theming-poli-ve-view-seskupeni-mnohonasobnych-hodnot#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7787</wfw:commentRss>
+ <pubDate>Fri, 25 Jun 2010 07:58:36 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7787 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na našeptavač (autocomplete) s více parametry</title>
+ <link>https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry</link>
+ <description>&lt;p&gt;Stalo se vám někdy, že jste potřebovali předávat funkci, která
+generuje „nápovědu“ pro textové políčko s automatickým doplňováním
+více parametrů? Mě se to přihodilo zrovna dneska …&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DISCLAIMER: Jen pro Drupal geeky!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7282</wfw:commentRss>
+ <pubDate>Wed, 24 Mar 2010 20:28:53 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7282 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Übercart: jak na &quot;Osobní převzetí zboží v obchodě&quot;?</title>
+ <link>https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode</link>
+ <description>&lt;p&gt;Již několikrát se mi stalo, že se mě někdo ptal, jak vytvořit
+v Čechách celkem běžnou věc – „osobní vyzvednutí zboží
+v obchodě“. Mnoho zvláště menších e-shopů nevyužívá žádné
+platební brány ani dopravce – vystačí si s dobírkou České Pošty.
+Pokud má takový e-shopík nějakou kamennou provozovnu či prodejnu, je
+častým zvykem nabízet kromě dobírky ještě &lt;i&gt;„osobní převzetí
+v obchodě“&lt;/i&gt;, zdarma samozřejmě.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <enclosure url="https://www.drupal.cz/files/uc_pickup.zip" length="6751" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7265</wfw:commentRss>
+ <pubDate>Mon, 22 Mar 2010 16:48:23 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7265 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Trochu o opravnenich</title>
+ <link>https://www.drupal.cz/blog/karlos/trochu-o-opravnenich</link>
+ <description>&lt;p&gt;Ozval se mi znamý s problemem: vytvoril jsem uzivatelskou roli
+„redakce“ priradil ji prava pro upravu obsahu, ale uzivatelum v teto roli
+se nezobrazi zalozky „zobrazit“ a „upravit“. Prosel jsem opravneni a
+nenasel zadny problem. Zkusil jsem vytvorit novy obsah a hle zalozky tam byly.
+Tak jsem se dal na systém „pokus – omyl“. Provedl update drupalu na
+nejnovejsi. Nepomohlo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/trochu-o-opravnenich&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/trochu-o-opravnenich#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7096</wfw:commentRss>
+ <pubDate>Sun, 21 Feb 2010 11:19:54 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7096 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak vytvářet typy obsahu a CCK políčka v modulu?</title>
+ <link>https://www.drupal.cz/clanky/tipy-triky/jak-vytvaret-typy-obsahu-cck-policka-v-modulu</link>
+ <description>&lt;p&gt;Určitě jste se setkali s tím, že musíte vytvořit nějaký modul,
+společně s typem obsahu, nicméně nechcete typ obsahu klikat na webu, který
+poté dáte zákazníkovi. Proto je občas vhodné vytvořit samotný typ obsahu
+přímo při instalaci modulu (Pokud nepoužíváte Features). Jak na to?
+(Stejně pro CCK políčka).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/tipy-triky/jak-vytvaret-typy-obsahu-cck-policka-v-modulu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/tipy-triky/jak-vytvaret-typy-obsahu-cck-policka-v-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7031</wfw:commentRss>
+ <pubDate>Wed, 10 Feb 2010 22:53:43 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">7031 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>User friendly přílohy k uzlům</title>
+ <link>https://www.drupal.cz/blog/ema/user-friendly-prilohy-k-uzlum</link>
+ <description>&lt;p&gt;Modul Upload (jádro) mám docela ráda; na řadu běžných věcí úplně
+stačí. Nicméně, časem mi začalo vadit, že volba „Přiložené
+soubory“ je defaultně sbalená (a přenastavit to není kde). Nový uživatel
+ji snadno přehlédne. Dá se sice snadno nastylovat (zvětšit, obarvit)… ale
+jak ji rozbalit? Google to samozřejmě věděl :-) a našel řešení na
+stříbrném podnose, ještě se spoustou dalších vychytávek: &lt;a href=&quot;http://teddy.fr/node/182&quot;&gt;http://teddy.fr/node/182&lt;/a&gt;, nově už je to
+k dispozici i v podobě modulu: &lt;a href=&quot;http://drupal.org/project/itweak_upload&quot;&gt;http://drupal.org/…tweak_upload&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/user-friendly-prilohy-k-uzlum&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/user-friendly-prilohy-k-uzlum#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5507</wfw:commentRss>
+ <pubDate>Wed, 15 Jul 2009 07:45:31 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">5507 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak sloučit editaci uživatelského účtu s položkami profilu</title>
+ <link>https://www.drupal.cz/clanky/moduly/jak-sloucit-editaci-uzivatelskeho-uctu-s-polozkami-profilu</link>
+ <description>&lt;p&gt;Narazil jsem na zajímavý problém nutnosti sloučit formulář editace
+uživatelského účtu (jméno, heslo, email) s položkami profilu. Motivace je
+jasná – potřebujeme co nejvíce uživatelů, kteří si profil vyplní,
+nicméně nechceme je nutit a nechceme jim polička ukazovat při registraci.
+Jak na to?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/moduly/jak-sloucit-editaci-uzivatelskeho-uctu-s-polozkami-profilu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/moduly/jak-sloucit-editaci-uzivatelskeho-uctu-s-polozkami-profilu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5492</wfw:commentRss>
+ <pubDate>Sun, 12 Jul 2009 19:08:37 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">5492 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Cron na strojích, kde nemáte wget ani poormanscron</title>
+ <link>https://www.drupal.cz/clanky/tipy-triky/cron-filegetcontents</link>
+ <description>&lt;p&gt;Píšem tu malú noticku, ktorá snáď bude nápomocná, ak sa niekto ocitne
+v podobnom probléme. Zároveň ma zaujíma, či existujú i iné
+riešenia.&lt;br /&gt;
+ &lt;strong&gt;Náčrt:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;spúšťanie CRONu v drupalovskej inštalácii na hostingu, kde máte
+	prístup len cez FTP a CRON je poskytovaný formou adresárov (CRONden,
+	CRONhodina etc.), kde uploadnete skripty&lt;/li&gt;
+
+	&lt;li&gt;php binárka (PHP je na Apache ako FastCGI) raz začas prekukne tieto
+	CRONovské adresáre, spustí všetky skripty a vymalováno&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/tipy-triky/cron-filegetcontents&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/tipy-triky/cron-filegetcontents#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/cron">cron</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5455</wfw:commentRss>
+ <pubDate>Thu, 09 Jul 2009 19:50:51 +0000</pubDate>
+ <dc:creator>dobo</dc:creator>
+ <guid isPermaLink="false">5455 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Webform</title>
+ <link>https://www.drupal.cz/blog/llenek/webform</link>
+ <description>&lt;p&gt;Jak na webform (modul pro vytváření jednoduchých formulářů)&lt;br /&gt;
+ &lt;a href=&quot;http://tomas.dankovi.info/content/webform&quot;&gt;http://tomas.dankovi.info/content/webform&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/llenek/webform#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5124</wfw:commentRss>
+ <pubDate>Wed, 06 May 2009 10:47:10 +0000</pubDate>
+ <dc:creator>l.lenek</dc:creator>
+ <guid isPermaLink="false">5124 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Captcha</title>
+ <link>https://www.drupal.cz/blog/llenek/captcha</link>
+ <description>&lt;p&gt;Tak jsem tu s dalším odkazem a to tentokrát na nastavení Captchy&lt;br /&gt;
+ &lt;a href=&quot;http://tomas.dankovi.info/node/21&quot;&gt;http://tomas.dankovi.info/node/21&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/llenek/captcha#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5123</wfw:commentRss>
+ <pubDate>Wed, 06 May 2009 10:25:42 +0000</pubDate>
+ <dc:creator>l.lenek</dc:creator>
+ <guid isPermaLink="false">5123 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tagadelik - nebo-li obláček tagů</title>
+ <link>https://www.drupal.cz/blog/llenek/tagadelik-nebo-li-oblacek-tagu</link>
+ <description>&lt;p&gt;Zdravím, taky chci trošku pomoc lidem (i mne je pomáháno), tak posílám
+odkaz na návod jak udělat ten zázračný obláček mraků.(boxík
+označovaný jako Tag Cloud)&lt;br /&gt;
+ &lt;a href=&quot;http://www.maxiorel.cz/jak-na-boxik-tag-cloud-v-drupalu&quot;&gt;http://www.maxiorel.cz/…ud-v-drupalu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahoj všem. l.lenek&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/llenek/tagadelik-nebo-li-oblacek-tagu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5120</wfw:commentRss>
+ <pubDate>Wed, 06 May 2009 07:49:26 +0000</pubDate>
+ <dc:creator>l.lenek</dc:creator>
+ <guid isPermaLink="false">5120 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

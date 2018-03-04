@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - šablony a vzhled</title>
+ <link>https://www.drupal.cz/taxonomy/term/53/0</link>
+ <description>Články týkající se šablonování Drupalu, témat vzhledu a webdesignu.</description>
+ <language>cs</language>
+<item>
+ <title>Framework theme a tučné písmo</title>
+ <link>https://www.drupal.cz/blog/gynekolog/framework-theme-tucne-pismo</link>
+ <description>&lt;p&gt;Netušil jsem, proč když obalím text do tagu b nebo strong, neni písmo
+tučný se zapnutym tématem framework. U bartik je všechno ok.&lt;/p&gt;
+
+&lt;p&gt;Řešení – &lt;a href=&quot;http://drupal.org/node/1399774&quot;&gt;http://drupal.org/node/1399774&lt;/a&gt; →
+přidat do css:&lt;br /&gt;
+&lt;code&gt;strong, b { font-weight: bold; }&lt;code&gt;&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sice nerozumim tomu, proč musim tag strong a b definovat v css ale
+pomohlo to.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/framework-theme-tucne-pismo#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tema">tema</category>
+ <category domain="https://www.drupal.cz/clanky/temata">témata</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11072</wfw:commentRss>
+ <pubDate>Fri, 24 Feb 2012 02:59:50 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">11072 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Školení Drupalu 7 od Squelle (Praha, Brno)</title>
+ <link>https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Připravili jsme pro vás sérii školení, od přednášky pro úplné
+začátečníky, přes pokročilou konfiguraci, až po šablonování a tvorbu
+modulů.&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aktuální rozpis školení a možnost přihlásit se&lt;/strong&gt;
+najdete na adrese: &lt;a href=&quot;http://squelle.com/skoleni-konzultace&quot;&gt;http://squelle.com/…i-konzultace&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/programovani">programování</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10563</wfw:commentRss>
+ <pubDate>Wed, 02 Nov 2011 13:15:50 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">10563 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Šablonování v Drupal 7 - co je nového</title>
+ <link>https://www.drupal.cz/clanky/theming/sablonovani-v-drupal-7-co-je-noveho</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Marek Soták        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/drupal7theming_light.pdf&quot; type=&quot;application/pdf; length=718622&quot;&gt;drupal7theming_light.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani/drupal-setkani-praha-15-zari-2010&quot;&gt;Drupal setkání - Praha - 15. Září 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/theming/sablonovani-v-drupal-7-co-je-noveho#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8280</wfw:commentRss>
+ <pubDate>Fri, 17 Sep 2010 11:27:03 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8280 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Úvod do šablonování (Drupal 6)</title>
+ <link>https://www.drupal.cz/clanky/theming/uvod-do-sablonovani-drupal-6</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Martin Sládeček        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-vnd.ms-powerpoint&quot;  alt=&quot;application/vnd.ms-powerpoint icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/x-office-presentation.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Drupal_6_theming.pps&quot; type=&quot;application/vnd.ms-powerpoint; length=1684992&quot;&gt;Drupal_6_theming.pps&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/drupal-setkani-brno-21cervence-2010&quot;&gt;Drupal setkání - Brno - 21.července 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/theming/uvod-do-sablonovani-drupal-6#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8279</wfw:commentRss>
+ <pubDate>Thu, 22 Jul 2010 11:25:16 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8279 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>IE a počet CSS souborů</title>
+ <link>https://www.drupal.cz/blog/ema/ie-pocet-css-souboru</link>
+ <description>&lt;p&gt;Už to sem někdo psal do fóra, ale přece: pokud máte totálně rozhozený
+vzhled webu v IE (ještě více, než bývá pro IE obvyklé :-)), může to
+být tím, že IE akceptuje omezený počet CSS souborů (nevím kolik).
+Ověříte povolením v Nastavení webu &amp;gt; Komprimace css souborů
+v Drupalu.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/ie-pocet-css-souboru#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7815</wfw:commentRss>
+ <pubDate>Mon, 05 Jul 2010 06:42:29 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7815 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kdy, jak (a proč) se obejít bez vkládání obrázků do textu</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/kdy-jak-proc-se-obejit-bez-vkladani-obrazku-do-textu</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Eva Rázgová        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Obrazky.pdf&quot; type=&quot;application/pdf; length=381660&quot;&gt;Obrazky.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/drupal-setkani-praha-29-dubna-2010&quot;&gt;Drupal setkání - Praha - 29. Dubna 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/kdy-jak-proc-se-obejit-bez-vkladani-obrazku-do-textu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8277</wfw:commentRss>
+ <pubDate>Fri, 23 Apr 2010 11:21:50 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8277 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na sekce webu v Drupalu</title>
+ <link>https://www.drupal.cz/clanky/struktura-webu/jak-na-sekce-webu-v-drupalu</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Eva Rázgová        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Sekce_webu_Drupal.pdf&quot; type=&quot;application/pdf; length=349063&quot;&gt;Sekce_webu_Drupal.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://www.drupal.cz/forum/po-instalaci/jak-na/jak-na-sekce-webu-v-drupalu&quot; rel=&quot;nofollow&quot;&gt;Související vlákno ve fóru&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/novinky-na-webu/drupal-meet-praha-18-listopad-2009&quot;&gt;Drupal setkání - Praha - 18. Listopad 2009&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/struktura-webu/jak-na-sekce-webu-v-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/multisite">multisite</category>
+ <category domain="https://www.drupal.cz/clanky/struktura-webu">struktura webu</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8261</wfw:commentRss>
+ <pubDate>Thu, 19 Nov 2009 10:38:36 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8261 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal Theming</title>
+ <link>https://www.drupal.cz/clanky/theming/drupal-theming</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Marek Soták        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Marek_Sotak_Theming.pdf&quot; type=&quot;application/pdf; length=1871273&quot;&gt;Marek_Sotak_Theming.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/prvni-ceska-drupal-konference-24-5-2008&quot;&gt;První česká Drupal konference - 24.5.2008&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/theming/drupal-theming#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8265</wfw:commentRss>
+ <pubDate>Sun, 25 May 2008 10:48:56 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8265 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Změna vzhledu primárních odkazů</title>
+ <link>https://www.drupal.cz/clanky/sablony-a-vzhled/zmena-vzhledu-primarnich-odkazu</link>
+ <description>&lt;p&gt;Občas se probudíme a v mailu nalezneme od webdesignera jeho nový skvělý
+návrh pro ten web jehož výběrko jsme nedávno vyhráli a když se podíváme
+na vzhled například hlavního menu, mírně nás zamrazí. Drupal naštěstí
+poskytuje mnoho možností pro šablonování všech prvků stránky, dnes se
+podíváme na to, jak změnit vzhled primárních odkazů.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/sablony-a-vzhled/zmena-vzhledu-primarnich-odkazu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/sablony-a-vzhled/zmena-vzhledu-primarnich-odkazu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2941</wfw:commentRss>
+ <pubDate>Mon, 28 Apr 2008 05:51:20 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2941 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tvorba vlastního vzhledu I. - základní pojmy</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/tvorba-designu-pro-stranky-v-rs-drupal</link>
+ <description>&lt;p&gt;Protože webdesign je můj denní chleba, tak mi bylo od začátku
+používání RS Drupal jasné, že si s dostupnými šablonami nevystačím.
+Pro ty, kteří také nejsou spokojeni s nabídkou šablon uveřejněných na
+&lt;a href=&quot;http://www.drupal.org&quot;&gt;www.drupal.org&lt;/a&gt; nabízím vodítka jak
+vytvořit vlastní deisgn pro RS Drupal (případně modifikovat některou ze
+šablon).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/tvorba-designu-pro-stranky-v-rs-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/tvorba-designu-pro-stranky-v-rs-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/125</wfw:commentRss>
+ <pubDate>Mon, 22 Jan 2007 22:10:49 +0000</pubDate>
+ <dc:creator>Brumisek</dc:creator>
+ <guid isPermaLink="false">125 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pěkná témata vzhledu pro Drupal - I.</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/pekna-temata-vzhledu-pro-drupal-i</link>
+ <description>&lt;p&gt;V minulosti se říkalo, že největší slabinou Drupalu je nedostatek
+designerů. Nové téma pro 5.0 – Garland myslím ukazuje opak a i dostatek
+témat pro 4.7 dokazuje, že se blýská na lepší časy. První díl
+zajímavých témat.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/pekna-temata-vzhledu-pro-drupal-i&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/pekna-temata-vzhledu-pro-drupal-i#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/504</wfw:commentRss>
+ <pubDate>Sun, 07 Jan 2007 23:56:23 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">504 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

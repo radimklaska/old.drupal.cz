@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>agir&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/agir</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>V IE10 již není limit 31 souborů se styly</title>
+ <link>https://www.drupal.cz/blog/agir/v-ie10-jiz-neni-limit-31-souboru-se-styly</link>
+ <description>&lt;p&gt;Tak je to tady (tedy skoro). V Internet Exploreru 10 nebude již omezení
+31 připojený stylesheetů ke stránce. Takže ti, kteří nepoužívají CSS
+komprimaci se mají na co těšit. Blíží se konec další nesmyslné chyby
+v IE.&lt;br /&gt;
+ZDROJ: &lt;a href=&quot;http://msdn.microsoft.com/en-us/ie/hh272902.aspx#_CSSRemoveLimits&quot;&gt;http://msdn.microsoft.com/…h272902.aspx#…&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/agir/v-ie10-jiz-neni-limit-31-souboru-se-styly#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10261</wfw:commentRss>
+ <pubDate>Mon, 29 Aug 2011 08:50:22 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">10261 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nové číslování verzí Drupal 7+ vyšel Drupal 7.1 a 7.2</title>
+ <link>https://www.drupal.cz/blog/agir/nove-cislovani-verzi-drupal-7-vysel-drupal-71-72</link>
+ <description>&lt;p&gt;25. 5. 2011 vyšly nové verze Drupalu. Od této verze se mění způsob
+vydávání a číslování verzí. Jak jste si možná všimli, tak vyšly dvě
+verze. Rozdíl je tento: &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;7.1 opravuje jen security vulnerabilities&lt;/li&gt;
+
+	&lt;li&gt;7.2 opravuje security vulnerabilities a chyby (bug fixes)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nezapomeňte, že verze 7.2 má upravený .htaccess!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/agir/nove-cislovani-verzi-drupal-7-vysel-drupal-71-72&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/agir/nove-cislovani-verzi-drupal-7-vysel-drupal-71-72#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bezpecnost">bezpečnost</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9775</wfw:commentRss>
+ <pubDate>Thu, 26 May 2011 06:33:30 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9775 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady modulů</title>
+ <link>https://www.drupal.cz/blog/agir/preklady-modulu</link>
+ <description>&lt;p&gt;Jelikož spouštím nové stránky, tak jsem zjistil, že je třeba pár
+modulů přeložit. A rozhodl jsem se, že se o překlady podělím. Třeba se
+budou někomu hodit. Pokud přeložím něco dalšího, tak to sem
+přihodím.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/agir/preklady-modulu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/agir/preklady-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/preklad">překlad</category>
+ <enclosure url="https://www.drupal.cz/files/modules-admin.cs_.zip" length="1413" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6964</wfw:commentRss>
+ <pubDate>Tue, 02 Feb 2010 17:46:13 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6964 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Autodetekce vývojového prostředí</title>
+ <link>https://www.drupal.cz/blog/agir/autodetekce-vyvojoveho-prostredi</link>
+ <description>&lt;p&gt;Nevím jak vy, ale já když vyvíjím, tak běžně používám dvě
+prostředí: lokální server a pak ostrý server. Zjistil jsem, že je
+nanejvýše důležité jednoduše poznat, kde zrovna jsem. Nakonec jsem objevil
+modul &lt;a href=&quot;http://drupal.org/project/environment_indicator&quot;&gt;Environment
+Indicator&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/agir/autodetekce-vyvojoveho-prostredi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/agir/autodetekce-vyvojoveho-prostredi#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <enclosure url="https://www.drupal.cz/files/environment_indicator_plus-6.x-1.0.tar.gz" length="11254" type="application/octet-stream" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6659</wfw:commentRss>
+ <pubDate>Wed, 16 Dec 2009 12:32:26 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6659 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

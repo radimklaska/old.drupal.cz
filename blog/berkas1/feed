@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>berkas1&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/berkas1</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Máte zájem o Workshop &quot;Git pro začátečníky&quot;?</title>
+ <link>https://www.drupal.cz/blog/berkas1/mate-zajem-o-workshop-git-pro-zacatecniky</link>
+ <description>&lt;p&gt;Zdravím všechny Drupalisty a tentokrát i nedrupalisty!&lt;/p&gt;
+
+&lt;p&gt;Již několik dnů si pohrávám s myšlenkou workshopu o gitu. Rád bych
+rozšířil povědomí o tomto skvělém nástroji a také bych si chtěl „na
+vlastní kůži“ vyzkoušet, jaké to je pořádat workhop.&lt;/p&gt;
+
+&lt;p&gt;Navrhuji workshop uskutečnit někdy ve &lt;strong&gt;dnech
+8.8. – 20.8.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/berkas1/mate-zajem-o-workshop-git-pro-zacatecniky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/berkas1/mate-zajem-o-workshop-git-pro-zacatecniky#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/13261</wfw:commentRss>
+ <pubDate>Wed, 18 Jul 2012 17:21:27 +0000</pubDate>
+ <dc:creator>berkas1</dc:creator>
+ <guid isPermaLink="false">13261 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak počeštit Drupal 7</title>
+ <link>https://www.drupal.cz/blog/berkas1/jak-pocestit-drupal-7</link>
+ <description>&lt;p&gt;Součástí mého nového seriálu o Drupalu 7 je nově i návod jak mít
+stále aktuální český překlad pro jádro i moduly. Návod naleznete &lt;a href=&quot;http://www.efacebook.cz/clanky/jak-nahrat-cestinu-do-drupalu-7&quot;&gt;zde&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/berkas1/jak-pocestit-drupal-7#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cestina">čeština</category>
+ <category domain="https://www.drupal.cz/clanky/preklady">překlady</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10247</wfw:commentRss>
+ <pubDate>Sun, 28 Aug 2011 13:41:08 +0000</pubDate>
+ <dc:creator>berkas1</dc:creator>
+ <guid isPermaLink="false">10247 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Online překlady v úterý 28.6.</title>
+ <link>https://www.drupal.cz/blog/berkas1/online-preklady-v-utery-286</link>
+ <description>&lt;p&gt;V úterý (28.6.) cca od 17:00 budu překládat (a schvalovat) moduly jako
+CATPCHA, Webform apod… – nedodělané věci z překladatelských
+sprintů.&lt;/p&gt;
+
+&lt;p&gt;Přidá se někdo?:)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/berkas1/online-preklady-v-utery-286#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/preklady">překlady</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9940</wfw:commentRss>
+ <pubDate>Sun, 26 Jun 2011 13:09:12 +0000</pubDate>
+ <dc:creator>berkas1</dc:creator>
+ <guid isPermaLink="false">9940 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

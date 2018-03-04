@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>strep&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/strep</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>První český platební modul - GoPay</title>
+ <link>https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay</link>
+ <description>&lt;p&gt;Ve spolupráci s vývojářem Drupalu jsme připravili modul pro integraci
+platební brány GoPay. Pro zájemce je modul volně ke stažení &lt;a href=&quot;http://drupal.org/project/uc_gopay&quot;&gt;http://drupal.org/…ect/uc_gopay&lt;/a&gt;.
+V současnosti slouží pro Drupal 7 a Übercart 3. Registrací, která není
+nijak zpoplatněna a je dobrovolná, pomůžete dalšímu vývoj
+modulu (např.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/drupal7">Drupal7</category>
+ <category domain="https://www.drupal.cz/clanky/e-shop">e-shop</category>
+ <category domain="https://www.drupal.cz/clanky/komerce">komerce</category>
+ <category domain="https://www.drupal.cz/clanky/platby">platby</category>
+ <category domain="https://www.drupal.cz/clanky/platebni-brana">platební brána</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <enclosure url="https://www.drupal.cz/files/uc_gopay-7.x-1.0-alpha2.tar_0.gz" length="97417" type="application/octet-stream" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11058</wfw:commentRss>
+ <pubDate>Mon, 20 Feb 2012 10:28:19 +0000</pubDate>
+ <dc:creator>strep</dc:creator>
+ <guid isPermaLink="false">11058 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

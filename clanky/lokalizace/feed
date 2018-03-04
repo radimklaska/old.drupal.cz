@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - lokalizace</title>
+ <link>https://www.drupal.cz/taxonomy/term/592/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Staň se členem překladatelského týmu (snadné reportování chyb v překladech)</title>
+ <link>https://www.drupal.cz/clanky/preklady/stan-se-clenem-prekladatelskeho-tymu-snadne-reportovani-chyb-v-prekladech</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Šimon Berka        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://www.youtube.com/watch?v=qjI_TN-1Z5w&quot; rel=&quot;nofollow&quot;&gt;Videozáznam - YouTube&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/akce/drupal-setkani-praha-26-dubna-2011-zamereno-na-vyvojare&quot;&gt;Drupal setkání - Praha - 26. dubna 2011 - Zaměřeno na vývojáře&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/preklady/stan-se-clenem-prekladatelskeho-tymu-snadne-reportovani-chyb-v-prekladech#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <category domain="https://www.drupal.cz/clanky/preklady">překlady</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10055</wfw:commentRss>
+ <pubDate>Mon, 18 Jul 2011 12:40:50 +0000</pubDate>
+ <dc:creator>berkas1</dc:creator>
+ <guid isPermaLink="false">10055 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Co dělat, když najdete chybu v překladech Drupalu?</title>
+ <link>https://www.drupal.cz/clanky/lokalizace/co-delat-kdyz-najdete-chybu-v-prekladech-drupalu</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Překlady        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Jestliže narazíte v českých překladech Drupalu na chybu, máte nyní
+nově možnost nahlásit chybu českému překladatelskému týmu –
+respektive těm, kdo překlady schvalují, a tudíž mohou chybu opravit.&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;Jděte na stránku &lt;a href=&quot;http://preklady.drupal.cz&quot;&gt;http://preklady.drupal.cz&lt;/a&gt;, konkrétně do
+	sekce „Chybné překlady“, tedy sem: &lt;a href=&quot;http://preklady.drupal.cz/wtr&quot;&gt;http://preklady.drupal.cz/wtr&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;Přihlaste se, nebo se registrujte&lt;/li&gt;
+
+	&lt;li&gt;Klikněte na „Nahlásit“ chybný přek&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/lokalizace/co-delat-kdyz-najdete-chybu-v-prekladech-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/lokalizace/co-delat-kdyz-najdete-chybu-v-prekladech-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9645</wfw:commentRss>
+ <pubDate>Sun, 01 May 2011 19:22:27 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">9645 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady, schvalování: každé úterý 18-23</title>
+ <link>https://www.drupal.cz/blog/ema/preklady-schvalovani-utery-18-23</link>
+ <description>&lt;p&gt;Společné překlady a schvalování plánuju od nynějška až do odvolání
+&lt;strong&gt;každé&lt;/strong&gt; úterý (s výjimkou svátků), cca 18–23 hod.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/preklady-schvalovani-utery-18-23&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/preklady-schvalovani-utery-18-23#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8516</wfw:commentRss>
+ <pubDate>Sun, 24 Oct 2010 16:58:18 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8516 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady, schvalování: úterý 19. října 2010, 18-23 hod.</title>
+ <link>https://www.drupal.cz/clanky/lokalizace/preklady-schvalovani-utery-19-rijna-2010-18-23-hod</link>
+ <description>&lt;p&gt;Zvu vás na další společné překlady.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/lokalizace/preklady-schvalovani-utery-19-rijna-2010-18-23-hod&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/lokalizace/preklady-schvalovani-utery-19-rijna-2010-18-23-hod#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8449</wfw:commentRss>
+ <pubDate>Sat, 16 Oct 2010 16:10:40 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8449 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady, schvalování: středa 29. září, cca 18-23 hod.</title>
+ <link>https://www.drupal.cz/blog/ema/preklady-streda-29-zari-cca-18-23-hod</link>
+ <description>&lt;p&gt;Příští překladový dýchánek plánuji na výše uvedený termín.&lt;/p&gt;
+
+&lt;p&gt;Komunikace: IRC: Freenode, #drupal-cz (kdo by tápal, jak na IRC, mrkněte
+prosím sem: &lt;a href=&quot;http://www.drupal.cz/clanky/lokalizace/preklady-schvalovani-streda-22-zari-2010-1600#comment-30887&quot;&gt;http://www.drupal.cz/…ri-2010-1600#…&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Priorita – dotažení rozdělaných věcí z (před)minula.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/preklady-streda-29-zari-cca-18-23-hod&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/preklady-streda-29-zari-cca-18-23-hod#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8318</wfw:commentRss>
+ <pubDate>Fri, 24 Sep 2010 15:25:35 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8318 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady a schvalování: Středa 22. září 2010, 16.00 - ???</title>
+ <link>https://www.drupal.cz/clanky/lokalizace/preklady-schvalovani-streda-22-zari-2010-1600</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Překlady        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ve středu 22. září po 16. hodině budu schvalovat (no… jak to bývá,
+spíš opravovat a snad taky schvalovat) překlady a zvu všechny, kdo se
+chtějí zapojit, aby se přidali.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/lokalizace/preklady-schvalovani-streda-22-zari-2010-1600&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/lokalizace/preklady-schvalovani-streda-22-zari-2010-1600#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8285</wfw:commentRss>
+ <pubDate>Fri, 17 Sep 2010 16:24:32 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8285 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Správa prekladov node cez views</title>
+ <link>https://www.drupal.cz/blog/havran/sprava-prekladov-node-cez-views</link>
+ <description>&lt;p&gt;Robím teraz viacjazyčný web a chcel som do administrácie vložiť
+možnosť zobrazenia všetkých prekladov pre aktuálny node (v jednom
+riadku).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/sprava-prekladov-node-cez-views&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/sprava-prekladov-node-cez-views#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <category domain="https://www.drupal.cz/clanky/programovani">programování</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7799</wfw:commentRss>
+ <pubDate>Wed, 30 Jun 2010 17:36:40 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">7799 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Slovníček a standardy pro překlady</title>
+ <link>https://www.drupal.cz/blog/ema/slovnicek-standardy-pro-preklady</link>
+ <description>&lt;p&gt;Pro urychlení a zpřehlednění práce na překladu Drupalu jsme vytvořili
+stránku &lt;a href=&quot;http://preklady.drupal.cz&quot;&gt;http://preklady.drupal.cz&lt;/a&gt;, kde
+najdete slovníček (jak překládat často se opakující problematické
+řetězce) a další doporučení k překladům (cosi jako pravidla,
+standardy).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/slovnicek-standardy-pro-preklady&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/slovnicek-standardy-pro-preklady#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6655</wfw:commentRss>
+ <pubDate>Tue, 15 Dec 2009 22:52:48 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">6655 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak pracovat s jazyky: úvod, příklad na použití i18n a multisite</title>
+ <link>https://www.drupal.cz/clanky/pripadove-studie/jak-pracovat-s-jazyky-uvod-priklad-na-pouziti-i18n-multisite</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Marek Soták        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/i18n-myfinepix-18-11-09-atomicant.pdf&quot; type=&quot;application/pdf; length=826993&quot;&gt;i18n-myfinepix-18-11-09-atomicant.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/novinky-na-webu/drupal-meet-praha-18-listopad-2009&quot;&gt;Drupal setkání - Praha - 18. Listopad 2009&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/pripadove-studie/jak-pracovat-s-jazyky-uvod-priklad-na-pouziti-i18n-multisite#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <category domain="https://www.drupal.cz/clanky/multisite">multisite</category>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8262</wfw:commentRss>
+ <pubDate>Thu, 19 Nov 2009 10:42:07 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8262 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

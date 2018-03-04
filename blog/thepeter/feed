@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>thepeter&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/thepeter</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Moja cesta drupalu 0</title>
+ <link>https://www.drupal.cz/blog/thepeter/moja-cesta-drupalu-0</link>
+ <description>&lt;p&gt;Hmh nikdy som nerobil blog v takomto zmysle, avšak povedal som si; prečo
+nie? Človek sa zlepší v písaní (preto som aj zacal pisať s diakritikou)
+a aspoň si budem o veľa rokov pozrieť aky som bol teraz mladý a hlúpy
+… :)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/thepeter/moja-cesta-drupalu-0&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/thepeter/moja-cesta-drupalu-0#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/104</wfw:commentRss>
+ <pubDate>Fri, 22 Sep 2006 10:16:44 +0000</pubDate>
+ <dc:creator>thepeter</dc:creator>
+ <guid isPermaLink="false">104 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Databázové problémy</title>
+ <link>https://www.drupal.cz/taxonomy/term/236/0</link>
+ <description>Nejde nastavit databáze, databáze píše chybu, apod.</description>
+ <language>cs</language>
+<item>
+ <title>Chybová hláška po aktulizaci  jádra</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/chybova-hlaska-po-aktulizaci-jadra</link>
+ <description>&lt;p&gt;PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table
+‚667_drupal.cache_vi­ews‘ doesn&#039;t exist: TRUNCATE {cache_views} ; Array ( )
+ve funkci cache_clear_all() (řádek: 173 v souboru
+/var/www/clien­ts/client667/web869/­web/drupal/in­cludes/cache Po aktualizaci
+jádra drupalu z 7.0 na 7.54 mi v různých situacích vyskakuje tato
+hláška. Poradí mi někdo, co s tím? Jsem začátečník. Díky.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/chybova-hlaska-po-aktulizaci-jadra#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/65301</wfw:commentRss>
+ <pubDate>Mon, 27 Feb 2017 18:25:58 +0000</pubDate>
+ <dc:creator>Zuzana Hurychova</dc:creator>
+ <guid isPermaLink="false">65301 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Modul Backup and Migrate</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/modul-backup-and-migrate</link>
+ <description>Ahojte, po predchádzajúcej zlej skúsenosti som si na web nainštaloval
+tento modul. Záloha databázy prebehne OK, ale keď chcem zálohovať samotný
+web, alebo všetko spolu, tak mi vypíše túto hlášku. Neviete prosím čo
+s tým ďalej?
+
+Ďakujem pekne Jano</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/modul-backup-and-migrate#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <enclosure url="https://www.drupal.cz/files/BackupMigrate.doc" length="37376" type="application/msword" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/60841</wfw:commentRss>
+ <pubDate>Mon, 19 Dec 2016 10:29:09 +0000</pubDate>
+ <dc:creator>Maverick27</dc:creator>
+ <guid isPermaLink="false">60841 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Problém s přesunec z localu na web / subdomena</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/problem-s-presunec-z-localu-na-web-subdomena</link>
+ <description>&lt;p&gt;Nevím si rady s přesunem z localu na web / subdomenu.&lt;/p&gt;
+
+&lt;p&gt;Dle rad a návodů jsem vše překopírovala a následně i přenesla DB a
+změnila pouze v souboru setting.php připojení do DB.&lt;/p&gt;
+
+&lt;p&gt;Vše se načetlo a připojilo, ale úplně dole mi to vypisuje: Warning:
+Cannot modify header information – headers already sent by (output started at
+/data/web/vir­tuals/56920/vir­tual/www/subdom/tes­t/includes/com­mon.inc:2755&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/problem-s-presunec-z-localu-na-web-subdomena&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/problem-s-presunec-z-localu-na-web-subdomena#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/56566</wfw:commentRss>
+ <pubDate>Tue, 21 Jun 2016 18:37:57 +0000</pubDate>
+ <dc:creator>smiesek</dc:creator>
+ <guid isPermaLink="false">56566 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlad rozhraní - abnormální růst databáze</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/preklad-rozhrani-abnormalni-rust-databaze</link>
+ <description>&lt;p&gt;Mám vícejazyčný web bez automatické aktualizace řetězců. Prostě jen
+to, co si sám vložím… I tak mi tabulka s překlady (locales_source)
+pořád bobtná. Pomáhá,když jdu v Překladu rozhraní do Strings a tam si
+vyberu typy obsahu a vyčistím zbylé řetězce (Clean up left over strings).
+Pak už je zase tabulka v normě.. Ale po nějaké době začne zase bobtnat.
+Další den to můžu dělat zase…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/preklad-rozhrani-abnormalni-rust-databaze&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/preklad-rozhrani-abnormalni-rust-databaze#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/55036</wfw:commentRss>
+ <pubDate>Wed, 27 Apr 2016 07:49:32 +0000</pubDate>
+ <dc:creator>siva01</dc:creator>
+ <guid isPermaLink="false">55036 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chyba při update databáze</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/chyba-pri-update-databaze</link>
+ <description>Ahoj,
+
+aktualizoval jsem Drupal na verzi 8.1.0, ale po spuštění update.php proces
+zkončil následující chybou:
+
+Drupal database update
+
+Updates were attempted. If you see no failures below, you may proceed happily
+back to your site. Otherwise, you may need to update your database manually. All
+errors have been logged.
+
+1. jak se aktualizuje databáze ručně? 2.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/chyba-pri-update-databaze&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/chyba-pri-update-databaze#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/54811</wfw:commentRss>
+ <pubDate>Fri, 22 Apr 2016 11:06:18 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">54811 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Převod databáze na jiný server MySQL chyby při importu - cache_update</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/prevod-databaze-na-jiny-server-mysql-chyby-pri-importu-cacheupdate</link>
+ <description>&lt;p&gt;Ahoj,&lt;/p&gt;
+
+&lt;p&gt;při importu DB MySQL (server verze 5.5.47 &amp;gt; 5.5.36) import neproběhne
+kvůli chybě:&lt;/p&gt;
+
+&lt;p&gt;SQL dotaz: – – Vypisuji data pro tabulku
+&lt;code&gt;cache_update&lt;/code&gt; --&lt;/p&gt;
+
+&lt;p&gt;INSERT INTO &lt;code&gt;cache_update&lt;/code&gt; (&lt;code&gt;cid&lt;/code&gt;, &lt;code&gt;data&lt;/code&gt;,
+&lt;code&gt;expire&lt;/code&gt;, &lt;code&gt;created&lt;/code&gt;, &lt;code&gt;headers&lt;/code&gt;,
+&lt;code&gt;serialized&lt;/code&gt;) VALUES (‚update_avai­lable_releases‘,
+0×613a33383a7­b733a383a226175746f6c6f6­164223b613a383a7b733a353­a227469746c65223b733a383­a224175746f6c6f6164223b7­33&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/prevod-databaze-na-jiny-server-mysql-chyby-pri-importu-cacheupdate&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/prevod-databaze-na-jiny-server-mysql-chyby-pri-importu-cacheupdate#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/54336</wfw:commentRss>
+ <pubDate>Mon, 04 Apr 2016 13:45:43 +0000</pubDate>
+ <dc:creator>Lukas</dc:creator>
+ <guid isPermaLink="false">54336 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zvětšování databáze</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/zvetsovani-databaze</link>
+ <description>Dobrý den,
+
+spravuji malý web běžící na Drupal 8.03. Mám problém s tím, že se
+stále zvětšuje databáze, aniž by na web cokoliv přibylo. Za týden se
+velikost databáze zvětší klidně na 20 MB. Pokud v Nastavení/Výkon
+odkliknu tlačítko Vymazat mezipaměti, databáze se zmenší na 11 MB. Cache
+mám vypnuté a v Logu nemám prakticky žádné záznamy. Cron se spouští co
+3 hodiny.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/zvetsovani-databaze&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/zvetsovani-databaze#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53866</wfw:commentRss>
+ <pubDate>Sat, 05 Mar 2016 20:19:35 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">53866 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Hostovaní databáze s výlukou znaku &quot;-&quot;</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/hostovani-databaze-s-vylukou-znaku</link>
+ <description>&lt;p&gt;Dobrý den, řeším potíž s hostováním databáze u hostingu C4 a to
+s výskytem „-“ v názvu databáze. Konkrétně Sugar CRM tento znak
+v názvu databáze při instalaci nepovoluje. Je prosím nějaké řešení?
+Předem díky za pomoc.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/hostovani-databaze-s-vylukou-znaku#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53271</wfw:commentRss>
+ <pubDate>Tue, 16 Feb 2016 14:50:09 +0000</pubDate>
+ <dc:creator>JanBohacDrupal</dc:creator>
+ <guid isPermaLink="false">53271 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Accesslog</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/accesslog</link>
+ <description>Nevíte prosím někdo k čemu slouží tabulka accesslog? Mám web u c4 a
+dostal jsem „výhružný“ e-mail, že moje databáze přesáhla únosnou
+mez. Největší tabulka byla právě accesslog (něco přes 1 GB). Udělal
+jsem pokus na locale a tabulku vyprázdnil. Totéž jsem potom udělal i na
+svém webu a vše funguje jak má. K čemu tabulka slouží a jak bych ji měl
+ošetřovat?&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/accesslog&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/accesslog#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52721</wfw:commentRss>
+ <pubDate>Tue, 01 Dec 2015 12:35:33 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52721 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak smazat modul</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/jak-smazat-modul</link>
+ <description>&lt;p&gt;Ahoj, potřebuji z Drupalu smazat modul eshopu (měl by to být ubercart).
+Ale v nabídce modulů není k odinstalaci možný. Zkusila jsem ho natvrdo
+smazat z ftp ale to se mu vůbec nelíbilo a celej web spadl. Takže co
+s tím? Eshop už nepoužíváme a ted jsou na něj ataky celý den od
+nějakých robotů, kteří se snaží objednat ale neprojdou přes
+antispamový kód.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/jak-smazat-modul&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/jak-smazat-modul#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/51746</wfw:commentRss>
+ <pubDate>Tue, 28 Jul 2015 14:29:58 +0000</pubDate>
+ <dc:creator>zooh</dc:creator>
+ <guid isPermaLink="false">51746 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Databáze a porovnávání (kódování) při instalaci</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/databaze-porovnavani-kodovani-pri-instalaci-0</link>
+ <description>&lt;p&gt;Instaluji drupan na FORPSI, podle návodů připravuji DB v webMySQL Adminu.
+Vyberu databázi &amp;gt; Úpravy &amp;gt; zda v části porovnání nastavím
+utf8_czech_ci a uložím.&lt;/p&gt;
+
+&lt;p&gt;Spustím instalaci Drupal 7.38 vše proběhne jak má, jen když kouknu do
+webMySQL Admina tak všechny vytvořené tabulky mají porovnání nastaveno na
+utf8_general_ci. Když jsem pátral kde by se dalo co nastavit tak
+v proměnných (v webMySQL Admi&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/databaze-porovnavani-kodovani-pri-instalaci-0&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/databaze-porovnavani-kodovani-pri-instalaci-0#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/51556</wfw:commentRss>
+ <pubDate>Sun, 28 Jun 2015 05:31:31 +0000</pubDate>
+ <dc:creator>eXMarty</dc:creator>
+ <guid isPermaLink="false">51556 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Databáze a porovnávání (kódování) při instalaci</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/databaze-porovnavani-kodovani-pri-instalaci</link>
+ <description>Instaluji drupan na FORPSI, podle návodů připravuji DB v webMySQL Adminu.
+Vyberu databázi &amp;gt; Úpravy &amp;gt; zda v části porovnání nastavím
+utf8_czech_ci a uložím.
+
+Spustím instalaci Drupal 7.38 vše proběhne jak má, jen když kouknu do
+webMySQL Admina tak všechny vytvořené tabulky mají porovnání nastaveno na
+utf8_general_ci. Když jsem pátral kde by se dalo co nastavit tak
+v proměnných (v webMySQL Admi&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/databaze-porovnavani-kodovani-pri-instalaci&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/databaze-porovnavani-kodovani-pri-instalaci#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/51551</wfw:commentRss>
+ <pubDate>Sun, 28 Jun 2015 05:25:59 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">51551 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nemáte oprávnenie pre prístup k tejto stránke.</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/nemate-opravnenie-pre-pristup-k-tejto-stranke</link>
+ <description>&lt;p&gt;Dobry den mam taky problem neviem sa prihlasit do mojho admin menu pretoze ho
+nemam na titulnej strane ako vzdy ked zadam adresu. Ak sa chcem dostat do
+administracie tak mi to potom vypise ze Nemáte oprávnenie pre prístup
+k tejto stránke. mohol by mi niekto poradit ako by som sa mohol prihlasit.
+Dakujem MichalR&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/nemate-opravnenie-pre-pristup-k-tejto-stranke#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/47271</wfw:commentRss>
+ <pubDate>Fri, 27 Mar 2015 15:35:11 +0000</pubDate>
+ <dc:creator>Michal27</dc:creator>
+ <guid isPermaLink="false">47271 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chyba v databázi po doinstalaci modulů</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/chyba-v-databazi-po-doinstalaci-modulu</link>
+ <description>Databáze mi po instalaci dalších modulů při pokusu o uložení článku
+hlásí chybu Warning: Illegal offset type ve funkci _filter_tips() (řádek:
+1064 v souboru
+/data/web/vir­tuals/95141/vir­tual/www/modu­les/filter/fil­ter.module). jak
+to opravit?</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/chyba-v-databazi-po-doinstalaci-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/46861</wfw:commentRss>
+ <pubDate>Mon, 16 Mar 2015 16:32:40 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">46861 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Import databáze</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/import-databaze-0</link>
+ <description>&lt;p&gt;Po importu dříve vyexportované databáze v prostředí phpMyAdmin se
+zobrazí chyba #1062, viz. přiložený obrázek. Import se nepovede. Pokud
+použiju modul Backup_migrate, import proběhne v pořádku. Děkuji za
+radu. Michal&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/import-databaze-0#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/chyba_1062.jpg" length="62755" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/43621</wfw:commentRss>
+ <pubDate>Fri, 26 Dec 2014 20:20:12 +0000</pubDate>
+ <dc:creator>miskota</dc:creator>
+ <guid isPermaLink="false">43621 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>PDF ka</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/pdf-ka</link>
+ <description>&lt;p&gt;Jak mám udělat link na pdf stránek? pdfka už jsem si vyrobil ale nevím
+jak s tím dál&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/pdf-ka#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/26101</wfw:commentRss>
+ <pubDate>Mon, 02 Jun 2014 09:48:18 +0000</pubDate>
+ <dc:creator>happy</dc:creator>
+ <guid isPermaLink="false">26101 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Prosim o pomoc- asi chyba aktualizace jadra</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/prosim-o-pomoc-aktualizace-jadra</link>
+ <description>&lt;p&gt;Dobr den, na uvod musim rict ze jsem nov ohledne drupalu aktualizoval jsem
+rucne jadro z verze 7,24 na 7,28 na ftp jsem vmazal vse krome – sites a
+htaccesss a robots.txt. pote jsem nakpiroval vse na ftp ( verze 7,28) mimo
+zminene 3 veci provedl prikaz update.php vse se zda bt O.K ale nemohu
+spravovat administraci nezobrazuje se nic.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/prosim-o-pomoc-aktualizace-jadra&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/prosim-o-pomoc-aktualizace-jadra#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25976</wfw:commentRss>
+ <pubDate>Tue, 20 May 2014 08:16:00 +0000</pubDate>
+ <dc:creator>koliki</dc:creator>
+ <guid isPermaLink="false">25976 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>PostgreSQL - přesun databáze na jiný počítač/server (dump?)</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/postgresql-presun-databaze-na-jiny-pocitacserver-dump</link>
+ <description>Ahoj, při pokusu o přenesení databáze PostgreSQL na jiný server
+dochází k této chybě: Notice: unserialize(): Error at offset 0 of
+967 bytes in C:\Program Files (x86)\Xamp\htdoc­s\cista\inclu­des\module.inc
+on line 167
+
+Zálohu provádím pomocí pgAdmin III pavé tlačítko myši na DB &amp;gt;
+zálohovat &amp;gt; nastavím název a volím &amp;gt; Zálohovat vznikne soubor
+s příponou .backup.
+
+Pokud tento backup rozbalím do&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/postgresql-presun-databaze-na-jiny-pocitacserver-dump&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/postgresql-presun-databaze-na-jiny-pocitacserver-dump#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25966</wfw:commentRss>
+ <pubDate>Sun, 18 May 2014 05:05:51 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">25966 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>dibi v Drupalu</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/dibi-v-drupalu</link>
+ <description>&lt;p&gt;Ahoj,&lt;/p&gt;
+
+&lt;p&gt;vyvíjím pro zákazníka plugin s databází. Nalévání do DB probíhá
+pomocí .csv souborů, které mají i desítky MB a stovky tisíc záznamů.
+Snažím-li se to zapsat pomocí DBO, tak to trvá přes hodinu, což je
+naprosto nemyslitelné. Rozhodl jsem se proto použít DIBI, které vkládá
+záznamy opravdu hodně rychle.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/databazove-problemy/dibi-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/dibi-v-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25556</wfw:commentRss>
+ <pubDate>Thu, 10 Apr 2014 11:51:21 +0000</pubDate>
+ <dc:creator>MNK</dc:creator>
+ <guid isPermaLink="false">25556 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Fatal error při načítání webu</title>
+ <link>https://www.drupal.cz/forum/instalace/databazove-problemy/fatal-error-pri-nacitani-webu</link>
+ <description>&lt;p&gt;Web přestal fungovat, při načítání stránky stránky se mi vypíše
+chyba: Fatal error: Maximum execution time of 20 seconds exceeded in
+/home/users/ta­rabec/tarabec­.cz/web/inclu­des/database/da­tabase.inc on
+line 2139&lt;/p&gt;
+
+&lt;p&gt;Nevíte co s tím? Děkuji za radu. Michal&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/databazove-problemy/fatal-error-pri-nacitani-webu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/236">Databázové problémy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24521</wfw:commentRss>
+ <pubDate>Sun, 26 Jan 2014 13:21:09 +0000</pubDate>
+ <dc:creator>miskota</dc:creator>
+ <guid isPermaLink="false">24521 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

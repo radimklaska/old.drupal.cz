@@ -1,0 +1,1090 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Jak začít - Content Construction Kit (CCK)&quot;" href="https://www.drupal.cz/crss/node/3920" />
+<link rel="shortcut icon" href="https://www.drupal.cz/misc/favicon.ico" type="image/x-icon" />
+ <title>Jak začít - Content Construction Kit (CCK) | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="../../files/css/css_89f0b64afb4ba47f586bd984f765f0a7.css" />
+ <script type="text/javascript" src="../../files/js/js_a92c102cca68f59720388539fbdd3604.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="jak-zacit-content-construction-kit-cck.html#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="../../node/index.html">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="../../o-systemu-drupal.html"><span>O Drupalu</span></a></li>
+<li><a href="../../blog.html"><span>Blogy</span></a></li>
+<li><a href="../../faq.html"><span>FAQ</span></a></li>
+<li><a href="../../forum.1.html"><span>Fórum</span></a></li>
+<li><a href="../../prezentace.html"><span>Prezentace</span></a></li>
+<li><a href="../../preklad-drupalu-do-cestiny-zakladni-informace.html"><span>Překlady</span></a></li>
+<li><a href="../../katalog.1.html"><span>Katalog</span></a></li>
+<li><a href="../../ke-stazeni.html"><span>Stáhnout</span></a></li>
+<li><a href="../../sluzby.html"><span>Služby</span></a></li>
+<li><a href="../../staff.html"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="../../node/index.html">Domů</a></div>        <h2 class="title">Jak začít - Content Construction Kit (CCK)</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-3920">
+    <span class="submitted">Vložil/a <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a>, 22 Říjen, 2008 - 11:33</span>
+    <div class="pcontent"><p><strong>Snažíte se přizpůsobit typy obsahu vašim potřebám… a
+zjišťujete, že „nadpis“ a „text“ je trochu málo? Proto je tu modul
+Content construction kit – CCK</strong>.</p>
+
+<p><strong>Několik poznámek na úvod</strong></p>
+
+<ul>
+	<li>Následující text se vztahuje k Drupalu 6 (řada základních principů
+	se dá odvodit i pro Drupal 5, jinak odkazuji na starší články na Drupal.cz
+	nebo na knihu Jan Polzer: Drupal – Podrobný průvodce tvorbou a
+	správou webů).</li>
+
+	<li>Níže uvedený postup vychází z verze modulu CCK 6.x-2.0-rc10 a modulu
+	Link verze 6.x-2.5. Pokud máte jinou verzi (především u CCK), můžete
+	mít trochu jiné administrační rozhraní (nicméně, logika je pořád
+	stejná).</li>
+
+	<li><em>Kurzívou</em> jsou v textu zvýrazněny <em>volby/texty</em>, které
+	se mají zadat v administračním rozhraní.</li>
+</ul>
+
+<h2>CCK – více (různých) polí do (různých) typů obsahu</h2>
+
+<p>Když nainstalujete Drupal, získáte automaticky 2 typy obsahu:
+„stránku“ a „článek“. Sami si můžete přidat další. Nové typy
+obsahu sice můžete libovolně pojmenovat a odlišit například různými
+přístupovými právy, přiřazením k různým taxonomickým kategoriím
+apod., ale budou mít pořád podobnou strukturu jako článek nebo stránka. To
+vám časem asi nebude stačit, protože třeba ke článku byste chtěli
+přidat úvodník, k záznamu v katalogu byste potřebovali kolonku s odkazem
+na webové stránky a k plánované akci položku „kontakt“…</p>
+
+<p>S pomocí modulu CCK lze přidávat další tzv.<strong> pole</strong> do
+všech typů obsahu. Jak do těch, které zahrnuje samotné jádro Drupalu
+(stránka, článek), tak i do všech vámi vytvořených, nebo do těch,
+které generují další moduly (Image, Event, Audio…).</p>
+
+<p>Modul Content Construction Kit se instaluje obvyklým způsobem
+rozbalit-nahrát-zapnout. Po zapnutí byste ho však marně hledali
+v administračním menu – veškeré volby najdete u typů obsahu. Když se
+podíváte na jejich seznam (Administrace &gt; Správa obsahu &gt; Typy obsahu),
+uvidíte, že zde přibyly záložky <strong>Pole (Fields)</strong>,
+<strong>Export</strong> a <strong>Import</strong>. Dvou posledních si teď
+nemusíte všímat (pro úplnost: slouží k vytvoření nového typu obsahu
+„kopírováním“ již existujícího). Nová záložka<strong>
+Fields</strong> je sice důležitá, ale prázdná (slouží jen pro nově
+definovaná pole – zatím je tam jen hláška o tom, že jste žádná pole
+nevytvořili). Podívejte se tedy do záložky <strong>Seznam</strong>, kde
+v tabulce u každého typu obsahu najdete novou volbu: <strong>manage
+fields</strong>.</p>
+
+<h2>Příklad textového pole: „Úvodník“</h2>
+
+<p>Dejme tomu, že chcete, aby na začátku každého <strong>článku
+</strong>přibylo nové pole nazvané <strong>Úvodník</strong>. Když
+v řádku <strong>Článek</strong> zvolíte <strong>manage fields</strong>,
+měli byste vidět přehled již existujících (výchozích) polí a pod ním
+formulář pro vytvoření nového pole. (Pozn.: pokud vidíte něco jiného,
+používáte nejspíš jinou verzi modulu. Každopádně je třeba, abyste se
+nějak dostali k volbě Add nebo Add field – Přidat pole).</p>
+
+<a href="../../files/Add_field.jpg" target="blank"><img width="400" height="276" alt="Přidat pole / Add field" src="../../files/Add_field.jpg" /></a>
+
+<p>Do formuláře zadáte: <strong>Label</strong> – <em>Úvodník</em>
+(nadpis pole), <strong>Name</strong> – <em>uvodnik</em> (strojově čitelný
+název), dále vyberte <strong>typ pole</strong> (bude se jednat o textové
+pole, takže<em> Text</em>), z další nabídky (<strong>widget</strong>) pak
+<em>Text area (multiple rows)</em>. Zadáním skupiny (<strong>Group</strong>)
+se zatím nemusíte zabývat.</p>
+
+<p><strong>Uložte</strong> tyto volby a pokračujte na další formulář, kde
+zadáte další parametry. <strong>Rows </strong>je výška pole v řádcích,
+které chcete vytvořit – zadejte například <em>5</em> (pravděpodobně
+máte jako default). Dále můžete volitelně zadat <strong>Text
+nápovědy</strong> pro uživatele, který bude do vašeho nového pole
+(úvodník) zadávat text. Napište například: <em>Krátký text, jehož
+účelem je uvést a upoutat pozornost na následující stať článku</em>.
+Když rozbalíte <strong>Default value</strong>, můžete zadat výchozí
+hodnotu (v tomto případě nedává smysl, nechte prázdné).</p>
+
+<p>Dále zvolte, jestli má být pole <strong>Povinné</strong> (musí mít
+každý článek úvodník?), <strong>Number of values</strong> (bude třeba
+více stejných polí? – v tomto případě ne, počet je tedy <em>1</em>).
+Z možností <strong>Text processing </strong>vyberte, co považujete za
+vhodné (pozor ovšem na bezpečné nastavení vstupních formátů pro různé
+role, zejména v případě Full HTML); pokud si s tím zatím nevíte rady,
+ponechte <em>plain text</em>. Velmi užitečná je položka <strong>Maximum
+length</strong>, která dovoluje omezit délku textu (úvodník by neměl být
+příliš dlouhý). Naproti tomu povolené hodnoty (<strong>Allowed
+values</strong>) zde nedávají smysl, nechte prázdné a celý formulář
+odešlete (<strong>Save field settings</strong>).</p>
+
+<p>Nyní opět uvidíte přehled všech polí (výchozích i přidaných),
+která u daného typu obsahu (článek) jsou. Pořadí polí v tabulce přitom
+odpovídá tomu, jak se budou zobrazovat při zadávání příspěvku i při
+jeho zobrazení uživateli (čtenáři). Je zřejmé, že bude nutné něco
+změnit, protože úvodník logicky nepatří na konec článku, ale pod nadpis
+(stačí v místě křížku přetáhnout myší na správné místo a hlavně
+nakonec <strong>Uložit</strong>).</p>
+
+<p>Nyní si vytvořte pokusný článek, zadejte obsah do všech polí a
+odešlete. Ve výsledku byste měli vidět, že nově vytvořené pole
+(úvodník) funguje a zobrazuje se na správném místě. Nadpis
+„<strong>Úvodník:</strong>“ je tu však jaksi nadbytečný, což
+nepůsobí moc dobře. Vraťte se tedy na úpravu typu obsahu „článek“, a
+sice do záložky<strong> Display fields</strong>. Ve sloupci
+<strong>Label</strong> nastavíte, zda a kde se má zobrazit nadpis pole
+(v tomto případě ho nechceme vidět = <em>hidden</em>). Ve sloupci
+<strong>Teaser</strong> máte možnost určit, zda a jakou formou se má dané
+pole zobrazovat ve zkráceném náhledu, a v posledním sloupci (<strong>Full
+node</strong>) nastavíte totéž pro plné zobrazení daného typu obsahu
+(úvodník určitě budete chtít zobrazit v obou případech, takže nechte
+výchozí). Nezapomeňte <strong>Uložit</strong> a podívejte se na výsledek.
+V náhledu i v plném zobrazení článku byste měli vidět celý text
+úvodníku bez názvu pole.</p>
+
+<p>Kdybyste se ale podívali, jak totéž vidí anonymní uživatel, patrně
+zjistíte, že nově přidaná pole nevidí vůbec. Je to tím, že Drupal
+6 nově nabízí možnost (ale tím také nutnost) <strong>zadat oprávnění
+přístupu ke každému poli</strong> (týká se zobrazení i editace). Zadejte
+tedy oprávnění (uživatelé &gt; oprávnění &gt; Modul
+content_permis­sions) tak, jak je chcete mít (v daném případě zřejmě
+budete chtít, aby úvodník mohly zobrazit všechny role; oprávnění editace
+se nejspíš bude shodovat s oprávněním editovat typ obsahu
+„článek“).</p>
+
+<p>Výsledku ovšem ještě něco chybí: úvodník má stejný vzhled jako
+vlastní text článku, což není ani přehledné, ani moc hezké. Vzhled
+nového pole můžete upravit v příslušném .css souboru (asi neuškodí
+zdůraznit, že správně je to ten, který se nachází ve složce
+<strong>sites/all/the­mes/vase_tema</strong>, takže si nově definované
+vlastnosti nepřemažete, až budete upgradovat na vyšší verzi Drupalu).
+V souboru, který se pravděpodobně jmenuje <strong>vase_tema.css</strong>,
+definujete požadované vlastnosti pro třídu nového pole (název třídy
+zjistíte například pomocí doplňku Firebug ve Firefoxu, ale můžete si ho
+i odvodit; v tomto případě se bude jmenovat
+<strong>field-field-uvodnik</strong>, obecně
+<strong>field-field-nazevpole</strong>).</p>
+
+<p>V souboru vase_tema.css tedy definujete (například) větší a tučné
+písmo pro tuto třídu:</p>
+.field-field-uvodnik {<br />
+font-size: 110%;<br />
+font-weight: bold;<br />
+}<br />
+
+<p>… a zkontrolujete, že to funguje.</p>
+
+<h2>Příklad pole typu Node reference: „Související články“</h2>
+
+<p>Dalším užitečným vylepšením článku mohou být odkazy na
+související články na vašem webu. K tomu se hodí typ pole<strong> Node
+reference</strong>.</p>
+
+<p><strong>Postup<strong>:</strong></strong></p>
+ <strong>Admin &gt; Správa obsahu &gt; Typy obsahu &gt; Článek</strong><br />
+<strong> Manage fields</strong><br />
+<strong> Add</strong><br />
+<strong> Label</strong>: <em>Související články</em><br />
+<strong> New field</strong> : <em>souvisejici_clan­ky</em><br />
+<strong> Field type</strong> : <em>Node reference</em><br />
+<strong> Widget</strong>:<em> Autocomplete Text Field</em><br />
+<strong> Uložit</strong><br />
+<strong>Text nápovědy</strong>: <em>Zadejte název souvisejícího
+článku</em><br />
+<strong>Content types that can be referenced</strong>: <em>Článek</em><br />
+<strong>Advanced – Nodes that can be referenced (View)</strong>: vynechat<br />
+<strong>Save field settings</strong><br />
+Stejně jako v předchozím případě je třeba upravit
+<strong>Oprávnění</strong> a případně definovat vzhled nového pole a
+dále zkontrolovat/u­pravit nastavení v záložkách <strong>Manage
+fields</strong> a <strong>Display fields</strong>.<br />
+<strong>Manage fields</strong>: pořadí zřejmě není třeba měnit
+(Související články se zobrazí na konci).<br />
+<strong>Display fields:</strong><br />
+<strong>Label</strong>: <em>Above</em><br />
+<strong>Teaser</strong>:<em> Hidden</em><br />
+<strong>Full node</strong>: <em>Title (link)</em><br />
+
+<p>(Výsledek: Nadpis pole se zobrazí nad jeho obsahem, v náhledu nebude
+dané pole zobrazeno a v plném zobrazení článku budou názvy zadaných
+souvisejících článků jako hypertextové odkazy).</p>
+
+<h2>Příklad pole typu Link: „Další informace“</h2>
+
+<p>Jako poslední příklad uvedu jeden z (mnoha) typů polí, který není
+součástí samotného modulu Content Construction Kit – CCK, ale musí se
+doinstalovat jako další modul z rodiny CCK. Jedná se o typ pole
+<strong>Link</strong> a stejnojmenný modul. Modul opět nahrajte do složky
+sites/all/modules a zapněte v administraci modulů.</p>
+
+<p>Když nyní budete přidávat k typu obsahu Článek nové pole, objeví se
+nový typ automaticky v nabídce. Typ pole Link umožní přidat hypertextový
+odkaz směřující na jakoukoliv platnou URL. V případě článku to lze
+využít třeba v podobě pole „Další informace“, kde budou odkazy na
+webové stránky vztahující se k tématu.</p>
+
+<p><strong>Postup:</strong></p>
+ <strong>Admin &gt; Správa obsahu &gt; Typy obsahu &gt; Článek</strong><br />
+<strong>Manage fields</strong><br />
+<strong>Add</strong><br />
+<strong>Labe</strong>l: <em>dalsi_informace</em><br />
+<strong>New field</strong>: <em>Další informace</em><br />
+<strong>Field type</strong>: <em>Link</em><br />
+<strong>Widget</strong>: <em>Text Fields for Title and URL</em><br />
+<strong>Uložit</strong><br />
+<strong>Text nápovědy</strong>: <em>Zadejte název webu a URL (případně jen
+URL)</em><br />
+<strong>Number of values</strong>: <em>Neomezené</em><br />
+<strong>Optional URL</strong>: Pokud zaškrtnete, je možné zadat i prostý
+text bez odkazu<br />
+<strong>Link Title</strong>: Optional (Odkaz na webové stránky bude možné
+zadat s názvem i bez něj. Samozřejmě můžete vyzkoušet i jiné
+varianty).<br />
+<strong>URL Display Cutoff</strong>: Zadejte, pokud si přejete zkrátit
+příliš dlouhé URL zadané bez názvu (docela praktická věc; link
+samozřejmě zůstane funkční).<br />
+<strong>Link Target</strong>: Zadejte, zda se má nová stránka otevřít
+v původním nebo novém okně, nebo zda necháte výběr na uživateli.<br />
+<strong>Rel Attribute</strong>: nejobvyklejší zadání „nofollow“
+zabrání některým vyhledávacím robotům sledovat tento link.<br />
+<strong>Additional CSS Class</strong>: umožňuje přidat CSS třídu.<br />
+<strong>Save field settings</strong><br />
+Opět je nutné nastavit ještě <strong>Oprávnění</strong>, pořadí polí
+(<strong>Manage fields</strong>) a zobrazení textu a nadpisu (<strong>Display
+fields</strong>).<br />
+
+<h2>Využití existujících polí</h2>
+
+<p>Jakmile jste pole jednou vytvořili, můžete ho znovu použít pro další
+typy obsahu. Budete-li nyní upravovat jakýkoliv jiný typ obsahu, pak
+v záložce <strong>Manage fields</strong> uvidíte možnost přidat nejen
+nové pole (<strong>New field</strong>), ale také už existující pole
+(<strong>Existing field</strong>).</p>
+
+<h2>Skupiny polí (Groups)</h2>
+
+<p>Nově vytvořená pole se u každého typu obsahu dají sdružovat do skupin
+(<strong>Groups</strong>). Může to být výhodné zejména tehdy, když máte
+polí hodně a potřebujete výstup nějak zpřehlednit (třeba odlišením
+vzhledu skupiny od ostatních polí). Na zkoušku si můžete vytvořit skupinu
+<strong>Info</strong> a zařadit do ní vytvořená pole<strong> Související
+články</strong> a <strong>Další informace </strong>(v záložce
+<strong>Manage fields</strong> je přetáhnete myší do nové skupiny,
+výsledek musíte <strong>Uložit</strong>). Nakonec musíte ještě
+v záložce <strong>Display fields</strong> nastavit, jak a kde se skupina
+polí (ne)má zobrazovat; nezapomeňte opět <strong>Uložit</strong>. Pak ve
+svém pokusném článku zadejte obsah do všech polí a podívejte se na
+výsledek.</p>
+
+<p align="center">---</p>
+
+<p>Existuje mnoho dalších typů polí, která spolu s různými možnostmi
+nastavení poskytují obrovskou flexibilitu. Přehled modulů vztahujících se
+k CCK najdete na adrese <a href="https://drupal.org/project/Modules/category/88">http://drupal.org/…/category/88</a>.
+Pro pohodlné vyhledávání modulů vyhovujících vašim potřebám lze vřele
+doporučit také stránky <a href="http://www.drupalmodules.com">www.drupalmodules.com</a>.</p>
+
+<p><strong>Eva Rázgová</strong></p><table id="attachments" class="sticky-enabled">
+ <thead><tr><th>Příloha</th><th>Velikost</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td><a href="../../files/Add_field.jpg">Add_field.jpg</a></td><td>38.15 KB</td> </tr>
+</tbody>
+</table>
+<div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-7806" class="social-add digglink" onmouseover="showSocials(7806)" onmouseout="hideSocials(7806)"><a class="social-href-link" href="jak-zacit-content-construction-kit-cck.html#">Linkni to!</a>
+<div class="social-links" id="social-links-7806">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/zacatecnici/jak-zacit-content-construction-kit-cck&amp;title=Jak začít - Content Construction Kit (CCK)" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/zacatecnici/jak-zacit-content-construction-kit-cck&amp;title=Jak začít - Content Construction Kit (CCK)" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/zacatecnici/jak-zacit-content-construction-kit-cck" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/zacatecnici/jak-zacit-content-construction-kit-cck&amp;title=Jak začít - Content Construction Kit (CCK)" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-14614"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-14614" class="active">Užitečný článek, který</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/bobik.html" title="Zobrazit profil uživatele.">Honza Pobořil</a> dne 22 Říjen, 2008 - 16:06.  </div>
+
+  <div class="content">
+    <p>Užitečný článek, který usnadní cestu mnoha začátečníkům. Jen
+tak dál.</p>
+
+<p>Doporučil bych přílohu <em>Add_field.jpg</em> skrýt odškrtnutím pole
+<em>Seznam</em> v seznamu příloh na editačním formuláři článku.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/14614" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-14629"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-14629" class="active">Paradny clanok, velmi mi</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 23 Říjen, 2008 - 13:49.  </div>
+
+  <div class="content">
+    <p>Paradny clanok, velmi mi pomohol aby som sa zorientoval v cck, diky</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/14629" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-14746"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-14746" class="active">CCK a úvodník</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.internetovehry.cz" rel="nofollow">Hry</a> (bez ověření) dne 28 Říjen, 2008 - 18:50.  </div>
+
+  <div class="content">
+    <p>Mám otázku k příkladu o úvodníku. A co když chci na hlavní
+stránce zobrazovat pouze úvodník ( námi vytvořené pole ) a pole text (
+které nejde editovat ) až po klepnutí na odkaz ke konkrétnímu článku?
+Díky za radu.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/14746" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-14750"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-14750" class="active">Napíšu co mě k tomu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 28 Říjen, 2008 - 20:02.  </div>
+
+  <div class="content">
+    <p>Napíšu co mě k tomu napadá, určitě to nebude vyčerpávající:<br />
+(1)Asi nejjednodušší způsob (a zároveň nejplastičtější ani ne tak
+z hlediska Drupalu, ale řekněme publicistiky) je použít tlačítko
+„Oddělit upoutávku pod kurzorem“ (v D6); analogicky v D5
+se vloží:</p>
+
+<pre class="html"><code>&lt;!--break--&gt;</code></pre>
+
+<p>Když dáte „oddělení“ hned na začátku pole Textu, veškerý text
+vám „spadne“ do toho, co se ukazuje až v plném zobrazení. Je to
+výhodné z toho důvodu, že se můžete rozhodnout individuálně pro
+jednotlivé příspěvky (časem se třeba ukáže, že máte taky
+„kraťásky“, kde úvodník nechcete, ale přesto nechcete v náhledu pouze
+nadpis… Na druhou stranu je to nutné u každého příspěvku zvlášť
+nastavit (a pokaždé na to myslet).<br />
+(2)Jinou možností je zobrazovat články (samozřejmě i jiné typy obsahu)
+jako vlastní views, kde nebudete pracovat s náhledem, ale s jednotlivými
+poli (a pak tam můžete pole Text bez problémů vynechat).<br />
+(3)…A možná by bylo i řešení přes modul Content Templates (<a href="https://drupal.org/project/contemplate">http://drupal.org/…/contemplate</a>),
+ale to po pravdě řečeno jen hádám, nemám vyzkoušeno.<br />
+</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/14750" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-14851"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-14851" class="active">Číslo 1 není moc</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel kal El (bez ověření) dne 2 Listopad, 2008 - 22:38.  </div>
+
+  <div class="content">
+    <p>Číslo 1 není moc efektivní. Pisatel by musel pokaždé myslet na to, že
+má hned na začátek vrazit . Číslo 2 – pokud to jinak
+nepůjde, bude se muset použít Views – ale raději bych bez Views.
+A k číslu 3, nějak se mi to nepodařilo rozchodit, pořád to na výpisu
+vyhazuje obsah.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/14851" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-14928"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-14928" class="active">Ještě jedna možnost</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 7 Listopad, 2008 - 13:57.  </div>
+
+  <div class="content">
+    <p>ad 1) oddělení upoutávky – zálěží na tom, jestli chcete mít
+maximálně standardizovaný výstup, nebo flexibilitu při vytváření obsahu.
+Každé má svoje pro a proti a domnívala jsem se, že jsem to taky v tom
+duchu napsala<br />
+ad 2) vlastní views – pro web s již existujícícm obsahem mi to připadá
+opravdu nejjednodušší možnost, ale pokud někdo přijde na něco lepšího,
+sem s tím :-)<br />
+ad 3) Content Templates – sorry, nevím<br />
+…4) pro web, kde ještě není obsah (nebo pro nové typy obsahu) to můžete
+obejít jen pomocí CCK: V editaci typu obsahu zrušíte pole „Text“,
+pomocí CCK si pak vytvoříte vlastní pole, kam se bude vkládat „tělo“
+článku, a samozřejmě budete mít pole „Úvodník“, event. cokoliv
+dalšího. V „display fields“ u CCK pak nastavíte, že „úvodník“ se
+má zobrazovat v teaseru, ale „tělo“ ne. Samozřejmě to nelze použít na
+už existující uzly, kde původní pole „Text“ už má
+nějaký obsah.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/14928" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-14778"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-14778" class="active">Views</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 30 Říjen, 2008 - 00:17.  </div>
+
+  <div class="content">
+    <p>Bude i nějaký tutorial „Jak začít“ pro Views? CCK se
+velmi šiklo.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/14778" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-14781"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-14781" class="active">Bude…</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 30 Říjen, 2008 - 08:32.  </div>
+
+  <div class="content">
+    <p>Bude…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/14781" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-16387"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-16387" class="active">Gratulace</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel ibarva (bez ověření) dne 27 Leden, 2009 - 00:54.  </div>
+
+  <div class="content">
+    <p>Emo, díky, že pro nás stále meleš maso. Jinak bychom s Drupalem tápaly
+jak hluchej ve tmě.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/16387" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-25709"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-25709" class="active">Díky, díky, díky.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.wochozka.wz.cz" rel="nofollow">Wochozka</a> (bez ověření) dne 28 Únor, 2010 - 20:20.  </div>
+
+  <div class="content">
+    <p>Ahoj, jsem úplnej Dupalskej začátečník, ale Drupal se mi moc zalíbil a
+vzhledem k lidem, kteří ochotně radí takovým jako jsem já, se mi líbí
+čím dál tím víc. Pracuji s ním jen týden, co jsem zjistil, že existuje,
+a skoro jsem se zamiloval. Už v něm mám celkem pokročilé stránky, ale na
+můj vkus jsou dost „prasácké“. Předělám, vyčistím, uvidím…
+Každopádně tenhle článek mi moc pomohl při jejich tvorbě.
+Takže DÍKY.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/25709" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28523"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28523" class="active">Vhodnost CCK</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.upg.cz" rel="nofollow">Acer1968</a> (bez ověření) dne 22 Červen, 2010 - 09:56.  </div>
+
+  <div class="content">
+    <p>Ahoj.</p>
+
+<p>Jsem začátečník, proto prosím o shovívavost. Chci se zeptat
+zkušených, zda by Drupal obecně a potažmo modul CCK byl vhodný na aplikaci
+s následujícími vlastnostmi.</p>
+
+<p>Katalog výrobků. Nechci to jako eshop. Prostě mám dejme tomu
+300 výrobků, u kterých chci sledovat mnoho a mnoho parametrů (polí).
+Pochopil-li jsem správně, tak pomocí CCK bych si založil nový druh
+stránky, kde bych definoval všechny ty pole/parametry. A poté, až bych
+chtěl zadat nový výrobek „do databáze“, tak vlastně vytvořím novou
+stránku nad tínto typem obsahu, je to tak?</p>
+
+<p>Děkuji za info.</p>
+
+<p>Petr Vavřinec</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28523" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28526"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28526" class="active">Ano, přesně tak</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 22 Červen, 2010 - 10:15.  </div>
+
+  <div class="content">
+    <p>Ano, přesně tak… jedině snad: neříkejme tomu „nová stránka“, ale
+uzel, a „nový typ stránky“, ale nový typ obsahu (v Drupalu).</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28526" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28527"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28527" class="active">Polepším se...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/acer1968.html" title="Zobrazit profil uživatele.">Acer1968</a> dne 22 Červen, 2010 - 10:19.  </div>
+
+  <div class="content">
+    <p>…v názvosloví, slibuji :-)</p>
+
+<p>Děkuji za rychlý answer..</p>
+
+<p>A chápu správně, že zřejmě vznikne někde v databázi Drupalu nová
+tabulka, která obsahuje ta data? Znamená to tedy, že nemusím ručně
+zakládat nové uzly, ale prostě je „naleju“ do databáze a tím pádem
+budu mít kompletní obsah?</p>
+
+<p>Petr V.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28527" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28529"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28529" class="active">Jestli to tam chcete soukat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 22 Červen, 2010 - 10:30.  </div>
+
+  <div class="content">
+    <p>Jestli to tam chcete soukat hromadně přes databázi, tak to chce pořádně
+promyslet (a samozřejmě dělat na webu, který je odstavený z provozu,
+zazálohovaný … a záloha je otestovaná, že funguje).</p>
+
+<p>Vytvořte si nový typ obsahu, 2–3 nové uzly a podívejte se do databáze,
+co se tam děje.</p>
+
+<p>Jestli se nepletu (kdyžtak mě někdo prosím opravte), týká se to
+minimálně 3 tabulek: node, node_revisions a pak tabulky specifické pro nový
+typ obsahu, kde je obsah CCK polí: ta se jmenuje
+contet_type_[stro­jovynazevtypu­obsahu]</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28529" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28531"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28531" class="active">jeste jsem se tomu nevenoval</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karlos.html" title="Zobrazit profil uživatele.">karlos</a> dne 22 Červen, 2010 - 10:39.  </div>
+
+  <div class="content">
+    <p>jeste jsem se tomu nevenoval poradne kdy a za jakych podminek(a ze uz se na
+to chystam dlouho) ale vim urcite ze jsou moznosti
+contet_type_[stro­jovynazevtypu­obsahu] ale taky
+content_field_[stro­jovynazevfiel­du]  – mam podezreni ze je to podle poctu
+typu obsahu kam je field „pridelany“ (modul content copy)</p>
+
+<p>rozhodne bych radsi volil vytvoreni jednoducheho skriptu ktery zavola
+node_save($object)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28531" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-28530"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28530" class="active">„nalejvat primo do DB“ silne</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karlos.html" title="Zobrazit profil uživatele.">karlos</a> dne 22 Červen, 2010 - 10:35.  </div>
+
+  <div class="content">
+    <p>„nalejvat primo do DB“ silne nedoporucuju! existuji snad nejaky moduly na
+import ale nemam konkretni zkusenost.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28530" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28544"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28544" class="active">Nalejvání</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/acer1968.html" title="Zobrazit profil uživatele.">Acer1968</a> dne 22 Červen, 2010 - 15:58.  </div>
+
+  <div class="content">
+    <p>Hmmm, tak to si raději udělám v databázi svoje vlastní tabulky
+s jiným prefixem a napíšu si funkci, která mi ten obsah vypíše na
+stránku. Akorát teď tedy musím zjistit, jak tu funkci volat, aniž bych
+musel modifikovat původní PHP skript pro vypsání node. Napadlo mně
+vytvořit si nový typ obsahu (vlastně prázdný) a změnit pak ten skript,
+který bude volat tenhle typ obsahu (resp. nody pomocí něho vytvořené). Ale
+myslím si, že to nepůjde, protože ten skript pro volání bude stejně
+zřejmě jen jeden a podle nějakého parametru pozná, co volá :-(</p>
+
+<p>No, ještě se zamyslím. Nechtělo se mi psát kompletně celou omáčku
+kolem toho, proto jsem chtěl použít všemocný Drupal. Je otázka, zda není
+pro mně rychlejší si to napsat celé sám, než si pomáhat přes Drupal.
+Přece jen je to jako jít s kanónem na vrabce.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28544" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28548"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28548" class="active">A ako si to chcel „nalievat“</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 22 Červen, 2010 - 17:31.  </div>
+
+  <div class="content">
+    <p>A ako si to chcel „nalievat“ do databazy? Predpokladam cez nejaky PHP
+skript co cita data odniekial a vklada do databazy. Ked zvladnes toto tak
+zvladnes aj jednoduchy skript ktory bude citat a nalievat data do drupalovskej
+databazy a korektne – cize cez Drupal funkcie. Tu je na tu temu obsiahle
+vlakno <a href="https://drupal.org/node/178506">http://drupal.org/node/178506</a>
+a tu strucnejsie <a href="http://www.appnovation.com/creating-nodes-programmatically-have-cck-image-fields-drupal-6">http://www.appnovation.com/…lds-drupal-6</a></p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28548" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28557"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-28557" class="active">Nalévání...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/acer1968.html" title="Zobrazit profil uživatele.">Acer1968</a> dne 22 Červen, 2010 - 21:43.  </div>
+
+  <div class="content">
+    <p>…bych udělal v PHP MySQLadminu přes SQL příkazy, čili klasicky
+Importem. Popřípadě konverzí z tabulky a importem, který má tohle
+rozhraní v sobě.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/28557" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div></div><a id="comment-80496"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-content-construction-kit-cck.html#comment-80496" class="active">nice</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 6 Srpen, 2014 - 12:20.  </div>
+
+  <div class="content">
+    Thanks you so much Mike, you are awesome–I was struggling with this
+calibration for the entire day and still didn't figure it out. I really
+appreciate your help! Commercial analyst with a response-scoring problem http://bit.do/sakaupo DAN http://bit.do/pker-online http://fb.me/2nvGcPdzH gudangpoker http://fb.me/2pTZGdVrG saranapoker http://fb.me/38wdA8PG7 bundapoker http://arbnew.blogspot.com/…terbaik.html
+http://hargasony-id.blogspot.com/…n-murah.html
+http://hargasony-id.blogspot.com/…onetize.html
+http://hargasony-id.blogspot.com/…terbaik.html
+http://arbnew.blogspot.com/ http://mr-remoxp.blogspot.com/ http://wikiso.heck.in/ http://arbnew.besaba.com/ http://hargasony-id.blogspot.com/  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3920/80496" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="https://www.drupal.cz/comment/reply/3920"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="../../filter/tips.html">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-8f0b6c74fa1678255ee4b77583248bdc" value="form-8f0b6c74fa1678255ee4b77583248bdc"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="https://www.drupal.cz/clanky/zacatecnici/jak-zacit-content-construction-kit-cck?destination=node%2F3920"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="../../user/register.html" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="../../user/password.html" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-5f224558edfd20852139e83ca2645ef2" value="form-5f224558edfd20852139e83ca2645ef2"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="../../node/52781.html"><img src="../../files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="../../bezpecnost.html">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="../akce.1.html" class="tagadelic level4">akce</a> 
+<a href="../bezpecnost.1.html" class="tagadelic level6">bezpečnost</a> 
+<a href="../cck.html" class="tagadelic level2">CCK</a> 
+<a href="../como-ganhar-dinheiro.html" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="../como-ganhar-dinheiro-na-internet.html" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="../como-ganhar-dinheiro-pela-internet.html" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="../drupal.html" class="tagadelic level3">drupal</a> 
+<a href="https://www.drupal.cz/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="../drupal-7x.html" class="tagadelic level1">Drupal 7.x</a> 
+<a href="../drupalcamp.1.html" class="tagadelic level1">drupalcamp</a> 
+<a href="../drupalcon.html" class="tagadelic level1">drupalcon</a> 
+<a href="../drupal-setkani.html" class="tagadelic level2">Drupal setkání</a> 
+<a href="../forex.html" class="tagadelic level1">forex</a> 
+<a href="../forex-broker.html" class="tagadelic level1">forex broker</a> 
+<a href="../forex-trading-strategies.html" class="tagadelic level1">forex trading strategies</a> 
+<a href="../fx-trading.html" class="tagadelic level2">FX trading</a> 
+<a href="../game-war-cheats.html" class="tagadelic level1">game of war cheats</a> 
+<a href="../ganhar-dinheiro.html" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="../ganhar-dinheiro-na-internet.html" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="../godus-cheats.html" class="tagadelic level1">godus cheats</a> 
+<a href="../image.html" class="tagadelic level1">image</a> 
+<a href="../landlord-house-insurance.html" class="tagadelic level1">landlord house insurance</a> 
+<a href="../lokalizace.html" class="tagadelic level1">lokalizace</a> 
+<a href="../moduly.html" class="tagadelic level6">moduly</a> 
+<a href="../navod.html" class="tagadelic level2">navod</a> 
+<a href="../online-forex-trading.html" class="tagadelic level1">online forex trading</a> 
+<a href="../ostatni.html" class="tagadelic level3">ostatní</a> 
+<a href="../overwatch-aimbot.html" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="../php.html" class="tagadelic level1">php</a> 
+<a href="../pro-webmastery.1.html" class="tagadelic level5">pro webmastery</a> 
+<a href="../preklad.html" class="tagadelic level1">překlad</a> 
+<a href="../prekladatelsky-sprint.html" class="tagadelic level1">překladatelský sprint</a> 
+<a href="../preklady.html" class="tagadelic level2">překlady</a> 
+<a href="../pripadove-studie.html" class="tagadelic level2">případové studie</a> 
+<a href="../setkani.1.html" class="tagadelic level5">setkání</a> 
+<a href="../setkani-akce.html" class="tagadelic level5">setkání, akce</a> 
+<a href="../synthetic-opal.html" class="tagadelic level3">synthetic opal</a> 
+<a href="../synthetic-opals.html" class="tagadelic level3">synthetic opals</a> 
+<a href="../theming.html" class="tagadelic level2">theming</a> 
+<a href="../tipy-triky.html" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="../ubercart.html" class="tagadelic level1">UberCart</a> 
+<a href="../views.html" class="tagadelic level2">views</a> 
+<a href="../vyvoj.html" class="tagadelic level2">vývoj</a> 
+<a href="../vyvoj-drupalu.html" class="tagadelic level5">vývoj drupalu</a> 
+<a href="../zacatecnici.1.html" class="tagadelic level5">začátečníci</a> 
+<a href="../sablony-vzhled.html" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="../../forum.1.html" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html#comment-104041">Doplnění</a><br />před 6 hod 20 min</li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 5 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 19 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 19 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 23 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 23 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 18 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu.html#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 21 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="../../aggregator/pisou-na-slovensku.html" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="../../rss.xml" title="RSS Kanal"><img src="https://www.drupal.cz/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="../novinky-na-webu/seznam-rss-zdroju-drupal-cz.html">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="../../kontakt/sluzby.html">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="../../sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="../../files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":231,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

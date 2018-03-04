@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>pepinoo&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/pepinoo</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Instalace Drupal 5.1 na WZ</title>
+ <link>https://www.drupal.cz/blog/pepinoo/instalace-drupal-5-1-na-wz</link>
+ <description>&lt;p&gt;Absolutně si nevím rady stovky přízpěvků, ale že by někdo sem hodil
+instal to ne.&lt;/p&gt;
+
+&lt;p&gt;Fatal error: Call to undefined function: user_access() in
+/3w/wz.cz/t/tuc­teto/modules/sys­tem/system.mo­dule on line 98&lt;/p&gt;
+
+&lt;p&gt;Předtím jsem měl RS2_RC4 a to mi někdo zbořil a teď tohle. Končím
+hurá na html…&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/pepinoo/instalace-drupal-5-1-na-wz#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1056</wfw:commentRss>
+ <pubDate>Mon, 30 Apr 2007 09:03:02 +0000</pubDate>
+ <dc:creator>pepinoo</dc:creator>
+ <guid isPermaLink="false">1056 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

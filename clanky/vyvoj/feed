@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - vývoj</title>
+ <link>https://www.drupal.cz/taxonomy/term/593/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Drupal školenia | SDA</title>
+ <link>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda</link>
+ <description>&lt;p&gt;Slovenská Drupal Asociácia sa chystá organizovať Drupal školenia.
+Základné info na &lt;a href=&quot;http://drupal.sk/node/1897&quot;&gt;drupal.sk&lt;/a&gt; .
+Pomôžte nám získať viac info o vašich požiadavkách v ankete &lt;a href=&quot;https://apps.facebook.com/polldaddy-polls/?view=poll&amp;amp;id=7558115&quot;&gt;na
+facebooku&lt;/a&gt;, alebo v komentároch na drupal.sk, alebo tu.&lt;/p&gt;
+
+&lt;p&gt;Ďakujeme&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22956</wfw:commentRss>
+ <pubDate>Wed, 13 Nov 2013 11:59:01 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">22956 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>ColHub - nasa nova technologicka hracka</title>
+ <link>https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka</link>
+ <description>&lt;p&gt;Cca pred pol rokom sme si uvedomili, ze nemame k dispozicii vhodny nastroj
+na tvorbu obsahu, ktory by splnal tieto zakladne poziadavky:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Velky pocet spolupracovnikov, pricom by praca bola organizovana.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/divamys/colhub-nasa-nova-technologicka-hracka#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10910</wfw:commentRss>
+ <pubDate>Wed, 18 Jan 2012 21:53:08 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">10910 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak efektivně ladit a debugovat v PHP   </title>
+ <link>https://www.drupal.cz/clanky/php/jak-efektivne-ladit-debugovat-v-php</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    David Grudl        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://www.youtube.com/watch?v=v3NFItpfHCg&quot; rel=&quot;nofollow&quot;&gt;Videozáznam - YouTube&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/akce/drupal-setkani-praha-26-dubna-2011-zamereno-na-vyvojare&quot;&gt;Drupal setkání - Praha - 26. dubna 2011 - Zaměřeno na vývojáře&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/php/jak-efektivne-ladit-debugovat-v-php#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/debugging">debugging</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10053</wfw:commentRss>
+ <pubDate>Mon, 18 Jul 2011 12:33:51 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">10053 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Úvod do vývoje drupal modulů</title>
+ <link>https://www.drupal.cz/uvod-do-vyvoje-drupal-modulu</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Vojtěch Kusý        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://www.youtube.com/watch?v=jVsq3cLjlKk&quot; rel=&quot;nofollow&quot;&gt;Videozáznam - YouTube&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/akce/drupal-setkani-praha-26-dubna-2011-zamereno-na-vyvojare&quot;&gt;Drupal setkání - Praha - 26. dubna 2011 - Zaměřeno na vývojáře&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/uvod-do-vyvoje-drupal-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10020</wfw:commentRss>
+ <pubDate>Mon, 11 Jul 2011 15:51:36 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">10020 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pokročilá práce s kódem</title>
+ <link>https://www.drupal.cz/clanky/git/pokrocila-prace-s-kodem</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Jakub Suchý        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Pokročilá práce s kódem, správa verzí a strategie nasazování
+nového kódu&lt;/p&gt;&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://www.youtube.com/watch?v=DUvldCHSvkk&quot; rel=&quot;nofollow&quot;&gt;Videozáznam - YouTube&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/akce/drupal-setkani-praha-26-dubna-2011-zamereno-na-vyvojare&quot;&gt;Drupal setkání - Praha - 26. dubna 2011 - Zaměřeno na vývojáře&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/git/pokrocila-prace-s-kodem#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/git">Git</category>
+ <category domain="https://www.drupal.cz/clanky/prace-s-kodem">práce s kódem</category>
+ <category domain="https://www.drupal.cz/clanky/verzovani">verzování</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10019</wfw:commentRss>
+ <pubDate>Mon, 11 Jul 2011 15:47:58 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">10019 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Mediareference</title>
+ <link>https://www.drupal.cz/clanky/developer/mediareference</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Vojtěch Kusý        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Popis zajímavých částí v modulu mediareference:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;konfigurovatelná políčka – wrapper kolem NR&lt;/li&gt;
+
+	&lt;li&gt;renderování stránek v popup okně&lt;/li&gt;
+
+	&lt;li&gt;dynamicky generovaný pohled (view)&lt;/li&gt;
+
+	&lt;li&gt;view jako formulář (Views Embed Form)&lt;/li&gt;
+
+	&lt;li&gt;integrace s modulem Insert&lt;/li&gt;
+
+	&lt;li&gt;JS event stack binde&lt;/li&gt;
+&lt;/ul&gt;&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/Drupal Meetup - Mediareference.pdf&quot; type=&quot;application/pdf; length=2564553&quot;&gt;Drupal Meetup - Mediareference.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-octet-stream&quot;  alt=&quot;application/octet-stream icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-octet-stream.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/mediareference v0.4.3.tar.gz&quot; type=&quot;application/octet-stream; length=23486&quot;&gt;mediareference v0.4.3.tar.gz&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://drupal.org/project/mediareference&quot; rel=&quot;nofollow&quot;&gt;Projekt na Drupal.org&lt;/a&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;a href=&quot;http://github.com/wojtha/mediareference&quot; rel=&quot;nofollow&quot;&gt;Github&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/drupal-setkani-praha-20-rijna-2010&quot;&gt;Drupal setkání - Praha - 20. Říjen 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/developer/mediareference#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/developer">developer</category>
+ <category domain="https://www.drupal.cz/clanky/modul">modul</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8496</wfw:commentRss>
+ <pubDate>Thu, 21 Oct 2010 08:11:53 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">8496 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Od grafického návrhu k funkčnímu webu</title>
+ <link>https://www.drupal.cz/clanky/vyvoj/od-grafickeho-navrhu-k-funkcnimu-webu</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Petr Okurek, Jan Štefl        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/od-grafickeho-navrhu-k-funkcnimu-webu-0.4.pdf&quot; type=&quot;application/pdf; length=277458&quot;&gt;od-grafickeho-navrhu-k-funkcnimu-webu-0.4.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani/drupal-setkani-praha-15-zari-2010&quot;&gt;Drupal setkání - Praha - 15. Září 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj/od-grafickeho-navrhu-k-funkcnimu-webu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8281</wfw:commentRss>
+ <pubDate>Fri, 17 Sep 2010 11:28:18 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8281 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nástroje, které používám při každodenní práci s Drupalem</title>
+ <link>https://www.drupal.cz/clanky/vyvoj/nastroje-ktere-pouzivam-pri-kazdodenni-praci-s-drupalem</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Andrew Burcin        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/TE-tools_i_use-20100120.pdf&quot; type=&quot;application/pdf; length=161823&quot;&gt;TE-tools_i_use-20100120.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/drupal/drupal-setkani-praha-20-leden-2010&quot;&gt;Drupal setkání - Praha - 20. Leden 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj/nastroje-ktere-pouzivam-pri-kazdodenni-praci-s-drupalem#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8274</wfw:commentRss>
+ <pubDate>Thu, 21 Jan 2010 11:13:49 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8274 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Autodetekce vývojového prostředí</title>
+ <link>https://www.drupal.cz/blog/agir/autodetekce-vyvojoveho-prostredi</link>
+ <description>&lt;p&gt;Nevím jak vy, ale já když vyvíjím, tak běžně používám dvě
+prostředí: lokální server a pak ostrý server. Zjistil jsem, že je
+nanejvýše důležité jednoduše poznat, kde zrovna jsem. Nakonec jsem objevil
+modul &lt;a href=&quot;http://drupal.org/project/environment_indicator&quot;&gt;Environment
+Indicator&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/agir/autodetekce-vyvojoveho-prostredi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/agir/autodetekce-vyvojoveho-prostredi#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <enclosure url="https://www.drupal.cz/files/environment_indicator_plus-6.x-1.0.tar.gz" length="11254" type="application/octet-stream" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6659</wfw:commentRss>
+ <pubDate>Wed, 16 Dec 2009 12:32:26 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6659 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Features</title>
+ <link>https://www.drupal.cz/clanky/vyvoj/features</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Andrew Burcin        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/cz_dug-200912-andrew_burcin-features.pdf&quot; type=&quot;application/pdf; length=490430&quot;&gt;cz_dug-200912-andrew_burcin-features.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/drupal/drupal-setkani-praha-16-prosinec-2009&quot;&gt;Drupal setkání - Praha - 16. Prosinec 2009&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj/features#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8272</wfw:commentRss>
+ <pubDate>Wed, 16 Dec 2009 11:10:22 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8272 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal Installation Profiles</title>
+ <link>https://www.drupal.cz/clanky/vyvoj/drupal-installation-profiles</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Erno Zsemlye        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Erno_Zsemlye_Installation_Profiles.pdf&quot; type=&quot;application/pdf; length=688465&quot;&gt;Erno_Zsemlye_Installation_Profiles.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/prvni-ceska-drupal-konference-24-5-2008&quot;&gt;První česká Drupal konference - 24.5.2008&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj/drupal-installation-profiles#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8267</wfw:commentRss>
+ <pubDate>Sun, 25 May 2008 10:52:54 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8267 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal API</title>
+ <link>https://www.drupal.cz/clanky/vyvoj/drupal-api</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Jakub Suchý        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/drupal-api.pdf&quot; type=&quot;application/pdf; length=538446&quot;&gt;drupal-api.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/prvni-ceska-drupal-konference-24-5-2008&quot;&gt;První česká Drupal konference - 24.5.2008&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj/drupal-api#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8266</wfw:commentRss>
+ <pubDate>Sun, 25 May 2008 10:50:30 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8266 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

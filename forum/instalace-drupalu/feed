@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Instalace Drupalu</title>
+ <link>https://www.drupal.cz/taxonomy/term/9/0</link>
+ <description>Obecné jinde nespecifikované problémy.</description>
+ <language>cs</language>
+<item>
+ <title>Nejede vychozí téma Bartik</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/nejede-vychozi-tema-bartik</link>
+ <description>&lt;p&gt;Při čisté instalaci i při přetažení nainstalovaného webu z localu
+na NET mi nefunguje základní téma Bartik. Poradíte někdo, jaké parametry
+mi musí poskytoval nastavit, aby to jelo? Posledně jsem žádal o navýšení
+PHP memory_limit, abych vůbec nainstaloval D8. Web je u WEB4U, pokud máte
+někdo zkušenosti.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/nejede-vychozi-tema-bartik#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/65306</wfw:commentRss>
+ <pubDate>Mon, 27 Feb 2017 18:55:00 +0000</pubDate>
+ <dc:creator>dzik</dc:creator>
+ <guid isPermaLink="false">65306 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Multi-byte UTF-8 </title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/multi-byte-utf-8</link>
+ <description>&lt;p&gt;Zdravím.&lt;br /&gt;
+Ako postupovať pri inštalácii Drupalu ak chcem aby mali tabuľky
+porovnávanie : &lt;strong&gt;utf8mb4_slovak_ci &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For new Drupal installations Prior to running the installer, set the
+„charset“ and „collation“ keys on the database connection array in
+settings.php to „utf8mb4“ and „utf8mb4_gene­ral_ci“ respectively:
+&lt;code&gt;&lt;br /&gt;
+$databases[‚de­fault‘][‚defau­lt‘] = array(&lt;br /&gt;
+&#039;dri&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/multi-byte-utf-8&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/multi-byte-utf-8#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/59866</wfw:commentRss>
+ <pubDate>Fri, 02 Dec 2016 21:22:11 +0000</pubDate>
+ <dc:creator>peterko</dc:creator>
+ <guid isPermaLink="false">59866 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Problém asi s Apache při instalaci na hostingu</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/problem-asi-s-apache-pri-instalaci-na-hostingu</link>
+ <description>Zdravím,&lt;br /&gt;
+&lt;br /&gt;
+chtěl jsem si nainstalovat na hosting Hostgator Drupal 8.2.2 a vyskytl se
+problém. Před instalací na mě vybaflo upozornění:&lt;br /&gt;
+&lt;br /&gt;
+Apache version Apache&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/problem-asi-s-apache-pri-instalaci-na-hostingu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/problem-asi-s-apache-pri-instalaci-na-hostingu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/59301</wfw:commentRss>
+ <pubDate>Wed, 16 Nov 2016 09:00:24 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">59301 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>aktualizácia Drupalu z verzie 7.44 na 7.50, príp. 7.51 - chybové hlásenia</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/aktualizacia-drupalu-z-verzie-744-na-750-prip-751-chybove-hlasenia</link>
+ <description>&lt;p&gt;Dobrý deň,&lt;br /&gt;
+rád by som sa informoval o chybových hláseniach, ktoré mi sa mi počas
+update.php vracajú pri aktualizácii jadra z 7.44 na 7.50, príp. 7.51.&lt;/p&gt;
+
+&lt;p&gt;Jadro som zatiaľ zaktualizoval len na lokálnom PC a myslel som si že
+verzia 7.51 opraví chybové hlásenia pri aktualizácii na 7.50 z 7.44.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/aktualizacia-drupalu-z-verzie-744-na-750-prip-751-chybove-hlasenia&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/aktualizacia-drupalu-z-verzie-744-na-750-prip-751-chybove-hlasenia#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/drupal core 7.51 pri update.jpg" length="351036" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/58636</wfw:commentRss>
+ <pubDate>Sat, 15 Oct 2016 10:42:04 +0000</pubDate>
+ <dc:creator>adam</dc:creator>
+ <guid isPermaLink="false">58636 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal přes vertrigo - nefunkční admin menu</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/drupal-pres-vertrigo-nefunkcni-admin-menu</link>
+ <description>Ahoj všem,
+
+úspěšně jsem nainstaloval Drupal přes Vertrigo, po instalaci se dostanu
+na svojí uvodní stránku s textem „No front page content has been
+created yet“.
+
+Nyní ať kliknu v menu na cokoliv, hodí mě to na stránky Vertriga
+„Welcome to VertrigoServ WAMP Server“ a dál nic …
+
+Poradíte někdo co s tím?
+
+Velice děkuji.</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/drupal-pres-vertrigo-nefunkcni-admin-menu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/58096</wfw:commentRss>
+ <pubDate>Mon, 12 Sep 2016 11:21:07 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">58096 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Commerce Kickstart</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/commerce-kickstart</link>
+ <description>Prosím o radu, instalace Commerce Kickstart 7.x-2.9 proběhla v pořádku
+až ke konfiguraci stránek, zde doplním potřebné údaje (název stránek,
+emailová adresa, přístupové údaje a výběr země) a po odeslání
+naskočí chyba: Fatal error: Call to undefined function field_attach_load() in
+/data/web/vir­tuals/21510/vir­tual/www/doma­ins/a-t-p.co.uk/inclu­des/entity.inc
+on line 321 můžete mi prosím někdo poradi&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/commerce-kickstart&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/commerce-kickstart#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/55906</wfw:commentRss>
+ <pubDate>Mon, 23 May 2016 07:39:39 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">55906 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Instalece Drupalu v Acquia Dev Desktop 2</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/instalece-drupalu-v-acquia-dev-desktop-2</link>
+ <description>&lt;p&gt;Na PC s win10 jsem nainstaloval Acquia Dev Desktop. Potom jsem chtěl
+instalovat Drupal 7, ale při vytváření db to po mě chce jméno a heslo
+databáze. Podle návodů, které jsem našel, se jméno a heslo k db zadává
+automaticky a není potřeba to vyplňovat. Zkusil jsem i některá jména a
+hesla, ale marně. Při stejném procesu na jiném počítači s win7 vše
+proběhlo jak má a Drupal jsem normáně nainstaloval.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/instalece-drupalu-v-acquia-dev-desktop-2&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/instalece-drupalu-v-acquia-dev-desktop-2#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/54741</wfw:commentRss>
+ <pubDate>Wed, 20 Apr 2016 09:10:14 +0000</pubDate>
+ <dc:creator>ZdendaA</dc:creator>
+ <guid isPermaLink="false">54741 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal a PHP 5.6</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/drupal-php-56</link>
+ <description>&lt;p&gt;Ahoj, vybírám si hosting a zajímalo by mě zda drupal běží bez
+problému na PHP 5.6. A zda je nějaký rozdíl oproti třeba php
+5.4. Díky&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/drupal-php-56#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53221</wfw:commentRss>
+ <pubDate>Sun, 14 Feb 2016 17:26:36 +0000</pubDate>
+ <dc:creator>maxy_obr</dc:creator>
+ <guid isPermaLink="false">53221 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title> Editace #RewriteBase /drupal</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/editace-rewritebase-drupal</link>
+ <description>&lt;p&gt;Dobrý den, adresář www na mém hostingu je pro hlavní web. Protože chci
+Drupal testovat, tak jsem Drupal nahrál do adresáře na mém hostingu do
+adresáře: AB Do prohlížeče musím napsat: AB.MOJEDOMENA.CZ abych si ho
+zobrazil. Chtěl bych požádat, jak mám zeditovat #RewriteBase /drupal tak,
+aby to vyhovovalo tomu AB.MOJEDOMENA.CZ Musím ho „odkomentovat“, ale co
+napsat za to lomítko nevím… Příp&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/editace-rewritebase-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/editace-rewritebase-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53171</wfw:commentRss>
+ <pubDate>Thu, 11 Feb 2016 07:31:49 +0000</pubDate>
+ <dc:creator>Alfan</dc:creator>
+ <guid isPermaLink="false">53171 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Velikost instalace 8 kontra 7</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/velikost-instalace-8-kontra-7</link>
+ <description>&lt;p&gt;Je to opravdu tak, že instalce 7 má cca 13 MB a 8 má cca 46 MB?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/velikost-instalace-8-kontra-7#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53156</wfw:commentRss>
+ <pubDate>Wed, 10 Feb 2016 14:02:21 +0000</pubDate>
+ <dc:creator>Alfan</dc:creator>
+ <guid isPermaLink="false">53156 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Je max_execution_time 30s dostatečný</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/je-maxexecutiontime-30s-dostatecny</link>
+ <description>&lt;p&gt;Ahoj, hledám webhosting a celkem se mi zamlouva ceskyhosting.cz, kdy jsem
+porovnával 4 různé webhostingy se stejnou instalací Drupalu a vypadá to,
+že mají výkonný hardware. Jen tam mají pro sdílený hosting limit
+max_execution_time 30 sekund, což si nejsem jistý, jestli bude dostatek do
+budoucna, jak budou přibývat data a pod. V jakých případech můžu narazit
+na ten limit? Tj.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/je-maxexecutiontime-30s-dostatecny&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/je-maxexecutiontime-30s-dostatecny#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52936</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2016 08:58:10 +0000</pubDate>
+ <dc:creator>erixooon</dc:creator>
+ <guid isPermaLink="false">52936 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Update Drupalu zaplatim</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/update-drupalu-zaplatim</link>
+ <description>Schanim nekoho kdo me updatuje drupal ci se me navrhne jeste dalsi stranky.
+Samozrejmne placene
+
+astil&amp;#64;volny.cz
+
+Diky
+
+Jirka</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/update-drupalu-zaplatim#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52881</wfw:commentRss>
+ <pubDate>Thu, 14 Jan 2016 09:46:15 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52881 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Téma  vzhledu D8</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/tema-vzhledu-d8</link>
+ <description>Dobrý den, nainstaloval jsem Drupal 8, stáhnul a zapnul téma vzhledu
+určené pro D8. Po novém načtení stránky chyba a není vidět žádný
+ovládací prvek. Neví někdo jak z D8 dostat téma vzhledu nějak jinak?</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/tema-vzhledu-d8#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52701</wfw:commentRss>
+ <pubDate>Sat, 28 Nov 2015 22:08:02 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52701 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 8 nezobrazuje se css</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/drupal-8-nezobrazuje-se-css</link>
+ <description>Dobrý den, chtěl bych se Vás zeptat ohledně instalace nové verze drupal
+8 na webhostingu WEDOS. Instalace proběhne v pořádku, ale po najetí se mi
+nezobrazuje vůbec šablona, pouze text bez css. Myslím si,že problém bude
+nejspíše v souboru .htaccess. Řešil někdo podobný problém.
+Děkuji. Radek</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/drupal-8-nezobrazuje-se-css#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52661</wfw:commentRss>
+ <pubDate>Sun, 22 Nov 2015 09:05:03 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52661 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Atualizácia drupalu</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/atualizacia-drupalu</link>
+ <description>Prosím o radu. Nainštaloval som Drupal 7 na webhosting. Inštalácia bola
+v poriadku všetko fungovalo OK, ale verzia Drupalu bola 7.31 (bezpečnostná
+hrozba)Stiahol som najnovšiu verziu 7.41 a aktualizoval som web podľa návodu
+na http://drupal.krokzakrokom.eu/
+Stránka funguje,ale sa zmenila (www.sachjuniorbb.eu) niečo tam asi
+chýba, vyzerá ako HTML,alebo…? Hlásenie stavu OK.</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/atualizacia-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52526</wfw:commentRss>
+ <pubDate>Sun, 01 Nov 2015 20:10:33 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">52526 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>nefunkcni http://drupal.xy/user </title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/nefunkcni-httpdrupalxyuser</link>
+ <description>&lt;p&gt;Pls, na uvodni strance se mohu prihlasit pomoci formulare, ale pokud chci pro
+prihlaseni pouzit &lt;a href=&quot;http://www.tenhleweb.cz/user&quot;&gt;www.tenhleweb.cz/user&lt;/a&gt; , prohlizec vrati,
+ze stranka neexistuje a v logu Apache vidim, ze se snazi nacist stranku
+/rootwebu/user – netusite nekdo důvod? Nikdy jsem se s tim nesetkal, na
+vsech jinych Drupalech /user bez problemu funguje. Jsou povolena
+clean urls…&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/nefunkcni-httpdrupalxyuser#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52506</wfw:commentRss>
+ <pubDate>Thu, 29 Oct 2015 10:30:39 +0000</pubDate>
+ <dc:creator>Petr Cafourek</dc:creator>
+ <guid isPermaLink="false">52506 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Přeinstalace Drupalu</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/preinstalace-drupalu</link>
+ <description>&lt;p&gt;Ahoj, můj web &lt;a href=&quot;http://www.paralelni-pece.cz&quot;&gt;www.paralelni-pece.cz&lt;/a&gt; napadli roboti,
+byl jsem právě pryč, takže zaplnili celý web a hosting mi zablokoval
+prostor. Nyní se nelze do Drupalu přihlásit, takže jej prý mám
+přeinstalovat. &lt;strong&gt;Nevím ale jak abych neztratil
+všechna data…&lt;/strong&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/preinstalace-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52491</wfw:commentRss>
+ <pubDate>Tue, 27 Oct 2015 10:33:36 +0000</pubDate>
+ <dc:creator>veget</dc:creator>
+ <guid isPermaLink="false">52491 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Po aktualizácii jadra Drupalu z verzie 7.38 na 7.39 web nefunguje</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/po-aktualizacii-jadra-drupalu-z-verzie-738-na-739-web-nefunguje</link>
+ <description>&lt;p&gt;Dobrý deň.&lt;/p&gt;
+
+&lt;p&gt;Po aktualizácii jadra Drupalu z verzie 7.38 na 7.39 nie je možné
+spustiť stránku. Pri vyvolaní stránky mi vypíše :&lt;/p&gt;
+
+&lt;p&gt;Fatal error: Call to undefined function language_initi­alize() in
+/home/do2271800­/www_root/inclu­des/bootstrap­.inc on line 2684&lt;/p&gt;
+
+&lt;p&gt;Ručná aktualizácia jadra na 7.39 prebehla v poriadku.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/po-aktualizacii-jadra-drupalu-z-verzie-738-na-739-web-nefunguje&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/po-aktualizacii-jadra-drupalu-z-verzie-738-na-739-web-nefunguje#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/51891</wfw:commentRss>
+ <pubDate>Mon, 24 Aug 2015 13:54:13 +0000</pubDate>
+ <dc:creator>adam</dc:creator>
+ <guid isPermaLink="false">51891 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Po migrácii webu na ďalší počítač nie je možné sa znova prihlásiť</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/po-migracii-webu-na-dalsi-pocitac-nie-je-mozne-sa-znova-prihlasit-1</link>
+ <description>&lt;p&gt;Ahojte!&lt;/p&gt;
+
+&lt;p&gt;Neviem či moja téma a problém patria práve sem…, ale pokúsim
+sa.....&lt;/p&gt;
+
+&lt;p&gt;Mám taký malý problém. Funkčný web som nainštaloval na ďalší
+počítač. Zálohu databázy som obnovoval prostredníctvom modulu bakcup and
+migrate. Všetko prešlo hladko, web pracoval ako mal. Keď som sa ale
+z administrátor­ského účtu odhlásil už nebolo možné sa
+prihlásiť.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/po-migracii-webu-na-dalsi-pocitac-nie-je-mozne-sa-znova-prihlasit-1&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/po-migracii-webu-na-dalsi-pocitac-nie-je-mozne-sa-znova-prihlasit-1#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/46216</wfw:commentRss>
+ <pubDate>Sat, 28 Feb 2015 17:30:54 +0000</pubDate>
+ <dc:creator>adonewweb</dc:creator>
+ <guid isPermaLink="false">46216 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Po migrácii webu na ďalší počítač nie je možné sa znova prihlásiť</title>
+ <link>https://www.drupal.cz/forum/instalace/instalace-drupalu/po-migracii-webu-na-dalsi-pocitac-nie-je-mozne-sa-znova-prihlasit-0</link>
+ <description>&lt;p&gt;Ahojte!&lt;/p&gt;
+
+&lt;p&gt;Neviem či moja téma a problém patria práve sem…, ale pokúsim
+sa.....&lt;/p&gt;
+
+&lt;p&gt;Mám taký malý problém. Funkčný web som nainštaloval na ďalší
+počítač. Zálohu databázy som obnovoval prostredníctvom modulu bakcup and
+migrate. Všetko prešlo hladko, web pracoval ako mal. Keď som sa ale
+z administrátor­ského účtu odhlásil už nebolo možné sa
+prihlásiť.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/instalace/instalace-drupalu/po-migracii-webu-na-dalsi-pocitac-nie-je-mozne-sa-znova-prihlasit-0&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/instalace/instalace-drupalu/po-migracii-webu-na-dalsi-pocitac-nie-je-mozne-sa-znova-prihlasit-0#comments</comments>
+ <category domain="https://www.drupal.cz/forum/instalace/instalace-drupalu">Instalace Drupalu</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/46211</wfw:commentRss>
+ <pubDate>Sat, 28 Feb 2015 17:30:53 +0000</pubDate>
+ <dc:creator>adonewweb</dc:creator>
+ <guid isPermaLink="false">46211 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

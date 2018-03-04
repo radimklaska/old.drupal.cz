@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SeaRanger&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/searanger</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Multijazyčný web a Views</title>
+ <link>https://www.drupal.cz/blog/searanger/multijazycny-web-views</link>
+ <description>&lt;p&gt;Protože spousta lidí má stále potíže s vytvořením vícejazyčného
+webu a používáním views tak zkusím popsat jak to nastavuji já. Základem
+je samozřejmě rozběhat prezentaci a nainstalovat modul &lt;a href=&quot;https://drupal.org/project/i18n&quot;&gt;i18n&lt;/a&gt; pro překlad veškerého
+obsahu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/searanger/multijazycny-web-views&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/searanger/multijazycny-web-views#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/20926</wfw:commentRss>
+ <pubDate>Mon, 01 Jul 2013 15:05:31 +0000</pubDate>
+ <dc:creator>SeaRanger</dc:creator>
+ <guid isPermaLink="false">20926 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

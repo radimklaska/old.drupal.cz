@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - HTML, CSS, SEO</title>
+ <link>https://www.drupal.cz/taxonomy/term/41/0</link>
+ <description>Vše co se týká těchto témat.</description>
+ <language>cs</language>
+<item>
+ <title>Velká počáteční písmena slov v nadpisu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/velka-pocatecni-pismena-slov-v-nadpisu</link>
+ <description>&lt;p&gt;Dobrý den,&lt;/p&gt;
+
+&lt;p&gt;jsem čerstvý uživatel drupalu a mám problém s fontem u nadpisů.
+Používám vzhled Business 7.x-1.9 a u všech nadpisů mi sám nastavuje
+velká počáteční písmena u každého slova. Např. zadám nadpis „Jak se
+máte?“ a po uložení se zobrazí „Jak Se Máte?“. Mohu tento problém
+nějak vyřešit sám nebo pouze přes tvůrce vzhledu ? Předem děkuji za
+odpověď. Hezký den. :-)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/velka-pocatecni-pismena-slov-v-nadpisu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/56051</wfw:commentRss>
+ <pubDate>Sun, 29 May 2016 11:13:40 +0000</pubDate>
+ <dc:creator>Whiirvy</dc:creator>
+ <guid isPermaLink="false">56051 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>AMP pro Drupal </title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/amp-pro-drupal</link>
+ <description>Ahoj má tu někdo zkušenost s AMP samotným popřípadě přímo
+v Drupalu? Budu rád za doporučení či vyvrácení jeho použití. Díky</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/amp-pro-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53786</wfw:commentRss>
+ <pubDate>Mon, 29 Feb 2016 23:42:19 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">53786 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak přesměrovat neexistujícísubdomény na jinou doménu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/jak-presmerovat-neexistujicisubdomeny-na-jinou-domenu</link>
+ <description>Mám &lt;strong&gt;doménu1&lt;/strong&gt; a potřeboval bych &lt;strong&gt;doménu2&lt;/strong&gt; a
+všechny jejich &lt;strong&gt;subdomeny.domena2&lt;/strong&gt; přesměrovat na
+doménu1.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/jak-presmerovat-neexistujicisubdomeny-na-jinou-domenu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/jak-presmerovat-neexistujicisubdomeny-na-jinou-domenu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/51896</wfw:commentRss>
+ <pubDate>Mon, 24 Aug 2015 17:42:46 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">51896 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>rozhozený formát stránky</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/rozhozeny-format-stranky</link>
+ <description>Rozhodil jsem si formát stránek při pokusu vložit do webu kód pro
+lepší seo. S Drupalem nedělám a tak jen težko hledám kde ta chyba je.
+Prosím o radu. Jedná se o http://www.herman-stavitelstvi.cz/o-spolecnosti
+-zde je hned vidět ta chyba. je to vlastně na každé stránce mimo titulní.
+Myslím, že se jedná o soubor page.tpl.php, ale nejsem si tím jist.
+
+Děkuji za každou radu.
+
+Michal</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/rozhozeny-format-stranky#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/41266</wfw:commentRss>
+ <pubDate>Sun, 09 Nov 2014 03:37:00 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">41266 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>AKo pouyivat</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/ako-pouyivat</link>
+ <description>Zdravim,
+
+Ospravedlnujem sa, asi to bude zaciatocnicka otazka, prosim o radu ako sa vo
+views, alebo aj celkovo v Drupale pouziva cesta :
+
+/taxonomy/term/%
+
+resp. co ynamena to %
+
+Dakujem
+
+Dusan</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/ako-pouyivat#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/41241</wfw:commentRss>
+ <pubDate>Sat, 08 Nov 2014 22:42:55 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">41241 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Úprava šablony webu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/uprava-sablony-webu</link>
+ <description>&lt;p&gt;Zdravím, upravuju template pro internetové stránky. Jde o to, že
+potřebuju udělat překlad částí stránek (třeba u přihlášení:
+Z Username → na Jméno uživatele) a další. Ptám se tedy, kde tohle najdu
+v šabloně webu. Pokuď někdo pracoval v šabloně Kanji, snad by mi více
+mohl pomoct. Díky moc za jakoukoliv pomoc.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/uprava-sablony-webu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/26126</wfw:commentRss>
+ <pubDate>Fri, 06 Jun 2014 07:54:14 +0000</pubDate>
+ <dc:creator>shakki</dc:creator>
+ <guid isPermaLink="false">26126 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>SEO multijazykova stranka vs kazda jazykova mutacia zvlast s vlastou domenou</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/seo-multijazykova-stranka-vs-kazda-jazykova-mutacia-zvlast-s-vlastou-domenou</link>
+ <description>&lt;p&gt;Caute, Mal by som otazku ohladom SEO a rovnako aj ohladom navstevnosti
+stranky podla google vyhladavaca a pritiahnutia ludi danej narodnosti
+a pod.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/seo-multijazykova-stranka-vs-kazda-jazykova-mutacia-zvlast-s-vlastou-domenou&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/seo-multijazykova-stranka-vs-kazda-jazykova-mutacia-zvlast-s-vlastou-domenou#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25776</wfw:commentRss>
+ <pubDate>Fri, 02 May 2014 15:23:21 +0000</pubDate>
+ <dc:creator>marvx</dc:creator>
+ <guid isPermaLink="false">25776 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>calendar a pruhlednost(?)</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/calendar-pruhlednost</link>
+ <description>&lt;p&gt;Ahoj, mam takovy problem se zobrazenim kalendare na jednom konkretnim kompu
+(bohuzel na tom nejdulezitejsim). Pokud zadam nejakou udalost trvajici jeden
+den, zobrazi se tak, ze zlute pruhledne pozadi neni pruhledne (asi) a prekryva
+text. Da se to ovlivnit jinak nez upravami css? S tim nemam vetsi zkusenosti a
+i ty male jsou asi tak deset let stare :-)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/calendar-pruhlednost#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25441</wfw:commentRss>
+ <pubDate>Thu, 27 Mar 2014 16:31:57 +0000</pubDate>
+ <dc:creator>jozka</dc:creator>
+ <guid isPermaLink="false">25441 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Typy obsahu+CSS</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/typy-obsahucss</link>
+ <description>Hezký večer.
+
+Pokud to zde již někde je, tak se omlouvám, ale snažil jsem se najít a
+přímo odpověď na mou otázku jsem nenašel. Jak ideálně řešíte
+stylování typu obsahu (když nechcete, aby se ten typ obsahu zobrazoval
+standartně, jako např. článek). Nemám problém s tím nastylovat Views,
+ale toto je něco trochu jiného. Předem velmi děkuji za radu :).</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/typy-obsahucss#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25381</wfw:commentRss>
+ <pubDate>Sun, 23 Mar 2014 20:38:30 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">25381 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zobrazení CSS kodu na stránce</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/zobrazeni-css-kodu-na-strance</link>
+ <description>Zdravím,
+
+Používáme Drupal s Commerce modulem a objevil jsem takovy maly
+problem – pokud pri objednavce zada zakaznik spatny e-mail a vybehne na nej
+chybová hláška tak se na dané v těle stránky vypíše CSS kod – jedná
+se o obsah souboru commerce_paymen­t.admin-rtl.css z modulu Commerce.
+Nechápu moc proč.
+
+Nemáte někdo zkušenosti?
+
+Díky</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/zobrazeni-css-kodu-na-strance#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24921</wfw:commentRss>
+ <pubDate>Wed, 26 Feb 2014 11:47:04 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">24921 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nejde přepnout na zdrojový kód</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/nejde-prepnout-na-zdrojovy-kod</link>
+ <description>&lt;p&gt;Mám problém, že když chci třeba při tvorbě obsahu bloku přepnout na
+Zdroj, že je po druhém přepnutí nedostupný. U nějakých obsahů bloků to
+jde normálně, u jiných, stále stejných, to nejde. Netušíte někdo, proč
+se mi u některých (delších) zdrojových kódů blok zablokuje pro
+přepnutí na zdroj a navíc ani nejde udělat žádnou změnu přímo bez
+editace zdrojového kódu? Používám CKEditor for WYSIWYG.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/nejde-prepnout-na-zdrojovy-kod&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/nejde-prepnout-na-zdrojovy-kod#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24801</wfw:commentRss>
+ <pubDate>Sat, 15 Feb 2014 21:26:36 +0000</pubDate>
+ <dc:creator>miskota</dc:creator>
+ <guid isPermaLink="false">24801 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>SEO - Autor webu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/seo-autor-webu</link>
+ <description>&lt;p&gt;Seo-servis.cz hlásí, že mně chybí autor (webu). Může mi někdo
+poradit, kam ho mám zapsat, aby byl „vidět“? Děkuji. Michal&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/seo-autor-webu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24696</wfw:commentRss>
+ <pubDate>Sun, 09 Feb 2014 22:19:20 +0000</pubDate>
+ <dc:creator>miskota</dc:creator>
+ <guid isPermaLink="false">24696 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tagy - Ako upraviť v CSS / Business téma vzhľadu</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/tagy-ako-upravit-v-css-business-tema-vzhladu</link>
+ <description>&lt;p&gt;Ahojte, snažím sa dostať do typu poľa „Produkt“ tagy. Avšak sa mi
+zobrazujú pod sebou.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/tagy-ako-upravit-v-css-business-tema-vzhladu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/tagy-ako-upravit-v-css-business-tema-vzhladu#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24646</wfw:commentRss>
+ <pubDate>Wed, 05 Feb 2014 23:47:43 +0000</pubDate>
+ <dc:creator>miki.halasko</dc:creator>
+ <guid isPermaLink="false">24646 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyhonocování analýz na hlavní stránce a umístění tohoto vyhodnocení vedle loga resp. v hlavičce</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/vyhonocovani-analyz-na-hlavni-strance-umisteni-tohoto-vyhodnoceni-vedle-loga-resp-v-hlavic</link>
+ <description>&lt;p&gt;Dobrý den,&lt;/p&gt;
+
+&lt;p&gt;řekněme, že potřebuji do Drupalu implementovat jednu jednoduchou a
+hlavní &lt;strong&gt;STATISTIKU&lt;/strong&gt;, kdy na základě sportovních analýz,
+které napíšu a následně vyhodnotím buď OK, tedy kladně, či KO, tedy
+záporně, dojde k vyhodnocení a zoobrazení této statistiky v hlavičce
+vedle loga.&lt;/p&gt;
+
+&lt;p&gt;Jedná se tedy o implementaci velice jednoduché OK/KO statistky, kterou
+povedu v průběhu roku víc&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/vyhonocovani-analyz-na-hlavni-strance-umisteni-tohoto-vyhodnoceni-vedle-loga-resp-v-hlavic&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/vyhonocovani-analyz-na-hlavni-strance-umisteni-tohoto-vyhodnoceni-vedle-loga-resp-v-hlavic#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22241</wfw:commentRss>
+ <pubDate>Sun, 06 Oct 2013 17:50:52 +0000</pubDate>
+ <dc:creator>GroovePunk</dc:creator>
+ <guid isPermaLink="false">22241 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>změna fontu v šabloně</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/zmena-fontu-v-sablone</link>
+ <description>&lt;p&gt;Dobrý den, s drupalem teprve začínám a překvapilo mě, jak málo
+šablon podporuje českou diakritiku, chci se proto zeptat, zda lze nějak
+změnit font v šabloně (přesto, že to základní možnosti šablony
+neumožňuj), případně jaký font zvolit?&lt;/p&gt;
+
+&lt;p&gt;Děkuji za pomoc&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/zmena-fontu-v-sablone#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22151</wfw:commentRss>
+ <pubDate>Thu, 03 Oct 2013 07:08:12 +0000</pubDate>
+ <dc:creator>KristýnaCh</dc:creator>
+ <guid isPermaLink="false">22151 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>tinyMCE - html tagy s hranatými závorkami</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/tinymce-html-tagy-s-hranatymi-zavorkami</link>
+ <description>&lt;p&gt;Zdravím, na Drupalu 7 jsem testoval wysiwyg editor tinyMCE podle &lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/instalace-tinymce-imce-v-drupalu-7&quot;&gt;článku
+na drupal.cz&lt;/a&gt;, ale při formátování textu mi v html tazích namísto
+špičatých závorek vypisuje závorky hranaté, jako někde na diskusním
+fóru. Procházel jsem nastavení i zkoušel řešení hledat, ale zatím bez
+úspěchu..&lt;/p&gt;
+
+&lt;p&gt;Díky za rady..&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/tinymce-html-tagy-s-hranatymi-zavorkami&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/tinymce-html-tagy-s-hranatymi-zavorkami#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22086</wfw:commentRss>
+ <pubDate>Fri, 27 Sep 2013 11:13:29 +0000</pubDate>
+ <dc:creator>jmalak</dc:creator>
+ <guid isPermaLink="false">22086 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Odkaz umiestnený do footer</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/odkaz-umiestneny-do-footer</link>
+ <description>&lt;p&gt;Zdravím&lt;br /&gt;
+Umiestnovať odkaz na domácu stránku webdizajnéra do footer vytvorených
+webov?&lt;br /&gt;
+Vkladať ho len na úvodnú stránku? Napr. taky eshop môže mať relatívne
+veľa stránok s footer a odkazom&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/odkaz-umiestneny-do-footer&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/odkaz-umiestneny-do-footer#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/18771</wfw:commentRss>
+ <pubDate>Sun, 14 Apr 2013 19:11:33 +0000</pubDate>
+ <dc:creator>peterko</dc:creator>
+ <guid isPermaLink="false">18771 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>CSS pro IE 10 </title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/css-pro-ie-10</link>
+ <description>&lt;p&gt;Tak jsem nakódoval web a funguje ve všem, jen v IE je to zase a opět
+rozházené…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/css-pro-ie-10&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/css-pro-ie-10#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/18566</wfw:commentRss>
+ <pubDate>Thu, 04 Apr 2013 19:11:15 +0000</pubDate>
+ <dc:creator>siva01</dc:creator>
+ <guid isPermaLink="false">18566 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Stránka obsahuje velice málo slov.</title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/stranka-obsahuje-velice-malo-slov</link>
+ <description>Dobrý den, řeším takový problém, když otestuji svoje stránky na
+seo-servisu tak mi ukazují že obsahují velice málo slov. Přitom toho textu
+je tam dostatek. Pokoušel jsem se najít odpověď na fóru, ale nic podobného
+jsem nenašel. Nevíte náhodou někdo v čem by mohl být problém. Za
+odpověď předem díky.</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/stranka-obsahuje-velice-malo-slov#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/17546</wfw:commentRss>
+ <pubDate>Sun, 10 Feb 2013 20:25:35 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">17546 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak nastylovat šablonu style.css, aby fungovala správně v rámci funkce modulů TinyMce a Inline? </title>
+ <link>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/jak-nastylovat-sablonu-stylecss-aby-fungovala-spravne-v-ramci-funkce-modulu-tinymce-inline</link>
+ <description>&lt;p&gt;Zdravím,&lt;/p&gt;
+
+&lt;p&gt;Upravil jsem původní „garland“ style.css šablonu. Navigační menu se
+zobrazuje správně ve spodní části stránek, prostor nad menu je vyhrazen
+pro přidání slide show, ale:&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;pokud přidám ve WYSIWYG modulu TinyMce text a nezalamuji ho
+	odřádkováním,&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;roztáhne se do strany v jednom řádku viz.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/jak-nastylovat-sablonu-stylecss-aby-fungovala-spravne-v-ramci-funkce-modulu-tinymce-inline&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo/jak-nastylovat-sablonu-stylecss-aby-fungovala-spravne-v-ramci-funkce-modulu-tinymce-inline#comments</comments>
+ <category domain="https://www.drupal.cz/forum/vzhled-design-webu/html-css-seo">HTML, CSS, SEO</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/17431</wfw:commentRss>
+ <pubDate>Mon, 04 Feb 2013 14:19:31 +0000</pubDate>
+ <dc:creator>PNC7</dc:creator>
+ <guid isPermaLink="false">17431 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

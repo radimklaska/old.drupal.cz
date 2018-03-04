@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Tiskové zprávy</title>
+ <link>https://www.drupal.cz/taxonomy/term/372/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>arboritech</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/arboritech</link>
+ <description>&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/arboritech&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/arboritech#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/14811</wfw:commentRss>
+ <pubDate>Sun, 09 Sep 2012 12:03:22 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">14811 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7.0 RC 3 Released</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/drupal-70-rc-3-released</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://drupal.org/drupal-7.0-rc3&quot;&gt;http://drupal.org/drupal-7.0-rc3&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/drupal-70-rc-3-released#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8823</wfw:commentRss>
+ <pubDate>Thu, 23 Dec 2010 14:29:44 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">8823 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal Design Camp Praha 2010 - 6.-7. listopad</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/drupal-design-camp-praha-2010-6-7-listopad</link>
+ <description>&lt;p&gt;&lt;em&gt;Tisková zpráva ze dne 12. října 2010&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/drupal-design-camp-praha-2010-6-7-listopad&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/drupal-design-camp-praha-2010-6-7-listopad#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8413</wfw:commentRss>
+ <pubDate>Tue, 12 Oct 2010 19:38:07 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8413 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Do konce února můžete hlasovat pro přednášky na DrupalCon SF</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/do-konce-unora-muzete-hlasovat-pro-prednasky-na-drupalcon-sf</link>
+ <description>&lt;p&gt;V těchto dnech bylo otevřeno hlasování pro přednášky na dubnový
+DrupalCon v San Franciscu. V &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions&quot;&gt;nabídce&lt;/a&gt; je více než
+400 kandidátů, včetně &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/world-class-television-site-built-simply-profit&quot;&gt;české
+prezentace&lt;/a&gt;. Hlasování končí 1. března.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/do-konce-unora-muzete-hlasovat-pro-prednasky-na-drupalcon-sf&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/do-konce-unora-muzete-hlasovat-pro-prednasky-na-drupalcon-sf#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7074</wfw:commentRss>
+ <pubDate>Wed, 17 Feb 2010 12:05:04 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7074 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jarní DrupalCon bude v San Franciscu - registrace otevřeny</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/jarni-drupalcon-bude-v-san-franciscu-registrace-otevreny</link>
+ <description>&lt;p&gt;Právě byly otevřeny registrace na mezinárodní konferenci příznivců
+redakčního systému Drupal, která se uskuteční 19.-21. dubna 2010 ve
+světoznámém Moscone centru v San Franciscu. Řada Drupalistů ovšem dorazí
+už dva dny před oficiálním zahájením a zdrží se až do 22.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/jarni-drupalcon-bude-v-san-franciscu-registrace-otevreny&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/jarni-drupalcon-bude-v-san-franciscu-registrace-otevreny#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6508</wfw:commentRss>
+ <pubDate>Tue, 24 Nov 2009 22:15:31 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">6508 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>2009 Open Source CMS Award: rozhodnuto</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/2009-open-source-cms-award-rozhodnuto</link>
+ <description>&lt;p&gt;Výsledky letošní soutěže o cenu vydavatelství Packt Publishing pro
+nejlepší volně stažitelný redakční systém (Packt’s Open Source
+Content Management System Award) jsou na světě. Dvojité prvenství si
+odnáší Drupal (z obou kategorií, kde mohl být nominován), z dalších
+vítězství se radují příznivci systémů WordPress, ImpressCMS
+a Plone.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/2009-open-source-cms-award-rozhodnuto&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/2009-open-source-cms-award-rozhodnuto#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6418</wfw:commentRss>
+ <pubDate>Fri, 13 Nov 2009 13:17:51 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">6418 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyznamenání pro open source: web Bílého domu přešel na Drupal</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/vyznamenani-pro-open-source-web-bileho-domu-presel-na-drupal</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.whitehouse.gov&quot;&gt;Whitehouse.gov&lt;/a&gt; – vlajková loď
+mezi weby americké vlády – nově běží na volně stažitelném
+redakčním systému &lt;a href=&quot;http://www.drupal.org&quot;&gt;Drupal&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/vyznamenani-pro-open-source-web-bileho-domu-presel-na-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/vyznamenani-pro-open-source-web-bileho-domu-presel-na-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6298</wfw:commentRss>
+ <pubDate>Mon, 26 Oct 2009 15:20:56 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">6298 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chystá se DrupalCamp Prague &#039;09</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/chysta-se-drupalcamp-prague-09</link>
+ <description>&lt;p&gt;V pořadí druhá Drupal konference v Praze se uskuteční
+31. října – 1. listopadu 2009 na Fakultě elektrotechnické ČVUT. Akce
+bude zajímavá nejen pro pokročilé uživatele oblíbeného &lt;a href=&quot;http://en.wikipedia.org/wiki/Open_source&quot;&gt;open source&lt;/a&gt; redakčního
+systému &lt;a href=&quot;http://www.drupal.org&quot;&gt;Drupal&lt;/a&gt;, ale i pro začátečníky
+v oblasti tvorby webu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/chysta-se-drupalcamp-prague-09&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/chysta-se-drupalcamp-prague-09#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6071</wfw:commentRss>
+ <pubDate>Wed, 30 Sep 2009 09:35:14 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">6071 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupalcon Paris 2009</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/drupalcon-paris-2009</link>
+ <description>&lt;p&gt;V Paříži právě skončila dosud největší evropská konference
+o Drupalu. Jak se vede tomuto oblíbenému open source redakčnímu systému?
+Drupal 6 je jak stabilní produkt pro začátečníky, tak stále
+vyhledávanější framework profesionálů (pro zajímavost: stránky
+v Drupalu má i francouzská vláda). A práce na verzi D7 vrcholí.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/drupalcon-paris-2009&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/drupalcon-paris-2009#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5859</wfw:commentRss>
+ <pubDate>Sat, 05 Sep 2009 17:50:53 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">5859 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal získal ocenění &quot;Webware 100 winner&quot; už třetí rok v řadě</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/drupal-ziskal-oceneni-webware-100-winner-uz-treti-rok-v-rade</link>
+ <description>&lt;p&gt;Populární redakční systém Drupal se už třetí rok za sebou umístil
+v soutěži &lt;a href=&quot;http://news.cnet.com/8301-13546_109-10244820-29.html?tag=mncol&quot;&gt;Webware
+100&lt;/a&gt;, a sice v kategorii Social &amp;amp; Publishing, kde byl oceněn spolu
+s devíti dalšími známými aplikacemi a službami, jako jsou například
+MySpace, Facebook, Twitter či Wordpress.com.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/drupal-ziskal-oceneni-webware-100-winner-uz-treti-rok-v-rade&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/drupal-ziskal-oceneni-webware-100-winner-uz-treti-rok-v-rade#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5182</wfw:commentRss>
+ <pubDate>Tue, 19 May 2009 23:45:52 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">5182 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>2008 Open Source CMS Award: Drupal obhájil loňské vítězství</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/2008-open-source-cms-award-drupal-obhajil-lonske-vitezstvi</link>
+ <description>&lt;p&gt;Letošní soutěž o cenu vydavatelství Packt Publishing pro nejlepší
+volně stažitelný redakční systém (Packt’s Open Source Content
+Management System Award) už má vítěze. Drupal potvrdil loňské prvenství
+v hlavní (Overall) kategorii a kromě toho získal první místo v kategorii
+Best Open Source PHP CMS.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/2008-open-source-cms-award-drupal-obhajil-lonske-vitezstvi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/2008-open-source-cms-award-drupal-obhajil-lonske-vitezstvi#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3985</wfw:commentRss>
+ <pubDate>Sat, 01 Nov 2008 09:53:21 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">3985 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Registrace na DrupalCon DC 2009 otevřeny</title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/registrace-na-drupalcon-dc-2009-otevreny</link>
+ <description>&lt;p&gt;Další mezinárodní konference pro vývojáře, uživatele a příznivce
+populárního redakčního systému Drupal se koná 4.-7. března 2009 ve
+Washingtonu DC.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/tiskove-zpravy/registrace-na-drupalcon-dc-2009-otevreny&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/registrace-na-drupalcon-dc-2009-otevreny#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <enclosure url="https://www.drupal.cz/files/DrupalconDC_badge_basic.gif" length="6910" type="image/gif" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3944</wfw:commentRss>
+ <pubDate>Sun, 26 Oct 2008 21:10:45 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">3944 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Segedínský Drupalcon 2008 -aneb: Guláš na talíři, pořádek na webu  </title>
+ <link>https://www.drupal.cz/forum/media/tiskove-zpravy/segedinsky-drupalcon-2008-aneb-gulas-na-taliri-poradek-na-webu</link>
+ <description>&lt;p&gt;Tisková zpráva z mezinárodní Drupal konference v Szegedu
+(27.-30. srpna 2008) – viz příloha. Eva Rázgová (&lt;a href=&quot;mailto:media@drupal.cz&quot;&gt;media&amp;#64;drupal.cz&lt;/a&gt;)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/tiskove-zpravy/segedinsky-drupalcon-2008-aneb-gulas-na-taliri-poradek-na-webu#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/tiskove-zpravy">Tiskové zprávy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <enclosure url="https://www.drupal.cz/files/TZ Drupalcon08-D.doc" length="43520" type="application/msword" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3642</wfw:commentRss>
+ <pubDate>Mon, 01 Sep 2008 10:01:49 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">3642 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

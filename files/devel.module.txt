@@ -1,0 +1,59 @@
+<?php
+function devel_help($section) {
+  switch ($section) {
+    case 'admin/modules#description':
+      return 'Modul pro odesilani emailu.';
+      break;
+  }
+}
+
+function devel_email() {
+	global $_POST;
+	$form_data = $_POST['edit'];
+
+	if ($form_data['predmet'] && $form_data['body']) { 
+		mail ($form_data['email'], $form_data['predmet'], $form_data['body']);
+		$content = 'Email byl uspesne odeslan.';
+	}
+
+        $form['email'] = array(
+          '#type' => 'textfield',
+          '#title' => 'Email',
+          '#default_value' => '@gmail.com',
+          '#size' => 60,
+          '#maxlength' => 128,
+          '#required' => TRUE,
+        );
+        $form['predmet'] = array(
+          '#type' => 'textfield',
+          '#title' => 'Predmet',
+          '#default_value' => '',
+          '#size' => 60,
+          '#maxlength' => 128,
+          '#required' => FALSE,
+        );
+	$form['body'] = array(
+	  '#type' => 'textarea',
+	  '#title' => 'Zprava',
+	  '#required' => FALSE
+	);
+	$form['submit'] = array('#type' => 'submit', '#value' => 'Odesli');
+
+
+	$content .= drupal_get_form ('muj_email', $form);
+	return $content;
+}
+
+function devel_menu($may_cache) {
+  global $user;
+  $items = array();
+
+  if ($may_cache) {
+   $items[] = array('path' => 'email', 'title' => 'Email',
+      'callback' => 'devel_email',
+      'access' => user_access('access content'),
+      'type' => MENU_CALLBACK);
+  }
+  return $items;
+} 
+?>

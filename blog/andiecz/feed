@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>AndieCZ&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/andiecz</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal CMS: Naprosto božská pomsta</title>
+ <link>https://www.drupal.cz/blog/andiecz/drupal-cms-naprosto-bozska-pomsta</link>
+ <description>&lt;p&gt;Neb se skorem jako každý druhý moderní člověk pekelně nudím, rozhodl
+jsem se, že si založím web o tom, co dělám. Říká se tomu &lt;a href=&quot;http://smilinghr.com&quot;&gt;lidské zdroje&lt;/a&gt;. Po několika týdnech, kdy jsem
+pátral na Internetu, který CMS si mám vybrat mi zbyly pouze dva poslední.
+Mambo a Drupal. Ani nevím proč, ale nakonec to vyhrál Drupal.&lt;/p&gt;
+
+&lt;p&gt;Jako každý jiný člověk jsem udělal několik základních chyb:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andiecz/drupal-cms-naprosto-bozska-pomsta&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andiecz/drupal-cms-naprosto-bozska-pomsta#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/182</wfw:commentRss>
+ <pubDate>Sat, 07 Oct 2006 12:31:19 +0000</pubDate>
+ <dc:creator>AndieCZ</dc:creator>
+ <guid isPermaLink="false">182 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

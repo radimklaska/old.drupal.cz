@@ -1,0 +1,80 @@
+<?php
+function mysearch_help($section) {
+  switch ($section) {
+    case 'admin/modules#description':
+      return 'Modul umoznuje vyhledavani obsahu podle data.';
+      break;
+  }
+}
+
+function mysearch_menu($may_cache) {
+  $items = array();
+
+  if ($may_cache) {
+   $items[] = array('path' => 'mysearch', 'title' => 'Muj vyhledavac',
+      'callback' => '_mysearch_search_form',
+      'access' => user_access('access content'),
+      'type' => MENU_CALLBACK);
+   $items[] = array('path' => 'mysearch_results', 'title' => 'Vysledky hledani',
+      'callback' => '_mysearch_search_results',
+      'access' => user_access('access content'),
+      'type' => MENU_CALLBACK);
+  }
+  return $items;
+}
+
+function _mysearch_search_form () {
+         $form['od'] = array(
+          '#type' => 'date',
+          '#title' => 'Od',
+          '#required' => FALSE,
+          '#weight' => -10,
+        );
+
+         $form['do'] = array(
+          '#type' => 'date',
+          '#title' => 'Do',
+          '#required' => FALSE,
+          '#weight' => -9
+        );
+         $form['kdykoliv'] = array(
+           '#type' => 'checkbox',
+           '#title' => 'Kdykoliv',
+         );
+
+         $form['node_type'] = array(
+          '#type' => 'select',
+          '#title' => 'Co hledat',
+          '#options' => node_get_types()
+        );
+	$form['#action'] =  '?q=mysearch_results';	
+        $form['submit'] = array('#type' => 'submit', '#value' => 'Hledat');
+
+        return drupal_get_form ('my_search_form', $form);
+}
+
+function _mysearch_search_results () {
+        $form_values = $_POST['edit'];
+	
+        $od = $form_values['od'];
+        $do = $form_values['do'];
+        $od = strtotime($od['year'].'-'.$od['month'].'-'.$od['day']);
+        $do = strtotime($do['year'].'-'.$do['month'].'-'.$do['day']);
+        $kdykoliv = $form_values['kdykoliv'];
+	$typ = $form_values['node_type'];
+
+	if ($kdykoliv)
+		$query_result = db_query("SELECT title, nid FROM node WHERE type = '%a'", $typ);
+	else
+		$query_result = db_query( "SELECT title, nid FROM node WHERE type = '%a' AND created >= '%u' AND created <= '%u'", $typ, $od, $do);
+	echo $query;
+	while ($node = db_fetch_object($queryResult)) {
+        $content .= '<h2>'.l($node->title, 'node/'.$node->nid).'<h2>';
+        }
+        if (!$content) $content = 'Nenalezen obsah, ktery by odpovidal zadanym kriteriim.';
+        return $content;
+	
+}
+
+?>
+

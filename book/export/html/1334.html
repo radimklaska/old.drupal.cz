@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Jak napsat vlastní modul pro Drupal - díl 1.</title>
+    <base href="" />
+    <link type="text/css" rel="stylesheet" href="https://www.drupal.cz/misc/print.css" />
+      </head>
+  <body>
+        
+    <div id="node-1334" class="section-1">
+  <h1 class="book-heading">Jak napsat vlastní modul pro Drupal - díl 1.</h1>
+  <p>Tvůrci webových aplikací, pracující s Drupalem, dřív nebo později
+pocítí potřebu rozšířit systém o vlastní kód. Drupal nabízí velké
+možnosti v tomto směru a proto by byla škoda, abychom si o nich něco málo
+neřekli. Vzhledem k tomu, že materiálů v českém jazyce není mnoho,
+rozhodl jsem se napsat sérii článků, které by měl být praktickým úvodem
+do modulové problematiky.</p>
+
+<p>Jelikož nejsem zastánce přílišné teorie na úkor praktických ukázek,
+půjdeme rovnou na věc. Každý drupalovský modul je uložen v samostatné
+složce, který určuje jeho název i pro tzv. hook funkce (vysvětlím
+později). Všechny tyto moduly jsou pak uloženy ve 2 adresářích, z nihž
+ten první se nalézá v kořenovém adresáři Drupalu a jmenuje se
+<em>modules</em>. Tento adresář je vyhazen především pro moduly dodávané
+s Drupalem a nedoporučuje se jej používat pro uživatelské moduly (ale
+také nezakazuje). Dalším adresářem je <em>sites/all/modu­les</em>. Do
+tohoto adresáře budeme ukládát také náš ukázkový modul.</p>
+První, co musíme udělat, je vytvořit novou složku ve výše zmíněném
+adresáři. Náš modul nazveme „testmod“ bez uvozovek. V této složce pak
+vytvoříme 3 nové soubory (jejich předpona odráží název modulu a musí
+se s ním vždy shodovat) :
+<ul>
+	<li>testmod.module – Samotný PHP kód našeho modulu</li>
+
+	<li>testmod.install – Funkce pro instalaci a odinstalaci modulu (může
+	obsahovat například funkce pro vytvoření tabulek v databázi, či
+	jejich výmaz)</li>
+
+	<li>testmod.info – Informace o modulu</li>
+</ul>
+
+<p>Všechny soubory ukládejte v kódování UTF-8, aby jste předešli
+případným problémům.</p>
+
+<h2>Soubor *.info</h2>
+ Soubor *.info (kde * zastupuje název modulu, v našem případě testmod)
+obsahuje některé další informace, např.: plný název, popis, verzi modulu
+nebo skupinu, do které patří. Podívejme se na obsah souboru testmod.info:
+<p><code> ; $Id: testmod.info, v 1.0 2007/07/06 20:00:00 djanku Exp $<br />
+name = „Testovací modul“<br />
+description = „Popis našeho modulu, může být i delší…“<br />
+version = „5.x-1.0“<br />
+package = Tests modules<br />
+project = „testmod“<br />
+dependencies =<br />
+ </code></p>
+
+<p>Jak vidíte, není to nic těžkého. Jednotlivé řádky mluví samy za
+sebe. Některé ale jen přeci okomentuji. Pomocí řádku <code>package</code>
+můžeme určit, do jaké skupiny náš modul spadá (pakliže vůbec do
+nějaké). My jsme si ho zařadili do testovacích modulů. Píšeme-li modul,
+který je závislý na modulu jiném (třeba locale, když potřebujeme více
+jazyků), můžeme je uvést pod <code>dependecies</code> (jednotlivé názvy se
+oddělují mezerou). Prázdné řádky, můžete vynechat, stejně tak
+i řádky u kterých si nejste jistí. Vyžadovány jsou akorát první
+3 řádky s hlavičkou (klidně stačí napsat jen „<code>; $Id$</code>“
+bez uvozovek), názvem a popisem modulu.</p>
+
+<h2>Soubor *.install</h2>
+ Tento soubor není nezbytný, ale může se hodit. Obsahuje funkce, které se
+vykonají při aktivaci či deaktivaci modulu. To se hodí, když si
+potřebujete připravit „půdu pod nohama“. Nicméňe, na úklid by se také
+nemělo zapomínat :)
+<p>Obě funkce se řadí k <b>hook</b> funkcím, takže obsahují jako prefix
+název modulu. Následuje ukázka našeho testmod.install:</p>
+
+<pre class="php"><code>&lt;?php
+
+function testmod_install() {
+  // Vytvorim tabulku moje_tabulka
+
+  db_query("CREATE TABLE moje_tabulka(id int unsigned primary key auto_increment,
+                                      data varchar(255) not null)");
+}
+
+function testmod_uninstall() {
+  // Vymazu tabulku moje_tabulka
+
+  db_query("DROP TABLE moje_tabulka");
+}
+
+?&gt;</code></pre>
+
+<h2>Soubor *.module</h2>
+ Soubor *.module, jak už přípona napovídá, obsahuje PHP kód našeho
+modulu. Doporučuji nastavit webový server tak, aby se jeho obsah připadnému
+„zvědavci“ nezobrazoval. Pokud váš server provozujete na apachovi,
+stačí povolit .htaccess, který je součástí Drupalu. S praktickým
+využitím se blíže seznámíme v následujících článcích, kde se
+podívámé na možnosti, které nám drupalovské rozhraní nabízí. Zde je
+jejich letmý výčet:
+<ul>
+	<li>definování položek menu</li>
+
+	<li>ověřování přístupových práv k definovaným částem modulu</li>
+
+	<li>možnost reagovat na akce uživatele (přihlášení, odhlášení,
+	založení účtu atp.)</li>
+
+	<li>vytváření obsahů (jak stránkových, tak blokových)</li>
+
+	<li>periodické vykonávání kódu cronem</li>
+
+	<li>práce s odkazy v Drupalu, včetně přepisování adres (aliasy)</li>
+
+	<li>napojení modulu na vyhledávací systém</li>
+
+	<li>definice nápovědy</li>
+
+	<li>a mnoho dalších funkcí…</li>
+</ul>
+
+<h2>Shrnutí</h2>
+ Výčtem tří hlavních souborů bych tedy zakončil první díl našeho
+seriálu. V následujících článcích (kdo ví, kolik jich bude :) se
+seznámíme s praktickým využitím hook funkcí, které nás budou
+doprovázet na každém kroku… Doufám, že budou články k užitku a
+předem děkuji za každé upozornění na nesrovnalost či chybu, která se
+může sem tam objevit.
+<p>Tak tedy nashledanou někdy příště!</p>  <div id="node-1413" class="section-2">
+  <h1 class="book-heading">Jak napsat vlastní modul pro Drupal - díl 2.</h1>
+  <p>Vítejte v dalším díle seriálu, věnovanému vytváření modulů pro
+Drupal. Dnes se podíváme na to, jak zabezpečit jednotlivé části modulu a
+také na to, jak obsloužit akce s uživatelským úč­tem.</p>
+
+<p>Veškerý uveřejněný kód navazuje na testovací modul <i>testmod</i>,
+který jsme vytvořili v 1. dílu.</p>
+
+<h2>Hook funkce</h2>
+
+<p>O hook funkcích jsem se zběžně zmínil již v prvním díle. Proto
+neuškodí, když si ony informace zopakujeme nyní, když je budeme prakticky
+využívat. Hook funkce jsou klasické PHP funkce (nejen), kde se nahrazuje
+<i>obecná část názvu konkrétním jménem</i>. Tato praktika se využívá
+zejména v plug-in modelech a drupalovské moduly nejsou vyjímkou. Aplikace,
+která moduly obsluhuje, pak zjístí, které funkce jsou k dispozici a podle
+toho je volá. Tento postup zabezpečuje situaci, kdy by mohla být volána
+funkce, která není implementována.</p>
+
+<p>Všechny hook funkce, dostupné pro moduly, můžete shlédnout na<a href="https://api.drupal.org/api/5/group/hooks"> této URL.</a></p>
+
+<h2>Zabezpečení a menu modulu</h2>
+
+<p>Drupal nám nabízí rozhraní, pomocí kterého můžeme určit, které
+části modulu chceme zpřístupnit uživateli a které ne. První hook funkci,
+kterou si v této souvislosti ukážeme je <code>hook_perm()</code>. Tato
+funkce vrací pole řetězců, které reprezetují jednotlivá oprávnění. Ty
+pak můžete přiřadit jednotlivým skupinám.</p>
+
+<pre class="php"><code>function testmod_perm() {
+  return array('Testmod user access', 'Testmod admin access');
+}</code></pre>
+
+<p>Oprávněnost pak můžeme otestovat funkcí user_access()­. Např.:</p>
+
+<pre class="php"><code>if (user_access('Testmod user access')) echo 'Přístup povolen.';
+  else drupal_access_denied();</code></pre>
+
+<p>Další cesta vede přes definici položek menu. Toto menu vrací funkce
+<code>hook_menu()</code>. Jedná se opět o pole, ve kterém jsou definovány
+<i>jednotlivé položky</i>, včetně cesty, typu, nadpisu a oprávnění.
+Rozbor jednotlivých typů položek nezapadá do tématu vytváření modulů,
+proto případné zájemce odkazuji <a href="https://api.drupal.org/api/5/group/menu">zde</a>.</p>
+
+<p>Následující kód je součástí modulu testmod. Nedělá nic jiného,
+než, že <i>přesměrovává jednotlivé url adresy</i> na funkci v našem
+modulu. Tím, že jsme ještě přidali kontrolu oprávnění, jsme zabezpečili
+i části jen pro danou skupinu uživatelů.</p>
+
+<pre class="php"><code>function testmod_menu() {
+  $polozky = array();
+
+  // Vytvoření skupiny položek v administrační části
+  $polozky[] = array(
+    'path' =&gt; 'admin/testmod',
+    'title' =&gt; t('Testmod administration'),
+    'description' =&gt; t("Administration tools for testmod module."),
+    'position' =&gt; 'left',
+    'callback' =&gt; 'system_admin_menu_block_page',
+    'access' =&gt; user_access('Testmod admin access'),
+  );
+
+  // Položka v administační části
+  $polozky[] = array(
+    'path' =&gt; 'admin/testmod/polozka',
+    'title' =&gt; t('Testmod administration item :)'),
+    'callback' =&gt; 'administrace',
+    'weight' =&gt; 0,
+    'access' =&gt; user_access('Testmod admin access'),
+    'type' =&gt; MENU_NORMAL_ITEM,
+   );
+
+  // 2 callbacky pro presmerovani adresy na funkci stranky
+  $polozky[] = array(
+    'path' =&gt; 'testmod/prvni',
+    'callback' =&gt; 'stranky',
+    'callback arguments' =&gt; 'prvni',
+    'access' =&gt; user_access('Testmod user access'),
+    'type' =&gt; MENU_CALLBACK,
+  );
+
+  $polozky[] = array(
+    'path' =&gt; 'testmod/druha',
+    'callback' =&gt; 'stranky',
+    'callback arguments' =&gt; 'druha',
+    'access' =&gt; user_access('Testmod user access'),
+    'type' =&gt; MENU_CALLBACK,
+  );
+
+  return $polozky;
+}
+
+function administrace() {
+  $obsah = t("Welcome into administration section!");
+
+  print theme('page', $obsah);
+}
+
+
+function stranky($stranka) {
+
+  $obsah = '';
+
+  // Nastavíme titulek
+  drupal_set_title(t('Page title'));
+
+  // Stranku muzeme ziskat pomoci parametru funkce,
+  // nebo pomoci funkce arg(cislo)
+
+  switch ($stranka) {
+    case 'prvni':
+      $obsah .= "Toto je první stránka testovacího modulu. &lt;br/&gt;";
+      $obsah .= l("Odkaz na druhou stránku", "testmod/druha");
+      break;
+
+    case 'druha':
+      $obsah .= "Toto je druhá stránka testovacího modulu. &lt;br/&gt;";
+      $obsah .= l("Odkaz na první stránku", "testmod/prvni");
+      break;
+  }
+
+  print theme('page', $obsah);
+}</code></pre>
+
+<h2>Obsluha operací s uživatelskými účty</h2>
+
+<p>Dřív nebo později budeme potřebovat zareagovat na operace s účty
+uživatelů. Drupal nám k tomu nabízí funkci <code>hook_user()</code>,
+která je volána pokaždé, když k nějaké operaci dojde. Je na
+programátorovi modulu, kterých událostí si bude všímat a kterých ne. Já
+uvedu příklad jen se 4 nejběžnějšími: přihlášení, odhlášení,
+založení a smazání účtu. Možných událostí je však <i>daleko
+více</i>. Můžete například pracovat s formulářem, týkající se
+informací o uživateli nebo přidávat data do informací o uživatelském
+účtu atp. Kompletní popis najdete na <a href="https://api.drupal.org/api/5/function/hook_user">této adrese</a>.</p>
+
+<pre class="php"><code>function testmod_user($operace, &amp;$edit, &amp;$user) {
+
+  $id = $user-&gt;uid;      // ID uctu
+  $email = $user-&gt;mail;  // Email uzivatele
+  $nazev = $user-&gt;name;  // nazev uctu
+
+  // V proměnné edit se předávají hodnoty formulářů
+
+  switch($operace) {
+    case 'login':
+     drupal_set_message("Uzivatel $nazev ($email) byl prihlasen.");
+     break;
+
+    case 'logout':
+     // odhlaseni
+     break;
+
+    case 'insert':
+     // Vytvoreni noveho uctu
+     // muzeme zde napriklad umistit kod, ktery zapise nova data do databaze
+     break;
+
+    case 'delete':
+     // Vymaz uctu
+     break;
+  }
+
+}</code></pre>
+
+<h2>Periodické vykonávaní kódu</h2>
+
+<p>Časem možná narazíte na potřebu vykonávat svůj kód v určitých
+intervalech. Tuto operaci většinou zajišťuje démon (na UNIXových
+systémech cron), který ve vámi zvolených intervalech spustí skript
+<b>cron.php</b> v kořenovém adresáři drupalovského webu. Ten rovněž
+zajistí volání funkce <code>hook_cron()</code>, je-li dostupná.</p>
+
+<pre class="php"><code>function testmod_cron() {
+  // zde umístite vykonávaný kód
+}</code></pre>
+
+<p>Využití plánovaného vykonávání skriptu se hodí například
+u posílání (vyžádaných ;) emailů, novinek a nebo také pro
+pročištění disku atp.</p>
+
+<h2>Závěrem</h2>
+
+<p>Druhý díl seriálu máme úspěšně za sebou. Doufám, že jste našly
+přesně ty informace, které pro začátek budou užitečné. Příště bychom
+se podívali na modulovské bloky, nápovědu nebo interní odkazy.</p>  </div>
+<div id="node-1845" class="section-2">
+  <h1 class="book-heading">Jak napsat vlastní modul pro Drupal - díl 3. - Bloky</h1>
+  <p>V dnešním minidíle seriálu o tvoření modulů se podíváme na to, jak
+tvořit vlastní bloky.</p>
+
+<p>Pro tvoření bloků máme k dispozici opět hook, který se jmenuje <a href="https://api.drupal.org/?q=api/function/hook_block/5">hook_block</a>
+(Dokumentace pro verzi 5].</p>
+
+Hook Block
+
+<p>Základní syntax hook_block vypadá následovně (opět na příkladu modulu
+testmod)</p>
+
+<pre class="php"><code>function testmod_block($op = 'list', $delta = 0, $edit = array()) {
+  switch ($op) {
+    case 'list':
+      // vypis bloku v administraci
+      break;
+    case 'configure':
+      // konfigurace bloku (delta!)
+      break;
+    case 'save':
+      // konfigurace se uklada (delta!)
+      break;
+    case 'view':
+      // zobrazeni konkretniho bloku (delta!)
+      break;
+  }
+}</code></pre>
+
+<p>Celým kódem nás provází hodnota $delta a $edit. Delta se používá,
+pokud máte v této funkci více bloků, delta pak určuje, kterého z nich se
+operace týká. Pole $edit jsou hodnoty z formuláře, který odeslal
+uživatel, v případě operace save.</p>
+
+<p>Nyní si ukážeme, jak definovat blok (dva bloky):</p>
+
+<pre class="php"><code>function testmod_block($op = 'list', $delta = 0, $edit = array()) {
+  switch ($op) {
+    case 'list':
+      // vypis bloku v administraci
+      $block[0] = array('info' =&gt; t('Jmeno bloku 1'), 'weight' =&gt; 0, 'region' =&gt; 'left', 'enabled' =&gt; 0);
+      $block[1] = array('info' =&gt; t('Jmeno bloku 2'), 'weight' =&gt; 0, 'region' =&gt; 'left', 'enabled' =&gt; 0);
+      return $block;
+      break;
+  }
+}</code></pre>
+
+<p>Tady jsme si přidali do modulu dva bloky, „Jmeno bloku 1“ a „Jmeno
+bloku 2“. Tím jsme řekli Drupalu, že existují. Dobré vědět:</p>
+
+<ul>
+	<li>Index pole v $block je právě budoucí $delta.</li>
+
+	<li>Weight, Region a Enable jsou nepovinné, slouží jako výchozí hodnoty.
+	Když je nepoužijete, nic nezkazíte.</li>
+</ul>
+
+<p>V následujícím kódu výše přidané bloky zobrazíme.</p>
+
+<pre class="php"><code>function testmod_block($op = 'list', $delta = 0, $edit = array()) {
+  switch ($op) {
+    case 'view':
+      // zobrazeni bloku
+      switch ($delta) {
+        case '1':
+          // delta je 1, jde o blok "Jmeno bloku 1"
+          $block = array('subject' =&gt; t('Nadpis bloku 1'), 'content' =&gt; 'Ahoj, to je muj novy blok. Proste vypisu text a koncim.');
+          break;
+        case '2':
+          // delta je 2, jde o blok "Jmeno bloku 2"
+          $block = array('subject' =&gt; t('Nadpis bloku 2'), 'content' =&gt; _testmod_viewblock2());
+          break;
+      }
+      return $block;
+      break;
+  }
+}</code></pre>
+
+<p>Ukázali jsme si, jak provést zobrazení bloku. Operace view se zavolá,
+pokud některý blok povolíte v administraci a zároveň se generuje stránka,
+kde má být blok zobrazen. Pole $block je jednoduché, index subject ukazuje
+nadpis bloku, index content obsah. V bloku 2 vidíte, že jsme pro obsah
+použili nějakou externí funkci, její doplnění je na Vás.</p>
+
+<p>Pro reálné použití zbývá tyto dvě části spojit dohromady. Pokud
+nepotřebujete speciální nastavení bloku, „configure“ a „save“ se
+Vás netýká. (Speciální nastavení může být třeba, pokud zobrazujete
+nějaké položky z databáze a chcete ovlivnit, kolik se jich v daném bloku
+zobrazí. Tedy v konfiguraci vytvoříte formulář, který v „save“
+uložíte do nějaké proměnné.</p>  </div>
+<div id="node-2152" class="section-2">
+  <h1 class="book-heading">Jak napsat vlastní modul pro Drupal - díl 4. - Odkazy</h1>
+  <p>Dnes velmi krátce o tom, jak tvořit odkazy v modulech, případně
+snippetech.</p>
+
+<p><b>Poznámka:</b> Tento seriál vychází jako návod pro tvorbu modulů
+k Drupalu 5. Informace nejsou platné pro vyšší verze Drupalu.</p>
+
+<p>Pokud generujete HTML kód či prostě jakýkoliv kód pomocí modulu
+v Drupalu, občas potřebujete odkázat na nějakou stránku. Můžete to
+udělat jednoduše napsáním:</p>
+
+<pre class="php"><code>&lt;a href="http://stranka.com"&gt;text&lt;/a&gt;</code></pre>
+
+<p>To ale není ideální řešení. Pojďme se podívat na to, jak to
+udělat lépe.</p>
+
+<p>Pro tvorbu odkazů Drupal nabízí dvě API funkce. Obě se odlišují od
+ručního zápisu hlavně tím, že správně generují aliasy stránek. Stačí
+funkci předhodit odkaz na node/XYZ a ona Vám automaticky vrátí konkrétní
+alias. Nemusíte se tak o aliasy starat a nemusíte měnit odkazy vždy, když
+změníte alias (i když ani to byste dělat neměli).</p>
+
+l()
+
+<p>Funkce <a href="https://api.drupal.org/?q=api/function/l/5">l()</a> generuje
+přímo HTML kód odkazu. Její zápis je:</p>
+
+<pre class="php"><code>l($text, $path, $attributes = array(), $query = NULL, $fragment = NULL, $absolute = FALSE, $html = FALSE)</code></pre>
+
+<p>Na příkladech: Tento příklad ilustruje plné použití funkce. Zkráceně
+parametry:</p>
+
+<ul>
+	<li>$text je text odkazu.</li>
+
+	<li>$path je cesta, absolutní nebo interní. Funguje node/1 i
+	<code>http://neco.cz</code>.</li>
+
+	<li>$attributes je asociativní pole atributů, viz příklad.</li>
+
+	<li>$html je $text html kód?</li>
+</ul>
+
+<pre class="php"><code>// kod
+print l('Stranky o Drupalu', 'http://www.drupal.cz', array('class' =&gt; 'mujodkaz'), 'debug', '#top', false, false);
+// vysledek
+&lt;a href="http://www.drupal.cz?debug#top" class="mujodkaz"&gt;Stranky o Drupalu&lt;/a&gt;
+
+// kod - vsimnete si, ze vsechny parametry nejsou povinne
+print l('Jizdni rady ve svete', 'http://www.timetables-world.com');
+// vysledek
+&lt;a href="http://www.timetables-world.com"&gt;Jizdni rady ve svete&lt;/a&gt;
+
+// kod - interni link
+print l('Clanek o blocich', 'node/1845');
+// vysledek - plati pro drupal.cz
+&lt;a href="clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-3-bloky"&gt;Clanek o blocich&lt;/a&gt;</code></pre>
+
+url()
+
+<p>Funkce <a href="https://api.drupal.org/?q=api/function/url/5">url()</a>
+negeneruje HTML kód, ale pouze samotný text odkazu. Slouží pro kompletaci
+odkazu v případě aliasů, apod.</p>
+
+<pre class="php"><code>url($path = NULL, $query = NULL, $fragment = NULL, $absolute = FALSE)</code></pre>
+
+<p>Parametry jsou:</p>
+
+<ul>
+	<li>$path je cesta</li>
+
+	<li>$query je to, co se objeví za otazníkem, parametry stránky.</li>
+
+	<li>$fragment je anchor, #neco.</li>
+
+	<li>$absolute buď generuje absolutní link nebo relativní</li>
+</ul>
+
+<p>Opět příklady:</p>
+
+<pre class="php"><code>// kod
+print url('node/1845');
+// vysledek
+clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-3-bloky
+
+// kod
+print url('node/1845', false, false, true);
+// vysledek
+http://www.drupal.cz/clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-3-bloky</code></pre>  </div>
+</div>
+    
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTlVbXFNmBkFGXUMR","queueTime":0,"applicationTime":77,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

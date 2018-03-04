@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Samgarr&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/samgarr</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Zajimave tutorialy publikovane v roce 2013</title>
+ <link>https://www.drupal.cz/blog/samgarr/zajimave-tutorialy-publikovane-v-roce-2013</link>
+ <description>&lt;p&gt;Blog &lt;a href=&quot;http://blog.wearepropeople.com/&quot;&gt;wearepropeople­.com&lt;/a&gt;
+sestavil &lt;a href=&quot;http://blog.wearepropeople.com/cool-drupal-tutorials-published-in-the-first-days-of-2013/&quot;&gt;seznam&lt;/a&gt;
+tutorialu vydanych v novem roce 2013, me zaujali zejmena clanky tykajici se
+modulu Migrate.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/samgarr/zajimave-tutorialy-publikovane-v-roce-2013#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/migration">migration</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <category domain="https://www.drupal.cz/clanky/tutorial">tutorial</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/17086</wfw:commentRss>
+ <pubDate>Fri, 11 Jan 2013 10:53:38 +0000</pubDate>
+ <dc:creator>Samgarr</dc:creator>
+ <guid isPermaLink="false">17086 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

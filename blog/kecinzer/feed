@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>kecinzer&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/kecinzer</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Dva nové moduly pro Ubercart 2.4</title>
+ <link>https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24</link>
+ <description>&lt;p&gt;Vydal jsem dva nové užitečné moduly pro Ubercart 2. První je modul pro
+podporu speciálně českého DPH – &lt;a href=&quot;http://drupal.org/project/uc_dph&quot;&gt;Ubercart 2 DPH support&lt;/a&gt;.
+Spolupracuje s taxami v Ubercartu a umožňuje nastavovat, jak cenu zobrazovat
+(jen s DPH, obě ceny) a též je možné vybrat specifické role, kterým se
+bude vždy zobrazovat jen cena bez DPH (pro B2B shopy).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8287</wfw:commentRss>
+ <pubDate>Sat, 18 Sep 2010 06:53:59 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">8287 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pokročilejší přetěžování funkcí vzhledu</title>
+ <link>https://www.drupal.cz/blog/kecinzer/pokrocilejsi-pretezovani-funkci-vzhledu</link>
+ <description>&lt;p&gt;Každý vývojář Drupalu jistě ví, jak přetížit všechny theme funkce
+v tématu vzhledu. Tento postup je ve valné většině případů
+dostačující. Já jsem se však setkal se situací, kdy tento postup
+nestačí.&lt;/p&gt;
+
+&lt;p&gt;Mám totiž více vlastních modulů, ve kterých potřebuji přetěžovat
+některé konkrétní theme funkce.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/pokrocilejsi-pretezovani-funkci-vzhledu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/pokrocilejsi-pretezovani-funkci-vzhledu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/programovani">programování</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8255</wfw:commentRss>
+ <pubDate>Thu, 16 Sep 2010 12:32:03 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">8255 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Sázkový systém na Drupal.org</title>
+ <link>https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg</link>
+ <description>&lt;p&gt;Rozhodl jsem se dát svojí roční usilovnou práci na drupal.org jako modul
+(diplomová práce). Jedná se o Sázkový systém (&lt;a href=&quot;http://drupal.org/project/betting&quot;&gt;Betting system&lt;/a&gt;) což je sada
+modulů umožňující vést kurzové sázení. Díky systému je možné snadno
+proměnit svůj web na sázkovou kancelář (jako je např. iFortuna.cz).&lt;/p&gt;
+
+&lt;p&gt;Jsem přesvědčen o tom, že pro někoho bude tento modul užitečný.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8135</wfw:commentRss>
+ <pubDate>Mon, 30 Aug 2010 14:06:54 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">8135 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Setřídění pole podle abecedy včetně diakritiky</title>
+ <link>https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky</link>
+ <description>&lt;p&gt;Nedávno jsem na svém webu nasadil modul „tagadelic“ a přešel ze
+statických kategorií na tagy. Nechal jsem si je zobrazovat v bloku podobně
+jako zde na drupal.cz.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7137</wfw:commentRss>
+ <pubDate>Mon, 01 Mar 2010 22:36:43 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">7137 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Opera 10 a chyba při uploadu</title>
+ <link>https://www.drupal.cz/blog/kecinzer/opera-10-chyba-pri-uploadu</link>
+ <description>&lt;p&gt;Pokud používáte Operu 10 a setkali jste se s problémem, že vám
+v Drupalu přestaly jít nahrávat soubory (po kliknutí na přidat se zobrazí
+průběh, ale hned na to vyskočí chybová JS hláška), existuje
+řešení.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/opera-10-chyba-pri-uploadu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/opera-10-chyba-pri-uploadu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/opravy">opravy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6043</wfw:commentRss>
+ <pubDate>Fri, 25 Sep 2009 14:37:24 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">6043 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

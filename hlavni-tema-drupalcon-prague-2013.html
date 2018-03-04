@@ -1,0 +1,1313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Vítáme vaše tipy: hlavní téma DrupalCon Prague 2013&quot;" href="https://www.drupal.cz/crss/node/16021" />
+<link rel="shortcut icon" href="https://www.drupal.cz/misc/favicon.ico" type="image/x-icon" />
+ <title>Vítáme vaše tipy: hlavní téma DrupalCon Prague 2013 | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="files/css/css_89f0b64afb4ba47f586bd984f765f0a7.css" />
+ <script type="text/javascript" src="files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="hlavni-tema-drupalcon-prague-2013.html#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="node/index.html">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="o-systemu-drupal.html"><span>O Drupalu</span></a></li>
+<li><a href="blog.html"><span>Blogy</span></a></li>
+<li><a href="faq.html"><span>FAQ</span></a></li>
+<li><a href="forum.1.html"><span>Fórum</span></a></li>
+<li><a href="prezentace.html"><span>Prezentace</span></a></li>
+<li><a href="preklad-drupalu-do-cestiny-zakladni-informace.html"><span>Překlady</span></a></li>
+<li><a href="katalog.1.html"><span>Katalog</span></a></li>
+<li><a href="ke-stazeni.html"><span>Stáhnout</span></a></li>
+<li><a href="sluzby.html"><span>Služby</span></a></li>
+<li><a href="staff.html"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="node/index.html">Domů</a></div>        <h2 class="title">Vítáme vaše tipy: hlavní téma DrupalCon Prague 2013</h2>
+        <div class="tabs"></div>
+          <div class="messages error">
+ <ul>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+ </ul>
+</div>
+          <div class="article  article-16021">
+    <span class="submitted">Vložil/a <a href="user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a>, 6 Listopad, 2012 - 20:01</span>
+    <div class="pcontent"><p>Vyhlašujeme brainstorming na <strong>hlavní téma + slogan</strong>
+DrupalConu 2013 v Praze. Vítáme všechny nápady, za špatné se hlavy
+netrhají. Pište cokoli vás napadne, hlavně co nejdříve, do středy
+13. listopadu.</p>
+
+<p>Co je hlavní téma? Červená nit, která se táhne celou akcí. Můžete se
+inspirovat minulými konferencemi, ale nemusíte, třeba by vás to zbytečně
+odvedlo od vašeho geniálního nápadu. Od hlavního tématu se bude odvíjet
+design, logo, obsah konference, prostě vše. Máte šanci zapsat se do
+historie :-)))</p>
+
+<p>Co úžasného chceme o Drupalu sdělit? Čím chceme oslovit lidi, kteří
+Drupal zatím neznají? Čím se chceme pochlubit, co zlepšit?</p>
+
+<p>Pište do komentářů, česky nebo anglicky nebo v obou verzích…</p>
+
+<p>…kdybyste se MOC báli svůj nápad rovnou zveřejnit, pište na
+eva(uzenac)squ­elle(tecka)com</p>
+
+Předem díky ! Eva
+
+<p><em>EDIT: na dotazy odpovídám, že téma se nemusí týkat prvoplánově
+Drupalu.</em></p><div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-6334" class="social-add digglink" onmouseover="showSocials(6334)" onmouseout="hideSocials(6334)"><a class="social-href-link" href="hlavni-tema-drupalcon-prague-2013.html#">Linkni to!</a>
+<div class="social-links" id="social-links-6334">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/hlavni-tema-drupalcon-prague-2013&amp;title=Vítáme vaše tipy: hlavní téma DrupalCon Prague 2013" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/hlavni-tema-drupalcon-prague-2013&amp;title=Vítáme vaše tipy: hlavní téma DrupalCon Prague 2013" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/hlavni-tema-drupalcon-prague-2013" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/hlavni-tema-drupalcon-prague-2013&amp;title=Vítáme vaše tipy: hlavní téma DrupalCon Prague 2013" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-56991"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-56991" class="active">proc nedelat drupal na MS</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 6 Listopad, 2012 - 20:12.  </div>
+
+  <div class="content">
+    proc nedelat drupal na MS platforme(vyvoj i provoz). planuju, ze bych se
+zapsal s prednaskou, ale na hlavni tema to pravda nebude…  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/56991" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57016"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57016" class="active">Myslím, že tím „hlavním</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mat-0.html" title="Zobrazit profil uživatele.">MaT</a> dne 6 Listopad, 2012 - 21:56.  </div>
+
+  <div class="content">
+    <p>Myslím, že tím „hlavním tématem“ je asi myšleno něco jiného, než
+zrovna náměty na přednášky… :-) Spíš něco jako „Enjoy Prague, enjoy
+Drupal“ a k tomu nějaké dechberoucí obrázky Hradčan, Karlova
+mostu, etc.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57016" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57021"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57021" class="active">jak napsal mojzis tak mi to</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 6 Listopad, 2012 - 22:03.  </div>
+
+  <div class="content">
+    jak napsal mojzis tak mi to docvaklo…  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57021" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-57001"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57001" class="active">sorela retro</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mojzis.1.html" title="Zobrazit profil uživatele.">mojzis</a> dne 6 Listopad, 2012 - 20:50.  </div>
+
+  <div class="content">
+    <p>vzhledem k hezke historii budovy (Jako první akci přivítal Palác kultury
+XVI. sjezd vládnoucí komunistické strany, která tehdy slavila 60. výročí
+svého založení) bych navrhoval sorela retro. stbaci v tesilu ne-napadne
+sledujici ucastniky, oplacani plesouni libajici se na podiu, nadsene deticky
+s mavatky, druplicon se srpem, na podiu velkej rudej hadr a budovatelska
+mozaika – no myslim ze by to mohlo bejt dobry :)</p>
+
+<p>troska doboveho tisku pro inspiraci : <a href="http://archiv.ucl.cas.cz/index.php?path=RudePravo/1981/4/4/1.png">http://archiv.ucl.cas.cz/index.php?…</a></p>
+
+<p>Zdroj textu v zavorce nemuzu odkazat, spam filter se pak na me zlobi :)
+(staci hledat palac kultury praha)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57001" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57006"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57006" class="active">vzor vyzdoby</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mojzis.1.html" title="Zobrazit profil uživatele.">mojzis</a> dne 6 Listopad, 2012 - 21:08.  </div>
+
+  <div class="content">
+    <p>sjezd zacal az o tyden pozdeji, dal jsem tam spatne datum, tady uz jsou
+spravne obrazky, zaskrolujte az dolu. zbyva vybrat ci hlava se bude vyjimat
+v te svatozari :)</p>
+
+<p><a href="http://archiv.ucl.cas.cz/index.php?path=RudePravo/1981/4/7/1.png">http://archiv.ucl.cas.cz/index.php?…</a></p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57006" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-57011"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57011" class="active">No jo, jsem si taky říkal,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mat-0.html" title="Zobrazit profil uživatele.">MaT</a> dne 6 Listopad, 2012 - 21:54.  </div>
+
+  <div class="content">
+    <p>No jo, jsem si taky říkal, kde že to vlastně bude – ale zatím jsem
+nevěděl, ale Pakul mě taky napadl, ono je to pořád asi jediné místo, kde
+v Praze nějakou takovou větší akci udělat. :-)</p>
+
+<p>Retro styl by tedy využít šel, ještě mě napadlo něco jako komiksový
+retro styl – kousek od nás se nachází nějaký obchod s počítačovými
+hrami a tam mají na výloze tuhle paní soudružku: <a href="http://stuffpoint.com/red-alert/image/32837/red-alert-girls-picture/">http://stuffpoint.com/…rls-picture/</a></p>
+
+<p>Ačkoliv by nějaký styl, inspirovaný tímto, mohl být zajímavý, na
+druhou stranu nevím – Praha snad dnes může nabídnout i víc – a
+možná by to někteří ani nepochopili a je otázka, jestli se chceme stále
+stylizovat do role postkomunistických pohrobků… :-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57011" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-57026"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57026" class="active">moje tipy</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/petrpo.1.html" title="Zobrazit profil uživatele.">petrpo</a> dne 6 Listopad, 2012 - 22:19.  </div>
+
+  <div class="content">
+    <ol>
+	<li>ceska komunita
+		<p>i kdyz jsou setkani v Praze docasne neaktivni, je vzdy mozne se nekde
+		zeptat, ab</p>
+	</li>
+
+	<li>ceske forum
+		<p>nedavno jsem zacal odebirat rss z drupal.cz/forum a byl jsem fakt
+		prekvapeny, e temer kazdy dotaz je zodpovezeny a vetsinou dostane tazajici
+		reseni.</p>
+	</li>
+
+	<li>nejake to nase ceske pivo tam zamontovat.</li>
+</ol>
+
+<p>:-)</p>
+
+<ol start="4">
+	<li>jeste budu premysleta napisu</li>
+</ol>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57026" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57036"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57036" class="active">pivo prosim nee</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mojzis.1.html" title="Zobrazit profil uživatele.">mojzis</a> dne 6 Listopad, 2012 - 22:43.  </div>
+
+  <div class="content">
+    <p>bylo pomerne vyrazne i v mnichove. a nekolikrat jsem slysel o zavode
+v londyne … navic se myslim dostane na program tak nejak samo :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57036" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-57361"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57361" class="active">Ac jsem abstinent, tak pivo</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/coyot.1.html" title="Zobrazit profil uživatele.">radimklaska</a> dne 13 Listopad, 2012 - 00:56.  </div>
+
+  <div class="content">
+    <p>Ac jsem abstinent, tak pivo bylo mezi prvnimi napady i u me. :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57361" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-57031"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57031" class="active">Brainstorming pokračuje</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mat-0.html" title="Zobrazit profil uživatele.">MaT</a> dne 6 Listopad, 2012 - 22:19.  </div>
+
+  <div class="content">
+    <p>Historie není zase tak špatná… Ale možná tedy ta dávnější. Tak mě
+napadá: Karel IV. používá Drupal. Nebo rudolfínská doba, ta má také
+něco do sebe… Praha magická… Něco s golemem? Akorát pozor, tam si snad
+někdo činí nároky na veškeré komerční využití golema…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57031" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57046"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57046" class="active">Ripellino ?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mojzis.1.html" title="Zobrazit profil uživatele.">mojzis</a> dne 6 Listopad, 2012 - 23:03.  </div>
+
+  <div class="content">
+    <p>myslis Praga Magica ? <a href="https://cs.wikipedia.org/wiki/Angelo_Maria_Ripellino">http://cs.wikipedia.org/…ia_Ripellino</a>
+? to je rozhodne zajimavy ale nejsem si uplne jistej jestli se najde nekdo komu
+to neco rekne :)</p>
+
+<p>nejaka intelektualni linka s kafkou a havlem by ovsem mohla bejt zabavna :)
+svejk by moh pridat to pivo.</p>
+
+<p>golem mi pripada lehce naduzivanej.</p>
+
+<p>karel IV by mozna byl fajn. ale nejsem si jistej jestli se podari vymyslet
+neco jednoznacne ho charakterizujiciho – pro ostatni to bude proste
+„nejakej kral“. vlastne kdyz je to na vysehrade tak by tam mohla taky bejt
+libuse a premysl a bivoj a semik :) eva muze delat libusi a vestit :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57046" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57051"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57051" class="active">me osobne teda stare povesti</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mojzis.1.html" title="Zobrazit profil uživatele.">mojzis</a> dne 6 Listopad, 2012 - 23:12.  </div>
+
+  <div class="content">
+    <p>me osobne teda stare povesti ceske jako tema bavej cim dal vic. a jestli bude
+Eva „videt mesto velike“ tak klidne naklusu s kancem :) <img src="http://www.komiks.cz/img_clanek/6642_obrazkyzdejin-3.jpg" alt="ema vidi mesto" /></p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57051" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-57041"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57041" class="active">hook_add_tower</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mojzis.1.html" title="Zobrazit profil uživatele.">mojzis</a> dne 6 Listopad, 2012 - 22:54.  </div>
+
+  <div class="content">
+    <p>mozna by se dalo zavtipkovat na tema ze ma praha stejne vezi jako drupal
+hooku. ale nejsem si jist, jestli nekdo zvenci nekdy slysel o stovezate praze ?
+tady je k tomu hezkej web <a href="http://stovezata.praha.eu/en-church-of-the-virgin-mary-and-st-charles-the-great.html">http://stovezata.praha.eu/…e-great.html</a>
+(vybral sem kostel s vyhledem na pakul :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57041" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57201"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57201" class="active">Věže nejsou tak originální,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mat-0.html" title="Zobrazit profil uživatele.">MaT</a> dne 9 Listopad, 2012 - 01:10.  </div>
+
+  <div class="content">
+    <p>Věže nejsou tak originální, to dřív mělo každé italské město…
+:-) Dneska nějaké zbyly alespoň v Bologni, nebo je jimi pověstné San
+Gimignano…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57201" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-57136"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57136" class="active">Architektura</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/bobik.html" title="Zobrazit profil uživatele.">Honza Pobořil</a> dne 7 Listopad, 2012 - 19:05.  </div>
+
+  <div class="content">
+    <p>Já bych vypíchnul změny v jádře, aby i méně zkušeným bylo jasné,
+že je od teď Drupal ze vnitř tak krásný jako Django a Rails a navíc i se
+silným GUI.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57136" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57206"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57206" class="active">A fakt je? :-) Já právě</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mat-0.html" title="Zobrazit profil uživatele.">MaT</a> dne 9 Listopad, 2012 - 01:13.  </div>
+
+  <div class="content">
+    <p>A fakt je? :-) Já právě v poslední době obdivuji krásy Djanga a
+nemůžu si to vynachválit… Ono je to možná i tím jazykem. :-) Sice
+každý nePythonista hned nadává na povinné odsazování, ale když on je ten
+kód opravdu mnohem přehlednější a to, že tam není tak přezávorkováno,
+tomu také jedině prospěje. Dokonce už začínám přicházet na chuť
+i objektovému programování. Něco jsem zaslechl, že Drupal 8 má být
+také objektový, ale moc ten vývoj teď nesleduju…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57206" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57211"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57211" class="active">heslo: Symfony2</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 9 Listopad, 2012 - 05:53.  </div>
+
+  <div class="content">
+    heslo: Symfony2  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57211" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-57171"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57171" class="active">Zmaten jako Goro před Tokyem...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/martin-s.html" title="Zobrazit profil uživatele.">adrift73</a> dne 8 Listopad, 2012 - 07:59.  </div>
+
+  <div class="content">
+    <p>Já se přiznám, že v tom trochu plavu. Znovu jsem si přečetl úvod od
+Evy a připadlo mi to, že téma konference by mělo být něco co se týká
+Drupalu, něco od čeho se bude odvíjet obsah, jaké si zaměření…
+U Denveru to myslím bylo „Collaborative Publishing for Every Device“.
+U ostatních DrupalConu jsem bohužel žádnou inspiraci nenašel (podle jejich
+stránek). Neříkám, že by se to nemohlo nějak obratně spojit s Prahou,
+historií, či Járou Cimrmanem, ale já bych očekával, že to pomůže prodat
+tu konferenci, spíš než to místo konání. Něco jako – <em>proč bych se
+chtěl zůčastnit DrupalConu v Praze?</em> Než se příliš rozepíšu…
+chápe to někdo taky tak, nebo jsem mimo? Dík, Martin</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57171" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57226"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57226" class="active">pravda, je to lehce zmatecne</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mojzis.1.html" title="Zobrazit profil uživatele.">mojzis</a> dne 9 Listopad, 2012 - 13:34.  </div>
+
+  <div class="content">
+    ja si automaticky vybavil cerstve zazitky z mnichova a myslel jsem ze jde
+o neco takoveho jako na videu- <a href="http://www.comm-press.de/en/blog/opening-session-drupalcon-2012-munich">http://www.comm-press.de/…-2012-munich</a>
+. Uznavam ze moje humorne navrhy nedpovidaji na presnou formulaci zadani, ale
+popravde presne formulaci zadani nerozumim. Prosil jsem uz o vyjasneni, ale
+zatim nevim. Konkretne jde o tuto vetu :
+Co úžasného chceme o Drupalu sdělit? Čím chceme oslovit lidi,
+kteří Drupal zatím neznají? Čím se chceme pochlubit, co
+zlepšit?
+ opravdu je prezentace nekolikadenni ne zrovna levne odborne konference zamerena
+na lidi, kteri drupal neznaji ?  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57226" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-57181"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57181" class="active">Ahojte, neviem, ako to bolo</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/frankye.html" title="Zobrazit profil uživatele.">frankye</a> dne 8 Listopad, 2012 - 10:49.  </div>
+
+  <div class="content">
+    <p>Ahojte, neviem, ako to bolo myslené, ale „retro-style“ sa mi fakt že
+páči. Dajú sa na to super naviazať ďalšie veci ako navrhnúť
+účastníkom aby prišli v retro style (alebo obliecť do retro
+usporiadateľov), prípadne urobiť retro deň, či rerto-večer.</p>
+
+<p>Taktiež sa dajú podonášať retro-elektrospotrebiče a poukázať tak na
+kontrast ,či napredovanie technológií medzi retro-obdobím a dneškom…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57181" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-57216"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57216" class="active">ala historie</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 9 Listopad, 2012 - 08:21.  </div>
+
+  <div class="content">
+    brumlik: co takhle comics, prezentacku jak cobol neyvitezil nad drupalem neb
+pod mi je znamo drupal dosud na cobol portovan neni :-)  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57216" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-57256"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57256" class="active">Drupal 8 má release v září</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 9 Listopad, 2012 - 16:50.  </div>
+
+  <div class="content">
+    Narazil jsem na místni spam filter (grrrr) a tak mě to nenechá publikovat
+pod mojim účtem. Zkouším to jako annon:
+
+V měsíci kdy bude DrupalCon v Praze je plánovaný oficiální release
+osmičky. Na Dries(ově) blogu je následující zmíňka:
+
+We release a first Release Candidate when nearly all critical bugs
+and tasks are fixed, and a Drupal 7 to Drupal 8 upgrade path is functional. We
+aim to do this at least two months (around July, 2013) before the scheduled
+release date (around September, 2013).
+
+Je to možné něco co bychom bylo dobré vzít v úvahu.
+
+adrift73  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57256" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57326"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57326" class="active">Muzete mi prosim napsat na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/andrew-burcin.1.html" title="Zobrazit profil uživatele.">Andrew Burcin</a> dne 12 Listopad, 2012 - 14:43.  </div>
+
+  <div class="content">
+    <p>Muzete mi prosim napsat na kontact na muj profil proc jsi mel problem s spam
+filtrem? Je to neco na kterym jsme posledni doba pracoval, a jsem doufal ze je
+uz v poradku…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57326" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-57331"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57331" class="active">Z minule Drupalcony: Munich:</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/andrew-burcin.1.html" title="Zobrazit profil uživatele.">Andrew Burcin</a> dne 12 Listopad, 2012 - 14:45.  </div>
+
+  <div class="content">
+    Z minule Drupalcony:
+<ul>
+	<li>Munich: Open Up! Connecting systems and people.</li>
+
+	<li>Denver: Drupal Elevated.</li>
+
+	<li>Chicago: Drupal is Everywhere!</li>
+</ul>
+
+<p>Tema spis je zakladni principle co se tyka design a vyber programu. Bohuzel,
+retro-60's by asi neslo ikdyby byl super :) Nevim, nejak to nesidi s takovym
+„open source“ pocit :D</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57331" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57346"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57346" class="active">Díky Andrew – ten seznam</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/martin-s.html" title="Zobrazit profil uživatele.">adrift73</a> dne 12 Listopad, 2012 - 17:34.  </div>
+
+  <div class="content">
+    <p>Díky Andrew – ten seznam minulých témat je velice užitečný.</p>
+Napadají mě dvě věci:
+<ul>
+	<li>Je velká snaha dostat Drupal do enterprise prostředí (mě se to povedlo
+	u naší společnosti). Věci jako Acquia Enterprise support tomu hodně
+	napomohly. D8 má mít lepší configuration management, to by byla taky trefa
+	do černého… Předminulý týden jsem poslouchal webcast od Forrester, kde
+	tvrdili, že před dvěmi lety témeř nikdo z enterprise prostředí nebral
+	Open Source WCM vážně, a že letos kolem dvou třetin dotázaných
+	odpověděli, že už o Open Source uvažují. Jestli si to správně pamatuji,
+	tak celé třetina jej používá. V každém případě, je to velká
+	příležítost pro všechy drupalisty, aby business rostl. Chce to ale
+	zkušenosti. Takže něco kolem enterprise. Pokud bychom se nechtěli tak úzce
+	profilovat, tak můžem něco obecnějšího … něco jako Drupal v různých
+	industries… a mít tracks na různé odvětví … non-profit, commerce,
+	community, enterprise…</li>
+
+	<li>Druhá věc je release D8. Říkám si jestli bychom na tom neměli nějak
+	navázat. Nemyslím, že by to muselo D8 přímo promotovat, ale prostě vzít
+	v čem bude D8 silná a na to navázat.</li>
+</ul>
+ Zatím, Martin  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57346" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-57356"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57356" class="active">aha</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mojzis.1.html" title="Zobrazit profil uživatele.">mojzis</a> dne 12 Listopad, 2012 - 22:58.  </div>
+
+  <div class="content">
+    <p>i guess there is some sort of a miscommunication here ;) most probably on my
+end – sorry and would you mind claryfying a little more ?</p>
+when i read this from Eva :
+Od hlavního tématu se bude odvíjet design, logo, obsah
+konference, prostě vše.
+
+<p>it made me think of the pretzel and the beer pad (whatever the proper term
+would be :) from Munich. To be honest, i had to look up „open up“ on the
+Munich website – i never noticed that there was any such theme (and
+i attended several events this year where it was advertised – all
+i remember is the beer pad – they probably did say open up though).</p>
+
+<p>So my suggestions, be it socialist retro or Vysehrad mythology are meant
+towards the equivalent of the pretzels and the bavarian stuff i linked
+somewhere higher – and i guess at some point in time those could be
+considered, too. And i tend to like the czech legends – its very local
+(since it happened on the same hill) and we are supposed to see the arival of
+bright future …</p>
+
+<p>Anyway, back to the main theme : thanks for pointing out what the actual task
+is :). and i guess something about D8 would be nice, while probably not 100%
+safe, right :). „New bright future“ ? (something like that was in earlier
+posts too).</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57356" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57366"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57366" class="active">Pretzel and the beer pad</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/coyot.1.html" title="Zobrazit profil uživatele.">radimklaska</a> dne 13 Listopad, 2012 - 01:19.  </div>
+
+  <div class="content">
+    <p>Exactly as mojzis said: „it made me think of the pretzel and the beer
+pad“. :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57366" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-57381"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57381" class="active">napady na slogan</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 13 Listopad, 2012 - 10:20.  </div>
+
+  <div class="content">
+    „svoboda Drupalu“ „rovina svobody – Drupal“ „Drual, otevreny
+svetu“ „nazavisly, volny, otevreny – Drupal“ „malo prostoru? zkus
+Drupal!“ „Drupalopenweek/day Prague 2013“ „jedinecnost –
+Drupal“
+
+Z toho vyplyva i hlavni tema – Drupal nam dava spoustu moznosti (rada
+modulu a sablon), svobody (vlastni views) a otvira na cestu z krabicky nasi
+ceske republiky, z krabicky velkych dodavatelskych firem… a jeste k tomu
+opravdu funguje :-)! Zvladne ho i clovek, ktery zrovna neni zrovna IT
+specialista (jako treba ja), ale myslim ze i pro ty, kteri o tom neco vedi, je
+Drupal vice nez zajimavym produktem. Zamerila bych se na to, cim je Drupal
+jedinecnym… a na vyladeni nekterych nedostatku (Evicka a Andrew vedi nejlepe
+na co jsou nejcastejsi navrhy a pripominky – napr: mouchy v modulech
+rezevacnich systemu)
+
+Natalies  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57381" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-57401"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57401" class="active">Já bych se více než na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/bighead.html" title="Zobrazit profil uživatele.">Petr Illek</a> dne 13 Listopad, 2012 - 13:56.  </div>
+
+  <div class="content">
+    <p>Já bych se více než na enterprise zaměřil na druhý konec spektra, masu
+běžných uživatelů, kteří chtějí rychle nainstalovat CMS a fungovat. Kdo
+to nezkusil, tak ať si nainstalujte Wordpress nebo Joomla, na první pohled je
+to úplně někde jinde. Na druhý pohled (stačilo 15 minut) zjistíte, že je
+opruz s tím něco dělat, něco customizovat. U DRUPALu na začátku
+nemůžete skoro nic, a ještě na vás vyskočí červená chyba. :) A těch
+15 minut bohužel stačí k rozhodnutí kde zůstat.</p>
+Takže bych viděl nějaké téma typu:
+<ul>
+	<li>Framework for everyone</li>
+
+	<li>Powerful framework for everyone</li>
+
+	<li>Make web easy way</li>
+
+	<li>Drupal for dummies :)</li>
+
+	<li>Doing Drupal Daily</li>
+</ul>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57401" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-57431"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57431" class="active">Kdo navštěvuje DrupalCon</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/martin-s.html" title="Zobrazit profil uživatele.">adrift73</a> dne 14 Listopad, 2012 - 08:12.  </div>
+
+  <div class="content">
+    <p>Jo, jo, taky jsem si prošel tou úvodní fází zmatení. Akorát si
+říkám, kdo navštěvuje DrupalCon. Pokud by většina byla potenciální,
+čí velice čerství uživatelé, tak bych se na to opravdu zaměřil a podle
+toho poskládal i program. To si dovedu přestavit na nějaké obecné
+konferenci o CMS – kde by měl vedle stánek WP, Joomla atd. Pak by bylo
+potřeba Drupal „prodat“. Samozřejmě tam nějací nováčci budou, ale
+většina budou lidí, kteří si tou fází už prošli a budou asi očekávat,
+že se naučí něco nového, pokročilého. I když jsem byl jen
+začátěčník (&lt; 1 rok na Drupalu) tak si z DrupalConu pamatuji věci
+jako Commerce distribution, performance optimization, security, COD a jiná
+nabušená témata… určitě by to chtělo dát jim prostor, obzvlášť když
+to bude kolem D8 releasu a spousta věcí se bude měnit. Pouze můj pocit –
+moje preference by byla „advanced“ než „introductory“.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57431" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57446"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57446" class="active">Tak já to téma konference</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/bighead.html" title="Zobrazit profil uživatele.">Petr Illek</a> dne 14 Listopad, 2012 - 10:46.  </div>
+
+  <div class="content">
+    <p>Tak já to téma konference chápu asi trochu šířeji, než že je to jen
+o té konferenci. Podle mě by se mimo specifických témat pro pokročilé
+uživatele mělo minimálně diskutovat o tom, jak drupal přiblížit masám.
+Snahy o to podle mě sou, viz napříkald proklýnaný overlay, který
+pokročilé uživatele štve, ale pro nováčky a netechnické typy může být
+v podstatě přínosný. Jen mi to nepřijde úplně koncepční. Nechci aby se
+na konferenci probíral postup „jak provést update jádra“, ale spíš to,
+aby právě ti technicky nadaní uživatelé (kteří na konferenci budou ve
+většině) přemýšleli o tom, jak tyto postup zjednodušit.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57446" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-57436"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57436" class="active">D8</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/martin-s.html" title="Zobrazit profil uživatele.">adrift73</a> dne 14 Listopad, 2012 - 08:32.  </div>
+
+  <div class="content">
+    <p>Co takhle opravu zkusit tu „osmičku“? Já myslím, že to je jedinečná
+příležítost. I kdyby se ten release trochu zpozdil, tak je to pořád
+velice relevantní a bude o čem přednášet.</p>
+
+<p>Co takhle tu osmičku „položit“ a udělat z ní nekonečno a připojit
+k tomu „infinite possibilities“:</p>
+
+<h3>D∞ – Infinite Possibilities</h3>
+
+<h3>Infinite Possibilities of D∞</h3>
+
+<p>.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57436" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57561"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57561" class="active">Hezký</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/wojtha.1.html" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 16 Listopad, 2012 - 09:36.  </div>
+
+  <div class="content">
+    <p>Na posledním koordinačním meetingu byl podobný (pracovní) návrh Drupalu
+jako vztahu „One to many“ a nakonec jsme se dopracovali také k ležaté
+osmičce, nevybavuju si, že by to někdo dával do souvislosti s D8, možná
+jo. Ale každopádně tohle se mi ale líbí víc! Bez té návaznosti na Drupal
+8 by to bylo jen klišé z TV reklamy, ale jelikož by se v Praze měl
+(hypoteticky) vypouštět do světa Drupal 8, tak je to něco jiného :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57561" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57761"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57761" class="active">Zležatit tu osmičku mě</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/mat-0.html" title="Zobrazit profil uživatele.">MaT</a> dne 20 Listopad, 2012 - 09:43.  </div>
+
+  <div class="content">
+    <p>Zležatit tu osmičku mě napadlo také – je zajímavé, jak lidé při
+takovém brainstormingu nezávisle na sobě docházejí ke stejným či
+podobným nápadům. :-) Ale pak jsem si říkal – no jo, nekonečno… To
+jako že tu osmičku už budeme mít napořád? Další verze už
+nebudou? :-)</p>
+
+<p>V angličtině má asi „infinity“ a „unlimited“ trošku blíž…
+Takže třeba infinite possibilities snad nezní tak blbě… :-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57761" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-57566"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57566" class="active">Developers, developers, developers &amp; East meets West</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="user/wojtha.1.html" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 16 Listopad, 2012 - 10:12.  </div>
+
+  <div class="content">
+    <p>Také jsem přemýšlel jak zamontovat českou kulturně-historickou
+zkušenost.</p>
+
+<ul>
+	<li>Prague – Heart of Europe</li>
+
+	<li>Prague – A Place where East meets West</li>
+</ul>
+
+<p>V historii jsme měli několik osobností, které propagovali sjednocenou
+Evropu: Jiřík z Poděbrad, Palacký,… Pak tu byl také Komenský „učitel
+národů“, který svoji novou metodu učení rozšířil po Evropě.</p>
+
+<ol>
+	<li>„Be open, be collaborative, be happy!“</li>
+
+	<li>nebo možne jen krátce „Be open, be happy!“</li>
+
+	<li>„Discuss. Learn. Share. Make the world better!“</li>
+</ol>
+
+<p>Z pohledu vývojáře myslím, že Otevřenost je pro novou éru
+Drupalu – verzi 8 – klíčová. Jak to už pár lidí zmínilo, přejalo
+se několik klíčových komponent ze Symfony 2, což má následující
+efekty:</p>
+
+<ol>
+	<li>Padá dlouholeté paradigma „Not invented here“, Drupal se přímo
+	v nejužším jádře spoléhá na komponenty třetí strany.</li>
+
+	<li>S tím souvisí i to, že se pomalu mění hranice Drupal světa a trochu
+	se smazává rozdíl mezi Drupalista vs klasický PHP programátor (Symfony
+	Zend, Nette…)*.</li>
+
+	<li>Mezi Symfony a Drupalem je nyní pevné pouto, které je oboustranně
+	prospěšné. Např. Fabien Potencier se podílel na implementaci SF2 do Drupalu
+	a komponenty upravil tak, aby byly flexibilnější a lépe vyhovovaly jeho
+	potřebám. A tudíž použití těchto knihoven v tak komplexním projektu
+	jako je Drupal pomáhá i samotnému SF2 být lepší a propojení těchto
+	komunit je ohromný win-win pro oba projekty. Drupalisti mají svoje know-how
+	zkušený „architektů“ relativně rozsáhlých systémů a Symfonisti zas
+	mají mnohem lepší znalosti z oblasti OOP a best practices
+	v současném PHP.</li>
+</ol>
+
+<p>Jakožto vývojář bych chtěl, aby hlavní téma bylo otevřenost a
+spolupráce a aby jeden track byl vyhrazen právě na představení jiných
+nástrojů a konceptů mimo Drupal. V business tracku by se ta otevřenost dala
+demonstrovat třeba zaměřením na spolupráci východu a západu.</p>
+
+<p><em>* Zrovna nedávno mě kontaktoval jeden PHP programátor s žádostí
+o konzultaci a s hrůzou mi líčil, jak otevřel nějaký modul a oni tam
+vůbec nebyly žádné třídy! Ale oni tam někde musí být!
+Nebo ne?</em></p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57566" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-57766"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="hlavni-tema-drupalcon-prague-2013.html#comment-57766" class="active">a pak, ze to bez trid nejde:)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 20 Listopad, 2012 - 11:51.  </div>
+
+  <div class="content">
+    a pak, ze to bez trid nejde:) myslim, ze na tom si spousta z nas kteri sli
+rovnou do Drupalu bude muset hooodne rozsirit znalosti… entityAPI je slusna
+pruprava.  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/16021/57766" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="https://www.drupal.cz/comment/reply/16021"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="filter/tips.html">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-cd73518b7f715f5b8d483d84113f7d7e" value="form-cd73518b7f715f5b8d483d84113f7d7e"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="https://www.drupal.cz/hlavni-tema-drupalcon-prague-2013?destination=node%2F16021"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="user/register.html" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="user/password.html" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-aad201265c93d38a87d1d0943c2a72b1" value="form-aad201265c93d38a87d1d0943c2a72b1"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="node/52781.html"><img src="files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="bezpecnost.html">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="clanky/akce.1.html" class="tagadelic level4">akce</a> 
+<a href="clanky/bezpecnost.1.html" class="tagadelic level6">bezpečnost</a> 
+<a href="clanky/cck.html" class="tagadelic level2">CCK</a> 
+<a href="clanky/como-ganhar-dinheiro.html" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="clanky/como-ganhar-dinheiro-na-internet.html" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="clanky/como-ganhar-dinheiro-pela-internet.html" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="clanky/drupal.html" class="tagadelic level3">drupal</a> 
+<a href="https://www.drupal.cz/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="clanky/drupal-7x.html" class="tagadelic level1">Drupal 7.x</a> 
+<a href="clanky/drupalcamp.1.html" class="tagadelic level1">drupalcamp</a> 
+<a href="clanky/drupalcon.html" class="tagadelic level1">drupalcon</a> 
+<a href="clanky/drupal-setkani.html" class="tagadelic level2">Drupal setkání</a> 
+<a href="clanky/forex.html" class="tagadelic level1">forex</a> 
+<a href="clanky/forex-broker.html" class="tagadelic level1">forex broker</a> 
+<a href="clanky/forex-trading-strategies.html" class="tagadelic level1">forex trading strategies</a> 
+<a href="clanky/fx-trading.html" class="tagadelic level2">FX trading</a> 
+<a href="clanky/game-war-cheats.html" class="tagadelic level1">game of war cheats</a> 
+<a href="clanky/ganhar-dinheiro.html" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="clanky/ganhar-dinheiro-na-internet.html" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="clanky/godus-cheats.html" class="tagadelic level1">godus cheats</a> 
+<a href="clanky/image.html" class="tagadelic level1">image</a> 
+<a href="clanky/landlord-house-insurance.html" class="tagadelic level1">landlord house insurance</a> 
+<a href="clanky/lokalizace.html" class="tagadelic level1">lokalizace</a> 
+<a href="clanky/moduly.html" class="tagadelic level6">moduly</a> 
+<a href="clanky/navod.html" class="tagadelic level2">navod</a> 
+<a href="clanky/online-forex-trading.html" class="tagadelic level1">online forex trading</a> 
+<a href="clanky/ostatni.html" class="tagadelic level3">ostatní</a> 
+<a href="clanky/overwatch-aimbot.html" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="clanky/php.html" class="tagadelic level1">php</a> 
+<a href="clanky/pro-webmastery.1.html" class="tagadelic level5">pro webmastery</a> 
+<a href="clanky/preklad.html" class="tagadelic level1">překlad</a> 
+<a href="clanky/prekladatelsky-sprint.html" class="tagadelic level1">překladatelský sprint</a> 
+<a href="clanky/preklady.html" class="tagadelic level2">překlady</a> 
+<a href="clanky/pripadove-studie.html" class="tagadelic level2">případové studie</a> 
+<a href="clanky/setkani.1.html" class="tagadelic level5">setkání</a> 
+<a href="clanky/setkani-akce.html" class="tagadelic level5">setkání, akce</a> 
+<a href="clanky/synthetic-opal.html" class="tagadelic level3">synthetic opal</a> 
+<a href="clanky/synthetic-opals.html" class="tagadelic level3">synthetic opals</a> 
+<a href="clanky/theming.html" class="tagadelic level2">theming</a> 
+<a href="clanky/tipy-triky.html" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="clanky/ubercart.html" class="tagadelic level1">UberCart</a> 
+<a href="clanky/views.html" class="tagadelic level2">views</a> 
+<a href="clanky/vyvoj.html" class="tagadelic level2">vývoj</a> 
+<a href="clanky/vyvoj-drupalu.html" class="tagadelic level5">vývoj drupalu</a> 
+<a href="clanky/zacatecnici.1.html" class="tagadelic level5">začátečníci</a> 
+<a href="clanky/sablony-vzhled.html" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="forum/po-instalaci/jak-na/zjisteni-block-id.html" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="forum/po-instalaci/jak-na/webform-user-node.html" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="forum.1.html" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html#comment-104041">Doplnění</a><br />před 5 hod 52 min</li>
+<li><a href="forum/po-instalaci/jak-na/zjisteni-block-id.html#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 5 hod</li>
+<li><a href="forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 19 hod</li>
+<li><a href="forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 18 hod</li>
+<li><a href="forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 22 hod</li>
+<li><a href="forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 23 hod</li>
+<li><a href="forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 17 hod</li>
+<li><a href="forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu.html#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 21 hod</li>
+<li><a href="forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="forum/po-instalaci/jak-na/webform-user-node.html#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="aggregator/pisou-na-slovensku.html" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="rss.xml" title="RSS Kanal"><img src="https://www.drupal.cz/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz.html">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>1 host</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="kontakt/sluzby.html">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":1575,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

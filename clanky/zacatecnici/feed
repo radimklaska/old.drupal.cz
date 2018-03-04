@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - začátečníci</title>
+ <link>https://www.drupal.cz/taxonomy/term/23/0</link>
+ <description>Pro absolutní začátečníky. Návody na instalaci, používání a základní techniky.</description>
+ <language>cs</language>
+<item>
+ <title>Tutoriály k Drupalu 7 ke stažení</title>
+ <link>https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni</link>
+ <description>&lt;p&gt;Uvolnili jsme ke stažení zdarma výukové materiály k Drupalu 7, určené
+původně pro naše školení. Můžete si je stáhnout na adrese: &lt;a href=&quot;http://www.squelle.com/cs/produkty-publikace/vyukove-materialy-uvod-do-drupalu-7&quot;&gt;http://www.squelle.com/…do-drupalu-7&lt;/a&gt;
+Tutoriály byly od začáktu zamýšleny tak, aby byly použitelné
+i samostatně, tj. bez návaznosti na školení.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/45476</wfw:commentRss>
+ <pubDate>Mon, 09 Feb 2015 08:07:13 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">45476 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal školenia | SDA</title>
+ <link>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda</link>
+ <description>&lt;p&gt;Slovenská Drupal Asociácia sa chystá organizovať Drupal školenia.
+Základné info na &lt;a href=&quot;http://drupal.sk/node/1897&quot;&gt;drupal.sk&lt;/a&gt; .
+Pomôžte nám získať viac info o vašich požiadavkách v ankete &lt;a href=&quot;https://apps.facebook.com/polldaddy-polls/?view=poll&amp;amp;id=7558115&quot;&gt;na
+facebooku&lt;/a&gt;, alebo v komentároch na drupal.sk, alebo tu.&lt;/p&gt;
+
+&lt;p&gt;Ďakujeme&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22956</wfw:commentRss>
+ <pubDate>Wed, 13 Nov 2013 11:59:01 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">22956 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Colorbox cez CkEeditor</title>
+ <link>https://www.drupal.cz/colorbox-cez-ckeeditor</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Viliam Kanianský (CoolStranky s.r.o.)        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Návod pre skutočných začiatočníkov (editorov), ako vložiť colorbox
+efekt bez potreby vedieť html pomocou CKEditora. Bolo vytvorené fakt len
+narýchlo pre klienta.&lt;/p&gt;&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/navod-colorbox.pdf&quot; type=&quot;application/pdf; length=107916&quot; title=&quot;navod-colorbox.pdf&quot;&gt;Colorbox efekt&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/colorbox-cez-ckeeditor#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12736</wfw:commentRss>
+ <pubDate>Fri, 22 Jun 2012 20:59:36 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">12736 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Instalace TinyMCE a IMCE v Drupalu 7</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/instalace-tinymce-imce-v-drupalu-7</link>
+ <description>&lt;p&gt;Drupal nemá vestavěný &lt;span title=&quot;What You See Is What You Get&quot;&gt;WYSIWYG&lt;/span&gt; editor (laicky řečeno:
+„tlačítka” pro formátování textu, jako jsou např. v MS Word).
+Výhodou je, že si můžete vybrat editor, který nejlépe vyhovuje vašim
+potřebám, a dokonce používat pro různé účely na webu odlišné editory
+(můžete chtít například jiný editor pro hlavního administrátora webu,
+jiný pro redaktory a jiný pro anonymní uživatele). Nevýhodou pochopitelně
+je, že WYSIWYG editor musíte doinstalovat. Existují různé možnosti, jak to
+udělat.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/instalace-tinymce-imce-v-drupalu-7&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/instalace-tinymce-imce-v-drupalu-7#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/imce">IMCE</category>
+ <category domain="https://www.drupal.cz/clanky/instalace">instalace</category>
+ <category domain="https://www.drupal.cz/clanky/tinymce">tinymce</category>
+ <category domain="https://www.drupal.cz/clanky/wysiwyg">wysiwyg</category>
+ <category domain="https://www.drupal.cz/clanky/wysiwyg-editory">wysiwyg editory</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10735</wfw:commentRss>
+ <pubDate>Mon, 05 Dec 2011 15:00:44 +0000</pubDate>
+ <dc:creator>Boreg</dc:creator>
+ <guid isPermaLink="false">10735 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Přesun webu na jiný server (Drupal 7) - pro začátečníky</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/presun-webu-na-jiny-server-drupal-7-pro-zacatecniky</link>
+ <description>&lt;p&gt;Jak postupovat, jestliže potřebujete přesunout web například
+z lokálního vývojového prostředí na ostrý web, nebo z jednoho serveru
+(resp. webhostingu) na jiný?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/presun-webu-na-jiny-server-drupal-7-pro-zacatecniky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/presun-webu-na-jiny-server-drupal-7-pro-zacatecniky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10702</wfw:commentRss>
+ <pubDate>Tue, 29 Nov 2011 07:26:18 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">10702 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Školení Drupalu 7 od Squelle (Praha, Brno)</title>
+ <link>https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Připravili jsme pro vás sérii školení, od přednášky pro úplné
+začátečníky, přes pokročilou konfiguraci, až po šablonování a tvorbu
+modulů.&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aktuální rozpis školení a možnost přihlásit se&lt;/strong&gt;
+najdete na adrese: &lt;a href=&quot;http://squelle.com/skoleni-konzultace&quot;&gt;http://squelle.com/…i-konzultace&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/programovani">programování</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10563</wfw:commentRss>
+ <pubDate>Wed, 02 Nov 2011 13:15:50 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">10563 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7 - instalace krok za krokem pro začátečníky</title>
+ <link>https://www.drupal.cz/drupal-7-instalace-krok-za-krokem-pro-zacatecniky</link>
+ <description>&lt;p&gt;Přísně vzato, umět nainstalovat Drupal NENÍ nutný předpoklad k tomu,
+abyste ovládli jeho základy. Existují totiž aplikace nebo webhostingy,
+které vám Drupal naservírují na stříbrném podnose, s instalací „na
+jeden klik“ – nebo dokonce i bez něj. Jestliže však svou snahu naučit
+se s Drupalem berete trochu vážně (tj. chcete být profesionál nebo
+alespoň pokročilý uživatel), pravděpodobně budete chtít instalaci sami
+umět a také rozumět tomu, co a proč děláte. Díky tomu budete mimo jiné
+vědět, jak váš web v Drupalu zazálohovat či jak jej přesunout na jiný
+server (otázky vyskytující se poměrně často i ve zdejším fóru).&lt;/p&gt;
+
+&lt;p&gt;V související &lt;a href=&quot;/files/prezentace/drupal-7-instalace-krok-za-krokem-pro-zacatecniky_squelle-group.pdf&quot;&gt;prezentaci&lt;/a&gt;
+najdete stručnou rekapitulaci postupu v podobě screenshotů.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/drupal-7-instalace-krok-za-krokem-pro-zacatecniky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/drupal-7-instalace-krok-za-krokem-pro-zacatecniky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/instalace">instalace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10380</wfw:commentRss>
+ <pubDate>Tue, 27 Sep 2011 13:08:09 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">10380 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak zprovoznit hledání pomocí Apache Solr</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0</link>
+ <description>&lt;p&gt;Pokládal jsem dotaz do fóra, jaké vyhledávání používáte. A při tom
+jsem si řekl, že zkusím zprovoznit vyhledávání přes Solr. A jelikož
+jsem uspěl, tak se s vámi podělím. Předem upozorňuji, že se jedná
+o platformu Windows, ale pro linux je všude hafo návodů a navíc to bude
+skoro stejné…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/Jak_na_hledani_Apache_Solr_0.pdf" length="384730" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9748</wfw:commentRss>
+ <pubDate>Fri, 20 May 2011 14:45:02 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9748 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak zprovoznit hledání pomocí Apache Solr</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr</link>
+ <description>&lt;p&gt;Pokládal jsem dotaz do fóra, jaké vyhledávání používáte. A při tom
+jsem si řekl, že zkusím zprovoznit vyhledávání přes Solr. A jelikož
+jsem uspěl, tak se s vámi podělím. Předem upozorňuji, že se jedná
+o platformu Windows, ale pro linux je všude hafo návodů a navíc to bude
+skoro stejné…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/vyhledavani">vyhledávání</category>
+ <enclosure url="https://www.drupal.cz/files/Jak_na_hledani_Apache_Solr.pdf" length="392641" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9742</wfw:commentRss>
+ <pubDate>Thu, 19 May 2011 10:14:14 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9742 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak nastavit WYSIWYG editor, aby škodil co nejméně?</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-nastavit-wysiwyg-editor-aby-skodil-co-nejmene</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Eva Rázgová        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Wysiwyg_0.pdf&quot; type=&quot;application/pdf; length=122017&quot;&gt;Wysiwyg.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani/drupal-setkani-praha-15-zari-2010&quot;&gt;Drupal setkání - Praha - 15. Září 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-nastavit-wysiwyg-editor-aby-skodil-co-nejmene#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/wysiwyg">wysiwyg</category>
+ <category domain="https://www.drupal.cz/clanky/wysiwyg-editory">wysiwyg editory</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8282</wfw:commentRss>
+ <pubDate>Fri, 17 Sep 2010 11:29:16 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8282 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kdy, jak (a proč) se obejít bez vkládání obrázků do textu</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/kdy-jak-proc-se-obejit-bez-vkladani-obrazku-do-textu</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Eva Rázgová        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Obrazky.pdf&quot; type=&quot;application/pdf; length=381660&quot;&gt;Obrazky.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/drupal-setkani-praha-29-dubna-2010&quot;&gt;Drupal setkání - Praha - 29. Dubna 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/kdy-jak-proc-se-obejit-bez-vkladani-obrazku-do-textu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8277</wfw:commentRss>
+ <pubDate>Fri, 23 Apr 2010 11:21:50 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8277 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Rules: jak podmínit uložení příspěvku zaškrtnutím checkboxu</title>
+ <link>https://www.drupal.cz/blog/ema/rules-jak-podminit-ulozeni-prispevku-zaskrtnutim-checkboxu</link>
+ <description>&lt;p&gt;Cílem je, aby se uzel uložil jen při splnění podmínky (typicky:
+zaškrtnutí políčka – něco jako „Souhlasím s pravidly…“; to je
+ale jen příklad, teoreticky může být podmínka jakákoliv).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/rules-jak-podminit-ulozeni-prispevku-zaskrtnutim-checkboxu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/rules-jak-podminit-ulozeni-prispevku-zaskrtnutim-checkboxu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/rules">rules</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7159</wfw:commentRss>
+ <pubDate>Thu, 04 Mar 2010 12:33:12 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7159 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – III.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – I.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – II.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu –
+	III.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Kategorie (taxonomy)&lt;/h2&gt;
+
+&lt;p&gt;Slouží k nastavení kategorií. V našem případě tří – a to
+roků.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/fotogalerie_views.pdf" length="597015" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6895</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 15:06:48 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6895 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – II.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – I.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu –
+	II.&lt;/strong&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – III.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Potřebné moduly&lt;/h2&gt;
+
+&lt;p&gt;Modulů není málo, ale většinu z nich byste stejně instalovali
+k jinému účelu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6894</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 15:05:09 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6894 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – I.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu – I.&lt;/strong&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – II.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – III.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Úvod&lt;/h2&gt;
+
+&lt;p&gt;Jelikož jsem se po letech rozhodl updatovat jeden z mých projektů
+z Drupalu 5 na Drupal 6, tak přišla ke slovu i fotogalerie. Doteď jsem
+využíval projektu &lt;a href=&quot;http://codex.gallery2.org&quot;&gt;Gallery
+2&lt;/a&gt; propojeného modulem s Drupalem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/fotogalerie_1_vypis.jpg" length="51781" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6893</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 09:50:19 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6893 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nastavení v galerii modulu Image další a zpět</title>
+ <link>https://www.drupal.cz/blog/llenek/nastaveni-v-galerii-modulu-image-dalsi-zpet</link>
+ <description>&lt;p&gt;Nainstalovat modul Image a zařídit vše pro hladký běh galerie. Naprosto
+běžná záležitost. Ale co stránkování v galerii? To byl pro mne
+oříšek, pro neznalce php a všeho toho programování.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/llenek/nastaveni-v-galerii-modulu-image-dalsi-zpet&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/llenek/nastaveni-v-galerii-modulu-image-dalsi-zpet#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6007</wfw:commentRss>
+ <pubDate>Tue, 22 Sep 2009 08:52:51 +0000</pubDate>
+ <dc:creator>l.lenek</dc:creator>
+ <guid isPermaLink="false">6007 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>DDD - Dos and Don´ts Drupalu</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/ddd-do-and-don%C2%B4t-drupalu</link>
+ <description>&lt;p&gt;Čeho se vyvarovat a jak to dělat správně. Přečtení vám zabere
+několik minut, ale ušetří vám celé dny vašeho drahocenného času
+(kreativnějším jedincům i týdny :-)).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/ddd-do-and-don%C2%B4t-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/ddd-do-and-don%C2%B4t-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5204</wfw:commentRss>
+ <pubDate>Tue, 26 May 2009 06:17:33 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">5204 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Webform</title>
+ <link>https://www.drupal.cz/blog/llenek/webform</link>
+ <description>&lt;p&gt;Jak na webform (modul pro vytváření jednoduchých formulářů)&lt;br /&gt;
+ &lt;a href=&quot;http://tomas.dankovi.info/content/webform&quot;&gt;http://tomas.dankovi.info/content/webform&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/llenek/webform#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5124</wfw:commentRss>
+ <pubDate>Wed, 06 May 2009 10:47:10 +0000</pubDate>
+ <dc:creator>l.lenek</dc:creator>
+ <guid isPermaLink="false">5124 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Captcha</title>
+ <link>https://www.drupal.cz/blog/llenek/captcha</link>
+ <description>&lt;p&gt;Tak jsem tu s dalším odkazem a to tentokrát na nastavení Captchy&lt;br /&gt;
+ &lt;a href=&quot;http://tomas.dankovi.info/node/21&quot;&gt;http://tomas.dankovi.info/node/21&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/llenek/captcha#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5123</wfw:commentRss>
+ <pubDate>Wed, 06 May 2009 10:25:42 +0000</pubDate>
+ <dc:creator>l.lenek</dc:creator>
+ <guid isPermaLink="false">5123 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tagadelik - nebo-li obláček tagů</title>
+ <link>https://www.drupal.cz/blog/llenek/tagadelik-nebo-li-oblacek-tagu</link>
+ <description>&lt;p&gt;Zdravím, taky chci trošku pomoc lidem (i mne je pomáháno), tak posílám
+odkaz na návod jak udělat ten zázračný obláček mraků.(boxík
+označovaný jako Tag Cloud)&lt;br /&gt;
+ &lt;a href=&quot;http://www.maxiorel.cz/jak-na-boxik-tag-cloud-v-drupalu&quot;&gt;http://www.maxiorel.cz/…ud-v-drupalu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahoj všem. l.lenek&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/llenek/tagadelik-nebo-li-oblacek-tagu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5120</wfw:commentRss>
+ <pubDate>Wed, 06 May 2009 07:49:26 +0000</pubDate>
+ <dc:creator>l.lenek</dc:creator>
+ <guid isPermaLink="false">5120 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

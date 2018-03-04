@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>mojzis&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/mojzis</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>drush up - pozor, ted ne (i18n)</title>
+ <link>https://www.drupal.cz/blog/mojzis/drush-pozor-ted-ne-i18n</link>
+ <description>&lt;p&gt;pozor na „bezhlave“ aplikovani drush up – dost webu v .cz ma i18n
+nainstalovany a ten ma s nejnovejsi verzi problem blize viz &lt;a href=&quot;http://drupal.org/drupal-7.12#known-issues&quot;&gt;http://drupal.org/drupal-7.12#…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;proted tedy : drush up –security-only – melo by stahnout 7.11&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mojzis/drush-pozor-ted-ne-i18n#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10979</wfw:commentRss>
+ <pubDate>Thu, 02 Feb 2012 17:32:42 +0000</pubDate>
+ <dc:creator>mojzis</dc:creator>
+ <guid isPermaLink="false">10979 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>d7 a admin role</title>
+ <link>https://www.drupal.cz/blog/mojzis/d7-admin-role</link>
+ <description>&lt;p&gt;Když na nějakém webu pracuje víc lidí (správně i když na něm
+děláte sami), je lepší jim udělat vlastní uživatele a těm dát roli
+administrator. To v d6 zajišťoval užitečný modul &lt;a href=&quot;http://drupal.org/project/adminrole&quot;&gt;adminrole&lt;/a&gt;. Tenhle modul se v D7
+přestěhoval do core, roli administrator ale přidává až profil – třeba
+standard.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mojzis/d7-admin-role&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mojzis/d7-admin-role#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/d7">D7</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9307</wfw:commentRss>
+ <pubDate>Mon, 07 Mar 2011 22:31:21 +0000</pubDate>
+ <dc:creator>mojzis</dc:creator>
+ <guid isPermaLink="false">9307 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Marku díky !</title>
+ <link>https://www.drupal.cz/blog/mojzis/marku-diky</link>
+ <description>&lt;p&gt;drupalí vánoční besídka byla skvělá !&lt;/p&gt;
+
+&lt;p&gt;Když jsi trochu hořce promlouval o všech těch uspořádaných akcích,
+uvědomil jsem si, že bychom Ti všichni měli být pořádně vděční. Tak
+já teda jsem :-). Dumám, jak se Ti odvděčit … asi taky něco uspořádat ?
+Časem zkusím. Mezitím navrhuju aspoň rozjet debatu, co dál.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mojzis/marku-diky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mojzis/marku-diky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/kudos">kudos</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8782</wfw:commentRss>
+ <pubDate>Wed, 15 Dec 2010 14:51:38 +0000</pubDate>
+ <dc:creator>mojzis</dc:creator>
+ <guid isPermaLink="false">8782 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>3ddi3&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/3ddi3</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Přechod na 5.1.</title>
+ <link>https://www.drupal.cz/blog/3ddi3/prechod-na-5-1</link>
+ <description>&lt;p&gt;Tak sem dnes přešel na novější verzi. Hodně sem se bál, že se mi
+pokazí databáze, tak sem se ji jal zálohovat. Stahl sem novej PhpMyAdmin, dal
+ho na localhost, nainstalil, držel se všech rad v instalačním manuálu.
+Vypadá to ok, akorát to nezálohuje databázi. Vypíše error že export.php
+chybí parametr. Ať hledám jak hledám, i přes nastavení podle FAQ
+u tohoto erroru, se mi to nepodařilo rozchodit. Nechce se mi již registrovat
+pro stahnutí zend, abych ho mohl updatnout, pak sem dostal osvicený nápad,
+vždyť mysql má přece mysqldump, fajn, tak se mi po chvilce laborovaní
+podařilo si udělat zálohu, zazálohoval jsem drupal a databázi. Stáhl novou
+verzi a postupoval přesně podle 10ti kroků v upgrade textu. Všecko
+proběhlo jak má, a teď mám novou verzi. Jsem šťastný, zatím nic
+nevypadá, že by nefungovalo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/3ddi3/prechod-na-5-1&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/3ddi3/prechod-na-5-1#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/642</wfw:commentRss>
+ <pubDate>Tue, 30 Jan 2007 11:07:27 +0000</pubDate>
+ <dc:creator>3ddi3</dc:creator>
+ <guid isPermaLink="false">642 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Instalace TinyMCE</title>
+ <link>https://www.drupal.cz/blog/3ddi3/instalace-tinymce</link>
+ <description>&lt;p&gt;Tak super, podařilo se mi podle &lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/tinymce-a-drupal-5-instalace-pro-zacatecniky&quot;&gt;návodu
+od SpatnyNick&lt;/a&gt; nainstalovat &lt;a href=&quot;http://www.drupal.cz/clanky/moduly/tinymce-editor-pro-fajnsmekry-i-bezne-uzivatele&quot;&gt;TinyMCE
+editorek&lt;/a&gt; obsahu, tak teď už se bude tvořit obsah jedna báseň. Doufám,
+že mi to půjde od ruky tak jak budu chtít.&lt;/p&gt;
+
+&lt;p&gt;Teďka bych se chtěl vrhnout na vložení odkazů na jednotlivé brožůrky
+a zjistit jak se budou vkládat obrázky do těchto textů atd. Jakékoliv
+nápady a tipy přivítám.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/3ddi3/instalace-tinymce&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/3ddi3/instalace-tinymce#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/637</wfw:commentRss>
+ <pubDate>Mon, 29 Jan 2007 20:56:10 +0000</pubDate>
+ <dc:creator>3ddi3</dc:creator>
+ <guid isPermaLink="false">637 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Typy Obsahu</title>
+ <link>https://www.drupal.cz/blog/3ddi3/typy-obsahu</link>
+ <description>&lt;p&gt;Z nějakého záhadného důvodu se mi nevytvořili typy obsahu stránka a
+článek, tak jako při jiné instalaci. Jelikož sem už vytvořil do databáze
+nějáke záznamy a mám už vytvořeny nějaké článečky, tak sem si řekl,
+že na to pokusim se vyzrát. Zjistil sem, že rozdíl mezi page a story je jen
+v tom, že je vidět na hlavní straně nebo ne, tak sem to nastavil, tak jak
+potřebuji, tedy stránka se nezobrazuje v seznamu článků. To bude úvodní
+stránka, která se zobrazí při příchodu na web pastaimpianti.cz&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/3ddi3/typy-obsahu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/3ddi3/typy-obsahu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/636</wfw:commentRss>
+ <pubDate>Mon, 29 Jan 2007 19:20:00 +0000</pubDate>
+ <dc:creator>3ddi3</dc:creator>
+ <guid isPermaLink="false">636 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Instalace</title>
+ <link>https://www.drupal.cz/blog/3ddi3/instalace</link>
+ <description>&lt;p&gt;Jelikož mám na starost utvořit 2× web, jeden by měl být pro stránky &lt;a href=&quot;http://www.indoorcycling.cz&quot;&gt;www.indoorcycling.cz&lt;/a&gt;, mých skvelých
+známých lidiček a skvělého sportu, kterému se taky osobně věnuji, tak
+mám nastarost tento web předělat.&lt;/p&gt;
+
+&lt;p&gt;Druhý web bude firemní prezentace firmy Pasta Impianti s.r.o. na jejich
+webu &lt;a href=&quot;http://www.pastaimpianti.cz&quot;&gt;www.pastaimpianti.cz&lt;/a&gt;, musím
+připravit webovou prezentaci, a pak bych chtěl vytvořit i webový eshop. Tak
+uvidíme, držte palce, snad se podaří vše co sem si předsevzal
+v krátké době.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/3ddi3/instalace&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/3ddi3/instalace#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/626</wfw:commentRss>
+ <pubDate>Sat, 27 Jan 2007 13:02:07 +0000</pubDate>
+ <dc:creator>3ddi3</dc:creator>
+ <guid isPermaLink="false">626 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak sem objevil drupal</title>
+ <link>https://www.drupal.cz/blog/3ddi3/jak-sem-objevil-drupal</link>
+ <description>&lt;p&gt;Zdravím všechny, kteří čtou tento blog. Dnes sem objevil web drupalu. No
+dobře ne dnes, asi tak před týdnem, nainstaloval sem první 5.0 instalaci,
+pak sem přidal pár modulů, a snažil sem se proniknout do tohoto
+nástroje.&lt;/p&gt;
+
+&lt;p&gt;Budu zde popisovat problémy a mé postřehy jak udělat co, a co se mi
+daří a co nedaří, a budu chtít samozřejmě číst vaše reakce, a rady co
+a jak udělat.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/3ddi3/jak-sem-objevil-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/3ddi3/jak-sem-objevil-drupal#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/625</wfw:commentRss>
+ <pubDate>Sat, 27 Jan 2007 12:36:57 +0000</pubDate>
+ <dc:creator>3ddi3</dc:creator>
+ <guid isPermaLink="false">625 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

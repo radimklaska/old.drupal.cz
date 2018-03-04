@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>zsiosemily&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/zsiosemily</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Přihlášení uživatele</title>
+ <link>https://www.drupal.cz/blog/zsiosemily/prihlaseni-uzivatele</link>
+ <description>&lt;p&gt;Chtěl bych se zeptat, zda někdo nevíte, proč se mě nejde přihlásit do
+drupalu na mých nových stránkách, když jsem je měl na localhostu, vše
+chodilo. Teď tam máš bílou obrazovku a nehlásí tam žádnou chybovou
+hlášku. V poli adresa mě to píše: &lt;a href=&quot;http://zsiosemily.cz/?q=node&amp;amp;destination=node&quot;&gt;http://zsiosemily.cz/?…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dík za pomoc&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/zsiosemily/prihlaseni-uzivatele#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/37366</wfw:commentRss>
+ <pubDate>Fri, 10 Oct 2014 17:01:33 +0000</pubDate>
+ <dc:creator>zsiosemily</dc:creator>
+ <guid isPermaLink="false">37366 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

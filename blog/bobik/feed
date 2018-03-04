@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Honza Pobořil&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/bobik</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Top Hosting: Mezi slepými je jednooký králem</title>
+ <link>https://www.drupal.cz/blog/bobik/top-hosting-mezi-slepymi-je-jednooky-kralem</link>
+ <description>&lt;p&gt;Rád bych upozornil na &lt;a href=&quot;http://www.root.cz/clanky/k-soutezi-top-hostingy-aneb-jednooky-hosting-kralem/&quot;&gt;tento
+článek&lt;/a&gt;, který rozebírá pro nás Drupalisty častý problém se
+zbytečné technickém omezování hostingů na českém trhu.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/bobik/top-hosting-mezi-slepymi-je-jednooky-kralem#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bezpecnost">bezpečnost</category>
+ <category domain="https://www.drupal.cz/clanky/webhosting">Webhosting</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6620</wfw:commentRss>
+ <pubDate>Thu, 10 Dec 2009 13:23:46 +0000</pubDate>
+ <dc:creator>Honza Pobořil</dc:creator>
+ <guid isPermaLink="false">6620 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

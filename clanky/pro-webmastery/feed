@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - pro webmastery</title>
+ <link>https://www.drupal.cz/taxonomy/term/21/0</link>
+ <description>Jste uživatelé Drupalu? Vyvíjíte weby pomocí tohoto CMS?</description>
+ <language>cs</language>
+<item>
+ <title>V IE10 již není limit 31 souborů se styly</title>
+ <link>https://www.drupal.cz/blog/agir/v-ie10-jiz-neni-limit-31-souboru-se-styly</link>
+ <description>&lt;p&gt;Tak je to tady (tedy skoro). V Internet Exploreru 10 nebude již omezení
+31 připojený stylesheetů ke stránce. Takže ti, kteří nepoužívají CSS
+komprimaci se mají na co těšit. Blíží se konec další nesmyslné chyby
+v IE.&lt;br /&gt;
+ZDROJ: &lt;a href=&quot;http://msdn.microsoft.com/en-us/ie/hh272902.aspx#_CSSRemoveLimits&quot;&gt;http://msdn.microsoft.com/…h272902.aspx#…&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/agir/v-ie10-jiz-neni-limit-31-souboru-se-styly#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10261</wfw:commentRss>
+ <pubDate>Mon, 29 Aug 2011 08:50:22 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">10261 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Great deal on a Linode VPS!</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/great-deal-linode-vps</link>
+ <description>&lt;p&gt;Are you interested in having your own VPS? I&#039;ve been incredibly satisfied
+with Linode over the last year or so. Their server performance and management
+system are amazing. If you are interested in trying a Linode VPS (get one in the
+London data center if you have Czech traffic), there is a great buy on Appsumo
+for $47 which includes $60 of credit for Linode!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/great-deal-linode-vps&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/great-deal-linode-vps#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/webhosting">Webhosting</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8646</wfw:commentRss>
+ <pubDate>Fri, 19 Nov 2010 15:29:16 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">8646 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Trochu o opravnenich</title>
+ <link>https://www.drupal.cz/blog/karlos/trochu-o-opravnenich</link>
+ <description>&lt;p&gt;Ozval se mi znamý s problemem: vytvoril jsem uzivatelskou roli
+„redakce“ priradil ji prava pro upravu obsahu, ale uzivatelum v teto roli
+se nezobrazi zalozky „zobrazit“ a „upravit“. Prosel jsem opravneni a
+nenasel zadny problem. Zkusil jsem vytvorit novy obsah a hle zalozky tam byly.
+Tak jsem se dal na systém „pokus – omyl“. Provedl update drupalu na
+nejnovejsi. Nepomohlo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/trochu-o-opravnenich&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/trochu-o-opravnenich#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7096</wfw:commentRss>
+ <pubDate>Sun, 21 Feb 2010 11:19:54 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7096 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Artisteer - a koderi nebudou mit co zrat</title>
+ <link>https://www.drupal.cz/blog/karlos/artisteer-koderi-nebudou-mit-co-zrat</link>
+ <description>&lt;p&gt;Na webu Maxiorla jsem videl nadpis clanku(nejak mu to nefunguje takze proto
+jen nadpis) o tomhle programu o kterem jsem jiz slysel a videl nejaky screen.
+Tak jsem ho zkusil, jestli to neni program „jaky svet nevidel“.&lt;/p&gt;
+
+&lt;p&gt;Koderi nebudou mit co zrat. Pekny theme presne podle vasich prani pro Drupal
+si proste naklikate behem pul hodiny. Tech 130 kolacu neni moc kdyz budete
+delat &amp;gt; 1 web.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/artisteer-koderi-nebudou-mit-co-zrat#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5047</wfw:commentRss>
+ <pubDate>Mon, 20 Apr 2009 17:38:05 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">5047 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>První komerční verze Drupalu je na světě</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/prvni-komercni-verze-drupalu-je-na-svete</link>
+ <description>&lt;p&gt;Dnes, 30. září 2008, oficiálně &lt;a href=&quot;http://acquia.com/products-services/acquia-drupal&quot;&gt;vyšla komerční verze
+Drupalu&lt;/a&gt; od společnosti &lt;a href=&quot;http://acquia.com&quot;&gt;Acquia&lt;/a&gt;. Tato
+„Enterprise“ verze Drupalu už byla dostupná několik týdnů pod
+pracovním názvem „Carbon“. Acquia Drupal je dostupný pod licencí GPL,
+placená bude především podpora a připojení do Acquia Network.&lt;/p&gt;
+
+&lt;p&gt;Společnost Acquia založil cca před rokem &lt;a href=&quot;http://buytaert.net&quot;&gt;Dries Buytaert&lt;/a&gt; (původní tvůrce Drupalu) a
+společnost nyní zaměstnává několik významných vývojářů a &lt;a href=&quot;http://acquia.com/about-us/team&quot;&gt;dlouholetých členů komunity&lt;/a&gt;
+(Robert Douglass, Ethan Fremen, Gábor Hojtsy, Peter Wolanin, …) a s mnoha
+dalšími „zasloužilými“ členy má Acquia uzavřeno partnerství.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/prvni-komercni-verze-drupalu-je-na-svete&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/prvni-komercni-verze-drupalu-je-na-svete#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3805</wfw:commentRss>
+ <pubDate>Tue, 30 Sep 2008 21:53:56 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">3805 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Komfortní vyhledávání v drupal modulech</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/komfortni-vyhledavani-v-drupal-modulech</link>
+ <description>&lt;p&gt;Na První Drupal konferenci se v diskusi několik lidí vyjádřilo ohledně
+špatné použitelnosti struktury modulů na drupal.org a při jejich
+vyhledávání. Víte, že existuje alternativa?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/komfortni-vyhledavani-v-drupal-modulech&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/komfortni-vyhledavani-v-drupal-modulech#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3563</wfw:commentRss>
+ <pubDate>Thu, 14 Aug 2008 22:01:24 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">3563 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>České systémy měření statistik</title>
+ <link>https://www.drupal.cz/clanky/clanky/pro-webmastery/ceske-systemy-mereni-statistik</link>
+ <description>&lt;p&gt;Modul pro Google Analytics sice pro Drupal existuje, ale pokud chce člověk
+použí některou z českých služeb pro sledování návštěvnosti, neměl
+donedávna žádnou možnost jak jejich kód snadno začlenit.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/clanky/pro-webmastery/ceske-systemy-mereni-statistik&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/clanky/pro-webmastery/ceske-systemy-mereni-statistik#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2371</wfw:commentRss>
+ <pubDate>Mon, 18 Feb 2008 20:10:25 +0000</pubDate>
+ <dc:creator>nijel</dc:creator>
+ <guid isPermaLink="false">2371 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak vypnout register_globals</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/jak-vypnout-register-globals</link>
+ <description>&lt;p&gt;Setkali jste se při používání Drupalu 6 s nutností vypnout direktivu
+register_globals v PHP? Zde je návod, jak na to.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/jak-vypnout-register-globals&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/jak-vypnout-register-globals#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2476</wfw:commentRss>
+ <pubDate>Fri, 15 Feb 2008 20:25:32 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2476 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak upgradovat na Drupal 6</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6</link>
+ <description>&lt;p&gt;Byl vydán Drupal 6. Jak na něj upgradovat?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2456</wfw:commentRss>
+ <pubDate>Wed, 13 Feb 2008 15:30:23 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2456 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak napsat vlastní modul pro Drupal - díl 4. - Odkazy</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-4-odkazy</link>
+ <description>&lt;p&gt;Dnes velmi krátce o tom, jak tvořit odkazy v modulech, případně
+snippetech.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-4-odkazy&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-4-odkazy#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2152</wfw:commentRss>
+ <pubDate>Wed, 12 Dec 2007 23:00:12 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2152 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak napsat vlastní modul pro Drupal - díl 3. - Bloky</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-3-bloky</link>
+ <description>&lt;p&gt;V dnešním minidíle seriálu o tvoření modulů se podíváme na to, jak
+tvořit vlastní bloky.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-3-bloky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/jak-napsat-vlastni-modul-pro-drupal-dil-3-bloky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1845</wfw:commentRss>
+ <pubDate>Sun, 07 Oct 2007 23:00:01 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">1845 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tipy pro vícejazyčné weby</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/tipy-pro-vicejazycne-weby</link>
+ <description>&lt;p&gt;Pár tipů pro uživatele, kteří používají vícejazyčný web pomocí
+modulu i18n. Pochází z těžce vydřených zkušeností při vývoji
+vícejazyčného webu :-) Jak na vícejazyčnou úvodní stránku a jak na
+vícejazyčné proměnné?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/tipy-pro-vicejazycne-weby&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/tipy-pro-vicejazycne-weby#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1755</wfw:commentRss>
+ <pubDate>Thu, 20 Sep 2007 07:58:34 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">1755 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal a SEO III. - Další moduly</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/drupal-seo-iii-dalsi-moduly</link>
+ <description>&lt;p&gt;V třetím dílu seriálu o optimalizaci webu pro uživatele si povíme
+o modulech, které vám dále pomohou vylepšit náš web.&lt;/p&gt;
+
+&lt;h2&gt;Napřed pár pojmů.&lt;/h2&gt;
+ &lt;i&gt;Klíčová slova (Keywords)&lt;/i&gt; – slova, která by měla vystihnout obsah
+stránky. Snažte se aby se klíčová slova v textu stránky vyskytovala.
+vkládají se do metatagu. Nejlépe asi pochopíte na příkladu:&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/drupal-seo-iii-dalsi-moduly&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/drupal-seo-iii-dalsi-moduly#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1682</wfw:commentRss>
+ <pubDate>Sun, 09 Sep 2007 23:00:13 +0000</pubDate>
+ <dc:creator>mydahoo</dc:creator>
+ <guid isPermaLink="false">1682 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tabulky v Drupalu, administrace, 2. část</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/tabulky-v-drupalu-administrace-2-cast</link>
+ <description>&lt;p&gt;Tento článek navazuje na &amp;lt;a
+href=„/clanky/clan­ky/pro-webmastery/tabulky-v-drupalu-administrace-tabulek-1-cast“&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/tabulky-v-drupalu-administrace-2-cast&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/tabulky-v-drupalu-administrace-2-cast#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1306</wfw:commentRss>
+ <pubDate>Mon, 16 Jul 2007 09:52:19 +0000</pubDate>
+ <dc:creator>roman</dc:creator>
+ <guid isPermaLink="false">1306 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Lehký praktický úvod do pohledů - views</title>
+ <link>https://www.drupal.cz/clanky/clanky/pro-webmastery/uvod-do-pohledu</link>
+ <description>&lt;p&gt;Pokud Vás někdy oslovil Drupal, určitě jste nalezli CCK a od té doby si
+život bez něj nedokážete představit. Dnes nám Milan Vít představí
+Views, něco, co Vašemu Drupalu dodá nový rozměr.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/clanky/pro-webmastery/uvod-do-pohledu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/clanky/pro-webmastery/uvod-do-pohledu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1187</wfw:commentRss>
+ <pubDate>Mon, 04 Jun 2007 07:27:55 +0000</pubDate>
+ <dc:creator>miloso</dc:creator>
+ <guid isPermaLink="false">1187 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tabulky v Drupalu, administrace, 1. část</title>
+ <link>https://www.drupal.cz/clanky/clanky/pro-webmastery/tabulky-v-drupalu-administrace-tabulek-1-cast</link>
+ <description>Jednou přijde den… kdy budete chtít na stránce nejen zobrazit tabulky
+s různými daty, ale taky, aby se tato data mohla uživatelským způsobem
+administrovat. Není problém dát do zdrojového kódu stránky klasické
+
+. Pokud je tabulka větší a data se častěji mění, upravovat zdrojový kód
+nemusí být zrovna příjemná práce.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/clanky/pro-webmastery/tabulky-v-drupalu-administrace-tabulek-1-cast&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/clanky/pro-webmastery/tabulky-v-drupalu-administrace-tabulek-1-cast#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <enclosure url="https://www.drupal.cz/files/tabulky-1.png" length="31777" type="image/png" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1123</wfw:commentRss>
+ <pubDate>Sun, 20 May 2007 23:30:25 +0000</pubDate>
+ <dc:creator>roman</dc:creator>
+ <guid isPermaLink="false">1123 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Google Adsense v Drupalu</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/google-adsense-v-drupalu</link>
+ <description>&lt;p&gt;Open source redakční systém Drupal dospěl ke své 5 verzi a fenomén
+Adsense se šíří po České Republice, proto Lukáš ze serveru Ad-sense.cz
+připravil malý návod jak bezproblémově vložit reklamu přesně tam, kde je
+nejvíce viditelná.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/google-adsense-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/google-adsense-v-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/500</wfw:commentRss>
+ <pubDate>Mon, 12 Feb 2007 12:04:26 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">500 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tvorba vlastního vzhledu I. - základní pojmy</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/tvorba-designu-pro-stranky-v-rs-drupal</link>
+ <description>&lt;p&gt;Protože webdesign je můj denní chleba, tak mi bylo od začátku
+používání RS Drupal jasné, že si s dostupnými šablonami nevystačím.
+Pro ty, kteří také nejsou spokojeni s nabídkou šablon uveřejněných na
+&lt;a href=&quot;http://www.drupal.org&quot;&gt;www.drupal.org&lt;/a&gt; nabízím vodítka jak
+vytvořit vlastní deisgn pro RS Drupal (případně modifikovat některou ze
+šablon).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/tvorba-designu-pro-stranky-v-rs-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/tvorba-designu-pro-stranky-v-rs-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/125</wfw:commentRss>
+ <pubDate>Mon, 22 Jan 2007 22:10:49 +0000</pubDate>
+ <dc:creator>Brumisek</dc:creator>
+ <guid isPermaLink="false">125 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pěkná témata vzhledu pro Drupal - I.</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/pekna-temata-vzhledu-pro-drupal-i</link>
+ <description>&lt;p&gt;V minulosti se říkalo, že největší slabinou Drupalu je nedostatek
+designerů. Nové téma pro 5.0 – Garland myslím ukazuje opak a i dostatek
+témat pro 4.7 dokazuje, že se blýská na lepší časy. První díl
+zajímavých témat.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/pekna-temata-vzhledu-pro-drupal-i&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/pekna-temata-vzhledu-pro-drupal-i#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/504</wfw:commentRss>
+ <pubDate>Sun, 07 Jan 2007 23:56:23 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">504 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nový styl verzování modulů na Drupal.org</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/novy-release-system-je-venku</link>
+ <description>&lt;p&gt;Po dlouhé době vývoje a testování se na Drupal.org objevil nový systém
+verzí (před asi 14 dny). Bude se týkat každého, kdo používá nebo
+spravuje moduly a témata, tedy vlastně každého.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/novy-release-system-je-venku&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/novy-release-system-je-venku#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/430</wfw:commentRss>
+ <pubDate>Wed, 06 Dec 2006 22:03:56 +0000</pubDate>
+ <dc:creator>admiral</dc:creator>
+ <guid isPermaLink="false">430 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

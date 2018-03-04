@@ -1,0 +1,13 @@
+$tabulka .= <<<ENDHTML
+  <tr>                                  
+ 
+     <td> <a href="form_inst_input_0.php?Name='$inst_acronym'"
+        title="View Institution identification card (2) for '$inst_acronym'">$inst_acronym</a> </td>   
+     <td>$inst_name_en</td>
+
+     <td style="text-align: center">$hod1</td>                                                                                            
+      <td style="text-align: center">$hod2</td>   
+
+ 
+  </tr>
+ENDHTML;

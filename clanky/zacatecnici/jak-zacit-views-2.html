@@ -1,0 +1,1306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Jak začít - Views 2  &quot;" href="https://www.drupal.cz/crss/node/3921" />
+<link rel="shortcut icon" href="https://www.drupal.cz/misc/favicon.ico" type="image/x-icon" />
+ <title>Jak začít - Views 2   | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="../../files/css/css_89f0b64afb4ba47f586bd984f765f0a7.css" />
+ <script type="text/javascript" src="../../files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="jak-zacit-views-2.html#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="../../node/index.html">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="../../o-systemu-drupal.html"><span>O Drupalu</span></a></li>
+<li><a href="../../blog.html"><span>Blogy</span></a></li>
+<li><a href="../../faq.html"><span>FAQ</span></a></li>
+<li><a href="../../forum.1.html"><span>Fórum</span></a></li>
+<li><a href="../../prezentace.html"><span>Prezentace</span></a></li>
+<li><a href="../../preklad-drupalu-do-cestiny-zakladni-informace.html"><span>Překlady</span></a></li>
+<li><a href="../../katalog.1.html"><span>Katalog</span></a></li>
+<li><a href="../../ke-stazeni.html"><span>Stáhnout</span></a></li>
+<li><a href="../../sluzby.html"><span>Služby</span></a></li>
+<li><a href="../../staff.html"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="../../node/index.html">Domů</a></div>        <h2 class="title">Jak začít - Views 2  </h2>
+        <div class="tabs"></div>
+                    <div class="article  article-3921">
+    <span class="submitted">Vložil/a <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a>, 30 Říjen, 2008 - 07:51</span>
+    <div class="pcontent"><p>Modul views obvykle potřebujete, když chcete zobrazit obsah „nějak
+jinak“, než jak nabízí jádro Drupalu či standardní výstup nějakého
+modulu. Pokud vás poněkud zaskočilo nové administrační rozhraní Views 2,
+nebo pokud se s tímto modulem teprve navzájem „oťukáváte“, je
+následující text určen právě vám.</p>
+
+<p>Na dvou příkladech si ukážeme základní principy – které jsou
+popravdě řečeno podobné jako u Views 1 (kdo už je používal, nepotřebuje
+o mnoho více, než zvyknout si na nový vzhled a hierarchii formulářů
+v administraci… a samozřejmě na nové a skvělé funkce Views 2).<br />
+<strong>Poznámka: Text vychází z verze modulu Views 6.x-2.1.</strong></p>
+<strong>Typické ukázky zadání řešitelných s pomocí Views vypadají
+například takto:</strong>
+<ul>
+	<li>Některé uzly nechcete zobrazovat na titulní stránce, ale „někde
+	jinde“, přičemž chcete mít perfektní kontrolu nad tím, jak je uživateli
+	naservírujete (stránka, boxík, tabulka…).</li>
+
+	<li>Na stránkách máte přehled čehokoliv (produktů, odkazů, kontaktů…)
+	a chcete, aby si uživatelé mohli obsah sami třídit, filtrovat, nebo v něm
+	jinak „inteligentně“ hledat.</li>
+</ul>
+
+<p>… dalo by se jmenovat mnoho odlišných příkladů, avšak další
+možnosti Views už snadno odvodíte analogicky (a z nabídky, kterou uvidíte
+v administračním rozhraní).</p>
+
+<h2>Příklad 1: nechci to na titulce… ale kam s tím?</h2>
+
+<p>Pravděpodobně u každého webu (snad s výjimkou jednoduchého blogu) se
+objeví nějaký typ obsahu, který se nehodí na titulní stránku. Odškrtnout
+políčko „zobrazit na titulní stránce“ není problém, ale jak potom
+zařídit, aby se obsah k uživateli dostal jinou cestou?</p>
+
+<p>Ještě než se pohroužíme do Views, je třeba zdůraznit, že cesta od
+obsahu k uživateli skrze Views <strong>nemusí </strong>být za všech
+okolností nejelegantnější a nejúspornější (třeba z hlediska času
+načítání vygenerovaného výstupu). Proto nikdy neuškodí podívat se
+nejdříve, jestli požadovaného výsledku nelze dosáhnout jen za pomoci
+modulu, který generuje daný typ obsahu (typicky např. Image nebo Event), nebo
+za pomoci jiných modulů, které možná tak jako tak používáte (Book,
+Taxonomy + související moduly…). Teprve když vám výsledek nevyhovuje nebo
+máte pocit, že by to „ještě něco chtělo“, je namístě
+použít views.</p>
+
+<p><strong>Po nainstalování a zapnutí modulu</strong> se Views objeví
+v administračním rozhraní mezi <strong>Prvky webu</strong>. Když se tam
+podíváte, uvidíte přehled již existujících views (zatím pouze těch,
+která v Drupalu nebo v použitých modulech existují defaultně, jako
+například titulní stránka – <strong>frontpage</strong> – nebo
+chronologický přehled všech příspěvků – <strong>tracker</strong>).</p>
+
+<p>Nyní už ke konkrétnímu příkladu: dejme tomu, že máte web, kde
+potřebujete odlišit „články“ a „tiskové zprávy“ (které vám
+někdo zaslal k uveřejnění), přičemž tiskové zprávy nechcete mít na
+titulce.</p>
+
+<p><strong>Suroviny:</strong></p>
+
+<ul>
+	<li>Typ obsahu <strong>Tisková zpráva</strong>, který nemá povoleno
+	zobrazování na titulní stránce.</li>
+
+	<li>Volitelně: pokud už jste si ochočili modul CCK, přidejte k tomuto typu
+	obsahu ještě pole Zdroj (link na web někoho, kdo tiskovou zprávu vydal);
+	pokud ne, nechte tiskové zprávy jen s názvem a textem.</li>
+
+	<li>Několik testovacích uzlů.</li>
+</ul>
+
+<p><strong>Postup:</strong></p>
+
+<p>V administraci views zvolte záložku Přidat (<strong>Add</strong>);
+dostanete se na formulář pro základní nastavení nového view. Do prvního
+políčka (<strong>View name</strong>) patří strojově čitelný název
+vašeho view (zadejte <em>tiskove_zpravy</em>); do dalšího -<strong> View
+description</strong> – zadejte normální název s diakritikou (<em>Tiskové
+zprávy</em>). Volitelně můžete novému view přiřadit ještě tagy, které
+vám pomohou snáze ho najít v přehledu všech existujících views.
+V další nabídce zvolte <em>Uzly</em> (protože nové view má zobrazovat
+tiskové zprávy, což jsou uzly).</p>
+
+<p>Po odklepnutí tlačítka<strong> Next</strong> dostanete další formulář,
+kde nastavíte, jak bude konkrétní view vypadat. Zatímco ve Views 1 se vše
+nastavovalo na jednostránkovém formuláři (což bylo spojeno s nutností
+neustále rolovat nahoru-dolů), formulář pro Views 2 má více kroků a
+„vrstev“ (vaše myš si tak užije méně drbání, ale pro vás bude práce
+příjemnější a hlavně přehlednější).</p>
+
+<p>Každý <strong>pohled/view</strong> má několik možných typů zobrazení
+(<strong>displays</strong>). Výstupem view „Tiskové zprávy“ může být
+nejen stránka, ale například také blok či tabulka (= několik displays, ale
+stále totéž view).</p>
+
+<p><strong>DEFAULTS</strong></p>
+
+<p>Na počátku konfigurace nového view se celkem logicky ocitnete v záložce
+<strong>Defaults</strong>, kde nastavíte vše, co bude společné pro všechny
+typy zobrazení (displays). Nastavení není definitivní – když vám nebude
+vyhovovat, dá se později změnit.</p>
+
+<a href="../../files/1_default_display.jpg" target="blank"><img alt="Zalozka defaults" width="420" height="237" src="../../files/1_default_display.jpg" /></a>
+
+<p>V záložce <strong>Defaluts </strong>se nejprve podívejte do boxu
+<strong>Basic Settings</strong>, a to na volbu <strong>Row style</strong>, kde
+je nyní zadáno <em>Fields</em>. Kliknutím na <em>Fields</em> můžete
+nastavení změnit – dole se objeví formulář se dvěma možnostmi:
+<em>Fields </em>(nyní zaškrtnuto) nebo <em>Uzly</em>. Pokud ponecháte
+<em>Fields</em>, bude view pracovat jednotlivě s různými „částmi“
+uzlů a s informacemi o nich (například nadpis, text, případně další
+pole, která generují různé moduly nebo která jste si nastavili pomocí
+modulu CCK, ale třeba také počet komentářů, datum poslední změny apod.).
+Ve vašem view pak budete muset také nastavit, jaká pole chcete zobrazovat
+(samostatný box <strong>Fields</strong>). Pokud není třeba pracovat s poli,
+ale jen s celými uzly, je možné zvolit <strong>Row style:</strong>
+<em>Uzly</em> (Boxem Fields pak není třeba se zabývat).</p>
+
+<a href="../../files/2_Row_style.jpg" target="blank"><img alt="Zalozka defaults" width="420" height="308" src="../../files/2_Row_style.jpg" /></a>
+
+<p><strong>V našem konkrétním příkladu</strong> (zobrazování tiskových
+zpráv) budeme pracovat s <strong>Fields</strong>, takže ponecháme
+<strong>Row style</strong> ve výchozím nastavení.</p>
+
+<p>V dalším kroku se tedy zaměřte na box <strong>Fields</strong>.
+Kliknutím na tlačítko <strong>+</strong> obdržíte formulář nazvaný
+<strong>Defaults: Add fields</strong> (tj. přidání polí do defaultního
+zobrazení). Uvidíte zde (nejspíš celkem dlouhý) přehled polí, která
+máte k dispozici. Aby se vám líp hledalo, zvolte z nabídky
+<strong>Groups</strong> volbu <em>Uzly</em>. (Proč najednou zase uzly? Řekli
+jsme přece, že budeme pracovat s poli/Fields… Ano, nyní pouze říkáme,
+že nás zajímají pole, která se týkají uzlů a ne třeba
+komentářů).</p>
+
+<p>Má-li být přehled tiskových zpráv pokud možno stručný a věcný,
+budeme chtít u každé zprávy zobrazit pouze <strong>nadpis</strong>
+(s proklikem na daný uzel), <strong>datum uveřejnění</strong> a
+<strong>zdroj</strong> (poslední vynechte, pokud nemáte definováno).
+V nabídce polí tedy nejprve vyberte <em>Uzly: Nadpis</em> a <em>Uzly: Post
+date</em>. (Aby to nebylo tak jednoduché, pole <em>Zdroj </em>budeme hledat až
+za chvíli a v jiné skupině). Klikněte na tlačítko <strong>Add</strong>.
+V boxu <strong>Fields</strong> se nyní objevil seznam vámi zadaných polí a
+navíc jste automaticky obdrželi formulář, kde můžete konfigurovat první
+z nich (<strong>Defaults: Configure field Uzly: Nadpis</strong>). Políčko
+<strong>Popis</strong> obsahuje název pole, které se zobrazí ve výstupu pro
+uživatele. Protože zřejmě nepotřebujete mít u každého názvu tiskové
+zprávy ještě uvedeno, že se jedná o <em>Nadpis</em>, obsah políčka
+vymažte. Další volbu nyní nebudete potřebovat, ale zaškrtněte
+<strong>Link this field to its node</strong> (protože každý nadpis má
+fungovat jako proklik na uzel). Dejte <strong>Aktualizovat</strong>. Je před
+vámi další formulář, kterým upravíte druhé pole (<strong>Defaults:
+Configure field Uzly: Post date</strong>). V políčku <strong>Popis</strong>
+můžete text opět smazat (nebo, pokud popis chcete mít, nahraďte ho českým
+ekvivalentem), níže vyberte formát data, který vám vyhovuje, a klikněte na
+tlačítko <strong>Aktualizovat</strong>.</p>
+
+<p>Jakmile jste definovali aspoň jedno pole, můžete nové view, byť zatím
+v pracovní verzi, <strong>Uložit</strong> (lze vřele doporučit, abyste
+nedopatřením nepřišli o rozdělanou práci).</p>
+
+<p>Zbývá zadat poslední pole – <strong>Zdroj</strong>. V boxu
+<strong>Fields</strong> klikněte opět na <strong>+</strong> a v boxu
+<strong>Defaults: Add fields</strong> zvolte <em>Obsah</em> (jedná se o nově
+přidané obsahové pole). Pokud jste pomocí CCK zadali pole typu <em>Link</em>
+(modul Link) s názvem <em>Zdroj</em>, objeví se zde volba: <em>Obsah: Link:
+Zdroj (field_zdroj)</em> – zaškrtněte ji a klikněte na tlačítko
+<strong>Add</strong>. Dostanete formulář, kde budete nově přidané pole
+konfigurovat. V nabídce <strong>Format</strong> zvolte <em>Title, as link
+(default)</em>. To znamená, že zdroj tiskové zprávy se zobrazí jako název
+s odkazem na URL (například takto: <a href="https://association.drupal.org" target="blank">Drupal Association</a>). Další dvě volby nebudete potřebovat,
+ale popis pole tentokrát ano – nechte <em>Widget label (Zdroj)</em>.
+Nezapomeňte opět <strong>Aktualizovat</strong>.</p>
+
+<p>Nastavení jednotlivých polí můžete kdykoliv změnit, když v boxu
+<strong>Fields</strong> kliknete na jejich název. Pokud byste chtěli změnit
+pořadí, ve kterém se zobrazují, kliknete na tlačítko se dvěma šipkami,
+načež dole uvidíte box nazvaný <strong>Rearrange fields</strong> (pořadí
+se mění obyčejným přetažením křížku myší, nesmíte však zapomenout
+<strong>Aktualizovat</strong>).</p>
+
+<p>Pod formulářem, se kterým pracujete, byste měli vidět <strong>Live
+Preview</strong> – tedy náhled, jak vaše view zatím vypadá. Patrně
+vidíte, že se zatím zobrazují nejen tiskové zprávy, ale všechny typy
+obsahu, které na webu máte. Pochopitelně – protože jsme ještě
+nedefinovali žádná omezení (<strong>Filtry</strong>). Jdeme na to.</p>
+
+<p>V boxu <strong>Filtry</strong> klikněte na <strong>+</strong> a dostanete
+formulář nazvaný <strong>Defaults: Add filters</strong>. Budete vybírat typ
+uzlu (Tisková zpráva), takže v nabídce <strong>Groups</strong> zaškrtněte
+<em>Uzly: Typ</em> a klikněte na tlačítko <strong>Add</strong>.
+V následujícím formuláři zvolte operátor <em>Is one of </em>(doslova:
+„je jeden z“) a zaškrtněte <strong>Node type:</strong> <em>Tisková
+zpráva</em>. Nezapomeňte <strong>Aktualizovat</strong>. Podobným způsobem
+přidejte filtr <em>Uzly: Vydáno</em> a zvolte <em>Ano</em>. V tuto chvíli by
+měl náhled (<strong>Live preview</strong>) obsahovat už jen výběr vydaných
+tiskových zpráv.</p>
+
+<p>Výsledek má ještě jednu chybu – zprávy se zobrazují od nejstarších
+(nahoře) po nejnovější (dole). To změníme v boxu <strong>Sort Criteria
+</strong>(klikněte na <strong>+</strong>, dole vyberte <em>Uzly: Post
+date</em>, <strong>Add</strong>, následně zvolte <strong>Sort order:
+</strong><em>Descending</em>, <strong>Granularity:</strong> <em>Second</em>,
+opět <strong>Aktualizovat</strong>). V Live Preview nyní vidíte, že view
+funguje tak, jak má – můžete ho <strong>Uložit</strong>.</p>
+
+<p><strong>STRÁNKA</strong></p>
+
+<p><strong>…Ovšem uživatel by zatím neviděl nic, protože pro něj nemáme
+žádné zobrazení</strong> (zatím máme jen Defalut display).
+V následujícím kroku tedy vytvoříme výstup pro uživatele, v tomto
+případě <strong>Stránku</strong> – jako jeden z typů zobrazení
+(<strong>displays</strong>) nového view. V levé části formuláře vyberte
+<em>Stránka</em> a klikněte na <strong>Add display</strong>. Dostanete další
+formulář (jak jinak :-)), kde můžete nastavit vlastnosti specifické pouze
+pro dané zobrazení (display). Měli byste si všimnout, že v rámci
+„hyperformuláře“ celého view se nyní nacházíte v záložce
+<strong>Stránka</strong>. Zatím je zde pouze konfigurace „zděděná“
+z Default display.</p>
+
+<a href="../../files/3_stranka.jpg" target="blank"><img alt="Zalozka defaults" width="420" height="268" src="../../files/3_stranka.jpg" /></a>
+
+<p>Dole v <strong>Live Display</strong> nyní uvidíte upozornění, které
+říká něco o tom, že nemáte definovanou cestu ke stránce (<em>Display
+Stránka uses path but path is undefined</em>). Napravíte to v boxu
+<strong>Page settings</strong>. U položky <strong>Cesta</strong> klikněte na
+dosavadní text <em>None</em> a do políčka, které se objeví níže, zadejte
+cestu (například<em> tiskove_zpravy</em>), opět musíte
+<strong>Aktualizovat</strong>. Zbývá nastavit ještě způsob, jak se
+uživatel k nové stránce dostane (<strong>Page settings</strong>, položka
+<strong>Menu</strong>). Klikněte na <em>No menu</em> a vyberte <em>Normal menu
+entry</em>. Do políček, která se objeví vedle, zadáte nadpis položky menu,
+umístění v menu vašeho webu a váhu (stejně jako v běžné administraci
+menu). Zadejte <strong>Nadpis: </strong><em>Tiskové zprávy</em>, <strong>Menu:
+</strong><em>Primární odkazy</em> (například) a libovolnou váhu, jako vždy
+musíte <strong>Aktualizovat</strong>.</p>
+
+<p>V boxu <strong>Basic settings</strong> nyní (nepovinně) nastavíte
+<strong>Nadpis stránky</strong>, který se objeví ve výstupu pro uživatele.
+Klikněte na dosavadní text <em>None</em> a v boxu <strong>Stránka: The title
+of this view</strong>, který se objeví dole, zadejte <em>Přehled tiskových
+zpráv</em>. Nyní si všimněte velmi důležitého tlačítka
+<strong>Override</strong> (brzy o něm ještě bude řeč) a klikněte na něj.
+Tím jste specifikovali, že nastavení, které právě provádíte, bude platit
+jen pro konkrétní display, tj. Stránku. (Kdybyste naopak chtěli přepsat
+defaultní nastavení, kliknete na <strong>Update default display</strong>; to
+však v tomto případě není cílem). Asi jste si všimli, že po kliknutí
+na <strong>Override</strong> se tlačítko změnilo (to proto, abyste se mohli
+kdykoliv později vrátit k defaultnímu nastavení, kdyby bylo třeba). Dejte
+<strong>Aktualizovat</strong>, můžete případně
+i <strong>Uložit</strong>.</p>
+
+<p>(<strong>Ale pozor:</strong> pokud jakékoliv zobrazení/display uložíte,
+vrátíte se tím automaticky do záložky Defaults. Takže pokud občas pouze
+ukládáte rozdělanou práci, nezapomeňte se pak vrátit do správného
+zobrazení/display, které chcete editovat.)</p>
+
+<p>Dále nastavte stránkování výstupu (<strong>Use pager:</strong> klikněte
+na <em>Ne</em>, dole zaškrtněte <em>Full pager</em>, dejte
+<strong>Override</strong> a <strong>Aktualizovat</strong>). Podobným způsobem
+můžete například změnit počet zobrazených položek na stránku
+(<strong>Items Per Page</strong>), omezit přístup k danému zobrazení
+(<strong>Access</strong>), zadat <strong>hlavičku</strong> a
+<strong>patičku</strong> stránky nebo text, který se objeví, když dané
+zobrazení neobsahuje žádné položky (<strong>Empty text</strong>).
+Nezapomeňte všechny změny nakonec <strong>Uložit</strong>.</p>
+
+<p><strong>BLOK</strong></p>
+
+<p>K dokonalosti by se možná by se hodil ještě boxík (blok), kde bude
+vždy několik aktuálních tiskových zpráv. K tomu účelu vyberte v levé
+části formuláře <em>Blok</em> a přidejte nové zobrazení (<strong>Add
+display</strong>). Ocitnete se v záložce <strong>Blok</strong>, kterou jste
+právě vytvořili, a vidíte, že základní nastavení opět odpovídá
+Default display (volby, které jste zadali specificky pro Stránku, by se zde
+neměly projevit, pokud jste ovšem během úprav nepřepsali defaultní
+nastavení). Zadejte <strong>Nadpis</strong> (<em>Nové tiskové zprávy</em>) a
+změňte <strong>Items to display</strong> na <em>3</em>. Užitečná je volba
+<strong>More link</strong>, která umožní uživateli dostat se z bloku na
+přehled všech tiskových zpráv, tedy na display typu Stránka (klikněte a
+zaškrtněte <em>Create more link</em>)… samozřejmě pokaždé
+<strong>Override</strong> a <strong>Aktualizovat</strong>. V boxu <strong>Block
+settings</strong> &gt; <strong>Admin</strong> zadejte název, pod kterým chcete
+nový blok najít ve standardní administraci bloků (například <em>Nové
+TZ</em>).</p>
+
+<p>V bloku je méně místa než na stránce. Pro přehlednost bude lepší,
+když zde nebude „zaclánět“ datum vydání zprávy ani zdroj. Proto je
+třeba upravit box <strong>Fields</strong>. Klikněte na položku <strong>Uzly:
+Post date</strong> a uvidíte již známý formulář, kde máte možnost toto
+pole upravit, ale také odstranit.</p>
+
+<p><strong>DŮLEŽITÁ VSUVKA: Jako první musíte kliknout na tlačítko
+Override</strong>, což znamená: „změny budou platit pouze pro toto
+zobrazení“. <strong>Pokud byste to neudělali </strong>(a dali rovnou
+<strong>Remove</strong>), odstraníte pole ze všech ostatních zobrazení (a to
+i v případě, že nekliknete na Update default display!). <strong>To platí
+i pro případné další úpravy</strong>. Dále je nutné vědět, že
+u funkcí <strong>Filters</strong>, <strong>Arguments</strong>, <strong>Sort
+criteria</strong> a <strong>Relationships</strong> můžete zvolit
+<strong>Override</strong> buďto pro všechna nastavení, nebo pro žádná.
+Například: <strong>všechny</strong> změny polí se budou týkat jen daného
+zobrazení (Fields mají vlastnost Override), ale <strong>všechny</strong>
+filtry budou zděděné (Filtry mají vlastnost Use default).</p>
+
+<p>Nyní to vyzkoušejte – odstraňte pole <strong>Uzly: Post date</strong>
+pouze ze zobrazení Blok: Dejte <strong>Override</strong> a pak
+<strong>Remove</strong>. Dále je třeba odstranit pole <strong>Obsah: Text:
+Úvodník (field_uvodnik)</strong>. Klikněte na něj a měli byste vidět opět
+formulář pro editaci, ale už ne tlačítko Override (pochopitelně, protože
+vlastnost Override už jste jednou nastavili – nyní platí pro všechna
+Fields). V tomto případě tedy stačí zvolit <strong>Remove</strong>.</p>
+
+<p>Další změny nejsou třeba, výsledek musíte opět
+<strong>Uložit</strong>. Nakonec je nutné nový blok zpřístupnit obvyklým
+způsobem v administraci blo­ků.</p>
+
+<p>Výstupem je blok nazvaný <strong>Nové tiskové zprávy</strong>, který
+ukazuje vždy 3 nejnovější položky, a dále stránka <strong>Přehled
+tiskových zpráv</strong>, na kterou se uživatel dostane buď linkem
+„more“ z bloku (link je samozřejmě vhodné přeložit do češtiny), nebo
+přes odkaz Tiskové zprávy v Primary links.</p>
+
+<h2>Příklad 2: vyhledávání v katalogu odkazů</h2>
+
+<p>Představte si, že máte (pro naše účely jednoduchý) katalog odkazů na
+internetové stránky sportovních areálů. Potřebujete, aby si uživatel mohl
+položky katalogu sám filtrovat podle různých kritérií, v tomto případě
+podle <strong>regionu</strong> a <strong>nabízených služeb</strong>.</p>
+
+<p><strong>Suroviny:</strong></p>
+
+<ul>
+	<li>Typ obsahu <strong>Odkaz</strong>, který se nezobrazuje na titulní
+	stránce. V praxi byste tento typ obsahu pravděpodobně ještě upravili
+	pomocí CCK a přidali např. pole pro URL a další kontaktní údaje. Pro
+	testovací účely (zde půjde hlavně o práci s filtry ve views) to nyní
+	nebude nutné.</li>
+
+	<li>Zapnutý modul Taxonomy.</li>
+
+	<li>Slovníky <strong>Region</strong> a <strong>Nabídka</strong>, které
+	přiřadíte k typu obsahu Odkaz. Zaškrtněte volby <strong>Vícenásobný
+	výběr</strong> a <strong>Povinné</strong>.</li>
+
+	<li>V každém slovníku několik pokusných kategorií. Do Regionu zadejte
+	například názvy krajů a do Nabídky názvy sportů nebo služeb.</li>
+
+	<li>Testovací obsah.</li>
+</ul>
+
+<p><strong>Postup:</strong></p>
+
+<p>Vytvořte view s názvem <em>Katalog</em>, jako <strong>View type</strong>
+zadejte opět <em>Uzly</em>.</p>
+
+<p><strong>DEFAULTS</strong></p>
+
+<p><strong>Row style: </strong><em>Uzly</em> (nyní pro zjednodušení
+postačí; kdybyste chtěli pracovat s poli, budete postupovat podobně jako
+v předchozím příkladu).<br />
+<strong>Defaults: Row style options:</strong> zaškrtněte <em>Display only
+teaser</em> a <em>Display links</em> (zobrazení náhledu vždy s linkem na
+uzel).<br />
+<strong>Use pager:</strong> <em>Ano.</em><br />
+<strong>Empty text:</strong> Zadejte <em>V této kategorii zatím nejsou
+žádné položky.</em><br />
+<strong>Filtry:</strong> Zaškrtněte <em>Uzly: Typ</em> a <em>Uzly: Vydáno
+</em><br />
+<strong>Defaults: Configure filtr Uzly: Typ:</strong> zaškrtněte volby <em>Is
+one of</em>; <em>Odkaz</em>.<br />
+<strong>Defaults: Configure filtr Uzly: Vydáno:</strong> zaškrtněte
+<em>Ano</em>.<br />
+<strong>Sort criteria:</strong> <em>Uzly: Post date</em><br />
+<strong>Defaults: Configure sort criterion Uzly: Post date:</strong><br />
+<strong>Sort order:</strong> <em>Descending</em><br />
+<strong>Granularity:</strong> <em>Day</em><br />
+<strong>Uložit</strong> (!)<br />
+</p>
+
+<p><strong>STRÁNKA</strong></p>
+
+<p>Přidejte display typu Stránka a nastavte:<br />
+<strong>Cesta: </strong><em>katalog</em><br />
+<strong>Menu: Typ: </strong><em>Normal menu entry</em>, <strong>Nadpis:
+</strong><em>Katalog</em>,<strong> Menu: </strong><em>Primary links</em><br />
+<strong>Nadpis:</strong> <em>Přehled sportovních areálů</em><br />
+<strong>Items to display:</strong> <em>20</em><br />
+V dalším kroku nakonfigurujete tzv. <strong>Exposed filters</strong> – tj.
+filtry, které uvidí (a bude moci používat) uživatel přímo ve výstupu.
+Bude se jednat o výběr na základě taxonomických kategorií, proto budete
+pracovat s filtry ze skupiny <em>Kategorie</em>.<br />
+Nejprve klikněte na <strong>Filtry</strong>. Objeví se nová část
+formuláře, kde uvidíte, že Filtry dosud dědí defaultní nastavení
+(<em>Status: using default values</em>). To je třeba změnit – klikněte na
+<strong>Override</strong>.<br />
+Teprve nyní můžete přidat filtry specifické jen pro zobrazení Stránka:<br />
+<strong>Stránka: Add filters:</strong> <em>Kategorie: Term</em><br />
+<strong>Stránka: Configure extra settings for filtr Kategorie:
+Term:</strong><br />
+<strong>Vocabulary:</strong> <em>Region</em><br />
+<strong>Selection type: </strong><em>Dropdown</em><br />
+<strong>Stránka: Configure filtr Kategorie: Term</strong><br />
+<strong>Operator: </strong><em>Is one of</em><br />
+Klikněte na <strong>Expose</strong><br />
+<strong>Filter identifier:</strong> můžete ponechat výchozí hodnotu nebo
+zadat vlastní (např. <em>region</em>)<br />
+<strong>Label: </strong><em>Zvolit region</em><br />
+Protože je povolen vícenásobný výběr, má smysl zašrktnout <em>Reduce
+duplicates</em>.<br />
+Z dalších voleb ponechte zaškrtnuté pouze políčko<em> Nepovinné</em><br />
+… a nezapomeňte <strong>Aktualizovat</strong></p>
+
+<p>Podobným způsobem přidejte <strong>Exposed filter</strong> pro termíny ze
+slovníku <strong>Nabídka</strong>.</p>
+
+<p>Nakonec všechny změny <strong>Uložte</strong>.</p>
+
+<p>Výsledkem je stránka s názvem <strong>Přehled sportovních
+areálů</strong>, dostupná přes odkaz Katalog (Primary links), kde si
+uživatel může vybírat nezávisle podle 2 kritérií: Region a Nabídka.
+(V příkladu na obrázku existují pro každý slovník jen 3 pokusné
+kategorie, v praxi jich samozřejmě bude víc.)</p>
+
+<a href="../../files/4_exposed_filters.jpg" target="blank"><img alt="Zalozka defaults" width="420" height="288" src="../../files/4_exposed_filters.jpg" /></a>
+
+<p><strong>TIPY NA DALŠÍ MOŽNOSTI:</strong></p>
+
+<ul>
+	<li>Pokud změníte volbu <strong>Style: </strong><em>Unformatted</em> (zatím
+	jsme s ní nepracovali) a zadáte <em>Tabulka</em>, můžete vytvořit
+	tabulkový výstup. Budete zde povinně pracovat s poli (volba <strong>Row
+	style</strong> zmizí). Na tomto příkladu si ukážeme ještě nastavení
+	stylu: v řádku, kde je nyní napsáno <strong>Style: Tabulka</strong>
+	klikněte na ikonku vpravo a obdržíte patřičný formulář, se kterým si
+	můžete dle libosti vyhrát. Velice užitečná je možnost
+	<strong>Sortable</strong>, která umožní, aby si uživatel sám řadil
+	výstupy podle zadaných kritérií (ve výsledku je to cosi jako funkce
+	„Exposed“ u filtrů, jen způsob nastavení je jiný).</li>
+
+	<li>Můžete vytvořit display typu <strong>Blok</strong>, kde budete pro změnu
+	pracovat s poli (<strong>Row style: </strong>zadat <strong>Override</strong> a
+	volbu <em>Fields</em>), a kde zobrazíte nejnovější odkazy (postup je
+	podobný jako u příkladu s tiskovými zprávami).</li>
+
+	<li>Nastavením filtru například pro <em>Uzly: Text</em>, <em>Uzly:
+	Nadpis</em> či <em>Obsah: „Název nově přidaného pole“</em> (máte-li
+	nějaké; viz modul CCK) můžete uživateli zpřístupnit
+	(<strong>Expose</strong>) vyhledávání podle klíčových slov či jejich
+	částí, kombinace začátečních písmen apod.</li>
+
+	<li>Dosud jsem se nezmínila o funkcích<strong> Arguments</strong> a
+	<strong>Relationships</strong>. <strong>Arguments</strong> jsou cosi jako
+	„pokročilé filtry“ (nápovědu k nim najdete zde: <a href="http://views-help.doc.logrus.com/help/views/argument">http://views-help.doc.logrus.com/…ews/argument</a>)
+	a <strong>Relationships</strong> (<a href="http://views-help.doc.logrus.com/help/views/relationship">http://views-help.doc.logrus.com/…relationship</a>)
+	umožňují při výstavbě views využít vztahy mezi objekty, se kterými
+	pracujete (příklad: uzel-uživatel, uzel-komentář, komentář-uživatel).
+	EDIT: připojuji ještě odkaz na svou prezentaci k argumentům z českého
+	Drupal setkání (leden 2010): <a href="../../files/Views_arguments_s_poznamkami_3.pdf">http://www.drupal.cz/…amkami_3.pdf</a></li>
+</ul>
+
+<p>Nehledě na popsané příklady existuje samozřejmě mnoho dalších
+možností využití (dosud jsme se zabývali jen pohledy pro uzly, ale podobně
+můžete pracovat s taxonomickými kategoriemi, uživateli, komentáři…).
+Kromě základní nabídky views nezapomeňte na rozšiřující moduly: <a href="https://drupal.org/project/Modules/category/89">http://drupal.org/…/category/89</a>.</p>
+
+<p><strong>Další informace:</strong></p>
+
+<p>Views online help (<a href="http://views-help.doc.logrus.com/admin/advanced_help/views">http://views-help.doc.logrus.com/…d_help/views</a>)</p>
+
+<p><strong>Eva Rázgová</strong></p><div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-4855" class="social-add digglink" onmouseover="showSocials(4855)" onmouseout="hideSocials(4855)"><a class="social-href-link" href="jak-zacit-views-2.html#">Linkni to!</a>
+<div class="social-links" id="social-links-4855">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/zacatecnici/jak-zacit-views-2&amp;title=Jak začít - Views 2  " class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/zacatecnici/jak-zacit-views-2&amp;title=Jak začít - Views 2  " class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/zacatecnici/jak-zacit-views-2" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/zacatecnici/jak-zacit-views-2&amp;title=Jak začít - Views 2  " class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-14883"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-14883" class="active">diky</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 5 Listopad, 2008 - 13:43.  </div>
+
+  <div class="content">
+    <p>diky, paradny clanok, viac takych</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/14883" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-15329"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-15329" class="active">Dost dobře popsaný</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Tomáš (bez ověření) dne 28 Listopad, 2008 - 11:44.  </div>
+
+  <div class="content">
+    <p>Dost dobře popsaný článek. Zkusil jsem podle popisu a vše mi funguje až
+na jednu věc. Pokud vytvořím nějaký přehled, nechám zobrazit položky
+(např. články) vše funguje. Článků, které splňují kritéria mám
+100 Ale pokud zvolím počet položek na stránku např 5, chtěl bych dole
+zobrazit další přístupné stránky (opět po 5 ti položkách) Jak se to
+dá udělat ? Něco jako když kliknete na kategorii, dole máte X dalších
+stránek připravených ke zhlédnutí které spadají do dané kategorie.</p>
+
+<p>Díky za info.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/15329" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-15330"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-15330" class="active">Use pager: ano</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 28 Listopad, 2008 - 11:59.  </div>
+
+  <div class="content">
+    <p>Pokud máte zadáno Use pager: Ano, tak by to mělo fungovat. Ono v textu
+článku je napsáno „klikněte na Use pager: ne“, možná je to trochu
+zavádějící; jde o to, že tím vlastně editujete výchozí volbu… a
+pokud zaškrtnete nějakou z možností (full nebo mini), zrušíte to „ne“
+a pager bude ve výsledku „ano“…<br />
+Kdyžtak se inspirujte tím, jak je udělané výchozí view pro úvodní
+stránku (frontpage), když dáte „enable“, můžete se do něj podívat,
+můžete si ho i naklonovat, ale hlavně si ho nepřemažte :-)), musíte
+změnit název a jako první u stránky je třeba upravit cestu/path.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/15330" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-15331"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-15331" class="active">Děkuji za radu a funguje.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Tomáš (bez ověření) dne 28 Listopad, 2008 - 12:03.  </div>
+
+  <div class="content">
+    <p>Děkuji za radu a funguje.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/15331" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-15332"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-15332" class="active">A já taky děkuju,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 28 Listopad, 2008 - 12:12.  </div>
+
+  <div class="content">
+    <p>A já taky děkuju, protože jsem si všimla, že u druhého příkladu
+jsem na tu volbu zapomněla, tak je to díky vám už opravené :-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/15332" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-16662"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-16662" class="active">Díky!!!</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel chryso (bez ověření) dne 10 Únor, 2009 - 01:16.  </div>
+
+  <div class="content">
+    <p>Super článek! Moc dík.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/16662" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-18931"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-18931" class="active">sázení po internetu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.spojkasport.cz" rel="nofollow">Daniel Nytra</a> (bez ověření) dne 21 Květen, 2009 - 15:03.  </div>
+
+  <div class="content">
+    <p>Jednoduché vyplnění jediného tiketu pro sázkové kanceláře.
+Porovnávání sázkových kanceláří na jednom místě. Jednoduše si
+najděte nejvýhodnější sázení. Sázkové kanceláře jsou z České
+republiky i zahraničí.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/18931" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-20555"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-20555" class="active">views zobrazeni autora a data</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.isalsa.cz" rel="nofollow">marian</a> (bez ověření) dne 18 Srpen, 2009 - 09:23.  </div>
+
+  <div class="content">
+    <p>Zdravim, v prvni rade dekuju za skvely clanek, ktery mi pomohl proniknout do
+toho, dle meho nazoru, ne prilis intuitivniho modulu. Chtel bych se zeptat
+jestli jde (a jak) zakazat zobrazeni autora a data pokud mam zdoj: uzly. Diky
+moc Marian</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/20555" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-20556"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-20556" class="active">Myslíte „Row style: Uzly“?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 18 Srpen, 2009 - 10:25.  </div>
+
+  <div class="content">
+    <ul>
+	<li>Myslíte „Row style: Uzly“? V tom případě (kofiguračně) jedině
+	vypnout zobrazování informací o příspvěku (Prvky webu &gt; Témata
+	vzhledu &gt; Globální nastavení), ale pak se to vypne nejen ve view, ale
+	všude u daného typu příspěvku.</li>
+
+	<li>Jiná možnost: právě od toho je „Row style: Fields“, abyste si tam
+	nadefinoval jen to, co chcete zobrazovat.</li>
+
+	<li>Nebo můžete zobrazování informací o příspěvku všude vypnout a
+	nahradit (tam, kde ho chcete mít) polem CCK s podobnou funkcí, které třeba
+	nebudete zobrazovat v teaseru (a pak můžete ve view vypsat uzly jako teasery
+	a informace tam nebude).</li>
+
+	<li>Event. by se něco dalo udělat s proměnnou $submitted v souboru
+	node.tpl.php, respektive v odvozených šablonách jako třeba
+	node-view-nazev_view.tpl.php, vyhodit její vypisování nebo třeba tam vsunout
+	nějakou podmínku, kdy se má zobrazovat, ale to bych volila asi jako poslední
+	možnost (samozřejmě ve vašem nebo vámi odvozeném tématu vzhledu, ne
+	v původním)… a pro toto konkrétní zadání jsem to nezkoušela.</li>
+</ul>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/20556" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-20573"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-20573" class="active">Ano, to jsem myslel. Nakonec</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/mario2.html" title="Zobrazit profil uživatele.">Mario2</a> dne 18 Srpen, 2009 - 21:32.  </div>
+
+  <div class="content">
+    <p>Ano, to jsem myslel. Nakonec jsem zjistil,ze v nastaveni temat jde
+zaskrtnout co se ma zobrazovat u ruznych typu obsahu, coz presne vyresilo muj
+problem.</p>
+
+<p>Mam druhou otazecku jestli jeste muzu:)</p>
+
+<p>Mam jedno views jako polozku v primary links menu a chtel bych na to dat
+cislou url. Jak na to, prosim?</p>
+
+<p>Dekuji</p>
+
+<p>S pozdravem MG</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/20573" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-20576"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-20576" class="active">To asi nejde, pokud čisté</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ema.1.html" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 18 Srpen, 2009 - 22:40.  </div>
+
+  <div class="content">
+    <p>To asi nejde, pokud čisté URL, tak musí být na celém webu.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/20576" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><a id="comment-22577"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-22577" class="active">Prohlížení jedné kategorie</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Richard Bayer (bez ověření) dne 5 Listopad, 2009 - 13:26.  </div>
+
+  <div class="content">
+    <p>Dá se pomocí Views udělat jaký-si browser kategorií? Cílem je
+procházet hierarchii taxonomie jako např. souborový systém. Nepodařila se
+mi už základní věc: vyfiltrovat všechny pojmy jednoho rodiče.</p>
+
+<p>Přiklad kategorií jednoho slovníku: VW</p>
+
+<ul>
+	<li>Golf</li>
+
+	<li>Bora</li>
+
+	<li>Passat</li>
+</ul>
+
+<p>Fiat</p>
+
+<ul>
+	<li>Punto</li>
+
+	<li>Rytmo</li>
+
+	<li>Nevim</li>
+</ul>
+
+<p>…</p>
+
+<p>Tak zobrait výčet všech VW se mi nepodařil. Co jsem přehlídl? Musí to
+být banalita nebo to v UI nejde. Díky!</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/22577" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-23435"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-23435" class="active">nedavno se to resilo ve foru.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karlos.html" title="Zobrazit profil uživatele.">karlos</a> dne 4 Prosinec, 2009 - 21:06.  </div>
+
+  <div class="content">
+    <p>nedavno se to resilo ve foru. klicova slova: views, argument, depth</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/23435" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-25705"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-25705" class="active">Gratulujem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel FeriUltra (bez ověření) dne 28 Únor, 2010 - 14:58.  </div>
+
+  <div class="content">
+    <p>Fakt dobre napísaný článok o views, stručne, jasne, nezabudli ste na
+drobnosti a záludnosti. Ešte z toho urobiť video, alebo prezentáciu pre
+fakt naozaj začiatočníkov…možno niečo na spôsob <a href="http://learnbythedrop.com/">http://learnbythedrop.com/</a> Len
+tak ďalej.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/25705" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-27361"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-27361" class="active">Pochvala!</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Vandrovnik (bez ověření) dne 5 Květen, 2010 - 11:38.  </div>
+
+  <div class="content">
+    <p>Děkuju za výborný článek, moc mi pomohl a ušetřil v tápání, jak na
+našem webu vypisovat novinky (na intranetu všechny, na oficiálním webu jen
+vybrané). Díky, díky, díky! :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/27361" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-31047"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-31047" class="active">zdravim,omlouvam se,ale</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.scenekids.tk" rel="nofollow">SharRakorR</a> (bez ověření) dne 28 Září, 2010 - 09:59.  </div>
+
+  <div class="content">
+    <p>zdravim,omlouvam se,ale ponekud jsem z toho clanku nepochopil,jak mam udelat
+jakoze kategorie pro clanky – napriklad hudba,moda ,tak aby kdyz nekdo napise
+clanek jednoduse vybral v jaky kategorii se to ma zobrazit. :(</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/31047" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-31050"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-31050" class="active">to dela modul taxonomy. je</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karlos.html" title="Zobrazit profil uživatele.">karlos</a> dne 28 Září, 2010 - 10:32.  </div>
+
+  <div class="content">
+    <p>to dela modul taxonomy. je nutne vytvorit slovnik, v nem termíny(to jsou
+právě kategorie), pak jeste v nastaveni toho slovniku povolit typy
+obsahu…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/31050" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-31051"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-31051" class="active">takze mam udelat slovniky</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.scenekids.tk" rel="nofollow">SharRakorR</a> (bez ověření) dne 28 Září, 2010 - 10:44.  </div>
+
+  <div class="content">
+    <p>takze mam udelat slovniky hudba a moda? nebo udelat jakoze jakykoliv slovnik
+a v nem termin Hudba a moda?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/31051" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-31052"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-31052" class="active">to uz pak zalezi na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/karlos.html" title="Zobrazit profil uživatele.">karlos</a> dne 28 Září, 2010 - 10:52.  </div>
+
+  <div class="content">
+    <p>to uz pak zalezi na konkretnim zadani. takhle bych si zatim vytvoril slovnik
+Kategorie, v nem povolil typ obsahu clanek/story a pridal tam dva terminy hudba
+a moda. pak zkuste vytvorit clanek a uz by tam mel byt select box pro
+kategorii.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/31052" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-31370"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-31370" class="active">poděkování</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Viktor (bez ověření) dne 13 Říjen, 2010 - 05:40.  </div>
+
+  <div class="content">
+    <p>Díky za výbornej článek, moc mi pomohl začít pracovat s views. UI se
+mi zdá opravdu málo intuitivní, aby se tím člověk proklikal a sám to
+pochopil…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/31370" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-34303"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-34303" class="active">Řazení</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/strep.html" title="Zobrazit profil uživatele.">strep</a> dne 3 Březen, 2011 - 13:08.  </div>
+
+  <div class="content">
+    <p>Děkuji za článek. Máte nějaké řešení také pro toto: <a href="../../forum/po-instalaci/jak-na/moznosti-razeni-prispevku-pro-navstevniky-webu.html">http://www.drupal.cz/…tevniky-webu</a> ?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/34303" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-53846"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="jak-zacit-views-2.html#comment-53846" class="active">Výběr kategorie a článku pro views</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 29 Srpen, 2012 - 13:35.  </div>
+
+  <div class="content">
+    Popsaná výborně, ale jsem asi moc natvrdý. Dokážu vytvořit views např
+5 /10 článků nejčtenějších článků. Jak ale postupovat, když chci
+udělat totéž ale z konkrétní kategorie na webu, ne ze všech článků.
+Jakt dát zařadit danou kategorii k možnosti výběru při vytvářebí
+views? Děkuji za pomoc Libor  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/3921/53846" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="https://www.drupal.cz/comment/reply/3921"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="../../filter/tips.html">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-4b41a5c949896af520589665a71abc3f" value="form-4b41a5c949896af520589665a71abc3f"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="https://www.drupal.cz/clanky/zacatecnici/jak-zacit-views-2?destination=node%2F3921"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="../../user/register.html" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="../../user/password.html" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-235eb7c72474bd91efb6dbc47635d6fe" value="form-235eb7c72474bd91efb6dbc47635d6fe"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="../../node/52781.html"><img src="../../files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="../../bezpecnost.html">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="../akce.1.html" class="tagadelic level4">akce</a> 
+<a href="../bezpecnost.1.html" class="tagadelic level6">bezpečnost</a> 
+<a href="../cck.html" class="tagadelic level2">CCK</a> 
+<a href="../como-ganhar-dinheiro.html" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="../como-ganhar-dinheiro-na-internet.html" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="../como-ganhar-dinheiro-pela-internet.html" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="../drupal.html" class="tagadelic level3">drupal</a> 
+<a href="https://www.drupal.cz/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="../drupal-7x.html" class="tagadelic level1">Drupal 7.x</a> 
+<a href="../drupalcamp.1.html" class="tagadelic level1">drupalcamp</a> 
+<a href="../drupalcon.html" class="tagadelic level1">drupalcon</a> 
+<a href="../drupal-setkani.html" class="tagadelic level2">Drupal setkání</a> 
+<a href="../forex-broker.html" class="tagadelic level1">forex broker</a> 
+<a href="../forex-trading-strategies.html" class="tagadelic level1">forex trading strategies</a> 
+<a href="../fx-trading.html" class="tagadelic level2">FX trading</a> 
+<a href="../game-war-cheats.html" class="tagadelic level1">game of war cheats</a> 
+<a href="../ganhar-dinheiro.html" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="../ganhar-dinheiro-na-internet.html" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="../godus-cheats.html" class="tagadelic level1">godus cheats</a> 
+<a href="../image.html" class="tagadelic level1">image</a> 
+<a href="../landlord-house-insurance.html" class="tagadelic level1">landlord house insurance</a> 
+<a href="../lokalizace.html" class="tagadelic level1">lokalizace</a> 
+<a href="../moduly.html" class="tagadelic level6">moduly</a> 
+<a href="../navod.html" class="tagadelic level2">navod</a> 
+<a href="../online-forex-trading.html" class="tagadelic level1">online forex trading</a> 
+<a href="../online-trading.html" class="tagadelic level1">online trading</a> 
+<a href="../ostatni.html" class="tagadelic level3">ostatní</a> 
+<a href="../overwatch-aimbot.html" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="../php.html" class="tagadelic level1">php</a> 
+<a href="../pro-webmastery.1.html" class="tagadelic level5">pro webmastery</a> 
+<a href="../preklad.html" class="tagadelic level1">překlad</a> 
+<a href="../prekladatelsky-sprint.html" class="tagadelic level1">překladatelský sprint</a> 
+<a href="../preklady.html" class="tagadelic level2">překlady</a> 
+<a href="../pripadove-studie.html" class="tagadelic level2">případové studie</a> 
+<a href="../setkani.1.html" class="tagadelic level5">setkání</a> 
+<a href="../setkani-akce.html" class="tagadelic level5">setkání, akce</a> 
+<a href="../synthetic-opal.html" class="tagadelic level3">synthetic opal</a> 
+<a href="../synthetic-opals.html" class="tagadelic level3">synthetic opals</a> 
+<a href="../theming.html" class="tagadelic level2">theming</a> 
+<a href="../tipy-triky.html" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="../ubercart.html" class="tagadelic level1">UberCart</a> 
+<a href="../views.html" class="tagadelic level2">views</a> 
+<a href="../vyvoj.html" class="tagadelic level2">vývoj</a> 
+<a href="../vyvoj-drupalu.html" class="tagadelic level5">vývoj drupalu</a> 
+<a href="../zacatecnici.1.html" class="tagadelic level5">začátečníci</a> 
+<a href="../sablony-vzhled.html" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="../../forum.1.html" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html#comment-104041">Doplnění</a><br />před 7 hod 33 min</li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 6 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 21 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 20 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104021">a kdyz do tech souboru</a><br />před 5 dnů 24 min</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 5 dnů 1 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 19 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu.html#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 23 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="../../aggregator/pisou-na-slovensku.html" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="../../rss.xml" title="RSS Kanal"><img src="https://www.drupal.cz/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="../novinky-na-webu/seznam-rss-zdroju-drupal-cz.html">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="../../kontakt/sluzby.html">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="../../sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="../../files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":446,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

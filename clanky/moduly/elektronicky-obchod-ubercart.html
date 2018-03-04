@@ -1,0 +1,1270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Elektronický obchod Ubercart&quot;" href="https://www.drupal.cz/crss/node/2370" />
+<link rel="shortcut icon" href="https://www.drupal.cz/misc/favicon.ico" type="image/x-icon" />
+ <title>Elektronický obchod Ubercart | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="../../files/css/css_02a36298fc18f7cc1cadbc14f0dcd6ff.css" />
+ <script type="text/javascript" src="../../files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="elektronicky-obchod-ubercart.html#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="../../node/index.html">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="../../o-systemu-drupal.html"><span>O Drupalu</span></a></li>
+<li><a href="../../blog.html"><span>Blogy</span></a></li>
+<li><a href="../../faq.html"><span>FAQ</span></a></li>
+<li><a href="../../forum.1.html"><span>Fórum</span></a></li>
+<li><a href="../../prezentace.html"><span>Prezentace</span></a></li>
+<li><a href="../../preklad-drupalu-do-cestiny-zakladni-informace.html"><span>Překlady</span></a></li>
+<li><a href="../../katalog.1.html"><span>Katalog</span></a></li>
+<li><a href="../../ke-stazeni.html"><span>Stáhnout</span></a></li>
+<li><a href="../../sluzby.html"><span>Služby</span></a></li>
+<li><a href="../../staff.html"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="../../node/index.html">Domů</a></div>        <h2 class="title">Elektronický obchod Ubercart</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-2370">
+    <span class="submitted">Vložil/a <a href="../../user/pepe.html" title="Zobrazit profil uživatele.">PEpe</a>, 4 Únor, 2008 - 18:45</span>
+    <div class="pcontent"><p><a href="http://www.ubercart.org">Ubercart</a> je elektronický obchod
+postavený na Drupalu. <a href="http://www.ubercart.org">Ubercart</a> je zcela
+integrován s jádrem Drupalu a jeho rozšiřujícími moduly a poskytuje vám
+běh obchodu na vašem běžném komunitním či firemním webu. <a href="http://www.ubercart.org">Ubercart</a> je výborné řešení, pokud máte
+na váš e-shop nároky jako:</p>
+
+<ul>
+	<li>prodej hmotného zboží z jakkoli rozsáhlého katalogu produktů</li>
+
+	<li>prodej souborů ke stažení (např. hudba, videa, software)</li>
+
+	<li>prodej přístupu na web, zahrnující automatickou expiraci a renovaci
+	přístupu.</li>
+</ul>
+
+<p><a href="http://www.ubercart.org">Ubercart</a> je relativně mladý modul,
+nicméně se již dočkal třetí Beta verze, což znamená, že vydání první
+oficiální verze je blízko. Já sám tento modul již na několika webech ke
+své plné spokojenosti používám a i psaní dalších vlastních
+rozšíření je velmi příjemné (v mém osobním neobjektivním srovnání s
+„konkurenčním“ řešením e-shopu pro Drupal, kterým je <a href="http://www.drupalecommerce.org">e-Commerce</a>).</p>
+
+<h2>Ubercart hledá překladatele</h2>
+ Pro plnohodnotné nasazení e-shopu v českých podmínkách je pochopitelně
+nutná lokalizace. Velkou část překladu rozhraní, které vidí běžný
+návštěvník již vytvořil <a href="../../user/wojtha.1.html">wojtha</a>, takže modul použitelný
+je, nicméně spousta řetězců především z administrační části modulu
+na překlad čeká. Projekt Ubercart bude moc rád, pokud se <a href="http://l10n.privnet.biz">přidáte k překladu</a>. Ze serveru <a href="http://l10n.privnet.biz">http://l10n.privnet.biz</a>, který je rozhraním
+pro překlad si můžete nejen stáhnout současnou verzi češtiny – po
+registraci/přih­lášení se můžete <a href="http://l10n.privnet.biz/og">zapsat</a> k Czech skupině a využívat
+příjemné uživatelské rozhraní pro překlad.
+<p>Těším se na Vás, případné dotazy rád zodpovím v komentářích.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-9882" class="social-add digglink" onmouseover="showSocials(9882)" onmouseout="hideSocials(9882)"><a class="social-href-link" href="elektronicky-obchod-ubercart.html#">Linkni to!</a>
+<div class="social-links" id="social-links-9882">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart&amp;title=Elektronický obchod Ubercart" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart&amp;title=Elektronický obchod Ubercart" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart&amp;title=Elektronický obchod Ubercart" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-10053"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10053" class="active">Pěkné</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/kecinzer.html" title="Zobrazit profil uživatele.">kecinzer</a> dne 5 Únor, 2008 - 21:47.  </div>
+
+  <div class="content">
+    <p>O tomto mudulu jsem vůbec nevěděl. Znal jsem akorát e-commerce. Vypadá
+opravdu moc pěkně. Nebyl by někde vidět nějaký CZ web, kde je nasazený a
+je tam více produktů? Dále by mě také zajímalo, jestli katalog umí
+vypisovat položky, které jsou v subkategoriích. Tedy: mám např. Grafikcé
+karty → AGP → nVidia → 8600 a když kliknu na Grafické karty, tak abych
+viděl nejen výpis těch podkategoríí, ale také rovnou všechny produkty
+z nich vypsané. Abych nemusel k zobrazení třeba Inno 3D GF8600 procházet
+4 kategorie.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10053" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10059"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10059" class="active">Pridavam: cloveku, co pro</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 5 Únor, 2008 - 22:32.  </div>
+
+  <div class="content">
+    <p>Pridavam: cloveku, co pro drupal.cz napise pripadovou studii nasazeni
+ubercartu v CZ s malinkym navodem, sezenu pro takovy clanek sponzora a
+odpovidajici honorar…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10059" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10104"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10104" class="active">:-)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/pepe.html" title="Zobrazit profil uživatele.">PEpe</a> dne 7 Únor, 2008 - 00:41.  </div>
+
+  <div class="content">
+    <p>Rad nejake clanky napisu, jen dobre pokud bude v CR vic lidi zajimajicich se
+o Ubercart a tim padem preklad Ubercartu a tim padem jeho moznost pouziti pro
+komercni weby… :)</p>
+
+<p>Pokud jde o ukazky bezicich shopu – jeden malicky co jsem delal pro
+kamarada z anglie – <a href="http://www.hqplayer.com">www.hqplayer.com</a>.
+A pro ceske prostedi na jednom pracuji. Jedna se skoro o extremni pouziti –
+rozvoz pizzy rizeny Ubercartem – lide si mohou objednavat pres net pizzu, a
+pak je tam obrazovka opratora, ktery zadava objednakvy z telefonu, obrazovka
+kuchare – ktery odklikava ze zacina varit a ze predava objednavku rozvoru, a
+obrazovka rozvozu, ktery odklikava, ze zasilku predal… a zakaznik muze
+sledovat, kde zrovna jeho pizza je:) ale neni to zatim hotove, takze az to bude,
+urcite se pochlubim hehe:)</p>
+
+<p>A co se tyka prochazeni katalogem – produkty jsou uchovavany jako uzly
+(node), a kategorie katalogu tvoreny taxonomii, takze muzete pouzit jakekoli
+moduly (pro taxonomy), ktere zprostredkuji prochazeni, ktere chcete… popr. si
+neco malickeho napsat (coz by bylo zase na dalsi clanek :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10104" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10109"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10109" class="active">HQplayer</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.znackove.cz" rel="nofollow">Anonymous</a> (bez ověření) dne 7 Únor, 2008 - 10:38.  </div>
+
+  <div class="content">
+    <p>Z toho ‚Price XXX / Add to cart / na sklade 0‘ které se ukazuje
+v detailu zboží dole na stránce můžou být možná angličani lehce
+zmatení ;-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10109" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10113"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10113" class="active">hehe :-D no jsou tam jeste</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/pepe.html" title="Zobrazit profil uživatele.">PEpe</a> dne 7 Únor, 2008 - 11:33.  </div>
+
+  <div class="content">
+    <p>hehe :-D no jsou tam jeste chybicky, dik za upozorneni ;-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10113" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10119"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10119" class="active">zajima me cesky obchod.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 7 Únor, 2008 - 16:16.  </div>
+
+  <div class="content">
+    <p>zajima me cesky obchod. anglicky je to easy. ale cesky, se specifikami jako
+je slozite DPH, dobirky, apod :) na tom jsem narazil u ecommerce. slo to, ale
+bylo to tak otravny, ze jsem se na to vyprdnul</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10119" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10151"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10151" class="active">jasny… jako kazdopadne</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/pepe.html" title="Zobrazit profil uživatele.">PEpe</a> dne 8 Únor, 2008 - 13:33.  </div>
+
+  <div class="content">
+    <p>jasny… jako kazdopadne bych pockal na oficialni release verze 1.0 . Pak se
+tomu mrkneme na zoubek se vsim vsudy – DPH jsem zatim neresil (uvadim jen
+ceny s DPH) tak nevim. Ale myslim, ze tam ty moznosti jsou a pokud ne, nebude
+problem dopsat nejaky modul „Czech VAT“ :-) takze vyckejme tech par tydnu,
+garantuji ze prekladani tohoto modulu urcite neni marna prace…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10151" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10467"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10467" class="active">zkus Zen-card</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/kosik.html" title="Zobrazit profil uživatele.">kosik</a> dne 22 Únor, 2008 - 10:20.  </div>
+
+  <div class="content">
+    <p>zkus Zen-cart</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10467" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10470"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10470" class="active">Zencart (a ne Zencard) je zlo</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 22 Únor, 2008 - 13:23.  </div>
+
+  <div class="content">
+    <p>Zencart (a ne Zencard) je zlo</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10470" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-12767"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-12767" class="active">že je něco je zlo je malý důkaz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Jirka (bez ověření) dne 26 Červen, 2008 - 21:55.  </div>
+
+  <div class="content">
+    <p>A proč ? Zajímá mě to</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/12767" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-12772"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-12772" class="active">okolo 1000 SQL dotazu na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 27 Červen, 2008 - 08:17.  </div>
+
+  <div class="content">
+    <p>okolo 1000 SQL dotazu na nacteni jedne stranky staci?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/12772" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div></div><a id="comment-10110"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10110" class="active">HQplayer</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.znackove.cz" rel="nofollow">Anonymous</a> (bez ověření) dne 7 Únor, 2008 - 10:38.  </div>
+
+  <div class="content">
+    <p>Z toho ‚Price XXX / Add to cart / na sklade 0‘ které se ukazuje
+v detailu zboží dole na stránce můžou být možná angličani lehce
+zmatení ;-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10110" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-19497"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-19497" class="active">burgry</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/mazzy.html" title="Zobrazit profil uživatele.">mazzy</a> dne 23 Červen, 2009 - 13:39.  </div>
+
+  <div class="content">
+    <p>Přesně k tomuto účelu jsem si včera ubercart nainstaloval a měl jsem
+v plánu dodělat obrazovky pro kuchaře atd… Jsem ale línej jako prase –
+jak seš daleko – můžeš mi poslat na sebe kontakt? Mail najdeš na <a href="http://josefmazak.com">http://josefmazak.com</a></p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/19497" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-10169"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10169" class="active">český ubercart shop</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/wojtha.1.html" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 10 Únor, 2008 - 12:25.  </div>
+
+  <div class="content">
+    <p>V říjnu – listopadu jsem na alfě ubecartu postavil malý e-shop pro <a href="http://www.adplus.cz/">antikvariát</a>.</p>
+
+<p>České podmínky byly zjednodušené – žádné DPH, jediný přepočet
+je u dobírky (+100 Kč), to se dalo vyřešit „sub-modulem“ Method-Fee.
+Teď cca dva měsíce nemám moc přehled co se změnilo, možná to jde
+vyřešit lépe, ubercart se vyvíjí velmi rychle …</p>
+
+<p>Každopádně Ubercart je vysoce modulární, do faktury, resp. do přepočtu
+si člověk může v submodulu dosadit (zaháčkovat) tzv. „line item“, ve
+který se může přidat do objednávky vlastní přepočet.</p>
+
+<p>Celá archtitektura modulu funguje podobně jako jádro drupalu, k objektum
+(např. <em>$order</em>) se da přistupovat a upravovat v jednotlivých
+fázích běhu podobně jako k <em>$node</em> v <em>hook_nodeapi</em>. Díky
+tomu je to mnohem snáze pochopitelné … ani neni třeba moc koukat do
+dokumentace. Další pěkná věc je zaháčkování na změny stavu objednávky
+(něco jako odlehčená verze Workflow).</p>
+
+<p>Před rokem jsem zkoušel e-commerce (3 alfa a pak beta myslim), oproti
+ubecartu je to strašně nepřehledný moloch, vývoj je celkem chaotický.
+Něco tam měnit nebo přidávat je hrůza (pokud se něco se za ten rok
+změnilo, tak se e-commerce omlouvám… ale nemyslím si)</p>
+
+<p>Moje zkušenost: E-commerce = bolest, Ubercart = radost :-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10169" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10063"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10063" class="active">:)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 5 Únor, 2008 - 23:23.  </div>
+
+  <div class="content">
+    <p>:)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10063" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10548"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10548" class="active">Lokalizace</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Jakub Svoboda (bez ověření) dne 26 Únor, 2008 - 20:34.  </div>
+
+  <div class="content">
+    <p>Zdravim.. Rad bych pouzil modul Ubercartu v cestine pro potreby uplne
+miniaturniho e-shopu. Vypada to velmi zajimave, ale az jsem se snazil jak to
+slo, tak se mi nepodarilo rozchodit ceskou verzi. viz.
+zelenarovnova­ha.putovni.net Proste nevim, kde to rozchodit, vsechny .po moduly
+jsem nahral, autolocale mam zapnute a automatic import jsem dal. Porad je ale
+v se v anglicitne. Cesky jednotky a nastaveni zeme mam take aktivovane. Diky
+za pomoc.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10548" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10549"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10549" class="active">http://zelenarovnovaha.putovn</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 26 Únor, 2008 - 20:54.  </div>
+
+  <div class="content">
+    <p><code>http://zelenarovnovaha.putovni.net/cart/checkout</code></p>
+
+<p>tady je to treba cesky. takze spis to funguje, ale ten preklad neni
+kompletni :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10549" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10613"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10613" class="active">Lokalizace</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Jakub Svoboda (bez ověření) dne 29 Únor, 2008 - 16:46.  </div>
+
+  <div class="content">
+    <p>Tak uz jsem na to prisel.. Preklad je opravdu znacne nekompletni, takze jsem
+si spojil vsechny .po soubory do jednoho a kdyz narazim na cast, ktera neni
+prelozena, tak si ji najdu a prelozim. Preklad naimportuju a jedu dal.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10613" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10646"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10646" class="active">Zkousim rozchodit ubercart</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Kulis (bez ověření) dne 3 Březen, 2008 - 11:34.  </div>
+
+  <div class="content">
+    <p>Zkousim rozchodit ubercart na verzi 6.1 ale nejde to.. v modules mi to
+pise, ze je to stary.. Je nekde nova verze ubercartu, nebo mamm zmenit verzi
+drupalu?? Diky za pomoc – je to na webu <a href="http://www.bo.kx.cz">www.bo.kx.cz</a> …</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10646" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10648"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10648" class="active">Příslušná verze modulu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/toma-baza.html" title="Zobrazit profil uživatele.">toma.baza</a> dne 3 Březen, 2008 - 12:41.  </div>
+
+  <div class="content">
+    <p>Moduly v 5.x a 6.x se liší. Musí se použít verze modulu pro
+příslušnou verzi. Pokud ještě neexistuje verze pro 6.x, tak musíš buď
+počkat, nebo nainstalovat a používat 5.x.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10648" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10652"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10652" class="active">A jak mam nahrát češtinu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Kulis (bez ověření) dne 3 Březen, 2008 - 18:21.  </div>
+
+  <div class="content">
+    <p>A jak mam nahrát češtinu na 5ku?? Skoušel jsem to tam vkládat všude,
+spouštět na stránce to, jak to vyhledá, nenašlo to nic – můžete mi
+prosím napsat do jakého adresáře a co všechno tam mam nahrát? A jak to
+tam pak nastavit :) :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10652" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10661"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10661" class="active">Dohrání překladu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/toma-baza.html" title="Zobrazit profil uživatele.">toma.baza</a> dne 3 Březen, 2008 - 20:36.  </div>
+
+  <div class="content">
+    <p>Čeština se dá dohrát přes administraci:<br />
+Administrace → Nastavení webu → Lokalizace (admin/settin­gs/locale) a
+následně volba Import.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10661" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10678"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10678" class="active">Ano, to jsem dělal, ale</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Kulis (bez ověření) dne 4 Březen, 2008 - 19:15.  </div>
+
+  <div class="content">
+    <p>Ano, to jsem dělal, ale vždy mi to nic nepřeložilo, i když jsem
+nastavil jako výchozí a činný. U přkladu bylo 0/120 (asi) 0% . Nevíte jak
+jinak by to šlo??</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10678" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10991"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10991" class="active">ujistete se ze mate posledni</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/pepe.html" title="Zobrazit profil uživatele.">PEpe</a> dne 20 Březen, 2008 - 12:43.  </div>
+
+  <div class="content">
+    <p>ujistete se ze mate posledni verzi ubercartu i cestiny (z <a href="http://l10n.privnet.biz">http://l10n.privnet.biz</a> ) a pak to zminovanym
+postupem proste jit musi :)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10991" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10992"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-10992" class="active">PS: momentalne je prelozeno</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/pepe.html" title="Zobrazit profil uživatele.">PEpe</a> dne 20 Březen, 2008 - 12:44.  </div>
+
+  <div class="content">
+    <p>PS: momentalne je prelozeno 34% projektu, takze s tim je treba pocitat…
+nicmene preklad stale postupuje kupredu a budeme velmi radi, pokud se do nej
+zapojite i vy (viz. zminovana adresa).</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/10992" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-11067"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-11067" class="active">ludia kedy bude ubercart</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 23 Březen, 2008 - 17:31.  </div>
+
+  <div class="content">
+    <p>ludia kedy bude ubercart slovensky alebo cesky – plne a bude dostupny na
+6 verziu? ja mam drupal 6.1 a nemozem odskusat ten ubertcart lebo mam
+najnovsiu verziu :( pohnite si dik</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/11067" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-11072"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-11072" class="active">Ked posles nejaku dotaciu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/havran.html" title="Zobrazit profil uživatele.">Havran</a> dne 23 Březen, 2008 - 20:51.  </div>
+
+  <div class="content">
+    <p>Ked posles nejaku dotaciu mozno to bude rychlejsie ;).</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/11072" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-11089"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-11089" class="active">lol, pohni sam.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/admin.1.html" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 24 Březen, 2008 - 15:13.  </div>
+
+  <div class="content">
+    <p>lol, pohni sam.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/11089" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-11181"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-11181" class="active">Více cen</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ekinachod.html" title="Zobrazit profil uživatele.">ekinachod</a> dne 27 Březen, 2008 - 20:13.  </div>
+
+  <div class="content">
+    <p>Dobry den,<br />
+Chtel bych se zeptat nevite o nejakem dodatecnem modulu, abych mohl mit
+u jednoho vyrobku vice cen pro ruzne odberatele – maloobchod a velkoobchod.
+Predem dekuji M</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/11181" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-11248"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-11248" class="active">vat/dph</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel jasom (bez ověření) dne 2 Duben, 2008 - 08:50.  </div>
+
+  <div class="content">
+    <p>troska som guglil(site:u­bercart.org vat) a s dph by nemali byt problem: <a href="http://www.ubercart.org/contrib/136">ubercart dph</a></p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/11248" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-12351"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-12351" class="active">Automatická sleva</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/ekinachod.html" title="Zobrazit profil uživatele.">ekinachod</a> dne 3 Červen, 2008 - 13:40.  </div>
+
+  <div class="content">
+    <p>Lze nejakym zpusobem davat slevu podle konecne castky, ktera se automaticky
+vypocitava?</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/12351" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-12368"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-12368" class="active">Podívejte se do Contributed</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/wojtha.1.html" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 4 Červen, 2008 - 12:34.  </div>
+
+  <div class="content">
+    <p>Podívejte se do Contributed modules → Discounts</p>
+
+<p><a href="http://www.ubercart.org/contrib?filter0=%2A%2AALL%2A%2A&amp;filter1=19&amp;filter2=%2A%2AALL%2A%2A">http://www.ubercart.org/contrib?…</a></p>
+
+<p>Vypadá to, že modul Discounts dělá to, co chcete…</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/12368" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-14003"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-14003" class="active">Dobry vecer….
+chtel bych</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="https://www.drupal.cz/user/zion" title="Zobrazit profil uživatele.">Zion</a> dne 14 Září, 2008 - 22:53.  </div>
+
+  <div class="content">
+    <p>Dobry vecer …<br />
+chtel bych se vas zeptat nevite nekdo zda existuje nejaky modul ktery by
+umoznval cenu – slevu dle roli???<br />
+S tim ze by se u zbozi – produktu vzdy ukazala cena pro normalni uzivatele
+tak i sleva pro urcitou roli a pokud bude uzivatel prihlasen a clenem slevove
+role do objednavky se mu vlozi cena po sleve?<br />
+Pripadne neumite ekdo toto naprogramovat???</p>
+
+<p>Diky za rady Zion</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/14003" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-14022"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-14022" class="active">Discounts</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/wojtha.1.html" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 16 Září, 2008 - 11:49.  </div>
+
+  <div class="content">
+    <p>Viz muj prispevek ^^^</p>
+
+<p>Nic vhodnejsiho zatim asi neni, co jsem se tak koukal, ale doprogramovat to
+neni celkem problem. Ubercart ma hodne dobry API a cokoliv zmenit lze relativne
+snadno. Odhaduju to na cca 10h prace (jako obecny modul), mozna i min.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/14022" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-14038"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-14038" class="active">Diky za radu mel jsi na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="https://www.drupal.cz/user/zion" title="Zobrazit profil uživatele.">Zion</a> dne 17 Září, 2008 - 00:28.  </div>
+
+  <div class="content">
+    <p>Diky za radu mel jsi na mysli tenhle modul??? <a href="http://www.ubercart.org/contrib/143">http://www.ubercart.org/contrib/143</a><br />
+No verim ze by to snad nemel byt takovy problem to naprogramovat ale … ale jak
+pro koho :-D. Pro me docela ano PHP zas tak dobre neovladam abych se mohl pustit
+do programovani novych funklci neceho co super funguje :-)<br />
+A odhad 10 hodin bude predstavovat minimalne cenovou relaci kolem 3000 az
+5000,– Kc :-D za modul a to si jako obcanske sdruzeni nemuzeme
+dovolit ;-)</p>
+
+<p>Jeste jsem zkousel modul Alternative Price ale ten byl pro me zahadou uz jen
+v nastaveni a pak ve zvlastni forme vypisovani cenovych relaci a navic to
+neresilo problem ukazane slevy jen urcite roli.</p>
+
+<p>Ale odskousim Discount a uvidim … prej by tam neco o rolich melo byt :-),
+pak dam vedet</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/14038" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-14056"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-14056" class="active">jojo, tenhle modul</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/wojtha.1.html" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 17 Září, 2008 - 12:40.  </div>
+
+  <div class="content">
+    <p>jojo, tenhle modul</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/14056" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-14105"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-14105" class="active">Takze jak jsem slibil davam</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="https://www.drupal.cz/user/zion" title="Zobrazit profil uživatele.">Zion</a> dne 19 Září, 2008 - 21:54.  </div>
+
+  <div class="content">
+    <p>Takze jak jsem slibil davam vedet :.-)</p>
+
+<p>Tento modul „Discount“ obsahuje opravdu dobre reseni alternativnich cen
+jak pro jednotlive polozky – kategorie zbozi tak i pro samotne role nebo jen
+urcity jeden druh zbozi. Sam jsem pouzil pouze submoduly „product“ a
+„role“ a musim podekovat … plne mi vyhovuje a pracuje tak jak jsem si
+predstavoval. Noa drobne nedostatky neboli zmeny v zobrazeni si snad uz upravim
+sam ;-)</p>
+
+<p>Jeste jednou diky</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/14105" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-14137"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-14137" class="active">Super :-)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/wojtha.1.html" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 22 Září, 2008 - 16:09.  </div>
+
+  <div class="content">
+    <p>Super :-)</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/14137" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-15024"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-15024" class="active">Zdravím, můžete prosím</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 11 Listopad, 2008 - 22:19.  </div>
+
+  <div class="content">
+    <p>Zdravím, můžete prosím alespoň zhruba popsat nastavení slevy pomocí
+Discount podle rolí? Nemůžu přijít na to jakým způsobem to
+zprovoznit. Díky</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/15024" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-29451"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-29451" class="active">Množstevní jednotky ks, kg, m</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/radek-pliska.html" title="Zobrazit profil uživatele.">Radek Pliska</a> dne 31 Červenec, 2010 - 17:44.  </div>
+
+  <div class="content">
+    <p>Chtěl bych se zeptat někoho zkušeného s tímto e-shopem. Jde přímo
+v Ubercart nějakým způsobem nastavit pro každé konkrétní zboží
+jednotku množství? Tj Ks, metry, kg ??? Nebo musím upravit nodetype Product a
+přidat si tak políčko s možnostmi? Jen nevím jak to navázat dále…</p>
+
+<p>Diky za rady</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/29451" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-31918"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-31918" class="active">jednotku množství..můžete</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/gynekolog.html" title="Zobrazit profil uživatele.">Gynekolog</a> dne 3 Listopad, 2010 - 19:29.  </div>
+
+  <div class="content">
+    <p>jednotku množství..můžete u každého zboží zadat jeho
+rozměry(výšku, šířku, dýlku), váhu a dokonce vybrat v jakých to bude
+jednotkách</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/31918" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-31961"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-31961" class="active">Jenže v nastaveni obchodu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/radek-pliska.html" title="Zobrazit profil uživatele.">Radek Pliska</a> dne 5 Listopad, 2010 - 15:06.  </div>
+
+  <div class="content">
+    <p>Jenže v nastaveni obchodu nejdou nastavit metry, jsou tam jen cm a mm. Je
+to v záložce Nastavení obchodu… jenže ja budu prodávat kabeláž a ta se
+prodává na metry. Tak jak můžu něco prodat na ks tak by melo jít i na m.
+Dle mého jsou metry základní měrná jednotka, oproti cm nebo mm.</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/31961" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-31964"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="elektronicky-obchod-ubercart.html#comment-31964" class="active">nevim jestli to neni blbost</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="../../user/gynekolog.html" title="Zobrazit profil uživatele.">Gynekolog</a> dne 5 Listopad, 2010 - 15:51.  </div>
+
+  <div class="content">
+    <p>nevim jestli to neni blbost ale co používat milimetry a tvářit se jako
+že to sou metry? Ve formátování řetězce změnit !value mm na !value m</p>  </div>
+<div class="morelinks">
+
+<a href="https://www.drupal.cz/comment/reply/2370/31964" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="https://www.drupal.cz/comment/reply/2370"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="../../filter/tips.html">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-468ac1211526263db986c649e228aa8c" value="form-468ac1211526263db986c649e228aa8c"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart?destination=node%2F2370"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="../../user/register.html" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="../../user/password.html" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-b8c936b6270c046fd9e5ee44186773fa" value="form-b8c936b6270c046fd9e5ee44186773fa"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="../../node/52781.html"><img src="../../files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="../../bezpecnost.html">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="../akce.1.html" class="tagadelic level4">akce</a> 
+<a href="../bezpecnost.1.html" class="tagadelic level6">bezpečnost</a> 
+<a href="../cck.html" class="tagadelic level2">CCK</a> 
+<a href="../como-ganhar-dinheiro.html" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="../como-ganhar-dinheiro-na-internet.html" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="../como-ganhar-dinheiro-pela-internet.html" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="../drupal.html" class="tagadelic level3">drupal</a> 
+<a href="https://www.drupal.cz/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="../drupal-7x.html" class="tagadelic level1">Drupal 7.x</a> 
+<a href="../drupalcamp.1.html" class="tagadelic level1">drupalcamp</a> 
+<a href="../drupalcon.html" class="tagadelic level1">drupalcon</a> 
+<a href="../drupal-setkani.html" class="tagadelic level2">Drupal setkání</a> 
+<a href="../forex.html" class="tagadelic level1">forex</a> 
+<a href="../forex-broker.html" class="tagadelic level1">forex broker</a> 
+<a href="../forex-trading-strategies.html" class="tagadelic level1">forex trading strategies</a> 
+<a href="../fx-trading.html" class="tagadelic level2">FX trading</a> 
+<a href="../game-war-cheats.html" class="tagadelic level1">game of war cheats</a> 
+<a href="../ganhar-dinheiro.html" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="../ganhar-dinheiro-na-internet.html" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="../godus-cheats.html" class="tagadelic level1">godus cheats</a> 
+<a href="../image.html" class="tagadelic level1">image</a> 
+<a href="../landlord-house-insurance.html" class="tagadelic level1">landlord house insurance</a> 
+<a href="../lokalizace.html" class="tagadelic level1">lokalizace</a> 
+<a href="../moduly.html" class="tagadelic level6">moduly</a> 
+<a href="../navod.html" class="tagadelic level2">navod</a> 
+<a href="../online-forex-trading.html" class="tagadelic level1">online forex trading</a> 
+<a href="../ostatni.html" class="tagadelic level3">ostatní</a> 
+<a href="../overwatch-aimbot.html" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="../php.html" class="tagadelic level1">php</a> 
+<a href="../pro-webmastery.1.html" class="tagadelic level5">pro webmastery</a> 
+<a href="../preklad.html" class="tagadelic level1">překlad</a> 
+<a href="../prekladatelsky-sprint.html" class="tagadelic level1">překladatelský sprint</a> 
+<a href="../preklady.html" class="tagadelic level2">překlady</a> 
+<a href="../pripadove-studie.html" class="tagadelic level2">případové studie</a> 
+<a href="../setkani.1.html" class="tagadelic level5">setkání</a> 
+<a href="../setkani-akce.html" class="tagadelic level5">setkání, akce</a> 
+<a href="../synthetic-opal.html" class="tagadelic level3">synthetic opal</a> 
+<a href="../synthetic-opals.html" class="tagadelic level3">synthetic opals</a> 
+<a href="../theming.html" class="tagadelic level2">theming</a> 
+<a href="../tipy-triky.html" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="../ubercart.html" class="tagadelic level1">UberCart</a> 
+<a href="../views.html" class="tagadelic level2">views</a> 
+<a href="../vyvoj.html" class="tagadelic level2">vývoj</a> 
+<a href="../vyvoj-drupalu.html" class="tagadelic level5">vývoj drupalu</a> 
+<a href="../zacatecnici.1.html" class="tagadelic level5">začátečníci</a> 
+<a href="../sablony-vzhled.html" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="../../forum.1.html" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="../../forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac.html#comment-104041">Doplnění</a><br />před 5 hod 56 min</li>
+<li><a href="../../forum/po-instalaci/jak-na/zjisteni-block-id.html#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 5 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 19 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 18 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 22 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 23 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv.html#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 17 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu.html#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 21 hod</li>
+<li><a href="../../forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku.html#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="../../forum/po-instalaci/jak-na/webform-user-node.html#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="../../aggregator/pisou-na-slovensku.html" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="../../rss.xml" title="RSS Kanal"><img src="https://www.drupal.cz/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="../novinky-na-webu/seznam-rss-zdroju-drupal-cz.html">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>1 host</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="../../kontakt/sluzby.html">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="../../sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="../../sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="../../files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":282,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

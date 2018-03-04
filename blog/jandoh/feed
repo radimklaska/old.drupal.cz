@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>JanDoh&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/jandoh</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>potřebuji pomoc,</title>
+ <link>https://www.drupal.cz/blog/jandoh/potrebuji-pomoc</link>
+ <description>&lt;p&gt;udělal jsem blbost a znepřístupnil jsem si hesla. Pomoc, jak to mám
+udělat Děkuji, Honza&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jandoh/potrebuji-pomoc#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/16741</wfw:commentRss>
+ <pubDate>Thu, 13 Dec 2012 15:33:05 +0000</pubDate>
+ <dc:creator>JanDoh</dc:creator>
+ <guid isPermaLink="false">16741 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Potřebujeme pomoc s doinstalováním modulů a s případnou administrací DRUPALu 7.x. (mám mozkovou mrtvici)</title>
+ <link>https://www.drupal.cz/blog/jandoh/potrebujeme-pomoc-s-doinstalovanim-modulu-s-pripadnou-administraci-drupalu-7x</link>
+ <description>&lt;p&gt;Dobrý den, Potřebujeme pomoc s doinstalováním modulů a s případnou
+administrací DRUPALu 7.x.&lt;/p&gt;
+
+&lt;p&gt;Ale potřebujeme pomoc dobrovolníků. Proč? Protože jsme společnost ICTUS
+o.p.s. a žijeme s darů lidí. Jsme společnost, která pomáhá lidem po
+mozkové mrtvici. Já sám jsem po mrtvici a spravuji web &lt;a href=&quot;http://www.ictus.cz&quot;&gt;www.ictus.cz&lt;/a&gt;, kde není DRUPAL. A přecházím
+na nový web (vývojový) &lt;a href=&quot;http://www.d.ictus.cz&quot;&gt;www.d.ictus.cz&lt;/a&gt;
+s DRUPALem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jandoh/potrebujeme-pomoc-s-doinstalovanim-modulu-s-pripadnou-administraci-drupalu-7x&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jandoh/potrebujeme-pomoc-s-doinstalovanim-modulu-s-pripadnou-administraci-drupalu-7x#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/potrebujeme-pomoc-pro-spolecnost-ictus-ops">Potřebujeme pomoc pro společnost ICTUS o.p.s.</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10367</wfw:commentRss>
+ <pubDate>Sat, 24 Sep 2011 13:30:12 +0000</pubDate>
+ <dc:creator>JanDoh</dc:creator>
+ <guid isPermaLink="false">10367 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

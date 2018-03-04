@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>mirom&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/miroslavmichalicka</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title> Drupal stretnutie v BA - Poďme na pivo</title>
+ <link>https://www.drupal.cz/blog/miroslavmichalicka/drupal-stretnutie-v-ba-podme-na-pivo</link>
+ <description>&lt;p&gt;&lt;img src=&quot;https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc1/t1.0-9/575731_128717723934787_743268782_n.jpg&quot; alt=&quot;drupal.sk&quot; /&gt; Prídťe sa zoznámiť, podiskutovať na Drupal stretnutie
+v Bratislave.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miroslavmichalicka/drupal-stretnutie-v-ba-podme-na-pivo&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miroslavmichalicka/drupal-stretnutie-v-ba-podme-na-pivo#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25576</wfw:commentRss>
+ <pubDate>Fri, 11 Apr 2014 09:36:27 +0000</pubDate>
+ <dc:creator>mirom</dc:creator>
+ <guid isPermaLink="false">25576 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

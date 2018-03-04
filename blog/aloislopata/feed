@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>AloisLopata&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/aloislopata</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Hue</title>
+ <link>https://www.drupal.cz/blog/aloislopata/hue</link>
+ <description>&lt;p&gt;&lt;span&gt;a tak končí další příspěvek.&lt;/span&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/aloislopata/hue#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/18856</wfw:commentRss>
+ <pubDate>Thu, 18 Apr 2013 10:07:56 +0000</pubDate>
+ <dc:creator>AloisLopata</dc:creator>
+ <guid isPermaLink="false">18856 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Cvičný příspěvek</title>
+ <link>https://www.drupal.cz/blog/aloislopata/cvicny-prispevek</link>
+ <description>&lt;p&gt;A toto je první z nich&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/aloislopata/cvicny-prispevek#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/18846</wfw:commentRss>
+ <pubDate>Thu, 18 Apr 2013 09:59:18 +0000</pubDate>
+ <dc:creator>AloisLopata</dc:creator>
+ <guid isPermaLink="false">18846 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

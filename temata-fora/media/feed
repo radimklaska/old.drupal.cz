@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Média</title>
+ <link>https://www.drupal.cz/taxonomy/term/371/0</link>
+ <description>Mediální informace o Drupalu, press servis, rozvoj komunity.</description>
+ <language>cs</language>
+<item>
+ <title>Bezpečnost Drupalu vs jiné CMS</title>
+ <link>https://www.drupal.cz/forum/media/bezpecnost-drupalu-vs-jine-cms</link>
+ <description>&lt;p&gt;Zajímavý článek &lt;a href=&quot;http://www.itbiz.cz/clanky/bezpecnostni-prehled-jak-si-stoji-redakcni-systemy&quot;&gt;http://www.itbiz.cz/…kcni-systemy&lt;/a&gt;
+Z toho, co píšou o studii Sucuri, tak Drupal je na tom i přes větší
+zaostalost v aktualizacích na jednotlivých webech mnohem lépe, co se týče
+vzdrorování útokům. Nebo je to tak přinejmenším proto, že instalací
+WordPressu je zkrátka více.&lt;/p&gt;
+
+&lt;p&gt;A co vy? Jak často aktualizujete svoje weby na Drupalu? A jak?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/bezpecnost-drupalu-vs-jine-cms&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/bezpecnost-drupalu-vs-jine-cms#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media">Média</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/56091</wfw:commentRss>
+ <pubDate>Tue, 31 May 2016 07:08:25 +0000</pubDate>
+ <dc:creator>maxiorel</dc:creator>
+ <guid isPermaLink="false">56091 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Stahování z webu</title>
+ <link>https://www.drupal.cz/forum/media/stahovani-z-webu</link>
+ <description>&lt;p&gt;Dobrý den, Chtěl bych se zeptat jestli existuje nějaký modul který bych
+dal na svůj web aby šlo stahovat z toho webu.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/stahovani-z-webu#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media">Média</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/17881</wfw:commentRss>
+ <pubDate>Wed, 27 Feb 2013 22:09:43 +0000</pubDate>
+ <dc:creator>Danoss</dc:creator>
+ <guid isPermaLink="false">17881 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7 vs mp3 prehravač</title>
+ <link>https://www.drupal.cz/forum/media/drupal-7-vs-mp3-prehravac</link>
+ <description>&lt;p&gt;Ahojte, riešim problém s prehrávaním hudby na webe s Drupal 7 Mám
+5 základných požiadaviek&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;potrebujem aby si neprihlaseny user mohol prehrat hudbu to mam. Ale je tam
+	taky problem, že ak použijem upload suboru tak sa dá po každe stiahnut so
+	stranky, to je neziaduce pre web ktory mam vytvorit. &lt;a href=&quot;http://hiscoming.eu/&quot;&gt;http://hiscoming.eu/&lt;/a&gt;…a-a-prezitok#…&lt;/li&gt;
+
+	&lt;li&gt;potrebujem playlist 3.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/drupal-7-vs-mp3-prehravac&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/drupal-7-vs-mp3-prehravac#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media">Média</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11461</wfw:commentRss>
+ <pubDate>Mon, 09 Apr 2012 19:57:21 +0000</pubDate>
+ <dc:creator>miki.halasko</dc:creator>
+ <guid isPermaLink="false">11461 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>prima kůl</title>
+ <link>https://www.drupal.cz/forum/media/prima-kul</link>
+ <description>&lt;p&gt;jen tak jsem kvuli futurame na ty stranky vlezl a jen tak pro zajimavost
+mrknul do zdrojaku a vypada to (podle klasickeho sites/all/modules…) ze jedou
+na drupalu, to by chtelo vyuzit marketingove&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/prima-kul#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media">Média</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4977</wfw:commentRss>
+ <pubDate>Sun, 05 Apr 2009 16:04:23 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">4977 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>import více fotografií z pevného disku?! Je to možné?</title>
+ <link>https://www.drupal.cz/forum/media/import-vice-fotografii-z-pevneho-disku-je-mozne</link>
+ <description>&lt;p&gt;Zdravím, mám problém. Hledám galerii, do které by se dalo hromadně
+nahrát větší počet fotografií, ale z pevného disku počítače (ne ze
+složky, kterou ale uživatel nejprve musí nahrát na FTP). Nevíte někdo
+o něčem takovém?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/import-vice-fotografii-z-pevneho-disku-je-mozne&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/import-vice-fotografii-z-pevneho-disku-je-mozne#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media">Média</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3663</wfw:commentRss>
+ <pubDate>Thu, 04 Sep 2008 17:50:34 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">3663 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

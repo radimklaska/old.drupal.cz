@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>TiborTeam&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/tiborteam</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Dnešní aktualizace Drupal 6.11 a 5.17 !!!!!</title>
+ <link>https://www.drupal.cz/blog/tiborteam/dnesni-aktualizace-drupal-611-517</link>
+ <description>&lt;p&gt;Drupal 6.11 and 5.17, maintenance releases fixing problems reported using
+the bug tracking system, as well as a critical security vulnerability, are now
+available for download. Drupal 6.11 also fixes performance issues with the menu
+cache and update status cache among other smaller issues.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/tiborteam/dnesni-aktualizace-drupal-611-517#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5088</wfw:commentRss>
+ <pubDate>Thu, 30 Apr 2009 06:19:39 +0000</pubDate>
+ <dc:creator>TiborTeam</dc:creator>
+ <guid isPermaLink="false">5088 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

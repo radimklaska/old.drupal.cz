@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - moduly</title>
+ <link>https://www.drupal.cz/taxonomy/term/15/0</link>
+ <description>Články o nových či zajímavých modulech.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal školenia | SDA</title>
+ <link>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda</link>
+ <description>&lt;p&gt;Slovenská Drupal Asociácia sa chystá organizovať Drupal školenia.
+Základné info na &lt;a href=&quot;http://drupal.sk/node/1897&quot;&gt;drupal.sk&lt;/a&gt; .
+Pomôžte nám získať viac info o vašich požiadavkách v ankete &lt;a href=&quot;https://apps.facebook.com/polldaddy-polls/?view=poll&amp;amp;id=7558115&quot;&gt;na
+facebooku&lt;/a&gt;, alebo v komentároch na drupal.sk, alebo tu.&lt;/p&gt;
+
+&lt;p&gt;Ďakujeme&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22956</wfw:commentRss>
+ <pubDate>Wed, 13 Nov 2013 11:59:01 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">22956 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Plánované akce a aktuality na webu v Drupalu</title>
+ <link>https://www.drupal.cz/blog/paveldf/planovane-akce-aktuality-na-webu-v-drupalu</link>
+ <description>&lt;p&gt;I když náš web &lt;a href=&quot;http://magazin.stripky.eu/&quot;&gt;Střípků
+z regionu&lt;/a&gt; běží už dva roky, přesto se cítím v tom velkém kolotoči
+Drupalu jako začátečník. Pokusím se vám tu popsat jeden problém, který
+jsem zatím řešil provizorně a nepříliš elegantně.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/paveldf/planovane-akce-aktuality-na-webu-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/paveldf/planovane-akce-aktuality-na-webu-v-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/datum">datum</category>
+ <category domain="https://www.drupal.cz/clanky/slovnik">slovník</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12206</wfw:commentRss>
+ <pubDate>Thu, 24 May 2012 10:36:42 +0000</pubDate>
+ <dc:creator>paveldf</dc:creator>
+ <guid isPermaLink="false">12206 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>První český platební modul - UC GoPay</title>
+ <link>https://www.drupal.cz/clanky/komerce/platebni-modul-pro-ceske-e-shopy-gopay</link>
+ <description>&lt;p&gt;Ve spolupráci s &lt;a href=&quot;http://drupal.org/user/56154&quot;&gt;Vojtěchem
+Kusým&lt;/a&gt;, vývojářem Drupalu, jsme připravili modul pro integraci platební
+brány GoPay. Modul je volně ke stažení z Drupal.org: &lt;a href=&quot;http://drupal.org/project/uc_gopay&quot;&gt;http://drupal.org/…ect/uc_gopay&lt;/a&gt;.
+Momentálně existují verze pro Drupal 6/Übercart 2 a Drupal 7/Übercart
+3. Díky platební bráně Gopay můžete zákazníkům zpřístupnit většinu
+platebních metod běžných v České republice. V článku se dozvíte jak
+probíhá integrace, jak modul nainstalovat a také jak ho případně
+podpořit, aby se dále rozvíjel.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/komerce/platebni-modul-pro-ceske-e-shopy-gopay&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/komerce/platebni-modul-pro-ceske-e-shopy-gopay#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/drupal7">Drupal7</category>
+ <category domain="https://www.drupal.cz/clanky/e-shop">e-shop</category>
+ <category domain="https://www.drupal.cz/clanky/komerce">komerce</category>
+ <category domain="https://www.drupal.cz/clanky/platby">platby</category>
+ <category domain="https://www.drupal.cz/clanky/platebni-brana">platební brána</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11049</wfw:commentRss>
+ <pubDate>Mon, 21 May 2012 14:00:53 +0000</pubDate>
+ <dc:creator>strep</dc:creator>
+ <guid isPermaLink="false">11049 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>První český platební modul - GoPay</title>
+ <link>https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay</link>
+ <description>&lt;p&gt;Ve spolupráci s vývojářem Drupalu jsme připravili modul pro integraci
+platební brány GoPay. Pro zájemce je modul volně ke stažení &lt;a href=&quot;http://drupal.org/project/uc_gopay&quot;&gt;http://drupal.org/…ect/uc_gopay&lt;/a&gt;.
+V současnosti slouží pro Drupal 7 a Übercart 3. Registrací, která není
+nijak zpoplatněna a je dobrovolná, pomůžete dalšímu vývoj
+modulu (např.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/drupal7">Drupal7</category>
+ <category domain="https://www.drupal.cz/clanky/e-shop">e-shop</category>
+ <category domain="https://www.drupal.cz/clanky/komerce">komerce</category>
+ <category domain="https://www.drupal.cz/clanky/platby">platby</category>
+ <category domain="https://www.drupal.cz/clanky/platebni-brana">platební brána</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <enclosure url="https://www.drupal.cz/files/uc_gopay-7.x-1.0-alpha2.tar_0.gz" length="97417" type="application/octet-stream" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11058</wfw:commentRss>
+ <pubDate>Mon, 20 Feb 2012 10:28:19 +0000</pubDate>
+ <dc:creator>strep</dc:creator>
+ <guid isPermaLink="false">11058 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tip na administrační modul</title>
+ <link>https://www.drupal.cz/blog/gynekolog/tip-na-administracni-modul</link>
+ <description>&lt;p&gt;Parádní modul jménem Coffee. Funguje jako vyhledávání ve windows.
+Stačí nainstalovat, stisknout alt D a začít psát dotaz &lt;img src=&quot;http://drupal.org/files/images/skitched-20120201-143739.preview.png&quot; /&gt;&lt;br /&gt;
+&lt;a href=&quot;http://drupal.org/project/coffee&quot;&gt;http://drupal.org/project/coffee&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/tip-na-administracni-modul#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/administrace">administrace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10985</wfw:commentRss>
+ <pubDate>Fri, 03 Feb 2012 20:05:34 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">10985 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Instalace TinyMCE a IMCE v Drupalu 7</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/instalace-tinymce-imce-v-drupalu-7</link>
+ <description>&lt;p&gt;Drupal nemá vestavěný &lt;span title=&quot;What You See Is What You Get&quot;&gt;WYSIWYG&lt;/span&gt; editor (laicky řečeno:
+„tlačítka” pro formátování textu, jako jsou např. v MS Word).
+Výhodou je, že si můžete vybrat editor, který nejlépe vyhovuje vašim
+potřebám, a dokonce používat pro různé účely na webu odlišné editory
+(můžete chtít například jiný editor pro hlavního administrátora webu,
+jiný pro redaktory a jiný pro anonymní uživatele). Nevýhodou pochopitelně
+je, že WYSIWYG editor musíte doinstalovat. Existují různé možnosti, jak to
+udělat.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/instalace-tinymce-imce-v-drupalu-7&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/instalace-tinymce-imce-v-drupalu-7#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/imce">IMCE</category>
+ <category domain="https://www.drupal.cz/clanky/instalace">instalace</category>
+ <category domain="https://www.drupal.cz/clanky/tinymce">tinymce</category>
+ <category domain="https://www.drupal.cz/clanky/wysiwyg">wysiwyg</category>
+ <category domain="https://www.drupal.cz/clanky/wysiwyg-editory">wysiwyg editory</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10735</wfw:commentRss>
+ <pubDate>Mon, 05 Dec 2011 15:00:44 +0000</pubDate>
+ <dc:creator>Boreg</dc:creator>
+ <guid isPermaLink="false">10735 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Úvod do vývoje drupal modulů</title>
+ <link>https://www.drupal.cz/uvod-do-vyvoje-drupal-modulu</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Vojtěch Kusý        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-link field-field-url-multiple&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Odkaz:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;http://www.youtube.com/watch?v=jVsq3cLjlKk&quot; rel=&quot;nofollow&quot;&gt;Videozáznam - YouTube&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/akce/drupal-setkani-praha-26-dubna-2011-zamereno-na-vyvojare&quot;&gt;Drupal setkání - Praha - 26. dubna 2011 - Zaměřeno na vývojáře&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/uvod-do-vyvoje-drupal-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10020</wfw:commentRss>
+ <pubDate>Mon, 11 Jul 2011 15:51:36 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">10020 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak zprovoznit hledání pomocí Apache Solr</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0</link>
+ <description>&lt;p&gt;Pokládal jsem dotaz do fóra, jaké vyhledávání používáte. A při tom
+jsem si řekl, že zkusím zprovoznit vyhledávání přes Solr. A jelikož
+jsem uspěl, tak se s vámi podělím. Předem upozorňuji, že se jedná
+o platformu Windows, ale pro linux je všude hafo návodů a navíc to bude
+skoro stejné…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/Jak_na_hledani_Apache_Solr_0.pdf" length="384730" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9748</wfw:commentRss>
+ <pubDate>Fri, 20 May 2011 14:45:02 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9748 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak zprovoznit hledání pomocí Apache Solr</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr</link>
+ <description>&lt;p&gt;Pokládal jsem dotaz do fóra, jaké vyhledávání používáte. A při tom
+jsem si řekl, že zkusím zprovoznit vyhledávání přes Solr. A jelikož
+jsem uspěl, tak se s vámi podělím. Předem upozorňuji, že se jedná
+o platformu Windows, ale pro linux je všude hafo návodů a navíc to bude
+skoro stejné…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/vyhledavani">vyhledávání</category>
+ <enclosure url="https://www.drupal.cz/files/Jak_na_hledani_Apache_Solr.pdf" length="392641" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9742</wfw:commentRss>
+ <pubDate>Thu, 19 May 2011 10:14:14 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9742 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Novinky: Views Autocomplete Filters a jQuery UI Account Dialogs</title>
+ <link>https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs</link>
+ <description>&lt;b&gt;Views Autocomplete Filters&lt;/b&gt;&lt;br /&gt;
+Autor opravil chybu a modul je plně funkční. Modul přidává funkci
+našeptávače k exposed filtrům, šikovná věc.&lt;br /&gt;
+ &lt;a href=&quot;http://drupal.org/project/views_autocomplete_filters&quot;&gt;http://drupal.org/…lete_filters&lt;/a&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;jQuery UI Account Dialogs&lt;/b&gt;&lt;br /&gt;
+Přidává efektní jquery okna pro registraci, při žádosti o zapomenuté
+heslo nebo odhlašování&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <enclosure url="https://www.drupal.cz/files/1_2.jpg" length="76507" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9625</wfw:commentRss>
+ <pubDate>Wed, 27 Apr 2011 15:34:35 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">9625 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>CCK + Views</title>
+ <link>https://www.drupal.cz/clanky/moduly/cck-views</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Petr Okurek, Jan Štefl        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Přednáška je o základních modulech CCK a Views a o jejich
+spolupráci.&lt;/p&gt;&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/CCK_Views.pdf&quot; type=&quot;application/pdf; length=1189062&quot;&gt;CCK_Views.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/moduly/cck-views#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8852</wfw:commentRss>
+ <pubDate>Sun, 02 Jan 2011 12:23:37 +0000</pubDate>
+ <dc:creator>petrpo</dc:creator>
+ <guid isPermaLink="false">8852 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Dva nové moduly pro Ubercart 2.4</title>
+ <link>https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24</link>
+ <description>&lt;p&gt;Vydal jsem dva nové užitečné moduly pro Ubercart 2. První je modul pro
+podporu speciálně českého DPH – &lt;a href=&quot;http://drupal.org/project/uc_dph&quot;&gt;Ubercart 2 DPH support&lt;/a&gt;.
+Spolupracuje s taxami v Ubercartu a umožňuje nastavovat, jak cenu zobrazovat
+(jen s DPH, obě ceny) a též je možné vybrat specifické role, kterým se
+bude vždy zobrazovat jen cena bez DPH (pro B2B shopy).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8287</wfw:commentRss>
+ <pubDate>Sat, 18 Sep 2010 06:53:59 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">8287 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tribune nejede a nejede.... a jede!</title>
+ <link>https://www.drupal.cz/blog/karlos/tribune-nejede-nejede-jede</link>
+ <description>&lt;p&gt;Dostal jsem od zakaznika pozadavek na chat ve strankach. phpfreechat jsem
+zatim stale nerozjel :( tak jsem zkusil druhy modul a to Tribune. Nainstaloval
+jsem ho, vytvoril obsah tohoto typu a hle: chat nikde. prestoze modul evidentne
+bezel – na tom node byly záložky($tabs), dokonce tam byl i formular pro
+odeslani zpravy do chatu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/tribune-nejede-nejede-jede&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/tribune-nejede-nejede-jede#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7979</wfw:commentRss>
+ <pubDate>Thu, 05 Aug 2010 07:34:58 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7979 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Setřídění pole podle abecedy včetně diakritiky</title>
+ <link>https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky</link>
+ <description>&lt;p&gt;Nedávno jsem na svém webu nasadil modul „tagadelic“ a přešel ze
+statických kategorií na tagy. Nechal jsem si je zobrazovat v bloku podobně
+jako zde na drupal.cz.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/setrideni-pole-podle-abecedy-vcetne-diakritiky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7137</wfw:commentRss>
+ <pubDate>Mon, 01 Mar 2010 22:36:43 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">7137 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vypnutí cache pro konkrétní stránku z modulu</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/vypnuti-cache-pro-konkretni-stranku-z-modulu</link>
+ <description>&lt;p&gt;Někdo se tu jednou ptal, jak vypnout cache pro konkrétní stránku
+z nějakého modulu. Takhle: &amp;lt;?php $GLOBALS[‚con­f‘][‚cache‘] =
+false; ?&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Ve vašem modulu…&lt;/p&gt;
+
+&lt;p&gt;Btw. už jste hlasovali pro naši přednášku na Drupalconu? Stačí mít
+Drupal.org účet. &lt;a href=&quot;http://bit.ly/8QxqaP&quot;&gt;http://bit.ly/8QxqaP&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/vypnuti-cache-pro-konkretni-stranku-z-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7073</wfw:commentRss>
+ <pubDate>Wed, 17 Feb 2010 10:48:59 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">7073 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Views 3 - umíme OR</title>
+ <link>https://www.drupal.cz/blog/karlos/views-3-umime-or</link>
+ <description>&lt;p&gt;Zkusil jsem aktualni vyvojovou verzi Views 6.x-3.0-alpha2 . Krome par
+drobnych(ale logickych) zmen v rozmisteni prvku v jednotlivych sloupcich jsem
+objevil predevsim perfektni zlepseni filtru – konktretne jde o zapracovani
+operatoru OR a take jsou tam pridany „groups“ ktere umoznuji zavorkovani ve
+zkratce asi takhle: &lt;cite&gt;… where typ_obsahu = ‚narozeniny‘ AND ( rok =
+1960 OR rok = 1965 )&lt;/cite&gt;.&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/views-3-umime-or&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/views-3-umime-or#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7007</wfw:commentRss>
+ <pubDate>Mon, 08 Feb 2010 11:07:14 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7007 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>sbohem taxonomy_breadcrumb</title>
+ <link>https://www.drupal.cz/blog/karlos/sbohem-taxonomybreadcrumb</link>
+ <description>&lt;p&gt;Vzdy jsem s oblibou pouzival modul &lt;a href=&quot;http://drupal.org/project/taxonomy_breadcrumb&quot;&gt;taxonomy breadcrumb&lt;/a&gt;.
+ten ma ale posledni release pres rok stary tak jsem zkoumal a jeho autor
+doporucuje prechod na modul &lt;a href=&quot;http://drupal.org/project/custom_breadcrumbs&quot;&gt;custom breadcrumbs&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/sbohem-taxonomybreadcrumb&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/sbohem-taxonomybreadcrumb#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/taxonomy">taxonomy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6996</wfw:commentRss>
+ <pubDate>Sun, 07 Feb 2010 09:25:59 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">6996 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Překlady modulů</title>
+ <link>https://www.drupal.cz/blog/agir/preklady-modulu</link>
+ <description>&lt;p&gt;Jelikož spouštím nové stránky, tak jsem zjistil, že je třeba pár
+modulů přeložit. A rozhodl jsem se, že se o překlady podělím. Třeba se
+budou někomu hodit. Pokud přeložím něco dalšího, tak to sem
+přihodím.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/agir/preklady-modulu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/agir/preklady-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/preklad">překlad</category>
+ <enclosure url="https://www.drupal.cz/files/modules-admin.cs_.zip" length="1413" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6964</wfw:commentRss>
+ <pubDate>Tue, 02 Feb 2010 17:46:13 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6964 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Modul pro správu obrázků - 2i.cz</title>
+ <link>https://www.drupal.cz/clanky/moduly/modul-pro-spravu-obrazku-2icz</link>
+ <description>&lt;p&gt;Na Drupal.org se nedávno objevil nový modul s českými kořeny. Jedná se
+o &lt;a href=&quot;http://www.drupal.org/project/twoi&quot;&gt;2i&lt;/a&gt;&lt;br /&gt;
+image upload, který je alternativou populárního modulu imagefield pro CCK
+(Content Construction Kit).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/moduly/modul-pro-spravu-obrazku-2icz&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/moduly/modul-pro-spravu-obrazku-2icz#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6435</wfw:commentRss>
+ <pubDate>Mon, 16 Nov 2009 19:57:18 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">6435 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Seriál o vývoji modulov na Interval.CZ</title>
+ <link>https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz</link>
+ <description>&lt;p&gt;Na serveri Interval.CZ sa objavil zaujímavo začínajúci seriál o vývoji
+modulov pre Drupal 6.x. Doporučujem.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://interval.cz/clanky/vyvoj-modulu-pro-cms-system-drupal-6-x/&quot;&gt;Vývoj
+	modulů pro CMS systém Drupal 6.x&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://interval.cz/clanky/vyvoj-modulu-pro-cms-system-drupal-6-x-2-dil/&quot;&gt;Vývoj
+	modulů pro CMS systém Drupal 6.x (2. díl)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6363</wfw:commentRss>
+ <pubDate>Fri, 06 Nov 2009 19:07:43 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">6363 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

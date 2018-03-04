@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>MK&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/mk</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>drupal v macu</title>
+ <link>https://www.drupal.cz/blog/mk/drupal-v-macu</link>
+ <description>&lt;p&gt;ahoj, chtěla bych začít pracovat v drupalu. mám mecbook a teď se
+rozhoduji, zda nainstalovat drupal do platformy macosX nebo raději do
+virtuálního windows, můžete mi poradit?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mk/drupal-v-macu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10898</wfw:commentRss>
+ <pubDate>Fri, 13 Jan 2012 12:39:41 +0000</pubDate>
+ <dc:creator>MK</dc:creator>
+ <guid isPermaLink="false">10898 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

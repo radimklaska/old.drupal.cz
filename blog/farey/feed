@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>farey&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/farey</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Přeskoč.cz - zkraťte si cestu na web!</title>
+ <link>https://www.drupal.cz/blog/farey/preskoc-cz-zkratte-si-cestu-na-web</link>
+ <description>&lt;p&gt;Aktuálně jsme v rámci &lt;a href=&quot;http://www.chamanne.cz/&quot;&gt;Chamanne.cz&lt;/a&gt;
+spustili novou službu &lt;a href=&quot;http://www.preskoc.cz/&quot;&gt;Přeskoč.cz&lt;/a&gt;.
+Slouží pro přesměrování a zkrácení URL. Nijak nezastíráme inspiraci &lt;a href=&quot;http://tinyurl.com/&quot;&gt;TinyURL&lt;/a&gt; a podobnými zahraničními projekty.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/farey/preskoc-cz-zkratte-si-cestu-na-web&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/farey/preskoc-cz-zkratte-si-cestu-na-web#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2850</wfw:commentRss>
+ <pubDate>Sat, 12 Apr 2008 18:03:54 +0000</pubDate>
+ <dc:creator>farey</dc:creator>
+ <guid isPermaLink="false">2850 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kolik je?</title>
+ <link>https://www.drupal.cz/blog/farey/kolik-je</link>
+ <description>&lt;p&gt;Většina lidí ma hodinky. Každý má mobil. Každý kdo má počítač,
+má na ploše také hodiny. Každý ví, kolik je hodin. Ale kdybyste to
+náhodou přeci jenom nevěděli, anebo si nebyli jistí, kolik je přesně,
+zkuste službu &lt;a href=&quot;http://www.kolikje.cz&quot; title=&quot;kolik je hodin?&quot;&gt;Kolik
+je&lt;/a&gt;. Během pár hodin jsem vytvořil takový malý experimentální webík
+s podle mého pěknou, dosud nevyužitou doménou. Napadá někoho lepší
+využití pro doménu &lt;a href=&quot;http://www.kolikje.cz&quot;&gt;www.kolikje.cz&lt;/a&gt;?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/farey/kolik-je&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/farey/kolik-je#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/979</wfw:commentRss>
+ <pubDate>Thu, 12 Apr 2007 11:33:58 +0000</pubDate>
+ <dc:creator>farey</dc:creator>
+ <guid isPermaLink="false">979 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Stahujte hry zdarma!</title>
+ <link>https://www.drupal.cz/blog/farey/stahujte-hry-zdarma</link>
+ <description>&lt;p&gt;Konečně nový projekt na Drupalu, a hned nejnovější verze 5.1. Na
+adrese &lt;a href=&quot;http://www.download-games-4-free.com/&quot; title=&quot;free action,adventure,puzzle,word,logic games download&quot;&gt;Download Free
+Games&lt;/a&gt; jsme zprovoznili stahovací server pro freeware gamesy. Po
+zkušenostech s předchozími verzemi Drupalu jsme s přidáváním nových
+modulů postupovali velmi obezřetně – takže jsme každý nový modul
+dlouze promýšleli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/farey/stahujte-hry-zdarma&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/farey/stahujte-hry-zdarma#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/915</wfw:commentRss>
+ <pubDate>Sun, 25 Mar 2007 16:09:20 +0000</pubDate>
+ <dc:creator>farey</dc:creator>
+ <guid isPermaLink="false">915 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nový projekt - HDTV Blog</title>
+ <link>https://www.drupal.cz/blog/farey/novy-projekt-hdtv-blog</link>
+ <description>&lt;p&gt;Po krátkém čase další nový projekt – &lt;a href=&quot;http://www.hdtvblog.cz&quot; title=&quot;HDTV, plazma televize, LCD TV&quot;&gt;HDTV
+Blog&lt;/a&gt;. LCD televize, plazma TV, Blu-ray a vůbec novinky ze světa HDTV.
+Opět na Wordpressu :). Ale nesmutněte, chystáme i nový projekt na krásném
+novém &lt;a href=&quot;http://www.drupal.cz/clanky/novinky-na-webu/webova-revoluce-drupal-5&quot;&gt;Drupalu
+verze 5&lt;/a&gt;, na který se hodn&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/farey/novy-projekt-hdtv-blog&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/farey/novy-projekt-hdtv-blog#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/714</wfw:commentRss>
+ <pubDate>Mon, 12 Feb 2007 09:39:58 +0000</pubDate>
+ <dc:creator>farey</dc:creator>
+ <guid isPermaLink="false">714 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nové projekty</title>
+ <link>https://www.drupal.cz/blog/farey/nove-projekty</link>
+ <description>&lt;p&gt;Během posledních měsíců jsme s kamarádem rozeběhli několik
+zajímavých nových projektů:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.tripidipi.cz/&quot; title=&quot;cestování, fotografie, geografie&quot;&gt;Tripidipi – cestování,
+fotografie z cest, geografie&lt;/a&gt; – Cestovatelský server určený všem
+zájemcům o zajímavosti ze světa. Kompletně postaven na Drupalu.&lt;br /&gt;
+&lt;a href=&quot;http://www.apple-mac.cz/&quot;&gt;Apple, Macintosh, iPod&lt;/a&gt; – Zbrusu nový
+blog zabývající se tématy Apple, Mac, MacOS, iPod, iPhone a dalšími
+produkty Apple. Postaven na Wordpressu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/farey/nove-projekty&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/farey/nove-projekty#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/515</wfw:commentRss>
+ <pubDate>Fri, 12 Jan 2007 10:47:47 +0000</pubDate>
+ <dc:creator>farey</dc:creator>
+ <guid isPermaLink="false">515 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Joomla vs. Drupal</title>
+ <link>https://www.drupal.cz/blog/farey/joomla-vs-drupal</link>
+ <description>&lt;p&gt;Už nějakou dobu mám zálusk na komunitní server, který by vytvořil dnes
+tolik populární „sociální síť“. Hledal jsem vhodný CMS a rozhodoval
+se mezi &lt;a href=&quot;http://www.drupal.org/&quot;&gt;Drupalem&lt;/a&gt; a &lt;a href=&quot;http://www.joomla.org/&quot;&gt;Joomlou&lt;/a&gt;. Nakonec zvítězila Joomla,
+především díky rozšíření &lt;a href=&quot;http://www.civicspacelabs.org/&quot;&gt;Community Builder&lt;/a&gt; a momentální
+nedostupnosti drupalové distribuce &lt;a href=&quot;http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,210/Itemid,35/&quot;&gt;CivicSpace&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/farey/joomla-vs-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/farey/joomla-vs-drupal#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/344</wfw:commentRss>
+ <pubDate>Sat, 11 Nov 2006 09:35:57 +0000</pubDate>
+ <dc:creator>farey</dc:creator>
+ <guid isPermaLink="false">344 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

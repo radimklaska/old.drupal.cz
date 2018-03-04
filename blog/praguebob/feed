@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>PragueBob&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/praguebob</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal 7 module developer, anyone?</title>
+ <link>https://www.drupal.cz/blog/praguebob/drupal-7-module-developer-anyone</link>
+ <description>&lt;p&gt;I may need a Drupal 7 module developer during the next 3 months for a
+significant project. If anyone is capable and interested, please contact me with
+your CV and quote your daily rate w/o VAT. A muzeme mluvit cesky, ale jadro
+toho sytemu bude v aj… :-)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/praguebob/drupal-7-module-developer-anyone#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/contract">contract</category>
+ <category domain="https://www.drupal.cz/clanky/developer">developer</category>
+ <category domain="https://www.drupal.cz/clanky/module">module</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <category domain="https://www.drupal.cz/clanky/project">project</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7940</wfw:commentRss>
+ <pubDate>Tue, 27 Jul 2010 14:44:09 +0000</pubDate>
+ <dc:creator>PragueBob</dc:creator>
+ <guid isPermaLink="false">7940 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

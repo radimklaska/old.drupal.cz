@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>pokusdr&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/pokusdr</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>pokus</title>
+ <link>https://www.drupal.cz/blog/pokusdr/pokus</link>
+ <description>&lt;p&gt;Ahoj&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/pokusdr/pokus#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zabava">zábava</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/20546</wfw:commentRss>
+ <pubDate>Thu, 06 Jun 2013 08:11:49 +0000</pubDate>
+ <dc:creator>pokusdr</dc:creator>
+ <guid isPermaLink="false">20546 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

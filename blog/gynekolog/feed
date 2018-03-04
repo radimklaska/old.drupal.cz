@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Gynekolog&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/gynekolog</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Jak počeštit date_popup</title>
+ <link>https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup</link>
+ <description>&lt;p&gt;Úprava spočívá v přidání pár řádků do date_popup.module:
+&amp;lt;?php&lt;br /&gt;
+drupal_add_li­brary(‚system‘, ‚ui.datepicker‘); +&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;// Add i18n support&lt;/li&gt;
+
+	&lt;li&gt;if ($GLOBALS[‚lan­guage‘]-&amp;gt;language != ‚en‘) {&lt;/li&gt;
+
+	&lt;li&gt;// D7.x: &lt;a href=&quot;https://jquery-ui.googlecode.com/svn/tags/1.8.7/ui/i18n/&quot;&gt;https://jquery-ui.googlecode.com/…8.7/ui/i18n/&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;drupal_add_js( drupal_get_pat­h(‚module‘, ‚date_popup‘) .
+	‚/jquery.ui.da­tepicker-‘ . $GLOBALS[‚lan­guage‘]-&amp;gt;language .&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/jak-pocestit-datepopup#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/modul">modul</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11145</wfw:commentRss>
+ <pubDate>Thu, 15 Mar 2012 12:29:40 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">11145 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Framework theme a tučné písmo</title>
+ <link>https://www.drupal.cz/blog/gynekolog/framework-theme-tucne-pismo</link>
+ <description>&lt;p&gt;Netušil jsem, proč když obalím text do tagu b nebo strong, neni písmo
+tučný se zapnutym tématem framework. U bartik je všechno ok.&lt;/p&gt;
+
+&lt;p&gt;Řešení – &lt;a href=&quot;http://drupal.org/node/1399774&quot;&gt;http://drupal.org/node/1399774&lt;/a&gt; →
+přidat do css:&lt;br /&gt;
+&lt;code&gt;strong, b { font-weight: bold; }&lt;code&gt;&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sice nerozumim tomu, proč musim tag strong a b definovat v css ale
+pomohlo to.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/framework-theme-tucne-pismo#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/tema">tema</category>
+ <category domain="https://www.drupal.cz/clanky/temata">témata</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11072</wfw:commentRss>
+ <pubDate>Fri, 24 Feb 2012 02:59:50 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">11072 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tip na administrační modul</title>
+ <link>https://www.drupal.cz/blog/gynekolog/tip-na-administracni-modul</link>
+ <description>&lt;p&gt;Parádní modul jménem Coffee. Funguje jako vyhledávání ve windows.
+Stačí nainstalovat, stisknout alt D a začít psát dotaz &lt;img src=&quot;http://drupal.org/files/images/skitched-20120201-143739.preview.png&quot; /&gt;&lt;br /&gt;
+&lt;a href=&quot;http://drupal.org/project/coffee&quot;&gt;http://drupal.org/project/coffee&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/tip-na-administracni-modul#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/administrace">administrace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10985</wfw:commentRss>
+ <pubDate>Fri, 03 Feb 2012 20:05:34 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">10985 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Novinky: Views Autocomplete Filters a jQuery UI Account Dialogs</title>
+ <link>https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs</link>
+ <description>&lt;b&gt;Views Autocomplete Filters&lt;/b&gt;&lt;br /&gt;
+Autor opravil chybu a modul je plně funkční. Modul přidává funkci
+našeptávače k exposed filtrům, šikovná věc.&lt;br /&gt;
+ &lt;a href=&quot;http://drupal.org/project/views_autocomplete_filters&quot;&gt;http://drupal.org/…lete_filters&lt;/a&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;jQuery UI Account Dialogs&lt;/b&gt;&lt;br /&gt;
+Přidává efektní jquery okna pro registraci, při žádosti o zapomenuté
+heslo nebo odhlašování&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/novinky-views-autocomplete-filters-jquery-ui-account-dialogs#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <enclosure url="https://www.drupal.cz/files/1_2.jpg" length="76507" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9625</wfw:commentRss>
+ <pubDate>Wed, 27 Apr 2011 15:34:35 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">9625 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Hezčí vyhledávací blok</title>
+ <link>https://www.drupal.cz/blog/gynekolog/hezci-vyhledavaci-blok</link>
+ <description>Dneska jsem řešil úpravu vzhledu vyhledávací pole v bloku a nakonec se
+zadařilo. Určitě to neni hvězdný ale pro mě funkční tak se s váma
+podělim.
+&lt;p&gt;PŘED:&lt;br /&gt;
+&lt;img src=&quot;http://www.drupal.cz/files/před.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;PO:&lt;br /&gt;
+&lt;img src=&quot;http://www.drupal.cz/files/po.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stahni soubory v příloze:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/hezci-vyhledavaci-blok&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/hezci-vyhledavaci-blok#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <enclosure url="https://www.drupal.cz/files/před.png" length="3667" type="image/png" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9491</wfw:commentRss>
+ <pubDate>Sat, 02 Apr 2011 03:41:52 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">9491 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na drobečkovou navigaci</title>
+ <link>https://www.drupal.cz/blog/gynekolog/drobeckova-navigace-na-strance-kategoriich</link>
+ <description>&lt;p&gt;Potřeboval jsem drobečkovou navigaci, tak, aby zobrazovala kompletní cestu
+k obsahu a jako poslední aktuální titulek stránky ale neaktivní.&lt;/p&gt;
+
+&lt;p&gt;Nejdřív jsem chtěl změnit nápis Domů na svůj&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt; Pro změnu „Domů“ v drobečkový navigaci přidejte do template.php
+následující část kodu:&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;?php function YOURTHEME_bre­adcrumb($bread­crumb) {&lt;br /&gt;
+if (!empty($bread­crumb)) {&lt;br /&gt;
+$breadcrumb[0] = l(&#039;Libra&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/drobeckova-navigace-na-strance-kategoriich&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/drobeckova-navigace-na-strance-kategoriich#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/breadcrumb">breadcrumb</category>
+ <category domain="https://www.drupal.cz/clanky/taxonomy">taxonomy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8871</wfw:commentRss>
+ <pubDate>Wed, 05 Jan 2011 21:21:12 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">8871 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Neaktuální frontpage bez css pro anonymní uživatele</title>
+ <link>https://www.drupal.cz/blog/gynekolog/neaktualni-frontpage-bez-css-pro-anonymni-uzivatele</link>
+ <description>&lt;p&gt;Popíšu svůj problém, o kterym sem nemoh nic najít a nakonec se mi ho
+podařilo vyřešit. To je taky důvod proč tohle píšu, aby to někomu
+pomohlo.&lt;/p&gt;
+
+&lt;p&gt;po odhlášení se mi zobrazila úvodní stránka ale nenačetl se soubor css
+a navíc obsahovala odkazy na články, které jsem dávno smazal. Když sem si
+jako nepřihlášenej uživatel procházel jinej obsah webu než úvodní
+stránku, všechno bylo OK.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/neaktualni-frontpage-bez-css-pro-anonymni-uzivatele&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/neaktualni-frontpage-bez-css-pro-anonymni-uzivatele#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/css">css</category>
+ <category domain="https://www.drupal.cz/clanky/frontpage">frontpage</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8859</wfw:commentRss>
+ <pubDate>Mon, 03 Jan 2011 19:14:52 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">8859 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak změnit v drobečkové navigaci &quot;Domů&quot;</title>
+ <link>https://www.drupal.cz/blog/gynekolog/jak-zmenit-v-drobeckove-naigaci-domu</link>
+ <description>&lt;p&gt;Pro změnu „Domů“ v drobečkový navigaci přidejte do template.php
+následující část kodu:&lt;/p&gt;
+&amp;lt;?php function YOURTHEME_bre­adcrumb($bread­crumb) { if
+(!empty($bread­crumb)) { $breadcrumb[0] = l(‚Library Home‘,NULL); return &#039;
+‚. implode(‘ » ‚, $breadcrumb) .‘
+&#039;; } } ?&amp;gt;
+&lt;p&gt;Místo Library Home potom napište vlastní text&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/jak-zmenit-v-drobeckove-naigaci-domu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/breadcrumb">breadcrumb</category>
+ <category domain="https://www.drupal.cz/clanky/drobeckova-navigace">drobečková navigace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8857</wfw:commentRss>
+ <pubDate>Mon, 03 Jan 2011 17:00:18 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">8857 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Výběr českých měst v profilu uživatele</title>
+ <link>https://www.drupal.cz/blog/gynekolog/vyber-ceskych-mest-v-profilu-uzivatele</link>
+ <description>&lt;p&gt;Chtěl sem aby uživatel vyplnil město odkud je ale nechtěl sem ho nechat
+pole psát ručně, proto sem si vytvořil seznam měst aby si moh uživatel
+vybrat to svoje. A právě ten seznam měst vám sem dávám ať se s nim
+nemusíte případně taky dělat (i když je to otázka 2 minut ale..když
+už to mám).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/gynekolog/vyber-ceskych-mest-v-profilu-uzivatele&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/gynekolog/vyber-ceskych-mest-v-profilu-uzivatele#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/profil">profil</category>
+ <category domain="https://www.drupal.cz/clanky/profily">profily</category>
+ <category domain="https://www.drupal.cz/clanky/uzivatel">uživatel</category>
+ <enclosure url="https://www.drupal.cz/files/mesta_0_0.txt" length="7104" type="text/plain" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8803</wfw:commentRss>
+ <pubDate>Sun, 19 Dec 2010 22:45:27 +0000</pubDate>
+ <dc:creator>Gynekolog</dc:creator>
+ <guid isPermaLink="false">8803 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

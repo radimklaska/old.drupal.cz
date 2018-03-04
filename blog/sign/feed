@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Marek Sotak&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/sign</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal setkání - Praha - 23. března 2011 - live</title>
+ <link>https://www.drupal.cz/blog/marek-sotak/drupal-setkani-praha-23-brezna-2011-live</link>
+ <description>&lt;iframe src=&quot;http://www.coveritlive.com/index2.php/option=com_altcaster/task=viewaltcast/altcast_code=717da40b22/height=550/width=470&quot; scrolling=&quot;no&quot; height=&quot;550px&quot; width=&quot;470px&quot; frameBorder =&quot;0&quot; allowTransparency=&quot;true&quot;  &gt;&lt;a href=&quot;http://www.coveritlive.com/mobile.php/option=com_mobile/task=viewaltcast/altcast_code=717da40b22&quot; &gt;Drupal Setkání 23.3.2011&lt;/a&gt;&lt;/iframe&gt;</description>
+ <comments>https://www.drupal.cz/blog/marek-sotak/drupal-setkani-praha-23-brezna-2011-live#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9427</wfw:commentRss>
+ <pubDate>Wed, 23 Mar 2011 15:46:58 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">9427 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7: modul Views v novém kabátu</title>
+ <link>https://www.drupal.cz/blog/marek-sotak/drupal-7-modul-views-v-novem-kabatu</link>
+ <description>&lt;p&gt;Dnes ráno našeho času Earl Miles – původní autor modulu views –
+oznámil na svém blogu sloučení téměř roční práce na uživatelském
+rozhraní Views s dev verzí Views 7.3.x. Drtivá většina nového UI byla
+vytvořeno týmem Acquie, která chtěla uživatelům svého produktu Drupal
+Gardens umožnit práci s modulem. Původní rozhraní je pro nováčky opravdu
+nepřehledné a složité.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/marek-sotak/drupal-7-modul-views-v-novem-kabatu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/marek-sotak/drupal-7-modul-views-v-novem-kabatu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ui">ui</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <enclosure url="https://www.drupal.cz/files/views_add.png" length="78764" type="image/png" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9400</wfw:commentRss>
+ <pubDate>Fri, 18 Mar 2011 13:49:27 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">9400 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vánoční besídka - jak bylo</title>
+ <link>https://www.drupal.cz/blog/marek-sotak/vanocni-besidka-jak-bylo</link>
+ <description>&lt;p&gt;&lt;em&gt;Kdo by to byl řekl, že už tomu bude více než rok, co se konalo
+první setkání na pražské AVU (listopad 2009). Stihli jsme celkem
+7 setkání, poslechli si 33 přednášek od 14 přednášejících.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/marek-sotak/vanocni-besidka-jak-bylo&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/marek-sotak/vanocni-besidka-jak-bylo#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8783</wfw:commentRss>
+ <pubDate>Sun, 19 Dec 2010 17:08:58 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">8783 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání 18.11. shrnuti</title>
+ <link>https://www.drupal.cz/blog/sign/drupal-setkani-1811-shrnuti</link>
+ <description>&lt;p&gt;Prvni „neformalni“ prazske setkani mame za sebou a musim rict, ze se
+urcite povedlo. Na celou akci se dostavilo neco pres 20 lidi
+(z 32 registro­vanych) – jedna drupalistka dorazila dokonce az z decina!,
+coz si myslim, ze je docela uspech a duvod proc takovou akci zopakovat
+za mesic.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sign/drupal-setkani-1811-shrnuti&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sign/drupal-setkani-1811-shrnuti#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <enclosure url="https://www.drupal.cz/files/i18n-myfinepix-18-11-09-atomicant.pdf" length="826993" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6456</wfw:commentRss>
+ <pubDate>Thu, 19 Nov 2009 11:08:57 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">6456 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Dve dnesni zajimavosti</title>
+ <link>https://www.drupal.cz/blog/sign/dve-dnesni-zajimavosti</link>
+ <description>&lt;p&gt;Dve dnesni udalosti, ktere si myslim je dobre sdelit i ostatnim. :)&lt;/p&gt;
+
+&lt;p&gt;Predevsim dnesni commit do jadra D7.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sign/dve-dnesni-zajimavosti&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sign/dve-dnesni-zajimavosti#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5727</wfw:commentRss>
+ <pubDate>Wed, 19 Aug 2009 16:29:57 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">5727 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Hledame drupalistu, programatora</title>
+ <link>https://www.drupal.cz/blog/sign/hledame-drupalistu-programatora</link>
+ <description>&lt;p&gt;&lt;img src=&quot;http://www.drupal.cz/files/company_logo.png&quot; class=&quot;screenshot&quot; style=&quot;float: right&quot; /&gt; Hledame programatora (PHP, MySQL, XHTML, CSS) na fulltime* v praze (zizkov), ktery by se rad priucil novym vecem, zejmena pracovat s drupalem. Vhodne i pro juniory. Zajimava prace na zahranicnich projektech.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sign/hledame-drupalistu-programatora&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sign/hledame-drupalistu-programatora#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5370</wfw:commentRss>
+ <pubDate>Tue, 23 Jun 2009 12:35:37 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">5370 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vkladani obrazku do obsahu (wysiwygu)</title>
+ <link>https://www.drupal.cz/blog/sign/vkladani-obrazku-do-obsahu-wysiwygu</link>
+ <description>&lt;p&gt;Hodne diskutovana featura, ktera v drupalu dlouho chybela to je novy modul
+FileField Insert (&lt;a href=&quot;http://drupal.org/project/filefield_insert&quot;&gt;http://drupal.org/…field_insert&lt;/a&gt;).
+Pomoci modulu filefield insert muzete vkladat nejen linky na soubory ale
+i obrazky vlozene k uzlu pomoci imagefield.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sign/vkladani-obrazku-do-obsahu-wysiwygu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sign/vkladani-obrazku-do-obsahu-wysiwygu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5132</wfw:commentRss>
+ <pubDate>Sat, 09 May 2009 19:39:50 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">5132 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

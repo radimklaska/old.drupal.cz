@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>milos.kroulik&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/milos-kroulik</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Hromadné nahrávání souborů (obrázků) na server v Drupalu 7</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/hromadne-nahravani-souboru-obrazku-na-server-v-drupalu-7</link>
+ <description>&lt;p&gt;Hromadné nahrávání souborů, zejména obrázků je při tvorbě webů
+častým požadavkem. Proto je s podivem, že v této oblasti dosud neexistuje
+řešení, které by bylo stabilní a dlouhodobě podporované.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/hromadne-nahravani-souboru-obrazku-na-server-v-drupalu-7&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/hromadne-nahravani-souboru-obrazku-na-server-v-drupalu-7#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/file">file</category>
+ <category domain="https://www.drupal.cz/clanky/upload">upload</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11741</wfw:commentRss>
+ <pubDate>Fri, 27 Apr 2012 05:40:11 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11741 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Výročí pro každý měsíc pomocí modulu Partial Date</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/vyroci-pro-kazdy-mesic-pomoci-modulu-birthdays-date</link>
+ <description>&lt;p&gt;Možná už jste se také setkali s úkolem vytvořit seznam osobností,
+jejichž jubileum se v určitý měsíc připomíná. Jednoduché řešení,
+řeknete si: mám modul Date, pomocí něj vytvořím příslušná pole pro
+narození a úmrtí a ve Views následně pomocí Contextual Filter a
+výchozího argumentu dostanu výročí pro určitý měsíc.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/vyroci-pro-kazdy-mesic-pomoci-modulu-birthdays-date&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/vyroci-pro-kazdy-mesic-pomoci-modulu-birthdays-date#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/birtdays">birtdays</category>
+ <category domain="https://www.drupal.cz/clanky/kalendarium">kalendárium</category>
+ <category domain="https://www.drupal.cz/clanky/osobnosti">osobnosti</category>
+ <category domain="https://www.drupal.cz/clanky/vyroci">výročí</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11296</wfw:commentRss>
+ <pubDate>Sat, 31 Mar 2012 09:23:24 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11296 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Otevírací doba pro veřejnou knihovnu</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/oteviraci-doba-pro-verejnou-knihovnu</link>
+ <description>&lt;p&gt;Většina městských a odborných knihoven má více oddělení, jež mají
+rozdílné otevírací doby. To mne postavilo před problém, jak vytvořit
+rozhraní, které by umožnilo:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;jednoduchou editaci otevírací doby samotnými knihovníky (změny jsou
+	poměrně časté, zejména v případě různých svátků, apod.)&lt;/li&gt;
+
+	&lt;li&gt;zobrazení otevírací doby jak jednotlivě po odděleních, tak jako
+	tabulku, shrnující údaje za všechna oddělení&lt;/li&gt;
+
+	&lt;li&gt;řešení polední pauzy, jež dělí otevírací dobu na dva úseky&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/oteviraci-doba-pro-verejnou-knihovnu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/oteviraci-doba-pro-verejnou-knihovnu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cas">čas</category>
+ <category domain="https://www.drupal.cz/clanky/field-collection">field collection</category>
+ <category domain="https://www.drupal.cz/clanky/knihovna">knihovna</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <category domain="https://www.drupal.cz/clanky/views-flipped-table">views flipped table</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11135</wfw:commentRss>
+ <pubDate>Wed, 14 Mar 2012 11:07:40 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11135 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Rules redirect action: Input evaluation generated an invalid URI</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/rules-redirect-action-input-evaluation-generated-invalid-uri</link>
+ <description>&lt;p&gt;Vytvořil jsem parazitní formulář pomocí modulu Webform, který
+uživatele přesměruje na stránku podle toho, co zadal do vstupních políček
+(za pomocí modulů Webform Rules a Rules).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/rules-redirect-action-input-evaluation-generated-invalid-uri&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/rules-redirect-action-input-evaluation-generated-invalid-uri#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/redirect">redirect</category>
+ <category domain="https://www.drupal.cz/clanky/rules">rules</category>
+ <category domain="https://www.drupal.cz/clanky/webform">webform</category>
+ <category domain="https://www.drupal.cz/clanky/webform-rules">webform rules</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11117</wfw:commentRss>
+ <pubDate>Thu, 08 Mar 2012 10:22:27 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11117 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Podmínka v Rules na základě $_SERVER[&#039;HTTP_REFERER&#039;]</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/podminka-v-rules-na-zaklade-serverhttpreferer</link>
+ <description>&lt;p&gt;Na stránkách, které připravuji pro klienta budu využívat externího
+rezervačního systému youcanbook.me (bohužel jsem nenašel žádný modul pro
+Drupal, který by byl použitelný). Ten umožňuje po provedení rezervace
+přesměrovat uživatele zpět na zdrojové stránky. Proto jsem chtěl, aby se
+po příchodu zobrazila informační zpráva (něco jako „Děkujeme za Vaši
+rezervaci“).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/podminka-v-rules-na-zaklade-serverhttpreferer&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/podminka-v-rules-na-zaklade-serverhttpreferer#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/http">http</category>
+ <category domain="https://www.drupal.cz/clanky/http-referrer">http referrer</category>
+ <category domain="https://www.drupal.cz/clanky/php">php</category>
+ <category domain="https://www.drupal.cz/clanky/rules">rules</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11109</wfw:commentRss>
+ <pubDate>Tue, 06 Mar 2012 12:15:43 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11109 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Šablony polí v Display Suite</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/sablony-poli-v-display-suite</link>
+ <description>&lt;p&gt;Pokud používáte modul Display Suite, možná už jste v submodulu Display
+Suite Extras narazili na možnost povolit Field Templates.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/sablony-poli-v-display-suite&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/sablony-poli-v-display-suite#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/display-suite">display suite</category>
+ <category domain="https://www.drupal.cz/clanky/field-templates">field templates</category>
+ <enclosure url="https://www.drupal.cz/files/Výběr_123.png" length="18986" type="image/png" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11087</wfw:commentRss>
+ <pubDate>Wed, 29 Feb 2012 10:35:37 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11087 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>View vypisující více obrázků s popisky jako součást zprávy</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/view-vypisujici-vice-obrazku-s-popisky-jako-soucast-zpravy</link>
+ <description>&lt;p&gt;Dnes jsem celé odpoledne řešil, jak vytvořit view, zobrazující novinky
+spolu s fotkami, přiloženými pomocí Imagefield a popiskami k těmto
+fotkám.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/view-vypisujici-vice-obrazku-s-popisky-jako-soucast-zpravy&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/view-vypisujici-vice-obrazku-s-popisky-jako-soucast-zpravy#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/data">data</category>
+ <category domain="https://www.drupal.cz/clanky/imagefield">imagefield</category>
+ <category domain="https://www.drupal.cz/clanky/title">title</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <enclosure url="https://www.drupal.cz/files/views_image_data_mockup.png" length="109292" type="image/png" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8535</wfw:commentRss>
+ <pubDate>Wed, 27 Oct 2010 21:47:37 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">8535 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Malé varování před modulem ImageField Assist</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/male-varovani-pred-modulem-imagefield-assist</link>
+ <description>&lt;p&gt;Vzhledem k plánovanému způsobu práce s obrázky v D7 jsem na
+připravovaném webu chtěl použít ke vkládání obrázků do příspěvků
+modul &lt;a href=&quot;http://drupal.org/project/imagefield_assist&quot;&gt;ImageField
+Assist&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/male-varovani-pred-modulem-imagefield-assist&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/male-varovani-pred-modulem-imagefield-assist#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/imagefield">imagefield</category>
+ <category domain="https://www.drupal.cz/clanky/prohlizeni-obrazku">prohlížení obrázků</category>
+ <category domain="https://www.drupal.cz/clanky/tinymce">tinymce</category>
+ <category domain="https://www.drupal.cz/clanky/vkladani-obrazku">vkládání obrázků</category>
+ <category domain="https://www.drupal.cz/clanky/wysiwyg">wysiwyg</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6487</wfw:commentRss>
+ <pubDate>Sun, 22 Nov 2009 14:30:48 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">6487 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Anketa: Máte systém pojmenovávání políček CCK?</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/anketa-mate-system-pojmenovavani-policek-cck</link>
+ <description>&lt;p&gt;Pojmenovávání políček CCK jsem ve svých naprostých počátcích
+s Drupalem neřešil. Jeho důležitost si začínám uvědomovat až poslední
+dobou. V zápisku najdete řešení, k němuž jsem dosud dospěl. A jak
+tento problém řešíte Vy?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/anketa-mate-system-pojmenovavani-policek-cck&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/anketa-mate-system-pojmenovavani-policek-cck#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/anketa">anketa</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5068</wfw:commentRss>
+ <pubDate>Sat, 25 Apr 2009 16:42:28 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">5068 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Seznam nahrazovaných řetězců modulu Token pro modul Rules</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/seznam-nahrazovanych-retezcu-modulu-token-pro-modul-rules</link>
+ <description>&lt;p&gt;&lt;b&gt;EDIT&lt;/b&gt;: Je to tak, jak jsem předpokládal – následující text je
+v podstatě zbytečný, protože seznam nahraditelných řetězců poskytuje
+přímo integrovaný modul Token (netuším, proč se mi to včera
+nezobrazovalo). Kód na odkazované stránce &lt;b&gt;má jiný význam&lt;/b&gt; – po
+uložení uzlu vám ukáže hodnoty nahraditelných řetězců v tom
+okamžiku.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/seznam-nahrazovanych-retezcu-modulu-token-pro-modul-rules&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/seznam-nahrazovanych-retezcu-modulu-token-pro-modul-rules#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pathauto">pathauto</category>
+ <category domain="https://www.drupal.cz/clanky/reference">reference</category>
+ <category domain="https://www.drupal.cz/clanky/rules">rules</category>
+ <category domain="https://www.drupal.cz/clanky/token">token</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5046</wfw:commentRss>
+ <pubDate>Mon, 20 Apr 2009 17:18:58 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">5046 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>CCK nebo Taxonomy?</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/cck-nebo-taxonomy</link>
+ <description>&lt;p&gt;V souvislosti s webem, který dělám jsem řešil, na co má vlastně
+ještě smysl používat modul Taxonomy, máme-li k dispozici kombinaci CCK
+a Views.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/cck-nebo-taxonomy&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/cck-nebo-taxonomy#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/node-reference">Node reference</category>
+ <category domain="https://www.drupal.cz/clanky/taxonomy">taxonomy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5038</wfw:commentRss>
+ <pubDate>Sun, 19 Apr 2009 05:53:35 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">5038 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Co chybí v dokumentaci k modulu Composite Layout</title>
+ <link>https://www.drupal.cz/blog/milos-kroulik/co-chybi-v-dokumentaci-k-modulu-composite-layout</link>
+ <description>&lt;p&gt;Modul &lt;a href=&quot;http://drupal.org/project/composite&quot;&gt;Composite Layout&lt;/a&gt;
+slouží vytváření pokročilých rozložení obsahu uzlů. Do rozložení lze
+přidat kromě bloků a políček také jiné uzly.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/milos-kroulik/co-chybi-v-dokumentaci-k-modulu-composite-layout&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/milos-kroulik/co-chybi-v-dokumentaci-k-modulu-composite-layout#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4863</wfw:commentRss>
+ <pubDate>Wed, 18 Mar 2009 23:44:44 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">4863 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Multisite instalace (doména + subdoména) pomocí CPanelu</title>
+ <link>https://www.drupal.cz/blog/milos-kroulik/multisite-instalace-domena-subdomena-pomoci-cpanelu</link>
+ <description>&lt;p&gt;Nepodařilo se mi najít podrobný český návod multisite instalace Drupalu
+na hostingu, spravovaném pomocí CPanelu, proto jsem si následující text
+napsal hlavně pro sebe, abych neustále neobjevoval Ameriku. Bude-li
+užitečný jiným, tím lépe.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/milos-kroulik/multisite-instalace-domena-subdomena-pomoci-cpanelu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/milos-kroulik/multisite-instalace-domena-subdomena-pomoci-cpanelu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4772</wfw:commentRss>
+ <pubDate>Thu, 05 Mar 2009 13:32:23 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">4772 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>
