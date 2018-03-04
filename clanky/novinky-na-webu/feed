@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - drupal.cz</title>
+ <link>https://www.drupal.cz/taxonomy/term/18/0</link>
+ <description>Novinky na webu Drupal.cz.</description>
+ <language>cs</language>
+<item>
+ <title>Boj se spamem na drupal.cz 08/2012</title>
+ <link>https://www.drupal.cz/boj-se-spamem-na-drupalcz-082012</link>
+ <description>&lt;p&gt;Jak víte, v minulých měsících se drupal.cz potýkal se záplavou spamu.
+Průběžně jsme vás informovali o opatřeních, která jsme provedli. Také
+jste měli šanci zapojit se do „přemýšlení“ jak spamu zabránit –
+všem zúčastěným tímto moc děkujeme :)&lt;/p&gt;
+Aktuální stav je takový:
+&lt;ul&gt;
+	&lt;li&gt;Pro anonymní uživatele jsme omezili možnosti zápisu html tagů a
+	kontaktních údajů do komentářů – např.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/boj-se-spamem-na-drupalcz-082012&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/boj-se-spamem-na-drupalcz-082012#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <category domain="https://www.drupal.cz/clanky/spam">spam</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/14376</wfw:commentRss>
+ <pubDate>Tue, 21 Aug 2012 22:13:14 +0000</pubDate>
+ <dc:creator>berkas1</dc:creator>
+ <guid isPermaLink="false">14376 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>The Reunification of Czechoslovakia (Drupal community!)</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/reunification-czechoslovakia-drupal-community</link>
+ <description>&lt;p&gt;I&#039;ve recently been chatting with Jozef Toth from &lt;a href=&quot;http://mogdesign.eu&quot;&gt;Mogdesign&lt;/a&gt;, who has been laregely responsible for
+maintaining the &lt;a href=&quot;http://www.drupal.sk&quot;&gt;www.drupal.sk&lt;/a&gt; community. The
+SK community site has been inactive for a while now, since most people are
+coming to &lt;a href=&quot;http://www.drupal.cz&quot;&gt;www.drupal.cz&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/reunification-czechoslovakia-drupal-community&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/reunification-czechoslovakia-drupal-community#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11591</wfw:commentRss>
+ <pubDate>Tue, 17 Apr 2012 08:31:24 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">11591 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz release-2.5 deployed today</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/drupalcz-release-25-deployed-today</link>
+ <description>&lt;p&gt;We&#039;ve done another release deployment! Release-2.5 was deployed to drupal.cz
+today. The change that people will be able to notice is that we now have the
+BUeditor available for all users. Hopefully this will make it a bit easier to
+write posts.&lt;/p&gt;
+
+&lt;p&gt;Other changes include new development domain names and some mod_rewrite
+redirects. A few helper modules were also installed.&lt;/p&gt;
+
+&lt;p&gt;I hope that this will help to encourage other members of our community to
+also contribute.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/drupalcz-release-25-deployed-today&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/drupalcz-release-25-deployed-today#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11436</wfw:commentRss>
+ <pubDate>Sat, 07 Apr 2012 12:51:42 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">11436 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>The first community-driven functionality deployed to Drupal.cz web site</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/first-community-driven-functionality-deployed-drupalcz-web-site</link>
+ <description>&lt;h2&gt;We&#039;re making progress now!&lt;/h2&gt;
+&lt;p&gt;Drupal.cz made a big step today! We deployed the first functionality based on our new community workflow!&lt;br /&gt;
+Berkas Simon made a comment on an issue on  &lt;a href=&quot;http://atrium.drupal.cz/&quot; title=&quot;http://atrium.drupal.cz/&quot;&gt;http://atrium.drupal.cz/&lt;/a&gt; that made us realize that only a few people were able to promote blog posts to the front page. If a blog post isn&#039;t on the front page, we reasoned, its almost like it doesn&#039;t exist.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/first-community-driven-functionality-deployed-drupalcz-web-site&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/first-community-driven-functionality-deployed-drupalcz-web-site#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11421</wfw:commentRss>
+ <pubDate>Fri, 06 Apr 2012 09:14:44 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">11421 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz - komunita komunitě</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupalcz-komunita-komunite</link>
+ <description>&lt;p&gt;Když jsem před několika lety začínal s provozem Drupal.cz, měl jsem
+spoustu plánů. Některé se naplnily (většina), některé ne, ale to už tak
+bývá. Když se na vše podívám zpět, myslím, že jsme dosáhli obrovského
+úspěchu, česká komunita roste a pořádáme několik akcí měsíčně.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupalcz-komunita-komunite&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupalcz-komunita-komunite#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9023</wfw:commentRss>
+ <pubDate>Wed, 26 Jan 2011 15:46:21 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">9023 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Materiály z akcí</title>
+ <link>https://www.drupal.cz/blog/ema/materialy-z-akci</link>
+ <description>&lt;p&gt;Pracovní verzi přehledu prezentací z Drupal akcí najdete &lt;a href=&quot;http://drupal.cz/prezentace&quot;&gt;zde&lt;/a&gt;. Kromě toho, na přednášky se lze
+proklikat i přes tagy v pravém postranním bloku.&lt;/p&gt;
+
+&lt;p&gt;Předem díky za připomínky a nápady.&lt;br /&gt;
+&lt;em&gt;EDIT: Zároveň prosím, kdo ještě máte své prezentace u sebe, abyste
+je &lt;a href=&quot;/node/add/lecture&quot;&gt;přidali&lt;/a&gt;. Děkujeme :-)&lt;/em&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/materialy-z-akci#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8290</wfw:commentRss>
+ <pubDate>Sat, 18 Sep 2010 15:49:47 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8290 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pár novinek - mapa a demo</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/par-novinek-mapa-demo</link>
+ <description>&lt;p&gt;Na drupal.cz jsme nasadili pár novinek, jednak pro lepší reprezentaci ale
+i kvůli možnosti se jednodušeji stýkat v rámci ČR.&lt;/p&gt;
+
+&lt;p&gt;První novinkou je mapa uživatelů – pokud ještě nejste na mapě,
+vpravo byste měli vidět banner upozorňující Vás na možnos vyplnění
+souřadnic v profilu. Pak se můžete podívat, jestli okolo Vás nejsou
+další Drupalisté.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/par-novinek-mapa-demo&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/par-novinek-mapa-demo#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6489</wfw:commentRss>
+ <pubDate>Sun, 22 Nov 2009 20:05:59 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">6489 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání - Praha - 18. Listopad 2009</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/drupal-meet-praha-18-listopad-2009</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;18. Listopadu se uskuteční neformální setkání nejen drupal nadšenců
+v prostorách digilabu AVU (akademie výtvarného umění). Vítáni jsou jak
+začátečníci, tak pokročilí uživatelé.&lt;/p&gt;
+
+&lt;p&gt;Setkání bude probíhat ve stylu volných ‚přednášek‘
+s diskuzí.&lt;/p&gt;
+
+&lt;p&gt;Pokud máte nějaký nápad jakých témat se dotknout, napište do
+komentářů.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/drupal-meet-praha-18-listopad-2009&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/drupal-meet-praha-18-listopad-2009#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6344</wfw:commentRss>
+ <pubDate>Tue, 03 Nov 2009 16:41:41 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">6344 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz běží na Drupal 6</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupalcz-bezi-na-drupal-6</link>
+ <description>&lt;p&gt;Dokončil jsem upgrade Drupal.cz na Drupal 6.10. Stále zbývá několik
+detailů, hlavně v CSS, nicméně základ je hotov. Celkový čas: cca
+3 hodiny práce.&lt;/p&gt;
+
+&lt;p&gt;Novinky a změny:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Články již nejsou v kategoriích, ale mají tagy. Předchozí kategorie
+	již prostě nevyhovovaly, tagy jsou flexibilnější.&lt;/li&gt;
+
+	&lt;li&gt;Blog posty je možné tagovat stejnými termíny jako články.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupalcz-bezi-na-drupal-6&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupalcz-bezi-na-drupal-6#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4875</wfw:commentRss>
+ <pubDate>Sat, 21 Mar 2009 09:37:52 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">4875 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Upgrade Drupal.cz</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/upgrade-drupal-cz</link>
+ <description>&lt;p&gt;Drupal.cz bude dnes večer v read-only modu – bude probíhat upgrade na
+Drupal 6. Stay tuned, more to come.&lt;/p&gt;
+
+&lt;p&gt;Upgrade proběhl. TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;CSS bloku vyhledavani, ebzpecnost, uvodni stranka&lt;/li&gt;
+
+	&lt;li&gt;Linkuj odkazy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prosim o dalsi pripominky, chyby co naleznete.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/upgrade-drupal-cz#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4866</wfw:commentRss>
+ <pubDate>Thu, 19 Mar 2009 13:08:34 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">4866 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupalcon 2008 Szeged</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/drupalcon-2008-szeged-twitter</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.archive.org/search.php?query=Drupalcon%202008%20Szeged%20AND%20collection%3Aopensource_movies&quot; title=&quot;Drupalcon 2008 Szeged na Archive.org&quot;&gt;&lt;b&gt;Podívejte se na přednášky
+online!&lt;/b&gt;&lt;/a&gt; + přednášky z &lt;a href=&quot;http://www.archive.org/search.php?query=Drupalcon%202008%20Boston&quot; title=&quot;Drupalcon 2008 Boston na Archive.org&quot;&gt;&lt;b&gt;Drupalconu
+2008 v Bostonu&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Přehled všech přednášek a slajdů najdete na &lt;a href=&quot;http://szeged2008.drupalcon.org/program/sessions&quot;&gt;&lt;b&gt;webu Drupalconu
+2008 Szeged&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://szeged2008.drupalcon.org/whiteboard/more-pictures-3rd-day-now-o&quot;&gt;&lt;strong&gt;Oficiální
+fotky&lt;/strong&gt;&lt;/a&gt; nejen z konference. &lt;a href=&quot;http://flickr.com/search/?q=drupaltown+OR+drupalconszeged2008&amp;amp;m=tags&amp;amp;ct=0&quot;&gt;&lt;strong&gt;Neoficiální
+fotky na Flickru&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/drupalcon-2008-szeged-twitter&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/drupalcon-2008-szeged-twitter#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3628</wfw:commentRss>
+ <pubDate>Wed, 27 Aug 2008 11:43:57 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">3628 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 6: Evoluce hezky a česky</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky</link>
+ <description>&lt;p&gt;Je nám ctí ohlásit novinku ve světě Drupalu: &lt;strong&gt;Byl vydán Drupal 6&lt;/strong&gt;. Ano, slyšíte dobře, ostrá verze Drupalu 6. Nenechte si ujít nové vlastnosti ani český překlad, čtěte dále.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2403</wfw:commentRss>
+ <pubDate>Wed, 13 Feb 2008 15:40:18 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2403 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšel Drupal 6.0 beta 4</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/vysel-drupal-6-0-beta-4</link>
+ <description>&lt;p&gt;Po třetí betaverzi Drupalu 6 tu máme poměrně rychle i čtvrtou.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/vysel-drupal-6-0-beta-4&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/vysel-drupal-6-0-beta-4#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2122</wfw:commentRss>
+ <pubDate>Wed, 05 Dec 2007 23:00:01 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2122 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>20. září 2007: Modrý čtvrtek</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/20-zari-2007-modry-ctvrtek</link>
+ <description>&lt;p&gt;Že je 20. září 2007 čtvrtek se dá zjistit jednoduše pohledem do kalendáře. Že je tento čtvrtek modrý se ale dozvídáte teprve teď. Pokud však takový modrý čtvrtek chcete zažít, přijďte...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/20-zari-2007-modry-ctvrtek&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/20-zari-2007-modry-ctvrtek#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1611</wfw:commentRss>
+ <pubDate>Fri, 31 Aug 2007 17:42:56 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">1611 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal verze 6 - stav vývoje k začátku června</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/drupal-verze-6-stav-vyvoje-k-zacatku-cervna</link>
+ <description>&lt;p&gt;Vývoj Drupalu 6 zdárně pokračuje a dnes naservírujeme lehký souhrn
+novinek, co se do nové verze dostaly. A není toho málo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/drupal-verze-6-stav-vyvoje-k-zacatku-cervna&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/drupal-verze-6-stav-vyvoje-k-zacatku-cervna#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1222</wfw:commentRss>
+ <pubDate>Mon, 04 Jun 2007 22:35:22 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">1222 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Katalog českých webů v Drupalu je na světě</title>
+ <link>https://www.drupal.cz/clanky/clanky/novinky-na-webu/katalog-ceskych-webu-v-drupalu-je-na-svete</link>
+ <description>&lt;p&gt;Vy co jste dlouhou dobu čekali na katalog českých webů v Drupalu jste se
+dočkali. Čtěte dále pro informace o katalogu, jak zadávat nové záznamy
+či jak probíhal vývoj.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/clanky/novinky-na-webu/katalog-ceskych-webu-v-drupalu-je-na-svete&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/clanky/novinky-na-webu/katalog-ceskych-webu-v-drupalu-je-na-svete#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1087</wfw:commentRss>
+ <pubDate>Thu, 03 May 2007 22:18:59 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">1087 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>LinuxExpo již 18.4. - nezapomeňte</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/linuxexpo-jiz-18-4-nezapomente</link>
+ <description>&lt;p&gt;Již 18.4. – ve středu se koná přednáška o Drupalu na konferenci
+LinuxExpo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/linuxexpo-jiz-18-4-nezapomente&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/linuxexpo-jiz-18-4-nezapomente#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/999</wfw:commentRss>
+ <pubDate>Mon, 16 Apr 2007 07:25:20 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">999 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pozvánka na konferenci LinuxExpo</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/pozvanka-na-konferenci-linuxexpo</link>
+ <description>&lt;p&gt;Pokud jste milovníci Drupalu (či GNU/Linuxu) nebo se o něj jen zajímáte
+(vy hlavně) a chcete vědět, kdy a proč ho použít, jste zváni na
+konferenci LinuxExpo, která se koná v Praze od 17. do 18. dubna 2007.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/pozvanka-na-konferenci-linuxexpo&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/pozvanka-na-konferenci-linuxexpo#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/905</wfw:commentRss>
+ <pubDate>Thu, 22 Mar 2007 23:49:52 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">905 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vícejazyčný web, aneb jak na modul Localizer</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/vicejazycny-web-aneb-jak-na-modul-localizer</link>
+ <description>&lt;p&gt;Snad každý tvůrce webových stránek se někdy potýkal s vícejazyčnou
+verzí webu. Drupal 5.x je vybavený skvělým modulem Localizer, se kterým
+není problém snadno vytvořit vícejazyčný web. Pojďme se tedy podívat jak
+modul Localizer funguje a co umí.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/vicejazycny-web-aneb-jak-na-modul-localizer&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/vicejazycny-web-aneb-jak-na-modul-localizer#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/740</wfw:commentRss>
+ <pubDate>Mon, 19 Feb 2007 08:20:12 +0000</pubDate>
+ <dc:creator>iru</dc:creator>
+ <guid isPermaLink="false">740 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Textimage - problém související s Captchou</title>
+ <link>https://www.drupal.cz/clanky/novinky-na-webu/textimage-problem-souvisejici-s-captchou</link>
+ <description>&lt;p&gt;Pokud používáte Captchu společně s Textimage, vězte, že &lt;a href=&quot;http://www.drupal.cz/clanky/novinky-na-webu/captcha-bezpecnostni-problem-preskoceni-kontroly&quot;&gt;bezpečnostní
+problém Captchy&lt;/a&gt; se týká i modulu Textimage.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/novinky-na-webu/textimage-problem-souvisejici-s-captchou&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/novinky-na-webu/textimage-problem-souvisejici-s-captchou#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/653</wfw:commentRss>
+ <pubDate>Wed, 31 Jan 2007 11:27:12 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">653 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Kyberman&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/kyberman</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal 7 Administration menu - chybí vám položka Přidat obsah?</title>
+ <link>https://www.drupal.cz/blog/kyberman/drupal-7-administration-menu-chybi-vam-polozka-pridat-obsah</link>
+ <description>&lt;p&gt;Pokud stále marně hledáte odkazy pro přidání obsahu v liště modulu
+Administration menu, existuje jednoduché řešení jak je doplnit. Vytvořil
+jsem si drobný modul, který přidá do administrační lišty položku
+„Přidat obsah“ (hned na začátek za ikonku webu) se všemi typy obsahu
+(v abecedním pořadí), jejichž uzly má uživatel oprávnění
+vytvářet.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kyberman/drupal-7-administration-menu-chybi-vam-polozka-pridat-obsah&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kyberman/drupal-7-administration-menu-chybi-vam-polozka-pridat-obsah#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/administration-menu">Administration menu</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/admin_menu_add_content.zip" length="1103" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10457</wfw:commentRss>
+ <pubDate>Wed, 12 Oct 2011 22:17:32 +0000</pubDate>
+ <dc:creator>Kyberman</dc:creator>
+ <guid isPermaLink="false">10457 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Podívejte se na videozáznamy přednášek osobností českého internetu</title>
+ <link>https://www.drupal.cz/blog/kyberman/podivejte-se-na-videozaznamy-prednasek-osobnosti-ceskeho-internetu</link>
+ <description>&lt;p&gt;Pokud se chcete něco nového dozvědět o vývoji webdesignu, na FI MUNI
+máme k dispozici videozáznamy z letošních přednášek na různá témata
+v rámci předmětu Seminář Webdesignu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kyberman/podivejte-se-na-videozaznamy-prednasek-osobnosti-ceskeho-internetu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kyberman/podivejte-se-na-videozaznamy-prednasek-osobnosti-ceskeho-internetu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/html-5">HTML 5</category>
+ <category domain="https://www.drupal.cz/clanky/pristupnost">přístupnost</category>
+ <category domain="https://www.drupal.cz/clanky/semantika">sémantika</category>
+ <category domain="https://www.drupal.cz/clanky/user-experience">user experience</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7547</wfw:commentRss>
+ <pubDate>Mon, 10 May 2010 15:16:54 +0000</pubDate>
+ <dc:creator>Kyberman</dc:creator>
+ <guid isPermaLink="false">7547 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

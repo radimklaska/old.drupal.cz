@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz</title>
+ <link>https://www.drupal.cz</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal Global Sprint Weekend 1/2018 v Bratislave</title>
+ <link>https://www.drupal.cz/drupal-global-sprint-weekend-12018-v-bratislave</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Pozývame všetkých z Drupal komunity, kto sa chce zúčastniť na Drupal
+Global Sprint-e.&lt;/p&gt;
+
+&lt;p&gt;V rámci Drupal Global Sprint vás radi uvítame na komunitnom víkendovom
+stretnutí ohľadom issues k Drupal 8 core a contrib moduloch a témach.&lt;/p&gt;
+
+&lt;p&gt;Máme pripravených ohľadom sprintu prácu na webovej prezentácii Drupal
+Slovakia (prezentačná časť drupal.sk), môžete nám tiež pomôcť
+s contrib modulmi pre Drupal Commer&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/drupal-global-sprint-weekend-12018-v-bratislave&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/drupal-global-sprint-weekend-12018-v-bratislave#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81736</wfw:commentRss>
+ <pubDate>Mon, 08 Jan 2018 12:39:38 +0000</pubDate>
+ <dc:creator>mirom</dc:creator>
+ <guid isPermaLink="false">81736 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>SnackHost - hosting vyladěný pro Drupal projekty</title>
+ <link>https://www.drupal.cz/clanky/drupal-8/snackhost-hosting-vyladeny-pro-drupal-projekty</link>
+ <description>&lt;p&gt;&lt;strong&gt;Vývojáři potřebují k práci stále více technologií a s nimi
+stoupají i nároky na hosting. Najít profesionální hosting za příznivou
+cenu ale není snadné. Naštěstí si mezery na českém trhu všimli
+i poskytovatelé služeb, takže pro vás máme dobrou zprávu: hledali jsme,
+testovali, vyjednávali a nakonec našli řešení, které je pro Drupal přímo
+vyladěné.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/drupal-8/snackhost-hosting-vyladeny-pro-drupal-projekty&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/drupal-8/snackhost-hosting-vyladeny-pro-drupal-projekty#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-8">drupal 8</category>
+ <category domain="https://www.drupal.cz/clanky/webhosting">Webhosting</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81601</wfw:commentRss>
+ <pubDate>Mon, 18 Dec 2017 21:29:27 +0000</pubDate>
+ <dc:creator>martin_klima</dc:creator>
+ <guid isPermaLink="false">81601 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Setkání a sprint 6.12.2017 v Praze</title>
+ <link>https://www.drupal.cz/setkani-sprint-6122017-v-praze</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Setkání:&lt;/strong&gt; 6.12.2017 od 18:00 (otevřeno od 17:30)&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [&lt;a href=&quot;https://goo.gl/maps/antoDybHHr42&quot;&gt;mapa&lt;/a&gt;, web &lt;a href=&quot;http://www.rozhlas.cz/informace/kontakty/&quot;&gt;rozhlas.cz&lt;/a&gt;]&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; &lt;a href=&quot;http://bit.ly/qKOngS&quot;&gt;#drupalcz&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Pochlubte se účastí na&lt;/strong&gt; &lt;a href=&quot;https://www.facebook.com/events/336828336794678/&quot;&gt;Facebooku&lt;/a&gt; / &lt;a href=&quot;https://www.meetup.com/Drupalcz/events/245455572/&quot;&gt;Meetup.com&lt;/a&gt; / &lt;a href=&quot;https://groups.drupal.org/node/517918&quot;&gt;groups.drupal.org&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; zdarma, REGISTRACE ZDE: &lt;a href=&quot;https://goo.gl/forms/9wXnOdiVXOpsF3e43&quot;&gt;https://goo.gl/…diVXOpsF3e43&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/setkani-sprint-6122017-v-praze&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/setkani-sprint-6122017-v-praze#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81571</wfw:commentRss>
+ <pubDate>Tue, 28 Nov 2017 02:03:56 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">81571 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Po prázdninové pauze pokračujeme dalším setkáním a sprintem 22.9.2017 v Praze</title>
+ <link>https://www.drupal.cz/po-prazdninove-pauze-pokracujeme-dalsim-setkanim-sprintem-2292017-v-praze</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Prázdniny skončily a je třeba se připravit na Drupalcon ve Vídni &lt;a href=&quot;https://events.drupal.org/vienna2017&quot;&gt;https://events.drupal.org/vienna2017&lt;/a&gt; :)&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dopolední sprint:&lt;/strong&gt; 22.9.2017 od 09:30 (CN Group,
+	Krakovská 583/9, 110 00 Praha 1)&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Odpolední sprint:&lt;/strong&gt; 22.9.2017 od 14:00 (Český rozhlas,
+	Vinohradská 1409/12,120 00 Praha)&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Setkání:&lt;/strong&gt; 22.9.2017 od 18:00 (otevřeno od 17:30, Český
+	rozhlas, Vinohradská 1409/12,120 00 Praha)&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Pochlubte se účastí na&lt;/strong&gt; &lt;a href=&quot;https://www.facebook.com/events/133652207256563/&quot;&gt;Facebooku&lt;/a&gt; / &lt;a href=&quot;https://www.meetup.com/Drupalcz/events/243303169/&quot;&gt;Meetup.com&lt;/a&gt; / &lt;a href=&quot;https://groups.drupal.org/node/517444&quot;&gt;groups.drupal.org&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/po-prazdninove-pauze-pokracujeme-dalsim-setkanim-sprintem-2292017-v-praze&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/po-prazdninove-pauze-pokracujeme-dalsim-setkanim-sprintem-2292017-v-praze#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/76906</wfw:commentRss>
+ <pubDate>Tue, 12 Sep 2017 12:24:26 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">76906 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Staň se junior vývojářem v Drupalu</title>
+ <link>https://www.drupal.cz/stan-se-junior-vyvojarem-v-drupalu</link>
+ <description>&lt;p&gt;Ahoj, zajímá Tě oblast IT a chceš se naučit programovat? Sníš o tom,
+že se staneš Drupal vývojářem? Právě pro Tebe máme skvělou a
+jediněčnou příležitost si to zkusit a začít svojí kariéru v IT –
+jmenuje se &lt;a href=&quot;http://www.cnjobs.cz/cnuniversity&quot;&gt;CN University&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;CN University je tzv. On-the-job trainee program, který je koncipován
+formou brigády a spolupráce na DPČ (pokud můžeš pracovat na full time, tak
+samozřejmě klasickou pracovní smlouvou). Během přibližně 6 měsíců
+projdeš 3 fázemi, na konci kterých dostaneš pracovní nabídku na
+spolupráci se společností &lt;a href=&quot;http://cngroup.dk&quot;&gt;CN group s.r.o.&lt;/a&gt;
+jako Junior Developer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/stan-se-junior-vyvojarem-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/stan-se-junior-vyvojarem-v-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/74326</wfw:commentRss>
+ <pubDate>Thu, 08 Jun 2017 09:02:20 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">74326 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Československý DrupalCamp 2017</title>
+ <link>https://www.drupal.cz/drupalcamp-cs-2017</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/files/dcz_drupalcampcs.png&quot; width=&quot;250&quot; alt=&quot;Československý DrupalCamp 2015&quot; align=&quot;left&quot; /&gt; Československý
+DrupalCamp 2017 se po roce (skoro na den přesně) vrací do Brna!&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Camp:&lt;/strong&gt; 27. 5. 2017 (warm-up party: 26. 5. 2017 večer)&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Místo:&lt;/strong&gt; VUT FIT, Brno – &lt;a href=&quot;http://drupalcs.camp/venue/&quot;&gt;http://drupalcs.camp/venue/&lt;/a&gt; / &lt;a href=&quot;https://goo.gl/maps/77Y4vwNWLft&quot;&gt;https://goo.gl/…/77Y4vwNWLft&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Program:&lt;/strong&gt; &lt;a href=&quot;http://drupalcs.camp/program/&quot;&gt;http://drupalcs.camp/program/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Hashtag:&lt;/strong&gt; #drupalcampcs na &lt;a href=&quot;https://www.instagram.com/explore/tags/drupalcampcs/&quot;&gt;Instagramu&lt;/a&gt; a &lt;a href=&quot;https://twitter.com/search?f=tweets&amp;amp;vertical=default&amp;amp;q=%23drupalcampcs&quot;&gt;Twitteru&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Vstupenky:&lt;/strong&gt; &lt;a href=&quot;http://drupalcs.camp/listky/&quot;&gt;http://drupalcs.camp/listky/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Prosím neváhejte s koupí lístku – velice nám to pomůže
+s plánováním stejně jako vaše přihlášení na sociálních sítích: &lt;a href=&quot;https://www.facebook.com/events/196403734204900/&quot;&gt;Facebooku&lt;/a&gt; / &lt;a href=&quot;http://srazy.info/drupalcz/7264&quot;&gt;Srazy.info&lt;/a&gt; / &lt;a href=&quot;https://www.meetup.com/Drupalcz/events/239357901/&quot;&gt;Meetup.com&lt;/a&gt; / &lt;a href=&quot;https://groups.drupal.org/node/516641&quot;&gt;groups.drupal­.org&lt;/a&gt; –
+Díky!&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/drupalcamp-cs-2017&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/drupalcamp-cs-2017#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/camp">camp</category>
+ <category domain="https://www.drupal.cz/clanky/drupalcamp">drupalcamp</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/71936</wfw:commentRss>
+ <pubDate>Tue, 02 May 2017 01:05:19 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">71936 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání Brno</title>
+ <link>https://www.drupal.cz/clanky/meetup/drupal-meetup-brno</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Drupal v Brně žije!&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Setkání:&lt;/strong&gt; 24.4. 2017 od 18:00&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Proof &amp;amp; Reason, Cihlářská 643/19, 602
+	00 Brno-střed, mapa: &lt;a href=&quot;https://goo.gl/maps/fhzeGWzXmHp&quot;&gt;https://goo.gl/…/fhzeGWzXmHp&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; &lt;a href=&quot;http://bit.ly/qKOngS&quot;&gt;#drupalcz&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; ZDARMA, REGISTRACE ZDE: &lt;a href=&quot;https://goo.gl/forms/5zreAGFq8vFV5NBx1&quot;&gt;https://goo.gl/…GFq8vFV5NBx1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/meetup/drupal-meetup-brno&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/meetup/drupal-meetup-brno#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/meetup">meetup</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/66481</wfw:commentRss>
+ <pubDate>Mon, 13 Mar 2017 21:21:23 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">66481 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání s podporou Českého rozhlasu 14.3.2017 + Přispěvatelské odpoledne</title>
+ <link>https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sprint:&lt;/strong&gt; 14.3.2017 od 14:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Setkání:&lt;/strong&gt; 14.3.2017 od 17:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [&lt;a href=&quot;https://goo.gl/maps/antoDybHHr42&quot;&gt;mapa&lt;/a&gt;, web &lt;a href=&quot;http://www.rozhlas.cz/informace/kontakty/&quot;&gt;rozhlas.cz&lt;/a&gt;]&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; &lt;a href=&quot;http://bit.ly/qKOngS&quot;&gt;#drupalcz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-setkani">Drupal setkání</category>
+ <category domain="https://www.drupal.cz/clanky/praha">praha</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/65806</wfw:commentRss>
+ <pubDate>Mon, 06 Mar 2017 12:06:29 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">65806 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>WordPress WordCamp Praha 2017</title>
+ <link>https://www.drupal.cz/wordpress-wordcamp-praha-2017</link>
+ <description>&lt;p&gt;Naši kolegové z WordPress komunity pořádají tento týden WordCamp
+v Praze.&lt;/p&gt;
+
+&lt;p&gt;V sobotu 18. února 2017 se uskuteční konference WordCamp Praha 2017,
+která se bude věnovat redakčnímu systému WordPress z pohledu uživatelů
+i vývojářů a tématům týkajícím se tvorby a provozu internetových
+stránek na této celosvětově nejrozšířenější publikační platformě.
+Ve světě již proběhlo celkem 540 WordCampů, ve 203 městech, 48 zemích
+a na 6 kontinentech, v České republice se bude konat po čtvrté. Celá akce
+bude probíhat v prostorách VŠE v Praze a nabídne návštěvníkům celkem
+14 přednášek. – &lt;a href=&quot;https://2017.prague.wordcamp.org/&quot;&gt;https://2017.prague.wordcamp.org/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/wordpress-wordcamp-praha-2017&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/wordpress-wordcamp-praha-2017#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/64741</wfw:commentRss>
+ <pubDate>Thu, 09 Feb 2017 13:51:21 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">64741 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Konference Drupal IronCamp 2016 v Praze</title>
+ <link>https://www.drupal.cz/clanky/camp/konference-drupal-ironcamp-2016-v-praze</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;V listopadu se bude v Praze konat první ročník konference Drupal
+IronCamp. Zde je malá ochutnávka toho, co můžete očekávat.&lt;/p&gt;
+
+&lt;p&gt;Čtěte ale rychle. Early bird vstupenky za sníženou cenu jsou dostupné
+pouze do páteční půlnoci 16.9. 23:59! Zakoupíte je na webu: &lt;a href=&quot;http://www.drupalironcamp.com/buy-a-ticket&quot;&gt;http://www.drupalironcamp.com/buy-a-ticket&lt;/a&gt; ;-)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/camp/konference-drupal-ironcamp-2016-v-praze&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/camp/konference-drupal-ironcamp-2016-v-praze#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/camp">camp</category>
+ <category domain="https://www.drupal.cz/clanky/drupalcamp">drupalcamp</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/58131</wfw:commentRss>
+ <pubDate>Thu, 15 Sep 2016 14:15:57 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">58131 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání s podporou Českého rozhlasu 14.9.2016 + Překladatelský sprint</title>
+ <link>https://www.drupal.cz/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sprint:&lt;/strong&gt; 14.9.2016 od 14:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Setkání:&lt;/strong&gt; 14.9.2016 od 17:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [&lt;a href=&quot;https://goo.gl/maps/antoDybHHr42&quot;&gt;mapa&lt;/a&gt;, web &lt;a href=&quot;http://www.rozhlas.cz/informace/kontakty/&quot;&gt;rozhlas.cz&lt;/a&gt;]&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; &lt;a href=&quot;http://bit.ly/qKOngS&quot;&gt;#drupalcz&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; ZDARMA, REGISTRACE ZDE: &lt;a href=&quot;https://goo.gl/forms/2XfB903fEeefd8nw2&quot;&gt;https://goo.gl/…03fEeefd8nw2&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/56586</wfw:commentRss>
+ <pubDate>Thu, 23 Jun 2016 17:02:23 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">56586 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání s podporou Českého rozhlasu 22.6.2016 + Překladatelský sprint</title>
+ <link>https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sprint:&lt;/strong&gt; 22.6.2016 od 14:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Setkání:&lt;/strong&gt; 22.6.2016 od 17:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [&lt;a href=&quot;https://goo.gl/maps/antoDybHHr42&quot;&gt;mapa&lt;/a&gt;, web &lt;a href=&quot;http://www.rozhlas.cz/informace/kontakty/&quot;&gt;rozhlas.cz&lt;/a&gt;]&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; &lt;a href=&quot;http://bit.ly/qKOngS&quot;&gt;#drupalcz&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; ZDARMA, REGISTRACE ZDE: &lt;a href=&quot;http://goo.gl/forms/zCF6AmfdBC6y6hmx1&quot;&gt;http://goo.gl/…mfdBC6y6hmx1&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <enclosure url="https://www.drupal.cz/files/Jekyll s CI a CD.pdf" length="4328098" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/56326</wfw:commentRss>
+ <pubDate>Mon, 13 Jun 2016 11:27:13 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">56326 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>DrupalCampCS 28.-29.5.2016, Bratislava - Darujeme 2 vstupenky!</title>
+ <link>https://www.drupal.cz/clanky/drupalcamp/drupalcampcs-28-2952016-bratislava</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Zbývá posledních pár dní do československého drupalcampu: &lt;a href=&quot;http://www.drupalcs.camp/&quot;&gt;http://www.drupalcs.camp/&lt;/a&gt; Program je
+nabitý a my máme dvě volné vstupenky pro poslední nerozhodnuté! Pro jejich
+získání je třeba toto:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Napsat do komentáře pod tento článek, že máte zájem. (přihlašte se,
+	ať není komentář anonymní)&lt;/li&gt;
+
+	&lt;li&gt;V komentáři musí být odkaz na &lt;strong&gt;váš&lt;/strong&gt; obsah (například
+	na drupal.cz fórum) ve kterém jste někomu zodpověděli drupal dotaz. :-)
+	Počítají se také příspěvky v blogu s návody atp.&lt;/li&gt;
+
+	&lt;li&gt;První dva komentáře získají lístek zdarma (1 komentář =
+	1 lístek). :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Za lístky děkujeme Vláďovi a Zuzce Kosejkovým!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/drupalcamp/drupalcampcs-28-2952016-bratislava&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/drupalcamp/drupalcampcs-28-2952016-bratislava#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupalcamp">drupalcamp</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/55561</wfw:commentRss>
+ <pubDate>Mon, 09 May 2016 23:25:55 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">55561 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání s podporou Českého rozhlasu - Praha 26.4.2016 + Sprint</title>
+ <link>https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sprint:&lt;/strong&gt; 26.4.2016 od 14:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Setkání:&lt;/strong&gt; 26.4.2016 od 17:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [&lt;a href=&quot;https://goo.gl/maps/antoDybHHr42&quot;&gt;mapa&lt;/a&gt;, web &lt;a href=&quot;http://www.rozhlas.cz/informace/kontakty/&quot;&gt;rozhlas.cz&lt;/a&gt;]&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; &lt;a href=&quot;http://bit.ly/qKOngS&quot;&gt;#drupalcz&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; ZDARMA, REGISTRACE POD ČLÁNKEM&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/drupal-setkani">Drupal setkání</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/54271</wfw:commentRss>
+ <pubDate>Fri, 01 Apr 2016 01:12:51 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">54271 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>ZRUŠENO: Drupal setkání s podporou Českého rozhlasu - Praha 29.3.2016</title>
+ <link>https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Buhužel musíme tento termín zrušit a přesunout na pozdější
+datum – bude oznámeno co nejdříve.&lt;/strong&gt;&lt;br /&gt;
+ &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kdy:&lt;/strong&gt; 29.3.2016 od 17:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [&lt;a href=&quot;https://goo.gl/maps/antoDybHHr42&quot;&gt;mapa&lt;/a&gt;, web &lt;a href=&quot;http://www.rozhlas.cz/informace/kontakty/&quot;&gt;rozhlas.cz&lt;/a&gt;]&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; &lt;a href=&quot;http://bit.ly/qKOngS&quot;&gt;#drupalcz&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; ZDARMA, REGISTRACE POD ČLÁNKEM&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/54061</wfw:commentRss>
+ <pubDate>Mon, 21 Mar 2016 20:43:44 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">54061 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal setkání s podporou Českého rozhlasu - Praha 17.2.2016</title>
+ <link>https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-1722016</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Zveme vás na oživený koncept komunitních setkání, který jsme v průběhu
+podzimu 2015 začali připravovat ve spolupráci s Českým rozhlasem.
+Obnovíme pravidelná setkání a plnohodnotné přednášky. Chystáme se také
+oznámit pár komunitních novinek o kterých jste nejspíš nevěděli.&lt;br /&gt;
+ &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kdy:&lt;/strong&gt; 17.2.2016 od 17:30&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [&lt;a href=&quot;https://goo.gl/maps/antoDybHHr42&quot;&gt;mapa&lt;/a&gt;, web &lt;a href=&quot;http://www.rozhlas.cz/informace/kontakty/&quot;&gt;rozhlas.cz&lt;/a&gt;]&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; &lt;a href=&quot;http://bit.ly/qKOngS&quot;&gt;#drupalcz&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; ZDARMA, NUTNÁ REGISTRACE&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-1722016&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-1722016#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53041</wfw:commentRss>
+ <pubDate>Fri, 05 Feb 2016 14:06:41 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">53041 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>WordCamp Praha 2016</title>
+ <link>https://www.drupal.cz/wordcamp-praha-2016</link>
+ <description>&lt;p&gt;Kolegové z WordPress komunity pořádají velice zajímavou konferenci
+WordCamp Praha.&lt;br /&gt;
+&lt;br /&gt;
+V sobotu 20. února 2016 se uskuteční konference WordCamp Praha 2016,
+která se bude věnovat redakčnímu systému WordPress z pohledu uživatelů
+i vývojářů a tématům týkajícím se tvorby a provozu internetových
+stránek na této celosvětově nejrozšířenější publikační platformě.
+Ve světě již proběhlo celkem 514 WordCampů, ve 203 městech, 48 zemích
+a na 6 kontinentech, v České republice se bude konat potřetí. Celá akce
+bude probíhat v prostorách VŠE v Praze a nabídne návštěvníkům celkem
+16 přednášek.&lt;br /&gt;
+&lt;br /&gt;
+Více o akci se dozvíte zde: &lt;a href=&quot;https://goo.gl/01TFs3&quot; title=&quot;https://prague.wordcamp.org/2016/&quot;&gt;https://prague.wordcamp.org/2016/&lt;/a&gt;
+Vstupenky jsou již v prodeji!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/wordcamp-praha-2016&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/wordcamp-praha-2016#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52921</wfw:commentRss>
+ <pubDate>Thu, 21 Jan 2016 22:13:54 +0000</pubDate>
+ <dc:creator>radimklaska</dc:creator>
+ <guid isPermaLink="false">52921 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Symfony a Drupal sraz Brno - 14.1.2016</title>
+ <link>https://www.drupal.cz/symfony-drupal-sraz-brno-1412016</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+V Brně kolegové organizují další zajímavé setkání o Symfony
+i o Drupalu. Přijďte dát řeč.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kdy:&lt;/strong&gt; 14.1.2016 cca od 18:00&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo konání:&lt;/strong&gt; informace na stránce &lt;a href=&quot;http://pojd.me/4ph&quot;&gt;srazu&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; #drupalcz #symfonycz&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; ZDARMA&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Registrace:&lt;/strong&gt; na &lt;a href=&quot;http://pojd.me/4ph&quot;&gt;Srazy.info&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;br /&gt;</description>
+ <comments>https://www.drupal.cz/symfony-drupal-sraz-brno-1412016#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52856</wfw:commentRss>
+ <pubDate>Sat, 09 Jan 2016 08:51:35 +0000</pubDate>
+ <dc:creator>petrpo</dc:creator>
+ <guid isPermaLink="false">52856 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Podpořte projekt který máte rádi</title>
+ <link>https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi</link>
+ <description>&lt;p&gt;Hlavní rolí Drupal Associace je sjednocení komunit z celého světa,
+komunit, které jsou hodně rozdílné.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-associace">drupal associace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52781</wfw:commentRss>
+ <pubDate>Thu, 17 Dec 2015 21:30:22 +0000</pubDate>
+ <dc:creator>Petr Illek</dc:creator>
+ <guid isPermaLink="false">52781 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Symfony a Drupal sraz Brno - 15.12.2015</title>
+ <link>https://www.drupal.cz/symfony-drupal-sraz-brno-15122015</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Kolegove ze Symfony organizují předvánoční setkání v Brně o Drupalu a
+o Symfony. Přijďte dát řeč.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kdy:&lt;/strong&gt; 15.12.2015 cca od 18:00&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Místo:&lt;/strong&gt; Koločava na Bayerova 10&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; #drupalcz #symfonycz&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vstup:&lt;/strong&gt; ZDARMA&lt;br /&gt;
+&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Registrace:&lt;/strong&gt; na &lt;a href=&quot;http://srazy.info/symfony-brno/6001&quot;&gt;Srazy.info&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;br /&gt;</description>
+ <comments>https://www.drupal.cz/symfony-drupal-sraz-brno-15122015#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52766</wfw:commentRss>
+ <pubDate>Mon, 14 Dec 2015 09:10:17 +0000</pubDate>
+ <dc:creator>petrpo</dc:creator>
+ <guid isPermaLink="false">52766 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

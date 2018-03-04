@@ -1,0 +1,1211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Pokročilé: Rozdíl mezi &amp;quot;Contextual filters&amp;quot; a &amp;quot;Relationships&amp;quot;&quot;" href="/crss/node/54951" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Pokročilé: Rozdíl mezi &quot;Contextual filters&quot; a &quot;Relationships&quot; | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_02a36298fc18f7cc1cadbc14f0dcd6ff.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a> » <a href="/forum">Témata fóra</a> » <a href="/forum/po-instalaci">Po instalaci</a> » <a href="/forum/jak-na-to">Jak na to?</a></div>        <h2 class="title">Pokročilé: Rozdíl mezi &quot;Contextual filters&quot; a &quot;Relationships&quot;</h2>
+        <div class="tabs"></div>
+          <div class="messages error">
+ <ul>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+ </ul>
+</div>
+        <div class="article  article-54951">
+    <span class="submitted">Vložil/a <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a>, 26 Duben, 2016 - 04:04</span>
+  <div class="pcontent">
+    <div class="forum-kat">
+      <b>Kategorie:</b>
+      Jak na to?    </div>
+    <div class="forum-ver">
+      <b>Týká se verze:</b>
+      Drupal 7.x    </div>
+    <p>Jak mám rozumnět prosím těmto pokročilým termínům v nastavení
+každého pohledu?</p>
+
+<p>Zatím jsem se setkala u praktického příkladu při zobrazování
+souvisejících odkazů partnerů programů s <strong>Contextual
+filters</strong>, ale popravdě, spíše jsem to nastavila dle pokynů a byla
+ráda, že se to zobrazuje a pracuje jak má, ale ta podstata toho a
+přemýšlení, proč se to použilo a co kdyby se použilo
+<strong>Relationships</strong>, které jsem zase narazila při použití
+v příkladu, abych mohla filtrovat a nebo vhyledávat záznamy, které jsou
+spolu propojeny s daty přes entity references.</p>
+
+<p>Ale nevím tedy, při čem je to dobré všeobecně používat a podle čeho
+volit, kdy co použiju?</p>  <div class="forum-topic-navigation clear-block">
+          <a href="/forum/po-instalaci/jak-na/d8-vkladani-tematickych-fotek-k-prispevku-manualne-nebo-automaticky-pod-licenci-cc-40" class="topic-previous" title="Přejít na předchozí téma.">‹ D8 - vkládání tématických fotek k příspěvku (manuálně nebo automaticky) pod licencí CC 4.0</a>
+              <a href="/forum/po-instalaci/jak-na/fotky-z-3-nodov-do-mriezky" class="topic-next" title="Přejít na následující téma.">fotky z 3 nodov do mriezky ›</a>
+      </div>
+  </div>
+  
+  <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-17" class="social-add digglink" onmouseover="showSocials(17)" onmouseout="hideSocials(17)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-17">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships&amp;title=Pokročilé: Rozdíl mezi &quot;Contextual filters&quot; a &quot;Relationships&quot;" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships&amp;title=Pokročilé: Rozdíl mezi &quot;Contextual filters&quot; a &quot;Relationships&quot;" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships&amp;title=Pokročilé: Rozdíl mezi &quot;Contextual filters&quot; a &quot;Relationships&quot;" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div></div> <!-- article end -->
+<div class="article-spacer">&nbsp;</div>
+<div id="comments">
+  <a id="comment-95416"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95416" class="active">Relationship = vztah(v SQL</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 26 Duben, 2016 - 05:54.  </div>
+
+  <div class="content">
+    Relationship = vztah(v SQL reprezentovane JOIN). Contextual filter = filtr,
+omezeni vyberu (v SQL reprezentaovane WHERE). nenapada me jak to vysvetlit,
+kazde slouzi k necemu uplne jinemu, neexistuje obecn poucka. Uz jsi videl cely
+serial Taming the Beast?  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95416" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-95426"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95426" class="active">Neprogramátorsky:
+
+Contextual</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 26 Duben, 2016 - 09:14.  </div>
+
+  <div class="content">
+    <p>Neprogramátorsky:</p>
+
+<p>Contextual filtr je „prostě filtr“, který ale nefiltruje „natvrdo“
+(vždycky stejně), nýbrž na základě aktuální „situace“ (tedy
+kontextu, proto kontextuální). Tj. například na základě uživatele, který
+si data zrovna prohlíží, nebo parametru v URL, apod. (to už záleží, co
+do toho kontextuálního filtru dáte).</p>
+
+<p>Relationship = vztah k něčemu dalšímu, co potřebuju použít, ale
+v základních možnostech to nemám. Například: mám články (uzly) a
+potřebuju je řadit podle hlasování v modulu Fivestar. Žádné takové
+řazení ale nenajdu. Co udělám? Přidám nový „relationship“. Ejhle,
+v možnostech řazení se následně objeví nová možnost, řazení podle
+počtu hlasů, s využitím nově přidaného vztahu.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95426" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-95436"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95436" class="active">takhle česky mi to je</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 26 Duben, 2016 - 11:47.  </div>
+
+  <div class="content">
+    takhle česky mi to je srozumitelné, nyní tedy si ujasním, kdy jaký filtr
+a nebo vztah do pohledu použít.
+
+<ol>
+	<li>pohled články a filtr fivestar</li>
+</ol>
+
+nebo
+
+<ol start="2">
+	<li>pohled fivestar a filtr články</li>
+</ol>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95436" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-95476"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95476" class="active">Příklad, který jsem uvedla,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 27 Duben, 2016 - 08:22.  </div>
+
+  <div class="content">
+    <p>Příklad, který jsem uvedla, odpovídá variantě 1: mám pohled
+vypisující články a potřebuju filtr (nebo v mém příkladu řazení)
+pomocí fivestar, a protože v základu chybí, přidám ho nejprve pomocí
+relationships &gt;&gt; a pak již mám k dispozici ve filtrech (nebo
+v řazení).</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95476" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-95441"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95441" class="active">na takto polozeny dotaz nelze</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 26 Duben, 2016 - 12:14.  </div>
+
+  <div class="content">
+    na takto polozeny dotaz nelze odpovedet. je potreba znat kontext. co se ma
+jak zobrazovat, co se ma filtrovat, jak se to ma radit… pokud chces opravdu
+nejak weby stavet/spravovat tak bych durazne doporucil si nastudovat jemmny uvod
+do SQL: SELECT FROM JOIN WHERE ORDER BY. to se da pochopit za pul dne kdy se do
+toho clovek ponori.
+
+Modul Views je v podstate jen graficke rozhrani pro tvorbu sql dotazu a
+vypis jejich vysledku.  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95441" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-95446"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95446" class="active">úvody a základy do SQL mám za</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 26 Duben, 2016 - 14:28.  </div>
+
+  <div class="content">
+    úvody a základy do SQL mám za sebou, stejně tak jako výpis/výběr
+záznamů do stránek na základě jeho sestavení.
+
+Spíše tedy ještě nyní jak jsem psala mi bude ze začátku dělat
+problém pochopit, co chci vypisovat a co mám tedy filtrovat od čeho.
+
+Poukazuju třeba na to, že jak jsem si procházela od Evy manuál a návod
+na výpis do bloku požadovaných partnerů programů, tak mi dělalo problém
+pochopit, jestli ten Contextual filters nastavím v pohledu Partnera a nebo
+Programu.
+
+Vím, že musím mít i trochu logického myšlení, ale peru se s tím od
+prva počátku, co jsem se rozhodla více porozumnět nejen HTML, ale
+i programovacímu jazyku PHP apod.
+
+Tak mě prosím za tohle přiznání nekamenujte a mějte se mnou strpení a
+pochopení. Což mi určitě hodně pomůže než bych se nerada jednou
+dočetla, abych se na to vykašlala, když něco neumím a nebo si to nechala za
+sebe někým udělat.
+
+Děkuju  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95446" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-95451"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95451" class="active">a co ten serial o views na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 26 Duben, 2016 - 14:53.  </div>
+
+  <div class="content">
+    a co ten serial o views na Vimeo(Tamming the beast) ktery jsem inzeroval?
+NodeOne na tom odvedlo skvelou praci. V d6 se contextual filter jmenoval
+argument, ale relationships tam byly. myslim, ze tam se tomu venovali.  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95451" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-95456"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95456" class="active">kde jste jej prosím</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a> dne 26 Duben, 2016 - 17:28.  </div>
+
+  <div class="content">
+    <p>jo už jsem našla nějaká videa a neznám a podívám se na ten
+seriál.</p>
+
+<p>Děkuju</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95456" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-95481"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95481" class="active">Tak jen pro jistotu, zřejmě</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 27 Duben, 2016 - 08:24.  </div>
+
+  <div class="content">
+    <p>Tak jen pro jistotu, zřejmě jste měla na mysli v doporučeném manuálu
+část „Příklad: výpis „správných“ partnerů na stránce výukového
+programu“ (str. 15), v celém tom příkladu upravujeme pohled
+„Partneři“.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95481" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-95511"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-95511" class="active">Ano mám na mysli příklad výše</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a> dne 27 Duben, 2016 - 11:44.  </div>
+
+  <div class="content">
+    <p>Ano mám na mysli příklad výše uvedený. Právě to uvádím i tak, že
+nemám až tak rozvinuté logické myšlení a proto bych já hned na první
+pohled použila filtr do pohledu Výukový program a to už jen z toho důvodu,
+že to vidím tak, že:</p>
+
+<ol>
+	<li>mám hlavní stránku Výukový program a té chci něco dát navíc</li>
+
+	<li>proto bych ten postranní blok Partneři jakoby vložila ke stránce</li>
+</ol>
+
+<p>Prostě fyzicky jakoby jej vzít a přilepit v požadovaném obsahu nevím
+jestli mi rozumíte, jak to myslím.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/95511" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><a id="comment-98481"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98481" class="active">našel by se prosím někdo</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a> dne 7 Červenec, 2016 - 17:03.  </div>
+
+  <div class="content">
+    <p>našel by se prosím někdo ochotný, kdo by mi věnoval svůj volný čas a
+pomohl mi pochopit použití contextual filters a relationships?</p>
+
+<p>Pokouším se do vyhledávačů zadávat tutoriály pro použití, ale stále
+nejsem z toho moudrá.</p>
+
+<p>Opomenu i to, že mě to stále žene dopředu pochopit, protože základní
+principy pohledů jsem pochopila a všude čtu, že jakmile se pochopí
+i pokročilé možnosti, dají se s pohledy dělat i nemožné až
+profesionální zobrazení.</p>
+
+<p>Co se mi zatím podařilo pochopit je to, že:</p>
+
+<p><strong>Contextual filters</strong> Jde o filtrování pohledu na základě
+argumentu zadaného do URL řádku.</p>
+
+<p><strong>Relationships</strong> Slouží k propojení tabulek a následně
+zobrazení libovolného pole.</p>
+
+<p>Oba výše uvedené termíny pro pokročilé možnosti pohledů slouží k
+„vytažení“ obsahu, nikoliv na něj pouze odkazovat.</p>
+
+<p>Chápu to tak, že se to používá hlavně při uzlech a typů obsahu,
+které na sebe nějakým způsobem odkazují, jsou referenční.</p>
+
+<p>Určitě by mi pomohlo lépe pochopit, kdybych si jednotlivé možnosti
+nastavení měla možnost vyzkoušet na vlastních příkladech a vidět to tak
+ve skutečnosti.</p>
+
+<p>Našla jsem <a href="https://www.sandstormdesign.com/blog/relationships-and-contextual-filters-in-views-3-for-drupal">následující</a>
+vysvětlení a povídání, které mě zaujalo nejen obsahově, ale snad
+vytažení snad všech možností, které mohou nastat. Nejsem však až tak
+dokonalá v angličtině, tak mi dělá problém si to přeložit do češtiny
+a následně dle toho si sestavit jednotlivé příklady a na nich to pochopit.
+Pouze to, že vše se točí kolem příkladu s internetových obchodem.</p>
+
+<p>Kdo by tedy věděl, jak mi nějak líp pomoci v pochopení, budu ráda,
+klidně mi napište zprávu, ať se to neřeší moje hloupost a zatvrdlost
+veřejně.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98481" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-98486"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98486" class="active">uplne nejdulezitejsi: pokud</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 7 Červenec, 2016 - 17:30.  </div>
+
+  <div class="content">
+    <p>uplne nejdulezitejsi: pokud to chces pochopit tak musis znat absolutni
+zaklady SQL: SELECT columns FROM basetable JOIN othertable WHERE column = %
+ORDER BY column… potom si v nastaveni views nastav aby ti to u nahledu
+zobrazovalo sql query.</p>
+
+<p>contextual filter. jak bylo receno, je to FILTR, omezuje nejakou podminkou
+zobrazene zaznamy. v D6 se to jmenovalo arguments. priklad: Has taxonomy term.
+takze to vypise jen obsah ktery ma prirazenu danou kategorii. jak danou?
+napriklad z url adresy. proto ma treba cestu taxonomy/term/% kde to procento je
+prave zastupny znak pro contextual filter aka argument. dalsi priklad: udelej si
+view, jako zaklad pouzij Content, dej tam display typu page a dej mu url
+muj-obsah/% a pridej contextual filter Content: type. a pak dej do url
+muj-obsah/story nebo muj-obsah/page a ono to vypise jen obsah toho typu. pak si
+muzes hrat s default behavior toho contextual filtru – jestli ma zobrazit
+vse, dat page not found, zobrazit no results text apod.</p>
+
+<p>contextual filter2: blok s nejnovejsima novinkama. ale nechces tam mit tu
+novinku na kterou prave koukas. takze das view typu Content, pridas block
+display, pridas filtr typu obsahu a razeni od nejnovejsich. v tu chvili vidis
+v tom bloku nejnovejsi aktuality. ale to je blby kdyz jsi na detailu te
+nejnovejsi – stale ji v tom bloku vidis. tka pridas contextual filter
+Content:nid a das mu Provide default value: content id from url (to znamena ze
+on si z cesty node/123 umi najit to cislo 123) a pak je tam nekde dole
+v advanced jeste „Exclude“ – tzn on da do sql prikazu WHERE nid
+&lt;&gt; 123.</p>
+
+<p>relationship: predstav si typ obsahu vyrobek, ten ma pres taxonomy prirazeno
+vyrobce. a ted si predstav, ze ve slovniku vyrobci mas fieldy rok zalozeni a
+logo. vytvoris view na base table Content, tam das filtr ze typ obsahu =
+produkt. kdyz das zobrazit field vyrobce tak ti to vypise nazev vyrobce(termin
+taxonomie). No a kdyz chces jeste vypsat logo a rok zalozeni vyrobce tak musis
+pridat relationship – pres ten field vyrobce. pak pridavas fieldy a mas tam
+nahore select – tam mas treba Content nebo Taxonomy term – tim filtrujes
+fieldy ktere jsou pouzite v te ktere tabulce.</p>
+
+<p>relationship 2: pro entity User pridas field_jmeno a field_prijmeni.
+vypisujes obsah – ale tam muzes pridat jen uid nebo username autora. abys
+videla ostatni vlastnosti uzivatele tak pridas relationship Author. a pak kdyz
+pridavas field tak si v tom selectu zvolis user a uz vidis takovy ty veci jako
+zminene fieldy, uzivatelske role, kdy se naposledy prihlasil, jaky ma email
+apod. to jsou veci ktery se vztahuji k Uzivatel a proto je nemuzes pridavat
+primo do view ktere ma zakladni tabulku Obsah.</p>
+
+<p>Co je dulezite: tyhle dve veci spolu nijak primo nesouvisi. nekdy potrebujes
+relationships a nepotrebujes vubec contextual filter a naopak.</p>
+
+<p>Zeptam se znova: videla jsi cely tutorial na Views z NodeOne learning
+library? Nehledej si tutorialy na ty dve veci naraz. Nejdriv pochop jedno a pak
+druhe(a je jedno v jakem poradi).</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98486" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-98496"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98496" class="active">karlos: viděla jsem základní</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a> dne 8 Červenec, 2016 - 04:55.  </div>
+
+  <div class="content">
+    <p><strong>karlos</strong>: viděla jsem základní nastavení a práci
+s pohledy, myslím to jsou prvních 5 dílů. Na ty pokročilejší možnosti
+jsem se ještě nedostala a proto jsem se snažila najít něco popisného na
+internetu.</p>
+
+<p>Byla jsem v domění, že contextual a relationships spolu souvisí, tudíš
+zase budu muset začít úplně někde od začátku a udělat si v tom jasno a
+přehled.</p>
+
+<p>Nicméně, co jste vypsal výše si určitě v klidu prostuduju a
+překreslím i pokud možno na papír a budu se snažit pochopit vizuálně a
+na příkladech.</p>
+
+<p>Základy (a dovolím si tvrdit nejen základy) SQL píšu znovu že mám,
+pouze to neumím přenést a předtavit si v tom nastavování relationships a
+contextual. Na Vaše doporučení jsem se snažila najít, kde je možnost si
+tedy nechat vypisovat SQL dotazy, ale dole pod živou ukázkou se mi pouze
+zobrazuje text „<strong>Query: No query was run</strong>“, tak nevím, co
+dělám špatně.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98496" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98511"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98511" class="active">Myslim, ze neni potreba tady</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 8 Červenec, 2016 - 07:58.  </div>
+
+  <div class="content">
+    <p>Myslim, ze neni potreba tady nekomu vykat :-) Je lepsi podivat se v klidu na
+ta pokrocila videa nez to googlit. Jak jsem uz asi psal: „contextual filter“
+je stejne jako „filter“ dosazovany do WHERE. Naproti tomu Relationship je
+JOIN(a je tam zatrzitko Require coz znaci jestli je to LEFT JOIN). No query was
+run – ano, to je spravne. Vedle tlacitka Update preview je textovy input –
+tam musis neco napsat pokud mas pouzity Contextual filter. Anebo bys musela mit
+v contextual filter nastavene default value if no input provided nastavene na
+„show all“ protoze default je myslim „hide view“.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98511" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98521"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98521" class="active">já jsem z toho nešťastná a</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 8 Červenec, 2016 - 11:31.  </div>
+
+  <div class="content">
+    já jsem z toho nešťastná a nejde mi to pochopit, natož pak umět něco
+vymýšlet :(
+Třeba se nyní vracím k tomu, co jsi tu rozepsal na příklad v pohledy,
+který tu je od Evy, jak se vypisují partneři, ale zase moje základní
+otázka, jak poznám, a nebo se mám rozhodnout, kdy použiju Typ Obsahu
+s následujícími poli:
+<ol>
+	<li>A) Obsah: Program s polem reference na Partneři</li>
+
+	<li>B) Obsah: Partneři s polem reference na Program</li>
+</ol>
+
+Co jsem pochopila, ona se rozhodla pro variantu B), ale třeba se mýlím a
+prostě mi to záhadně funguje.
+
+Pak jde vlastně o to nastavení Bloku, jak píšeš výše, ale právě jak
+jsem i já psala, tehdy jsem šla vše nastavovat a klikat podle této
+kuchařky jako cvičená opice a vůbec nevím, proč se to udělalo tak či
+onak – hlavně že se mi to zobrazuje jak má. A nyní mám obavy z toho,
+aby to tak neskončilo i u dalších návodů pro pochopení a neumět nic
+sama vymyslet.
+
+:(  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98521" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98531"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98531" class="active">no tak si to preved na SQL</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 8 Červenec, 2016 - 11:53.  </div>
+
+  <div class="content">
+    <p>no tak si to preved na SQL logiku. chces</p>
+
+<p>select * from partneri join program (to je vypis partneru a kazdy muze mit
+vypsane jak se angazuje)</p>
+
+<p>nebo</p>
+
+<p>select * from program join partneri (to je vypis polozek programu a kazda
+muze mit logo partnera)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98531" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98536"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98536" class="active">to ano, ale jak vím, kterému</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 8 Červenec, 2016 - 14:39.  </div>
+
+  <div class="content">
+    to ano, ale jak vím, kterému typu obsahu budu dávat to referenční pole?
+jako nastavovat to druhé? Na typu Obsahu Partner budu vybírat Program a nebo
+na Programu budu vybírat Partnera? Nebo je to jedno, na kterém Typu obsahu to
+nastavím?  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98536" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98541"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98541" class="active">No to zalezi na analyze te</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 8 Červenec, 2016 - 14:51.  </div>
+
+  <div class="content">
+    <p>No to zalezi na analyze te vznikajici aplikace, na stanoveni spravnych
+datovych struktur a pak taky na analyze toho problemu ktery chces vyresit, na to
+fakt nedovedu takhle obecne odpovedet. Viz priklad obsah → autor. Tam prece je
+jasne, kterym smerem ta vazba vede.</p>
+
+<p>Kdyby to slo opsat z jedne knihy tak za co by nam zakaznici platili?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98541" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98546"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98546" class="active">Takže Obsah &gt; autor budu mít</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 8 Červenec, 2016 - 15:01.  </div>
+
+  <div class="content">
+    Takže Obsah &gt; autor budu mít referenční pole autor?  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98546" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98606"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98606" class="active">Autor je v tomhle případě</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/bighead" title="Zobrazit profil uživatele.">Petr Illek</a> dne 11 Červenec, 2016 - 07:59.  </div>
+
+  <div class="content">
+    <p>Autor je v tomhle případě myšlen asi jako autor uzlu – tzn. né
+přidané políčko na nějaký content type Autor ale přímo ten autor co je
+na uzlu v jádře.</p>
+
+<p>Jinak pokud přidáš referenci z Program na Partner, tak ve Views v těch
+Relationships máš možnost pracovat s tou referencí obousměrně tzn. jak
+z Programu na Partnera („… referenced…“), tak z Partnera na Program
+(„…referencing…“).</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98606" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98906"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98906" class="active">snad to tedy někdy pochopím.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a> dne 26 Červenec, 2016 - 17:16.  </div>
+
+  <div class="content">
+    <p>snad to tedy někdy pochopím. :( Nějak mi pořád chybí souvislosti a
+logika. Pořád je to o tom, že něco nastavím, ale nepřemýšlím u toho,
+proč to tak je a jestli toho lze docílit i jinak. Za pomocí příkladu od
+Evy se mi podařilo udělat Contextual filters pro zobrazení databáze knih,
+kterým přiřazuju pole spisovatele a na stránce spisovatele vypisovat knihy,
+které napsal, ale pokud bych se nepodívala do mustru příkladu, který
+vysvětluje Eva, tak by se mi to nepodařilo nastavit :( A Relationships jsem
+v tomto případě nepoužila, to je špatně?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98906" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-98911"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98911" class="active">Relationships není potřeba</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/bighead" title="Zobrazit profil uživatele.">Petr Illek</a> dne 26 Červenec, 2016 - 17:36.  </div>
+
+  <div class="content">
+    <p>Relationships není potřeba použít vždy, navíc existuje více způsob
+jak se k dané věci dostat. Hodne záleží na tom co potřebujete vypsat, co
+máte jako base table (node, user, taxonomy atp…), co máte jako výchozí
+filtr (jestli Knihu nebo Spisovatele), atp. Není na to žádný univerzální
+všespásný návod.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98911" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div></div></div></div></div><a id="comment-98551"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-98551" class="active">resp. ten příklad, který</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 8 Červenec, 2016 - 15:02.  </div>
+
+  <div class="content">
+    resp. ten příklad, který vytvořila Eva, můžu použít i jako Typ
+obsahu „Program“ odkazující (referenční pole) na field
+„Partner“?  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/98551" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-99041"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-99041" class="active">Vytvořila jsem si pohled, do</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a> dne 31 Červenec, 2016 - 11:59.  </div>
+
+  <div class="content">
+    <p>Vytvořila jsem si pohled, do kterého vypisuju Typ Obsahu Výrobek –
+v mém případě jde o jogurty.</p>
+
+<p>Jogurty jsou různé značky – Olma, Florian, Jogobella,
+Activia apod.</p>
+
+<p>Tyto značky v Typu obsahu Výrobek vybírám z předem nadefinovaného
+slovníku (Značka jogurtů).</p>
+
+<p>Abych nemusela tedy vytvářet pro každou značku nový pohled, chtěla jsem
+pomocí Contextual filters vytvořit výpis položek dle toho, co bude zadáno
+v URL. Současně mám v pohledu i Better Exposed Filter.</p>
+
+<p>Pohled mám tedy nastavený jako stránku, vypisuju typ obsahu výrobek,
+cesta stránky je domena. cz / znacka / % (procento slouží právě pro výběr
+takových záznamů, které budou mít požadovanou značku).</p>
+
+<p>V nastavení Contextual filters jsem dala Obsah značka (jde o field,
+který je odkazovaný na značku v obsahu výrobku).</p>
+
+<p>V tuto chvíli mi to však vypisuje pouze filter, ale nikoliv již záznamy
+podle toho, co bude dosaženo v url za značku, kde prosím dělám chybu?
+Prostě mám jinak prázdnou stránku.</p>
+
+<p>Podle mě to bude něco s tím nastavením Contextual filters, které nemohu
+tedy ani v tomto případě pochopit :( LOGIKA!!</p>
+
+<p>Je můj postup správný a nebo byste to řešili zcela jinak?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/99041" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-99066"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-99066" class="active">odkud jsi?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 1 Srpen, 2016 - 12:34.  </div>
+
+  <div class="content">
+    <p>odkud jsi?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/99066" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-99076"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-99076" class="active">tak už to vypadá, že mi to</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a> dne 1 Srpen, 2016 - 16:54.  </div>
+
+  <div class="content">
+    <p>tak už to vypadá, že mi to funguje, resp. dělala jsem chybu, že jsem si
+v náhledu zadávala hodnoty jako textové a nikoliv číselné, např. jsem
+vkládala Olma na místo toho, že Olma má ve slovníku hodnotu 19.</p>
+
+<p>Ještě nyní tedy akorát řešít to, že se mi nadpis pohledu nemění
+třeba na základě toho, co bude v Contextual filters nastaveno, tak jako to
+třeba se automaticky mění, pokud bych se odvolávala na přímo na pohled
+termínu. To jsem se koukala, že standardně tam žádný nadpis pohledu není,
+ale pokud zvolím, aby se žádný nevypisoval, tak tam logicky nebude a pokud
+použiju procenta (%), tak se zobrazí pouze procenta :-)</p>
+
+<p><strong>karlos</strong>: z PHA s tím bojuju :(</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/99076" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-99086"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-99086" class="active">mel jsem napsanou odpoved,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 1 Srpen, 2016 - 17:05.  </div>
+
+  <div class="content">
+    <p>mel jsem napsanou odpoved, ale kvuliu pomalemu netu to neodeslalo, tak
+znova..</p>
+
+<ul>
+	<li>prebirat to jako Name je nektere z advanced nastaveni v contextual filtru
+	„Has taxonomy term“</li>
+
+	<li>do nadpisu nemuzes napsat % protoze contextual filtru muze byt vice –
+	zadavas tam %1, %2 atd. na nektere veci se misto procent pise vykricnik (a mozna
+	se to nenastavuje v nadpisu view ale v nsataveni contextual filtru)</li>
+
+	<li>podivej se presne a porovnej si svoje nastaveni vuci nastaveni toho
+	taxonomy_term view ktery je by default ve Views</li>
+
+	<li>v praze v pozdnich odpolednich/ve­cernich hodinach jsem ochoten udelat
+	skoleni na views stylem ukazky konkretniho reseni konkretnich problemu, klidne
+	i pro vice nez jednoho cloveka – mam rad dobre jidlo a piti :-) ale jsem tam
+	jen v prumeru kazdy druhy tyden</li>
+</ul>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/99086" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-99176"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-99176" class="active">zkusím tedy domluvit jestli</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/smiesek" title="Zobrazit profil uživatele.">smiesek</a> dne 4 Srpen, 2016 - 05:02.  </div>
+
+  <div class="content">
+    <p>zkusím tedy domluvit jestli by někdo ještě neměl zájem o Drupal a
+kdyžtak to spácháme nějak, budu ráda :-)</p>
+
+<p>K tomu přebírání, já mám v současnosti pouze v Contextual filtru
+Obsah: značka, tudíš tam s ničím ohledně Has taxonomy term nepracuju a
+tedy se asi pak nemá jak předávat ten nadpis.</p>
+
+<p>Je tedy správný krok řešení ponechat Obsah: značka a k tomu přidat
+další filtr Obsah: Has taxonomy term ID?</p>
+
+<p>Co jsem se koukala do základního nastavení pohledu pto termíny, tam se
+pracuje s depthem … :(</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/99176" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-99186"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships#comment-99186" class="active">depth muzes ignorovat, to</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 4 Srpen, 2016 - 08:01.  </div>
+
+  <div class="content">
+    <p>depth muzes ignorovat, to nema s timhle nic spolecneho. osobne bych udelal
+to co chces ve views a ten title si pak udelal pres
+hook_preproces­s_views_view() – je to na 5 radku kodu asi tak.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/54951/99186" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/54951"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-4a1e45e05bf278ae686ec45f392bd033" value="form-4a1e45e05bf278ae686ec45f392bd033"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/forum/po-instalaci/jak-na/pokrocile-rozdil-mezi-contextual-filters-relationships?destination=node%2F54951"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-04fe2b37031dbc46cc55d51ef8dd2ffa" value="form-04fe2b37031dbc46cc55d51ef8dd2ffa"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex" class="tagadelic level1">forex</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views" title="2 komentáře">Jak vyhledávat v poli soubor (multiupload) - VIEWS</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 11 hod 53 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 2 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 1 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 5 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 6 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 29 min</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 4 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 20 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>1 host</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":1366,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

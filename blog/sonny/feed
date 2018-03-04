@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SonnY&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/sonny</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Nová téma mojej prezentácie</title>
+ <link>https://www.drupal.cz/blog/sonny/nova-tema-mojej-prezentacie</link>
+ <description>&lt;p&gt;Práve som dokončil jednoduchú tému pre svoju prezentáciu na &lt;a href=&quot;www.node.sk&quot;&gt;node.sk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Celkovo mi tvorba zabrala jeden deň. Prácu som si zjednodušil jedným
+veľkým obrázkom pozadia namiesto rozkrájania pre jednotlivé časti.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sonny/nova-tema-mojej-prezentacie&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/nova-tema-mojej-prezentacie#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3415</wfw:commentRss>
+ <pubDate>Fri, 18 Jul 2008 00:17:25 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">3415 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vznik neoficiálnej slovenskej podpory Drupalu</title>
+ <link>https://www.drupal.cz/blog/sonny/vznik-neoficialnej-slovenskej-podpory-drupalu</link>
+ <description>&lt;p&gt;Už dávnejšie som plánoval vytvoriť stránky venované Drupalu, no nemal
+som čas(a v podstate stále nemám), ale predvčerom ma táto myšlienka
+premohla a tak som sa pustil do práce.&lt;/p&gt;
+
+&lt;p&gt;Adresa je: &lt;a href=&quot;http://drupal.node.sk&quot;&gt;&lt;b&gt;Drupal.Node.sk&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Na stránkach je vytvorené fórum, wiki, blogy a články.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sonny/vznik-neoficialnej-slovenskej-podpory-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/vznik-neoficialnej-slovenskej-podpory-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3280</wfw:commentRss>
+ <pubDate>Wed, 25 Jun 2008 16:44:50 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">3280 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Male zamyslenie nad modelom vyvoja Drupalu a pouzivatelmi</title>
+ <link>https://www.drupal.cz/blog/sonny/male-zamyslenie-nad-modelom-vyvoja-drupalu-pouzivatelmi</link>
+ <description>&lt;p&gt;Drupal pouzivam druhy rok a zatial som z neho nadseny. Oproti
+predchadzajucim CM Systemom mi poskytuje naozaj obrovsku flexibilitu a ked sa
+s nim naucite pracovat, otvoria sa vam nove moznosti.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sonny/male-zamyslenie-nad-modelom-vyvoja-drupalu-pouzivatelmi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/male-zamyslenie-nad-modelom-vyvoja-drupalu-pouzivatelmi#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2877</wfw:commentRss>
+ <pubDate>Tue, 15 Apr 2008 13:38:38 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">2877 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vkladanie nahladu obrazku s odkazom na povodny obrazok  &quot;snadno a rychle&quot;</title>
+ <link>https://www.drupal.cz/blog/sonny/vkladanie-nahladu-obrazku-s-odkazom-na-povodny-obrazok-snadno-rychle</link>
+ <description>&lt;p&gt;Dost mi v Drupale chybalo nieco, cim by sa dal lahko pri pisani clanku
+vlozit nejaky obrazok tak, ze velmi jendoducho sa nahra obrazok, automaticky sa
+vytvori nahlad, ten sa vlozi do textu a bude odkazovat na obrazok v povodnej
+velkosti. Doteraz som to riesil s IMCE ale pre pozadovany vysledok bolo treba
+vykonat zopar veci navyse.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sonny/vkladanie-nahladu-obrazku-s-odkazom-na-povodny-obrazok-snadno-rychle&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/vkladanie-nahladu-obrazku-s-odkazom-na-povodny-obrazok-snadno-rychle#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2874</wfw:commentRss>
+ <pubDate>Mon, 14 Apr 2008 16:27:23 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">2874 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Babo rad</title>
+ <link>https://www.drupal.cz/blog/sonny/babo-rad</link>
+ <description>&lt;p&gt;Toto je asi prvy krat, od kedy som objavil Drupal, co som celkom
+strateny.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sonny/babo-rad&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/babo-rad#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2644</wfw:commentRss>
+ <pubDate>Wed, 12 Mar 2008 09:12:38 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">2644 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Odfiltrovanie html znaciek z teaseru a male tipy</title>
+ <link>https://www.drupal.cz/blog/sonny/odfiltrovanie-html-znaciek-z-teaseru</link>
+ <description>&lt;p&gt;Ak potrebujete zbavit teaser html znaciek, napriklad TinyMCE ma v oblube
+pridat na uplny zaciatok textu &amp;lt; p &amp;gt;, co vo vysledku vyzera na hlavnej
+stranke rovnako, ako keby ste na uplny zaciatok textu dali break. Cize ako sa
+toho zbavit?&lt;/p&gt;
+
+&lt;p&gt;Skusal som rozne variacie, ale najlahsie a najjednoduchsia mi
+prisla tato:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sonny/odfiltrovanie-html-znaciek-z-teaseru&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/odfiltrovanie-html-znaciek-z-teaseru#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2167</wfw:commentRss>
+ <pubDate>Sat, 15 Dec 2007 20:10:00 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">2167 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>News Flow</title>
+ <link>https://www.drupal.cz/blog/sonny/news-flow</link>
+ <description>&lt;p&gt;Výraz News Flow sa používa na označenie toku obsahu na webe. Mnohé
+komerčné webstránky, prevažne spravodajské, ho využívajú. Jedná sa
+v podstate o rozdelenie zobrazovaného typu obsahu do viacerých oblastí
+stránky s tým, že ako sa pridáva nový obsah, starší sa postupne presúva
+do predom určených častí webu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sonny/news-flow&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/news-flow#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2094</wfw:commentRss>
+ <pubDate>Fri, 30 Nov 2007 12:44:57 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">2094 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>BlueBreeze a content top</title>
+ <link>https://www.drupal.cz/blog/sonny/bluebreeze-content-top</link>
+ <description>&lt;p&gt;Uzivatelia ktory pouzivaju temu BlueBreeze, ti bystrejsi, si iste vsimli ze
+v admine chyba oblast content_top. Ti ktory si to vsimli sa iste cudovali preco
+tam nieje, ked v zdrojakoch temy je vsetko ok.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sonny/bluebreeze-content-top&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/bluebreeze-content-top#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1840</wfw:commentRss>
+ <pubDate>Sat, 06 Oct 2007 20:40:42 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">1840 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Príprava stránky</title>
+ <link>https://www.drupal.cz/blog/sonny/priprava-stranky</link>
+ <description>&lt;p&gt;Chcel by som tymto sposobom odporucit uzivatelom Drupalu, aby pri tvorbe
+stranok na zivom hostingu, teda nie doma na localhoste, nastavili
+udzrbu(maintance). Zabrania tym nahodnym navstevam uzivatelov a hlavne navstevam
+botov typu google, yahoo a podobne a teda zbyocnemu zaindexovaniu.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sonny/priprava-stranky#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1765</wfw:commentRss>
+ <pubDate>Thu, 20 Sep 2007 21:34:50 +0000</pubDate>
+ <dc:creator>SonnY</dc:creator>
+ <guid isPermaLink="false">1765 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

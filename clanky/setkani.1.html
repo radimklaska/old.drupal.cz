@@ -1,0 +1,904 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="RSS - setkání" href="/clanky/setkani/feed" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>setkání | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_9c9661fe9d26fee53cfd2ed565557070.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_205e2f76c16b8df9f08dad7fc176465b.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a></div>        <h2 class="title">setkání</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-65806">
+          <h2 class="title"><a href="/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne">Drupal setkání s podporou Českého rozhlasu 14.3.2017 + Přispěvatelské odpoledne</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/coyot" title="Zobrazit profil uživatele.">radimklaska</a>, 6 Březen, 2017 - 13:06</span>
+    <div class="pcontent"><ul>
+	<li><strong>Sprint:</strong> 14.3.2017 od 14:30<br />
+</li>
+
+	<li><strong>Setkání:</strong> 14.3.2017 od 17:30<br />
+</li>
+
+	<li><strong>Místo:</strong> Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [<a href="https://goo.gl/maps/antoDybHHr42">mapa</a>, web <a href="http://www.rozhlas.cz/informace/kontakty/">rozhlas.cz</a>]<br />
+</li>
+
+	<li><strong>Hashtag:</strong> <a href="https://bit.ly/qKOngS">#drupalcz</a></li>
+</ul></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/comment/reply/65806#comment-form" title="Přidat komentář k této stránce." class="comment_add">Přidat komentář</a>
+
+    <span><a class="node_read_more" href="/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne">Číst dál</a></span>
+<div id="social-add-8692" class="social-add digglink" onmouseover="showSocials(8692)" onmouseout="hideSocials(8692)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-8692">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne&amp;title=Drupal setkání s podporou Českého rozhlasu 14.3.2017 + Přispěvatelské odpoledne" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne&amp;title=Drupal setkání s podporou Českého rozhlasu 14.3.2017 + Přispěvatelské odpoledne" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-1432017-prispevatelske-odpoledne&amp;title=Drupal setkání s podporou Českého rozhlasu 14.3.2017 + Přispěvatelské odpoledne" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-56586">
+          <h2 class="title"><a href="/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016">Drupal setkání s podporou Českého rozhlasu 14.9.2016 + Překladatelský sprint</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/coyot" title="Zobrazit profil uživatele.">radimklaska</a>, 23 Červen, 2016 - 18:02</span>
+    <div class="pcontent"><ul>
+	<li><strong>Sprint:</strong> 14.9.2016 od 14:30<br />
+</li>
+
+	<li><strong>Setkání:</strong> 14.9.2016 od 17:30<br />
+</li>
+
+	<li><strong>Místo:</strong> Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [<a href="https://goo.gl/maps/antoDybHHr42">mapa</a>, web <a href="http://www.rozhlas.cz/informace/kontakty/">rozhlas.cz</a>]<br />
+</li>
+
+	<li><strong>Hashtag:</strong> <a href="https://bit.ly/qKOngS">#drupalcz</a><br />
+</li>
+
+	<li><strong>Vstup:</strong> ZDARMA, REGISTRACE ZDE: <a href="https://goo.gl/forms/2XfB903fEeefd8nw2">https://goo.gl/…03fEeefd8nw2</a><br />
+</li>
+</ul></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/comment/reply/56586#comment-form" title="Přidat komentář k této stránce." class="comment_add">Přidat komentář</a>
+
+    <span><a class="node_read_more" href="/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016">Číst dál</a></span>
+<div id="social-add-9226" class="social-add digglink" onmouseover="showSocials(9226)" onmouseout="hideSocials(9226)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-9226">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016&amp;title=Drupal setkání s podporou Českého rozhlasu 14.9.2016 + Překladatelský sprint" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016&amp;title=Drupal setkání s podporou Českého rozhlasu 14.9.2016 + Překladatelský sprint" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupal-setkani-s-podporou-ceskeho-rozhlasu-1492016&amp;title=Drupal setkání s podporou Českého rozhlasu 14.9.2016 + Překladatelský sprint" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-56326">
+          <h2 class="title"><a href="/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint">Drupal setkání s podporou Českého rozhlasu 22.6.2016 + Překladatelský sprint</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/coyot" title="Zobrazit profil uživatele.">radimklaska</a>, 13 Červen, 2016 - 12:27</span>
+    <div class="pcontent"><ul>
+	<li><strong>Sprint:</strong> 22.6.2016 od 14:30<br />
+</li>
+
+	<li><strong>Setkání:</strong> 22.6.2016 od 17:30<br />
+</li>
+
+	<li><strong>Místo:</strong> Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [<a href="https://goo.gl/maps/antoDybHHr42">mapa</a>, web <a href="http://www.rozhlas.cz/informace/kontakty/">rozhlas.cz</a>]<br />
+</li>
+
+	<li><strong>Hashtag:</strong> <a href="https://bit.ly/qKOngS">#drupalcz</a><br />
+</li>
+
+	<li><strong>Vstup:</strong> ZDARMA, REGISTRACE ZDE: <a href="https://goo.gl/forms/zCF6AmfdBC6y6hmx1">http://goo.gl/…mfdBC6y6hmx1</a><br />
+</li>
+</ul></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">7 komentářů</a>
+
+    <span><a class="node_read_more" href="/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint">Číst dál</a></span>
+
+<a href="/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint#attachments" title="Pro zobrazení příloh si přečtěte celý článek." class="upload_attachments">1 příloha</a>
+<div id="social-add-3114" class="social-add digglink" onmouseover="showSocials(3114)" onmouseout="hideSocials(3114)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-3114">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint&amp;title=Drupal setkání s podporou Českého rozhlasu 22.6.2016 + Překladatelský sprint" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint&amp;title=Drupal setkání s podporou Českého rozhlasu 22.6.2016 + Překladatelský sprint" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/akce/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2262016-prekladatelsky-sprint&amp;title=Drupal setkání s podporou Českého rozhlasu 22.6.2016 + Překladatelský sprint" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-54271">
+          <h2 class="title"><a href="/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016">Drupal setkání s podporou Českého rozhlasu - Praha 26.4.2016 + Sprint</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/coyot" title="Zobrazit profil uživatele.">radimklaska</a>, 1 Duben, 2016 - 02:12</span>
+    <div class="pcontent"><ul>
+	<li><strong>Sprint:</strong> 26.4.2016 od 14:30<br />
+</li>
+
+	<li><strong>Setkání:</strong> 26.4.2016 od 17:30<br />
+</li>
+
+	<li><strong>Místo:</strong> Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [<a href="https://goo.gl/maps/antoDybHHr42">mapa</a>, web <a href="http://www.rozhlas.cz/informace/kontakty/">rozhlas.cz</a>]<br />
+</li>
+
+	<li><strong>Hashtag:</strong> <a href="https://bit.ly/qKOngS">#drupalcz</a><br />
+</li>
+
+	<li><strong>Vstup:</strong> ZDARMA, REGISTRACE POD ČLÁNKEM<br />
+</li>
+</ul></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">4 komentáře</a>
+
+    <span><a class="node_read_more" href="/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016">Číst dál</a></span>
+<div id="social-add-152" class="social-add digglink" onmouseover="showSocials(152)" onmouseout="hideSocials(152)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-152">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016&amp;title=Drupal setkání s podporou Českého rozhlasu - Praha 26.4.2016 + Sprint" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016&amp;title=Drupal setkání s podporou Českého rozhlasu - Praha 26.4.2016 + Sprint" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2642016&amp;title=Drupal setkání s podporou Českého rozhlasu - Praha 26.4.2016 + Sprint" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-54061">
+          <h2 class="title"><a href="/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0">ZRUŠENO: Drupal setkání s podporou Českého rozhlasu - Praha 29.3.2016</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/coyot" title="Zobrazit profil uživatele.">radimklaska</a>, 21 Březen, 2016 - 21:43</span>
+    <div class="pcontent"><p><strong>Buhužel musíme tento termín zrušit a přesunout na pozdější
+datum – bude oznámeno co nejdříve.</strong><br />
+ <br />
+</p>
+
+<ul>
+	<li><strong>Kdy:</strong> 29.3.2016 od 17:30<br />
+</li>
+
+	<li><strong>Místo:</strong> Český rozhlas, Vinohradská 1409/12,120
+	00 Praha – [<a href="https://goo.gl/maps/antoDybHHr42">mapa</a>, web <a href="http://www.rozhlas.cz/informace/kontakty/">rozhlas.cz</a>]<br />
+</li>
+
+	<li><strong>Hashtag:</strong> <a href="https://bit.ly/qKOngS">#drupalcz</a><br />
+</li>
+
+	<li><strong>Vstup:</strong> ZDARMA, REGISTRACE POD ČLÁNKEM<br />
+</li>
+</ul></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/comment/reply/54061#comment-form" title="Přidat komentář k této stránce." class="comment_add">Přidat komentář</a>
+
+    <span><a class="node_read_more" href="/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0">Číst dál</a></span>
+<div id="social-add-2355" class="social-add digglink" onmouseover="showSocials(2355)" onmouseout="hideSocials(2355)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-2355">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0&amp;title=ZRUŠENO: Drupal setkání s podporou Českého rozhlasu - Praha 29.3.2016" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0&amp;title=ZRUŠENO: Drupal setkání s podporou Českého rozhlasu - Praha 29.3.2016" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/drupal-setkani-s-podporou-ceskeho-rozhlasu-praha-2932016-0&amp;title=ZRUŠENO: Drupal setkání s podporou Českého rozhlasu - Praha 29.3.2016" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-24176">
+          <h2 class="title"><a href="/clanky/akce/drupal-setkani-praha-23-ledna-2014">Zrušeno - Drupal setkání - Praha - 23. ledna 2014</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/sign" title="Zobrazit profil uživatele.">Marek Sotak</a>, 29 Prosinec, 2013 - 05:50</span>
+    <div class="pcontent"><p><strong>O náhradním termínu budeme informovat.</strong></p>
+
+<p>23.1. v Hub Praha se po delší době uskuteční setkání nejen pro
+Drupalisty, ale všechny okolo webu. Téma setkání bude volné, dozvíte se
+něco o připravovaném Drupalu 8 a dalších praktických věcech, které
+budete moci využít na vašich projektech. </p>
+
+<p>Přijďte mezi podobně smýšlející lidi, načerpat nové vědomosti.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/akce/drupal-setkani-praha-23-ledna-2014#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">2 komentáře</a>
+
+    <span><a class="node_read_more" href="/clanky/akce/drupal-setkani-praha-23-ledna-2014">Číst dál</a></span>
+<div id="social-add-5499" class="social-add digglink" onmouseover="showSocials(5499)" onmouseout="hideSocials(5499)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-5499">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/akce/drupal-setkani-praha-23-ledna-2014&amp;title=Zrušeno - Drupal setkání - Praha - 23. ledna 2014" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/akce/drupal-setkani-praha-23-ledna-2014&amp;title=Zrušeno - Drupal setkání - Praha - 23. ledna 2014" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/akce/drupal-setkani-praha-23-ledna-2014" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/akce/drupal-setkani-praha-23-ledna-2014&amp;title=Zrušeno - Drupal setkání - Praha - 23. ledna 2014" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-18786">
+          <h2 class="title"><a href="/clanky/drupal-setkani/drupal-hospoda-brno-25dubna-2013">Drupal hospoda Brno - 25.dubna 2013</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 15 Duben, 2013 - 21:25</span>
+    <div class="pcontent"><p>Už je jaro a Drupal stále kvete na výsluní. Proto si vás dovolujeme
+pozvat ma další Drupal hospodu. Termín je jako vždy poslední týden
+v měsíci. Všichni zkušení, méně zkušení, bez zkušeností i ti, co si
+chtějí jen popovídat, jsou vítáni.<br />
+Kdy: čtvrtek 25.4.2013 (18–23h)<br />
+Kde: <strong><a href="http://uaugustina.cz/">restaurace U Augustina (Palackého
+třída 84, Brno)</a></strong><br />
+Dáme řeč nejen o Drupalu a webech, kde jsme narazili na problém a podařilo
+se nám jej nakonec vyřešit.<br />
+Akce určena: pro kohokoliv, kdo má o Drupal zájem nebo jej ještě vůbec
+nezná. Úroveň znalostí a zkušeností není důležitá.<br />
+Počet míst: <strong>12</strong> (aktuální počet registrovaných
+<strong>2</strong> )<br />
+</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/drupal-setkani/drupal-hospoda-brno-25dubna-2013#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">1 komentář</a>
+
+    <span><a class="node_read_more" href="/clanky/drupal-setkani/drupal-hospoda-brno-25dubna-2013">Číst dál</a></span>
+<div id="social-add-3853" class="social-add digglink" onmouseover="showSocials(3853)" onmouseout="hideSocials(3853)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-3853">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/drupal-setkani/drupal-hospoda-brno-25dubna-2013&amp;title=Drupal hospoda Brno - 25.dubna 2013" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/drupal-setkani/drupal-hospoda-brno-25dubna-2013&amp;title=Drupal hospoda Brno - 25.dubna 2013" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/drupal-setkani/drupal-hospoda-brno-25dubna-2013" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/drupal-setkani/drupal-hospoda-brno-25dubna-2013&amp;title=Drupal hospoda Brno - 25.dubna 2013" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-18246">
+          <h2 class="title"><a href="/clanky/drupal-setkani/drupal-hospoda-brno-28brezna-2013">Drupal hospoda Brno - 28.března 2013</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 18 Březen, 2013 - 23:15</span>
+    <div class="pcontent"><p>Říkali jsme, že v novém roce zorganizujeme setkání a už je téměř
+jaro, i když to venku moc nevypadá. To nám určitě nebude bránit, abychom
+se zase po chvilce viděli. Proto organizujeme Drupal hospodu v posledním
+týdnu v březnu. Všichni zkušení, méně zkušení, bez zkušeností i ti,
+co si chtějí jen popovídat, jsou vítáni.<br />
+Kdy: čtvrtek 28.3.2013 (18–23h)<br />
+Kde: <strong><a href="http://uaugustina.cz/">restaurace U Augustina (Palackého
+třída 84, Brno)</a></strong><br />
+O čem to bude tentokrát: tématem může být Drupal i věci dějící se
+mimo Drupal samotný (web design, grafika, atd..)<br />
+Akce určena: pro kohokoliv, kdo má o Drupal zájem nebo jej ještě vůbec
+nezná. Úroveň znalostí a zkušeností není důležitá.<br />
+Počet míst: <strong>15</strong> (aktuální počet registrovaných
+<strong>8</strong> )<br />
+</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/drupal-setkani/drupal-hospoda-brno-28brezna-2013#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">2 komentáře</a>
+
+    <span><a class="node_read_more" href="/clanky/drupal-setkani/drupal-hospoda-brno-28brezna-2013">Číst dál</a></span>
+<div id="social-add-7841" class="social-add digglink" onmouseover="showSocials(7841)" onmouseout="hideSocials(7841)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-7841">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/drupal-setkani/drupal-hospoda-brno-28brezna-2013&amp;title=Drupal hospoda Brno - 28.března 2013" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/drupal-setkani/drupal-hospoda-brno-28brezna-2013&amp;title=Drupal hospoda Brno - 28.března 2013" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/drupal-setkani/drupal-hospoda-brno-28brezna-2013" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/drupal-setkani/drupal-hospoda-brno-28brezna-2013&amp;title=Drupal hospoda Brno - 28.března 2013" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-16141">
+          <h2 class="title"><a href="/clanky/setkani/drupal-setkani-brno-30lispotadu-2012">Drupal setkání Brno - 30.listopadu 2012</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 14 Listopad, 2012 - 05:15</span>
+    <div class="pcontent"><p>Poslední týden v listopadu nás čeká 3.část seriálu o Drupalu.
+Všichni zkušení, méně zkušení i bez zkušeností jsou vítáni.<br />
+Kdy: Pátek 30.11.2012 (18–23h)<br />
+Kde: <strong>Restaurace – <a href="http://www.falkcafe.cz">www.falkcafe.cz</a></strong>, dolní salónek<br />
+O čem to bude tentokrát: Třetí část <a href="http://www.drupal.cz/serial-drupal-pro-zacatecniky-tema-brnenskych-setkani">seriálu</a>
+o Drupalu<br />
+Akce určena: pro kohokoliv, kdo má o Drupal zájem nebo jej ještě vůbec
+nezná. Úroveň znalostí a zkušeností není důležitá.<br />
+Počet míst: <strong>20</strong> (aktuální počet registrovaných
+<strong>13</strong> )<br />
+</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/setkani/drupal-setkani-brno-30lispotadu-2012#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">1 komentář</a>
+
+    <span><a class="node_read_more" href="/clanky/setkani/drupal-setkani-brno-30lispotadu-2012">Číst dál</a></span>
+<div id="social-add-933" class="social-add digglink" onmouseover="showSocials(933)" onmouseout="hideSocials(933)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-933">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-30lispotadu-2012&amp;title=Drupal setkání Brno - 30.listopadu 2012" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-30lispotadu-2012&amp;title=Drupal setkání Brno - 30.listopadu 2012" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-30lispotadu-2012" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-30lispotadu-2012&amp;title=Drupal setkání Brno - 30.listopadu 2012" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-15471">
+          <h2 class="title"><a href="/drupal-setkani-brno-25rijen-2012">Drupal setkání Brno - 26.říjen 2012 - pozor změna restaurace</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 9 Říjen, 2012 - 21:06</span>
+    <div class="pcontent"><p>Poslední týden v říjnu v Brně 2.část seriál o Drupalu. Všichni
+zkušení, méně zkušení i bez zkušeností jsou vítáni.<br />
+Kdy: Pátek 26.10.2012 v 18h.<br />
+Kde: <strong>nové místo: Restaurace – <a href="http://www.falkcafe.cz">www.falkcafe.cz</a></strong>, původní restaurace
+zrušila rezervaci<br />
+O čem bude řeč: Druhá část <a href="http://www.drupal.cz/serial-drupal-pro-zacatecniky-tema-brnenskych-setkani">seriálu</a>
+o Drupalu<br />
+Akce určena: pro kohokoliv, kdo má o Drupal zájem nebo jej ještě vůbec
+nezná. Úroveň znalostí a zkušeností není vůbec důležitá.<br />
+Počet míst: <strong>20</strong> (aktuální počet registrovaných
+<strong>15</strong> )<br />
+</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/drupal-setkani-brno-25rijen-2012#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">3 komentáře</a>
+
+    <span><a class="node_read_more" href="/drupal-setkani-brno-25rijen-2012">Číst dál</a></span>
+<div id="social-add-5005" class="social-add digglink" onmouseover="showSocials(5005)" onmouseout="hideSocials(5005)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-5005">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/drupal-setkani-brno-25rijen-2012&amp;title=Drupal setkání Brno - 26.říjen 2012 - pozor změna restaurace" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/drupal-setkani-brno-25rijen-2012&amp;title=Drupal setkání Brno - 26.říjen 2012 - pozor změna restaurace" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/drupal-setkani-brno-25rijen-2012" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/drupal-setkani-brno-25rijen-2012&amp;title=Drupal setkání Brno - 26.říjen 2012 - pozor změna restaurace" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-15171">
+          <h2 class="title"><a href="/blog/frankye/04102012-drupal-translation-sprint-bratislava">04.10.2012 Drupal Translation Sprint - Bratislava</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/frankye" title="Zobrazit profil uživatele.">frankye</a>, 28 Září, 2012 - 09:35</span>
+    <div class="pcontent"><p>Vo štvrtok (04.10.2012) sa bude konať na Štefanovičovej 8 v Bratislave
+(priestory SVEN Creative, s.r.o.) Drupal Translation Sprint – Bratislava. Ak
+máte záujem prísť viac čítajte na <a href="http://drupal.sk/node/1465">Drupal.sk</a>.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/blog/frankye" title="Read frankye&#039;s latest blog entries." class="blog_usernames_blog">frankye&#039;s blog</a>
+
+<a href="/blog/frankye/04102012-drupal-translation-sprint-bratislava#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">1 komentář</a>
+<div id="social-add-4226" class="social-add digglink" onmouseover="showSocials(4226)" onmouseout="hideSocials(4226)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-4226">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/frankye/04102012-drupal-translation-sprint-bratislava&amp;title=04.10.2012 Drupal Translation Sprint - Bratislava" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/blog/frankye/04102012-drupal-translation-sprint-bratislava&amp;title=04.10.2012 Drupal Translation Sprint - Bratislava" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/blog/frankye/04102012-drupal-translation-sprint-bratislava" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/frankye/04102012-drupal-translation-sprint-bratislava&amp;title=04.10.2012 Drupal Translation Sprint - Bratislava" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-14731">
+          <h2 class="title"><a href="/clanky/setkani/drupal-setkani-brno-27zari-2012">Drupal setkání Brno - 27.září 2012</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 5 Září, 2012 - 21:35</span>
+    <div class="pcontent"><p>Poslední týden v září v Brně uvádíme nový seriál o Drupalu.
+Všichni zkušení i méně zkušeni si přijdou na své<br />
+Kdy: Čtvrtek 27.9.2012 v 18h.<br />
+Kde: Restaurace <a href="http://www.valhalla.cz/">http://www.valhalla.cz/</a>,
+salónek v zadní části restaurace – <strong>potvrzeno</strong><br />
+Mapa: <a href="http://www.valhalla.cz/kontakt.htm">http://www.valhalla.cz/kontakt.htm</a><br />
+O čem bude řeč: První část <a href="http://www.drupal.cz/serial-drupal-pro-zacatecniky-tema-brnenskych-setkani">seriálu</a>
+o Drupalu (informace ještě doplníme)<br />
+Akce určena: pro kohokoliv, kdo má o Drupal zájem nebo jej ještě vůbec
+nezná. Úroveň znalostí a zkušeností <strong>neřešte</strong>, není
+vůbec důležitá.<br />
+Počet míst: <strong>25</strong> (aktuální počet registrovaných
+<strong>22</strong> )<br />
+</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/setkani/drupal-setkani-brno-27zari-2012#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">4 komentáře</a>
+
+    <span><a class="node_read_more" href="/clanky/setkani/drupal-setkani-brno-27zari-2012">Číst dál</a></span>
+<div id="social-add-1844" class="social-add digglink" onmouseover="showSocials(1844)" onmouseout="hideSocials(1844)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-1844">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-27zari-2012&amp;title=Drupal setkání Brno - 27.září 2012" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-27zari-2012&amp;title=Drupal setkání Brno - 27.září 2012" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-27zari-2012" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-27zari-2012&amp;title=Drupal setkání Brno - 27.září 2012" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-11486">
+          <h2 class="title"><a href="/clanky/setkani/drupal-setkani-brno-19duben-2012">Drupal setkání Brno - 19. dubna 2012</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 10 Duben, 2012 - 21:51</span>
+    <div class="pcontent"><p><strong>Kdy:</strong> Čtvrtek 19.4.2012, 18:00 – 23:30 hod.<br />
+<strong>Kde:</strong> Restaurace <a href="http://www.valhalla.cz/">Valhalla</a>,
+ul.Kopečná – <strong>potvrzeno</strong><br />
+<strong>Počet míst:</strong> <strong>20</strong> (aktuální počet
+registrovaných <strong>6</strong> )<br />
+Vítán je dokoliv se zájmem o Drupal, úroveň znalostí a zkušeností není
+důležitá.</p>
+
+<p><strong>Program:</strong></p>
+
+<ul>
+	<li><strong><a href="http://www.drupal.cz/user/berkas1">Šimon Berka</a> –
+	Pantheon – místo, kde si mohou lidé Drupal vyzkoušet"</strong></li>
+</ul></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/setkani/drupal-setkani-brno-19duben-2012#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">2 komentáře</a>
+
+    <span><a class="node_read_more" href="/clanky/setkani/drupal-setkani-brno-19duben-2012">Číst dál</a></span>
+<div id="social-add-281" class="social-add digglink" onmouseover="showSocials(281)" onmouseout="hideSocials(281)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-281">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-19duben-2012&amp;title=Drupal setkání Brno - 19. dubna 2012" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-19duben-2012&amp;title=Drupal setkání Brno - 19. dubna 2012" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-19duben-2012" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupal-setkani-brno-19duben-2012&amp;title=Drupal setkání Brno - 19. dubna 2012" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-11407">
+          <h2 class="title"><a href="/clanky/setkani/drupalcz-development-day-v-brne-184-s-andrew-burcinem">Drupal.cz Development Day v Brně 18.4. s Andrew Burcinem</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 6 Duben, 2012 - 06:50</span>
+    <div class="pcontent"><p>18.4. se uskuteční významná událost v Drupal komunitě. Na zpáteční
+cestě ze Slovenska se v Brně zastaví Andrew Burcin. Možná se mu podaří
+zůstat i <a href="http://www.drupal.cz/clanky/setkani/drupal-setkani-brno-19duben-2012">19.4. na
+naše pravidelné Drupal setkání v Brně</a> (<a href="http://www.valhalla.cz/">http://www.valhalla.cz/</a>). Přestože je
+Andrew původem z USA, je dlouhou dobu významnou osobností české Drupal
+komunity, na které se také podílí. V ČR několik let žije a úspěšně
+rozvíjí své obchodní aktivity.<br />
+Z projektů, na kterých se významně Andrew podílel, jsou například: <a href="http://www.iprima.cz/">http://www.iprima.cz/</a>, <a href="http://developer.meego.com/">http://developer.meego.com/</a>, <a href="http://www.americkecentrum.cz/">http://www.americkecentrum.cz/</a><br />
+Kdy: 18.4. 9.30–17:45</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/setkani/drupalcz-development-day-v-brne-184-s-andrew-burcinem#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">4 komentáře</a>
+
+    <span><a class="node_read_more" href="/clanky/setkani/drupalcz-development-day-v-brne-184-s-andrew-burcinem">Číst dál</a></span>
+<div id="social-add-8581" class="social-add digglink" onmouseover="showSocials(8581)" onmouseout="hideSocials(8581)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-8581">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupalcz-development-day-v-brne-184-s-andrew-burcinem&amp;title=Drupal.cz Development Day v Brně 18.4. s Andrew Burcinem" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/setkani/drupalcz-development-day-v-brne-184-s-andrew-burcinem&amp;title=Drupal.cz Development Day v Brně 18.4. s Andrew Burcinem" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/setkani/drupalcz-development-day-v-brne-184-s-andrew-burcinem" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/drupalcz-development-day-v-brne-184-s-andrew-burcinem&amp;title=Drupal.cz Development Day v Brně 18.4. s Andrew Burcinem" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-11356">
+          <h2 class="title"><a href="/clanky/setkani/setkani-drupalcon-munchen-20-24srpen-2012">DrupalCon Mnichov, 20-24. srpen 2012</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 3 Duben, 2012 - 09:32</span>
+    <div class="pcontent"><p>Minulý rok 2011 hostil DrupalCon jižní Londýn. Tento rok si v březnu
+dali drupalisté sraz v americkém Denveru. 20–24.srpna bude velký <a href="https://munich2012.drupal.org">DrupalCon v Mnichově</a>. Již tradičně
+na DrupalCon přijede zakladatel Dries Buytaert a představí nové vize vývoje
+Drupalu. Určitě nás čeká hodně informací o stávající verzi Drupal
+7 i o verzi Drupal 8, na které vývojáři intenzivně pracují.<br />
+Prvních 300 registrací na DrupalCon je za zvýhodněnou cenu. Čím více se
+DrupalCon blíží, cena registrace se zvyšuje, proto neváhejte, vždyť
+Mnichov je za rohem :-). Pokud chcete být v centru dění, máte velkou
+příležitost se zúčastnit akce, kde se „vaří“ Drupal.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/setkani/setkani-drupalcon-munchen-20-24srpen-2012#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">2 komentáře</a>
+
+    <span><a class="node_read_more" href="/clanky/setkani/setkani-drupalcon-munchen-20-24srpen-2012">Číst dál</a></span>
+<div id="social-add-5778" class="social-add digglink" onmouseover="showSocials(5778)" onmouseout="hideSocials(5778)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-5778">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/setkani-drupalcon-munchen-20-24srpen-2012&amp;title=DrupalCon Mnichov, 20-24. srpen 2012" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/setkani/setkani-drupalcon-munchen-20-24srpen-2012&amp;title=DrupalCon Mnichov, 20-24. srpen 2012" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/setkani/setkani-drupalcon-munchen-20-24srpen-2012" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/setkani/setkani-drupalcon-munchen-20-24srpen-2012&amp;title=DrupalCon Mnichov, 20-24. srpen 2012" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/clanky/setkani?page=1" title="Přejít na stranu 2" class="active">2</a></li>
+<li class="pager-item"><a href="/clanky/setkani?page=2" title="Přejít na stranu 3" class="active">3</a></li>
+<li class="pager-next"><a href="/clanky/setkani?page=1" title="Přejít na další stranu" class="active">následující ›</a></li>
+<li class="pager-last last"><a href="/clanky/setkani?page=2" title="Přejít na poslední stranu" class="active">poslední »</a></li>
+</ul></div>          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/clanky/setkani?destination=taxonomy%2Fterm%2F652"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-d9da6aaa5b3a4237050e06363b134fe8" value="form-d9da6aaa5b3a4237050e06363b134fe8"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex" class="tagadelic level1">forex</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views" title="2 komentáře">Jak vyhledávat v poli soubor (multiupload) - VIEWS</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 5 hod 4 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 1 den 19 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 2 dny 18 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 3 dny 22 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 3 dny 23 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 5 dnů 17 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 5 dnů 21 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 14 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTkNVS1dXDFRPbUUAQwxoRFJfXA==","queueTime":0,"applicationTime":629,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

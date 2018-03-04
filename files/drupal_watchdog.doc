@@ -1,0 +1,6147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1250">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.2  (Win32)">
+	<META NAME="CREATED" CONTENT="20081008;21483495">
+	<META NAME="CHANGED" CONTENT="20081008;21513417">
+</HEAD>
+<BODY LANG="cs-CZ" DIR="LTR">
+<H1>Datab&aacute;ze sgc-pisek_eu_drupal</H1>
+<H2>Struktura tabulky drupal_watchdog</H2>
+<TABLE CELLPADDING=2 CELLSPACING=1>
+	<TR>
+		<TH>
+			<P>Sloupec</P>
+		</TH>
+		<TD>
+			<P><B>Typ</B></P>
+		</TD>
+		<TD>
+			<P><B>Nulov&yacute;</B></P>
+		</TD>
+		<TD>
+			<P><B>V&yacute;choz&iacute;</B></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P><I><B>wid</B></I></P>
+		</TD>
+		<TD>
+			<P>int(11)</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD>
+			<P>NULL</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>uid</P>
+		</TD>
+		<TD>
+			<P>int(11)</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD>
+			<P>0</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>type</P>
+		</TD>
+		<TD>
+			<P>varchar(16)</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>message</P>
+		</TD>
+		<TD>
+			<P>longtext</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>variables</P>
+		</TD>
+		<TD>
+			<P>longtext</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>severity</P>
+		</TD>
+		<TD>
+			<P>tinyint(3) 
+			</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD>
+			<P>0</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>link</P>
+		</TD>
+		<TD>
+			<P>varchar(255)</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>location</P>
+		</TD>
+		<TD>
+			<P>text</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>referer</P>
+		</TD>
+		<TD>
+			<P>varchar(128)</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>hostname</P>
+		</TD>
+		<TD>
+			<P>varchar(128)</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>timestamp</P>
+		</TD>
+		<TD>
+			<P>int(11)</P>
+		</TD>
+		<TD>
+			<P>Ano</P>
+		</TD>
+		<TD>
+			<P>0</P>
+		</TD>
+	</TR>
+</TABLE>
+<H2>Vypisuji data pro tabulku drupal_watchdog</H2>
+<P><BR><BR>
+</P>
+<P>(nen&iacute; cel&eacute;, zač&aacute;tek jsem smazal)</P>
+<TABLE WIDTH=1242 BORDER=0 CELLPADDING=2 CELLSPACING=0>
+	<COL WIDTH=43>
+	<COL WIDTH=10>
+	<COL WIDTH=48>
+	<COL WIDTH=109>
+	<COL WIDTH=224>
+	<COL WIDTH=10>
+	<COL WIDTH=96>
+	<COL WIDTH=134>
+	<COL WIDTH=329>
+	<COL WIDTH=110>
+	<COL WIDTH=84>
+	<TR>
+		<TD WIDTH=43>
+			<P>22203</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>123.12.252.85</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223199240</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22202</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>123.12.252.85</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223199240</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22216</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223203003</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22217</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223203003</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22218</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223203003</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22219</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:6:&quot;1
+			sek.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223203004</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22065</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223133435</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21942</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223063302</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21938</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223063302</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21939</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223063302</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21940</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223063302</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21941</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223063302</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22911</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/modularni-nosny-system-2000-acr</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=nosny+system+acr&amp;mod=f&amp;sId=y9j_7N_yo-8W</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.34.160</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223486880</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22912</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/modularni-nosny-system-2000-acr</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=nosny+system+acr&amp;mod=f&amp;sId=y9j_7N_yo-8W</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.34.160</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223486880</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22913</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/modularni-nosny-system-2000-acr</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=nosny+system+acr&amp;mod=f&amp;sId=y9j_7N_yo-8W</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.34.160</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223486880</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21988</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/anketa-jaky-je-podle-vas-nejlepsi-vyrobce</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223099370</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22026</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-maskovani</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=maskov%C3%A1n%C3%AD+obli%C4%8Deje&amp;sug=1&amp;mod=f&amp;sId=eltnL1w3orIa</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.195.214.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223113263</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22027</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-maskovani</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=maskov%C3%A1n%C3%AD+obli%C4%8Deje&amp;sug=1&amp;mod=f&amp;sId=eltnL1w3orIa</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.195.214.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223113263</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22028</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.194.213.211</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223117644</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22245</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta&amp;pId=w-mN0BDgo7gq&amp;count=10&amp;from=11</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.70.135.164</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223216933</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22243</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta&amp;pId=w-mN0BDgo7gq&amp;count=10&amp;from=11</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.70.135.164</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223216933</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22244</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta&amp;pId=w-mN0BDgo7gq&amp;count=10&amp;from=11</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.70.135.164</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223216933</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22224</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/pravidla-pro-psani-prispevku-do-blogu</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=pravidla+blogu&amp;pId=5DYre54Bo-31&amp;count=10&amp;from=11</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>88.102.223.14</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223207015</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22046</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/airsoft</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223123822</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22043</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/airsoft</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223123822</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22044</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/airsoft</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223123822</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22045</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/airsoft</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223123822</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22054</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223127821</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22145</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/logo-sgc-barevne</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>208.36.144.7</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223177023</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22146</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:6:&quot;1
+			sek.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/logo-sgc-barevne</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>208.36.144.7</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223177024</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22147</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/logo-sgc-barevne</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>208.36.144.7</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223177024</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21950</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/ostrostrelec</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223068713</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21949</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/ostrostrelec</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223068713</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21948</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/ostrostrelec</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223068713</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21944</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223063302</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21945</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223063302</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21946</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223063302</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21947</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/ostrostrelec</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223068713</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22110</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/pred-akci?size=preview</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>208.36.144.7</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223157502</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22109</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/recenze?page=1</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223153770</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22108</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/recenze?page=1</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223153770</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22104</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/recenze?page=1</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223153770</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22105</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/recenze?page=1</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223153770</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22106</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/recenze?page=1</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223153770</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22107</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/recenze?page=1</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223153770</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22030</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.194.213.211</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223117644</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22029</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.194.213.211</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223117644</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22024</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-maskovani</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=maskov%C3%A1n%C3%AD+obli%C4%8Deje&amp;sug=1&amp;mod=f&amp;sId=eltnL1w3orIa</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.195.214.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223113262</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21975</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/node/26</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223079710</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21976</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/node/26</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223079710</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21977</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user/password</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.18.219</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223086896</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22163</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-prepad-v-terenu</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktika+boje&amp;sug=1&amp;mod=f&amp;sId=qEHYH99Bo-7y</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>82.4.194.240</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223184364</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22162</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-prepad-v-terenu</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktika+boje&amp;sug=1&amp;mod=f&amp;sId=qEHYH99Bo-7y</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>82.4.194.240</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223184364</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22141</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/logo-sgc-barevne</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>208.36.144.7</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223177023</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22178</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+95&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.0.18</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223191588</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22055</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223127821</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22056</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223127821</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22080</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/navody</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223145018</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22064</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223133435</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22014</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://www.sgc-pisek.eu/kontakt</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223107738</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21983</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user/password</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.18.219</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223086896</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21982</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user/password</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.18.219</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223086896</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21981</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user/password</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.18.219</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223086896</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22083</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/navody</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223145018</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22082</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/navody</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.187</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223145018</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22013</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://www.sgc-pisek.eu/kontakt</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223107738</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22032</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.194.213.211</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223117644</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22031</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.194.213.211</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223117644</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22023</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-maskovani</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=maskov%C3%A1n%C3%AD+obli%C4%8Deje&amp;sug=1&amp;mod=f&amp;sId=eltnL1w3orIa</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.195.214.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223113262</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22022</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-maskovani</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=maskov%C3%A1n%C3%AD+obli%C4%8Deje&amp;sug=1&amp;mod=f&amp;sId=eltnL1w3orIa</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.195.214.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223113262</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22021</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-maskovani</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=maskov%C3%A1n%C3%AD+obli%C4%8Deje&amp;sug=1&amp;mod=f&amp;sId=eltnL1w3orIa</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.195.214.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223113262</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22093</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/nasivka</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://www.google.cz/search?hl=cs&amp;lr=&amp;sa=X&amp;oi=spell&amp;resnum=0&amp;ct=result&amp;cd=1&amp;q=stargate+n%C3%A1%C5%A1ivka&amp;spell=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>79.98.156.75</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223149959</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22092</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/nasivka</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://www.google.cz/search?hl=cs&amp;lr=&amp;sa=X&amp;oi=spell&amp;resnum=0&amp;ct=result&amp;cd=1&amp;q=stargate+n%C3%A1%C5%A1ivka&amp;spell=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>79.98.156.75</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223149959</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22070</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/node/25</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=snajpr+airsoftguns&amp;mod=f</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.211.43.2</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223139375</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22051</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223127821</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22052</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223127821</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22053</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223127821</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22075</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/node/25</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=snajpr+airsoftguns&amp;mod=f</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.211.43.2</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223139375</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22076</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/node/25</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=snajpr+airsoftguns&amp;mod=f</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.211.43.2</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223139375</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22420</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://forum.sgc-pisek.eu/ucp.php?i=pm&amp;mode=view&amp;p=2</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223315897</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22451</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/blogy</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.172</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223323733</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22450</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/blogy</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.172</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223323733</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22007</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223103306</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22008</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://www.sgc-pisek.eu/kontakt</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223107738</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22020</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-maskovani</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=maskov%C3%A1n%C3%AD+obli%C4%8Deje&amp;sug=1&amp;mod=f&amp;sId=eltnL1w3orIa</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.195.214.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223113262</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22071</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/node/25</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=snajpr+airsoftguns&amp;mod=f</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.211.43.2</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223139375</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22002</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223103306</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22001</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223103306</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22000</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223103306</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>21999</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223103306</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22171</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+95&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.0.18</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223191587</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22161</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-prepad-v-terenu</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktika+boje&amp;sug=1&amp;mod=f&amp;sId=qEHYH99Bo-7y</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>82.4.194.240</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223184364</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22177</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:6:&quot;1
+			sek.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+95&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.0.18</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223191588</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22176</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+95&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.0.18</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223191587</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22175</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+95&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.0.18</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223191587</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22174</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+95&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.0.18</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223191587</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22173</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+95&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.0.18</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223191587</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22172</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+95&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>77.48.0.18</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223191587</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22049</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;dblog_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223127821</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22260</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/modularni-nosny-system-2000-acr</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://images.google.cz/imgres?imgurl=http://www.bvv.cz/i2000/Akce/b-idet.nsf/0/02F0D0DEC9CAEC6F412572CF0051D639/%24File/MNS-200</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>88.81.69.123</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223221469</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22263</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;filter_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223226084</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22278</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>195.70.145.37</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223229834</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22279</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>195.70.145.37</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223229834</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22285</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=takticke+vesty&amp;pId=Bnb6Jdbmo-oN&amp;count=10&amp;from=21</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.132.163.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223237075</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22287</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=takticke+vesty&amp;pId=Bnb6Jdbmo-oN&amp;count=10&amp;from=21</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.132.163.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223237075</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22286</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=takticke+vesty&amp;pId=Bnb6Jdbmo-oN&amp;count=10&amp;from=21</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.132.163.153</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223237075</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22305</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/?page=2</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.17.158</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223260006</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22306</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/?page=2</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.17.158</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223260006</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22307</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/?page=2</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.17.158</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223260006</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22308</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/?page=2</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.17.158</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223260006</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22309</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/?page=2</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.17.158</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223260006</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22310</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/?page=2</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.17.158</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223260006</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22311</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/?page=2</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.17.158</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223260006</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22312</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/nas-arsenal-1?size=thumbnail</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223266858</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22393</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/kontakt</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223302134</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22390</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/kontakt</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223302133</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22391</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:6:&quot;1
+			sek.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;search_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/kontakt</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223302134</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22392</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/kontakt</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223302134</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22123</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+a%C4%8Dr+vz.+95+mark+ii&amp;sug=1&amp;mod=f&amp;sId=MrYuug4Wo7Qf</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.132.201.103</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223161768</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22124</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+a%C4%8Dr+vz.+95+mark+ii&amp;sug=1&amp;mod=f&amp;sId=MrYuug4Wo7Qf</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.132.201.103</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223161768</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22125</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+a%C4%8Dr+vz.+95+mark+ii&amp;sug=1&amp;mod=f&amp;sId=MrYuug4Wo7Qf</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.132.201.103</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223161768</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22041</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:10:&quot;image_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/airsoft</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223123822</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22042</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/airsoft</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223123822</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22035</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;statistics_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.194.213.211</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223117644</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22036</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:11:&quot;system_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.194.213.211</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223117644</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22037</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.194.213.211</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223117644</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22038</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/airsoft</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>74.6.22.124</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223123822</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22058</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223133435</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22205</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;node_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>123.12.252.85</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223199240</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22206</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:9:&quot;poll_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>123.12.252.85</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223199240</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22739</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>195.113.101.210</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223457980</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22740</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>195.113.101.210</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223457980</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22750</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>sites/default/files/images/SGC logo velke barevne.jpg</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/sites/default/files/images/SGC%20logo%20velke%20barevne.jpg</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://anetkatoja.blog.cz/0807</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>81.91.216.60</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223458523</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22751</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://www.drupal.cz/forum/po-instalaci/php-chyby/totalni-vypadek-webu</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>78.102.11.19</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223461766</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22752</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://www.drupal.cz/forum/po-instalaci/php-chyby/totalni-vypadek-webu</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>78.102.11.19</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223461766</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22761</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Cron run completed (via poormanscron).</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:0:{}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://www.drupal.cz/forum/po-instalaci/php-chyby/totalni-vypadek-webu</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>78.102.11.19</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223461766</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22762</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node/86</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/takticka-vesta-acr-vz-95-mark-ii</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktick%C3%A1+vesta+a%C4%8Dr+vz.+95+mark+ii&amp;mod=f&amp;sug=1</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>89.102.165.70</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223462233</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22763</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>rss.xml</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/rss.xml</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>198.247.172.12</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223463373</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22764</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223463378</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22765</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223463702</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22766</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>image</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/image</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223464313</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22767</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223464701</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22768</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223464903</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22769</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223465141</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22770</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node/18</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/recenze-ak-47</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=airsoft+ak+47+info&amp;pId=gZ-t2aW3o7-k&amp;count=10&amp;from=21</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>85.193.2.10</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223465223</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22771</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node/67</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/spravne-drzeni-zbrane-pistole</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223465384</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22772</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/spravne-drzeni-zbrane-pistole</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223465384</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22799</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>favicon.ico</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/favicon.ico</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>87.197.104.189</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223468751</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22800</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>user/register</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/user/register</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://sgc-pisek.eu/user/login</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>87.197.104.189</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223468872</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22801</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223470439</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22802</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223470439</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22855</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:153:&quot;include_once(./themes/engines/phptemplate/phptemplate.engine)
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			failed to open stream:
+			Success&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479190</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22856</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:194:&quot;include_once()
+			[&lt;a href='function.include'&gt;function.include&lt;/a&gt;]:
+			Failed opening './themes/engines/phptemplate/phptemplate.engine'
+			for inclusion
+			(include_path='.:/usr/share/php:/usr/share/pear')&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479190</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22857</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479192</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22858</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:140:&quot;include_once()
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			Unable to access
+			./themes/engines/phptemplate/phptemplate.engine&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479192</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22859</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:153:&quot;include_once(./themes/engines/phptemplate/phptemplate.engine)
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			failed to open stream:
+			Success&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479192</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22860</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:194:&quot;include_once()
+			[&lt;a href='function.include'&gt;function.include&lt;/a&gt;]:
+			Failed opening './themes/engines/phptemplate/phptemplate.engine'
+			for inclusion
+			(include_path='.:/usr/share/php:/usr/share/pear')&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479192</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22861</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479193</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22862</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:140:&quot;include_once()
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			Unable to access
+			./themes/engines/phptemplate/phptemplate.engine&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479193</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22863</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:153:&quot;include_once(./themes/engines/phptemplate/phptemplate.engine)
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			failed to open stream:
+			Success&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479193</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22864</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:194:&quot;include_once()
+			[&lt;a href='function.include'&gt;function.include&lt;/a&gt;]:
+			Failed opening './themes/engines/phptemplate/phptemplate.engine'
+			for inclusion
+			(include_path='.:/usr/share/php:/usr/share/pear')&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479193</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22865</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479220</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22866</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:140:&quot;include_once()
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			Unable to access
+			./themes/engines/phptemplate/phptemplate.engine&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479220</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22867</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:153:&quot;include_once(./themes/engines/phptemplate/phptemplate.engine)
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			failed to open stream:
+			Success&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479220</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22868</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:194:&quot;include_once()
+			[&lt;a href='function.include'&gt;function.include&lt;/a&gt;]:
+			Failed opening './themes/engines/phptemplate/phptemplate.engine'
+			for inclusion
+			(include_path='.:/usr/share/php:/usr/share/pear')&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479220</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22869</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479225</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22870</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:140:&quot;include_once()
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			Unable to access
+			./themes/engines/phptemplate/phptemplate.engine&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479225</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22871</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:153:&quot;include_once(./themes/engines/phptemplate/phptemplate.engine)
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			failed to open stream:
+			Success&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479225</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22872</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:194:&quot;include_once()
+			[&lt;a href='function.include'&gt;function.include&lt;/a&gt;]:
+			Failed opening './themes/engines/phptemplate/phptemplate.engine'
+			for inclusion
+			(include_path='.:/usr/share/php:/usr/share/pear')&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479225</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22873</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479269</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22874</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:140:&quot;include_once()
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			Unable to access
+			./themes/engines/phptemplate/phptemplate.engine&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479269</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22875</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:153:&quot;include_once(./themes/engines/phptemplate/phptemplate.engine)
+			[&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]:
+			failed to open stream:
+			Success&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479269</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22876</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>php</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>%message in %file on line %line.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:4:{s:6:&quot;%error&quot;;s:7:&quot;warning&quot;;s:8:&quot;%message&quot;;s:194:&quot;include_once()
+			[&lt;a href='function.include'&gt;function.include&lt;/a&gt;]:
+			Failed opening './themes/engines/phptemplate/phptemplate.engine'
+			for inclusion
+			(include_path='.:/usr/share/php:/usr/share/pear')&quot;;s:5:&quot;%file&quot;;s:58:&quot;/var/www/web5/sgc-pisek.eu/sgc-pisek.eu/includes/theme.inc&quot;;s:5:&quot;%line&quot;;i:156;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>3</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479269</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22877</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479518</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22878</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node/18</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/recenze-ak-47</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=AK%2047%20Mechabox%20n%C3%A1vod&amp;spell=1&amp;sId=jVR0EXPio-Hq</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>83.208.158.71</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479585</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22879</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>taxonomy/term/2</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/category/kategorie-clanku/akce-sgc</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.icq.com/search/afe_results.php?q=sgc-pisek.eu/&amp;tb_id=%toolbar_id&amp;tb_ver=2.3&amp;lng=1611&amp;ch_id=afe</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>84.42.180.81</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223479862</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22880</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>taxonomy/term/27/0/feed</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taxonomy/term/27/0/feed</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>66.249.72.114</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223481219</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22881</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node/83</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/neverbalni-komunikace-rucni-signaly</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=Neverb%C3%A1ln%C3%AD+komunikace&amp;pId=HBiL7IT1o-hN&amp;count=10&amp;from=31</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>213.195.202.130</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223482050</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22882</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>1</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>217.66.166.58</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223482210</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22883</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node/70</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://sgc-pisek.eu/taktika-boje-prepad-v-terenu</P>
+		</TD>
+		<TD WIDTH=329>
+			<P>http://search.seznam.cz/?q=taktiky+boje&amp;mod=f&amp;sId=AB_fjb4ro-tV</P>
+		</TD>
+		<TD WIDTH=110>
+			<P>78.157.165.66</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223482598</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22884</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>page not found</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>node</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>N;</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>4</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>90.183.39.17</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223482908</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=43>
+			<P>22885</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>0</P>
+		</TD>
+		<TD WIDTH=48>
+			<P>cron</P>
+		</TD>
+		<TD WIDTH=109>
+			<P>Executed %hook via poormanscron, took %time.</P>
+		</TD>
+		<TD WIDTH=224>
+			<P>a:2:{s:5:&quot;%time&quot;;s:9:&quot;0
+			sekund.&quot;;s:5:&quot;%hook&quot;;s:15:&quot;aggregator_cron&quot;;}</P>
+		</TD>
+		<TD WIDTH=10>
+			<P>5</P>
+		</TD>
+		<TD WIDTH=96></TD>
+		<TD WIDTH=134>
+			<P>http://www.sgc-pisek.eu/</P>
+		</TD>
+		<TD WIDTH=329></TD>
+		<TD WIDTH=110>
+			<P>90.183.39.17</P>
+		</TD>
+		<TD WIDTH=84>
+			<P>1223482908</P>
+		</TD>
+	</TR>
+</TABLE>
+<P><BR><BR>
+</P>
+</BODY>
+</HTML>

@@ -1,0 +1,1376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;The GD library for PHP is missing or outdated.&quot;" href="/crss/node/699" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>The GD library for PHP is missing or outdated. | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_02a36298fc18f7cc1cadbc14f0dcd6ff.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a> » <a href="/forum">Témata fóra</a> » <a href="/forum/instalace">Instalace</a> » <a href="/forum/instalace-drupalu">Instalace Drupalu</a></div>        <h2 class="title">The GD library for PHP is missing or outdated.</h2>
+        <div class="tabs"></div>
+                  <div class="article  article-699">
+    <span class="submitted">Vložil/a Anonymous, 9 Únor, 2007 - 11:01</span>
+  <div class="pcontent">
+    <div class="forum-kat">
+      <b>Kategorie:</b>
+      Instalace Drupalu    </div>
+    <div class="forum-ver">
+      <b>Týká se verze:</b>
+          </div>
+    <p>Prosim o pomoc zacatecnikovi. Nainstaloval jsem si nove drupal a
+v administracni sekci mi to hlasi chybu (viz subject). Vypis z administracni
+sekce nasleduje. Zkousim to na WinXP SP2. Na internetu jsem nasel, jak mam
+upravit php.ini a coz jsem snad i udelal (taky prikladam), ale hlaska tam
+strasi porad dal. Pritom GD modul asi je natazeny protoze php -m mi ho vypise na
+obrazovku. Nevite v cem je problem?</p>
+
+<p>Predem dik za pomoc. Kamil</p>
+
+<p>Configuration file Protected Cron maintenance tasks Last run 54 min 35 sec
+ago You can run cron manually. Database schema Up to date File system Writable
+(public download method) GD library Not installed The GD library for PHP is
+missing or outdated. Please check the PHP image documentation for information on
+how to correct this. MySQL database 5.0.27 PHP 5.2.0 Unicode library PHP
+Mbstring Extension Web server Apache/2.0.59 (Win32) PHP/5.2.0</p>
+
+<p>Vypis souboru php.ini</p>
+
+<p>[PHP]</p>
+
+<p>;;;;;;;;;;; ; WARNING ; ;;;;;;;;;;; ; This is the default settings file for
+new PHP installations. ; By default, PHP installs itself with a configuration
+suitable for ; development purposes, and <em>NOT</em> for production purposes. ;
+For several security-oriented considerations that should be taken ; before going
+online with your site, please consult php.ini-recommended ; and <a href="https://php.net/manual/en/security.php">http://php.net/…security.php</a>.</p>
+
+<p>;;;;;;;;;;;;;;;;;;; ; About this file ; ;;;;;;;;;;;;;;;;;;; ; This file
+controls many aspects of PHP's behavior. In order for PHP to ; read it, it must
+be named ‚php.ini‘. PHP looks for it in the current ; working directory, in
+the path designated by the environment variable ; PHPRC, and in the path that
+was defined in compile time (in that order). ; Under Windows, the compile-time
+path is the Windows directory. The ; path in which the php.ini file is looked
+for can be overridden using ; the -c argument in command line mode. ; ; The
+syntax of the file is extremely simple. Whitespace and Lines ; beginning with a
+semicolon are silently ignored (as you probably guessed). ; Section headers
+(e.g. [Foo]) are also silently ignored, even though ; they might mean something
+in the future. ; ; Directives are specified using the following syntax: ;
+directive = value ; Directive names are <em>case sensitive</em> – foo=bar is
+different from FOO=bar. ; ; The value can be a string, a number, a PHP constant
+(e.g. E_ALL or M_PI), one ; of the INI constants (On, Off, True, False, Yes, No
+and None) or an expression ; (e.g. E_ALL &amp; ~E_NOTICE), or a quoted string
+(„foo“). ; ; Expressions in the INI file are limited to bitwise operators
+and parentheses: ; | bitwise OR ; &amp; bitwise AND ; ~ bitwise NOT ; ! boolean
+NOT ; ; Boolean flags can be turned on using the values 1, On, True or Yes. ;
+They can be turned off using the values 0, Off, False or No. ; ; An empty string
+can be denoted by simply not writing anything after the equal ; sign, or by
+using the None keyword: ; ; foo = ; sets foo to an empty string ; foo = none ;
+sets foo to an empty string ; foo = „none“ ; sets foo to the string
+‚none‘ ; ; If you use constants in your value, and these constants belong to
+a ; dynamically loaded extension (either a PHP extension or a Zend extension), ;
+you may only use these constants <em>after</em> the line that loads the
+extension. ; ; All the values in the php.ini-dist file correspond to the builtin
+; defaults (that is, if no php.ini is used, or if you delete these lines, ; the
+builtin defaults will be identical).</p>
+
+<p>;;;;;;;;;;;;;­;;;;;;; ; Language Options ; ;;;;;;;;;;;;;­;;;;;;;</p>
+
+<p>; Enable the PHP scripting language engine under Apache. engine = On</p>
+
+<p>; Enable compatibility mode with Zend Engine 1 (PHP 4.x)
+zend.ze1_compa­tibility_mode = Off</p>
+
+<p>; Allow the &lt;? tag. Otherwise, only &lt;?php and
+ tags are recognized. ; NOTE: Using short tags should be avoided when developing applications or ; libraries that are meant for redistribution, or deployment on PHP ; servers which are not under your control, because short tags may not ; be supported on the target server. For portable, redistributable code, ; be sure not to use short tags. short_open_tag = Off</p>
+
+<p>; Allow ASP-style &lt;% %&gt; tags. asp_tags = Off</p>
+
+<p>; The number of significant digits displayed in floating point numbers.
+precision = 12</p>
+
+<p>; Enforce year 2000 compliance (will cause problems with non-compliant
+browsers) y2k_compliance = On</p>
+
+<p>; Output buffering allows you to send header lines (including cookies) even ;
+after you send body content, at the price of slowing PHP's output layer a ;
+bit. You can enable output buffering during runtime by calling the output ;
+buffering functions. You can also enable output buffering for all files by ;
+setting this directive to On. If you wish to limit the size of the buffer ; to a
+certain size – you can use a maximum number of bytes instead of ‚On‘, as
+; a value for this directive (e.g., output_bufferin­g=4096). output_buffering
+= Off</p>
+
+<p>; You can redirect all of the output of your scripts to a function. For ;
+example, if you set output_handler to „mb_output_han­dler“, character ;
+encoding will be transparently converted to the specified encoding. ; Setting
+any output handler automatically turns on output buffering. ; Note: People who
+wrote portable scripts should not depend on this ini ; directive. Instead,
+explicitly set the output handler using ob_start(). ; Using this ini directive
+may cause problems unless you know what script ; is doing. ; Note: You cannot
+use both „mb_output_handler“ with „ob_iconv_handler“ ; and you cannot
+use both „ob_gzhandler“ and „zlib.output_com­pression“.
+;output_handler =</p>
+
+<p>; Transparent output compression using the zlib library ; Valid values for
+this option are ‚off‘, ‚on‘, or a specific buffer size ; to be used for
+compression (default is 4KB) ; Note: Resulting chunk size may vary due to nature
+of compression. PHP ; outputs chunks that are few hundreds bytes each as a
+result of ; compression. If you prefer a larger chunk size for better ;
+performance, enable output_buffering in addition. ; Note: You need to use
+zlib.output_handler instead of the standard ; output_handler, or otherwise the
+output will be corrupted. zlib.output_com­pression = Off</p>
+
+<p>; You cannot specify additional output handlers if zlib.output_com­pression
+; is activated here. This setting does the same as output_handler but in ; a
+different order. ;zlib.output_han­dler =</p>
+
+<p>; Implicit flush tells PHP to tell the output layer to flush itself ;
+automatically after every output block. This is equivalent to calling the ; PHP
+function flush() after each and every call to print() or echo() and each ; and
+every HTML block. Turning this option on has serious performance ; implications
+and is generally recommended for debugging purposes only. implicit_flush
+= Off</p>
+
+<p>; The unserialize callback function will called (with the undefind class' ;
+name as parameter), if the unserializer finds an undefined class ; which should
+be instanciated. ; A warning appears if the specified function is not defined,
+or if the ; function doesn't include/implement the missing class. ; So only set
+this entry, if you really want to implement such a ; callback-function.
+unserialize_ca­llback_func=</p>
+
+<p>; When floats &amp; doubles are serialized store serialize_precision
+significant ; digits after the floating point. The default value ensures that
+when floats ; are decoded with unserialize, the data will remain the same.
+serialize_precision = 100</p>
+
+<p>; Whether to enable the ability to force arguments to be passed by reference
+; at function call time. This method is deprecated and is likely to be ;
+unsupported in future versions of PHP/Zend. The encouraged method of ;
+specifying which arguments should be passed by reference is in the function ;
+declaration. You're encouraged to try and turn this option Off and make ; sure
+your scripts work properly with it in order to ensure they will work ; with
+future versions of the language (you will receive a warning each time ; you use
+this feature, and the argument will be passed by value instead of by ;
+reference). allow_call_ti­me_pass_referen­ce = On</p>
+
+<p>; Safe Mode ; safe_mode = Off</p>
+
+<p>; By default, Safe Mode does a UID compare check when ; opening files. If you
+want to relax this to a GID compare, ; then turn on safe_mode_gid. safe_mode_gid
+= Off</p>
+
+<p>; When safe_mode is on, UID/GID checks are bypassed when ; including files
+from this directory and its subdirectories. ; (directory must also be in
+include_path or full path must ; be used when including)
+safe_mode_inclu­de_dir =</p>
+
+<p>; When safe_mode is on, only executables located in the safe_mode_exec_dir ;
+will be allowed to be executed via the exec family of functions.
+safe_mode_exec_dir =</p>
+
+<p>; Setting certain environment variables may be a potential security breach. ;
+This directive contains a comma-delimited list of prefixes. In Safe Mode, ; the
+user may only alter environment variables whose names begin with the ; prefixes
+supplied here. By default, users will only be able to set ; environment
+variables that begin with PHP_ (e.g. PHP_FOO=BAR). ; ; Note: If this directive
+is empty, PHP will let the user modify ANY ; environment variable!
+safe_mode_allo­wed_env_vars = PHP_</p>
+
+<p>; This directive contains a comma-delimited list of environment variables
+that ; the end user won't be able to change using putenv(). These variables will
+be ; protected even if safe_mode_allo­wed_env_vars is set to allow to change
+them. safe_mode_pro­tected_env_vars = LD_LIBRARY_PATH</p>
+
+<p>; open_basedir, if set, limits all file operations to the defined directory ;
+and below. This directive makes most sense if used in a per-directory ; or
+per-virtualhost web server configuration file. This directive is ; <em>NOT</em>
+affected by whether Safe Mode is turned On or Off. ;open_basedir =</p>
+
+<p>; This directive allows you to disable certain functions for security
+reasons. ; It receives a comma-delimited list of function names. This directive
+is ; <em>NOT</em> affected by whether Safe Mode is turned On or Off.
+disable_functions =</p>
+
+<p>; This directive allows you to disable certain classes for security reasons.
+; It receives a comma-delimited list of class names. This directive is ;
+<em>NOT</em> affected by whether Safe Mode is turned On or Off.
+disable_classes =</p>
+
+<p>; Colors for Syntax Highlighting mode. Anything that's acceptable in ; would work. ;highlight.string = #DD0000 ;highlight.comment =
+#FF9900 ;highlight.keyword = #007700 ;highlight.bg = #FFFFFF ;highlight.default
+= #0000BB ;highlight.html = #000000</p>
+
+<p>; ; Misc ; ; Decides whether PHP may expose the fact that it is installed on
+the server ; (e.g. by adding its signature to the Web server header). It is no
+security ; threat in any way, but it makes it possible to determine whether you
+use PHP ; on your server or not. expose_php = On</p>
+
+<p>;;;;;;;;;;;;;;;;;;; ; Resource Limits ; ;;;;;;;;;;;;;;;;;;;</p>
+
+<p>max_execution_time = 30 ; Maximum execution time of each script, in seconds
+max_input_time = 60 ; Maximum amount of time each script may spend parsing
+request data memory_limit = 8M ; Maximum amount of memory a script may
+consume (8MB)</p>
+
+<p>;;;;;;;;;;;;;­;;;;;;;;;;;;;;;;; ; Error handling and logging ;
+;;;;;;;;;;;;;­;;;;;;;;;;;;;;;;;</p>
+
+<p>; error_reporting is a bit-field. Or each number up to get desired error ;
+reporting level ; E_ALL  – All errors and warnings ; E_ERROR  – fatal
+run-time errors ; E_WARNING  – run-time warnings (non-fatal errors) ; E_PARSE
+ – compile-time parse errors ; E_NOTICE  – run-time notices (these are
+warnings which often result ; from a bug in your code, but it's possible that
+it was ; intentional (e.g., using an uninitialized variable and ; relying on the
+fact it's automatically initialized to an ; empty string) ; E_STRICT  –
+run-time notices, enable to have PHP suggest changes ; to your code which will
+ensure the best interoperability ; and forward compatability of your code ;
+E_CORE_ERROR  – fatal errors that occur during PHP's initial startup ;
+E_CORE_WARNING  – warnings (non-fatal errors) that occur during PHP's ;
+initial startup ; E_COMPILE_ERROR  – fatal compile-time errors ;
+E_COMPILE_WARNING – compile-time warnings (non-fatal errors) ; E_USER_ERROR
+ – user-generated error message ; E_USER_WARNING  – user-generated warning
+message ; E_USER_NOTICE  – user-generated notice message ; ; Examples: ; ;
+ – Show all errors, except for notices ; ;error_reporting = E_ALL &amp;
+~E_NOTICE ; ;  – Show only errors ; ;error_reporting =
+E_COMPILE_ERROR|E_ER­ROR|E_CORE_ER­ROR ; ;  – Show all errors except for
+notices and coding standards warnings ; error_reporting = E_ALL &amp; ~E_NOTICE
+&amp; ~E_STRICT</p>
+
+<p>; Print out errors (as a part of the output). For production web sites, ;
+you're strongly encouraged to turn this feature off, and use error logging ;
+instead (see below). Keeping display_errors enabled on a production web site ;
+may reveal security information to end users, such as file paths on your Web ;
+server, your database schema or other information. display_errors = On</p>
+
+<p>; Even when display_errors is on, errors that occur during PHP's startup ;
+sequence are not displayed. It's strongly recommended to keep ;
+display_startup_e­rrors off, except for when debugging.
+display_startup_e­rrors = Off</p>
+
+<p>; Log errors into a log file (server-specific log, stderr, or error_log
+(below)) ; As stated above, you're strongly advised to use error logging in
+place of ; error displaying on production web sites. log_errors = On</p>
+
+<p>; Set maximum length of log_errors. In error_log information about the source
+is ; added. The default is 1024 and 0 allows to not apply any maximum length
+at all. log_errors_max_len = 1024</p>
+
+<p>; Do not log repeated messages. Repeated errors must occur in same file on
+same ; line until ignore_repeated_sou­rce is set true. ignore_repeated_e­rrors
+= Off</p>
+
+<p>; Ignore source of message when ignoring repeated messages. When this setting
+; is On you will not log errors with repeated messages from different files or ;
+sourcelines. ignore_repeated_sou­rce = Off</p>
+
+<p>; If this parameter is set to Off, then memory leaks will not be shown (on ;
+stdout or in the log). This has only effect in a debug compile, and if ; error
+reporting includes E_WARNING in the allowed list report_memleaks = On</p>
+
+<p>; Store the last error/warning message in $php_errormsg (boolean).
+track_errors = Off</p>
+
+<p>; Disable the inclusion of HTML tags in error messages. ; Note: Never use
+this feature for production boxes. ;html_errors = Off</p>
+
+<p>; If html_errors is set On PHP produces clickable error messages that direct
+; to a page describing the error or function causing the error in detail. ; You
+can download a copy of the PHP manual from <a href="http://www.php.net/docs.php">http://www.php.net/docs.php</a> ; and change
+docref_root to the base URL of your local copy including the ; leading ‚/‘.
+You must also specify the file extension being used including ; the dot. ; Note:
+Never use this feature for production boxes. ;docref_root = „/phpmanual/“
+;docref_ext = .html</p>
+
+<p>; String to output before an error message. ;error_prepen­d_string
+= „“</p>
+
+<p>; String to output after an error message. ;error_append_string = „“</p>
+
+<p>; Log errors to specified file. error_log = c:/wamp/logs/php_e­rror.log</p>
+
+<p>; Log errors to syslog (Event Log on NT, not valid in Windows 95). ;error_log
+= syslog</p>
+
+<p>;;;;;;;;;;;;;;;;; ; Data Handling ; ;;;;;;;;;;;;;;;;; ; ; Note –
+track_vars is ALWAYS enabled as of PHP 4.0.3</p>
+
+<p>; The separator used in PHP generated URLs to separate arguments. ; Default
+is „&amp;“. ;arg_separator­.output = „&amp;“</p>
+
+<p>; List of separator(s) used by PHP to parse input URLs into variables. ;
+Default is „&amp;“. ; NOTE: Every character in this directive is considered
+as separator! ;arg_separator­.input = „;&amp;“</p>
+
+<p>; This directive describes the order in which PHP registers GET, POST,
+Cookie, ; Environment and Built-in variables (G, P, C, E &amp; S respectively,
+often ; referred to as EGPCS or GPC). Registration is done from left to right,
+newer ; values override older values. variables_order = „EGPCS“</p>
+
+<p>; Whether or not to register the EGPCS variables as global variables. You may
+; want to turn this off if you don't want to clutter your scripts' global scope
+; with user data. This makes most sense when coupled with track_vars – in
+which ; case you can access all of the GPC variables through the $HTTP_*_VARS[],
+; variables. ; ; You should do your best to write your scripts so that they do
+not require ; register_globals to be on; Using form variables as globals can
+easily lead ; to possible security problems, if the code is not very well
+thought of. register_globals = Off</p>
+
+<p>; Whether or not to register the old-style input arrays, HTTP_GET_VARS ; and
+friends. If you're not using them, it's recommended to turn them off, ; for
+performance reasons. register_long_a­rrays = On</p>
+
+<p>; This directive tells PHP whether to declare the argv&amp;argc variables
+(that ; would contain the GET information). If you don't use these variables,
+you ; should turn it off for increased performance. register_argc_argv = On</p>
+
+<p>; Maximum size of POST data that PHP will accept. post_max_size = 8M</p>
+
+<p>; Magic quotes ;</p>
+
+<p>; Magic quotes for incoming GET/POST/Cookie data. magic_quotes_gpc = On</p>
+
+<p>; Magic quotes for runtime-generated data, e.g. data from SQL, from exec(),
+etc. magic_quotes_run­time = Off</p>
+
+<p>; Use Sybase-style magic quotes (escape ' with '' instead of \').
+magic_quotes_sybase = Off</p>
+
+<p>; Automatically add files before or after any PHP document. auto_prepend_file
+= auto_append_file =</p>
+
+<p>; As of 4.0b4, PHP always outputs a character encoding by default in ; the
+Content-type: header. To disable sending of the charset, simply ; set it to be
+empty. ; ; PHP's built-in default is text/html default_mimetype =
+„text/html“ ;default_charset = „iso-8859–1“</p>
+
+<p>; Always populate the $HTTP_RAW_POST_DATA variable.
+;always_popula­te_raw_post_da­ta = On</p>
+
+<p>;;;;;;;;;;;;;­;;;;;;;;;;;; ; Paths and Directories ;
+;;;;;;;;;;;;;­;;;;;;;;;;;;</p>
+
+<p>; UNIX: „/path1:/path2“ ;include_path = „.:/php/includes“ ; ;
+Windows: „\path1;\path2“ ;include_path = „.;c:\php\includes“</p>
+
+<p>; The root of the PHP pages, used only if nonempty. ; if PHP was not compiled
+with FORCE_REDIRECT, you SHOULD set doc_root ; if you are running php as a CGI
+under any web server (other than IIS) ; see documentation for security issues.
+The alternate is to use the ; cgi.force_redirect configuration below
+doc_root =</p>
+
+<p>; The directory under which PHP opens the script using /~username used only ;
+if nonempty. user_dir =</p>
+
+<p>; Directory in which the loadable extensions (modules) reside. extension_dir
+= „c:/wamp/php/ext/“</p>
+
+<p>; Whether or not to enable the dl() function. The dl() function does NOT work
+; properly in multithreaded servers, such as IIS or Zeus, and is automatically ;
+disabled on them. enable_dl = On</p>
+
+<p>; cgi.force_redirect is necessary to provide security running PHP as a CGI
+under ; most web servers. Left undefined, PHP turns this on by default. You can
+; turn it off here AT YOUR OWN RISK ; <strong>You CAN safely turn this off for
+IIS, in fact, you MUST.</strong> ; cgi.force_redirect = 1</p>
+
+<p>; if cgi.nph is enabled it will force cgi to always sent Status: 200 with ;
+every request. ; cgi.nph = 1</p>
+
+<p>; if cgi.force_redirect is turned on, and you are not running under Apache or
+Netscape ; (iPlanet) web servers, you MAY need to set an environment variable
+name that PHP ; will look for to know it is OK to continue execution. Setting
+this variable MAY ; cause security issues, KNOW WHAT YOU ARE DOING FIRST. ;
+cgi.redirect_sta­tus_env = ;</p>
+
+<p>; FastCGI under IIS (on WINNT based OS) supports the ability to impersonate ;
+security tokens of the calling client. This allows IIS to define the ; security
+context that the request runs under. mod_fastcgi under Apache ; does not
+currently support this feature (03/17/2002) ; Set to 1 if running under IIS.
+Default is zero. ; fastcgi.impersonate = 1;</p>
+
+<p>; cgi.rfc2616_headers configuration option tells PHP what type of headers to
+; use when sending HTTP response code. If it's set 0 PHP sends Status: header
+that ; is supported by Apache. When this option is set to 1 PHP will send ;
+RFC2616 compliant header. ; Default is zero. ;cgi.rfc2616_he­aders = 0</p>
+
+<p>;;;;;;;;;;;;;;;; ; File Uploads ; ;;;;;;;;;;;;;;;;</p>
+
+<p>; Whether to allow HTTP file uploads. file_uploads = On</p>
+
+<p>; Temporary directory for HTTP uploaded files (will use system default if not
+; specified). upload_tmp_dir = „c:/wamp/tmp“</p>
+
+<p>; Maximum allowed size for uploaded files. upload_max_filesize = 2M</p>
+
+<p>;;;;;;;;;;;;;;;;;; ; Fopen wrappers ; ;;;;;;;;;;;;;;;;;;</p>
+
+<p>; Whether to allow the treatment of URLs (like http:// or ftp://) as files.
+allow_url_fopen = On</p>
+
+<p>; Define the anonymous ftp password (your email address)
+;from=„<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7f151017113f1b10">[email&#160;protected]</a>­e.com“</p>
+
+<p>; Define the User-Agent string ; user_agent=„PHP“</p>
+
+<p>; Default timeout for socket based streams (seconds) default_socket_ti­meout
+= 60</p>
+
+<p>; If your scripts have to deal with files from Macintosh systems, ; or you
+are running on a Mac and need to deal with files from ; unix or win32 systems,
+setting this flag will cause PHP to ; automatically detect the EOL character in
+those files so that ; fgets() and file() will work regardless of the source of
+the file. ; auto_detect_li­ne_endings = Off</p>
+
+<p>;;;;;;;;;;;;;­;;;;;;;;; ; Dynamic Extensions ; ;;;;;;;;;;;;;­;;;;;;;;; ; ;
+If you wish to have an extension loaded automatically, use the following ;
+syntax: ; ; extension=modu­lename.extensi­on ; ; For example, on Windows: ; ;
+extension=msql.dll ; ; … or under UNIX: ; ; extension=msql.so ; ; Note that it
+should be the name of the module only; no directory information ; needs to go
+here. Specify the location of the extension with the ; extension_dir
+directive above.</p>
+
+<p>;Windows Extensions ;Note that ODBC support is built in, so no dll is needed
+for it. ; extension=php_mbstr­ing.dll ;extension=php_bz2­.dll
+;extension=php_cpdf­.dll ;extension=php_cur­l.dll ;extension=php_dba­.dll
+;extension=php_dba­se.dll ;extension=php_dbx­.dll ;extension=php_e­xif.dll
+;extension=php_fdf­.dll ;extension=php_fi­lepro.dll extension=php_gd2­.dll
+;extension=php_get­text.dll ;extension=php_if­x.dll
+;extension=php_i­isfunc.dll ;extension=php_i­map.dll
+;extension=php_in­terbase.dll ;extension=php_ldap­.dll
+;extension=php_mcryp­t.dll ;extension=php_mhash­.dll
+;extension=php_mi­me_magic.dll ;extension=php_min­g.dll
+;extension=php_mssql­.dll ;extension=php_msql­.dll extension=php_mys­ql.dll
+extension=php_mys­qli.dll ;extension=php_o­ci8.dll
+;extension=php_o­penssl.dll ;extension=php_o­racle.dll
+;extension=php_pdf­.dll ;extension=php_pgsql­.dll ;extension=php_shmop­.dll
+;extension=php_snmp­.dll ;extension=php_soc­kets.dll
+;extension=php_sy­base_ct.dll ;extension=php_ti­dy.dll
+;extension=php_xmlrp­c.dll ;extension=php_xsl­.dll ;extension=php_zip­.dll
+extension=php_pdo­.dll extension=php_pdo_s­qlite.dll
+;extension=php_pdo_f­irebird.dll ;extension=php_pdo_m­ssql.dll
+;extension=php_pdo_m­ysql.dll ;extension=php_pdo_o­ci.dll
+;extension=php_pdo_o­ci8.dll ;extension=php_pdo_od­bc.dll
+;extension=php_pdo_p­gsql.dll extension=php_sqli­te.dll</p>
+
+<p>;;;;;;;;;;;;;;;;;;; ; Module Settings ; ;;;;;;;;;;;;;;;;;;;</p>
+
+<p>[Syslog] ; Whether or not to define the various syslog variables (e.g.
+$LOG_PID, ; $LOG_CRON, etc.). Turning it off is a good idea performance-wise. In
+; runtime, you can define these variables by calling
+define_syslog_va­riables(). define_syslog_va­riables = Off</p>
+
+<p>[mail function] ; For Win32 only. SMTP = mail.karneval.cz</p>
+
+<p>; For Win32 only. sendmail_from = <a href="/cdn-cgi/l/email-protection#f79c9d9699b796839b9684d9948d">kjan&#64;atlas.cz</a></p>
+
+<p>; For Unix only. You may supply arguments as well (default: „sendmail -t
+-i“). ;sendmail_path =</p>
+
+<p>; Force the addition of the specified parameters to be passed as extra
+parameters ; to the sendmail binary. These parameters will always replace the
+value of ; the 5th parameter to mail(), even in safe mode.
+;mail.force_ex­tra_paramater­s =</p>
+
+<p>[SQL] sql.safe_mode = Off</p>
+
+<p>[ODBC] ;odbc.default_db = Not yet implemented ;odbc.default_user = Not yet
+implemented ;odbc.default_pw = Not yet implemented</p>
+
+<p>; Allow or prevent persistent links. odbc.allow_per­sistent = On</p>
+
+<p>; Check that a connection is still valid before reuse.
+odbc.check_per­sistent = On</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+odbc.max_persistent = –1</p>
+
+<p>; Maximum number of links (persistent + non-persistent).  –1 means no
+limit. odbc.max_links = –1</p>
+
+<p>; Handling of LONG fields. Returns number of bytes to variables. 0 means ;
+passthru. odbc.defaultlrl = 4096</p>
+
+<p>; Handling of binary data. 0 means passthru, 1 return as is, 2 convert to
+char. ; See the documentation on odbc_binmode and odbc_longreadlen for an
+explanation ; of uodbc.defaultlrl and uodbc.defaultbin­mode odbc.defaultbinmode
+= 1</p>
+
+<p>[MySQL] ; Allow or prevent persistent links. mysql.allow_per­sistent
+= On</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+mysql.max_per­sistent = –1</p>
+
+<p>; Maximum number of links (persistent + non-persistent).  –1 means no
+limit. mysql.max_links = –1</p>
+
+<p>; Default port number for mysql_connect(). If unset, mysql_connect() will use
+; the $MYSQL_TCP_PORT or the mysql-tcp entry in /etc/services or the ;
+compile-time value defined MYSQL_PORT (in that order). Win32 will only look ; at
+MYSQL_PORT. mysql.default_por­t =</p>
+
+<p>; Default socket name for local MySQL connects. If empty, uses the built-in ;
+MySQL defaults. mysql.default_soc­ket =</p>
+
+<p>; Default host for mysql_connect() (doesn't apply in safe mode).
+mysql.default_hos­t =</p>
+
+<p>; Default user for mysql_connect() (doesn't apply in safe mode).
+mysql.default_u­ser =</p>
+
+<p>; Default password for mysql_connect() (doesn't apply in safe mode). ; Note
+that this is generally a <em>bad</em> idea to store passwords in this file. ;
+<em>Any</em> user with PHP access can run 'echo
+get_cfg_var(„­mysql.default_pas­sword“) ; and reveal this password! And of
+course, any users with read access to this ; file will be able to reveal the
+password as well. mysql.default_pas­sword =</p>
+
+<p>; Maximum time (in secondes) for connect timeout. –1 means no limimt
+mysql.connect_ti­meout = 60</p>
+
+<p>; Trace mode. When trace_mode is active (=On), warnings for table/index scans
+and ; SQL-Erros will be displayed. mysql.trace_mode = Off</p>
+
+<p>[MySQLI]</p>
+
+<p>; Maximum number of links.  –1 means no limit. mysqli.max_links
+= –1</p>
+
+<p>; Default port number for mysqli_connect(). If unset, mysqli_connect() will
+use ; the $MYSQL_TCP_PORT or the mysql-tcp entry in /etc/services or the ;
+compile-time value defined MYSQL_PORT (in that order). Win32 will only look ; at
+MYSQL_PORT. mysqli.default_port = 3306</p>
+
+<p>; Default socket name for local MySQL connects. If empty, uses the built-in ;
+MySQL defaults. mysqli.default_soc­ket =</p>
+
+<p>; Default host for mysql_connect() (doesn't apply in safe mode).
+mysqli.default_hos­t =</p>
+
+<p>; Default user for mysql_connect() (doesn't apply in safe mode).
+mysqli.default_u­ser =</p>
+
+<p>; Default password for mysqli_connect() (doesn't apply in safe mode). ; Note
+that this is generally a <em>bad</em> idea to store passwords in this file. ;
+<em>Any</em> user with PHP access can run 'echo
+get_cfg_var(„­mysqli.default_pas­sword“) ; and reveal this password! And
+of course, any users with read access to this ; file will be able to reveal the
+password as well. mysqli.default_pas­sword =</p>
+
+<p>; Allow or prevent reconnect mysqli.reconnect = Off</p>
+
+<p>[mSQL] ; Allow or prevent persistent links. msql.allow_per­sistent = On</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+msql.max_persistent = –1</p>
+
+<p>; Maximum number of links (persistent+non persistent).  –1 means no limit.
+msql.max_links = –1</p>
+
+<p>[PostgresSQL] ; Allow or prevent persistent links. pgsql.allow_per­sistent
+= On</p>
+
+<p>; Detect broken persistent links always with pg_pconnect(). Need a little
+overhead. pgsql.auto_re­set_persistent = Off</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+pgsql.max_per­sistent = –1</p>
+
+<p>; Maximum number of links (persistent+non persistent).  –1 means no limit.
+pgsql.max_links = –1</p>
+
+<p>; Ignore PostgreSQL backends Notice message or not. pgsql.ignore_notice
+= 0</p>
+
+<p>; Log PostgreSQL backends Noitce message or not. ; Unless
+pgsql.ignore_no­tice=0, module cannot log notice message. pgsql.log_notice
+= 0</p>
+
+<p>[Sybase] ; Allow or prevent persistent links. sybase.allow_per­sistent
+= On</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+sybase.max_per­sistent = –1</p>
+
+<p>; Maximum number of links (persistent + non-persistent).  –1 means no
+limit. sybase.max_links = –1</p>
+
+<p>;sybase.inter­face_file = „/usr/sybase/in­terfaces“</p>
+
+<p>; Minimum error severity to display. sybase.min_error_se­verity = 10</p>
+
+<p>; Minimum message severity to display. sybase.min_mes­sage_severity
+= 10</p>
+
+<p>; Compatability mode with old versions of PHP 3.0. ; If on, this will cause
+PHP to automatically assign types to results according ; to their Sybase type,
+instead of treating them all as strings. This ; compatability mode will probably
+not stay around forever, so try applying ; whatever necessary changes to your
+code, and turn it off. sybase.compata­bility_mode = Off</p>
+
+<p>[Sybase-CT] ; Allow or prevent persistent links. sybct.allow_per­sistent
+= On</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+sybct.max_per­sistent = –1</p>
+
+<p>; Maximum number of links (persistent + non-persistent).  –1 means no
+limit. sybct.max_links = –1</p>
+
+<p>; Minimum server message severity to display. sybct.min_ser­ver_severity
+= 10</p>
+
+<p>; Minimum client message severity to display. sybct.min_cli­ent_severity
+= 10</p>
+
+<p>[dbx] ; returned column names can be converted for compatibility reasons ;
+possible values for dbx.colnames_case are ; „unchanged“ (default, if not
+set) ; „lowercase“ ; „uppercase“ ; the recommended default is either
+upper- or lowercase, but ; unchanged is currently set for backwards
+compatibility dbx.colnames_case = „unchanged“</p>
+
+<p>[bcmath] ; Number of decimal digits for all bcmath functions. bcmath.scale
+= 0</p>
+
+<p>[browscap] ;browscap = extra/browscap.ini</p>
+
+<p>[Informix] ; Default host for ifx_connect() (doesn't apply in safe mode).
+ifx.default_host =</p>
+
+<p>; Default user for ifx_connect() (doesn't apply in safe mode).
+ifx.default_user =</p>
+
+<p>; Default password for ifx_connect() (doesn't apply in safe mode).
+ifx.default_pas­sword =</p>
+
+<p>; Allow or prevent persistent links. ifx.allow_per­sistent = On</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+ifx.max_persistent = –1</p>
+
+<p>; Maximum number of links (persistent + non-persistent).  –1 means no
+limit. ifx.max_links = –1</p>
+
+<p>; If on, select statements return the contents of a text blob instead of its
+id. ifx.textasvarchar = 0</p>
+
+<p>; If on, select statements return the contents of a byte blob instead of its
+id. ifx.byteasvarchar = 0</p>
+
+<p>; Trailing blanks are stripped from fixed-length char columns. May help the ;
+life of Informix SE users. ifx.charasvarchar = 0</p>
+
+<p>; If on, the contents of text and byte blobs are dumped to a file instead of
+; keeping them in memory. ifx.blobinfile = 0</p>
+
+<p>; NULL's are returned as empty strings, unless this is set to 1. In that
+case, ; NULL's are returned as string ‚NULL‘. ifx.nullformat = 0</p>
+
+<p>[Session] ; Handler used to store/retrieve data. session.save_han­dler
+= files</p>
+
+<p>; Argument passed to save_handler. In the case of files, this is the path ;
+where data files are stored. Note: Windows users have to change this ; variable
+in order to use PHP's session functions. ; ; As of PHP 4.0.1, you can define
+the path as: ; ; session.save_path = „N;/path“ ; ; where N is an integer.
+Instead of storing all the session files in ; /path, what this will do is use
+subdirectories N-levels deep, and ; store the session data in those directories.
+This is useful if you ; or your OS have problems with lots of files in one
+directory, and is ; a more efficient layout for servers that handle lots of
+sessions. ; ; NOTE 1: PHP will not create this directory structure
+automatically. ; You can use the script in the ext/session dir for that purpose.
+; NOTE 2: See the section on garbage collection below if you choose to ; use
+subdirectories for session storage ; ; The file storage module creates files
+using mode 600 by default. ; You can change that by using ; ; session.save_path
+= „N;MODE;/path“ ; ; where MODE is the octal representation of the mode.
+Note that this ; does not overwrite the process's umask. session.save_path =
+„c:/wamp/tmp“</p>
+
+<p>; Whether to use cookies. session.use_cookies = 1</p>
+
+<p>; This option enables administrators to make their users invulnerable to ;
+attacks which involve passing session ids in URLs; defaults to 0. ;
+session.use_on­ly_cookies = 1</p>
+
+<p>; Name of the session (used as cookie name). session.name = PHPSESSID</p>
+
+<p>; Initialize session on request startup. session.auto_start = 0</p>
+
+<p>; Lifetime in seconds of cookie or, if 0, until browser is restarted.
+session.cooki­e_lifetime = 0</p>
+
+<p>; The path for which the cookie is valid. session.cookie_path = /</p>
+
+<p>; The domain for which the cookie is valid. session.cooki­e_domain =</p>
+
+<p>; Handler used to serialize data. php is the standard serializer of PHP.
+session.seria­lize_handler = php</p>
+
+<p>; Define the probability that the ‚garbage collection‘ process is started
+; on every session initialization. ; The probability is calculated by using
+gc_probability/gc_di­visor, ; e.g. 1/100 means there is a 1% chance that the GC
+process starts ; on each request.</p>
+
+<p>session.gc_pro­bability = 1 session.gc_di­visor = 100</p>
+
+<p>; After this number of seconds, stored data will be seen as ‚garbage‘ and
+; cleaned up by the garbage collection process. session.gc_max­lifetime
+= 1440</p>
+
+<p>; NOTE: If you are using the subdirectory option for storing session files ;
+(see session.save_path above), then garbage collection does <em>not</em> ;
+happen automatically. You will need to do your own garbage ; collection through
+a shell script, cron entry, or some other method. ; For example, the following
+script would is the equivalent of ; setting session.gc_max­lifetime to 1440
+(1440 seconds = 24 minutes): ; cd /path/to/sessions; find -cmin +24 |
+xargs rm</p>
+
+<p>; PHP 4.2 and less have an undocumented feature/bug that allows you to ; to
+initialize a session variable in the global scope, albeit register_globals ; is
+disabled. PHP 4.3 and later will warn you, if this feature is used. ; You can
+disable the feature and the warning seperately. At this time, ; the warning is
+only displayed, if bug_compat<sub>42</sub> is enabled.</p>
+
+<p>session.bug_com­pat<sub>42</sub> = 1 session.bug_com­pat_warn = 1</p>
+
+<p>; Check HTTP Referer to invalidate externally stored URLs containing ids. ;
+HTTP_REFERER has to contain this substring for the session to be ; considered as
+valid. session.referer_chec­k =</p>
+
+<p>; How many bytes to read from the file. session.entro­py_length = 0</p>
+
+<p>; Specified here to create the session id. session.entro­py_file =</p>
+
+<p>;session.entro­py_length = 16</p>
+
+<p>;session.entro­py_file = /dev/urandom</p>
+
+<p>; Set to {nocache,priva­te,public,} to determine HTTP caching aspects ; or
+leave this empty to avoid sending anti-caching headers. session.cache_li­miter
+= nocache</p>
+
+<p>; Document expires after n minutes. session.cache_ex­pire = 180</p>
+
+<p>; trans sid support is disabled by default. ; Use of trans sid may risk your
+users security. ; Use this option with caution. ; – User may send URL
+contains active session ID ; to other person via. email/irc/etc. ; – URL that
+contains active session ID may be stored ; in publically accessible computer.
+; – User may access your site with the same session ID ; always using URL
+stored in browser's history or bookmarks. session.use_tran­s_sid = 0</p>
+
+<p>; Select a hash function ; 0: MD5 (128 bits) ; 1: SHA-1 (160 bits)
+session.hash_fun­ction = 0</p>
+
+<p>; Define how many bits are stored in each character when converting ; the
+binary hash data to something readable. ; ; 4 bits: 0–9, a-f ; 5 bits:
+0–9, a-v ; 6 bits: 0–9, a-z, A-Z, „-“, „,“
+session.hash_bit­s_per_character = 4</p>
+
+<p>; The URL rewriter will look for URLs in a defined set of HTML tags. ;
+form/fieldset are special; if you include them here, the rewriter will ; add a
+hidden  field with the info which is otherwise appended ; to URLs. If
+you want XHTML conformity, remove the form entry. ; Note that all valid entries
+require a „=“, even if no value follows. url_rewriter.tags =
+„a=href,area=href,fra­me=src,input=src,for­m=,fieldset=“</p>
+
+<p>[MSSQL] ; Allow or prevent persistent links. mssql.allow_per­sistent
+= On</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+mssql.max_per­sistent = –1</p>
+
+<p>; Maximum number of links (persistent+non persistent).  –1 means no limit.
+mssql.max_links = –1</p>
+
+<p>; Minimum error severity to display. mssql.min_error_se­verity = 10</p>
+
+<p>; Minimum message severity to display. mssql.min_mes­sage_severity = 10</p>
+
+<p>; Compatability mode with old versions of PHP
+3.0. mssql.com­patability_mo­de = Off</p>
+
+<p>; Connect timeout ;mssql.connec­t_timeout = 5</p>
+
+<p>; Query timeout ;mssql.timeout = 60</p>
+
+<p>; Valid range 0 – 2147483647. Default = 4096. ;mssql.textlimit
+= 4096</p>
+
+<p>; Valid range 0 – 2147483647. Default = 4096. ;mssql.textsize = 4096</p>
+
+<p>; Limits the number of records in each batch. 0 = all records in one batch.
+;mssql.batchsize = 0</p>
+
+<p>; Specify how datetime and datetim4 columns are returned ; On ⇒ Returns
+data converted to SQL server settings ; Off ⇒ Returns values as YYYY-MM-DD
+hh:mm:ss ;mssql.dateti­meconvert = On</p>
+
+<p>; Use NT authentication when connecting to the server
+mssql.secure_con­nection = Off</p>
+
+<p>; Specify max number of processes. Default = 25 ;mssql.max_procs = 25</p>
+
+<p>[Assertion] ; Assert(expr); active by default. ;assert.active = On</p>
+
+<p>; Issue a PHP warning for each failed assertion. ;assert.warning = On</p>
+
+<p>; Don't bail out by default. ;assert.bail = Off</p>
+
+<p>; User-function to be called if an assertion fails. ;assert.callback = 0</p>
+
+<p>; Eval the expression with current error_reporting(). Set to true if you want
+; error_reporting(0) around the eval(). ;assert.quiet_eval = 0</p>
+
+<p>[Ingres II] ; Allow or prevent persistent links. ingres.allow_per­sistent
+= On</p>
+
+<p>; Maximum number of persistent links.  –1 means no limit.
+ingres.max_per­sistent = –1</p>
+
+<p>; Maximum number of links, including persistents.  –1 means no limit.
+ingres.max_links = –1</p>
+
+<p>; Default database (format: [node_id::]dbna­me[/srv_class]).
+ingres.default_da­tabase =</p>
+
+<p>; Default user. ingres.default_user =</p>
+
+<p>; Default password. ingres.default_pas­sword =</p>
+
+<p>[Verisign Payflow Pro] ; Default Payflow Pro server. pfpro.defaulthost =
+„test-payflow.verisig­n.com“</p>
+
+<p>; Default port to connect to. pfpro.defaultport = 443</p>
+
+<p>; Default timeout in seconds. pfpro.defaultti­meout = 30</p>
+
+<p>; Default proxy IP address (if required). ;pfpro.proxyad­dress =</p>
+
+<p>; Default proxy port. ;pfpro.proxyport =</p>
+
+<p>; Default proxy logon. ;pfpro.proxylogon =</p>
+
+<p>; Default proxy password. ;pfpro.proxypas­sword =</p>
+
+<p>[Sockets] ; Use the system read() function instead of the php_read() wrapper.
+sockets.use_sys­tem_read = On</p>
+
+<p>[com] ; path to a file containing GUIDs, IIDs or filenames of files with
+TypeLibs ;com.typelib_file = ; allow Distributed-COM calls ;com.allow_dcom =
+true ; autoregister constants of a components typlib on com_load()
+;com.autoregis­ter_typelib = true ; register constants casesensitive
+;com.autoregis­ter_casesensi­tive = false ; show warnings on duplicate constat
+registrations ;com.autoregis­ter_verbose = true</p>
+
+<p>[mbstring] ; language for internal character representation.
+;mbstring.language = Japanese</p>
+
+<p>; internal/script encoding. ; Some encoding cannot work as internal encoding.
+; (e.g. SJIS, BIG5, ISO-2022-*) ;mbstring.inter­nal_encoding = EUC-JP</p>
+
+<p>; http input encoding. ;mbstring.http_in­put = auto</p>
+
+<p>; http output encoding. mb_output_handler must be ; registered as output
+buffer to function ;mbstring.http_ou­tput = SJIS</p>
+
+<p>; enable automatic encoding translation accoding to ;
+mbstring.inter­nal_encoding setting. Input chars are ; converted to internal
+encoding by setting this to On. ; Note: Do _not_ use automatic encoding
+translation for ; portable libs/applications. ;mbstring.enco­ding_translati­on
+= Off</p>
+
+<p>; automatic encoding detection order. ; auto means ;mbstring.detec­t_order
+= auto</p>
+
+<p>; substitute_cha­racter used when character cannot be converted ; one from
+another ;mbstring.sub­stitute_charac­ter = none;</p>
+
+<p>; overload(replace) single byte functions by mbstring functions. ; mail(),
+ereg(), etc are overloaded by mb_send_mail(), mb_ereg(), ; etc. Possible values
+are 0,1,2,4 or combination of them. ; For example, 7 for overload everything.
+; 0: No overload ; 1: Overload mail() function ; 2: Overload str*() functions ;
+4: Overload ereg*() functions ;mbstring.fun­c_overload = 0</p>
+
+<p>[FrontBase] ;fbsql.allow_per­sistent = On ;fbsql.autocommit = On
+;fbsql.default_da­tabase = ;fbsql.default_da­tabase_password =
+;fbsql.default_host = ;fbsql.default_pas­sword = ;fbsql.default_user =
+„_SYSTEM“ ;fbsql.genera­te_warnings = Off ;fbsql.max_con­nections = 128
+;fbsql.max_links = 128 ;fbsql.max_per­sistent = –1 ;fbsql.max_results = 128
+;fbsql.batchSize = 1000</p>
+
+<p>[exif] ; Exif UNICODE user comments are handled as UCS-2BE/UCS-2LE and JIS as
+JIS. ; With mbstring support this will automatically be converted into the
+encoding ; given by corresponding encode setting. When empty
+mbstring.inter­nal_encoding ; is used. For the decode settings you can
+distinguish between motorola and ; intel byte order. A decode setting cannot be
+empty. ;exif.encode_u­nicode = ISO-8859–15 ;exif.decode_u­nicode_motoro­la
+= UCS-2BE ;exif.decode_u­nicode_intel = UCS-2LE ;exif.encode_jis =
+;exif.decode_jis_mo­torola = JIS ;exif.decode_jis_in­tel = JIS</p>
+
+<p>[Tidy] ; The path to a default tidy configuration file to use when using tidy
+;tidy.default_con­fig = /usr/local/lib/php/­default.tcfg</p>
+
+<p>; Should tidy clean and repair output automatically? ; WARNING: Do not use
+this option if you are generating non-html content ; such as dynamic images
+tidy.clean_output = Off</p>
+
+<p>; Local Variables: ; tab-width: 4 ; End:</p>
+
+<p>[eaccelerator] ;eaccelerator­.shm_size = „64“ eaccelerator.cache_dir =
+„c:/wamp/tmp/e­accelerator“ ;eaccelerator­.enable = „1“
+;eaccelerator­.optimizer = „1“ ;eaccelerator.debug = „0“
+;eaccelerator­.check_mtime = „1“ ;eaccelerator­.filter = ""
+;eaccelerator­.shm_max = „0“ ;eaccelerator­.shm_ttl = „0“
+;eaccelerator­.shm_prune_pe­riod = „0“ ;eaccelerator­.shm_only = „0“
+;eaccelerator­.compress = „1“ ;eaccelerator­.compress_level = „9“
+;eaccelerator.keys = „shm_and_disk“ ;eaccelerator­.sessions =
+„shm_and_disk“ ;eaccelerator­.content = „shm_and_disk“
+;eaccelerator­.admin.name=„y­ourusername“
+;eaccelerator­.admin.passwor­d=„yourpasswor­d“</p>  <div class="forum-topic-navigation clear-block">
+          <a href="/forum/instalace-drupalu/stydim-se-nerozbehnul-jsem-cck" class="topic-previous" title="Přejít na předchozí téma.">‹ Stydím se nerozběhnul jsem CCK</a>
+              <a href="/forum/instalace-drupalu/nelze-se-po-instalaci-nastaveni-hesla-znovu-prihlasit" class="topic-next" title="Přejít na následující téma.">Nelze se po instalaci a nastavení hesla znovu přihlásit. ›</a>
+      </div>
+  </div>
+  
+  <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-6097" class="social-add digglink" onmouseover="showSocials(6097)" onmouseout="hideSocials(6097)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-6097">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated&amp;title=The GD library for PHP is missing or outdated." class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated&amp;title=The GD library for PHP is missing or outdated." class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated&amp;title=The GD library for PHP is missing or outdated." class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div></div> <!-- article end -->
+<div class="article-spacer">&nbsp;</div>
+<div id="comments">
+  <a id="comment-2414"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated#comment-2414" class="active">Tak uz jsem na to prisel</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 9 Únor, 2007 - 12:15.  </div>
+
+  <div class="content">
+    <p>php.ini jsem nemel pouze v adresari PHP, ale bylo i v adresari Apache2.
+Takze v konzoli mi to sice GD modul natahlo, ale webserver si php.ini vzal ze
+sveho adresare a tam to nebylo.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/699/2414" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-5263"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated#comment-5263" class="active">Lezeš mě krkem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.mokriny.cz" rel="nofollow">Jan Rippl</a> (bez ověření) dne 19 Srpen, 2007 - 17:33.  </div>
+
+  <div class="content">
+    <p>Tak frajere, to že mě s pravidelnou četností spamuješ moje stránky na
+to už jsem si zvykl, ale že to vidim kamkoliv přijdu, mě už začíná
+dožírat. Je jasný ře to dělá nějaký člověk, protože bot neumí
+počítat. Vim z kterýho serveru pocházíš tak abych ho nemusel
+poštelovat!</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/699/5263" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-5265"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated#comment-5265" class="active">Mě taky leze krkem, ale...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://policebrutality.ic.cz" rel="nofollow">czbero</a> (bez ověření) dne 19 Srpen, 2007 - 17:44.  </div>
+
+  <div class="content">
+    <p>myslím si, že boti umějí počítat</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/699/5265" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-5266"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated#comment-5266" class="active">Umějí</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.mokriny.cz" rel="nofollow">Jan Rippl</a> (bez ověření) dne 19 Srpen, 2007 - 17:55.  </div>
+
+  <div class="content">
+    <p>Ale ne náhodně vygenerovanou početní úlohu. Umějí spočítat pouze to,
+co je obsaženo v proměnných jejich vlastního zdrojového kódu.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/699/5266" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-5269"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated#comment-5269" class="active">Skuste modul SPAM</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 19 Srpen, 2007 - 18:12.  </div>
+
+  <div class="content">
+    <p>Skuste modul SPAM (<a href="http://www.fem.uniag.sk/havran/blog/drupal-modul-spam">http://www.fem.uniag.sk/…l-modul-spam</a>)
+Bezpecne odpili tohoto typka (a kazdeho co zada viac url a podobne veci – ma
+kopu nastaveni.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/699/5269" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div><div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/699"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-7c0d22047ff8b49578e79cabccd17b4b" value="form-7c0d22047ff8b49578e79cabccd17b4b"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script><script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/forum/instalace-drupalu/the-gd-library-for-php-is-missing-or-outdated?destination=node%2F699"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-732939b240100886392f158bdeaff155" value="form-732939b240100886392f158bdeaff155"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex" class="tagadelic level1">forex</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 17 hod 55 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 8 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 7 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 11 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 12 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 6 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 10 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>1 host</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":613,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

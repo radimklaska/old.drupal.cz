@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Jak na to?</title>
+ <link>https://www.drupal.cz/taxonomy/term/38/0</link>
+ <description>Sháníte návod jak udělat konkrétní funkci? Jak docílit nějaké funkčnosti? Netýká se vzhledu!</description>
+ <language>cs</language>
+<item>
+ <title>Zjištění block ID</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/zjisteni-block-id</link>
+ <description>Ahoj, potřeboval bych nějak rychle zjistit ID bloku, když nemám možnost
+využít Drush. Nevíte někdo prosím jak na to? Děkuji.</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/zjisteni-block-id#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/83966</wfw:commentRss>
+ <pubDate>Sun, 04 Feb 2018 15:06:12 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">83966 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv</link>
+ <description>http://www.oznamkujucitele.cz/ucitel/19362
+moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka
+života a smrti moc prosím o radu jak smazat nebo jestli by to někdo
+nesmazal děkuju</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/83961</wfw:commentRss>
+ <pubDate>Tue, 30 Jan 2018 14:57:43 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">83961 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku</link>
+ <description>Ahoj, potřeboval bych radu. Mám výpis článků ve Views a rád bych po
+každém třetím příspěvku z pěti na každé stránce zobrazoval blok.
+Nebo alespoň HTML kód. Šel jsem na to cestou přes Views, kde jsem přidal
+pole Global: View result counter a přes rewrite results zadal tento kód:&lt;br /&gt;
+&lt;br /&gt;
+
+{% if counter == 3 %}&lt;br /&gt;
+ahoj&lt;br /&gt;
+{% endif %}
+&lt;br /&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/83956</wfw:commentRss>
+ <pubDate>Sun, 28 Jan 2018 18:43:04 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">83956 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Webform per user per node</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node</link>
+ <description>&lt;p&gt;Dobry den potreboval by som poradit. Riesim „Rezervacny system pre
+konferencie“ na drupal 7, kde pouzivam webform. Samotna konferecia je jeden
+formular.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/webform-user-node#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/82526</wfw:commentRss>
+ <pubDate>Thu, 18 Jan 2018 06:04:48 +0000</pubDate>
+ <dc:creator>pipuch</dc:creator>
+ <guid isPermaLink="false">82526 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak vyhledávat v poli soubor (multiupload) - VIEWS</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views</link>
+ <description>Poradíte někdo jak vyhledávat v poli soubor? V kritériích filtru jsem
+zvolil „:fid“ a násl. operátor „je rovno“. Po zadání názvu souboru
+do pole to nic nevyhledá (zkoušel jsem různé obměny).</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81761</wfw:commentRss>
+ <pubDate>Tue, 09 Jan 2018 09:31:58 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">81761 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření odkazu v tabulce s přenesením obsahu proměnné ( více proměnných)</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/vytvoreni-odkazu-v-tabulce-s-prenesenim-obsahu-promenne-vice-promennych</link>
+ <description>&lt;p&gt;Zdravím, mám problém s funkčností PHP kódu na stránce, dříve (před
+update Drupalu 7) fungoval, nyní ne.&lt;/p&gt;
+
+&lt;p&gt;Z databáze vybrány příslušné věty a uspořádány do tabulky.
+v části tabulky odkaz :&lt;/p&gt;
+
+$tabulka .= &amp;lt;&amp;lt;&amp;lt;ENDHTML řádek tabulky, buňka s odkazem:
+href=„form_in­st_input&lt;sub&gt;0&lt;/sub&gt;.php?Na­me=‚$inst_acro­nym‘“
+title=&quot;View Institution identification card (2)&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/vytvoreni-odkazu-v-tabulce-s-prenesenim-obsahu-promenne-vice-promennych&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/vytvoreni-odkazu-v-tabulce-s-prenesenim-obsahu-promenne-vice-promennych#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/script.txt" length="483" type="text/plain" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81756</wfw:commentRss>
+ <pubDate>Mon, 08 Jan 2018 17:43:26 +0000</pubDate>
+ <dc:creator>boris177</dc:creator>
+ <guid isPermaLink="false">81756 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Inventura a jak na ní?</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni</link>
+ <description>&lt;p&gt;zdravím, potřeboval bych udělat na D7 administraci inventur. Zatím jsem
+na tomto řešení:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;mám node typu „Inventura – záznam“, kde jsou pole „Umístění“
+	(odkaz na termín = identifikace místnosti), „Poznámky“ (ex Body =
+	všeobecné poznámky k místnosti) a „Položky“ (= to co se sčítá,
+	předměty inventury)&lt;/li&gt;
+
+	&lt;li&gt;„Položky“ je field group, který obsahuje pole: Název, počet, cena,
+	poznámka (k položce), funk&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/inventura-jak-na-ni#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/inv.png" length="182213" type="image/png" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81746</wfw:commentRss>
+ <pubDate>Mon, 08 Jan 2018 15:19:50 +0000</pubDate>
+ <dc:creator>Robii</dc:creator>
+ <guid isPermaLink="false">81746 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Práva polí uživatelských účtů</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prava-poli-uzivatelskych-uctu</link>
+ <description>&lt;p&gt;Ahoj, prosím o radu. Vytvořil jsem nové pole v uživatelských účtech
+s názvem &lt;strong&gt;Něco o mě&lt;/strong&gt;, jako typ pole jsem zvolil &lt;strong&gt;Text
+formátovaný dlouhý&lt;/strong&gt;. Když se registruje nový uživatel, tak do toho
+pole normálně vloží text a účet se vytvoří. Když se však přihlásí,
+nemůže text v tomto poli editovat(změnit) vypíše se že nemá dostatečné
+práva pro změnu(viz. obrázek).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prava-poli-uzivatelskych-uctu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/prava-poli-uzivatelskych-uctu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <enclosure url="https://www.drupal.cz/files/obrázek_0.png" length="56046" type="image/png" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81741</wfw:commentRss>
+ <pubDate>Mon, 08 Jan 2018 12:57:02 +0000</pubDate>
+ <dc:creator>-Jirka-</dc:creator>
+ <guid isPermaLink="false">81741 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvořit 3 úrovně menu localtask na uživatelském profilu? (vyřešeno)</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/vytvori-3-urovne-menu-localtask-na-uzivatelskem-profilu</link>
+ <description>&lt;p&gt;Ahoj potřeboval bych poradit… možná se to někde už řešilo…
+potřebuji vytvořit na uživatelském profilu 3 urovně local task menu (tedy
+záložky ve třech úrovních). Standardně drupal děla 2 úrovně.&lt;/p&gt;
+
+&lt;p&gt;Díky&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/vytvori-3-urovne-menu-localtask-na-uzivatelskem-profilu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81591</wfw:commentRss>
+ <pubDate>Tue, 12 Dec 2017 10:58:35 +0000</pubDate>
+ <dc:creator>marinex</dc:creator>
+ <guid isPermaLink="false">81591 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Adresářová struktura</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/adresarova-struktura</link>
+ <description>Zdravím a jednim dechem prosim o pomoc. Psal jsem kamarádovi malou webovou
+nedrupalovou aplikaci, požádal mě, jestli bych mu nerozhodil fotky do alb na
+jeho drupalovym webu. A nepřidal pole na popisky. Nějak to půjde, řikal
+jsem si, ač jsem se s dr. nikdy nesetkal, jenže po 14 dnech pokusů pořád
+tápu. Jde v podstatě o to, že má na stránce hromadu fotek a chtěl by tam
+udělat adresáře např.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/adresarova-struktura&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/adresarova-struktura#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81586</wfw:commentRss>
+ <pubDate>Mon, 11 Dec 2017 14:49:28 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">81586 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Modul Basic cart</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/modul-basic-cart</link>
+ <description>Používáte tu někdo modul Basic cart? Nevím jestli je to chyba modulu
+(logiky) nebo nastavení. Pokud někdo něco objedná a zvolí více kusů, tak
+v přehledu objednávek se vypíše jen výrobek co objednal, ale ne počet
+kusů. Má s tím někdo zkušenosti?</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/modul-basic-cart#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81581</wfw:commentRss>
+ <pubDate>Tue, 05 Dec 2017 11:09:05 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">81581 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Viditelnost položky menu (vícejazyčné menu)</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/viditelnost-polozky-menu-vicejazycne-menu</link>
+ <description>Možná je to jednoduchý, ale nemůžu na to přijít. Mám vícejazyčné
+menu. Včechny položky menu jsou přeloženy do více jakyzů. Jedna položka
+(stránka) je pouze v češtině, ale po přepnutí na jinou jazykovou verzi se
+ta položka menu stále zobrazuje. Jak dosáhnout toho aby byly v konkrétním
+jakyce viditelné pouze přeložené položky menu?</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/viditelnost-polozky-menu-vicejazycne-menu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81576</wfw:commentRss>
+ <pubDate>Tue, 05 Dec 2017 08:23:03 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">81576 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zobrazení uživatelů podle klíčových slov</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/zobrazeni-uzivatelu-podle-klicovych-slov</link>
+ <description>&lt;p&gt;Ahoj, potřebuji vyřešit vyhledávání mezi profily uživatelů podle
+klíčových slov, které zadávali při registraci. Např. Mám vytvořený
+slovník taxonomie Kraj-Moravskoslezský-…výpis měst…, které se
+zobrazují jako roletkové menu při registraci. ALe nevím jak to udělat, aby
+se mi zobrazili uživatelé podle konkrétního města, když je chci vyhledat.
+Třeba jakoako klasická seznamka.&lt;/p&gt;
+
+&lt;p&gt;Děkuji&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/zobrazeni-uzivatelu-podle-klicovych-slov#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81566</wfw:commentRss>
+ <pubDate>Sun, 26 Nov 2017 13:20:12 +0000</pubDate>
+ <dc:creator>-Jirka-</dc:creator>
+ <guid isPermaLink="false">81566 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Práva uživatelských profilů</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/prava-uzivatelskych-profilu</link>
+ <description>&lt;p&gt;Ahoj, mám úvodní stránku vytvořenou tak, aby se zobrazovaly části
+profilů posledních deseti registrovaných uživatelů. Potřebuji nastavit,
+aby se profil registrovaného uživatele mohl zobrazit i tomu, kdo není
+nepřihlášený. Ale pouze ke čtení, podobně jako na seznamce, nedaří se
+mi ale nastavit práva.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/prava-uzivatelskych-profilu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/prava-uzivatelskych-profilu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/81266</wfw:commentRss>
+ <pubDate>Sat, 18 Nov 2017 22:39:04 +0000</pubDate>
+ <dc:creator>-Jirka-</dc:creator>
+ <guid isPermaLink="false">81266 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Po přesunu na webhosting se nevytvářejí aliasy</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/po-presunu-na-webhosting-se-nevytvareji-aliasy</link>
+ <description>Čím by to mohlo být? Na lokále to bylo v pořádku, na webhostingu
+node/xx :-(</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/po-presunu-na-webhosting-se-nevytvareji-aliasy#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/80861</wfw:commentRss>
+ <pubDate>Tue, 14 Nov 2017 10:06:39 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">80861 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>javascript sa neloaduje</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/javascript-sa-neloaduje</link>
+ <description>&lt;p&gt;Ahoj,&lt;/p&gt;
+
+&lt;p&gt;snazim sa spravit sablonu a bojujem s TWIGom… mam problem s *libraries.yml
+a *.info.yml, mam 2 problemy:&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;nie vzdy mi zobere rovnaky kod. napr. to iste mi fungovalo az ked som to
+	skopiroval z ineho template. pouzivam notepad++, v com moze byt problem?&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/javascript-sa-neloaduje&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/javascript-sa-neloaduje#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/80651</wfw:commentRss>
+ <pubDate>Wed, 08 Nov 2017 22:12:24 +0000</pubDate>
+ <dc:creator>otomanfirst2</dc:creator>
+ <guid isPermaLink="false">80651 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>dva až tři nody v jednom - jde to?</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/dva-az-tri-nody-v-jednom-jde</link>
+ <description>&lt;p&gt;Zdravím, mám tři věci:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;typ obsahu „zápis do třídnice“ = vkládání dat&lt;/li&gt;
+
+	&lt;li&gt;view, které zobrazuje již vložené zápisy&lt;/li&gt;
+
+	&lt;li&gt;jednotlivé uživatele s rolí „žák“&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Potřeboval bych vyrobit „hybrida“, který zobrazí v hlavičce údaje
+z polí uživatelského profilu vybraného žáka (výběr přes
+entityreference field typu seznam), uprostřed view s daty z tohoto typu
+obsahu které se vztahují k vybranému žákovi a úp&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/dva-az-tri-nody-v-jednom-jde&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/dva-az-tri-nody-v-jednom-jde#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <enclosure url="https://www.drupal.cz/files/drp1.PNG" length="54865" type="image/png" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/80646</wfw:commentRss>
+ <pubDate>Wed, 08 Nov 2017 13:33:43 +0000</pubDate>
+ <dc:creator>Robii</dc:creator>
+ <guid isPermaLink="false">80646 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vývoj na lokále (mezipaměť)</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/vyvoj-na-lokale-mezipamet</link>
+ <description>Máte někdo nápad jak vyřešit nutnost vyprázdnění mezipaměti při
+editace stránek? Mám řekněme otevřený css soubor pro editaci a při
+každém uložení změn musím vyprázdnit mazipaměť abych ty změny viděl.
+To je celkem otravný. PS: O průzkumníku přímo v prohlížeči a ladění
+touto cestou vím (o to mi nyní nejde).</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/vyvoj-na-lokale-mezipamet#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/80176</wfw:commentRss>
+ <pubDate>Thu, 02 Nov 2017 10:17:25 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">80176 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>drupal 8.4 twig</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/drupal-84-twig</link>
+ <description>&lt;p&gt;Ahojte,&lt;/p&gt;
+
+&lt;p&gt;kde mam vkladat twig subory? na stranke som to nenasiel, pouzivam drupal
+8.4. Popripade kde k nim viem nadstavit cestu. na youtube som videl ,ze to
+vkladali aj ./page.html.twig a sablonu co som skusal to ma napr. v
+./templates/pa­ge.html.twig&lt;/p&gt;
+
+&lt;p&gt;Dakujem&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/drupal-84-twig#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/80166</wfw:commentRss>
+ <pubDate>Mon, 30 Oct 2017 22:36:49 +0000</pubDate>
+ <dc:creator>otomanfirst2</dc:creator>
+ <guid isPermaLink="false">80166 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nefunguje rozbalovací menu</title>
+ <link>https://www.drupal.cz/forum/po-instalaci/jak-na/nefunguje-rozbalovaci-menu</link>
+ <description>Už mi z toho hrabe a nemůžu na to přijít :-( Přepínám šablony a
+prostě to nefunguje. Nastavení mám dobře, tj. u odkazu mám zaškrtnuto
+„zobrazit jako rozbalené“, v nastavení bloku u levelu jsem zkoušel
+různé hodnoty (2, 3, 4, neomezeně). To co se má rozbalovat se v jedné
+šabloně (Bartik) zobrazí už rozbalené a bez nějaké šipky na
+sbalení/rozbalí.&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/po-instalaci/jak-na/nefunguje-rozbalovaci-menu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/po-instalaci/jak-na/nefunguje-rozbalovaci-menu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/38">Jak na to?</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/80146</wfw:commentRss>
+ <pubDate>Mon, 30 Oct 2017 14:04:27 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">80146 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

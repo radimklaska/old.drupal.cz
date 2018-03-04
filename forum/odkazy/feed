@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Odkazy</title>
+ <link>https://www.drupal.cz/taxonomy/term/37/0</link>
+ <description>Odkazy na zajímavé Drupal stránky. Šetřete s reklamou prosím!</description>
+ <language>cs</language>
+<item>
+ <title>Wordpress na Drupal</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/wordpress-na-drupal</link>
+ <description>&lt;p&gt;Ahojte chcel som sa opytat mam portal (&lt;a href=&quot;www.windowscentrum.sk&quot;&gt;www.windowscentrum.sk&lt;/a&gt;), ktory bezi na
+wordpresse a chcel by som sa opytat existuje nejaky nastroj ako to prehodit na
+drupal? Dakujem&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/wordpress-na-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-8x">Drupal 8.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/58166</wfw:commentRss>
+ <pubDate>Sun, 18 Sep 2016 10:13:59 +0000</pubDate>
+ <dc:creator>Martin1213</dc:creator>
+ <guid isPermaLink="false">58166 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vložení příspěvku na diskuzní fórum anonymním uživatelem.</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/vlozeni-prispevku-na-diskuzni-forum-anonymnim-uzivatelem</link>
+ <description>Při vložení příspěvku na diskuzní fórum anonymním uživatelem se
+objeví chyba:
+
+Notice: Undefined offset: 0 ve funkci user_node_load() (řádek:
+3640 v souboru
+/home/users/far­likova/eruca.8u­.cz/web/modules/u­ser/user.modu­le).
+•Notice: Trying to get property of non-object ve funkci user_node_load()
+(řádek: 3640 v souboru
+/home/users/far­likova/eruca.8u­.cz/web/modules/u­ser/user.modu­le).
+
+Příspěvek s&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/odkazy/vlozeni-prispevku-na-diskuzni-forum-anonymnim-uzivatelem&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/vlozeni-prispevku-na-diskuzni-forum-anonymnim-uzivatelem#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/49706</wfw:commentRss>
+ <pubDate>Wed, 06 May 2015 13:39:46 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">49706 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7 - url bez diakritiky</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/drupal-7-url-bez-diakritiky</link>
+ <description>&lt;p&gt;Dobrý den, prosím o radu, jak rozchodit na Drupalu 7 url bez diakritiky.
+Pročetla jsem již několik návodů na internetu, ale bohužel se stále
+nedaří. Může být nějaký problém i v nastavení u poskytovatele
+webhostingu?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/drupal-7-url-bez-diakritiky#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/46411</wfw:commentRss>
+ <pubDate>Thu, 05 Mar 2015 10:33:55 +0000</pubDate>
+ <dc:creator>abspektrum</dc:creator>
+ <guid isPermaLink="false">46411 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Turecké recepty</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/turecke-recepty</link>
+ <description>&lt;p&gt;Zdravím, &lt;a href=&quot;http://tureckakuchyne.net/&quot;&gt;http://tureckakuchyne.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Autorka (+60 let, předtím minimální zkušenosti s počítačem)
+spravuje obsah sama (píše recepty, vkládá fotky, moderuje
+komentáře apod.)&lt;/p&gt;
+
+&lt;p&gt;Kdybych to vytvářel znovu, tak bych nepoužil modul recipe, ale pracoval
+s fields. V této verzi modul pro jiný jazyk než angličtinu nemůžu
+doporučit.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/turecke-recepty#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/17061</wfw:commentRss>
+ <pubDate>Thu, 10 Jan 2013 13:54:21 +0000</pubDate>
+ <dc:creator>m.e.a.</dc:creator>
+ <guid isPermaLink="false">17061 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Webdorf.eu - pro Ty, kteří chtějí zkusit Drupal</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/webdorfeu-pro-ty-kteri-chteji-zkusit-drupal</link>
+ <description>Dobrý den, na novém webu www.webdorf.eu
+naleznete články od začátku tvoření webu v Drupalu 6. Dále naleznete
+i zajímavé články z oblasti Hardware, Software nebo třeba Internetu
+např. rady jak přilákat nové čtenáře apod.</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/webdorfeu-pro-ty-kteri-chteji-zkusit-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/15711</wfw:commentRss>
+ <pubDate>Mon, 22 Oct 2012 15:31:37 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">15711 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>zobrazovani PDF na strance</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/zobrazovani-pdf-na-strance</link>
+ <description>&lt;p&gt;Cau lidi.. normalne si uz fakt nevim rady: vytvoril jsem si svoji vlastni
+ZAKLADNI stranku&lt;br /&gt;
+- mam tam 1 image field (vytvoril jsem asi 5 stranek) pak jsem si uvedomil ze
+by tam melo byt i filefield napr. pro pdf&lt;br /&gt;
+- dodelal jsem tam pole povolene pripony.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/odkazy/zobrazovani-pdf-na-strance&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/zobrazovani-pdf-na-strance#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12441</wfw:commentRss>
+ <pubDate>Wed, 06 Jun 2012 16:05:32 +0000</pubDate>
+ <dc:creator>Sauriel</dc:creator>
+ <guid isPermaLink="false">12441 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Sdílení kvalitních modulů</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/sdileni-kvalitnich-modulu</link>
+ <description>&lt;p&gt;Čas od času objevím zajímavý, dosud neznámý modul či téma. Proto
+jsem si říkal, že by mohlo být zajímavé, kdybychom tu měli možnost
+sdílet odkazy, spolu s příklady užití modulů a praktickými zkušenostmi
+s jejich používáním (např. potřeba aplikovat patche, atp.)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/sdileni-kvalitnich-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11821</wfw:commentRss>
+ <pubDate>Thu, 03 May 2012 08:04:06 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11821 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>www.luft.sk pre tých, ktorý zakúšajú systém Drupal</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/wwwluftsk-pre-tych-ktory-zakusaju-system-drupal</link>
+ <description>&lt;p&gt;Ahojte, ak poznáte niekoho kto si chce poskúšať dáku prácu v Drupale,
+ale je na začiatku, pls. pošlite ho na &lt;a href=&quot;http://www.luft.sk&quot;&gt;www.luft.sk&lt;/a&gt; Zároveň ďakujem, že môžem
+využívať Drupal a že ho vyvíjate. Už som si zakúpil aj knižku
+o Drupale. Dúfam že som Vás tým podporil. :)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/wwwluftsk-pre-tych-ktory-zakusaju-system-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10966</wfw:commentRss>
+ <pubDate>Tue, 31 Jan 2012 13:08:30 +0000</pubDate>
+ <dc:creator>miki.halasko</dc:creator>
+ <guid isPermaLink="false">10966 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zastoupení Drupalu u nás</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/zastoupeni-drupalu-u-nas</link>
+ <description>&lt;p&gt;Zdravím, nemáte někdo čísla zastoupení Drupalu na českém trhu ??
+Porovnání s osatními open source CMS apod.&lt;/p&gt;
+
+&lt;p&gt;Díky za každý odkazy.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/zastoupeni-drupalu-u-nas#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10325</wfw:commentRss>
+ <pubDate>Fri, 16 Sep 2011 07:49:03 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">10325 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Weby na Drupalu od siva01</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/weby-na-drupalu-od-siva01</link>
+ <description>&lt;p&gt;Tak pro ukázku představím několik webů, které provozuji na Drupalu&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://seowebmaster.cz/&quot;&gt;SEOwebmaster.cz&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://opencommunity.cz/&quot;&gt;OpenCommunity.cz&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;https://www.wikileaks.cz/&quot;&gt;WikiLeaks.cz&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://hagesan.cz/&quot;&gt;Hagesan.cz&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://fenosol.cz/&quot;&gt;Fenosol.cz&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&amp;lt;a&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/odkazy/weby-na-drupalu-od-siva01&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/weby-na-drupalu-od-siva01#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10250</wfw:commentRss>
+ <pubDate>Sun, 28 Aug 2011 15:32:04 +0000</pubDate>
+ <dc:creator>siva01</dc:creator>
+ <guid isPermaLink="false">10250 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Portál pro ZŠ, SŠ, VŠ na Drupalu?</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/portal-pro-zs-ss-vs-na-drupalu</link>
+ <description>&lt;p&gt;Zdravím, znáte prosím nějaké weby, které jsou prezentacemi základní,
+střední či vysoké školy, postavené na DRUPALu? Case study?&lt;/p&gt;
+
+&lt;p&gt;Napište, díky předem!&lt;/p&gt;
+
+&lt;p&gt;m&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/portal-pro-zs-ss-vs-na-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10087</wfw:commentRss>
+ <pubDate>Mon, 25 Jul 2011 06:36:43 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">10087 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pochlubím se aspoň tady</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/pochlubim-se-aspon-tady</link>
+ <description>&lt;p&gt;Nějak mi nejde vložit nový web do Katalogu (vše proběhne v pořádku,
+info – „článek vložen“ ale v katalogu se nic neobjeví. Tak se
+pochlubím aspoň zde. Moje první „vážná“ práce s Drupalem za pomoci
+Ubercartu je &lt;a href=&quot;http://www.petparadise.cz&quot;&gt;Petparadise&lt;/a&gt; . Drupal 6.2,
+Ubercart 2.4, vlastní Theme a slideshow pomocí wiews.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/odkazy/pochlubim-se-aspon-tady&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/pochlubim-se-aspon-tady#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9777</wfw:commentRss>
+ <pubDate>Thu, 26 May 2011 08:16:56 +0000</pubDate>
+ <dc:creator>BekyTypo</dc:creator>
+ <guid isPermaLink="false">9777 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>www.drupaldise.com - The Drupal Merchandise Store</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/wwwdrupaldisecom-drupal-merchandise-store</link>
+ <description>&lt;p&gt;Hi @ all Drupal Fans,&lt;/p&gt;
+
+&lt;p&gt;I founded a Drupal Merchandise Store with some funny drupal-fan-products.
+The Online Shop called Drupaldise offers Druplicon Plush-Toys, druplicon
+Mousepads and Drupal Pins. Maybe you find our merchandise stuff interesting and
+want order some drupal fan products…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/odkazy/wwwdrupaldisecom-drupal-merchandise-store&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/wwwdrupaldisecom-drupal-merchandise-store#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8808</wfw:commentRss>
+ <pubDate>Mon, 20 Dec 2010 22:51:06 +0000</pubDate>
+ <dc:creator>Drupaldise</dc:creator>
+ <guid isPermaLink="false">8808 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>www.cstd.cz</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/wwwcstdcz</link>
+ <description>&lt;p&gt;vypadá docela dobře (taky sem je dělal já :-) )&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cstd.cz&quot;&gt;www.cstd.cz&lt;/a&gt; Česko – Slovenská
+tiskovinová databáze&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/wwwcstdcz#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8556</wfw:commentRss>
+ <pubDate>Tue, 02 Nov 2010 19:39:42 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">8556 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 7 na odskoušení</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/drupal-7-na-odskouseni</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://drupal7.ligart.net/&quot;&gt;drupal7.ligar­t.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;user: admin-d7 pass: drupal7&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/drupal-7-na-odskouseni#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7658</wfw:commentRss>
+ <pubDate>Wed, 26 May 2010 08:45:39 +0000</pubDate>
+ <dc:creator>dafdsfasd</dc:creator>
+ <guid isPermaLink="false">7658 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Menu</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/menu</link>
+ <description>&lt;p&gt;Zdravím. Poraďte prosím někdo jak udělám v menu podmenu. Například
+v menu bude odkaz Řecko, a když na to kliknu chci aby se mi ukázaly
+podpoložky tohoto odkazu Zakynthos, Corfu, atd.. Nebo například dám německo
+a ukáží se mi německá města, když dám Dánsko ukáží se mi podpoložky
+dánské města. děkuji.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/menu#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7577</wfw:commentRss>
+ <pubDate>Sat, 15 May 2010 06:23:00 +0000</pubDate>
+ <dc:creator>joujou</dc:creator>
+ <guid isPermaLink="false">7577 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal - platforma pro spolupráci</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/drupal-platforma-pro-spolupraci</link>
+ <description>&lt;p&gt;Dobrý den, tímto bych rád poděkoval všem lidem z fóra, kteří měli
+trpělivost s mými začátečnickými otázkami a ochotně mi pomohli. (Tvorba
+webu v Joomle!, kterou znám ještě z doby kdy byla „Mambo“, je přece
+jen hodně odlišná a občas jsem se v nastaveních dost „topil“ (a
+ještě stále topím :-().&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/mix/odkazy/drupal-platforma-pro-spolupraci&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/drupal-platforma-pro-spolupraci#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7485</wfw:commentRss>
+ <pubDate>Thu, 29 Apr 2010 10:11:07 +0000</pubDate>
+ <dc:creator>lusmo</dc:creator>
+ <guid isPermaLink="false">7485 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ubercart.sk</title>
+ <link>https://www.drupal.cz/forum/inzerce/poptavam-web/ubercartsk</link>
+ <description>&lt;p&gt;Ponúkam doménu &lt;a href=&quot;http://www.ubercart.sk&quot;&gt;www.ubercart.sk&lt;/a&gt; na
+predaj. Cena podľa dohody (žiadne supervysoké ceny nebudú, chcem iba, aby sa
+to aj Vám aj mne oplatilo :-) ). Doména je vhodná pre každého kto vytvára
+webstránky v Drupale, a pre tých ktorí vytvárajú e-shopy. Pre viac info
+píšte na &lt;a href=&quot;mailto:albertcoder@gmail.com&quot;&gt;albertcoder&amp;#64;gmail.com&lt;/a&gt;
+alebo na &lt;a href=&quot;mailto:herencsarfamily@gmail.com&quot;&gt;herencsarfamily&amp;#64;gmail.com&lt;/a&gt; .&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/inzerce/poptavam-web/ubercartsk#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6901</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 11:50:31 +0000</pubDate>
+ <dc:creator>alcoder</dc:creator>
+ <guid isPermaLink="false">6901 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chemical Engineering Student Club www.iukmk.org</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/chemical-engineering-student-club-wwwiukmkorg</link>
+ <description>&lt;p&gt;chemical engineering university student club web site with drupal&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.iukmk.org&quot;&gt;http://www.iukmk.org&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/chemical-engineering-student-club-wwwiukmkorg#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6370</wfw:commentRss>
+ <pubDate>Sun, 08 Nov 2009 11:19:08 +0000</pubDate>
+ <dc:creator>che</dc:creator>
+ <guid isPermaLink="false">6370 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>ElMetr - stránky o počítačích, programování a elektronice</title>
+ <link>https://www.drupal.cz/forum/mix/odkazy/elmetr-stranky-o-pocitacich-programovani-elektronice</link>
+ <description>&lt;p&gt;Mrkněte na stránky na &lt;a href=&quot;http://www.elmetr.ic.cz&quot;&gt;www.elmetr.ic.cz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;BTW: hledám i šikovné redaktory, které baví psát o PC&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/mix/odkazy/elmetr-stranky-o-pocitacich-programovani-elektronice#comments</comments>
+ <category domain="https://www.drupal.cz/taxonomy/term/37">Odkazy</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6355</wfw:commentRss>
+ <pubDate>Thu, 05 Nov 2009 11:48:49 +0000</pubDate>
+ <dc:creator>marpit</dc:creator>
+ <guid isPermaLink="false">6355 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

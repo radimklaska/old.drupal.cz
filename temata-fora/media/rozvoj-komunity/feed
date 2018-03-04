@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - Rozvoj komunity</title>
+ <link>https://www.drupal.cz/taxonomy/term/373/0</link>
+ <description>Máte nápad na rozvoj české a slovenské Drupal komunity? Sem s ním.</description>
+ <language>cs</language>
+<item>
+ <title>Problem v drupal komunitě</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/problem-v-drupal-komunite</link>
+ <description>Zajímal by mě Váš názor na situaci kolem dění vevnitř Drupal
+komunity. Viz Slovenské forum – https://drupal.sk (pardon za link ale jsou tam
+všechny podstatné odkazy na jednom místě)
+
+Hrozí další Mamboo&amp;lt;-&amp;gt;Joomla ?</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/problem-v-drupal-komunite#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/69361</wfw:commentRss>
+ <pubDate>Wed, 12 Apr 2017 12:43:05 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">69361 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>provajderi</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/provajderi</link>
+ <description>&lt;p&gt;Robil som zakaznikovi web. U mna na hostingu sme si ho v priehebu vystavby
+vzajomne konzultovali a odsuhlasovali. Ked bol web cca 95% hotovy, premigroval
+som ho na zakaznikov hosting k inemu provajderovi. Web nefungoval. Kontaktoval
+som administratorov a oni povypinali zo suboru .htaccess veci ktore oni (kvoli
+bezpecnosti) nepodporuju. Webka sa rozbehla, ale bez obrazkov.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/rozvoj-komunity/provajderi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/provajderi#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24471</wfw:commentRss>
+ <pubDate>Fri, 24 Jan 2014 07:53:18 +0000</pubDate>
+ <dc:creator>frenkacik</dc:creator>
+ <guid isPermaLink="false">24471 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Setkání olomouckých Drupalistů?</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/setkani-olomouckych-drupalistu</link>
+ <description>&lt;p&gt;Měl by někdo z Vás zájem o setkání Drupalistů z Olomouce a okolí?
+Rád se podělím o své znalosti a poslechnu si ostatní.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/setkani-olomouckych-drupalistu#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11546</wfw:commentRss>
+ <pubDate>Fri, 13 Apr 2012 23:46:11 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">11546 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>irc kanál drupal.cz ?</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/irc-kanal-drupalcz</link>
+ <description>&lt;p&gt;Ahojte, má prosím drupal.cz vlastní public místnost na nějakém z irc
+serverů?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/irc-kanal-drupalcz#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10786</wfw:commentRss>
+ <pubDate>Thu, 15 Dec 2011 20:54:22 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">10786 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Napad na diplomovu pracu</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/napad-na-diplomovu-pracu</link>
+ <description>&lt;p&gt;Zdravim,&lt;/p&gt;
+
+&lt;p&gt;rad by som Vas poprosil o nejake napady na diplomovu pracu v Drupale.
+Samozrejme nechcem mat pracu typu „one man show“ kde vytvorim nejaky modul,
+ktory nikto nevyuzije len ja na obhajobe. Urcite by som sa chcel vyhnut praci
+kde vytvorim nieco len zoskladanim uz existujucich modulov. Rad by som nakodil
+nieco nove.&lt;/p&gt;
+
+&lt;p&gt;Napady:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/rozvoj-komunity/napad-na-diplomovu-pracu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/napad-na-diplomovu-pracu#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-7x">Drupal 7.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8998</wfw:commentRss>
+ <pubDate>Mon, 24 Jan 2011 13:20:46 +0000</pubDate>
+ <dc:creator>luqash</dc:creator>
+ <guid isPermaLink="false">8998 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>www.drupal.cz/o-systemu-drupal aktualizace</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/wwwdrupalczo-systemu-drupal-aktualizace</link>
+ <description>&lt;p&gt;Ahoj, na &lt;a href=&quot;http://www.drupal.cz/o-systemu-drupal&quot;&gt;http://www.drupal.cz/…stemu-drupal&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Gadgets Živě – Tento a mnoho dalších serverů z dílny
+Computer Press.&lt;/p&gt;
+
+&lt;p&gt;no nezdalo se mi, ze by to byl drupal, anebo aspx ?&lt;/p&gt;
+
+&lt;p&gt;Kdyžtak to fixněte a najděte nějaké další (aktuální)
+příklady, dík…&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/wwwdrupalczo-systemu-drupal-aktualizace#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8454</wfw:commentRss>
+ <pubDate>Sun, 17 Oct 2010 20:47:17 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">8454 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Materiály z Drupal setkání</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/materialy-z-drupal-setkani</link>
+ <description>&lt;p&gt;již téměř rok probíhají setkání drupalistů na AVU v Praze. Vždy je
+tak pět přednášek s prezentacemi. Nestálo by za to udělat zde sekci/
+stránku, na které by byly vystavené prezentace – třeba v PDF?
+Samozřejmě zpětně, vyzvat přednášející novinkou, ať své prezentace
+pošlou.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/materialy-z-drupal-setkani#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8257</wfw:commentRss>
+ <pubDate>Thu, 16 Sep 2010 23:34:11 +0000</pubDate>
+ <dc:creator>kelvin</dc:creator>
+ <guid isPermaLink="false">8257 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zrusenie Drupal 5...</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/zrusenie-drupal-5</link>
+ <description>&lt;p&gt;Niekde som sa docital ( uz si nepamatam,mozno prave tu), ze zavedenim Drupal
+7, zanikne Drupal 5. Vedel by niekto k tomu nieco povedat ? Dakujem za
+odpoved.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/zrusenie-drupal-5#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-5-x-0">Drupal 5.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7392</wfw:commentRss>
+ <pubDate>Wed, 14 Apr 2010 20:12:52 +0000</pubDate>
+ <dc:creator>tono131</dc:creator>
+ <guid isPermaLink="false">7392 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ubercart 2 překlad</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/ubercart-2-preklad</link>
+ <description>&lt;p&gt;Tak se snazim marne najit (sveho casu kompletni) preklad Ubercart…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localize.drupal.org/translate/languages/cs/translate?project=ubercart&amp;amp;status=5&amp;amp;release=15102&amp;amp;search=&amp;amp;author=&amp;amp;context=all&amp;amp;limit=10&quot;&gt;http://localize.drupal.org/…cs/translate?…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tohle je fakt prusvih … Prelozeno je vse (resp. vse je bud prelozeno, nebo
+ma sugesstion) … JAK SE DOSTANU K PREKLADU?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/rozvoj-komunity/ubercart-2-preklad&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/ubercart-2-preklad#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7366</wfw:commentRss>
+ <pubDate>Fri, 09 Apr 2010 23:41:15 +0000</pubDate>
+ <dc:creator>PEpe</dc:creator>
+ <guid isPermaLink="false">7366 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Propojení drupal.cz a drupal.sk</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/propojeni-drupalcz-drupalsk</link>
+ <description>&lt;p&gt;Jelikož se ptáte, co udělat pro rozvoj komunity: mě by se líbilo daleko
+větší propojení komunit .cz a .sk. Zodpovědný český drupalista by měl
+mít registraci a sledovat .com, .cz i .sk (diskuse). Nešlo by to zjednodušit?
+Opravdu je třeba rozdílný web .cz a .sk? Dle mě, jak to vidím, je spíše
+rozlišení Praha, Bratislava, Brno, …, venkov(-: (a z Brna je do Bratislavy
+blíž než do Prahy…).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/rozvoj-komunity/propojeni-drupalcz-drupalsk&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/propojeni-drupalcz-drupalsk#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6599</wfw:commentRss>
+ <pubDate>Mon, 07 Dec 2009 22:42:35 +0000</pubDate>
+ <dc:creator>mic</dc:creator>
+ <guid isPermaLink="false">6599 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>JoomDruPress už možná v listopadu</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/joomdrupress-uz-mozna-v-listopadu</link>
+ <description>&lt;p&gt;Sú okolo tejto témy nejaké novinky? …Ve světě svobodného software
+totiž došlo k dohodě dosud nevídané. Týmy tří nejvýznamnějších
+redakčních systému (Joomla, Drupal a Wordpress) se sešly, aby prodiskutovaly
+další postup při získání důležité zakázky. Pokud se kolem svobodného
+software pohybujete víte, že v současné době celosvětové hospodářské
+krize se kolem snižování nákladů dějí zajímavé věci a mnoho subjektů
+je svolnější k tomu open source nasazovat… &lt;a href=&quot;http://www.joomlaportal.cz/content/view/340/2/&quot;&gt;http://www.joomlaportal.cz/…/view/340/2/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/rozvoj-komunity/joomdrupress-uz-mozna-v-listopadu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/joomdrupress-uz-mozna-v-listopadu#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5079</wfw:commentRss>
+ <pubDate>Tue, 28 Apr 2009 01:25:38 +0000</pubDate>
+ <dc:creator>Yezid</dc:creator>
+ <guid isPermaLink="false">5079 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>vyresene problemy</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/vyresene-problemy</link>
+ <description>&lt;p&gt;Zdravicko,&lt;/p&gt;
+
+&lt;p&gt;libi se mi na drupal.org v takovych tech „issues“ k modulum, ze je tam
+takove to uzavreni issue… kdyz je vyreseny. Neco takovyho by se mi libilo
+i ve foru.&lt;/p&gt;
+
+&lt;p&gt;Mejte se. J.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/vyresene-problemy#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4771</wfw:commentRss>
+ <pubDate>Wed, 04 Mar 2009 22:52:37 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">4771 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal prednasky - BA</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/drupal-prednasky-ba</link>
+ <description>&lt;p&gt;I keď viem, že u nás na Slovensku je Drupalistov naozaj veľmi málo,
+napadlo ma, po vzore českého Drupal tímu a tiež faktu, že oficiálne Drupal
+Cony sú organizované prevažne ďaleko od nás, zorganizovať u nás
+prednášku o Drupale.&lt;/p&gt;
+
+&lt;p&gt;Zatiaľ je to len idea, ale ak bude dostatočný záujem a pripojil by sa ku
+mne ešte niekto na prednášanie, nevidel by som dôvod to neskúsiť.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/rozvoj-komunity/drupal-prednasky-ba&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/drupal-prednasky-ba#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4305</wfw:commentRss>
+ <pubDate>Thu, 18 Dec 2008 21:35:03 +0000</pubDate>
+ <dc:creator>ivanjaros@drupal.org</dc:creator>
+ <guid isPermaLink="false">4305 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Společný překlad modulů?</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/spolecny-preklad-modulu</link>
+ <description>&lt;p&gt;Ahoj,&lt;/p&gt;
+
+&lt;p&gt;jak probíhá překlad modulů mimo jádro? Skoro žádné contrib moduly
+nemají český překlad, ale divil bych se, kdyby si je nikdo ani částečně
+nepřeložil.&lt;/p&gt;
+
+&lt;p&gt;Každý sám překládá a přidává issue na drupal.org? Nebo existuje
+nějaký server pro překladatele?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/rozvoj-komunity/spolecny-preklad-modulu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/spolecny-preklad-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/drupal-6-x">Drupal 6.x</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3971</wfw:commentRss>
+ <pubDate>Thu, 30 Oct 2008 08:35:02 +0000</pubDate>
+ <dc:creator>palmstrom@drupal.org</dc:creator>
+ <guid isPermaLink="false">3971 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nová úvodní stránka Drupal.cz</title>
+ <link>https://www.drupal.cz/forum/media/rozvoj-komunity/nova-uvodni-stranka-drupal-cz</link>
+ <description>&lt;p&gt;V pristich mesicich bych rad udelal novou titulni stranku tohoto serveru. Ta
+soucasna uz svym zpusobem nevyhovuje. Design pravdepodobne zustane stejny, nebo
+ho zaridi grafik, nicmene byl bych rad, kdyby kazdy, kdo ma zajem, mohl napsat,
+co si od uvodni stranky predstavuje. Pojdme spolecne vytvorit takovou malou
+architekturu te stranky…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/forum/media/rozvoj-komunity/nova-uvodni-stranka-drupal-cz&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/forum/media/rozvoj-komunity/nova-uvodni-stranka-drupal-cz#comments</comments>
+ <category domain="https://www.drupal.cz/temata-fora/media/rozvoj-komunity">Rozvoj komunity</category>
+ <category domain="https://www.drupal.cz/verze-drupalu/nespecifikovano">Nespecifikováno</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3666</wfw:commentRss>
+ <pubDate>Thu, 04 Sep 2008 20:49:00 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">3666 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

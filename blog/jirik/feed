@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Jiřík&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/jirik</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Ahoj všem drupalákům</title>
+ <link>https://www.drupal.cz/blog/jirik/ahoj-vsem-drupalakum</link>
+ <description>&lt;p&gt;Přeju si pro sebe mnoho štěstí s Drupalem&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jirik/ahoj-vsem-drupalakum#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6719</wfw:commentRss>
+ <pubDate>Wed, 30 Dec 2009 23:11:17 +0000</pubDate>
+ <dc:creator>Jiřík</dc:creator>
+ <guid isPermaLink="false">6719 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

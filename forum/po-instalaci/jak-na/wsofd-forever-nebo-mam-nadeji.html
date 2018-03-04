@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;WSOFD forever, nebo mám naději?&quot;" href="/crss/node/7964" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>WSOFD forever, nebo mám naději? | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_02a36298fc18f7cc1cadbc14f0dcd6ff.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a> » <a href="/forum">Témata fóra</a> » <a href="/forum/po-instalaci">Po instalaci</a> » <a href="/forum/jak-na-to">Jak na to?</a></div>        <h2 class="title">WSOFD forever, nebo mám naději?</h2>
+        <div class="tabs"></div>
+                  <div class="article  article-7964">
+    <span class="submitted">Vložil/a <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a>, 2 Srpen, 2010 - 21:03</span>
+  <div class="pcontent">
+    <div class="forum-kat">
+      <b>Kategorie:</b>
+      Jak na to?    </div>
+    <div class="forum-ver">
+      <b>Týká se verze:</b>
+      Drupal 6.x    </div>
+    <p>Ahoj,</p>
+
+<p>dost nerad zakládám tohle vlákno, ale v mé situaci je každá
+rada drahá:</p>
+
+<ul>
+	<li>firemní web běží po několika málo úpravách na PHP 5.3, 128 MB
+	memory_limit</li>
+
+	<li>provedl jsem to, že jsem nastavil v možnostech výkonu normální mód
+	cache, cacheování bloků, css, js a uložil</li>
+
+	<li>pak dal na stejné stránce Vyčistit cache … WSOD</li>
+
+	<li>v pořádku, vytáhnu z podpory zálohu databáze, jenže …</li>
+
+	<li>databáze není zálohovaná, protože hosting poskytuje firmě další
+	firma jako bonus k doméně !</li>
+</ul>
+
+<p>Takže mé zbytečné kroky k záchraně:</p>
+
+<ul>
+	<li>vyprázdnil jsem všechny tabulky cache v databázi ručně … nic</li>
+
+	<li>v logu se stále opakuje toto: PHP Deprecated: Function ereg() is
+	deprecated in /data/cz/dome­na/www/includes/fi­le.inc on line 911</li>
+
+	<li>pohledal jsem už řešená vlákna s tímto errorem a zkusil několik
+	úprav v souborech ze složky include, jenže to bylo jen aby zmizely chyby
+	způsobené PHP 5.3 přímo v Drupalu, můj problém se tím ani nehl</li>
+
+	<li>přenesl jsem web na localhost, kde mám PHP 5.2 … nic</li>
+
+	<li>zkusil ještě několik zmateností, jako spustit update.php, změnit
+	v databázi zpět nastavení cache a další úpravy co si nepamatuju
+	… nic</li>
+</ul>
+
+<p>Toš teď už fakt nevím. Zbývá mi jedině web znovu seskládat
+z databáze? Díky za každý odvážný příspěvek.</p>
+
+<p>PS: Nikomu to nevykládat, poškozená firma si toho evidentně ještě
+nevšimla…</p>  <div class="forum-topic-navigation clear-block">
+          <a href="/forum/po-instalaci/jak-na/imagefupload-filefield-paths" class="topic-previous" title="Přejít na předchozí téma.">‹ ImageFUpload + Filefield Paths</a>
+              <a href="/forum/po-instalaci/jak-na/problem-migrace-drupal-47-6" class="topic-next" title="Přejít na následující téma.">Problem migrace Drupal 4.7 -&gt; 6 ›</a>
+      </div>
+  </div>
+  
+  <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-7914" class="social-add digglink" onmouseover="showSocials(7914)" onmouseout="hideSocials(7914)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-7914">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji&amp;title=WSOFD forever, nebo mám naději?" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji&amp;title=WSOFD forever, nebo mám naději?" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji&amp;title=WSOFD forever, nebo mám naději?" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div></div> <!-- article end -->
+<div class="article-spacer">&nbsp;</div>
+<div id="comments">
+  <a id="comment-29495"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29495" class="active">zkus smazat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 2 Srpen, 2010 - 22:01.  </div>
+
+  <div class="content">
+    <ul>
+	<li>zkus smazat .htaccess</li>
+
+	<li>pokus je tou pricinnou opravdu cache tak ta se da vypnout v tabulce
+	variable:<br />
+</li>
+</ul>
+
+<p><em>name = value;</em></p>
+
+<pre class="php"><code>cache = s:1:"0";
+block_cache = s:1:"0";
+preprocess_css = s:1:"0";
+preprocess_js = s:1:"0";</code></pre>
+
+<p>jo a jinak: kotatka se nevrazdi! beztak vic skody napachaly ty dodatecne
+upravy.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29495" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29496"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29496" class="active">Smazání .htaccess bílou</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 2 Srpen, 2010 - 22:20.  </div>
+
+  <div class="content">
+    <p>Smazání .htaccess bílou obrazovkou nepohlo a ty hodnoty s cache jsem
+zkoušel měnit hned jako jeden z prvních kroků, ale nepomohlo. Přesto díky
+za tip. Koťátek je mi líto (snad to nečte Ema), ale jiná cesta nebyla. Web
+fungoval skoro rok, pak na tom hostingu (běží jim na něm jen pár webů)
+nasadili PHP 5.3 bez upozornění a nechtěli couvnout, tak jsem měnil core
+tuším jen na dvou místech, aby nevyskakovaly chyby a aby fungoval modul
+webform. Řekl bych že to nebude mít vliv na počasí.</p>
+
+<p>Ještě mě napadá zkusit přehrát soubory, jako bych upgradoval na
+novější verzi. Může to pomoct, když je podle mě zásek v databázi?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29496" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29497"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29497" class="active">kazdopadne pokud delsi dobu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 2 Srpen, 2010 - 22:30.  </div>
+
+  <div class="content">
+    <p>kazdopadne pokud delsi dobu nebyl update tak je vhodne nasadit nejnovejsi
+verze protoze spousta modulu se stava postupne 5.3 …(ted me nenapada to
+slovo, proste na tom fungujou)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29497" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29498"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29498" class="active">Kompatibilní? Zkusím zítra a</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 2 Srpen, 2010 - 22:36.  </div>
+
+  <div class="content">
+    <p>Kompatibilní? Zkusím zítra a třeba s tím nějak pohnu. Pak dám
+vědět. Zatím díky za spolupráci.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29498" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-29503"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29503" class="active">Nahrál jsem nejnovější verzi,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 3 Srpen, 2010 - 10:58.  </div>
+
+  <div class="content">
+    <p>Nahrál jsem nejnovější verzi, update.php updatoval 0 z 0 aktualizací
+a efekt je ten, že ve zdrojovém kódu je řádek:</p>
+
+<p>„Fatal error: Call to undefined function webform_menu_load() in
+D:\X.localhos­t\domena\inclu­des\menu.inc on line 410“</p>
+
+<p>Zkusil jsem smazat zmíněný modul webform a hláška se zobrazila už i na
+bílé stránce. Nahrál jsem tedy novou verzi webformu a tento řádek se
+zobrazila znovu, ale už opět jenom ve zdrojovém kódu stránky. V diskuzích
+jsem vyčetl, že je třeba deaktivovat modul Webform, ale jak na to když se
+nedostanu do administrace?</p>
+
+<p>Mám zkusit nahrát databázi z čisté instalace Drupalu a postupně do ní
+importovat části poškozené databáze?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29503" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29504"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29504" class="active">Moduly lze deaktivovat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/agir" title="Zobrazit profil uživatele.">agir</a> dne 3 Srpen, 2010 - 11:09.  </div>
+
+  <div class="content">
+    <p>Moduly lze deaktivovat v databázi. Již jsme to tu několikrát psali.
+Tabulka: System, sloupec: Status.<br />
+PS Možná by stálo za to dát to do FAQ (to Ema)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29504" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29506"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29506" class="active">tak FAQ to je, otazka je</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 3 Srpen, 2010 - 11:26.  </div>
+
+  <div class="content">
+    <p>tak FAQ to je, otazka je jestli si tim clovek ktery tam bude hledat(tedy
+zacatecnik) nemuze nadelat vic problemu nez uzitku (cimz nerikam nedat to tam,
+ale zvazit klady a zapory)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29506" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-29515"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29515" class="active">Díky, to jsem nevěděl. Přesto</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 3 Srpen, 2010 - 14:05.  </div>
+
+  <div class="content">
+    <p>Díky, to jsem nevěděl. Přesto mi to ale bohužel nepomohlo a stále se
+zobrazuje chyba</p>
+
+<p>Fatal error: Call to undefined function webform_menu_load() in
+D:\X.localhos­t\domena\inclu­des\menu.inc on line 410</p>
+
+<p>Existuje ještě nějaký pokus, jak stránky zachránit? Jaká je vlastně
+šance, že bych web dokázal seskládat do nové databáze?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29515" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29516"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29516" class="active">takze v tabulce system</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 3 Srpen, 2010 - 14:54.  </div>
+
+  <div class="content">
+    <p>takze v tabulce system u vseho like %webform% je nastaven status na
+0 ?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29516" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29518"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29518" class="active">Přesně tak (webform,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 3 Srpen, 2010 - 16:32.  </div>
+
+  <div class="content">
+    <p>Přesně tak (webform, webformblock). Otravný, že? Tím jsem eliminoval
+možnost ovlivnění problému tou zmiňovanou změnou core. Nějaké další
+nápady? Oceňuji tvoji vytrvalou snahu :-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29518" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29520"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29520" class="active">kdyz neco updatujes tak</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 3 Srpen, 2010 - 17:35.  </div>
+
+  <div class="content">
+    <p>kdyz neco updatujes tak nejdrive to vymazes a pak teprve nahrajes novou
+verzi(vypada to jako detail ale je to dulezite!)?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29520" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29521"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29521" class="active">Ze začátku jsem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 3 Srpen, 2010 - 18:50.  </div>
+
+  <div class="content">
+    <p>Ze začátku jsem překopírovával, ale teď vždy vše smažu (core
+i moduly) a pak nahrávám nové soubory.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29521" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div></div></div></div></div><a id="comment-29725"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29725" class="active">Jak odstranit modul Webform</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 11 Srpen, 2010 - 11:40.  </div>
+
+  <div class="content">
+    <p>Po dlouhém zkoumání se mi podařilo web z části zprovoznit, ale
+zvláštním způsobem:</p>
+
+<ol>
+	<li>Problém způsobuje opravdu modul Webform, nicméně když jsem ho
+	v tabulce system deaktivoval (spolu s Webform block), pouze na bílé
+	obrazovce se vypisovala výše zmíněná chyba Call to undefined function
+	webform_menu_lo­ad().</li>
+
+	<li>Zkusil jsem tedy v databázi vyhledat všechny výskyty řetězce
+	webform_menu_load a tyto řádky smazat + kompletně všechny řádky
+	s řetězcem webform. Drupal pak naběhl, ale například bez výpisů z Views
+	a se spoustou chyb. Zřejmě jsem tedy smazal i co jsem neměl. Původní
+	databázi stále mám, takže zkouším všechno.</li>
+</ol>
+
+<p>Napadá někoho postup, jak správně zrušit volání takové funkce, nebo
+bezpečně ze systému izolovat modul Webform? Mám poskytnout některé
+tabulky? Děkuji.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29725" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-29726"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29726" class="active">A nemáte něco náhodou</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/agir" title="Zobrazit profil uživatele.">agir</a> dne 11 Srpen, 2010 - 14:02.  </div>
+
+  <div class="content">
+    <p>A nemáte něco náhodou v šablonách? př. template.php atd?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29726" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29731"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29731" class="active">Zajímavé. Nahrál jsem čistou</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 11 Srpen, 2010 - 16:59.  </div>
+
+  <div class="content">
+    <p>Zajímavé. Nahrál jsem čistou databázi, kterou jsem si stáhl ze
+zablokovaného webu, přejmenoval jsem použité téma na neexistující název
+a web se mi začal načítat sice beze stylu, ale s veškerým obsahem včetně
+Views. Po pár sekundách, těsně před celým načtením ale opět bílá
+obrazovka. Po reloadu už jenom ta bílá. Budu dál zkoušet. Další nápad?
+:-) Díky.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29731" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-29732"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29732" class="active">Přes databázi jsem nastavil</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 11 Srpen, 2010 - 17:09.  </div>
+
+  <div class="content">
+    <p>Přes databázi jsem nastavil téma Garland a zdá se, že všechno krásně
+funguje :-) Pak při přepnutí na běžné téma web opět spadl. S tím už
+si snad nějak poradím a problém najdu. Děkuji všem za spolupráci.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29732" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-29735"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29735" class="active">Nakonec mi zatuhnutí webu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kyberman" title="Zobrazit profil uživatele.">Kyberman</a> dne 11 Srpen, 2010 - 17:43.  </div>
+
+  <div class="content">
+    <p>Nakonec mi zatuhnutí webu opravdu způsobovalo nastavení optimalizace CSS a
+JS, jak jsem psal na začátku. Že by to ten pochybný server nepodporoval?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29735" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29741"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji#comment-29741" class="active">A nebo máš něco v nějakém</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/agir" title="Zobrazit profil uživatele.">agir</a> dne 11 Srpen, 2010 - 18:22.  </div>
+
+  <div class="content">
+    <p>A nebo máš něco v nějakém javascriptu, co se navzájem po komprimaci
+nesnáší a „vyžere“ paměť.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7964/29741" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/7964"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-b0b5441dc0ac6c000564c4b7fe6b66c7" value="form-b0b5441dc0ac6c000564c4b7fe6b66c7"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/forum/po-instalaci/jak-na/wsofd-forever-nebo-mam-nadeji?destination=node%2F7964"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-a87c2ae26ee179580378def58711a76a" value="form-a87c2ae26ee179580378def58711a76a"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/cfd-trading" class="tagadelic level1">cfd trading</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac#comment-104041">Doplnění</a><br />před 2 hod 31 min</li>
+<li><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 1 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 16 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 15 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 19 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 20 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 14 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 18 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>1 host</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":1103,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

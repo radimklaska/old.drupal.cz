@@ -1,0 +1,1024 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Drupal Brno Pub - 25.6.2010 (0.sraz)&quot;" href="/crss/node/7708" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Drupal Brno Pub - 25.6.2010 (0.sraz) | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_89f0b64afb4ba47f586bd984f765f0a7.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a></div>        <h2 class="title">Drupal Brno Pub - 25.6.2010 (0.sraz)</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-7708">
+    <span class="submitted">Vložil/a <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a>, 8 Červen, 2010 - 22:55</span>
+    <div class="pcontent"><p>Zdravím příznivce CMS Drupal nejen z Moravy a okolí. Několikrát jsem
+se účastnil neformálních Drupal setkání v Praze, které byly skvěle
+zorganizované díky aktivním Drupalistům (Ema, Sign, Besh, A.Burcin, J.Suchy
+a další). Na každém setkání si člověk mohl najít něco nového, co se
+dá uplatnit v praxi při tvorbě webů. Ne všem se podaří navštívit tato
+setkání v Praze, proto jsme se domluvili s Gedikem (<a href="http://www.lvb.cz/gedik">http://www.lvb.cz/gedik</a>), ze uspořádáme
+v Brně v hospůdce 0.sraz pro ty, co se nemohou zúčastnit setkání
+v Praze. Sraz v hospůdce je plánovan 25.6. v pátek v 18h. V hospůdce
+bude dost času na debatu nad našími zkušenostmi s Drupal-em. Věříme, že
+bude zájem o další pokračování Drupal setkání v Brně.
+Předpokládáme účast cca 15 Drupalistů.</p>
+
+<p>Místo srazu je v hospudce <a href="http://www.valhalla.cz/">http://www.valhalla.cz/</a> – 1 zastávku
+šalinó <strong>12</strong> nebo <strong>13</strong> od hlavňáku směrem
+šilingrák (<a href="https://is.gd/cLnLZ">http://is.gd/cLnLZ</a>) a pak dolú
+pěšky po Pekandě (Pekařská)</p>
+
+<p>Pod článkem se můžete registrovat.</p>
+
+<p>Účast potvrdilo : 16 lidí (nakonec přišlo 20 lidí :-) )</p>
+
+<p>Petr Podrabský &amp; Gedík<br />
+e: petrpo @ gmail.com<br />
+m: 777 559 032</p><a name="signup"></a><h3>Signups closed for this <em>Článek</em></h3><div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-3390" class="social-add digglink" onmouseover="showSocials(3390)" onmouseout="hideSocials(3390)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-3390">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/sraz/drupal-brno-pub-2562010-0sraz&amp;title=Drupal Brno Pub - 25.6.2010 (0.sraz)" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/sraz/drupal-brno-pub-2562010-0sraz&amp;title=Drupal Brno Pub - 25.6.2010 (0.sraz)" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/sraz/drupal-brno-pub-2562010-0sraz" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/sraz/drupal-brno-pub-2562010-0sraz&amp;title=Drupal Brno Pub - 25.6.2010 (0.sraz)" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-28269"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28269" class="active">Super nápad, rád se</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/venoxis" title="Zobrazit profil uživatele.">venoXis</a> dne 9 Červen, 2010 - 23:25.  </div>
+
+  <div class="content">
+    <p>Super nápad, rád se zúčastním. Doufám, že neurazím svým věkem a
+zkušenostmi :-D</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28269" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28392"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28392" class="active">Re: </a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a> dne 15 Červen, 2010 - 20:54.  </div>
+
+  <div class="content">
+    <p>O veku nebyla zminka a jakekoliv zkusenosti vitany</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28392" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-28335"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28335" class="active">Snad jenom dodám, že teďka</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Roman Dufek (bez ověření) dne 12 Červen, 2010 - 12:58.  </div>
+
+  <div class="content">
+    <p>Snad jenom dodám, že teďka tam dvanáctka a třináctka nejezdí, jezdí
+za náma do staráku. Co tam jezdí netuším :) sedmička a pětka od
+mendláku snad.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28335" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28393"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28393" class="active">Diky za info</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a> dne 15 Červen, 2010 - 20:55.  </div>
+
+  <div class="content">
+    <p>Dival jsem se na jizdni rady zrychlene a tak to obcas dopadne. Pesky
+z hlavnaku to taky jde. :-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28393" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-28336"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28336" class="active">dotaz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/berkas1" title="Zobrazit profil uživatele.">berkas1</a> dne 12 Červen, 2010 - 15:04.  </div>
+
+  <div class="content">
+    <p>máte nějaký aspoň přibližný program?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28336" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28390"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28390" class="active">dotaz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a> dne 15 Červen, 2010 - 19:02.  </div>
+
+  <div class="content">
+    <p>Puvodne jsme s Gedikem planovali, ze bychom vzali do hospody knihu od Zdenka
+Polzera (333 triku s Drupalem). A kdyz prijdeme jen my dva, probereme nase
+zkusenosti, ktere jsme zatim pobrali. Proto jsme to nazvali, jako 0.sraz, kdyz
+by uz nikdo nedosel. :-) Kdyz vidim, ze je zajem se sejit a dokonce mame podporu
+i nasich drupalistu z Prahy, nabizi se otazka probrat na srazu, zda udelat
+dalsi sraz, kde bychom jiz primo neco mohli probrat. Proto jsem zacal uvazovat
+i o tematu na 0.sraz. Naapadly mne tyto temata :</p>
+
+<ul>
+	<li>zkusenosti s tematy, na co si dat pozor, je vhodnejsi delat tema s fixni
+	sirkou nebo liquid (plna sirka podle monitoru). Subtemata (Zen, 960.gs,
+	… )</li>
+
+	<li>modul context (muj osobni zajem), kde mne zajima, jak pridat urcity context
+	do menu</li>
+
+	<li>moduly pro facebook (prihlasovani uzivatelu s facebook uctem do drupalu,
+	existuje neco pro FB, jako je modul twitter_pull)</li>
+
+	<li>zkusenosti s jquery (Bohdan Ganicky v Praze ukazal pomoci jednoducheho
+	kodu, jak efektne resit login na strance). Dle meho se da s jquery web velice
+	pekne prikraslit.</li>
+</ul>
+
+<p>Tot me napady.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28390" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28417"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28417" class="active">k těm tématům &gt; to by byla</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/berkas1" title="Zobrazit profil uživatele.">berkas1</a> dne 16 Červen, 2010 - 18:58.  </div>
+
+  <div class="content">
+    <p>k těm tématům &gt; to by byla diskuse nebo z části i přednáška?
+poslechnout si o tom by bylo zajímavý ale když zkušenosti s jquery,
+modulem pro facebook nemám zkušenosti, tak nwm jestli mám zabírat místo
+zkušenějším:(</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28417" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28446"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28446" class="active">Já to sice nepořádám, ale</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 18 Červen, 2010 - 07:34.  </div>
+
+  <div class="content">
+    <p>Já to sice nepořádám, ale nevšimla jsem si, že by se to jmenovalo Geek
+Pub :-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28446" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28459"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28459" class="active">k těm tématům &gt; to by byla</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a> dne 18 Červen, 2010 - 21:19.  </div>
+
+  <div class="content">
+    <p>Spise to vidim na seznameni s drupalisty a na diskusi. Na prednasku nejsme
+pripraveni, jelikoz jsme nevedeli, jaky bude zajem a urcite nikdo nezabere misto
+zkusenejsim. Facebook a jquery byl jen napad. Na prihlasovani do Drupalu
+s facebook ucetem jsem se jen dival a s jquery neumim. I kdyz dalsi den ma
+wojtha prednasku na barcampu, docela by mne zajimalo, jak dlouho trva
+zkusenejsim vyrobit web. Nikdo nema tolik casu, aby delal web nekolik tydnu.
+Jeste mne napadlo, jak se resi support webu (aktualizace, … ), po tom, co je
+jiz hotov.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28459" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28460"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28460" class="active">Nerozumim dotazu „nikdo nema</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 18 Červen, 2010 - 21:51.  </div>
+
+  <div class="content">
+    <p>Nerozumim dotazu „nikdo nema tolik casu, aby delal web nekolik tydnu“? Na
+poslednim projektu delame mesic v kuse 4 lide?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28460" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28462"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28462" class="active">No ja teraz robim sam jeden</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 18 Červen, 2010 - 22:06.  </div>
+
+  <div class="content">
+    <p>No ja teraz robim sam jeden uz tri tyzdne a stale je na nom co robit. :)
+A to uz boli tri terminy – prvy „beta do pondelka“ (prvy krat som o tom
+pocul a videl o co ide v piatok) druhy „do stredy to musi fungovat“
+(samozrejme bez sance aby vsetko islo) a nakoniec „musi to byt co
+najrychlejsie“ doteraz, (vo stvrtok to predvadzali zakaznikovi). Samozrejme je
+kopa veci nedotiahnuta tak ako by som si to predstavoval ale je na to krasne
+ceske prislovie „prace kvapna malo platna“…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28462" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28463"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28463" class="active">ciste pro zajimavost –</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 19 Červen, 2010 - 00:10.  </div>
+
+  <div class="content">
+    <p>ciste pro zajimavost – mysleno modul brightcove nebo neco „vetsiho“?
+jinak by me zajimalo od petrpo kolik tak radove si „prumerny web“ vezme?
+snad ne proboha v hodinach…</p>
+
+<p>no a pokud se tyka otazky na update: kolik supportu si zakaznik zaplati tolik
+mu ho dejme :-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28463" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28499"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28499" class="active">Brightcove modul uz je</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 21 Červen, 2010 - 15:11.  </div>
+
+  <div class="content">
+    <p>Brightcove modul uz je hotovy: <a href="https://drupal.org/project/brightcove">Brightcove @ drupal.org</a>, tento
+projekt je mnohem vetsi</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28499" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28514"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28514" class="active">ciste pro zajimavost –</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a> dne 22 Červen, 2010 - 07:16.  </div>
+
+  <div class="content">
+    <p>Hodiny radeji ne.<br />
+Muj odhad na vytvoreni „prumerneho“ webu bez vetsich veci v tematu –
+mesic pro zkuseneho. S novym tematem odhaduji mesic a pul az dva mesice. Kam
+sla trefa? Nizko, vysoko?<br />
+Support: ok, rozumim.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28514" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-28513"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28513" class="active">Nerozumim dotazu „nikdo nema</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a> dne 22 Červen, 2010 - 06:46.  </div>
+
+  <div class="content">
+    <p>Kdyz jsem psal komentar, spojilo se mi nekolik veci : Wojthova prednaska na
+barcamp-u :<br />
+<strong>Content Management Framework Drupal aneb 80% webu za pár hodin. Hodí
+se i pro mě?</strong> a <strong>web, na kterem pracuji par mesicu</strong> a
+porad to neni ono. Kdyby tento web byl financne resen a ne sponzorsky, klient by
+sel zakonite jinam. Moje prace prinesla hodne zacatecnickych chyb, ktere se
+zkuseni drupalisti naucili eliminovat jiz v pocatku :<br />
+nejasne zadani (barvy, rozlozeni, struktura menu, … ) – hodne veci se
+menilo za behu<br />
+<br />
+Nastesti se objevila dalsi <strong>zmena</strong>, ktera je opet zasadni.
+Zkousel jsem si prochazet prezentace o Drupalu od zkusenejsich, kde jsem
+castokrat narazil natakove ty nedulezite body : vyjasnit zadani, navrh rozlozeni
+webu konzultovat, barvy, co ma byt soucasti webu, rozlozeni menu, pripadna
+tvorba tematu<br />
+Nejak clovek zacit musi. :-)</p>
+
+<p>Pokud jde o vetsi projekt, je jasne, ze je potreba hodne veci podchytit a
+naplanovat dopredu, at neni tym lidi zackocen, kdyz budou v prubehu projektu
+mensi a vetsi zmeny. O tom zadna. O IPRIMA.cz si Jakube mluvil na
+DrupalCamp-u v Praze, ze to byl velky kus prace a obzvlaste posledni tyden
+nebo dokonce posledni dva dny, ze?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28513" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28600"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28600" class="active">&quot;80% webu za pár hodin&quot;</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 24 Červen, 2010 - 00:43.  </div>
+
+  <div class="content">
+    <p>„80% webu za pár hodin“ se týká webů typu „osobní stránka“ nebo
+produktových webů. Zkrátka nejjednodušší weby typu těch co najdeme na
+Drupal Gardens – jednoduchý sajty s využitím předpřipraveného tématu
+s minimem dodatečně instalovaných modulů.</p>
+
+<p>A těch posledních 20% – detaily – jsou vždycky nejnáročnější a
+můžou trvat klidně mnohem dýl než předchozích 80% a to
+i několikanásobně…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28600" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div><a id="comment-28626"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28626" class="active">Polzer</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/maxiorel" title="Zobrazit profil uživatele.">maxiorel</a> dne 25 Červen, 2010 - 10:51.  </div>
+
+  <div class="content">
+    <p>Ja jsem Honza, nikoli Zdenda, ale prijdu taky. Na chvili.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28626" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-28366"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28366" class="active">Barcamp Brno 2010</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 14 Červen, 2010 - 23:25.  </div>
+
+  <div class="content">
+    <p>Jen tak pro zajímavost, druhý den po hospodě je v Brně BARCAMP (<a href="http://brno2010.barcamp.cz">Barcamp Brno 2010</a>, 26.6.2010, Fakulta
+Informatiky MU). Drupal pub v pátek večer a Barcamp celou sobotu… je
+ideální příležitost se do Brna podívat – a to i z daleka ;-)</p>
+
+<p>Mimochodem na Barcampu bude řeč i o Drupalu, chystám tam přednášku
+<i>Content Management Framework Drupal aneb 80% webu za pár hodin. Hodí se
+i pro mě?</i></p>
+
+<p>Registrace na Barcamp jsou stále otevřené, přijďte, bude to fajn
+akce :-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28366" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28498"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28498" class="active">Konečně někoho napadlo něco</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/boreg" title="Zobrazit profil uživatele.">Boreg</a> dne 21 Červen, 2010 - 15:05.  </div>
+
+  <div class="content">
+    <p>Konečně někoho napadlo něco takového udělat aj v Brnisku :) Doufám
+že mi do toho nic nevleze, budeme mít pěkné počasí a neskončí to
+u prvního srazu :)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28498" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28543"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28543" class="active">meetup</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/valdo" title="Zobrazit profil uživatele.">valdo</a> dne 22 Červen, 2010 - 15:25.  </div>
+
+  <div class="content">
+    <p>Mam cez vikend cestu do Brna tak rad pridem ak stihnem, dokedy asi budete
+v hospode?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28543" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28605"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28605" class="active">Tak nevim...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/vop" title="Zobrazit profil uživatele.">vop</a> dne 24 Červen, 2010 - 10:14.  </div>
+
+  <div class="content">
+    <p>…jestli nebudu „zabirat misto“, kdyz moje Drupal zkusenosti jsou NULA,
+ale prave vcera mi byl doporucen a zacinam zjistovat, zda pomoci nej postavim
+pozadovany web… No rozhodne bych rad prisel, protoze asi obratem dostanu
+odpoved na sve tri otazky…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28605" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28618"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28618" class="active">Nejsme žádný Klub Bilderberg</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 24 Červen, 2010 - 21:11.  </div>
+
+  <div class="content">
+    <p>Jestli tě Drupal zajímá, tak prostě přijď… je to posezení
+v hospodě, né vědecká konference.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28618" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28619"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28619" class="active">ok</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/vop" title="Zobrazit profil uživatele.">vop</a> dne 24 Červen, 2010 - 21:19.  </div>
+
+  <div class="content">
+    <p>ok, dorazim, diky…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28619" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-28623"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28623" class="active">Jak se pozname?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Jirka Brno (bez ověření) dne 25 Červen, 2010 - 08:36.  </div>
+
+  <div class="content">
+    <p>Mame zamluveny salonek nebo tak neco? Ptam se pro pripad, ze bude u vice
+stolu kolem 15 lidi … (abych si prisednul k tomu spravnemu :)) )</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28623" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28630"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28630" class="active">re:jak se pozname?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/berkas1" title="Zobrazit profil uživatele.">berkas1</a> dne 25 Červen, 2010 - 11:58.  </div>
+
+  <div class="content">
+    <p>dobrá otázka:)</p>
+
+<p>P.S.: taky dorazím:)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28630" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-28632"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28632" class="active">Re:re:jak se pozname?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/maxiorel" title="Zobrazit profil uživatele.">maxiorel</a> dne 25 Červen, 2010 - 12:13.  </div>
+
+  <div class="content">
+    <p>Já vemu knížku o Drupalu jako poznávací znamení.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28632" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28640"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28640" class="active">dotaz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/berkas1" title="Zobrazit profil uživatele.">berkas1</a> dne 25 Červen, 2010 - 13:44.  </div>
+
+  <div class="content">
+    <p>je to doufám v té nekuřácké části?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28640" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28671"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28671" class="active">Myslim, ze by nebylo naskodu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 29 Červen, 2010 - 14:41.  </div>
+
+  <div class="content">
+    <p>Myslim, ze by nebylo naskodu udelat z 0. hospody nejake shrnuti + pridat
+info o budoucim vyvoji …</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28671" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28714"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28714" class="active">Myslim, ze by nebylo naskodu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/berkas1" title="Zobrazit profil uživatele.">berkas1</a> dne 1 Červenec, 2010 - 21:08.  </div>
+
+  <div class="content">
+    <p>hlavne se domluvit na tom pristim (prekladatelskym?) srazu:)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28714" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-28725"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/sraz/drupal-brno-pub-2562010-0sraz#comment-28725" class="active">Jak dopadlo 0.setkaní</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/petrpo" title="Zobrazit profil uživatele.">petrpo</a> dne 3 Červenec, 2010 - 08:35.  </div>
+
+  <div class="content">
+    <p>Ahoj, posílám do fóra můj subjektivní pocit:<br />
+</p>
+
+<ol>
+	<li>původně 15 lidí, nakonec 20 – <strong>fakt velké
+	překvapení</strong></li>
+
+	<li>z původního pokecu u piva se vyklubal zájem o další už
+	serioznější debaty nad Drupalem – <strong>super, velké
+	nadšení</strong></li>
+
+	<li>akce byla i mezinárodní, jelikož se objevili i kolegovém ze Slovenska
+	(Martin Valasek), ze SRN (Benjamin), z Kanady (Ben Holt) a možná i další,
+	na které jsem mohl zapomenout… – <strong>paráda</strong>, teenager by
+	řekl <strong>fakt hustý<strong><br />
+	</strong></strong></li>
+</ol>
+
+<p>To jsou mé základní subjektivní postřehy. Už dávám do kupy plány na
+další setkání, teď už s kouskem techniky a projekce. Budu se tešit, že
+to klapne. Budu rád, že se zapojí aktivně i další drupalisté.<br />
+Nejde o to, kolik toho kdo umí, ale o to, že může i svými zkušenostmi
+obohatit ty zkušenější.<br />
+Termín dalšího setknání vystřelím doufám, ještě dnes.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/7708/28725" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/7708"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-63da9970c93cdcc07d09abbc88b49bb7" value="form-63da9970c93cdcc07d09abbc88b49bb7"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/clanky/sraz/drupal-brno-pub-2562010-0sraz?destination=node%2F7708"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-026b2023045838c06aa52caf7849cf8f" value="form-026b2023045838c06aa52caf7849cf8f"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/online-trading" class="tagadelic level1">online trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views" title="2 komentáře">Jak vyhledávat v poli soubor (multiupload) - VIEWS</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 6 hod 55 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 1 den 21 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 2 dny 20 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 29 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 1 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 5 dnů 19 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 5 dnů 23 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 15 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>1 host</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":328,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

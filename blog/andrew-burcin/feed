@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Andrew Burcin&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Chcete pomoci s upgrade Drupal.cz na D7 (nebo třeba i na D8)?</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/chcete-pomoci-s-upgrade-drupalcz-na-d7-nebo-treba-i-na-d8</link>
+ <description>&lt;p&gt;Možná si pamatujete, že jsme před několika měsíci připravili
+migrační skripty na Drupal 7. Od té doby s tím bohužel nikdo nepokročil.
+Zkusíme to ale opět tento víkend!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/chcete-pomoci-s-upgrade-drupalcz-na-d7-nebo-treba-i-na-d8&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/chcete-pomoci-s-upgrade-drupalcz-na-d7-nebo-treba-i-na-d8#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/40346</wfw:commentRss>
+ <pubDate>Tue, 04 Nov 2014 19:24:33 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">40346 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Konečně? Migrace Drupal.cz na D7?</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/konecne-migrace-drupalcz-na-d7</link>
+ <description>&lt;p&gt;Už dlouho jsme o tom mluvili. Nastal čas, budeme migrovat Drupal.cz na
+Drupal 7.&lt;/p&gt;
+
+&lt;p&gt;V současné době pracujeme na skriptů migrace. To znamená, že nedělame
+typický Drupal update.php na staré database a nové codebase. S skriptované
+migrace budeme schopni neustále znovu importovat stávající database do
+našeho Drupal 7 vývojové verzi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/konecne-migrace-drupalcz-na-d7&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/konecne-migrace-drupalcz-na-d7#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/18156</wfw:commentRss>
+ <pubDate>Tue, 12 Mar 2013 12:39:17 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">18156 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kdo jede na DrupalCon Mnichov?</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/kdo-jede-na-drupalcon-mnichov</link>
+ <description>&lt;p&gt;DrupalCon je konference na světové úrovni, s celosvětovou účastí. Ať
+už Drupal aktivně používáte, nebo se to teprve chcete učit, DrupalCon je
+vaše šance zapojit se do komunity, učit se od ostatních a podělit se
+o své zkušenosti.&lt;/p&gt;
+
+&lt;p&gt;DrupalCon začíná příští týden – 20. srpna – a trvá
+4 dny.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/kdo-jede-na-drupalcon-mnichov&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/kdo-jede-na-drupalcon-mnichov#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupalcon">drupalcon</category>
+ <category domain="https://www.drupal.cz/clanky/drupalcon-munich-2012">Drupalcon Munich 2012</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/14226</wfw:commentRss>
+ <pubDate>Tue, 14 Aug 2012 07:35:51 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">14226 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>The Reunification of Czechoslovakia (Drupal community!)</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/reunification-czechoslovakia-drupal-community</link>
+ <description>&lt;p&gt;I&#039;ve recently been chatting with Jozef Toth from &lt;a href=&quot;http://mogdesign.eu&quot;&gt;Mogdesign&lt;/a&gt;, who has been laregely responsible for
+maintaining the &lt;a href=&quot;http://www.drupal.sk&quot;&gt;www.drupal.sk&lt;/a&gt; community. The
+SK community site has been inactive for a while now, since most people are
+coming to &lt;a href=&quot;http://www.drupal.cz&quot;&gt;www.drupal.cz&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/reunification-czechoslovakia-drupal-community&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/reunification-czechoslovakia-drupal-community#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11591</wfw:commentRss>
+ <pubDate>Tue, 17 Apr 2012 08:31:24 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">11591 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz release-2.5 deployed today</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/drupalcz-release-25-deployed-today</link>
+ <description>&lt;p&gt;We&#039;ve done another release deployment! Release-2.5 was deployed to drupal.cz
+today. The change that people will be able to notice is that we now have the
+BUeditor available for all users. Hopefully this will make it a bit easier to
+write posts.&lt;/p&gt;
+
+&lt;p&gt;Other changes include new development domain names and some mod_rewrite
+redirects. A few helper modules were also installed.&lt;/p&gt;
+
+&lt;p&gt;I hope that this will help to encourage other members of our community to
+also contribute.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/drupalcz-release-25-deployed-today&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/drupalcz-release-25-deployed-today#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11436</wfw:commentRss>
+ <pubDate>Sat, 07 Apr 2012 12:51:42 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">11436 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>The first community-driven functionality deployed to Drupal.cz web site</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/first-community-driven-functionality-deployed-drupalcz-web-site</link>
+ <description>&lt;h2&gt;We&#039;re making progress now!&lt;/h2&gt;
+&lt;p&gt;Drupal.cz made a big step today! We deployed the first functionality based on our new community workflow!&lt;br /&gt;
+Berkas Simon made a comment on an issue on  &lt;a href=&quot;http://atrium.drupal.cz/&quot; title=&quot;http://atrium.drupal.cz/&quot;&gt;http://atrium.drupal.cz/&lt;/a&gt; that made us realize that only a few people were able to promote blog posts to the front page. If a blog post isn&#039;t on the front page, we reasoned, its almost like it doesn&#039;t exist.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/first-community-driven-functionality-deployed-drupalcz-web-site&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/first-community-driven-functionality-deployed-drupalcz-web-site#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11421</wfw:commentRss>
+ <pubDate>Fri, 06 Apr 2012 09:14:44 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">11421 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Great deal on a Linode VPS!</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/great-deal-linode-vps</link>
+ <description>&lt;p&gt;Are you interested in having your own VPS? I&#039;ve been incredibly satisfied
+with Linode over the last year or so. Their server performance and management
+system are amazing. If you are interested in trying a Linode VPS (get one in the
+London data center if you have Czech traffic), there is a great buy on Appsumo
+for $47 which includes $60 of credit for Linode!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/great-deal-linode-vps&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/great-deal-linode-vps#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/webhosting">Webhosting</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8646</wfw:commentRss>
+ <pubDate>Fri, 19 Nov 2010 15:29:16 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">8646 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak nainstalovat PHP 5.2 v Ubuntu 10.04</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/jak-nainstalovat-php-52-v-ubuntu-1004</link>
+ <description>&lt;p&gt;Nedávno byla vydána nejnovější verze Ubuntu Long Term Support (LTS),
+verze 10.04 – také nazývaná LucidLynx. I přes to, že většinou
+doporučuji uživatelům počkat několik měsíců, než novou verzi
+nainstalují, musím říct, že tato verze je jedna z nejlepších, co jsem
+zatím viděl.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/jak-nainstalovat-php-52-v-ubuntu-1004&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/jak-nainstalovat-php-52-v-ubuntu-1004#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7619</wfw:commentRss>
+ <pubDate>Fri, 21 May 2010 06:49:02 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">7619 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

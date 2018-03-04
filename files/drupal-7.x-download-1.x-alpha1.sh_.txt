@@ -1,0 +1,48 @@
+#!/bin/bash
+# Script by Petr Kratochvil (c) 2011 (www.krato.cz), use only at your own risk!
+# cz: Skript sepsal Petr Kratochvil (c) 2011 (www.krato.cz), pouzijte jen na sve vlastni riziko, autor skriptu nenese zadnou zodpovednost za pripadne skody!
+# Version: 1.x-alpha1
+
+function grepnx() # Not used, yet.
+{
+	echo grep -n aaa
+	if [ $? -eq 0 ]; then
+		echo "Grep error: grep -n $*"
+		exit
+	fi
+}
+
+if [ "$1" == "" ]; then
+	echo "$0 by Petr Kratochvil (c) 2011 (www.krato.cz)";
+	echo "Usage: $0 empty_dir_where_will_be_drupal_root";
+	echo "Example: $0 /home/www/example.com/www"
+	exit;
+fi
+
+cd $1
+
+if [ "$(ls -A)" ]; then
+	echo -n "Files and directories in directory $1:  "
+	ls -A
+	echo "Error: Directory $1 is not empty!"
+	exit;
+fi
+
+echo -n "Downloading drupal-7.x core ... "
+drush dl drupal-7.x &&\
+mv drupal-7.*/* . &&\
+mv drupal-7.*/.htaccess . &&\
+rmdir drupal-7.*
+echo ok
+
+echo -n "Patching .htaccess ... "
+first_grep=`grep -n "# Protect files and directories from prying eyes." .htaccess`
+last_grep=`grep -n "# Various rewrite rules." .htaccess`
+first_line=`echo $first_grep | cut -f1 -d:`
+last_line=`echo $last_grep | cut -f1 -d:`
+last_line=$(($last_line-1))
+sed -i".bak" $first_line,$last_line\d .htaccess && echo ok
+
+echo -n "Downloading czech translation ... "
+drush dl cs
+echo ok

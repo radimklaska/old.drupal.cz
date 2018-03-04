@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - image</title>
+ <link>https://www.drupal.cz/taxonomy/term/425/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – III.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – I.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – II.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu –
+	III.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Kategorie (taxonomy)&lt;/h2&gt;
+
+&lt;p&gt;Slouží k nastavení kategorií. V našem případě tří – a to
+roků.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/fotogalerie_views.pdf" length="597015" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6895</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 15:06:48 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6895 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – II.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – I.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu –
+	II.&lt;/strong&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – III.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Potřebné moduly&lt;/h2&gt;
+
+&lt;p&gt;Modulů není málo, ale většinu z nich byste stejně instalovali
+k jinému účelu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6894</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 15:05:09 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6894 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – I.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu – I.&lt;/strong&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – II.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – III.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Úvod&lt;/h2&gt;
+
+&lt;p&gt;Jelikož jsem se po letech rozhodl updatovat jeden z mých projektů
+z Drupalu 5 na Drupal 6, tak přišla ke slovu i fotogalerie. Doteď jsem
+využíval projektu &lt;a href=&quot;http://codex.gallery2.org&quot;&gt;Gallery
+2&lt;/a&gt; propojeného modulem s Drupalem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/fotogalerie_1_vypis.jpg" length="51781" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6893</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 09:50:19 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6893 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Modul Image a Drupal 7</title>
+ <link>https://www.drupal.cz/blog/ema/modul-image-drupal-7</link>
+ <description>&lt;p&gt;Nehledě na nesporné úchvatné vlastnosti CCK a Imagefield mám ráda
+i modul Image (+ Image Gallery). Říkala jsem si už dlouho, co s ním bude
+v D7, kde má být všechno „fieldable“… takže jesti vás to taky
+zajímá, dopídila jsem se této stránky: &lt;a href=&quot;http://drupal.org/node/513096&quot;&gt;http://drupal.org/node/513096&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/modul-image-drupal-7#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5974</wfw:commentRss>
+ <pubDate>Wed, 16 Sep 2009 15:03:37 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">5974 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Slideshow - srovnání modulů</title>
+ <link>https://www.drupal.cz/blog/ema/slideshow-srovnani-modulu</link>
+ <description>&lt;p&gt;Dotazy typu „poraďte modul na automatické střídání obrázků“
+mívají povahu výstřelu naslepo a dost těžko se na ně odpovídá. Proto se
+mi docela líbí srovnání modulů, které něco v tomto stylu umí: &lt;a href=&quot;http://drupal.org/node/418616&quot;&gt;http://drupal.org/node/418616&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/slideshow-srovnani-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/slideshow">slideshow</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5621</wfw:commentRss>
+ <pubDate>Mon, 03 Aug 2009 07:41:54 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">5621 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vkladani obrazku do obsahu (wysiwygu)</title>
+ <link>https://www.drupal.cz/blog/sign/vkladani-obrazku-do-obsahu-wysiwygu</link>
+ <description>&lt;p&gt;Hodne diskutovana featura, ktera v drupalu dlouho chybela to je novy modul
+FileField Insert (&lt;a href=&quot;http://drupal.org/project/filefield_insert&quot;&gt;http://drupal.org/…field_insert&lt;/a&gt;).
+Pomoci modulu filefield insert muzete vkladat nejen linky na soubory ale
+i obrazky vlozene k uzlu pomoci imagefield.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/sign/vkladani-obrazku-do-obsahu-wysiwygu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sign/vkladani-obrazku-do-obsahu-wysiwygu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5132</wfw:commentRss>
+ <pubDate>Sat, 09 May 2009 19:39:50 +0000</pubDate>
+ <dc:creator>Marek Sotak</dc:creator>
+ <guid isPermaLink="false">5132 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>trouble začátečníka s obrázky...</title>
+ <link>https://www.drupal.cz/blog/jarulinda/trouble-zacatecnika-s-obrazky</link>
+ <description>&lt;p&gt;Zdravím, ačkoli jsem prošla blogy a fóra, neprokousala jsem se
+k ucelenému návodu, jak zprovoznit:&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;galerii obrázků, tj. např. pod odkazem v sekundárním menu zobrazit
+	seznam kategorií a v nich sadu obrázků.&lt;/li&gt;
+
+	&lt;li&gt;vkládání obrázků do článků&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jarulinda/trouble-zacatecnika-s-obrazky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jarulinda/trouble-zacatecnika-s-obrazky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4887</wfw:commentRss>
+ <pubDate>Sun, 22 Mar 2009 21:48:06 +0000</pubDate>
+ <dc:creator>jarulinda</dc:creator>
+ <guid isPermaLink="false">4887 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

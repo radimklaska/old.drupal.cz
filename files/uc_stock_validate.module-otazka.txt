@@ -1,0 +1,158 @@
+<?php
+/**
+ * @file
+ * Prevents from adding products to cart with insufficient stock level.
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+function uc_stock_validate_form_alter(&$form, &$form_state, $form_id) {
+  if (strstr($form_id, 'uc_product_add_to_cart_form')) {
+    // Avoid overwriting of any other element validation functions.
+    if (!isset($form['qty']['#element_validate'])) {
+      $form['qty']['#element_validate'] = array();
+    }
+    
+    // Add our validation function directly to the quantity form element.
+    $form['qty']['#element_validate'][] = 'uc_stock_validate_quantity';
+  }
+}
+
+/**
+ * Implements hook_form_uc_cart_view_form_alter().
+ */
+function uc_stock_validate_form_uc_cart_view_form_alter(&$form, &$form_state, $form_id) {
+  foreach (element_children($form['items']) as $item) {
+    if (isset($form['items'][$item]['qty'])) {
+      // Avoid overwriting of any other element validation functions.
+      if (!isset($form['items'][$item]['qty']['#element_validate'])) {
+        $form['items'][$item]['qty']['#element_validate'] = array();
+      }
+    
+      // Add our validation function directly to the quantity form element.
+      $form['items'][$item]['qty']['#element_validate'][] = 'uc_stock_validate_quantity';
+    }
+  }
+}
+
+/**
+ * Validate a qty form element.
+ */
+function uc_stock_validate_quantity($element, &$form_state, $form)  {
+  // Don't validate if user tries to remove the product.
+  if (strstr($form_state['clicked_button']['#name'], 'remove')) {
+    return;
+  }
+
+	$attributes = "";
+
+  // Find the right SKU for this product combination before checking stock
+  if ($form['#form_id'] == 'uc_cart_view_form') {
+    // Cart overview/edit form
+    $cart_product_index = $element['#parents'][1];
+    $product = $form_state['values']['items'][$cart_product_index];
+    $nid = $product['nid'];
+    $data = unserialize($product['data']);
+    $attributes = $data['attributes'];
+  
+  }
+  else {
+    $nid = $form_state['values']['nid'];
+		if(!empty($form_state['values']['attributes'])){
+			$attributes = $form_state['values']['attributes'];
+		}
+  }
+  
+	// Product with attributes
+	if(!empty($attributes)){
+	  ksort($attributes); // Need to sort attributes by key to match those in {uc_product_stock}
+	  // Fetch the SKU from {uc_product_adjustments}
+	  $sku = db_query("SELECT model FROM {uc_product_adjustments} WHERE nid = :nid AND combination = :combination", array(':nid' => $nid, ':combination' => serialize($attributes)))->fetchField();
+	}
+	// Product without attributes
+	else {
+	  // Fetch the SKU from {uc_products}
+	  $sku = db_query("SELECT model FROM {uc_products} WHERE nid = :nid", array(':nid' => $nid))->fetchField();
+	}
+
+	// Update qty from cart
+  if ($form_state['clicked_button']['#name'] == 'update-cart') {
+		$qty = $element['#value'];
+  }
+	// Add to cart from product 
+	else {
+		// Fetch the qty in cart from {uc_cart_products}
+		$qty_cart = db_query("SELECT qty FROM {uc_cart_products} WHERE nid = :nid", array(':nid' => $nid))->fetchField();
+
+		// Add qty of cart to the qty 
+		$qty = $qty_cart + $element['#value'];
+	}
+
+  // Verify stock level
+  $stock_level = _uc_stock_validate_level($sku, $qty, $form['#form_id']);
+
+  if ($stock_level !== TRUE) {
+    form_error($element, $stock_level);
+  }
+}
+
+/**
+ * Validate stock level of a specific product. 
+ */
+function _uc_stock_validate_level($sku = NULL, $qty = 1, $form_id = NULL) {
+  // Get stock level of the product's SKU.
+  $stock_level = uc_stock_level($sku);
+ 
+  // If no stock level is set, we can skip further validation.
+  if ($stock_level === FALSE) {
+    return TRUE;
+  }
+  
+  if ($stock_level <= 0) {
+    //return t('This product is currently not available in stock with your selected options.');        
+    preg_match_all('!\d+!', $form_id, $matches);                                     
+    $prod_id = $matches[0][0];                                                       
+    $date_of_expiry = time() +7200;                                                  
+    setcookie("pds[" . $prod_id . "]", "ano", $date_of_expiry, "/", ".nasastopa.sk"); 
+    return TRUE;                                                                      
+  }
+  
+  // Check if selected quantity exceeds available product quantity.
+  else if ($stock_level < $qty) {
+    
+    if ($stock_level == 1) {
+			$str = t('Insufficient stock level. Only one product left.');
+    }
+    else {
+      $str = t('Insufficient stock level. Only !number products left.', array('!number' => $stock_level));
+    }
+    
+    $correct_qty = "";
+		// If the user add to cart from the product, text "correct selected qty" is not necesary  
+    if(strpos($form_id, 'uc_product_add_to_cart_form') === false){
+ 			$correct_qty = t('Please correct the selected quantity.');
+       
+    $cart_product_index = $element['#parents'][1];                                        //AKO ZISKAT  $NID?
+    $product = $form_state['values']['items'][$cart_product_index];                       //AKO ZISKAT  $NID?
+    $nid = $product['nid'];                                                               //AKO ZISKAT  $NID?
+    $date_of_expiry = time() +7200;                                                  
+    setcookie("pds[" . $nid . "]", "ano", $date_of_expiry, "/", ".nasastopa.sk"); 
+          
+    }
+    
+    //return $str.' '.$correct_qty;                                                  
+                                                                                      
+    preg_match_all('!\d+!', $form_id, $matches);                                     
+    $prod_id = $matches[0][0];                                                       
+    $date_of_expiry = time() +7200;                                                  
+    setcookie("pds[" . $prod_id . "]", "ano", $date_of_expiry, "/", ".nasastopa.sk"); 
+    return TRUE;                                                                      
+  }
+  
+    preg_match_all('!\d+!', $form_id, $matches);                                     
+    $prod_id = $matches[0][0];                                                       
+    $date_of_expiry = time() -7200;                                                  
+    setcookie("pds[" . $prod_id . "]", "ano", $date_of_expiry, "/", ".nasastopa.sk");                                                          
+   return TRUE;
+}

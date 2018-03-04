@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>elross&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/elross</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Rozsypaný web</title>
+ <link>https://www.drupal.cz/blog/elross/rozsypany-web</link>
+ <description>&lt;p&gt;Potřebuji poradit co dělat pokud se mi úplně rozpadne web (protety.cz).
+Jsem začátečník s Drupalem, takže nejsem schopen posoudit, jestli spadl
+server poskytovateli hostingu nebo mi web někdo napadl a už vůbec nevím co
+tím mám dělat? Pomůže někdo prosím?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/elross/rozsypany-web#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/rozlozeny-web">Rozložený web</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9550</wfw:commentRss>
+ <pubDate>Mon, 11 Apr 2011 15:59:24 +0000</pubDate>
+ <dc:creator>elross</dc:creator>
+ <guid isPermaLink="false">9550 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Bluebreeze</title>
+ <link>https://www.drupal.cz/blog/elross/bluebreeze</link>
+ <description>&lt;p&gt;Mam verzi 6.20 a chtel jsem pridat tema bluebreeze a po nahrani a spusteni
+se mi cele rozsypalo, nevi nekdo co s tim?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/elross/bluebreeze#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/temata">témata</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9056</wfw:commentRss>
+ <pubDate>Sun, 30 Jan 2011 15:46:02 +0000</pubDate>
+ <dc:creator>elross</dc:creator>
+ <guid isPermaLink="false">9056 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

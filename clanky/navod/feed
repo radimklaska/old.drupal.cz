@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - navod</title>
+ <link>https://www.drupal.cz/taxonomy/term/514/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Jak poslat email autorovi nodu po odeslání formuláře (Webform)</title>
+ <link>https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform</link>
+ <description>&lt;p&gt;V tomto návodu vám ukážu jak poslat email autorovi nodu po odeslání
+formuláře pomocí modulů Webform + Token. Ukážu to na příkladu „když
+návštěvník odešle webformový blok, pošli email s nadpisem a URL adresou
+nodu jeho autorovi.“&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/emaily">emaily</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <category domain="https://www.drupal.cz/clanky/token">token</category>
+ <category domain="https://www.drupal.cz/clanky/webform">webform</category>
+ <enclosure url="https://www.drupal.cz/files/webform-contact-author.jpg" length="31968" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52026</wfw:commentRss>
+ <pubDate>Sat, 19 Sep 2015 09:29:50 +0000</pubDate>
+ <dc:creator>jasom</dc:creator>
+ <guid isPermaLink="false">52026 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tutoriály k Drupalu 7 ke stažení</title>
+ <link>https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni</link>
+ <description>&lt;p&gt;Uvolnili jsme ke stažení zdarma výukové materiály k Drupalu 7, určené
+původně pro naše školení. Můžete si je stáhnout na adrese: &lt;a href=&quot;http://www.squelle.com/cs/produkty-publikace/vyukove-materialy-uvod-do-drupalu-7&quot;&gt;http://www.squelle.com/…do-drupalu-7&lt;/a&gt;
+Tutoriály byly od začáktu zamýšleny tak, aby byly použitelné
+i samostatně, tj. bez návaznosti na školení.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/45476</wfw:commentRss>
+ <pubDate>Mon, 09 Feb 2015 08:07:13 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">45476 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Zajimave tutorialy publikovane v roce 2013</title>
+ <link>https://www.drupal.cz/blog/samgarr/zajimave-tutorialy-publikovane-v-roce-2013</link>
+ <description>&lt;p&gt;Blog &lt;a href=&quot;http://blog.wearepropeople.com/&quot;&gt;wearepropeople­.com&lt;/a&gt;
+sestavil &lt;a href=&quot;http://blog.wearepropeople.com/cool-drupal-tutorials-published-in-the-first-days-of-2013/&quot;&gt;seznam&lt;/a&gt;
+tutorialu vydanych v novem roce 2013, me zaujali zejmena clanky tykajici se
+modulu Migrate.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/samgarr/zajimave-tutorialy-publikovane-v-roce-2013#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/migration">migration</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <category domain="https://www.drupal.cz/clanky/tutorial">tutorial</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/17086</wfw:commentRss>
+ <pubDate>Fri, 11 Jan 2013 10:53:38 +0000</pubDate>
+ <dc:creator>Samgarr</dc:creator>
+ <guid isPermaLink="false">17086 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak zprovoznit hledání pomocí Apache Solr</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0</link>
+ <description>&lt;p&gt;Pokládal jsem dotaz do fóra, jaké vyhledávání používáte. A při tom
+jsem si řekl, že zkusím zprovoznit vyhledávání přes Solr. A jelikož
+jsem uspěl, tak se s vámi podělím. Předem upozorňuji, že se jedná
+o platformu Windows, ale pro linux je všude hafo návodů a navíc to bude
+skoro stejné…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-zprovoznit-hledani-pomoci-apache-solr-0#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/Jak_na_hledani_Apache_Solr_0.pdf" length="384730" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9748</wfw:commentRss>
+ <pubDate>Fri, 20 May 2011 14:45:02 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">9748 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal webform module to lightbox popup for feedback</title>
+ <link>https://www.drupal.cz/blog/jasom/drupal-webform-module-lightbox-popup-feedback</link>
+ <description>&lt;p&gt;This screencast is about creating own drupal feedback form using &lt;a href=&quot;http://drupal.org/project/webform&quot;&gt;webform&lt;/a&gt; and &lt;a href=&quot;http://drupal.org/project/lightbox2&quot;&gt;lightbox&lt;/a&gt; module. We will need &lt;a href=&quot;http://drupal.org/node/223440&quot;&gt;this&lt;/a&gt; snippet&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jasom/drupal-webform-module-lightbox-popup-feedback&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jasom/drupal-webform-module-lightbox-popup-feedback#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8044</wfw:commentRss>
+ <pubDate>Wed, 18 Aug 2010 10:35:43 +0000</pubDate>
+ <dc:creator>jasom</dc:creator>
+ <guid isPermaLink="false">8044 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Staň se Drupal profíkem za 20 dní</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni</link>
+ <description>&lt;p&gt;Od včerejška (1.4.2010) začal na blogu poměrné známé „drupal“
+firmy Trellon vycházet 20-ti dílný seriál nazvaný &lt;a href=&quot;http://trellon.com/category/blog-tags/20-apis-20-days&quot;&gt;„20 APIs in
+20 Days“&lt;/a&gt; neboli „20 API za 20 dní“. Během dvaceti dní se proberou
+základy k 20 zajímavým API z různých okruhů a některá témata jsou
+rozhodně zajímavá!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7332</wfw:commentRss>
+ <pubDate>Fri, 02 Apr 2010 15:05:22 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7332 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na našeptavač (autocomplete) s více parametry</title>
+ <link>https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry</link>
+ <description>&lt;p&gt;Stalo se vám někdy, že jste potřebovali předávat funkci, která
+generuje „nápovědu“ pro textové políčko s automatickým doplňováním
+více parametrů? Mě se to přihodilo zrovna dneska …&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DISCLAIMER: Jen pro Drupal geeky!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7282</wfw:commentRss>
+ <pubDate>Wed, 24 Mar 2010 20:28:53 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7282 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Trochu o opravnenich</title>
+ <link>https://www.drupal.cz/blog/karlos/trochu-o-opravnenich</link>
+ <description>&lt;p&gt;Ozval se mi znamý s problemem: vytvoril jsem uzivatelskou roli
+„redakce“ priradil ji prava pro upravu obsahu, ale uzivatelum v teto roli
+se nezobrazi zalozky „zobrazit“ a „upravit“. Prosel jsem opravneni a
+nenasel zadny problem. Zkusil jsem vytvorit novy obsah a hle zalozky tam byly.
+Tak jsem se dal na systém „pokus – omyl“. Provedl update drupalu na
+nejnovejsi. Nepomohlo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/karlos/trochu-o-opravnenich&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/karlos/trochu-o-opravnenich#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7096</wfw:commentRss>
+ <pubDate>Sun, 21 Feb 2010 11:19:54 +0000</pubDate>
+ <dc:creator>karlos</dc:creator>
+ <guid isPermaLink="false">7096 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – III.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – I.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – II.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu –
+	III.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Kategorie (taxonomy)&lt;/h2&gt;
+
+&lt;p&gt;Slouží k nastavení kategorií. V našem případě tří – a to
+roků.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/fotogalerie_views.pdf" length="597015" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6895</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 15:06:48 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6895 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – II.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – I.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu –
+	II.&lt;/strong&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – III.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Potřebné moduly&lt;/h2&gt;
+
+&lt;p&gt;Modulů není málo, ale většinu z nich byste stejně instalovali
+k jinému účelu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6894</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 15:05:09 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6894 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vytvoření pokročilé Fotogalerie v Drupalu – I.</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i</link>
+ <description>&lt;h2&gt;Části seriálu&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vytvoření pokročilé Fotogalerie v Drupalu – I.&lt;/strong&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-ii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – II.&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-iii&quot;&gt;Vytvoření
+	pokročilé Fotogalerie v Drupalu – III.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Úvod&lt;/h2&gt;
+
+&lt;p&gt;Jelikož jsem se po letech rozhodl updatovat jeden z mých projektů
+z Drupalu 5 na Drupal 6, tak přišla ke slovu i fotogalerie. Doteď jsem
+využíval projektu &lt;a href=&quot;http://codex.gallery2.org&quot;&gt;Gallery
+2&lt;/a&gt; propojeného modulem s Drupalem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/vytvoreni-pokrocile-fotogalerie-v-drupalu-%E2%80%93-i#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <enclosure url="https://www.drupal.cz/files/fotogalerie_1_vypis.jpg" length="51781" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6893</wfw:commentRss>
+ <pubDate>Mon, 25 Jan 2010 09:50:19 +0000</pubDate>
+ <dc:creator>agir</dc:creator>
+ <guid isPermaLink="false">6893 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

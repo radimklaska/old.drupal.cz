@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Pavel Ovesný&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/teenageriot</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Kurzy Drupalu pro začátečníky a mírně pokročilé</title>
+ <link>https://www.drupal.cz/blog/teenageriotcz/kurzy-drupalu-pro-zacatecniky-mirne-pokrocile</link>
+ <description>&lt;p&gt;Protože rád předávám svoje zkušenosti, rozhodnul jsem pro DIY
+vzdělávací portál Naučmese.cz dělat kurzy Drupalu. V souvislosti
+s filozofií Naučmese „Každý může naučit kohokoliv cokoliv“ nejde
+o žádné oficiální školení, ale neformální kurz v malém počtu večer
+v kavárně, který bourá obvyklý odstup mezi „lektorem – expertem“ a
+(mnohdy stydlivým) začátečníkem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/teenageriotcz/kurzy-drupalu-pro-zacatecniky-mirne-pokrocile&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/teenageriotcz/kurzy-drupalu-pro-zacatecniky-mirne-pokrocile#comments</comments>
+ <enclosure url="https://www.drupal.cz/files/drupal_lego.jpg" length="148665" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/16681</wfw:commentRss>
+ <pubDate>Tue, 11 Dec 2012 10:25:34 +0000</pubDate>
+ <dc:creator>Pavel Ovesný</dc:creator>
+ <guid isPermaLink="false">16681 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

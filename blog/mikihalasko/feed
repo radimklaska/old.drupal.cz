@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>miki.halasko&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/mikihalasko</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Modul Authcache a chybová hláška</title>
+ <link>https://www.drupal.cz/blog/mikihalasko/modul-authcache-chybova-hlaska</link>
+ <description>&lt;p&gt;Warning: htmlspecialchars() expects parameter 1 to be string, array given
+v check_plain() (riadok 1566 z
+/www/p/r/u137­78/public_html/in­cludes/bootstrap­.inc).&lt;/p&gt;
+
+&lt;p&gt;Rozhodol som sa po celodennom hľadaní odstránenia chyby napísať tento
+krátky článok.&lt;/p&gt;
+
+&lt;p&gt;Náš web bol veľmi pomalý. Tak som hľadal riešenia pre jeho zrýchlenie.
+Jedným z modulov ktoré som si vybral bol modul Authcache.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mikihalasko/modul-authcache-chybova-hlaska&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mikihalasko/modul-authcache-chybova-hlaska#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/authcache">authcache</category>
+ <category domain="https://www.drupal.cz/clanky/chyba">chyba</category>
+ <category domain="https://www.drupal.cz/clanky/zrychlenie-webu">Zrýchlenie webu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24731</wfw:commentRss>
+ <pubDate>Tue, 11 Feb 2014 17:49:57 +0000</pubDate>
+ <dc:creator>miki.halasko</dc:creator>
+ <guid isPermaLink="false">24731 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Článok musel ísť preč...</title>
+ <link>https://www.drupal.cz/blog/mikihalasko/page-rank-alebo-kaslat-na-hodnotenia-hlavne-ze-mam-citatelov</link>
+ <description>&lt;p&gt;Čítajte &lt;a href=&quot;http://www.luft.sk&quot;&gt;www.luft.sk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sorry všetkým, ale spravil som chybu a vydal som články rovnaké na troch
+fórach, a tým moje seo utrpelo. Budem sa snažiť obsah nahradiť niečím
+kvalitným.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mikihalasko/page-rank-alebo-kaslat-na-hodnotenia-hlavne-ze-mam-citatelov#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/13796</wfw:commentRss>
+ <pubDate>Fri, 03 Aug 2012 07:49:50 +0000</pubDate>
+ <dc:creator>miki.halasko</dc:creator>
+ <guid isPermaLink="false">13796 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ubercart vs jeho podpora</title>
+ <link>https://www.drupal.cz/blog/mikihalasko/ubercart-vs-jeho-podpora</link>
+ <description>&lt;p&gt;Modul ubercart v drupale je veľmi vďačným systémom pre E-shop. A keď
+Vám stačí jednoduché ale prehľadne zobrazenie katalógu, a tovaru tak máte
+vyhraté. Nemusíte sa s tým veľa zaoberať. Akurát treba poprekladať pár
+riadkov cez prekladač a máte super E-shop aj s notifikáciami. Prehľadom
+o objednávkach.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mikihalasko/ubercart-vs-jeho-podpora&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mikihalasko/ubercart-vs-jeho-podpora#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/13381</wfw:commentRss>
+ <pubDate>Mon, 23 Jul 2012 18:47:27 +0000</pubDate>
+ <dc:creator>miki.halasko</dc:creator>
+ <guid isPermaLink="false">13381 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Mám šancu?</title>
+ <link>https://www.drupal.cz/blog/mikihalasko/mam-sancu</link>
+ <description>&lt;p&gt;Často sa zamýšľam nad týmto: Naučil som sa urobiť stránky v systéme
+Drupal pomocou návodov. Naučil som sa pár vychytávok z vlastných omylov a
+so skúseností ľudí aj svojich. Ale stále my vŕta v hlave otázka, či sa
+vlastne môžem považovať za tvorcu web stránok. Nakoľko ešte mnoho vecí
+ani netuším ako fungujú, a ani ako sa robia.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mikihalasko/mam-sancu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mikihalasko/mam-sancu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/privyrobenie">privyrobenie</category>
+ <category domain="https://www.drupal.cz/clanky/zamestnanie">zamestnanie</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10963</wfw:commentRss>
+ <pubDate>Tue, 31 Jan 2012 11:41:25 +0000</pubDate>
+ <dc:creator>miki.halasko</dc:creator>
+ <guid isPermaLink="false">10963 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

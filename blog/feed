@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz blogs</title>
+ <link>https://www.drupal.cz/blog</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>DrupalCampCS už budúci víkend 28-29.05 2016</title>
+ <link>https://www.drupal.cz/blog/frankye/drupalcampcs-uz-buduci-vikend-28-2905-2016</link>
+ <description>&lt;p&gt;Tento rok na DrupalCampeCS prinášame niekoľko noviniek a zaujímavých
+rečníkov.&lt;/p&gt;
+
+&lt;p&gt;Čo ťa čaká na DrupalCampCS tento rok?&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;oddelený československý a anglický track&lt;/li&gt;
+
+	&lt;li&gt;15 prednášajúcich so 14 prednáškami z 5 krajín&lt;/li&gt;
+
+	&lt;li&gt;Jeffrey “Jam” McGuire – jedna z najvýraznejších osobností
+	Drupal sveta&lt;/li&gt;
+
+	&lt;li&gt;Marek Matulka, vývojár v SensioLabs UK, ktorý sa priam&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/frankye/drupalcampcs-uz-buduci-vikend-28-2905-2016&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupalcampcs-uz-buduci-vikend-28-2905-2016#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupalcamp">drupalcamp</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/55846</wfw:commentRss>
+ <pubDate>Fri, 20 May 2016 09:52:27 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">55846 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Podpořte projekt který máte rádi</title>
+ <link>https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi</link>
+ <description>&lt;p&gt;Hlavní rolí Drupal Associace je sjednocení komunit z celého světa,
+komunit, které jsou hodně rozdílné.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-associace">drupal associace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52781</wfw:commentRss>
+ <pubDate>Thu, 17 Dec 2015 21:30:22 +0000</pubDate>
+ <dc:creator>Petr Illek</dc:creator>
+ <guid isPermaLink="false">52781 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal 8 šablony</title>
+ <link>https://www.drupal.cz/blog/johhan/drupal-8-sablony</link>
+ <description>&lt;p&gt;Drupal.org v tuto chvíli vylistuje 70 šablon pro Drupal 8.x. Je mezi nimi
+několik starých dobrých známých base (základních, univerzálních)
+šablon. Vě většině případů zde ale naleznete dev verze šablon nebo
+poměrně staré verze (několik měsíců, ale je možné, že Vám
+poběží)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/johhan/drupal-8-sablony#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52411</wfw:commentRss>
+ <pubDate>Mon, 19 Oct 2015 13:43:59 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">52411 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak poslat email autorovi nodu po odeslání formuláře (Webform)</title>
+ <link>https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform</link>
+ <description>&lt;p&gt;V tomto návodu vám ukážu jak poslat email autorovi nodu po odeslání
+formuláře pomocí modulů Webform + Token. Ukážu to na příkladu „když
+návštěvník odešle webformový blok, pošli email s nadpisem a URL adresou
+nodu jeho autorovi.“&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/emaily">emaily</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <category domain="https://www.drupal.cz/clanky/token">token</category>
+ <category domain="https://www.drupal.cz/clanky/webform">webform</category>
+ <enclosure url="https://www.drupal.cz/files/webform-contact-author.jpg" length="31968" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52026</wfw:commentRss>
+ <pubDate>Sat, 19 Sep 2015 09:29:50 +0000</pubDate>
+ <dc:creator>jasom</dc:creator>
+ <guid isPermaLink="false">52026 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Je to dělané v Drupalu? </title>
+ <link>https://www.drupal.cz/blog/jirkahordas/je-delane-v-drupalu</link>
+ <description>&lt;p&gt;Dobrý den,&lt;/p&gt;
+
+&lt;p&gt;rád bych se zeptal, jestli mohou být stránky &lt;a href=&quot;http://www.stavebnichemie.info/izolace-zatepleni/&quot; title=&quot;Izolace a zateplení&quot;&gt;Izolace a zateplení&lt;/a&gt; dělané v Drupalu,
+případně jak se to pozná.&lt;/p&gt;
+
+&lt;p&gt;Díky za radu.&lt;/p&gt;
+
+&lt;p&gt;Jirka&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jirkahordas/je-delane-v-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/45911</wfw:commentRss>
+ <pubDate>Sun, 22 Feb 2015 13:33:43 +0000</pubDate>
+ <dc:creator>jirkahordas</dc:creator>
+ <guid isPermaLink="false">45911 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tutoriály k Drupalu 7 ke stažení</title>
+ <link>https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni</link>
+ <description>&lt;p&gt;Uvolnili jsme ke stažení zdarma výukové materiály k Drupalu 7, určené
+původně pro naše školení. Můžete si je stáhnout na adrese: &lt;a href=&quot;http://www.squelle.com/cs/produkty-publikace/vyukove-materialy-uvod-do-drupalu-7&quot;&gt;http://www.squelle.com/…do-drupalu-7&lt;/a&gt;
+Tutoriály byly od začáktu zamýšleny tak, aby byly použitelné
+i samostatně, tj. bez návaznosti na školení.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/eva-razgova/tutorialy-k-drupalu-7-ke-stazeni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/45476</wfw:commentRss>
+ <pubDate>Mon, 09 Feb 2015 08:07:13 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">45476 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Česká televize hledá PROGRAMÁTORA</title>
+ <link>https://www.drupal.cz/blog/dominika-jirikova/ceska-televize-hleda-programatora</link>
+ <description>&lt;p&gt;Požadovaný profil:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;SŠ vzdělání ukončené maturitou&lt;/li&gt;
+
+	&lt;li&gt;Velmi dobrá znalost Drupal, OOP PHP, MySQL, HTML, CSS, JavaScript&lt;/li&gt;
+
+	&lt;li&gt;Výhodou zkušenosti s implementací CMS Drupal pro velké projekty,
+	zkušenosti s tvorbou responzivních webů, znalost Zend Framework, jQuery, Ext
+	JS,Linux&lt;/li&gt;
+
+	&lt;li&gt;Znalost AJ minimálně na úrovni porozumění a zápisu technické
+	dokumentace&lt;/li&gt;
+
+	&lt;li&gt;Praxe v oboru minimálně 2 roky.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/dominika-jirikova/ceska-televize-hleda-programatora&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/dominika-jirikova/ceska-televize-hleda-programatora#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/41711</wfw:commentRss>
+ <pubDate>Tue, 11 Nov 2014 11:38:23 +0000</pubDate>
+ <dc:creator>Dominika Jiříková</dc:creator>
+ <guid isPermaLink="false">41711 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chcete pomoci s upgrade Drupal.cz na D7 (nebo třeba i na D8)?</title>
+ <link>https://www.drupal.cz/blog/andrew-burcin/chcete-pomoci-s-upgrade-drupalcz-na-d7-nebo-treba-i-na-d8</link>
+ <description>&lt;p&gt;Možná si pamatujete, že jsme před několika měsíci připravili
+migrační skripty na Drupal 7. Od té doby s tím bohužel nikdo nepokročil.
+Zkusíme to ale opět tento víkend!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/andrew-burcin/chcete-pomoci-s-upgrade-drupalcz-na-d7-nebo-treba-i-na-d8&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/andrew-burcin/chcete-pomoci-s-upgrade-drupalcz-na-d7-nebo-treba-i-na-d8#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/40346</wfw:commentRss>
+ <pubDate>Tue, 04 Nov 2014 19:24:33 +0000</pubDate>
+ <dc:creator>Andrew Burcin</dc:creator>
+ <guid isPermaLink="false">40346 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Přihlášení uživatele</title>
+ <link>https://www.drupal.cz/blog/zsiosemily/prihlaseni-uzivatele</link>
+ <description>&lt;p&gt;Chtěl bych se zeptat, zda někdo nevíte, proč se mě nejde přihlásit do
+drupalu na mých nových stránkách, když jsem je měl na localhostu, vše
+chodilo. Teď tam máš bílou obrazovku a nehlásí tam žádnou chybovou
+hlášku. V poli adresa mě to píše: &lt;a href=&quot;http://zsiosemily.cz/?q=node&amp;amp;destination=node&quot;&gt;http://zsiosemily.cz/?…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dík za pomoc&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/zsiosemily/prihlaseni-uzivatele#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/37366</wfw:commentRss>
+ <pubDate>Fri, 10 Oct 2014 17:01:33 +0000</pubDate>
+ <dc:creator>zsiosemily</dc:creator>
+ <guid isPermaLink="false">37366 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal Kosice Meetup 2014-07-02 17:00</title>
+ <link>https://www.drupal.cz/blog/blueminds/drupal-kosice-meetup-2014-07-02-1700</link>
+ <description>&lt;p&gt;Tymto pozyvam nie len Drupalistov a koderov, ktori sa chcu dozvediet co
+horuce sa pecie v D8 kuchyni, ale aj ostatnych co su vo web IT zainteresovani,
+respektive im nie je web publishing cudzia tema, na Drupal KE meetup, ktory sa
+uskutocni 2.7. o 17:00 v priestoroch firmy smilingwords.eu na &lt;a href=&quot;http://www.kosicego.sk/#&quot;&gt;http://www.kosicego.sk/&lt;/a&gt;… ulici.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/blueminds/drupal-kosice-meetup-2014-07-02-1700&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/blueminds/drupal-kosice-meetup-2014-07-02-1700#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/26186</wfw:commentRss>
+ <pubDate>Wed, 18 Jun 2014 08:18:04 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">26186 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.sk a D8</title>
+ <link>https://www.drupal.cz/blog/frankye/drupalsk-d8</link>
+ <description>&lt;p&gt;Na Slovensku sa chystáme na migráciu Drupal.sk na D8. Ak by sa niekto
+našiel, kto sa chce zdokonaliť v D8 ešte pred jeho oficiálnym štartom a
+zároveň pomôcť s vylepšením Drupal.sk nájdete nás v stredu
+04.06.2014 vo Wezeo. Viac sa dočítate na &lt;a href=&quot;http://drupal.sk/node/1943&quot;&gt;drupal.sk&lt;/a&gt;, prípadne na &lt;a href=&quot;https://www.facebook.com/events/1509679109255413/&quot;&gt;facebooku&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupalsk-d8#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/26111</wfw:commentRss>
+ <pubDate>Mon, 02 Jun 2014 14:02:14 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">26111 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>pevné heslo</title>
+ <link>https://www.drupal.cz/blog/miskota/pevne-heslo</link>
+ <description>&lt;p&gt;Dobrý den, dá se v Drupalu nastavit pevné heslo, které uživatel
+nemůže měnit, jen administrátor? Děkuji. Michal&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miskota/pevne-heslo#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25761</wfw:commentRss>
+ <pubDate>Sun, 27 Apr 2014 14:07:37 +0000</pubDate>
+ <dc:creator>miskota</dc:creator>
+ <guid isPermaLink="false">25761 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title> Drupal stretnutie v BA - Poďme na pivo</title>
+ <link>https://www.drupal.cz/blog/miroslavmichalicka/drupal-stretnutie-v-ba-podme-na-pivo</link>
+ <description>&lt;p&gt;&lt;img src=&quot;https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc1/t1.0-9/575731_128717723934787_743268782_n.jpg&quot; alt=&quot;drupal.sk&quot; /&gt; Prídťe sa zoznámiť, podiskutovať na Drupal stretnutie
+v Bratislave.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miroslavmichalicka/drupal-stretnutie-v-ba-podme-na-pivo&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miroslavmichalicka/drupal-stretnutie-v-ba-podme-na-pivo#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25576</wfw:commentRss>
+ <pubDate>Fri, 11 Apr 2014 09:36:27 +0000</pubDate>
+ <dc:creator>mirom</dc:creator>
+ <guid isPermaLink="false">25576 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz a Heartbleed</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupalcz-heartbleed</link>
+ <description>&lt;p&gt;Pokud se pohybujete v IT (i jinde), asi jste si vsimli chybe v OpenSSL se
+jmenem &lt;a href=&quot;http://heartbleed.com&quot;&gt;Heartbleed&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupalcz-heartbleed&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupalcz-heartbleed#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25551</wfw:commentRss>
+ <pubDate>Thu, 10 Apr 2014 00:08:23 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">25551 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Modul Authcache a chybová hláška</title>
+ <link>https://www.drupal.cz/blog/mikihalasko/modul-authcache-chybova-hlaska</link>
+ <description>&lt;p&gt;Warning: htmlspecialchars() expects parameter 1 to be string, array given
+v check_plain() (riadok 1566 z
+/www/p/r/u137­78/public_html/in­cludes/bootstrap­.inc).&lt;/p&gt;
+
+&lt;p&gt;Rozhodol som sa po celodennom hľadaní odstránenia chyby napísať tento
+krátky článok.&lt;/p&gt;
+
+&lt;p&gt;Náš web bol veľmi pomalý. Tak som hľadal riešenia pre jeho zrýchlenie.
+Jedným z modulov ktoré som si vybral bol modul Authcache.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/mikihalasko/modul-authcache-chybova-hlaska&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/mikihalasko/modul-authcache-chybova-hlaska#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/authcache">authcache</category>
+ <category domain="https://www.drupal.cz/clanky/chyba">chyba</category>
+ <category domain="https://www.drupal.cz/clanky/zrychlenie-webu">Zrýchlenie webu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/24731</wfw:commentRss>
+ <pubDate>Tue, 11 Feb 2014 17:49:57 +0000</pubDate>
+ <dc:creator>miki.halasko</dc:creator>
+ <guid isPermaLink="false">24731 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>České znaky do Drupal 7 šablony koupené v USA</title>
+ <link>https://www.drupal.cz/blog/alessiocz1/ceske-znaky-do-drupal-7-sablony-koupene-v-usa</link>
+ <description>&lt;p&gt;Zdravím, rád bych se dotázal, zda někdo nemáte zkušenost
+s nakódováním českých znaků a případně jiného fontu do Drupal
+7 šablony koupené v USA. Téma se jmenuje Glossy Modern Drupal Theme… Při
+vložení českého textu se písmena s háčkem nebo s čárkou sice
+zobrazí, ale tučně. Za šablonu jsem zaplatil 40 dolarů a teď nevím, co
+s tím. Hledám někoho, kdo mi s tím za rozumnou úplatu pomůže.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/alessiocz1/ceske-znaky-do-drupal-7-sablony-koupene-v-usa&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/alessiocz1/ceske-znaky-do-drupal-7-sablony-koupene-v-usa#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/23981</wfw:commentRss>
+ <pubDate>Thu, 12 Dec 2013 10:44:59 +0000</pubDate>
+ <dc:creator>Alessiocz1</dc:creator>
+ <guid isPermaLink="false">23981 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal školenia | SDA</title>
+ <link>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda</link>
+ <description>&lt;p&gt;Slovenská Drupal Asociácia sa chystá organizovať Drupal školenia.
+Základné info na &lt;a href=&quot;http://drupal.sk/node/1897&quot;&gt;drupal.sk&lt;/a&gt; .
+Pomôžte nám získať viac info o vašich požiadavkách v ankete &lt;a href=&quot;https://apps.facebook.com/polldaddy-polls/?view=poll&amp;amp;id=7558115&quot;&gt;na
+facebooku&lt;/a&gt;, alebo v komentároch na drupal.sk, alebo tu.&lt;/p&gt;
+
+&lt;p&gt;Ďakujeme&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/frankye/drupal-skolenia-sda#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/theming">theming</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj">vývoj</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22956</wfw:commentRss>
+ <pubDate>Wed, 13 Nov 2013 11:59:01 +0000</pubDate>
+ <dc:creator>frankye</dc:creator>
+ <guid isPermaLink="false">22956 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Fotky z DrupaConu Praha 2013</title>
+ <link>https://www.drupal.cz/blog/pepej/fotky-z-drupaconu-praha-2013</link>
+ <description>&lt;p&gt;V září se, jak asi víte konal v Praze první „český“ Drupalcon
+Europe.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/pepej/fotky-z-drupaconu-praha-2013&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/pepej/fotky-z-drupaconu-praha-2013#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22776</wfw:commentRss>
+ <pubDate>Sat, 02 Nov 2013 14:58:02 +0000</pubDate>
+ <dc:creator>pepej</dc:creator>
+ <guid isPermaLink="false">22776 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz odteď (a jenom) na SSL</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupalcz-odted-jenom-na-ssl</link>
+ <description>&lt;p&gt;Tento týden jsem zakoupil a nainstaloval SSL certifikát pro &lt;a href=&quot;http://www.drupal.cz&quot;&gt;www.drupal.cz&lt;/a&gt;. Změna fungovala od včera ale
+dnes jsem do htaccess přidal změnu, která automaticky přesměruje všechen
+traffic na HTTPs.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupalcz-odted-jenom-na-ssl&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupalcz-odted-jenom-na-ssl#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22311</wfw:commentRss>
+ <pubDate>Wed, 09 Oct 2013 17:08:45 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">22311 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Máte prekladateľskú agentúru? Poskytnite služby online.</title>
+ <link>https://www.drupal.cz/blog/blueminds/mate-prekladatelsku-agenturu-poskytnite-sluzby-online</link>
+ <description>&lt;p&gt;V Drupale je k dispozícii sada modulov, ktoré vám umožnia
+automatizovať zasielanie a prijímanie prekladov (napr. na služby ako Gengo,
+Nativy, Bing, Google…). Naviac sme vytvorili Drupal distro, ktoré predstavuje
+kompletný prekladateľský server, ktorého využitie môžu nájsť pre
+prekladateľské agentúry.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/blueminds/mate-prekladatelsku-agenturu-poskytnite-sluzby-online&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/blueminds/mate-prekladatelsku-agenturu-poskytnite-sluzby-online#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21991</wfw:commentRss>
+ <pubDate>Sat, 21 Sep 2013 13:12:23 +0000</pubDate>
+ <dc:creator>blueminds</dc:creator>
+ <guid isPermaLink="false">21991 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

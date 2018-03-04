@@ -1,0 +1,1064 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Změna rozmístění fields&quot;" href="/crss/node/8096" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Změna rozmístění fields | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_02a36298fc18f7cc1cadbc14f0dcd6ff.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a> » <a href="/forum">Témata fóra</a> » <a href="/forum/vzhled-a-design-webu">Vzhled a design webů</a> » <a href="/forum/upravy-temat-vzhledu">Úpravy témat vzhledu</a></div>        <h2 class="title">Změna rozmístění fields</h2>
+        <div class="tabs"></div>
+                  <div class="article  article-8096">
+    <span class="submitted">Vložil/a <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a>, 25 Srpen, 2010 - 09:23</span>
+  <div class="pcontent">
+    <div class="forum-kat">
+      <b>Kategorie:</b>
+      Úpravy témat vzhledu    </div>
+    <div class="forum-ver">
+      <b>Týká se verze:</b>
+      Drupal 6.x    </div>
+    <p>Ahoj, potýkám se s problémem kterej bude nejspíš většině zkušených
+drupalistů jasnej, nicméně já tápu. Chci vytvořit stránku s autem.
+Vytvořil sem typ obsahu „Auto“ a přidal mu políčka jako cena, najeto,
+rok výroby atd. plus fotky. Když obsah vytvořim, mám všechno napraný pod
+sebou. Chtěl bych, aby fotky byly vedle sebe a informace v tabulce po dvou
+sloupcích. Vytvořil sem node-auto.tpl.php a koumal jak to tam naprat protože
+zobrazení všeho mi dělá tahle část kodu: <code>&lt;?php echo
+$content; ?&gt;</code></p>
+
+<p>snažil sem se najít jak tam naprat všechny položky zvlášť abych
+s nima moh pracovat a našel sem tuhle stránku <a href="https://drupal.org/node/348916">http://drupal.org/node/348916</a> ta mi
+pomohla v tom, že už umim naformátovat cenu, najeto atd. Vložim
+<code>&lt;?php print $node-&gt;field_cena[‚0‘][‚va­lue‘]; ?&gt;</code>
+a zobrazí se mi ale jenom cena tzn. 89 000,– a ne celek jako předtim
+„Cena: 89 000,–“ .Neni problém to tam samozřejmě dopsat ručně ale
+přece to nějak musí jít abych nemusel v případě změny přepisovat
+node-auto.tpl.php. Větší problém sou obrázky. Když zadám <code>&lt;?php
+print $node-&gt;field_obrazek[‚0‘][‚va­lue‘]; ?&gt;</code> tak se nic
+nezobrazí. Musim nejdřív vytisknout &lt;img src=teďka cestu k němu&gt;.To
+bych zvlád ale potom mi nefunujou nastavení na obrázky, který mám v cck.
+Jako že po kliknutí se spustí lightbox. Dalo by se dopsat tisknutí stylu
+„lightbox“ jenže už to zase neni elegantní, kdybych chtěl změnu na
+thickbox tak musim zase zasahovat do kodu. Otázka: kde zjistim jednotlivý
+součásti který vylezou když nechám v kodu &lt;?php echo $content; ?&gt; ?
+dlouhej příspěvek, jen sem chtěl přesně popsat o co de abych předešel
+dohadům proč ne tohle a tak</p>  <div class="forum-topic-navigation clear-block">
+          <a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-barev-ve-vertigu" class="topic-previous" title="Přejít na předchozí téma.">‹ Změna barev ve Vertigu</a>
+              <a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/user-profile-page" class="topic-next" title="Přejít na následující téma.">User profile page ›</a>
+      </div>
+  </div>
+  
+  <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-9623" class="social-add digglink" onmouseover="showSocials(9623)" onmouseout="hideSocials(9623)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-9623">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields&amp;title=Změna rozmístění fields" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields&amp;title=Změna rozmístění fields" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields&amp;title=Změna rozmístění fields" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div></div> <!-- article end -->
+<div class="article-spacer">&nbsp;</div>
+<div id="comments">
+  <a id="comment-30057"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30057" class="active">dobry kamarad je modul devel.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 25 Srpen, 2010 - 09:59.  </div>
+
+  <div class="content">
+    <p>dobry kamarad je modul devel. jedna z funkci ktera tam je je dpr($promenna);
+takze v tom node-auto.tpl.php date dpr($node); a uvidite co vsechno obsahuje ta
+promenna. u tech fieldů obvykle krome [value] tam byva jeste [view] ktery se
+ovlivnuje pres zalozku „display fields“ v uprave typu obsahu to by se melo
+tykat treba toho ligtboxu.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30057" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30059"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30059" class="active">Devel mám, ukáže mi tohle</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 10:09.  </div>
+
+  <div class="content">
+    <p>Devel mám, ukáže mi tohle <img src="https://img94.imageshack.us/img94/1692/dsfdfn.jpg" /> ale nevim co s tim.
+Jak sem psal, když zadám &lt;?php print
+$node-&gt;field_rok_vy­roby[‚0‘][‚va­lue‘]; ?&gt; tak mi to vypíše
+jenom „1994“ a ne „Rok výroby: 1994“ u obrázku zas dám &lt;?php
+print $node-&gt;field_obrazek[‚0‘][‚fi­lepath‘]; ?&gt; a vypíše mi to
+sites/default/fi­les/subaru_jus­ty<sub>2</sub>_3.jpg.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30059" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-30060"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30060" class="active">Svoje tpl.php soubory mají</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 25 Srpen, 2010 - 10:09.  </div>
+
+  <div class="content">
+    <p>Svoje tpl.php soubory mají také jednotlivá pole (ze začátku poradí
+modul Theme developer).</p>
+
+<p>Nebo můžete zobrazování polí vypnout a vypisovat si všechno sám
+v node.tpl.php, ale jak správně tušíte, pak se musíte postarat
+i o výpis labelu atd.</p>
+
+<p>Správně je mít v tpl.php co nejjednodušší zápis a všechny podmínky
+a funkce dávat do template.php (klíčové slovo: preprocess funkce,
+preprocessing).</p>
+
+<p>A v neposlední řadě, jakmile to vypisujete v šabloně sám
+(jakýmkoliv způsobem), musíte se starat taky o bezpečnost (keywords:
+wriging secure code). Budete potřebovat hlavně check_plain() a
+check_markup()</p>
+
+<p>P.S. jo a pokud budete chtít custom vypisovat obrázky, asi užijete funkci
+field_file_load(), která vám načte celý $file podle FID.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30060" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30061"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30061" class="active">na obrazky je podle me lepsi</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 25 Srpen, 2010 - 10:20.  </div>
+
+  <div class="content">
+    <p>na obrazky je podle me lepsi <a href="https://www.google.com/search?client=opera&amp;rls=cs&amp;q=theme+imagecache&amp;sourceid=opera&amp;ie=utf-8&amp;oe=utf-8">http://www.google.com/search?…</a>
+(sorry za google, ale prislo mi to jako nejlepsi zpusob jak to popsat)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30061" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-30062"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30062" class="active">pardon ale..teď sem se už</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 10:21.  </div>
+
+  <div class="content">
+    <p>pardon ale..teď sem se už uplně ztratil. Můžete mi poradit..de
+jednoduše udělat následující věc(pro moje pochopení): mám field_obrazek1
+a field_obrazek2 k tomu field_popis1 a field popis2. Tyhle fields chci vzít a
+dát do tabulky rozdělenou na dva řádky. V horním bude field_obrazek1 a
+field_obrazek2, v druhym field_popis1 a field_popis2. Jak na to? A ne
+přes views.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30062" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30063"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30063" class="active">Podle mě bohužel odpověď je,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 25 Srpen, 2010 - 10:26.  </div>
+
+  <div class="content">
+    <p>Podle mě bohužel odpověď je, že si budete muset nastudovat theming.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30063" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30065"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30065" class="active">koumu to už děsnou dobu a</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 10:37.  </div>
+
+  <div class="content">
+    <p>koumu to už děsnou dobu a pořád na to nemůžu přijít. Nemůžete mě
+nějak postrčit správným směrem? Podařilo se mi už zobrazit výpis celého
+field pomocí &lt;?php print
+$node-&gt;content[‚fiel­d_cena‘][‚fiel­d‘][‚#title‘] ?&gt;&lt;?php
+print $node-&gt;field_cena[‚0‘][‚va­lue‘]; ?&gt; takže už mi to
+píše „Cena 89 000,–“ ale cena není tučně a není za ní dvojtečka,
+zkoušel sem aplikovat css z ckk ze složky theme ale nic..</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30065" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-30064"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30064" class="active">spatny navrh aplikace. proc</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 25 Srpen, 2010 - 10:37.  </div>
+
+  <div class="content">
+    <p>spatny navrh aplikace. proc mate field_image a field_popis kdyz primo
+field_image v sobe description nabizi? (pripadne jeste dalsi jako alt a tak,
+ale na to uz je nutny dalsi modulek)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30064" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30066"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30066" class="active">to bylo jenom pro příklad. Ve</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 10:40.  </div>
+
+  <div class="content">
+    <p>to bylo jenom pro příklad. Ve skutečnosti mám field_obrazek a další
+fields sou cena, původ, najeto, palivo, STK které potřebuju pozicovat na
+stránce</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30066" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30068"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30068" class="active">no, na to ale ani moc</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 25 Srpen, 2010 - 10:52.  </div>
+
+  <div class="content">
+    <p>no, na to ale ani moc nepotrebujete „theming“, to se da udelat
+z 95% CSS.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30068" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30070"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30070" class="active">to jo ale nevěděl sem, jak</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 10:54.  </div>
+
+  <div class="content">
+    <p>to jo ale nevěděl sem, jak vypsat jednotlivý field.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30070" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div><a id="comment-30067"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30067" class="active">Ooooooo budiž blahoslavený</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 10:45.  </div>
+
+  <div class="content">
+    <p>Ooooooo budiž blahoslavený internet:D Díky Ema, začal sem koumat theming
+a narazil na stránku <a href="https://api.drupal.org/api/drupal/modules--node--node.tpl.php/6">http://api.drupal.org/…de.tpl.php/6</a>
+kde sem se dozvěděl že stačí dopsat _rendered</p>
+
+<p>takže teď napíšu do node.auto.tpl.php &lt;?php echo
+$field_obrazek_ren­dered; ?&gt; a zobrazí se obrázek se všema vlastnostma.
+Napíšu &lt;?php echo $field_cena_ren­dered; ?&gt; a zobrazí se tučně cena
+i s dvojtečkou a hodnotou. Díky za pomoc, zase sem o něco chytřejší</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30067" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30071"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30071" class="active">ono je to tak ze vetsinou</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 25 Srpen, 2010 - 10:54.  </div>
+
+  <div class="content">
+    <p>ono je to tak ze vetsinou precteni prvnich 3. odkazu googlu je rychlejsi a
+ucinnejsi nez to dalekosahle resit… a me pak nadavaji :o)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30071" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30073"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30073" class="active">ale já to vážně hledal. O tom</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 11:02.  </div>
+
+  <div class="content">
+    <p>ale já to vážně hledal. O tom theming sem vůbec nevěděl. A bylo to
+tak snadný. Třeba tohle vlákno někomu ještě pomůže</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30073" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30076"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30076" class="active">ja to myslel tak, ze se zlobi</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 25 Srpen, 2010 - 11:08.  </div>
+
+  <div class="content">
+    <p>ja to myslel tak, ze se zlobi na odpoved „hledejte na googlu to a to“
+pritom je to efektivnejsi nez neco opisovat z tech clanku sem :o)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30076" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><a id="comment-30085"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30085" class="active">narazil sem na další</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 12:54.  </div>
+
+  <div class="content">
+    <p>narazil sem na další problém.Všechno funguje akorát na úvodní stránce
+&lt;front&gt; se mi zobrazujou novinky a přidaný auta. Jenže u aut se mi
+zobrazujou všechny fotky a ve velkym rozlišení. Mě stačí jedna.Ale to je
+fuk, hlavně ať nejsou velký. Nemá někdo prosim vás radu?Já už sem
+z toho uplně pitomej</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30085" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30087"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30087" class="active">nechapu presne, na neco by</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 25 Srpen, 2010 - 12:58.  </div>
+
+  <div class="content">
+    <p>nechapu presne, na neco by mohla pomoci podminka s $page (viz nadpis
+v node.tpl.php ), nebo „display fields“ na typu obsahu. zalezi jak je ten
+web presne udelany.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30087" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30088"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30088" class="active">mám produkt, u něj sou dva</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 13:05.  </div>
+
+  <div class="content">
+    <p>mám produkt, u něj sou dva druhy obrázků.Jeden je hlavní fotka (může
+se nahrá jenom jedna a zobrazuje se v tabulkovym výpisu aut). Další field
+sou další fotky který se maj zobrazit při otevření auta. Jenže tyhle
+fotky se mi zobrazujou v plný velikosti na hlavní stránce (která má
+informovat o nových autech).Klidně ať se tam zobrazujou ale v jiný
+velikosti</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30088" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30089"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30089" class="active">sem idiot, špatně sem si</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 13:08.  </div>
+
+  <div class="content">
+    <p>sem idiot, špatně sem si nastavil display fields. Srry, ležim v tom
+třetí den a sem mimo. Ještě že končim. Díky</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30089" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><a id="comment-30091"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30091" class="active">Ale ne..fields už sem si</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 25 Srpen, 2010 - 13:20.  </div>
+
+  <div class="content">
+    <p>Ale ne..fields už sem si poskládal jak sem potřeboval ale nevim jak se
+vloží do node-auto.tpl.php popis, ten hlavní obsah co je tam standartně má
+ve jméně Node module form. Když zadám &lt;?php print $teaser; ?&gt; nestane
+se nic, když &lt;?php print $body; ?&gt; obsah se vypíše ale s nim znovu
+fotky,cena atd.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30091" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30239"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30239" class="active">Ak chces mat teaser zvlast</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/pointer" title="Zobrazit profil uživatele.">pointer</a> dne 31 Srpen, 2010 - 16:00.  </div>
+
+  <div class="content">
+    <p>Ak chces mat teaser zvlast v premennej tak si ho tam musis najprv vytvorit
+v preprocces funkcii. Ja som pouzil tento postup:</p>
+
+<p>V template.php (template.php je subor kam davas preprocess funkcie a ine
+funkcie pri praci s temamy, vid manual):</p>
+
+<pre class="php"><code>function NAZOV_TVOJEJ_TEMY_preprocess_node(&amp;$vars, $hook) {
+
+        // Nastavim do premennych zvlast teaser a zvlast body
+        // Znova nahram node pretoze &lt;!--break--&gt; uz bol vyfiltrovany
+        $node = node_load($vars['nid']);
+        if ($vars['page'] == TRUE) {
+                if (strpos($node-&gt;body, '&lt;!--break--&gt;') !== 0) {
+                        $vars['style_teaser_differently'] = TRUE;
+                        $vars['node_teaser'] = check_markup($node-&gt;teaser, $node-&gt;format, FALSE);
+                        $vars['node_body'] = substr($node-&gt;body, strpos($node-&gt;body, '&lt;!--break--&gt;'));
+                }
+        }
+        else {
+                $vars['node_teaser'] = check_markup($node-&gt;teaser, $node-&gt;format, FALSE);
+        }
+
+
+
+}</code></pre>
+
+<p>a potom v tvojej template, pouzijes na vypis teaseru normalne:</p>
+
+<pre class="php"><code>&lt;div class="article-teaser"&gt;&lt;?php print $node_teaser; ?&gt;&lt;/div&gt;
+&lt;div class="article-body"&gt;&lt;?php  print $node_body; ?&gt;&lt;/div&gt;</code></pre>
+
+<p>To je moj postup, neviem ci existuje lepsi a „cistejsi“.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30239" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30242"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30242" class="active">Mam pocit ze cely $node je uz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 31 Srpen, 2010 - 19:19.  </div>
+
+  <div class="content">
+    <p>Mam pocit ze cely <code>$node</code> je uz vo <code>$vars['node']</code>?
+Akurat ze este by tam bolo treba kontrolovat aby to slo len pre pozadovany typ
+<code>if ($vars['node']-&gt;type = 'mojtypobsahu') { ... }</code>.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30242" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30245"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30245" class="active">Ano, ale ako tam mám</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/pointer" title="Zobrazit profil uživatele.">pointer</a> dne 31 Srpen, 2010 - 21:37.  </div>
+
+  <div class="content">
+    <p>Ano, ale ako tam mám v komentari zmienené, tak vo
+$vars[‚node‘]-&gt;body uz je teaser a body dokopy a rozdelovací</p>
+
+<pre class="html"><code>&lt;!--break--&gt;</code></pre>
+
+<p>je vyfiltrovaný (chýba tam) takže by som nevedel kde urobiť rozdelenie.
+Ak urobím node_load() tak tam ten</p>
+
+<pre class="html"><code>&lt;!--break--&gt;</code></pre>
+
+<p>mám a môžem podla neho text rozdeliť na teaser a body.</p>
+
+<p>node_load() je kešovaná funkcia (preto je jeden z jej parametrov RESET na
+zmazanie uz nacitanych udajov) takže jej použitie nemá žiadne výkonostné
+dopady kedže na začiatku requestu sa node_load() musí vykonať tak či tak a
+teraz pri druhom (a ďalšom volaní v ramci toho isteho requestu) sa použijú
+už načítané interné hodnoty bez dotazovania do DB.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30245" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30247"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30247" class="active">nebylo by lepsi pouzit funkci</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 31 Srpen, 2010 - 22:23.  </div>
+
+  <div class="content">
+    <p>nebylo by lepsi pouzit funkci <a href="https://api.drupal.org/api/function/node_teaser/6">http://api.drupal.org/…ode_teaser/6</a>
+pro pripad ze by teaser nebyl rucne oddelen?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30247" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30273"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30273" class="active">nevim jestli sem to dobře</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 1 Září, 2010 - 08:58.  </div>
+
+  <div class="content">
+    <p>nevim jestli sem to dobře pochopil, vložil sem do node-auto.tpl.php
+příkaz &lt;?php print node_teaser($body, $format = NULL, $size = NULL); ?&gt;,
+chyba, zkusil sem &lt;?php print $node_teaser($body, $format = NULL, $size =
+NULL); ?&gt; a taky chyba. V těhle věcech zatim moc zběhlej nejsem, učim se
+zkoušením a tohle sem ještě nepotřeboval.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30273" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-30278"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30278" class="active">jj, to by bolo lepsie (i ked</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/pointer" title="Zobrazit profil uživatele.">pointer</a> dne 1 Září, 2010 - 11:10.  </div>
+
+  <div class="content">
+    <p>jj, to by bolo lepsie (i ked s clankamy bez rucneho teaseru nepocitam ale
+nikdy nehovor nikdy…), o tej funkcii som nevedel..ale ma to problem ze zas
+nebudem mat text clanku (tj body bez teaseru) k dispozii v sablone.</p>
+
+<p>$node-&gt;body (v node.tpl.php je to premenna $content) je vlastne teaser +
+text clanku. ja si to rozbijem zvlast na $node_teaser a $node_body (=text
+clanku) a potom to v tpl sablone pouzijem zvlast na inych miestach.</p>
+
+<p>Trochu ma štve tento prístup Drupalu všetky polia zmixovať do jednej
+premnnej $content (v $content nieje len teaser a body ale aj vsetky ine polia
+pridane cez CCK napriklad). To už potom v sablone moc nenadesignujem, nepridam
+tam ziadne html znacky…mozem to len upravit cez css. Ak chcem v sablone kazde
+pole zvlast tak uz to je „hackovanie“…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30278" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30282"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30282" class="active">osobne bych to udelal tak ze</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 1 Září, 2010 - 12:20.  </div>
+
+  <div class="content">
+    <p>osobne bych to udelal tak ze „klasicke body“ bych vypustil a vytvoril si
+field_perex a field_zbytek. Ty dat na formular hned pod sebe a promennou
+$content pak v node.tpl.php vymazat a udelat to cele rucne. nevyhoda je ze pri
+pripadnem pridani polí je nutne upravovat sablonu, ale to neni zase takovy
+problem. na jednom projektu ted mam dokonce:</p>
+
+<pre class="php"><code>group_perex
+-field_perex_image
+-field_perex_text
+group_body
+-field_body_images
+-field_body_text</code></pre>
+
+<p>krasa drupalu je v tom ze nic neni nemozne. jen je potreba si to poradne
+zanalyzovat a navrhnout vhodne reseni.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30282" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div><a id="comment-30274"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30274" class="active">nakonec sem to vyřešil tak,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 1 Září, 2010 - 09:01.  </div>
+
+  <div class="content">
+    <p>nakonec sem to vyřešil tak, že sem nenechal zobrazovat pole pro psaní
+obsahu co tam je ale vytvořil sem si nový text field. Jenže zase tam nemám
+fckeditor.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30274" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30275"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30275" class="active">„zase tam nemám fck editor“…</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 1 Září, 2010 - 09:21.  </div>
+
+  <div class="content">
+    <p>„zase tam nemám fck editor“… to je věcí nastavení toho pole
+(formátu) a nastavení FCK, případně počtu řádků v tom poli (aby ladilo
+s nastavením FCK)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30275" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-30276"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields#comment-30276" class="active">máte pravdu. V nastavení mnou</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 1 Září, 2010 - 09:37.  </div>
+
+  <div class="content">
+    <p>máte pravdu. V nastavení mnou vytvořenýho fieldu pro popis stačilo
+změnit v jeho nastavení „Text processing:“ z „Plain text“ na
+„Filtered text (user selects input format)“ . Děkuju</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/8096/30276" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div><div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/8096"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-0cb8a1d630615ab4d7c476b2097490a9" value="form-0cb8a1d630615ab4d7c476b2097490a9"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/forum/vzhled-design-webu/upravy-temat-vzhledu/zmena-rozmisteni-fields?destination=node%2F8096"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-75a047c847a25e672307fd90da44fc3f" value="form-75a047c847a25e672307fd90da44fc3f"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/cfd-trading" class="tagadelic level1">cfd trading</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views" title="2 komentáře">Jak vyhledávat v poli soubor (multiupload) - VIEWS</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 9 hod 59 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 14 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 2 dny 23 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 3 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 4 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 5 dnů 22 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 2 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 18 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":805,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>TomasB&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/tomasb</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Notičky k upgrejdu Drupalu v6.x</title>
+ <link>https://www.drupal.cz/blog/tomasb/noticky-k-upgrejdu-drupalu-v6-x</link>
+ <description>&lt;p&gt;Když jsem poprvé nainstaloval spustil Drupal v6.0, netušil jsem kolikrát
+jej budu během krátké doby upgrejdovat na vyšší a bezpečnější verzi.
+Při prvních aktualizacích jsem postupoval vždy podle přítomného
+&lt;em&gt;upgrade.txt&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/tomasb/noticky-k-upgrejdu-drupalu-v6-x&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/tomasb/noticky-k-upgrejdu-drupalu-v6-x#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4284</wfw:commentRss>
+ <pubDate>Sun, 14 Dec 2008 10:18:03 +0000</pubDate>
+ <dc:creator>TomasB</dc:creator>
+ <guid isPermaLink="false">4284 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

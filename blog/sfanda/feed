@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SFanda&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/sfanda</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Seznamování se s drupalem</title>
+ <link>https://www.drupal.cz/blog/sfanda/seznamovani-se-s-drupalem</link>
+ <description>&lt;p&gt;Chystám prvních pár projektů využívajících CMS, a zvolil jsem drupal.
+Taky jde o první pokusy, které mají uspokojivé výsledky. Drupal mě
+průběžně stále příjemně překvapuje. Až ho ovládnu, stane se zřejmě
+mým standardem. :)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/sfanda/seznamovani-se-s-drupalem#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/331</wfw:commentRss>
+ <pubDate>Thu, 09 Nov 2006 09:48:25 +0000</pubDate>
+ <dc:creator>SFanda</dc:creator>
+ <guid isPermaLink="false">331 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

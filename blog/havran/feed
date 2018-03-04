@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Havran&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/havran</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Texy! filter 7.x-1.0-alpha1</title>
+ <link>https://www.drupal.cz/blog/havran/texy-filter-7x-10-alpha1</link>
+ <description>&lt;p&gt;Pokial to niekoho potesi tak som sa konecne (vdaka mojmu zamestnavatelovi &lt;a href=&quot;http://mogdesign.eu&quot;&gt;Mogdesign&lt;/a&gt;) dostal ku tomu aby som previedol Texy!
+filter do Drupal 7.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://drupal.org/project/texy&quot;&gt;http://drupal.org/project/texy&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/texy-filter-7x-10-alpha1#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/modul">modul</category>
+ <category domain="https://www.drupal.cz/clanky/texy">Texy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10641</wfw:commentRss>
+ <pubDate>Wed, 16 Nov 2011 13:50:23 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">10641 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Správa prekladov node cez views</title>
+ <link>https://www.drupal.cz/blog/havran/sprava-prekladov-node-cez-views</link>
+ <description>&lt;p&gt;Robím teraz viacjazyčný web a chcel som do administrácie vložiť
+možnosť zobrazenia všetkých prekladov pre aktuálny node (v jednom
+riadku).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/sprava-prekladov-node-cez-views&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/sprava-prekladov-node-cez-views#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/lokalizace">lokalizace</category>
+ <category domain="https://www.drupal.cz/clanky/programovani">programování</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7799</wfw:commentRss>
+ <pubDate>Wed, 30 Jun 2010 17:36:40 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">7799 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal ako univerzálna platforma pre stavbu univerzitných webov</title>
+ <link>https://www.drupal.cz/blog/havran/drupal-ako-univerzalna-platforma-pre-stavbu-univerzitnych-webov</link>
+ <description>&lt;p&gt;Dnes som vystúpil na našom pravidelnom malom seminári &lt;a href=&quot;http://www.fem.uniag.sk/sit2010/&quot;&gt;SIT 2010&lt;/a&gt; (už 13-ty ročník)
+s príspevkom na tému „Drupal ako univerzálna platforma pre stavbu
+univerzitných webov“. Prezentáciu dávam k nahliadnutiu v prílohe,
+príspevok bude niekedy neskôr.&lt;/p&gt;
+
+&lt;p&gt;Ešte poznámka k PDF – tie grafy sú z vyhodnotenia stránok vysokých
+škôl a univerzít v počte 33, zo Slovenska.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/drupal-ako-univerzalna-platforma-pre-stavbu-univerzitnych-webov#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/prezentace">Prezentace</category>
+ <category domain="https://www.drupal.cz/clanky/pripadove-studie">případové studie</category>
+ <enclosure url="https://www.drupal.cz/files/sit-2010-juraj-chlebec.pdf" length="802583" type="application/pdf" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7615</wfw:commentRss>
+ <pubDate>Thu, 20 May 2010 12:44:31 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">7615 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Seriál o vývoji modulov na Interval.CZ</title>
+ <link>https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz</link>
+ <description>&lt;p&gt;Na serveri Interval.CZ sa objavil zaujímavo začínajúci seriál o vývoji
+modulov pre Drupal 6.x. Doporučujem.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://interval.cz/clanky/vyvoj-modulu-pro-cms-system-drupal-6-x/&quot;&gt;Vývoj
+	modulů pro CMS systém Drupal 6.x&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;http://interval.cz/clanky/vyvoj-modulu-pro-cms-system-drupal-6-x-2-dil/&quot;&gt;Vývoj
+	modulů pro CMS systém Drupal 6.x (2. díl)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6363</wfw:commentRss>
+ <pubDate>Fri, 06 Nov 2009 19:07:43 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">6363 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Odstránenie chybových hlásení z fóra na Drupal.SK</title>
+ <link>https://www.drupal.cz/blog/havran/odstranenie-chybovych-hlaseni-z-fora-na-drupal-sk</link>
+ <description>&lt;p&gt;Na &lt;a href=&quot;http://drupal.sk&quot;&gt;Drupal.SK&lt;/a&gt; sa po konverzii z Drupalu
+4.6 na 4.7 a následne na Drupal 5.1 objavila jedna chyba, ktorú som si
+sprvu nevšimol (keďže nové príspevky nesledujem priamo z odkazu na fórum
+ale cez položku menu &lt;a href=&quot;http://drupal.sk/tracker&quot;&gt;Posledné
+príspevky&lt;/a&gt;). Až neskôr na ňu upozornili niektorí používatelia. Povedal
+som si že ok, je to chyba niekde v &lt;a href=&quot;http://www.postgresql.org&quot;&gt;PostgreSQL&lt;/a&gt; ale nemám priamo do databázy
+prístup tak asi nič neporiešim.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/odstranenie-chybovych-hlaseni-z-fora-na-drupal-sk&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/odstranenie-chybovych-hlaseni-z-fora-na-drupal-sk#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1401</wfw:commentRss>
+ <pubDate>Wed, 25 Jul 2007 19:23:05 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">1401 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Prečítajte si...</title>
+ <link>https://www.drupal.cz/blog/havran/precitajte-si</link>
+ <description>&lt;p&gt;Prečítajte si príspevok na blogu &lt;a href=&quot;http://www.vzhurudolu.cz/&quot;&gt;Vzhůru dolů&lt;/a&gt; – &lt;a href=&quot;http://www.vzhurudolu.cz/74/drupal-redakcni-system-pro-geeky&quot;&gt;Drupal:
+redakční systém pro geeky&lt;/a&gt;. Ja s autorom celkom súhlasím :).&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/precitajte-si#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1393</wfw:commentRss>
+ <pubDate>Mon, 23 Jul 2007 11:11:10 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">1393 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Tak tomu teda nerozumiem...</title>
+ <link>https://www.drupal.cz/blog/havran/tak-tomu-teda-nerozumiem</link>
+ <description>&lt;p&gt;Drupal je tak populárny že už ho aj premenúvajú… Viď &lt;a href=&quot;http://www.3n.cz/&quot;&gt;http://www.3n.cz/&lt;/a&gt; Mám taký pocit že toto GPL
+licencia nepovoluje… Via &lt;a href=&quot;http://drupal.hu/english/node/12&quot;&gt;http://drupal.hu/english/node/12&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/tak-tomu-teda-nerozumiem#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/957</wfw:commentRss>
+ <pubDate>Tue, 03 Apr 2007 20:38:44 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">957 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Moduly ktoré musíte mať ked chcete... [1]</title>
+ <link>https://www.drupal.cz/blog/havran/moduly-ktore-musite-ma-ked-chcete-1</link>
+ <description>&lt;p&gt;Dnes som objavil riešenie jedného môjho problému. A ani to nebolelo.
+Chcel som vo fóre vytvoriť časť do ktorej budú mať prístup len ľudia
+ktorý majú pridelenú rolu organizátor. Nie všetko sa musí pretriasať
+verejne, nie?&lt;/p&gt;
+
+&lt;p&gt;Riešenie som našiel v moduloch &lt;a href=&quot;http://drupal.org/project/acl&quot;&gt;ACL&lt;/a&gt; a &lt;a href=&quot;http://drupal.org/project/forum_access&quot;&gt;Forum Access&lt;/a&gt;. Pomocou týchto
+dvoch modulov môžete nastavovať práva pre prístup, editáciu a mazanie vo
+fórach pre jednotlivé používateľské role, ale aj prideliť pre jednotlivé
+fóra moderátorov. To je určite veľmi podstatná fukcionalita pre každé
+dobré fórum. (Tieto moduly sú však bohužial iba pre Drupal5.)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/moduly-ktore-musite-ma-ked-chcete-1&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/moduly-ktore-musite-ma-ked-chcete-1#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/624</wfw:commentRss>
+ <pubDate>Fri, 26 Jan 2007 22:55:50 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">624 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupaliť či neDrupaliť, to je otázka...</title>
+ <link>https://www.drupal.cz/blog/havran/drupali-ci-nedrupali-to-je-otazka</link>
+ <description>&lt;p&gt;Dnes Karolko na svojom blogu na &lt;a href=&quot;http://www.drupal.sk&quot;&gt;www.drupal.sk&lt;/a&gt; vložil článok, ktorý si kladie
+zaujímavé otázky. Je Drupal vhodný na veľký portál? Je Drupal naozaj
+dobrý CMS? Pokiaľ s ním chcete polemizovať, prípadne poznáte odpovede na
+niektoré jeho otázky, navštívte jeho príspevok &lt;a href=&quot;http://www.drupal.sk/node/149&quot;&gt;Je tento CMS dobry alebo nie?&lt;/a&gt; a
+komentujte.&lt;/p&gt;
+
+&lt;p&gt;Hneď v ďalšom príspevku &lt;a href=&quot;http://www.drupal.sk/node/150&quot;&gt;Štúdia
+slovenskej drupalovej psyché&lt;/a&gt; si kladie otázku prečo sa u nás na
+Slovensku tak málo deje okolo Drupalu. Ja si myslím že nám chýba niekto tak
+aktívny (a majúci dosť) času, ako je tuná Jakub (česť jeho práci!). Aj
+&lt;a href=&quot;http://www.joomla.org/&quot;&gt;Joomla&lt;/a&gt; má na Slovensku &lt;a href=&quot;http://www.joomla.sk/&quot;&gt;ďaleko aktívnejšiu komunitu&lt;/a&gt; ako Drupal. Ja
+si myslím že je to aj tým že Joomla je viac „eye candy“ –
+vyčačkaná a prepracovaná (aj čo sa administrácie týka) pre bežného
+používateľa. Drupalu toto chýbalo a až Drupal 5 sa začal viacej zaoberať
+týmito, pre obyčajného používateľa príťažlivými vlastnosťami ako je
+napríklad možnosť veľmi jednoducho a efektne si zmeniť farebnú paletu web
+stránky.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/drupali-ci-nedrupali-to-je-otazka&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/drupali-ci-nedrupali-to-je-otazka#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/588</wfw:commentRss>
+ <pubDate>Fri, 19 Jan 2007 19:25:38 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">588 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>IBM, OpenSource a DRUPAL</title>
+ <link>https://www.drupal.cz/blog/havran/ibm-opensource-a-drupal</link>
+ <description>&lt;p&gt;Firma &lt;a href=&quot;http://www.ibm.com&quot;&gt;IBM&lt;/a&gt; sa v posledných rokoch stala
+veľkým zástancom OpenSource software. Na svojej web stránke uverejňuje
+v posledných mesiacoch výborný seriál o úskaliach vývoja web stránok,
+postavených na OpenSource technológiách. Pred samotným zahájením vývoja
+je však podstatné vybrať „tú správnu“ technológiu. No a pre nás, čo
+sme sa stali priaznivcami OpenSource (W)CMS DRUPAL je potešujúce
+že autori vybrali ako najvhodnejší systém pre vývoj web stránok v tomto
+seriáli práve DRUPAL.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/ibm-opensource-a-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/ibm-opensource-a-drupal#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/171</wfw:commentRss>
+ <pubDate>Wed, 04 Oct 2006 18:14:33 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">171 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Čo práve čítam</title>
+ <link>https://www.drupal.cz/blog/havran/co-prave-citam</link>
+ <description>&lt;p&gt;No čítam všeličo ale keďže si na Drupale robím &lt;a href=&quot;http://www.fem.uniag.sk/havran/admin/&quot;&gt;weblog&lt;/a&gt; tak ma napadlo že by
+som v ňom chcel mať podobnú funkčnosť ako som už na niektorých weblogoch
+videl. Keďže som nikde na taký modul nenarazil (alebo zle hľadám), tak som
+sa rozhodol že si taký modul naprogramujem sám.&lt;/p&gt;
+
+&lt;p&gt;Eh a nenapíšem nikde aký modul. Ide o modul „Čo práve čítam“,
+blok v ktorom sa zobrazí autor, meno knihy a obálka. S tým že by som rád
+aby sa na to potom ešte prípadne dala navesiť recenzia či hodnotenie
+prečítanej knihy.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/co-prave-citam&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/co-prave-citam#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/138</wfw:commentRss>
+ <pubDate>Tue, 26 Sep 2006 16:38:31 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">138 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Testovací príspevok s kompletným zdrojákom Texy! modulu</title>
+ <link>https://www.drupal.cz/blog/havran/testovaci-prispevok-z-kompletnym-zdrojakom-texy-modulu</link>
+ <description>&lt;p&gt;Tak tu je sľubovaný zdroják (na samostatnej stránke):&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/testovaci-prispevok-z-kompletnym-zdrojakom-texy-modulu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/testovaci-prispevok-z-kompletnym-zdrojakom-texy-modulu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/118</wfw:commentRss>
+ <pubDate>Fri, 22 Sep 2006 20:00:48 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">118 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ako som začal mať rád Drupal</title>
+ <link>https://www.drupal.cz/blog/havran/ako-som-zacal-ma-rad-drupal</link>
+ <description>&lt;p&gt;Drupalom som sa vážne začal zaoberať v apríli tohoto roku. Poznal som
+ho už pár rokov, dokonca som ho aj vyskúšal, ale nikdy som sa s ním nejak
+vážnejšie a dlhšie nezaoberal. Páčil sa mi už vtedy – bol ďaleko
+menší ako ostatné CMS ktoré som mal možnosť odskúšať a pripadal mi tak
+nejak prijateľnejší (neviem to bližšie popísať, proste mávam taký
+ciťák na dobrý software).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/havran/ako-som-zacal-ma-rad-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/havran/ako-som-zacal-ma-rad-drupal#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/90</wfw:commentRss>
+ <pubDate>Thu, 21 Sep 2006 14:02:23 +0000</pubDate>
+ <dc:creator>Havran</dc:creator>
+ <guid isPermaLink="false">90 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

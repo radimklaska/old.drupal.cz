@@ -1,0 +1,194 @@
+<?php
+/**
+ * $Id: upload_image.module,v 1.10.2.2 2006/08/18 20:33:09 drewish Exp $
+ */
+
+/**
+ * Implementation of hook_help().
+ */
+function upload_image_help($section) {
+  switch ($section) {
+    case 'admin/modules#description':
+      return t('Extension to upload module, to show uploaded images inline. upload.module and image.module are required.');
+  }
+}
+
+/**
+ * Implementation of hook_link().
+ */
+function upload_image_link($type, $node = 0, $main = 0) {
+  $links = array();
+  // Display a link with the number of attachments
+  if ($type == 'node' && $node->type == 'image') {
+    $image = db_fetch_object(db_query('SELECT u.oid, n.title, n.uid FROM {upload_images} u INNER JOIN {node} n ON u.oid = n.nid WHERE u.nid = %d', $node->nid));
+    if ($image->oid) {
+      $links[] = l(t('parent post: %title', array('%title' => check_plain($image->title))), "node/$image->oid", array('title' => t('Read parent post to view all attached images.')));
+    }
+  }
+
+  return $links;
+}
+
+function upload_image_form_alter($form_id, &$form) {
+  if (isset($form['type'])) {
+    $type = $form['type']['#value'];
+    if ($type .'_node_settings' == $form_id) {
+      $form['workflow']['upload_image_create_'. $type] = array(
+        '#type' => 'radios',
+        '#title' => t('Create attached images'),
+        '#default_value' => variable_get('upload_image_create_'. $type, 1),
+        '#options' => array(t('Disabled'), t('Enabled')),
+        '#description' => t('Enabling this will create image nodes from image files uploaded to nodes of this type. '),
+      );
+      $form['workflow']['upload_image_delete_'. $type] = array(
+        '#type' => 'radios',
+        '#title' => t('Delete attached images'),
+        '#default_value' => variable_get('upload_image_delete_'. $type, 1),
+        '#options' => array(t('Disabled'), t('Enabled')),
+        '#description' => t('Attached images are nodes in their own right connected to the nodes they have been uploaded with. If you enable this the attached image nodes will be deleted when the files are removed from the parent node or the parent node is deleted.'),
+      );
+    }
+  }
+}
+
+/**
+ * Implementation of hook_nodeapi().
+ */
+function upload_image_nodeapi(&$node, $op, $arg) {
+  switch ($op) {
+    case 'load':
+      break;
+    case 'view':
+      if (variable_get("upload_$node->type", 1) == 1 && $node->files && $node->nid && user_access('view uploaded files')) {
+        $images = upload_image_load($node);
+        // We use CSS to hide the attachement table created by upload.module,
+        // we'll re-create the table but only list non-image files.
+        theme_add_style(drupal_get_path('module','upload_image') .'/upload_image.css');
+
+        $rows = array();
+        $thumbnails = array();
+
+        // Build list of attached files
+        foreach ($node->files as $fid => $file) {
+          if ($file->list) {
+            if (!isset($images[$fid])) {
+              $rows[] = array(
+                '<a href="'. check_url(file_create_url($file->filepath)) .'">'. check_plain($file->filename) .'</a>',
+                format_size($file->filesize)
+              );
+            }
+            else {
+              $image = new StdClass();
+              $image->nid = $images[$fid]->nid;
+              image_load($image);
+              $thumbnails[] = l(module_invoke('image', 'display', $image, 'thumbnail'), "node/$image->nid", array(), NULL, NULL, FALSE, TRUE);
+            }
+          }
+        }
+
+        // Add the attachments list
+        if (count($rows)) {
+          $header = array(t('Attachment'), t('Size'));
+          $node->body .= theme('table', $header, $rows, array('id' => 'upload-image-attachments'));
+        }
+        if (count($thumbnails)) {
+          $node->body = theme('upload_images_body', $node->body, $thumbnails);
+        }
+      }
+      break;
+    case 'update':
+      if ($node->type == 'image') {
+        if ($image = db_fetch_object(db_query('SELECT * FROM {upload_images} WHERE nid = %d', $node->nid))) {
+          // Somebody update the generated image node. Update file attachement.
+          $file = db_fetch_object(db_query('SELECT * FROM {files} WHERE fid = %d', $image->fid));
+          db_query("UPDATE {files} SET filename = '%s', filepath = '%s', filemime = '%s', filesize = '%s' WHERE fid = %d", $file->filename, $file->filepath, $file->filemime, $file->filesize, $image->fid);
+        }
+      }
+      // NOTE: no break
+    case 'insert':
+      upload_image_save($node);
+      break;
+    case 'delete':
+      upload_image_delete($node);
+      break;
+  }
+
+  return $output;
+}
+
+function upload_image_load($node) {
+  $files = array();
+  if ($node->nid && count($node->files)) {
+    $result = db_query("SELECT f.*, u.* FROM {upload_images} u INNER JOIN {files} f ON u.fid = f.fid WHERE oid = %d ORDER BY f.fid", $node->nid);
+    while ($file = db_fetch_object($result)) {
+      $files[$file->fid] = $file;
+    }
+  }
+  return $files;
+}
+
+function upload_image_save($node) {
+  if (!$node->uploaded_file && variable_get("upload_image_create_$node->type", 1) && user_access('upload files')) {
+    $user = user_load(array('uid' => $node->uid));
+
+    // process removals.
+    foreach ((array)$node->files as $key => $file) {
+      if ($file['remove'] && ereg('^(image/)', $file['filemime'])) {
+        if (variable_get('upload_image_delete_'. $node->type, 1)) {
+          $image = db_fetch_object(db_query("SELECT nid FROM {upload_images} WHERE fid = %d", $key));
+          node_delete($image->nid);
+          db_query("DELETE FROM {upload_images} WHERE nid = %d", $image->nid);
+        }
+      }
+    }
+    // process additions. we use the results of upload_load to get an fid.
+    foreach (upload_load($node) as $file) {
+      if ($file->list && ereg('^(image/)', $file->filemime)) {
+        // make sure we haven't already added it.
+        if (!db_result(db_query('SELECT COUNT(*) FROM {upload_images} WHERE fid = %d', $file->fid))) {
+          // Create new image
+          $image = new StdClass();
+          $image->uploaded_file = TRUE;
+          $image->name = $user->name;
+          $image->type = 'image';
+          $image->uid = $user->uid;
+          $image->title = $node->title .' ('. $file->filename .')';
+          $image->date = format_date(strtotime('now'));
+          $node_options = variable_get('node_options_image', array('status', 'promote'));
+          foreach (array('status', 'moderate', 'promote', 'sticky', 'revision') as $key) {
+            $image->$key = in_array($key, $node_options);
+          }
+          $image->body = t('This image was uploaded with the post %title.', array('%title' => l(theme('placeholder', $node->title), "node/$node->nid", array(), NULL, NULL, FALSE, TRUE)));
+          $image->image = $file;
+          $image->file = $image->images['_original'] = $file->filepath;
+          _image_build_derivatives($image, true);
+          node_save($image);
+          db_query("INSERT INTO {upload_images} (nid, fid, oid) VALUES (%d, %d, %d)", $image->nid, $file->fid, $node->nid);
+          drupal_set_message(t('Created image post from your uploaded file %file. You can look and update at it <a href="%url">here</a>.', array('%file' => theme('placeholder', check_plain($file->filename)), '%url' => url('node/'. $image->nid))));
+        }
+      }
+    }
+  }
+  return;
+}
+
+function upload_image_delete($node) {
+  if (variable_get('upload_image_delete_'. $node->type, 0)) {
+    $result = db_query("SELECT * FROM {upload_images} WHERE oid = %d", $node->nid);
+    while ($image = db_fetch_object($result)) {
+      node_delete($image->nid);
+    }
+  }
+  db_query("DELETE FROM {upload_images} WHERE oid = %d", $node->nid);
+}
+
+function theme_upload_images($list) {
+  $output = '<div class="upload-image-images">';
+  $output .= theme('item_list', $list);
+  $output .= '</div>';
+  return $output;
+}
+
+function theme_upload_images_body($body, $thumbnails) {
+  return $body . theme('upload_images', $thumbnails);
+}

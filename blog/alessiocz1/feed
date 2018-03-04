@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Alessiocz1&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/alessiocz1</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>České znaky do Drupal 7 šablony koupené v USA</title>
+ <link>https://www.drupal.cz/blog/alessiocz1/ceske-znaky-do-drupal-7-sablony-koupene-v-usa</link>
+ <description>&lt;p&gt;Zdravím, rád bych se dotázal, zda někdo nemáte zkušenost
+s nakódováním českých znaků a případně jiného fontu do Drupal
+7 šablony koupené v USA. Téma se jmenuje Glossy Modern Drupal Theme… Při
+vložení českého textu se písmena s háčkem nebo s čárkou sice
+zobrazí, ale tučně. Za šablonu jsem zaplatil 40 dolarů a teď nevím, co
+s tím. Hledám někoho, kdo mi s tím za rozumnou úplatu pomůže.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/alessiocz1/ceske-znaky-do-drupal-7-sablony-koupene-v-usa&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/alessiocz1/ceske-znaky-do-drupal-7-sablony-koupene-v-usa#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/23981</wfw:commentRss>
+ <pubDate>Thu, 12 Dec 2013 10:44:59 +0000</pubDate>
+ <dc:creator>Alessiocz1</dc:creator>
+ <guid isPermaLink="false">23981 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

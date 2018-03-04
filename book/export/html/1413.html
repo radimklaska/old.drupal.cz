@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Jak napsat vlastní modul pro Drupal - díl 2.</title>
+    <base href="https://www.drupal.cz" />
+    <link type="text/css" rel="stylesheet" href="misc/print.css" />
+      </head>
+  <body>
+              <div class="section-1">
+          
+    <div id="node-1413" class="section-2">
+  <h1 class="book-heading">Jak napsat vlastní modul pro Drupal - díl 2.</h1>
+  <p>Vítejte v dalším díle seriálu, věnovanému vytváření modulů pro
+Drupal. Dnes se podíváme na to, jak zabezpečit jednotlivé části modulu a
+také na to, jak obsloužit akce s uživatelským úč­tem.</p>
+
+<p>Veškerý uveřejněný kód navazuje na testovací modul <i>testmod</i>,
+který jsme vytvořili v 1. dílu.</p>
+
+<h2>Hook funkce</h2>
+
+<p>O hook funkcích jsem se zběžně zmínil již v prvním díle. Proto
+neuškodí, když si ony informace zopakujeme nyní, když je budeme prakticky
+využívat. Hook funkce jsou klasické PHP funkce (nejen), kde se nahrazuje
+<i>obecná část názvu konkrétním jménem</i>. Tato praktika se využívá
+zejména v plug-in modelech a drupalovské moduly nejsou vyjímkou. Aplikace,
+která moduly obsluhuje, pak zjístí, které funkce jsou k dispozici a podle
+toho je volá. Tento postup zabezpečuje situaci, kdy by mohla být volána
+funkce, která není implementována.</p>
+
+<p>Všechny hook funkce, dostupné pro moduly, můžete shlédnout na<a href="https://api.drupal.org/api/5/group/hooks"> této URL.</a></p>
+
+<h2>Zabezpečení a menu modulu</h2>
+
+<p>Drupal nám nabízí rozhraní, pomocí kterého můžeme určit, které
+části modulu chceme zpřístupnit uživateli a které ne. První hook funkci,
+kterou si v této souvislosti ukážeme je <code>hook_perm()</code>. Tato
+funkce vrací pole řetězců, které reprezetují jednotlivá oprávnění. Ty
+pak můžete přiřadit jednotlivým skupinám.</p>
+
+<pre class="php"><code>function testmod_perm() {
+  return array('Testmod user access', 'Testmod admin access');
+}</code></pre>
+
+<p>Oprávněnost pak můžeme otestovat funkcí user_access()­. Např.:</p>
+
+<pre class="php"><code>if (user_access('Testmod user access')) echo 'Přístup povolen.';
+  else drupal_access_denied();</code></pre>
+
+<p>Další cesta vede přes definici položek menu. Toto menu vrací funkce
+<code>hook_menu()</code>. Jedná se opět o pole, ve kterém jsou definovány
+<i>jednotlivé položky</i>, včetně cesty, typu, nadpisu a oprávnění.
+Rozbor jednotlivých typů položek nezapadá do tématu vytváření modulů,
+proto případné zájemce odkazuji <a href="https://api.drupal.org/api/5/group/menu">zde</a>.</p>
+
+<p>Následující kód je součástí modulu testmod. Nedělá nic jiného,
+než, že <i>přesměrovává jednotlivé url adresy</i> na funkci v našem
+modulu. Tím, že jsme ještě přidali kontrolu oprávnění, jsme zabezpečili
+i části jen pro danou skupinu uživatelů.</p>
+
+<pre class="php"><code>function testmod_menu() {
+  $polozky = array();
+
+  // Vytvoření skupiny položek v administrační části
+  $polozky[] = array(
+    'path' =&gt; 'admin/testmod',
+    'title' =&gt; t('Testmod administration'),
+    'description' =&gt; t("Administration tools for testmod module."),
+    'position' =&gt; 'left',
+    'callback' =&gt; 'system_admin_menu_block_page',
+    'access' =&gt; user_access('Testmod admin access'),
+  );
+
+  // Položka v administační části
+  $polozky[] = array(
+    'path' =&gt; 'admin/testmod/polozka',
+    'title' =&gt; t('Testmod administration item :)'),
+    'callback' =&gt; 'administrace',
+    'weight' =&gt; 0,
+    'access' =&gt; user_access('Testmod admin access'),
+    'type' =&gt; MENU_NORMAL_ITEM,
+   );
+
+  // 2 callbacky pro presmerovani adresy na funkci stranky
+  $polozky[] = array(
+    'path' =&gt; 'testmod/prvni',
+    'callback' =&gt; 'stranky',
+    'callback arguments' =&gt; 'prvni',
+    'access' =&gt; user_access('Testmod user access'),
+    'type' =&gt; MENU_CALLBACK,
+  );
+
+  $polozky[] = array(
+    'path' =&gt; 'testmod/druha',
+    'callback' =&gt; 'stranky',
+    'callback arguments' =&gt; 'druha',
+    'access' =&gt; user_access('Testmod user access'),
+    'type' =&gt; MENU_CALLBACK,
+  );
+
+  return $polozky;
+}
+
+function administrace() {
+  $obsah = t("Welcome into administration section!");
+
+  print theme('page', $obsah);
+}
+
+
+function stranky($stranka) {
+
+  $obsah = '';
+
+  // Nastavíme titulek
+  drupal_set_title(t('Page title'));
+
+  // Stranku muzeme ziskat pomoci parametru funkce,
+  // nebo pomoci funkce arg(cislo)
+
+  switch ($stranka) {
+    case 'prvni':
+      $obsah .= "Toto je první stránka testovacího modulu. &lt;br/&gt;";
+      $obsah .= l("Odkaz na druhou stránku", "testmod/druha");
+      break;
+
+    case 'druha':
+      $obsah .= "Toto je druhá stránka testovacího modulu. &lt;br/&gt;";
+      $obsah .= l("Odkaz na první stránku", "testmod/prvni");
+      break;
+  }
+
+  print theme('page', $obsah);
+}</code></pre>
+
+<h2>Obsluha operací s uživatelskými účty</h2>
+
+<p>Dřív nebo později budeme potřebovat zareagovat na operace s účty
+uživatelů. Drupal nám k tomu nabízí funkci <code>hook_user()</code>,
+která je volána pokaždé, když k nějaké operaci dojde. Je na
+programátorovi modulu, kterých událostí si bude všímat a kterých ne. Já
+uvedu příklad jen se 4 nejběžnějšími: přihlášení, odhlášení,
+založení a smazání účtu. Možných událostí je však <i>daleko
+více</i>. Můžete například pracovat s formulářem, týkající se
+informací o uživateli nebo přidávat data do informací o uživatelském
+účtu atp. Kompletní popis najdete na <a href="https://api.drupal.org/api/5/function/hook_user">této adrese</a>.</p>
+
+<pre class="php"><code>function testmod_user($operace, &amp;$edit, &amp;$user) {
+
+  $id = $user-&gt;uid;      // ID uctu
+  $email = $user-&gt;mail;  // Email uzivatele
+  $nazev = $user-&gt;name;  // nazev uctu
+
+  // V proměnné edit se předávají hodnoty formulářů
+
+  switch($operace) {
+    case 'login':
+     drupal_set_message("Uzivatel $nazev ($email) byl prihlasen.");
+     break;
+
+    case 'logout':
+     // odhlaseni
+     break;
+
+    case 'insert':
+     // Vytvoreni noveho uctu
+     // muzeme zde napriklad umistit kod, ktery zapise nova data do databaze
+     break;
+
+    case 'delete':
+     // Vymaz uctu
+     break;
+  }
+
+}</code></pre>
+
+<h2>Periodické vykonávaní kódu</h2>
+
+<p>Časem možná narazíte na potřebu vykonávat svůj kód v určitých
+intervalech. Tuto operaci většinou zajišťuje démon (na UNIXových
+systémech cron), který ve vámi zvolených intervalech spustí skript
+<b>cron.php</b> v kořenovém adresáři drupalovského webu. Ten rovněž
+zajistí volání funkce <code>hook_cron()</code>, je-li dostupná.</p>
+
+<pre class="php"><code>function testmod_cron() {
+  // zde umístite vykonávaný kód
+}</code></pre>
+
+<p>Využití plánovaného vykonávání skriptu se hodí například
+u posílání (vyžádaných ;) emailů, novinek a nebo také pro
+pročištění disku atp.</p>
+
+<h2>Závěrem</h2>
+
+<p>Druhý díl seriálu máme úspěšně za sebou. Doufám, že jste našly
+přesně ty informace, které pro začátek budou užitečné. Příště bychom
+se podívali na modulovské bloky, nápovědu nebo interní odkazy.</p>  </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTlVbXFNmBkFGXUMR","queueTime":0,"applicationTime":141,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

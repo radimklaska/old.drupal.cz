@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Tom&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/tom</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Úřední deska</title>
+ <link>https://www.drupal.cz/blog/tom/uredni-deska</link>
+ <description>&lt;p&gt;Prosil bych o pomoc s následující věcí: Na stránkách obecních
+úřadů je třeba vést „Úřední desku“, která má mít možnost
+automatického vymazání přidané stránky po vypršení např. 14 dní (nebo
+jiného období podle nastavení) od zveřejnění. Prosím o pomoc, jak a
+v čem to udělat. Předem děkuji.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/tom/uredni-deska#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/695</wfw:commentRss>
+ <pubDate>Thu, 08 Feb 2007 16:38:49 +0000</pubDate>
+ <dc:creator>Tom</dc:creator>
+ <guid isPermaLink="false">695 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

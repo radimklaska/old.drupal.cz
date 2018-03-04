@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>admiral&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/admiral</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Elektronická žákovská knížka</title>
+ <link>https://www.drupal.cz/blog/admiral/elektronicka-zakovska-knizka</link>
+ <description>&lt;p&gt;Dnes Česká televize natočila reportáž o elektronické žákovské
+knížce, která běží na základní škole v Šumperku. Dostane se do
+Událostí v regionech dnes v 19.25. Žákovská knížka běží na Drupalu
+4.7 s moduly CCK a ConTemplate.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/admiral/elektronicka-zakovska-knizka#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/744</wfw:commentRss>
+ <pubDate>Mon, 19 Feb 2007 11:02:29 +0000</pubDate>
+ <dc:creator>admiral</dc:creator>
+ <guid isPermaLink="false">744 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

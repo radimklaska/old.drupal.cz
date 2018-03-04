@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Jakub Suchý&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Drupal.cz a Heartbleed</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupalcz-heartbleed</link>
+ <description>&lt;p&gt;Pokud se pohybujete v IT (i jinde), asi jste si vsimli chybe v OpenSSL se
+jmenem &lt;a href=&quot;http://heartbleed.com&quot;&gt;Heartbleed&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupalcz-heartbleed&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupalcz-heartbleed#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/25551</wfw:commentRss>
+ <pubDate>Thu, 10 Apr 2014 00:08:23 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">25551 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz odteď (a jenom) na SSL</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupalcz-odted-jenom-na-ssl</link>
+ <description>&lt;p&gt;Tento týden jsem zakoupil a nainstaloval SSL certifikát pro &lt;a href=&quot;http://www.drupal.cz&quot;&gt;www.drupal.cz&lt;/a&gt;. Změna fungovala od včera ale
+dnes jsem do htaccess přidal změnu, která automaticky přesměruje všechen
+traffic na HTTPs.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupalcz-odted-jenom-na-ssl&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupalcz-odted-jenom-na-ssl#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22311</wfw:commentRss>
+ <pubDate>Wed, 09 Oct 2013 17:08:45 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">22311 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal job na Drupalconu</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupal-job-na-drupalconu</link>
+ <description>&lt;p&gt;Doufám, že se už všichni chystáte na Drupalcon! Já tedy definitivně a
+už se nemůžu dočkat. Na Drupalconu budeme mít (Acquia) stánek na Expo a
+zároveň hodně našich technických lidí, kteří budou provádět interviews
+s lidmi, kteří se zajímají o nový job.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupal-job-na-drupalconu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupal-job-na-drupalconu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/21866</wfw:commentRss>
+ <pubDate>Wed, 11 Sep 2013 16:06:19 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">21866 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Grantové přihlášky na Drupal Developer Days Barcelona</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/grantove-prihlasky-na-drupal-developer-days-barcelona</link>
+ <description>&lt;p&gt;16 – 17. června se v Barceloně konají Drupal Developer Days.
+V rámci této akce Drupal Asociace vytvořila program pro 5 talentovaných
+vývojářů, kteří se chtějí zúčastnit, ale nemohou z finančních
+důvodů. Chtěli byste do Barcelony? Koukněte na &lt;a href=&quot;http://barcelona2012.drupaldays.org/scholarships&quot;&gt;http://barcelona2012.drupaldays.org/scholarships&lt;/a&gt;
+a přihlašte se!&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/grantove-prihlasky-na-drupal-developer-days-barcelona#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11341</wfw:commentRss>
+ <pubDate>Mon, 02 Apr 2012 08:56:36 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">11341 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz updated, nová verze a Acquia Cloud</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupalcz-updated-nova-verze-acquia-cloud</link>
+ <description>&lt;p&gt;Dnes večer jsem s pomocí Andrewa provedl velký update Drupal.cz.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupalcz-updated-nova-verze-acquia-cloud&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupalcz-updated-nova-verze-acquia-cloud#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11211</wfw:commentRss>
+ <pubDate>Tue, 27 Mar 2012 21:31:45 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">11211 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>(hotovo) Plánovaná údržba: dnes (27.3.) okolo 22:00</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/planovana-udrzba-dnes-273-okolo-2200</link>
+ <description>&lt;p&gt;Update: &lt;a href=&quot;http://www.drupal.cz/blog/jakub-suchy/drupalcz-updated-nova-verze-acquia-cloud&quot;&gt;hotovo&lt;/a&gt;
+| Dnes okolo 22:00 bude probíhat plánovaná údržba Drupal.cz spojená
+s přesunem serveru. Výpadek by neměl trvat déle než 1 hodinu.&lt;/p&gt;
+
+&lt;p&gt;Díky za pochopení&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/planovana-udrzba-dnes-273-okolo-2200#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11206</wfw:commentRss>
+ <pubDate>Tue, 27 Mar 2012 15:29:55 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">11206 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pokud chceme změny na Drupal.cz, někdo je musí vytvořit</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/pokud-chceme-zmeny-na-drupalcz-nekdo-je-musi-vytvorit</link>
+ <description>&lt;p&gt;Pár lidí se mne (a často ani ne mne…) ptalo na změny na serveru, které
+by rádi viděli a které by potřebovali. Prý je problém, že vše trvá a
+proto se nic neudělá. Já v tom problém nevidím.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/pokud-chceme-zmeny-na-drupalcz-nekdo-je-musi-vytvorit&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/pokud-chceme-zmeny-na-drupalcz-nekdo-je-musi-vytvorit#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10578</wfw:commentRss>
+ <pubDate>Sat, 05 Nov 2011 17:57:58 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">10578 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Školení tvorby modulů</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/skoleni-tvorby-modulu</link>
+ <description>&lt;p&gt;Na Drupalcampu Žilina budu dělat školení tvorby modulů v Drupalu.
+Školení bude postaveno na materiálu vyvinutém firmou Acquia a ověřeném
+stovkami lidí. Na školení byste měli znát základy Drupalu a musíte znát
+PHP. Školení bude zpoplatněno mírným poplatkem 10 EUR / osobu (to je skoro
+zadarmo). Přijeďte, 7. a 8. října 2011 v Žilině!&lt;/p&gt;
+
+&lt;p&gt;Paralelně s tímto bude Jojo Toth dělat školení Hello, Drupal!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/skoleni-tvorby-modulu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/skoleni-tvorby-modulu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10389</wfw:commentRss>
+ <pubDate>Thu, 29 Sep 2011 12:19:30 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">10389 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Experimentuju s eBay</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/experimentuju-s-ebay</link>
+ <description>&lt;p&gt;Pro kolegu z ČR experimentuju s eBay a prodáváním umění. Docela by
+mě zajímalo, jestli s tím někdo máte nějaké zkušenosti? Zatím jsem
+vytvořil dvě aukce, jedna z nich je na &lt;a href=&quot;http://cgi.ebay.co.uk/ws/eBayISAPI.dll?ViewItem&amp;amp;item=130529433966&quot;&gt;http://cgi.ebay.co.uk/…BayISAPI.dll?…&lt;/a&gt; –
+uvidíme co to udělá.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/experimentuju-s-ebay#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9839</wfw:commentRss>
+ <pubDate>Mon, 06 Jun 2011 16:31:56 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">9839 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Webinar: Zjednodušení správy Drupal webů pomocí Acquia Network, dnes 15:00</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/webinar-zjednoduseni-spravy-drupal-webu-pomoci-acquia-network-dnes-1500</link>
+ <description>&lt;p&gt;Rád bych Vás pozval dnes v 15:00 na webinář týkající se Acquia
+Network a informací, jak lze pomocí Networku zjednodušit správu vašich
+webů. Webinář zahrne informace o službách jako New Relic (performance
+monitoring), Mobify (mobilní verze webů) či Visual Website Optimizer (A/B
+testing).&lt;/p&gt;
+
+&lt;p&gt;Zúčastněte se, srdečně doporučuji.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/webinar-zjednoduseni-spravy-drupal-webu-pomoci-acquia-network-dnes-1500&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/webinar-zjednoduseni-spravy-drupal-webu-pomoci-acquia-network-dnes-1500#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9566</wfw:commentRss>
+ <pubDate>Thu, 14 Apr 2011 09:39:15 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">9566 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Napsání článku za odměnu</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/napsani-clanku-za-odmenu</link>
+ <description>&lt;p&gt;Hledám někoho na napsání článku o Drupal Gardens pro český
+internetový magazín o webu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/napsani-clanku-za-odmenu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/napsani-clanku-za-odmenu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9506</wfw:commentRss>
+ <pubDate>Mon, 04 Apr 2011 18:55:09 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">9506 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Open Goldberg Variations -  svobodný Bach</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/open-goldberg-variations-svobodny-bach</link>
+ <description>&lt;p&gt;Open Source, to nemusí být jen software. Nevím, jestli znáte Roberta
+Douglasse, jednoho z nejznámějších propagátorů Drupalu ve světě,
+člověka, co osobně ukázal Drupal stovkám lidí a změnil jim kariéru.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/open-goldberg-variations-svobodny-bach&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/open-goldberg-variations-svobodny-bach#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9406</wfw:commentRss>
+ <pubDate>Sat, 19 Mar 2011 16:50:37 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">9406 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal.cz - komunita komunitě</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupalcz-komunita-komunite</link>
+ <description>&lt;p&gt;Když jsem před několika lety začínal s provozem Drupal.cz, měl jsem
+spoustu plánů. Některé se naplnily (většina), některé ne, ale to už tak
+bývá. Když se na vše podívám zpět, myslím, že jsme dosáhli obrovského
+úspěchu, česká komunita roste a pořádáme několik akcí měsíčně.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupalcz-komunita-komunite&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupalcz-komunita-komunite#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/novinky-na-webu">drupal.cz</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9023</wfw:commentRss>
+ <pubDate>Wed, 26 Jan 2011 15:46:21 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">9023 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Sháníme vývojáře</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/shanime-vyvojare</link>
+ <description>&lt;p&gt;Pokud znáte Drupal, tvorbu modulů, SQL jako své boty, napište na &lt;a href=&quot;mailto:jakub@dynamiteheads.com&quot;&gt;jakub&amp;#64;dynamiteheads.com&lt;/a&gt;.
+Sháníme člověka jak na občasnou práci tak na fulltime, práce je možná
+remote.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/shanime-vyvojare#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8746</wfw:commentRss>
+ <pubDate>Thu, 09 Dec 2010 12:12:03 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">8746 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Movember aneb za kvalitnější kníry!</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/movember-aneb-za-kvalitnejsi-kniry</link>
+ <description>Tento měsíc si pěstuju knír v rámci celosvětové akce na podporu výzkumu rakoviny prostaty - Movember. Movember vznikl před několika lety v Austrálii a minulý rok se ho účastnilo desetitisíce mužů, kteří společně pěstují svůj Moustache (November + Moustache = Movember) a vybírají u toho donations pro Prostate cancer charity v UK a USA. Přispějete i vy na následující adrese?&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/movember-aneb-za-kvalitnejsi-kniry&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/movember-aneb-za-kvalitnejsi-kniry#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8641</wfw:commentRss>
+ <pubDate>Thu, 18 Nov 2010 13:20:08 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">8641 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Nový redesign drupal.org byl spuštěn</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/novy-redesign-drupalorg-byl-spusten</link>
+ <description>&lt;p&gt;Náš domovský web – &lt;a href=&quot;http://drupal.org&quot;&gt;http://drupal.org&lt;/a&gt;
+prošel velmi dlouhým redesignem, který byl konečně spuštěn. Podívejte se
+a napište, co si o něm myslíte!&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/novy-redesign-drupalorg-byl-spusten#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8466</wfw:commentRss>
+ <pubDate>Tue, 19 Oct 2010 08:02:46 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">8466 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Plánovaný výpadek: 11. září 2010</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/planovany-vypadek-11-zari-2010</link>
+ <description>&lt;p&gt;11. září bude mít Drupal.cz plánovaný výpadek související se
+změnami, které na Drupal.cz chystáme. Neočekávám výpadek delší než
+1 hodinu, okolo 11:00. Stay tuned, more to come :-)&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/planovany-vypadek-11-zari-2010#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8150</wfw:commentRss>
+ <pubDate>Tue, 31 Aug 2010 17:41:36 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">8150 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal modul pro Brightcove - jak může Drupal firma vydělávat na open source?</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/drupal-modul-pro-brightcove-jak-muze-drupal-firma-vydelavat-na-open-source</link>
+ <description>&lt;p&gt;Včera jsme konečně mohli ohlásit novinku, kterou připravujeme již
+delší dobu – před několika týdny moje společnost Dynamite Heads
+získala kontrakt s jedním z lídrů v online video světě – firmou &lt;a href=&quot;http://www.brightcove.com&quot;&gt;Brightcove&lt;/a&gt;. Naším úkolem je připravit
+veřejný GNU/GPL Drupal modul pro integraci s jejich video platformou.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/drupal-modul-pro-brightcove-jak-muze-drupal-firma-vydelavat-na-open-source&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/drupal-modul-pro-brightcove-jak-muze-drupal-firma-vydelavat-na-open-source#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/brightcove">brightcove</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7506</wfw:commentRss>
+ <pubDate>Tue, 04 May 2010 10:18:14 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">7506 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jaký byl Drupal Translation Sprint?</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/jaky-byl-drupal-translation-sprint</link>
+ <description>&lt;p&gt;Dnes, 1.5.2010 jsme se ještě s dalšími 5 lidmi sešli v zasedací
+místnosti Easymeeting kavárny &lt;a href=&quot;http://milujikavu.cz&quot;&gt;FCH&lt;/a&gt; a
+udělali jsme snad historicky první český Drupal translation sprint.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jakub-suchy/jaky-byl-drupal-translation-sprint&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/jaky-byl-drupal-translation-sprint#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/preklad">překlad</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7495</wfw:commentRss>
+ <pubDate>Sat, 01 May 2010 20:37:41 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">7495 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Na Drupalcon nejedeme</title>
+ <link>https://www.drupal.cz/blog/jakub-suchy/na-drupalcon-jedeme-nejedeme</link>
+ <description>&lt;p&gt;Dear Iceland, we said „send Cash“, not ash. Dnes jsem měl odletět do
+San Francisca a sedím v Londýně bez možnosti se hnout. Můj let je
+přebookován na pondělí, tudíž přijdu o první den konference. Několik
+dalších slováků a čechů je na tom podobně. Smůla…&lt;/p&gt;
+
+
+
+&lt;p&gt;Update 19.4.: Na Drupalcon nejedeme…&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jakub-suchy/na-drupalcon-jedeme-nejedeme#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7401</wfw:commentRss>
+ <pubDate>Fri, 16 Apr 2010 07:09:16 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">7401 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

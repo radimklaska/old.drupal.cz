@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - ostatní</title>
+ <link>https://www.drupal.cz/taxonomy/term/13/0</link>
+ <description>Články, které se nevešly do jiného tématu.</description>
+ <language>cs</language>
+<item>
+ <title>2010 Open Source Awards: hlasujte pro své favority</title>
+ <link>https://www.drupal.cz/blog/ema/2010-open-source-awards-hlasujte-pro-sve-favority</link>
+ <description>&lt;p&gt;Finále soutěže o ceny Open Source Awards, které každoročně vyhlašuje
+vydavatelství PACKT, dnes začalo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/2010-open-source-awards-hlasujte-pro-sve-favority&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/2010-open-source-awards-hlasujte-pro-sve-favority#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8331</wfw:commentRss>
+ <pubDate>Mon, 27 Sep 2010 11:34:40 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8331 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Kdy, jak (a proč) se obejít bez vkládání obrázků do textu</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/kdy-jak-proc-se-obejit-bez-vkladani-obrazku-do-textu</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Eva Rázgová        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Obrazky.pdf&quot; type=&quot;application/pdf; length=381660&quot;&gt;Obrazky.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/drupal-setkani-praha-29-dubna-2010&quot;&gt;Drupal setkání - Praha - 29. Dubna 2010&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/kdy-jak-proc-se-obejit-bez-vkladani-obrazku-do-textu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8277</wfw:commentRss>
+ <pubDate>Fri, 23 Apr 2010 11:21:50 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8277 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na Drupal pod Windows: Acquia Stack Installer</title>
+ <link>https://www.drupal.cz/blog/ema/acquia-stack-installer</link>
+ <description>&lt;p&gt;Pokud to s Drupalem myslíte alespoň trochu vážně, dříve nebo později
+budete potřebovat lokální vývojové prostředí (např. pro testování
+záloh nebo nových funkcí webu).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/acquia-stack-installer&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/acquia-stack-installer#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7364</wfw:commentRss>
+ <pubDate>Fri, 09 Apr 2010 21:11:49 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7364 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Přístupová práva</title>
+ <link>https://www.drupal.cz/clanky/bezpecnost/pristupova-prava</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Eva Rázgová        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Access.pdf&quot; type=&quot;application/pdf; length=491452&quot;&gt;Access.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/drupal/drupal-setkani-praha-16-prosinec-2009&quot;&gt;Drupal setkání - Praha - 16. Prosinec 2009&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/bezpecnost/pristupova-prava#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/bezpecnost">bezpečnost</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8270</wfw:commentRss>
+ <pubDate>Wed, 16 Dec 2009 11:03:36 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8270 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ubercart 2.0 oficiální release</title>
+ <link>https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release</link>
+ <description>&lt;p&gt;Oficiální release Ubercartu 2.0 pro Drupal 6 už od středy
+21.10. zde:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://drupal.org/project/ubercart&quot;&gt;http://drupal.org/…ect/ubercart&lt;/a&gt;
+nebo &lt;a href=&quot;http://www.ubercart.org/news/oct-21-2009/ubercart_20_drupal_6_released&quot;&gt;http://www.ubercart.org/…l_6_released&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/eshop">eshop</category>
+ <category domain="https://www.drupal.cz/clanky/novinka">novinka</category>
+ <category domain="https://www.drupal.cz/clanky/novinky">novinky</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6286</wfw:commentRss>
+ <pubDate>Sat, 24 Oct 2009 16:29:29 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">6286 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chceš triko z Drupalconu?</title>
+ <link>https://www.drupal.cz/clanky/ostatni/chces-triko-z-drupalconu</link>
+ <description>&lt;p&gt;Z letošního Drupalconu ve Washingtonu jsme si přivezli „několik“
+triček od společnosti &lt;a href=&quot;http://volacci.com&quot;&gt;Volacci&lt;/a&gt; a získali jsme
+svolení je rozdat české komunitě :-)&lt;/p&gt;
+
+&lt;h2&gt;Tričko Drupal 6 Cheat Shirt&lt;/h2&gt;
+ &lt;a href=&quot;http://www.drupal.cz/files/d6triko.jpg&quot;&gt;&lt;img src=&quot;http://www.drupal.cz/files/d6triko-thumb.jpg&quot; alt=&quot;Drupal 6 Cheat Shirt - Volacci.com&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;Na bílém&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/chces-triko-z-drupalconu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/chces-triko-z-drupalconu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4837</wfw:commentRss>
+ <pubDate>Sun, 15 Mar 2009 19:16:54 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">4837 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ocenění Drupalu v roce 2008</title>
+ <link>https://www.drupal.cz/clanky/ostatni/oceneni-drupalu-v-roce-2008</link>
+ <description>&lt;p&gt;Již po několikáté se Drupal dostal mezi finalisty &lt;a href=&quot;http://www.packtpub.com/award&quot;&gt;&lt;strong&gt;The Packt Open Source Content
+Management System Award&lt;/strong&gt;&lt;/a&gt;. Letos bude obhajovat &lt;a href=&quot;http://www.packtpub.com/article/overall-open-source-cms-award-final-drupal&quot;&gt;loňské
+prvenství&lt;/a&gt; v kategorii „Overall Open Source Content Management System
+Award“. &lt;strong&gt;Hlasování začíná 1. září 2008, pokud má Drupal vaše
+sympatie, nezapomeňte mu dát hlas! ;o)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/oceneni-drupalu-v-roce-2008&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/oceneni-drupalu-v-roce-2008#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3640</wfw:commentRss>
+ <pubDate>Mon, 01 Sep 2008 08:10:08 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">3640 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Komfortní vyhledávání v drupal modulech</title>
+ <link>https://www.drupal.cz/clanky/pro-webmastery/komfortni-vyhledavani-v-drupal-modulech</link>
+ <description>&lt;p&gt;Na První Drupal konferenci se v diskusi několik lidí vyjádřilo ohledně
+špatné použitelnosti struktury modulů na drupal.org a při jejich
+vyhledávání. Víte, že existuje alternativa?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/pro-webmastery/komfortni-vyhledavani-v-drupal-modulech&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/pro-webmastery/komfortni-vyhledavani-v-drupal-modulech#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/pro-webmastery">pro webmastery</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3563</wfw:commentRss>
+ <pubDate>Thu, 14 Aug 2008 22:01:24 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">3563 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>DrupalCon 2008 na podzim - v Maďarsku!</title>
+ <link>https://www.drupal.cz/clanky/setkani-akce/drupalcon-2008-na-podzim-v-madarsku</link>
+ <description>&lt;p&gt;V krátkých blogpostech z DrupalConu v Bostonu jsem sliboval, že příští konání akce může být blízko nás. Slib plním - podzimní DrupalCon bude v malebném městečku Szeged, v Maďarsku! Zároveň jsem ujistil organizátory, že se česká komunita nenechá zahanbit a dorazí v hojném počtu. Čtěte dále!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/setkani-akce/drupalcon-2008-na-podzim-v-madarsku&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/setkani-akce/drupalcon-2008-na-podzim-v-madarsku#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <category domain="https://www.drupal.cz/clanky/setkani-akce">setkání, akce</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2826</wfw:commentRss>
+ <pubDate>Wed, 09 Apr 2008 22:04:13 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2826 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Máte zájem pracovat pro zahraniční klienty a přitom vyvíjet v Drupalu?</title>
+ <link>https://www.drupal.cz/clanky/ostatni/mate-zajem-pracovat-pro-zahranicni-klienty-pritom-vyvijet-v-drupalu</link>
+ <description>&lt;p&gt;Myslím, že na jedné své přednášce o Drupalu jsem mluvil o tom, že
+kdo se teď naučí Drupal, bude mít o místo postaráno. Abych dokázal svá
+slova, zde je další příležistost pro Drupalisty, tentokrát ty jazykově
+vybavené (to je snad dnes každý, ne?)!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/mate-zajem-pracovat-pro-zahranicni-klienty-pritom-vyvijet-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/mate-zajem-pracovat-pro-zahranicni-klienty-pritom-vyvijet-v-drupalu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <category domain="https://www.drupal.cz/clanky/reklama">reklama</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2717</wfw:commentRss>
+ <pubDate>Mon, 24 Mar 2008 19:25:17 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2717 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Hlasujte pro Drupal v soutěži CNet Webware 100</title>
+ <link>https://www.drupal.cz/clanky/ostatni/hlasujte-pro-drupal-v-soutezi-cnet-webware-100</link>
+ <description>&lt;p&gt;Pomozte Drupalu obhájit &lt;a href=&quot;http://www.webware.com/8301-13546_109-9729862-29.html&quot;&gt;loňské
+vítězství&lt;/a&gt; v soutěži CNet Webware 100. Hlasovat můžete &lt;a href=&quot;http://www.webware.com/html/ww/100/2008/publish.html&quot;&gt;zde&lt;/a&gt;.&lt;/p&gt;
+ Drupal je nominován do kategorie Publishing and photography. Pokud se chcete
+dozvědět více navštivte &lt;a href=&quot;http://www.webware.com/html/ww/about.html&quot;&gt;http://www.webware.com/…w/about.html&lt;/a&gt;.</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/hlasujte-pro-drupal-v-soutezi-cnet-webware-100#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2716</wfw:commentRss>
+ <pubDate>Mon, 24 Mar 2008 19:03:57 +0000</pubDate>
+ <dc:creator>mydahoo</dc:creator>
+ <guid isPermaLink="false">2716 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyšla kniha Drupal - Podrobný průvodce tvorbou a správou webů</title>
+ <link>https://www.drupal.cz/clanky/ostatni/vysla-kniha-drupal-podrobny-pruvodce-tvorbou-spravou-webu</link>
+ <description>&lt;p&gt;V pondělí vyšla první česká kniha o Drupalu napsaná Janem Polzerem,
+knihu vydává Computer Press. Je určena jak začátečníkům, tak
+pokročilým. Co v ní najdete?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/vysla-kniha-drupal-podrobny-pruvodce-tvorbou-spravou-webu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/vysla-kniha-drupal-podrobny-pruvodce-tvorbou-spravou-webu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2529</wfw:commentRss>
+ <pubDate>Tue, 26 Feb 2008 06:00:15 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">2529 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Volte Drupal v PacktPub Award 2007</title>
+ <link>https://www.drupal.cz/clanky/clanky/ostatni/volte-drupal-v-packtpub-award-2007</link>
+ <description>&lt;p&gt;Další ročník soutěže Packt Open Source Content Management System Awards
+právě běží a Drupal je samozřejmě v nominacích.
+Volte! &lt;/p&gt;
+
+&lt;img src=&quot;http://www.packtpub.com/files/images/Drupal-468x60.gif&quot; /&gt;
+
+&lt;p&gt;Volit můžete v následujících kategoriích:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/clanky/ostatni/volte-drupal-v-packtpub-award-2007&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/clanky/ostatni/volte-drupal-v-packtpub-award-2007#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1713</wfw:commentRss>
+ <pubDate>Thu, 13 Sep 2007 08:50:57 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">1713 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>PHP je mrtvé, ať žije PHP</title>
+ <link>https://www.drupal.cz/clanky/ostatni/php-je-mrtve-zije-php</link>
+ <description>&lt;p&gt;&lt;strong&gt;Mise:&lt;/strong&gt; GoPHP5&lt;br /&gt;
+&lt;strong&gt;Datum:&lt;/strong&gt; 5. února 2008&lt;br /&gt;
+&lt;strong&gt;Cíle:&lt;/strong&gt; Zbavit se PHP&lt;br /&gt;
+&lt;strong&gt;Povolené zbraně:&lt;/strong&gt; Virální marketing, jednota&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/php-je-mrtve-zije-php&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/php-je-mrtve-zije-php#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1329</wfw:commentRss>
+ <pubDate>Thu, 05 Jul 2007 18:00:46 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">1329 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>DrupalCon 2007</title>
+ <link>https://www.drupal.cz/clanky/clanky/ostatni/drupalcon-2007</link>
+ <description>&lt;p&gt;Pokud se v září chystáte do Barcelony, můžete zavítat na konferenci
+vývojářů a uživatelů Drupalu – &lt;a href=&quot;http://barcelona2007.drupalcon.org&quot;&gt;DrupalCon 2007&lt;/a&gt;. Takže si
+poznačte do kalendáře datum 19.-22. září. Pokud byste se chtěli podělit
+o své zkušenosti, můžete do konce července nabídnout přednášku či
+prezentaci. Ty nejlepší do programu vyberou zaregistrovaní účastníci.&lt;/p&gt;
+
+&lt;p&gt;Ve stejné době se v Barceloně pořádá také &lt;a href=&quot;http://marketing.openoffice.org/ooocon2007&quot;&gt;OpenOffice.org Conference
+2007&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/clanky/ostatni/drupalcon-2007&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/clanky/ostatni/drupalcon-2007#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1288</wfw:commentRss>
+ <pubDate>Thu, 21 Jun 2007 14:26:35 +0000</pubDate>
+ <dc:creator>christof</dc:creator>
+ <guid isPermaLink="false">1288 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vyvíjíme pro Drupal - základy CVS - I.</title>
+ <link>https://www.drupal.cz/clanky/ostatni/vyvijime-pro-drupal-zaklady-cvs</link>
+ <description>&lt;p&gt;Pokud chcete vyvíjet moduly či jádro Drupalu, které chcete posléze
+zveřejnit, musíte zvládnout také práci s CVS systémem Drupal.org. Toto je
+základní návod pro vývojáře, kteří se chtějí, nebo se zapojují do
+víru vývoje Drupalu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/vyvijime-pro-drupal-zaklady-cvs&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/vyvijime-pro-drupal-zaklady-cvs#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/55</wfw:commentRss>
+ <pubDate>Tue, 24 Apr 2007 08:22:27 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">55 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Vznikla Drupal Association</title>
+ <link>https://www.drupal.cz/clanky/ostatni/vznikla-drupal-association</link>
+ <description>&lt;p&gt;Obrovský rozvoj Drupalu v posledních letech ukázal nutnost nějaké
+organizace, která bude vývoj zastřešovat, umožňovat uživatelům posílat
+příspěvky celé organizaci a starat se o ochrannou známku. Proto nyní
+vznikla Asociace Drupalu, která se o tyto záležitosti bude starat.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/vznikla-drupal-association&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/vznikla-drupal-association#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/797</wfw:commentRss>
+ <pubDate>Mon, 26 Feb 2007 23:25:23 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">797 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>O čem je Drupal?</title>
+ <link>https://www.drupal.cz/clanky/ostatni/o-cem-je-drupal</link>
+ <description>&lt;p&gt;Malá oddechovka, na čem stojí a padá Drupal? :-)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/o-cem-je-drupal&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/o-cem-je-drupal#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/275</wfw:commentRss>
+ <pubDate>Thu, 26 Oct 2006 22:09:00 +0000</pubDate>
+ <dc:creator>Jakub Suchý</dc:creator>
+ <guid isPermaLink="false">275 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Desatero pošetilého vývojáře</title>
+ <link>https://www.drupal.cz/clanky/ostatni/desatero-posetileho-vyvojare</link>
+ <description>&lt;p&gt;Trocha humoru pro zasmání v tomto skoro podzimním měsíci. Berte však
+vážně! :-)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/ostatni/desatero-posetileho-vyvojare&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/ostatni/desatero-posetileho-vyvojare#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/53</wfw:commentRss>
+ <pubDate>Tue, 19 Sep 2006 22:00:50 +0000</pubDate>
+ <dc:creator>admiral</dc:creator>
+ <guid isPermaLink="false">53 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

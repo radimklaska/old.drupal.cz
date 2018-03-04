@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>neonkafree&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/neonkafree</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>HELP</title>
+ <link>https://www.drupal.cz/blog/neonkafree/help</link>
+ <description>&lt;p&gt;krucinal jak se stim drupalem pracuje nebo co stahnul sem si to a co stim
+daaal!!! zadnej instal tam neni tak co stim??&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/neonkafree/help#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3605</wfw:commentRss>
+ <pubDate>Wed, 20 Aug 2008 20:47:26 +0000</pubDate>
+ <dc:creator>neonkafree</dc:creator>
+ <guid isPermaLink="false">3605 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

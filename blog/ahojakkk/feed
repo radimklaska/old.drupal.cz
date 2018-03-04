@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>krystof.k&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/ahojakkk</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Hostingzdarma.cz prostě nepovolí</title>
+ <link>https://www.drupal.cz/blog/ahojakkk/hostingzdarma-cz-proste-nepovoli</link>
+ <description>&lt;p&gt;Skvělý hosting až na jednu, Drupalovskou věc…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ahojakkk/hostingzdarma-cz-proste-nepovoli&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ahojakkk/hostingzdarma-cz-proste-nepovoli#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/397</wfw:commentRss>
+ <pubDate>Mon, 27 Nov 2006 14:27:31 +0000</pubDate>
+ <dc:creator>krystof.k</dc:creator>
+ <guid isPermaLink="false">397 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>eyeOS: skvělá věc!</title>
+ <link>https://www.drupal.cz/blog/ahojakkk/eyeos-skvela-vec</link>
+ <description>&lt;p&gt;Včera jsem objevil jednu opravdu skvělou věc…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ahojakkk/eyeos-skvela-vec&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ahojakkk/eyeos-skvela-vec#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/308</wfw:commentRss>
+ <pubDate>Sat, 04 Nov 2006 14:30:15 +0000</pubDate>
+ <dc:creator>krystof.k</dc:creator>
+ <guid isPermaLink="false">308 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak na prefixy v Drupalu?!</title>
+ <link>https://www.drupal.cz/blog/ahojakkk/jak-na-prefixy-v-drupalu</link>
+ <description>&lt;p&gt;Tak, sice trochu krkolomným způsobem, ale přece…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ahojakkk/jak-na-prefixy-v-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ahojakkk/jak-na-prefixy-v-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/232</wfw:commentRss>
+ <pubDate>Mon, 16 Oct 2006 15:41:54 +0000</pubDate>
+ <dc:creator>krystof.k</dc:creator>
+ <guid isPermaLink="false">232 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Gadgets.cz | Super web na Drupalu!</title>
+ <link>https://www.drupal.cz/blog/ahojakkk/gadgets-cz-super-web-na-drupalu</link>
+ <description>&lt;p&gt;Možná už ho budete znát, ale…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ahojakkk/gadgets-cz-super-web-na-drupalu&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ahojakkk/gadgets-cz-super-web-na-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/230</wfw:commentRss>
+ <pubDate>Mon, 16 Oct 2006 14:20:34 +0000</pubDate>
+ <dc:creator>krystof.k</dc:creator>
+ <guid isPermaLink="false">230 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Po icq se šíří vir!!!</title>
+ <link>https://www.drupal.cz/blog/ahojakkk/po-icq-se-siri-vir</link>
+ <description>&lt;p&gt;Je to sice smutná zpráva, ale nesmí tu chybět…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ahojakkk/po-icq-se-siri-vir&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ahojakkk/po-icq-se-siri-vir#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/219</wfw:commentRss>
+ <pubDate>Fri, 13 Oct 2006 17:51:33 +0000</pubDate>
+ <dc:creator>krystof.k</dc:creator>
+ <guid isPermaLink="false">219 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Chytrý footer</title>
+ <link>https://www.drupal.cz/blog/ahojakkk/chytry-footer</link>
+ <description>&lt;p&gt;Naprogramoval jsem malý skriptík, který z Vaší patičky udělá chytrý
+kousek stránky… ;)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ahojakkk/chytry-footer&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ahojakkk/chytry-footer#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/206</wfw:commentRss>
+ <pubDate>Wed, 11 Oct 2006 13:15:56 +0000</pubDate>
+ <dc:creator>krystof.k</dc:creator>
+ <guid isPermaLink="false">206 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>kolja&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/kolja</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>článek o modulu Category</title>
+ <link>https://www.drupal.cz/blog/kolja/clanek-o-modulu-category</link>
+ <description>&lt;p&gt;…zvláštní, před měsícem jsem se zaregistroval na těchto stránkách
+a poslal do článků příspěvek o kategoriích  – dokonce dvakrát, než
+mi došlo, že čeká ve frontě na schválení. Jakub byl někde pryč, tak
+jsem se nedivil, že článek ve frontě zůstává, zůstal tam asi napořád.
+Dneska večer jsem našel na disku verzi toho článku a poslal jsem ji
+tentokrát jako příspěvek do diskuze. Chvilku tam byl vidět a už zase
+není. Nechápu to, ale ještě to zkusím poslat do blogu. Až když to zmizí
+i odsud, tak teprve začnu být paranoickej…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kolja/clanek-o-modulu-category&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kolja/clanek-o-modulu-category#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/659</wfw:commentRss>
+ <pubDate>Thu, 01 Feb 2007 21:46:02 +0000</pubDate>
+ <dc:creator>kolja</dc:creator>
+ <guid isPermaLink="false">659 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

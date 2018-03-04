@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - CCK</title>
+ <link>https://www.drupal.cz/taxonomy/term/480/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Školení Drupalu 7 od Squelle (Praha, Brno)</title>
+ <link>https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-is-event&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Zobrazit v přehledu:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    Akce        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Připravili jsme pro vás sérii školení, od přednášky pro úplné
+začátečníky, přes pokročilou konfiguraci, až po šablonování a tvorbu
+modulů.&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aktuální rozpis školení a možnost přihlásit se&lt;/strong&gt;
+najdete na adrese: &lt;a href=&quot;http://squelle.com/skoleni-konzultace&quot;&gt;http://squelle.com/…i-konzultace&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/skoleni/skoleni-drupalu-7-od-squelle#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/akce">akce</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/programovani">programování</category>
+ <category domain="https://www.drupal.cz/clanky/setkani">setkání</category>
+ <category domain="https://www.drupal.cz/clanky/skoleni">školení</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <category domain="https://www.drupal.cz/clanky/sablony-vzhled">šablony a vzhled</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/10563</wfw:commentRss>
+ <pubDate>Wed, 02 Nov 2011 13:15:50 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">10563 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pole v CCK - kdy sdílet, kdy ne?</title>
+ <link>https://www.drupal.cz/blog/eva-razgova/pole-v-cck-kdy-sdilet-kdy-ne</link>
+ <description>&lt;p&gt;Prezentuju a předkládám k dalším komentářům jedno z témat, které
+jsme diskutovali na poslední pražské Drupal hospodě.&lt;/p&gt;
+
+&lt;p&gt;Je lepší mít pro každý typ obsahu unikátní cck pole, nebo je sdílet
+napříč různými typy obsahu (pokud například ve více typech používám
+obrázek, text, datum…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/eva-razgova/pole-v-cck-kdy-sdilet-kdy-ne&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/eva-razgova/pole-v-cck-kdy-sdilet-kdy-ne#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/9929</wfw:commentRss>
+ <pubDate>Thu, 23 Jun 2011 14:05:34 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">9929 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>&quot;All day&quot; akce a nefungující kalendář</title>
+ <link>https://www.drupal.cz/blog/ema/all-day-akce-nefungujici-kalendar</link>
+ <description>&lt;p&gt;Občas se tu někdo ptal, co s tím, že „all day“ akce se nezobrazí
+v kalendáři (calendar), když se prokliknete z boxíku (bloku) na celý
+měsíc na zobrazení pro jeden den (a myslím, že to nefungovalo ani pro
+týden).&lt;/p&gt;
+
+&lt;p&gt;Tak jsem si konečně udělala čas a ručně (jinak mi to nešlo) jsem
+nasoukala tuhle záplatu &lt;a href=&quot;http://drupal.org/node/447728#comment-2236332&quot;&gt;http://drupal.org/node/447728#…&lt;/a&gt;
+do calendar 6.x-2.x-dev.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/all-day-akce-nefungujici-kalendar&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/all-day-akce-nefungujici-kalendar#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/calendar">calendar</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/date">date</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7818</wfw:commentRss>
+ <pubDate>Mon, 05 Jul 2010 14:03:36 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7818 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Co se stane s CCK poli v Drupalu 7?</title>
+ <link>https://www.drupal.cz/blog/ema/co-se-stane-s-cck-poli-v-drupalu-7</link>
+ <description>&lt;p&gt;Slidy k přednášce Karen Stevenson „CCK To Fields, Getting There From
+Here“ z DrupalConu SF najdete na stránkách Lullabot.com, &lt;a href=&quot;http://www.lullabot.com/blog/cck-fields-getting-there-here?utm_source=Lullabot+Announcements&amp;amp;utm_campaign=1cef8d4868-Daily+RSS+email+campaign&amp;amp;utm_medium=email#comments&quot;&gt;zde&lt;/a&gt;.
+Vzhledem k oblibě CCK a skutečnosti, že Drupal 7 je „na spadnutí“, je
+to podle mého názoru stěžejní téma.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/co-se-stane-s-cck-poli-v-drupalu-7&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/co-se-stane-s-cck-poli-v-drupalu-7#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/d7">D7</category>
+ <category domain="https://www.drupal.cz/clanky/upgrade">upgrade</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7428</wfw:commentRss>
+ <pubDate>Wed, 21 Apr 2010 08:21:40 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">7428 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Staň se Drupal profíkem za 20 dní</title>
+ <link>https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni</link>
+ <description>&lt;p&gt;Od včerejška (1.4.2010) začal na blogu poměrné známé „drupal“
+firmy Trellon vycházet 20-ti dílný seriál nazvaný &lt;a href=&quot;http://trellon.com/category/blog-tags/20-apis-20-days&quot;&gt;„20 APIs in
+20 Days“&lt;/a&gt; neboli „20 API za 20 dní“. Během dvaceti dní se proberou
+základy k 20 zajímavým API z různých okruhů a některá témata jsou
+rozhodně zajímavá!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7332</wfw:commentRss>
+ <pubDate>Fri, 02 Apr 2010 15:05:22 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7332 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Anketa: Máte systém pojmenovávání políček CCK?</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/anketa-mate-system-pojmenovavani-policek-cck</link>
+ <description>&lt;p&gt;Pojmenovávání políček CCK jsem ve svých naprostých počátcích
+s Drupalem neřešil. Jeho důležitost si začínám uvědomovat až poslední
+dobou. V zápisku najdete řešení, k němuž jsem dosud dospěl. A jak
+tento problém řešíte Vy?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/anketa-mate-system-pojmenovavani-policek-cck&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/anketa-mate-system-pojmenovavani-policek-cck#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/anketa">anketa</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5068</wfw:commentRss>
+ <pubDate>Sat, 25 Apr 2009 16:42:28 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">5068 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>CCK nebo Taxonomy?</title>
+ <link>https://www.drupal.cz/blog/miloskroulik/cck-nebo-taxonomy</link>
+ <description>&lt;p&gt;V souvislosti s webem, který dělám jsem řešil, na co má vlastně
+ještě smysl používat modul Taxonomy, máme-li k dispozici kombinaci CCK
+a Views.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/miloskroulik/cck-nebo-taxonomy&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/miloskroulik/cck-nebo-taxonomy#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/node-reference">Node reference</category>
+ <category domain="https://www.drupal.cz/clanky/taxonomy">taxonomy</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5038</wfw:commentRss>
+ <pubDate>Sun, 19 Apr 2009 05:53:35 +0000</pubDate>
+ <dc:creator>milos.kroulik</dc:creator>
+ <guid isPermaLink="false">5038 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Modul Link (CCK) a upgrade D5 &gt; D6</title>
+ <link>https://www.drupal.cz/blog/ema/modul-link-cck-upgrade-d5-d6</link>
+ <description>&lt;p&gt;Při upgradu D5 &amp;gt; D6 přestal fungovat modul Link (z rodiny CCK).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/ema/modul-link-cck-upgrade-d5-d6&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/modul-link-cck-upgrade-d5-d6#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/link">link</category>
+ <category domain="https://www.drupal.cz/clanky/upgrade">upgrade</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4944</wfw:commentRss>
+ <pubDate>Mon, 30 Mar 2009 17:59:29 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">4944 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Jak začít - Content Construction Kit (CCK)</title>
+ <link>https://www.drupal.cz/clanky/zacatecnici/jak-zacit-content-construction-kit-cck</link>
+ <description>&lt;p&gt;&lt;strong&gt;Snažíte se přizpůsobit typy obsahu vašim potřebám… a
+zjišťujete, že „nadpis“ a „text“ je trochu málo? Proto je tu modul
+Content construction kit – CCK&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/zacatecnici/jak-zacit-content-construction-kit-cck&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/zacatecnici/jak-zacit-content-construction-kit-cck#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/zacatecnici">začátečníci</category>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <enclosure url="https://www.drupal.cz/files/Add_field.jpg" length="39063" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3920</wfw:commentRss>
+ <pubDate>Wed, 22 Oct 2008 10:33:48 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">3920 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Úvod do CCK a Views</title>
+ <link>https://www.drupal.cz/clanky/views/uvod-do-cck-views</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Vojtěch Kusý        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-pdf&quot;  alt=&quot;application/pdf icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/application-pdf.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Vojtech_Kusy_CCK-VIEWS_Drupal.pdf&quot; type=&quot;application/pdf; length=935921&quot;&gt;Vojtech_Kusy_CCK-VIEWS_Drupal.pdf&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/setkani-akce/prvni-ceska-drupal-konference-24-5-2008&quot;&gt;První česká Drupal konference - 24.5.2008&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/views/uvod-do-cck-views#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/cck">CCK</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8264</wfw:commentRss>
+ <pubDate>Sun, 25 May 2008 10:47:45 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8264 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

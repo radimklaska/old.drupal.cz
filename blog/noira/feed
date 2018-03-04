@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>NoraJ&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/noira</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Černokněžníkův učeň aneb kodér objevuje taje CMS</title>
+ <link>https://www.drupal.cz/blog/noira/cernokneznikuv-ucen-aneb-koder-objevuje-taje-csm</link>
+ <description>&lt;p&gt;Byla jsem požehnané dítě nové éry www, odchované &lt;a href=&quot;http://www.w3.org/&quot;&gt;standardy W3&lt;/a&gt; a magazínem &lt;a href=&quot;http://www.alistapart.com/&quot;&gt;A List Apart&lt;/a&gt; v době, kdy všichni
+šíleli z toho mít na svém weblogu důležitou ikonku „validní.“ Ani
+nevím, jak přesně jsem se HTML a CSS naučila, ale dochovala se mi jedna
+Pixyho knížka a dvě Cpress brožurky, z nich jedna byla n&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/noira/cernokneznikuv-ucen-aneb-koder-objevuje-taje-csm&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/noira/cernokneznikuv-ucen-aneb-koder-objevuje-taje-csm#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4174</wfw:commentRss>
+ <pubDate>Sun, 30 Nov 2008 21:17:29 +0000</pubDate>
+ <dc:creator>NoraJ</dc:creator>
+ <guid isPermaLink="false">4174 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>jarulinda&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/jarulinda</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>trouble začátečníka s obrázky...</title>
+ <link>https://www.drupal.cz/blog/jarulinda/trouble-zacatecnika-s-obrazky</link>
+ <description>&lt;p&gt;Zdravím, ačkoli jsem prošla blogy a fóra, neprokousala jsem se
+k ucelenému návodu, jak zprovoznit:&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;galerii obrázků, tj. např. pod odkazem v sekundárním menu zobrazit
+	seznam kategorií a v nich sadu obrázků.&lt;/li&gt;
+
+	&lt;li&gt;vkládání obrázků do článků&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jarulinda/trouble-zacatecnika-s-obrazky&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jarulinda/trouble-zacatecnika-s-obrazky#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/galerie">galerie</category>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/4887</wfw:commentRss>
+ <pubDate>Sun, 22 Mar 2009 21:48:06 +0000</pubDate>
+ <dc:creator>jarulinda</dc:creator>
+ <guid isPermaLink="false">4887 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

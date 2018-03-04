@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>xsnowy&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/xsnowy</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Velikonoce</title>
+ <link>https://www.drupal.cz/blog/xsnowy/velikonoce</link>
+ <description>&lt;p&gt;Jak jste stravili Velikonoce? Kolik holek jste vymrskali? Kolik panaku jste
+vypili? :-D&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/xsnowy/velikonoce#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2711</wfw:commentRss>
+ <pubDate>Mon, 24 Mar 2008 11:13:18 +0000</pubDate>
+ <dc:creator>xsnowy</dc:creator>
+ <guid isPermaLink="false">2711 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal blog - zkouska</title>
+ <link>https://www.drupal.cz/blog/xsnowy/drupal-blog-zkouska</link>
+ <description>&lt;p&gt;Funguje je, cool CMS&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/xsnowy/drupal-blog-zkouska#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2710</wfw:commentRss>
+ <pubDate>Mon, 24 Mar 2008 11:09:52 +0000</pubDate>
+ <dc:creator>xsnowy</dc:creator>
+ <guid isPermaLink="false">2710 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

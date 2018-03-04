@@ -1,0 +1,13 @@
+<?php if ( arg(0) == 'node' && is_numeric(arg(1)) && ! arg(2) ) {
+  $node = node_load(arg(1)); ?>
+  <div class="fast-facts">
+  <h3 class="field-label">Fast Facts</h3>
+  <div class="field-items">
+    <ul>
+    <?php foreach ((array)$node->field_fast_facts as $item) { ?>
+      <li><?php print $item['view'] ?></li>
+    <?php } ?>
+    </ul>
+  </div>
+</div>
+<?php } ?>

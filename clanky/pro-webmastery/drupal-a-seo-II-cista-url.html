@@ -1,0 +1,1446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Drupal a SEO II. - Čistá URL&quot;" href="/crss/node/98" />
+<link rel="prev" href="/clanky/pro-webmastery/drupal-a-seo-i-zaklady" />
+<link rel="up" href="/clanky/pro-webmastery/drupal-a-seo-i-zaklady" />
+<link rel="next" href="/clanky/pro-webmastery/drupal-seo-iii-dalsi-moduly" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Drupal a SEO II. - Čistá URL | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_742b444d6fb5ddf981f05293331cc2ea.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_205e2f76c16b8df9f08dad7fc176465b.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a> » <a href="/clanky/pro-webmastery/drupal-a-seo-i-zaklady">Drupal a SEO I. - Základy</a></div>        <h2 class="title">Drupal a SEO II. - Čistá URL</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-98">
+    <span class="submitted">Vložil/a <a href="/user/miloso" title="Zobrazit profil uživatele.">miloso</a>, 11 Říjen, 2006 - 00:00</span>
+    <div class="pcontent"><p>Search Engine Optimization, česky „optimalizace pro vyhledávače“, je
+důležitá věc, kterou bychom neměli při tvorbě webu a jeho následné
+správě podcenit. My si v tomto článku povíme, jak na Drupalu zprovoznit
+tzv. „čistá URL“, které jsou běžnou součástí této optimalizace.</p>
+
+<p><strong>Upozornění</strong>: přechod na čisté URL <strong>nikdy</strong>
+nerealizujte na stávajícím webu, pokud nejste experti na to, co děláte.
+Vždy je implementujte jen na svých nových webech!</p>
+
+Shrnutí
+
+<p>Poučka z minulého dílu: <strong>Co je dobré pro uživatele, je dobré
+pro vyhledávače.</strong> Hezká URL pomáhají hlavně uživateli dobře se
+zorientovat. Něco jiného je přece URL
+<em>clanky/bezpec­nost/chyba-v-imce</em> nez <em>node/123123</em>. Nikdy to
+s hezkými URL nepřehánějte. Nic mne neodradí více, než URL jako
+<em>/123-cialis-viagra-erekce-potence-promuze-muzi-super.html</em>.</p>
+
+Jak fungují URL v Drupalu
+
+<p>Standardním prostředkem pro vyjádření nějaké stránky je <em><a href="http://www.example.com/?q=admin/nejaka-stranka">http://www.example.com/?…</a></em>.
+Hodnota v proměnné <em>q</em> (vše za q=) je takzvaná path, cesta. Každá
+cesta v rámci Drupalu musí být unikátní, jednotlivé moduly a stránky
+definují vlastní cesty. Proto občas potkáte na webu takovéto URL:</p>
+
+<p><em><a href="http://www.example.com/?q=node/3">http://www.example.com/?…</a></em></p>
+
+<p><em><a href="http://www.example.com/?q=admin/modules">http://www.example.com/?…</a></em></p>
+
+Path
+
+<p>Vývojáři Drupalu naštěstí mysleli i na uživatele a administrátory,
+kteří chtějí hezké URL. Proto je přímo v jádru systému dostupný modul
+<em>path</em>. Stačí ho aktivovat na stránce <em>admin/modules</em>. Tím
+získáte možnost zvolit vlastní cestu k libovolnému obsahu. Při
+vytváření node se Vám objeví nastavení jménem <em>Nastavení URL</em>.
+Taková zvolená cesta <strong>nesmí</strong> začínat lomítkem, jinak může
+obsahovat v podstatě cokoliv.</p>
+
+<p><em>Pro zajímavost:</em> Jak se vyhledávače chovají k oddělovačům
+v URL? Standardně platí: _ podtržítko je spojovač, – pomlčka je
+oddělovač. Měli byste tedy pokud možno používat oddělovač, abyste
+rozlišili jednotlivá slova.</p>
+
+<p>Dostali jsme se k bodu, kdy máme hezká URL, která ale ještě nejsou moc
+použitelná pro uživatele. Pamatujete? <strong>Co je dobré pro uživatele,
+…</strong> <em><a href="http://www.example.com/?q=nase-nabidka-sluzeb/servery-linux">http://www.example.com/?…</a></em>
+uživateli zas tolik práce neušetří.</p>
+
+Mod_rewrite
+
+<p>Pro tento účel Drupal vytváří v kořenovém adresáři své instalace
+soubor <em>.htaccess</em>. Ten kromě jiného obsahuje
+následující řádky:</p>
+
+<pre class="html"><code>RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]</code></pre>
+
+<p>Tyto pravidla říkají: Jakoukoliv URL (např. <em>/admin/modules</em>)
+převeď na <em>index.php?q=/ad­min/modules</em>. Udělej to ale pouze
+v případě, že neexistuje soubor nebo adresář s názvem
+<em>/admin/modules</em>. A jsme u toho. Vidíme naše staré známé
+<em>?q=cesta</em>, ale uživatel vidí jen <em>cesta</em>. Chytré a mimochodem
+velmi bežné použití modulu mod_rewrite.</p>
+
+<p>Toto nastavení však zatím není funkční, musíme provést jednu změnu
+v souboru <code>.htaccess</code></p>
+
+<ul>
+	<li>Otevřete si soubor <code>.htaccess</code>, který se nachází
+	v adresáři, do nějž jste Drupal nainstalovali, a najděte tento řádek:
+		<pre>#RewriteBase /drupal</pre>
+	</li>
+
+	<li>Změňte jej podle následujícího pravidla: odstraňte křížek, který
+	značí, že řádek má být považován za komentář, a místo
+	<code>/drupal</code> vložte relativní cestu k vaší instalaci Drupalu bez
+	koncového lomítka (tedy například, máte-li Drupal na adrese <em><a href="http://www.example.com">http://www.example.com</a></em>, pravděpodobně
+	bude řádek vypadat následovně: <code>RewriteBase /</code>, pokud na adrese
+	<em><a href="http://www.example.com/my-web/">http://www.example.com/my-web/</a></em>,
+	zkuste <code>RewriteBase /my-web</code>).</li>
+</ul>
+
+<p>Teď už jen stačí jít do <em>Administrace → Nastavení → Obecná
+nastavení</em> a u zatím nedostupné volby <em>Čistá URL</em> kliknout na
+odkaz <em>Run the clean URL test</em>. Pokud vše proběhne v pořádku, nebude
+Vám již Drupal bránit v aktivaci čistých URL.</p>
+
+Modul Pathauto
+
+<p>Byla by ale otrava pro každý nový článek, anketu nebo nedejbože
+uživatele přidávat nový alias ručně. Proto také existuje modul
+<em>Pathauto</em>, který tuhle špinavou práci udělá za Vás. Stáhnout jej
+můžete již klasicky na webu, <a href="https://www.drupal.org/project/pathauto">modulů</a> a ani instalace se
+ničím neliší od <a href="/clanky/moduly/jak-instalovat-moduly-pro-drupal">normálu</a>.</p>
+
+Nastavení
+
+<p>Nyní trochu teorie: Modul Pathauto automaticky generuje různá URL podle
+Vašich preferencí. Tyto preference se dají nastavit v <em>Administraci →
+Nastavení → Pathauto</em>. Pro jednotlivé typy obsahu máte možnost
+definovat různé „patterns“ – šablony. Můžete například pomocí
+šablony <em>[user]/[yyyy]/[ti­tle]</em> říci, aby pathauto vygenerovalo při
+vložení obsahu URL: <em>uzivatelskejme­no/rok/titulek-nove-stranky</em>,
+např. <em>miloso/2006/jak-jsem-byl-na-chalupe</em>. Důležitá nastavení:</p>
+
+<ul>
+	<li><em>Separator</em>: znak, který nahradí mezeru a ostatní interpunkční
+	znaménka v URL, již jsme zmínili pomlčku.</li>
+
+	<li><em>Update action</em>: určuje, co se má dělat, pokud změníte nadpis
+	u článku, pro nějž již existuje alias. První možnost ponechá starý
+	alias, druhá vytvoří nový, ale starý ponechá, a třetí taktéž vytvoří
+	nový, jenže starý smaže. Doporučuji alias neměnit!</li>
+
+	<li><em>Pattern for all stránka/anketa/člá­nek paths</em>: formát aliasu
+	pro jednotlivé typy obsahu. Pod tímto nastavením vidíte přehled
+	proměnných, které můžete v URL použít (tedy nejen nadpis článku, ale
+	třeba uživatele, který článek napsal, nebo datum publikování)</li>
+</ul>
+
+<p><strong>Zaujal Vás článek? Vyjádřete se k němu
+v diskusi!</strong></p>  <div id="book-navigation-115" class="book-navigation">
+    
+        <div class="page-links clear-block">
+              <a href="/clanky/pro-webmastery/drupal-a-seo-i-zaklady" class="page-previous" title="Přejít na předchozí stranu">‹ Drupal a SEO I. - Základy</a>
+                    <a href="/clanky/pro-webmastery/drupal-a-seo-i-zaklady" class="page-up" title="Přejít na nadřazenou stránku">o úroveň výš</a>
+                    <a href="/clanky/pro-webmastery/drupal-seo-iii-dalsi-moduly" class="page-next" title="Přejít na další stranu">Drupal a SEO III. - Další moduly ›</a>
+          </div>
+    
+  </div>
+<div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/book/export/html/98" title="Zobrazit tuto stranu a její podstrany ve verzi pro tisk." class="book_printer">Verze pro tisk</a>
+<div id="social-add-3151" class="social-add digglink" onmouseover="showSocials(3151)" onmouseout="hideSocials(3151)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-3151">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/pro-webmastery/drupal-a-seo-II-cista-url&amp;title=Drupal a SEO II. - Čistá URL" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/pro-webmastery/drupal-a-seo-II-cista-url&amp;title=Drupal a SEO II. - Čistá URL" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/pro-webmastery/drupal-a-seo-II-cista-url" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/pro-webmastery/drupal-a-seo-II-cista-url&amp;title=Drupal a SEO II. - Čistá URL" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-515"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-515" class="active">Super</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/andiecz" title="Zobrazit profil uživatele.">AndieCZ</a> dne 11 Říjen, 2006 - 06:59.  </div>
+
+  <div class="content">
+    <p>tak doufám, že se mi to na novém hostingu taky podaří zapnout a
+poběží to v klidu… :-) zatím, jsem na čistá url neměl nějak
+štěstí… a že bude i následovat, jak dobře nastavit robots.txt, aby si
+google nenačítal stránky dvakrát a nevyhazoval je za dublování…</p>
+
+<p><strong>Luke</strong><br />
+Neexistuje nic lepšího, než je <strong>Apple MacBook Pro</strong><br />
+<strong><a href="http://smilinghr.com">HR can be FUN</a></strong></p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-517"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-517" class="active">na IC</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/stevocz" title="Zobrazit profil uživatele.">stevocz</a> dne 11 Říjen, 2006 - 09:07.  </div>
+
+  <div class="content">
+    <p>skusal som to na IC ale aj ked je povolene pouzivanie htaccess tak mi test
+cistej adresi neprejde dobre a konci chybou:</p>
+
+<p><b>Internal Server Error The server encountered an internal error or
+misconfiguration and was unable to complete your request.</b></p>
+
+<p><b>Please contact the server administrator, [no address given] and inform
+them of the time the error occurred, and anything you might have done that may
+have caused the error.</b></p>
+
+<p><b>More information about this error may be available in the server
+error log.</b></p>
+
+<p>___</p>
+
+<p>Drupal 4.7.3</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-519"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-519" class="active"> ic.cz bude asi jeden</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 11 Říjen, 2006 - 10:37.  </div>
+
+  <div class="content">
+    <p>ic.cz bude asi jeden z tech, co nepodporuji mod_rewrite. zmen hosting…</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-545"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-545" class="active"> asi ti nezbyde nic jineho,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 11 Říjen, 2006 - 16:41.  </div>
+
+  <div class="content">
+    <p>asi ti nezbyde nic jineho, nez provozovat pouze hezka url s ?q=, ale bez
+rewrite…</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-554"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-554" class="active"> Pokud jsem vše dobře</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/miloso" title="Zobrazit profil uživatele.">miloso</a> dne 11 Říjen, 2006 - 21:17.  </div>
+
+  <div class="content">
+    <p>Pokud jsem vše dobře pochopil, IC.cz mod_rewrite podporuje – ale
+možná, že je nutno předtím kontaktovat admina (například přes <a href="http://phorum.ic.cz">fóra na IC.cz</a>), který povolení mod_rewrite
+provede.</p>
+
+<p>Je ale možné, že tato informace je už neaktuální a IC.cz má aktivován
+mod_rewrite na všech účtech – v tom případě bych si pohrál
+s RewriteBase v .htaccess. Do odpovídající části článku se možná
+vloudila chybička, ještě to upravím ;-)</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-5410"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-5410" class="active">Clean URL &amp; ic.cz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://policebrutality.ic.cz" rel="nofollow">czbero</a> (bez ověření) dne 23 Srpen, 2007 - 16:02.  </div>
+
+  <div class="content">
+    <p>Já mám hosting na ic.cz (policebrutali­ty.ic.cz) a čistá URL mi valí
+úplně v pohode…</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-684"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-684" class="active"> díky, super článek… ;)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ahojakkk" title="Zobrazit profil uživatele.">krystof.k</a> dne 18 Říjen, 2006 - 16:34.  </div>
+
+  <div class="content">
+    <p>díky, super článek… ;)</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-826"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-826" class="active"> Ahoj, poradite nekdo jak</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel zdenek (bez ověření) dne 30 Říjen, 2006 - 23:20.  </div>
+
+  <div class="content">
+    <p>Ahoj, poradite nekdo jak nastavit path auto a clean url aby to pekne prepsalo
+cesky nazev, tj. ěščřžýáí… vypsalo do url jako escrzyai.. ? tohle se
+mi nedari</p>
+
+<p>diky!</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-828"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-828" class="active"> Ve verzi pro 4.7 uz to</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 31 Říjen, 2006 - 00:11.  </div>
+
+  <div class="content">
+    <p>Ve verzi pro 4.7 uz to funguje v defaultu!</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-837"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-837" class="active"> me prave ne, mam 4.7.3</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Zdenek (bez ověření) dne 31 Říjen, 2006 - 15:30.  </div>
+
+  <div class="content">
+    <p>me prave ne, mam 4.7.3</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1659"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1659" class="active"> skus</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.rpg.sk" rel="nofollow">crowen</a> (bez ověření) dne 10 Leden, 2007 - 15:48.  </div>
+
+  <div class="content">
+    <p>skus <a href="https://drupal.org/project/accents">http://drupal.org/project/accents</a>
+ale neviem ci ti to pomoze</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-2824"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-2824" class="active"> Nastavis to velice</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 3 Březen, 2007 - 21:10.  </div>
+
+  <div class="content">
+    <p>Nastavis to velice jednoduse. Prectes si prilozene INSTALL.txt kde se dozvis
+ze si mas upravit i18n-ascii.txt pro svoje potreby.</p>
+
+<p>V distribuci modulu je jiz ukazkovy i18n-ascii.example.txt pripraven, takze
+jej staci zkopirovat/prej­menovat na i18n-ascii.txt.</p>
+
+<p>No a to je vse, zacne to pak fungovat uplne samo bez dalsich uprav.</p>
+
+<p>Takze sparavna odpoved zni RTFM BFU ;)</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1086"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1086" class="active"> Prosim, o radu. Mam Drupal</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Urgnce (bez ověření) dne 15 Listopad, 2006 - 14:06.  </div>
+
+  <div class="content">
+    <p>Prosim, o radu. Mam Drupal 4.7, nainstalovany Pathauto, admin nastavil
+mod_rewrite na hezke url, no stale se v url objevuje ?q=. V nastavenich je vse
+co se da ohledne cistych URL skrle, pathauto funguje. Navic kdyz damtest ciste
+url, hodi to hlasku 404. Tak nevim. Hodne mne to mrzi. Prosim, poradte. PS: jde
+o placeny hosting.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1088"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1088" class="active"> mate na hostingu zakazany</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 15 Listopad, 2006 - 15:59.  </div>
+
+  <div class="content">
+    <p>mate na hostingu zakazany htaccess. napiste adminovi pripadne poslete jmeno
+hostingu, at ho muzeme zaradit do cerne knihy :)</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1087"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1087" class="active">pathauto, problem,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 15 Listopad, 2006 - 14:10.  </div>
+
+  <div class="content">
+    <p>jeste jedna vec, jak se nahodilo pravidlo pro cista url od adminu, tak modul
+pathauto delal problem, nabehla pouze cista bila stranka, navic jsem se nedostal
+ani do adminu, abych ho vypnul. Nejsem programator, pouze uzivatel.Diky za
+radu,, PS: na hosting do rootu nejde nahrat .htaccess, je zakazan</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1215"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1215" class="active">pathauto.modul</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/johnnym" title="Zobrazit profil uživatele.">johnnym</a> dne 25 Listopad, 2006 - 16:30.  </div>
+
+  <div class="content">
+    <p>Zdravim, mně se tak dělo, když jsem editoval soubor pathauto.modul,
+protože jsem zapomněl na konce řádků dát čárku. Dopsáním čárek se to
+vyřešilo.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1090"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1090" class="active">PROBLEM!!</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 15 Listopad, 2006 - 18:19.  </div>
+
+  <div class="content">
+    <p>tak se mi to povedlo,udelal jsem Run the clean URL test,a pak zacali dalsi
+problem,jednak to kopiruje url ( log/node/user/no­de/blog/user/1),zmac­knu
+neco v menu , napise adresu a nic, zustavam na miste, zmacknu polozku v menu a
+nic, akurat to doplni dalsi vec do url.Dale pak se mi hodi jednoduche rozhazene
+menu,pro hezke url je pouzity nasledujici pravidlo: RewriteEngine On RewriteCond
+%{DOCUMENT_RO­OT}%{REQUEST_FI­LENAME} !-f RewriteCond
+%{DOCUMENT_RO­OT}%{REQUEST_FI­LENAME} !-d RewriteRule ^/(.*)$ /index.php?q=$1
+[L,QSA]</p>
+
+<p>Muzete poradit jak to osetrit, nevim si rady,,v php a pod.jsem laik</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1096"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1096" class="active"> To bude asi zle napisane</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 15 Listopad, 2006 - 21:35.  </div>
+
+  <div class="content">
+    <p>To bude asi zle napisane pravidlo v .htaccess – vloz ho sem. A vobec mas
+to niekde online, kde sa to da pozriet?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1097"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1097" class="active"> pokus.georgius.cz , jsem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 15 Listopad, 2006 - 22:47.  </div>
+
+  <div class="content">
+    <p>pokus.georgius.cz , jsem v menu, jsem v themes, jakmile na neco kliknu, tak
+mi to vyskoci z themes a zkoci do stranky bez themes, navic se duplikuje url,
+hodi me to na bilou plochu s total rozhazenym menu a dal se nedostanu. Jedu na
+ceskem hostingu, nelze vkladat .htaccess do root, poslal jsem jim nasledujici
+pravidlo:</p>
+
+<p>RewriteEngine On RewriteCond %{DOCUMENT_RO­OT}%{REQUEST_FI­LENAME} !-f
+RewriteCond %{DOCUMENT_RO­OT}%{REQUEST_FI­LENAME} !-d RewriteRule ^/(.*)$
+/index.php?q=$1 [L,QSA]</p>
+
+<p>jsem total na prasky, myslel jsem ze to bude pohoda, chcem to aplikovat na
+celej web, jsem total laik.</p>
+
+<p>Navic jsem cetl zde <a href="http://interval.cz/clanky/drupal-instalace-a-zakladni-koncepty/diskuse/#story44909">http://interval.cz/…pty/diskuse/#…</a>
+ze do session.inc treba napsat neco, kdyz ses na ceskem hostingu, jak jsem to
+tam napsal, tak jsem se nedostal na sve stranky,tak jsem to ignoroval.</p>
+
+<p>Moc diky,,,</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-1095"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-1095" class="active">PROBLEM!!</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 15 Listopad, 2006 - 21:08.  </div>
+
+  <div class="content">
+    <p>nemuzu najit reseni, stale se mi duplicituje url, nemuzu do menu, tak nevim,,
+prosim, poradi nekdo ??</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-2658"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-2658" class="active">problém s cool url</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Suchánek (bez ověření) dne 21 Únor, 2007 - 13:15.  </div>
+
+  <div class="content">
+    <p>Zdravím, prosím nevíte čím může být způsobeno že když zapnu přez
+administraci čístá url, při editaci stránky, článku či nastavování
+webu mi drupal vypne styly? Myslím si že to bude asi špatně nastavený
+rewrite mám tam toto:</p>
+
+<p>&lt;FilesMatch
+„(\.(engine|in­c|info|install|mo­dule|profile|po|sh|­.<em>sql|theme|tpl(\­.php)?|xtmpl)|co­de-style\.pl|Entri­es.</em>|Repository|Ro­ot|Tag|Templa­te)$“&gt;<br />
+Order allow,deny &lt;/FilesMatch&gt;</p>
+
+<p>DirectoryIndex index.php</p>
+
+<p>RewriteEngine on RewriteCond %{DOCUMENT_RO­OT}%{REQUEST_FI­LENAME} !-f
+RewriteCond %{DOCUMENT_RO­OT}%{REQUEST_FI­LENAME} !-d RewriteRule ^/(.*)$
+/index.php?q=$1 [L,QSA]</p>
+
+<p>a když zvolím třeba adresu</p>
+
+<p><a href="http://blog.example.com/admin/settings/clean-urls">http://blog.example.com/…s/clean-urls</a></p>
+
+<p>tak se mi drupal načte bez stylů.</p>
+
+<p>na jiném hostingu když nahraju .htaccess vše fungue vpořádku.</p>
+
+<p>Dejte vědět prosím, co s tím díky. Honza</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-9078"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9078" class="active">Drupal bez CSS</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/timurek" title="Zobrazit profil uživatele.">timurek</a> dne 18 Prosinec, 2007 - 23:51.  </div>
+
+  <div class="content">
+    <p>Dnes jsem řešil stejný problém – není možné používat zároveň
+čistá URL a mít zaháknutou volbu Administrace &gt; Nastavení webu &gt;
+Výkon / Agregovat a komprimovat CSS soubory. Když je vybráno Povoleno, CSS se
+nezobrazují. Možná problém vznikl když jsem zapnul čistá URL s touto
+volbou povolenou. Ještě víc zvláštní je to, že ani když jsem potom
+vypnul Čistá URL a odstranit RewriteRule z .htaccess, tak se CSS styly
+neukázaly … Zkusil jsem si nechat zobrazit .css soubor ze zdrojáku (prostě
+jsem jeho URL napsal do adresního řádku v prohlížeči) a server mi vracel
+500 – internal server error.</p>
+
+<p>Zvláštní věc …</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-9082"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9082" class="active">Ale ano, je to mozne. Mate</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 19 Prosinec, 2007 - 01:40.  </div>
+
+  <div class="content">
+    <p>Ale ano, je to mozne. Mate spatne nastaveni serveru</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-9084"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9084" class="active">no tak ...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/timurek" title="Zobrazit profil uživatele.">timurek</a> dne 19 Prosinec, 2007 - 02:16.  </div>
+
+  <div class="content">
+    <p>to je docela dobře možné – server je na nevyzkoušeném
+webhostingu – a něco víc informací by nebylo? Jako třeba co je špatně
+nastavené?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-9083"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9083" class="active">V adresari kde sa ukladaju</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 19 Prosinec, 2007 - 02:06.  </div>
+
+  <div class="content">
+    <p>V adresari kde sa ukladaju komprimovane css (files/nieco) by mal byt subor
+.htaccess – v nom vymazat vsetky riadky ale ponechat subor (aj ked prazdny)
+tam. Potom to snad pojde…</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-9085"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9085" class="active">tak asi ne ...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/timurek" title="Zobrazit profil uživatele.">timurek</a> dne 19 Prosinec, 2007 - 02:22.  </div>
+
+  <div class="content">
+    <p>V adresáři files/css žádný .htaccess není – je jenom v adresáři
+files … stvořil jsem ho prázdný, ale chování se nezměnilo – při
+vypnutém styly jsou, při povoleném nejsou …</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-9092"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9092" class="active">V tom pripade treba pozriet</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 19 Prosinec, 2007 - 08:02.  </div>
+
+  <div class="content">
+    <p>V tom pripade treba pozriet httpd-error.log v com ta chyba
+500 spociva – ale obycajne je to problem z .htaccess. Mozno by ho bolo dobre
+sem hodit (ten hlavny) a ohranicit cez <code>/---code</code> na zaciatku a
+<code>\---</code> na konci (aby sa to dalo citat).</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-9102"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9102" class="active">Tady to je :)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/timurek" title="Zobrazit profil uživatele.">timurek</a> dne 19 Prosinec, 2007 - 14:26.  </div>
+
+  <div class="content">
+    <p><code><br />
+RewriteEngine on<br />
+<br />
+RewriteBase /<br />
+<br />
+RewriteCond %{REQUEST_FILENAME} !-f<br />
+<br />
+RewriteCond %{REQUEST_FILENAME} !-d<br />
+<br />
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]<br />
+ </code></p>
+
+<p>Nic vic jsem nemohl v .htaccess nechat, protoze jine volby v .htaccess
+webhosting nedovoluje. Vim, nejradsi bych zmenil webhostera, ale stranky nejsou
+moje, vlastne jenom pomaham :)</p>
+
+<p>Taky jsem zadal majitele webu aby pozadal webhostery o to aby se koukli do
+logu – ale nekoukli se…</p>
+
+<p>Drupal je ve verzi 5.5</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-9106"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9106" class="active">treba videt log</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 19 Prosinec, 2007 - 16:15.  </div>
+
+  <div class="content">
+    <p>treba videt log</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div></div></div><a id="comment-2669"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-2669" class="active"> Prosim uprav si ten zdroj</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 21 Únor, 2007 - 20:06.  </div>
+
+  <div class="content">
+    <p>Prosim uprav si ten zdroj tak aby bolo vidiet kod:</p>
+
+<pre><code>tvoj vlozeny text
+...</code></pre>
+
+<p>\---</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-2838"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-2838" class="active">Dik!</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Smiricky (bez ověření) dne 4 Březen, 2007 - 23:48.  </div>
+
+  <div class="content">
+    <p>Diky za dobre napsanej navod! Velmi mi to pomohlo a vse mi bezi jak
+ma! D.S.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-3819"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-3819" class="active">Hezky URL len s WWW</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.podlupou.sk/slovensko" rel="nofollow">Anonymous</a> (bez ověření) dne 1 Květen, 2007 - 12:37.  </div>
+
+  <div class="content">
+    <p>Zdravim,</p>
+
+<p>no vypada to tak, že ten Mod rewrite funguje len v pripade, že adresa je
+vo forme:</p>
+
+<p><a href="http://www.example.com/volaco">http://www.example.com/volaco</a></p>
+
+<p>akonahle tento URL chce clovek uvadzat a pouzivat ako:</p>
+
+<p><a href="http://volaco.example.com">http://volaco.example.com</a> uz
+nefunguje, lebo to neni nastavené.</p>
+
+<p>Vedel by volakto poradit ako to nastaviť aj pre tieto prípady.</p>
+
+<p>Ďakujem, Zsolt</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3820"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-3820" class="active"> to prece nejsou hezky url.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 1 Květen, 2007 - 12:51.  </div>
+
+  <div class="content">
+    <p>to prece nejsou hezky url. nemuzete zamenovat nejakou cast url za subdomenu.
+to byste chtel drupal-a-seo-cista-url.drupal.cz ?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-3826"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-3826" class="active">doplneni</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 1 Květen, 2007 - 17:52.  </div>
+
+  <div class="content">
+    <p>k tomu bych jen doplnil ze to je veci nastaveni webhostingu, nektery to maji
+tak ze staci vytvorit adresar v rootu, jinde se to nastavuje
+v admin sekci…</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3830"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-3830" class="active"> Ale to prece nesouvisi</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 1 Květen, 2007 - 21:07.  </div>
+
+  <div class="content">
+    <p>Ale to prece nesouvisi s drupalem a nesouvisi to s cistymi url…</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-3835"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-3835" class="active">Asi sa nerozumieme</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.podlupou.sk" rel="nofollow">Anonymous</a> (bez ověření) dne 2 Květen, 2007 - 12:06.  </div>
+
+  <div class="content">
+    <p>Podla mna ta domena je v poriadku.</p>
+
+<p>momentalne mam hlavnu domenu <a href="http://www.example.sk">http://www.example.sk</a> a na tejto domene
+prevadzkujem 5 rôznych projektov, ktore rozlisujem tak, ze nazvy zadavam vo
+forme <a href="http://volaco1.example.sk">http://volaco1.example.sk</a>, <a href="http://volaco2.example.sk">http://volaco2.example.sk</a> atď. Teraz chcem
+spustit projekt, kde vyuzivam aj Drupal, a do sveta by som to chcel komunikovat
+s adresou <a href="http://drupal.example.sk">http://drupal.example.sk</a> a nie
+tak ako <a href="http://www.example.sk/drupal/">http://www.example.sk/drupal/</a></p>
+
+<p>lenze v tom prvom pripade hezke URL nefunguje. Teraz mam URL v tvare: <a href="http://drupal.example.sk/?q=aggregator">http://drupal.example.sk/?…</a>,
+ale taktiež funguje aj <a href="http://www.example.sk/drupal/?q=aggregator">http://www.example.sk/drupal/?…</a>.</p>
+
+<p>Podla mna ani jedna z tychto URL nie je hezke. <a href="http://www.example.sk/drupal/aggregator">http://www.example.sk/…l/aggregator</a> –
+viem spravit pomocou navodu, ale <a href="http://drupal.example.sk/aggregator">http://drupal.example.sk/aggregator</a>
+uz hlasi chybu.</p>
+
+<p>To, ze preco hlasi chybu aj viac-menej chapem, len to neviem, ako by som to
+mohol napravit.</p>
+
+<p>Totizto ta domena example.sk je taka, aby dali smysl subdomenydruheho radu
+v tej forme ako je hore.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3836"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-3836" class="active">tak to si opravdu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 2 Květen, 2007 - 12:40.  </div>
+
+  <div class="content">
+    <p>tak to si opravdu nerozumime :-)</p>
+
+<p>v tom pripade to vidim na problem s tou subdomenou, ono to pise Internal
+server error, 404 not found nebo neco jineho? mate na subdomenach povoleny
+mod_rewrite?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-9079"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9079" class="active">To už se mi párkrát</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Muzička (bez ověření) dne 18 Prosinec, 2007 - 23:43.  </div>
+
+  <div class="content">
+    <p>To už se mi párkrát stalo. Je potřeba v .htacces
+odkomentovat řádek:</p>
+
+<p>Rewrite base /</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-3839"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-3839" class="active">Internal server error</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.podlupou.sk" rel="nofollow">Zsolt</a> (bez ověření) dne 2 Květen, 2007 - 14:03.  </div>
+
+  <div class="content">
+    <p>Vrati to Internal Server Error. To ci mam povoleny na subdomenach mod rewriew
+neviem, ako to mozem zistit? Problem je na domene podlupou.sk a preto by som
+chcel pouzit horeuvedeny tvar, aby som to bolo pri vysloveni pekne. Napriklad uz
+teraz mam dvere.podlupou.sk, alebo plastove-okna.podlupou.sk a potrebujem teraz
+vytvorit pomocou drupalu slovensko.podlu­pou.sk</p>
+
+<p>ale v tejto tvare sa mi to nedari</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-9673"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9673" class="active">nejede mi test</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel artzik (bez ověření) dne 21 Leden, 2008 - 17:47.  </div>
+
+  <div class="content">
+    <p>Když spustím ten test na čistá url tak se mi zobrazí chyba 500 .. path
+i pathauto tam mám povolený .. tak nevím proč mi to nejede??</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-9675"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-9675" class="active">Chyba 500 je chyba na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 21 Leden, 2008 - 19:31.  </div>
+
+  <div class="content">
+    <p>Chyba 500 je chyba na serveri – treba pozriet v Apache httpd-error.log
+co to hadze. Mozno si nieco zmenil v .htaccess zle?</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-11918"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-11918" class="active">neviem najst Run the clean URL test</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel marek (bez ověření) dne 4 Květen, 2008 - 23:28.  </div>
+
+  <div class="content">
+    <p>Nainstaloval som si Drupal 6. Kde prosim vas najdem ten test URL? Run the
+clean URL test.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-11920"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-11920" class="active">doplnenie</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel marek (bez ověření) dne 4 Květen, 2008 - 23:35.  </div>
+
+  <div class="content">
+    <p>administracia – nastavenie webu – ciste URL. Som myslel ze by to malo
+byt tu, ale tu ten test nieje.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-11931"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-11931" class="active">riesenie</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel marek (bez ověření) dne 5 Květen, 2008 - 11:04.  </div>
+
+  <div class="content">
+    <p>Problem sa vyriesil sam. Dnes ked som sa prihlasil,a klikol na zalozku ciste
+url, cakalo ma tu prekvapenie – Váš server bol otestovaný a túto funkciu
+podporuje. Ale ja som moznost spustenia testu URL hladal pol dna ako idiot!</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-17925"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-17925" class="active">Mod_rewrite</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Marika (bez ověření) dne 24 Březen, 2009 - 10:11.  </div>
+
+  <div class="content">
+    <p>Šla jsem podle návodu na této stránce viz:</p>
+
+<p>Mod_rewrite</p>
+
+<p>Pro tento účel Drupal vytváří v kořenovém adresáři své instalace
+soubor .htaccess. Ten kromě jiného obsahuje následující řádky:</p>
+
+<p>RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]</p>
+
+<p>Tyto pravidla říkají: Jakoukoliv URL (např. /admin/modules) převeď na
+index.php?q=/ad­min/modules. Udělej to ale pouze v případě, že neexistuje
+soubor nebo adresář s názvem /admin/modules. A jsme u toho. Vidíme naše
+staré známé ?q=cesta, ale uživatel vidí jen cesta. Chytré a mimochodem
+velmi bežné použití modulu mod_rewrite.</p>
+
+<p>Toto nastavení však zatím není funkční, musíme provést jednu změnu
+v souboru .htaccess</p>
+
+<p>* Otevřete si soubor .htaccess, který se nachází v adresáři, do nějž
+jste Drupal nainstalovali, a najděte tento řádek:</p>
+
+<p>#RewriteBase /drupal</p>
+
+<p>* Změňte jej podle následujícího pravidla: odstraňte křížek, který
+značí, že řádek má být považován za komentář, a místo /drupal
+vložte relativní cestu k vaší instalaci Drupalu bez koncového lomítka
+(tedy například, máte-li Drupal na adrese <a href="http://www.example.com">http://www.example.com</a>, pravděpodobně bude
+řádek vypadat následovně: RewriteBase /, pokud na adrese <a href="http://www.example.com/my-web/">http://www.example.com/my-web/</a>, zkuste
+RewriteBase /my-web).</p>
+
+<p>Teď už jen stačí jít do Administrace → Nastavení → Obecná
+nastavení a u zatím nedostupné volby Čistá URL kliknout na odkaz Run the
+clean URL test. Pokud vše proběhne v pořádku, nebude Vám již Drupal
+bránit v aktivaci čistých URL.
+_____________­________________________­____</p>
+
+<p>aktivovala jsem si potřebné moduly ale i tak mi to nejde povolit ta
+čistá url…:-(</p>
+
+<p>mám web <a href="http://sims.yc.cz/drupal">http://sims.yc.cz/drupal</a>,
+takže v to souboru htaccess to upravuji na RewriteBase
+/http://sims.yc­.cz/drupal a stále mě to nejde povolit ahosting ic mi napsal,
+že podporuje čistou URL, tak mi prosím někdo poraďte, v čem dělám
+chybu??</p>
+
+<p>Díky!</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-17926"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-17926" class="active">Toto je špatně: RewriteBase</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 24 Březen, 2009 - 11:27.  </div>
+
+  <div class="content">
+    <p>(To Marika): Toto je špatně: RewriteBase /http://sims.yc­.cz/drupal<br />
+Dejte tam: RewriteBase /drupal</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-17935"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-17935" class="active">Děkuji!</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://sims.yc.cz/drupal" rel="nofollow">Marika </a> (bez ověření) dne 24 Březen, 2009 - 15:49.  </div>
+
+  <div class="content">
+    <p>Děkuji, jupí, už mi to jde povolit!</p>
+
+<p>Děkuji moc za radu!!!</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-18089"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-18089" class="active">Problém s instalací</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Marika (bez ověření) dne 30 Březen, 2009 - 12:30.  </div>
+
+  <div class="content">
+    <p>Ahoj,</p>
+
+<p>udělala jsem průser a tak musím drupal instalovat od úplného
+začátku…Ah jo..</p>
+
+<p>Udělala jsem při instalaci vš, co je zapotřebí ale když zadám <a href="http://sims.yc.cz/drupal">http://sims.yc.cz/drupal</a>, tak mě vyjede
+místo instalace drupalu tohle viž na odkazu: <a href="http://sims.yc.cz/drupal/">http://sims.yc.cz/drupal/</a></p>
+
+<p>Prosím poraďte mi někdo, v čem je chyba??</p>
+
+<p>Předem díky moc</p>
+
+<p>Marika</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-18092"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-18092" class="active">Skus tam nakopirovat este raz</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 30 Březen, 2009 - 12:56.  </div>
+
+  <div class="content">
+    <p>Skus tam nakopirovat este raz kompletnu instalaciu drupalu – su tam
+prazdne adresare bez obsahu. V adresari drupal-cosi mas cely drupal nahraty a
+ten je este neanainstalovany ale ten asi nepotrebujes.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-18097"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/pro-webmastery/drupal-a-seo-II-cista-url#comment-18097" class="active">Toto tema je jiz velmi</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 30 Březen, 2009 - 14:35.  </div>
+
+  <div class="content">
+    <p>Toto tema je jiz velmi vycpele, zaviram. Pokud mate dotaz k cistym URL,
+vytvorte nove tema ve foru.</p>  </div>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/clanky/pro-webmastery/drupal-a-seo-II-cista-url?destination=node%2F98"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-451e4bc8b2840912354d4af5c4eb84fd" value="form-451e4bc8b2840912354d4af5c4eb84fd"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/cfd-trading" class="tagadelic level1">cfd trading</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views" title="2 komentáře">Jak vyhledávat v poli soubor (multiupload) - VIEWS</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 15 hod 56 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 6 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 5 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 9 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 10 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 4 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 8 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>1 uživatel</em> a <em>1 host</em>.<div class="item-list"><h3>Online uživatelé</h3><ul><li class="first last"><a href="/user/sternumflip" title="Zobrazit profil uživatele.">sternumflip</a></li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":463,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Senad Kolář&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/senad-kolar</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Deníček začátečníka s Drupalem - Den čtvrtý</title>
+ <link>https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-ctvrty</link>
+ <description>&lt;p&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-ctvrty&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-ctvrty#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3366</wfw:commentRss>
+ <pubDate>Tue, 08 Jul 2008 21:51:28 +0000</pubDate>
+ <dc:creator>Senad Kolář</dc:creator>
+ <guid isPermaLink="false">3366 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Deníček začátečníka s Drupalem - Den třetí</title>
+ <link>https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-treti</link>
+ <description>&lt;p&gt;&lt;strong&gt;Pondělí 07.07.2008&lt;/strong&gt;, &lt;i&gt;&lt;strong&gt;11&lt;/strong&gt;00&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-treti&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-treti#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3354</wfw:commentRss>
+ <pubDate>Tue, 08 Jul 2008 09:29:00 +0000</pubDate>
+ <dc:creator>Senad Kolář</dc:creator>
+ <guid isPermaLink="false">3354 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Deníček začátečníka s Drupalem - Den druhý</title>
+ <link>https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-druhy</link>
+ <description>&lt;p&gt;&lt;strong&gt;Neděle 06.07.2008&lt;/strong&gt;, &lt;i&gt;&lt;strong&gt;10&lt;/strong&gt;33&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-druhy&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-druhy#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3353</wfw:commentRss>
+ <pubDate>Tue, 08 Jul 2008 07:57:54 +0000</pubDate>
+ <dc:creator>Senad Kolář</dc:creator>
+ <guid isPermaLink="false">3353 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Deníček začátečníka s Drupalem - Den první</title>
+ <link>https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-prvni</link>
+ <description>&lt;p&gt;&lt;strong&gt;Sobota 05.07.2008&lt;/strong&gt;, &lt;i&gt;&lt;strong&gt;11&lt;/strong&gt;07&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-prvni&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/senad-kolar/denicek-zacatecnika-s-drupalem-den-prvni#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/3352</wfw:commentRss>
+ <pubDate>Mon, 07 Jul 2008 22:21:38 +0000</pubDate>
+ <dc:creator>Senad Kolář</dc:creator>
+ <guid isPermaLink="false">3352 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

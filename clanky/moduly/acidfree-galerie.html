@@ -1,0 +1,1286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Acidfree galerie&quot;" href="/crss/node/390" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Acidfree galerie | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_02a36298fc18f7cc1cadbc14f0dcd6ff.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a></div>        <h2 class="title">Acidfree galerie</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-390">
+    <span class="submitted">Vložil/a <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a>, 26 Listopad, 2006 - 23:00</span>
+    <div class="pcontent"><p>Pro vedení fotogalerií existuje do Drupalu několik modulů. Sám jsem je
+vyzkoušel všechny nejznámější.</p>
+
+<p><a href="https://drupal.org/project/image"><strong>Image</strong></a>
+umožňuje vytvářet nody jako obrázky a vézt celá alba s náhledy.
+Zakládá si na taxonomii a neumožňuje hromadný import. K tomu je potřeba
+další modul (image_import), který je však dosti neohrabaný a ve verzi
+4.7 nepoužitelný. Celkově se tedy hodí jen na menší galerie, kde není
+kladen důraz na pokročilejší funkce.<br />
+Oproti tomu modul <a href="https://drupal.org/project/gallery"><strong>gallery</strong></a>
+zajišťuje propojení Drupalu s velice propracovaným systémem správy fotek
+<a href="http://gallery.menalto.com/">Gallery2</a>. Zde jsou naopak možnosti
+dosti rozsáhlé. Poskytuje správcům vše, co si mohou přát i ty
+nejnáročnější z nich. Nevýhoda je zde v tom, že se jedná
+o samostatné řešení, navíc dosti komplikované. Navíc nejsou jednotlivé
+fotky součástí Drupalu, což vede k určitým omezením.</p>
+
+Filozofie
+
+<p>Acidfree v podstatě skloubil vlastnosti těchto modulů. Vznikla tak
+perfektní fotogalerie, která je založená na nodech, čili perfektně
+provázaná s Drupalem, s možností pokročilejší správy jednotlivých
+alb, i hromadným importem.<br />
+<img src="http://www.drupal.cz/files/acid_fotogalerie.png" alt="" /></p>
+
+Vlastnosti
+
+<p>Předem je nutno sdělit, že pro funkčnost je potřeba mít nainstalován
+modul <a href="https://drupal.org/project/filemanager"><strong>filemanager</strong></a>,
+který se stará o jednotlivé fotky.<br />
+Galerie může mít neomezený počet alb a to i libovolně do sebe
+vnořených. Nezakládá si však na taxonomii ale na sebe napojených uzlů.<br />
+U každého alba je možné nastavit náhled (i když se dá zvolit pouze
+náhodný obrázek) a řazení prvků (podle celkového nastavení,
+chronologicky, abecedně, či nejaktuálnější na začátek). Tím však
+možnosti nekončí. Pod obsahem alba totiž naleznete hromadné úpravy
+jednotlivých prvků. Můžete tak jednoduše smazat libovolná alba či fotky,
+přesunout je do jiného, upravit jejich popisky, změnit přiřazení,
+kopírovat atd. Vkládání fotek lze provést buď jednotlivě, nebo hromadným
+importem. Zde musím zmínit chybu způsobenou Java Skriptem ve spojení
+s modulem upload. Pokud ho máte totiž aktivovaný, nezobrazí se vám při
+mass importu jednotlivé volby. Je nutné ho tedy nemít povolený, nebo ho
+zakázat pro acidfree typ nodu. Hromadně můžete vložit buď více obrázku
+do formuláře, nebo daleko lépe zadat adresář, ze kterého se provede
+nahrání fotek. Tato možnost je pro mě velice užitečná.<br />
+Musí zde uvést ještě jednu chybu, kterou jsem objevil a to ve spojení
+s modulem pathauto. Pokud mám totiž nastavené automatické přejmenování
+jednotlivých fotek, při hromadném importu vyskakuje chyba a fotky se
+nepřejmenují (~~urldecode() expects parameter 1 to be string,…~~).
+V celkovém nastavení je možné zvolit, zda mají mít uživatelé vlastní
+alba, rozlišení obrázku v plné velikosti, rozlišení velkého obrázku a
+náhledu, řazení, počet sloupců a řádků na stránce s náhledy, zda se
+mají načítat informace z EXIF atd. K dispozici jsou i funkce na rotaci
+obrázků.</p>
+
+Prohlížení
+
+<p>Jednotlivá alba jsou označená obrázkem složky, na kterém je vidět
+vždy náhodný náhled. Jednotlivé fotky jsou pak zobrazeny dle nastavení co
+do počtu řádků a sloupců. Zde bych možná změnil napevno zadán počet
+sloupců a řádků jen na počet náhledů. Zobrazení je pak vázáno na
+určité rozlišení a při jeho změně např. na menší dochází
+k degeneraci.<br />
+Jako pozitivum vidím zobrazení lišty s dalšími fotkami nad právě
+zobrazovanou. Lze tak jednoduše skočit třeba na 8. fotku, přičemž se
+nacházím na 2. Zde bych ještě možná přidal zobrazování určitého
+počtu náhledů ostatních fotek.</p>
+
+Závěr
+
+<p>Acidfree modul představuje určitě perfektní řešení pro vedení
+obrázků. Obsahuje i další drobné vlastnosti a nastavení, které jsem zde
+neuvedl. Např. jsem se vůbec nezmínil, že umožňuje spravovat i video
+soubory. Rád bych se ještě zmínil o několika postřehách, které mám
+k aktuální verzi. Není mi jasné, proč když aktivuji modul book, nody
+galerie se chovají jako stránky knihy, ukazuje se tedy u nich možnost
+vytisknout stránku atd. Přijde mi to jako mínus. Další dvě chyby jsem již
+zmiňoval. Jediné co mi chybí k dokonalosti je chyba v kombinaci s pathauto
+a hromadným importem, nicméně si myslím, že bude brzy opravena.</p>
+
+Pár screenshotů
+
+<a href="http://www.drupal.cz/files/acid_content.png"><img src="http://www.drupal.cz/files/acid_content_th.png" alt="" /></a>
+
+<a href="http://www.drupal.cz/files/acid_mass_import.png"><img src="http://www.drupal.cz/files/acid_mass_import_th.png" alt="" /></a>
+
+<a href="http://www.drupal.cz/files/acid_new_gallery.png"><img src="http://www.drupal.cz/files/acid_new_gallery_th.png" alt="" /></a>
+
+<p>Osobně mohu tento modul tedy doporučit všem, co hledají výbornou galerii
+do Drupalu. Případné dotazy rád zodpovím.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-8165" class="social-add digglink" onmouseover="showSocials(8165)" onmouseout="hideSocials(8165)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-8165">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/moduly/acidfree-galerie&amp;title=Acidfree galerie" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/moduly/acidfree-galerie&amp;title=Acidfree galerie" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/moduly/acidfree-galerie" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/moduly/acidfree-galerie&amp;title=Acidfree galerie" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-1233"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1233" class="active">vkládání obrázku do článku</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 27 Listopad, 2006 - 09:08.  </div>
+
+  <div class="content">
+    <p>Momentálně řeším problém s vkládáním obrázků do článku,
+konkrétně jak to udělat, aby to bylo pokud možno elegantní. Zatím to
+řeším způsobem, že do složky obrázky nahraju soubor a pak ho vytáhnu
+přes klasické &lt;img&gt;, jenže šlo by nějak udělat, abych soubor nahrál
+do galerie, která by nebyla normálně dostupná (pro návštěvníka – bez
+práv) a já bych pak třeba nej zadal &lt;!--obrazek–10&gt; A místo toho by
+se nahradil obrázek z fotogalerie? Samozřejmě styly bych si vedl zvlášť
+v souboru přidaného do šablony. Dík.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1233" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1236"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1236" class="active"> Je možné to provádět</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a> dne 27 Listopad, 2006 - 13:34.  </div>
+
+  <div class="content">
+    <p>Je možné to provádět i pomocí modulu img_assist. Nejdříve se vlastně
+obrázek pošle do galerie a následně z img_assist se dá vložit do
+článku. Samozřejmě in-line je také velice elegantní řešení.</p>
+
+<p>Já ovšem stále hledám řešení, jak vkládat elegantně obrázky bez
+nutnosti je právě předem vložit do nějaký galerie (nodu). Upload modul
+sice funguje dobře, ale pokud vytvářím článek, tak dokud ho neodešlu,
+přiložené soubory se nezobrazují.</p>
+
+<p><a href="http://xdecin.net">XDěčín.net</a>, <a href="http://kecinzer.net">kecinzer.net</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1236" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1234"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1234" class="active"> Modul inline robi nieco</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 27 Listopad, 2006 - 09:40.  </div>
+
+  <div class="content">
+    <p>Modul inline robi nieco podobne ale obrazok je sucastou node. Do stranky sa
+da vlozit cez <code>[inline:poradovecisloprilohy]</code>.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1234" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1240"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1240" class="active">slideshow</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/mogdesign" title="Zobrazit profil uživatele.">mogdesign</a> dne 27 Listopad, 2006 - 15:58.  </div>
+
+  <div class="content">
+    <p>ahojte nefunguje mi slideshow na 4dultrazvuk.sk mate nejaky tip kde by mohol
+by problem? dik</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1240" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-1241"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1241" class="active">slideshow 2.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/mogdesign" title="Zobrazit profil uživatele.">mogdesign</a> dne 27 Listopad, 2006 - 16:00.  </div>
+
+  <div class="content">
+    <p>da sa slideshow vyradit? aby sa vobec nezobrazoval odkaz na slidewhow…</p>
+
+<p>dik</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1241" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1253"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1253" class="active"> Jistě, stačí vypnout</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a> dne 27 Listopad, 2006 - 22:37.  </div>
+
+  <div class="content">
+    <p>Jistě, stačí vypnout modul acidfree_slideshow nebo tak nějak :).</p>
+
+<p><a href="http://xdecin.net">XDěčín.net</a>, <a href="http://kecinzer.net">kecinzer.net</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1253" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1243"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1243" class="active">acidfree vs gallery2 &amp; acidfree a massimport</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/igorik" title="Zobrazit profil uživatele.">igorik</a> dne 27 Listopad, 2006 - 16:51.  </div>
+
+  <div class="content">
+    <p>No nazdar :)</p>
+
+<p>Acidfree je fajn, konieckoncov mame na nom na somvprahe.sk postavenu celu <a href="http://www.somvprahe.sk/acidfree">fotogaleriu</a> ale predsa len, po tom
+co si na druhom serveri skusobne testujem gallery2 tak sa to imho neda moc
+porovnavat.</p>
+
+<p>Odhliadnuc od vsetkych vychytavok a blbosticiek co gallery2 ma (efekty,
+import z picasy a ine), mi na acidfree vadi najviac toto: mass import.</p>
+
+<p>Ty v clanku pises ze to je ok, tak neviem ako to myslis, mam filemanager aj
+acidfree najnovsie verzie. a massimport tam podla mna nie je. Moznost naraz
+nahrat 5 obrazkov nie je ziadny mass import, a nahrat obrazky zo servera tiez
+nie je buhvico.</p>
+
+<p>Kedy konecne bude Acidfree podporovat mass import z lokalneho pocitaca?
+Chcem proste iba moznost vybrat si adresar na disku, a nech z neho Acidfree
+naimporti do galerie vsetky fotky. to je podla mna POUZITELNY mass import pre
+uzivatelov, a toto tam IMHO nie je.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1243" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1254"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1254" class="active"> Za mass import považuji</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a> dne 27 Listopad, 2006 - 22:41.  </div>
+
+  <div class="content">
+    <p>Za mass import považuji právě ono nahrání fotek do adresáře na FTP a
+následně jen zadaní jeho adresy a provedení importu. Nic jiného
+nepotřebuji, nechci aby na web mohl uploadovat fotky kdokoliv, to by vypadalo.
+I na komunitním webu provádím přidávání fotek sám. Takže musíš brát
+v potaz to co je pro mě dobré. Nesnažím se tvrdit, že je to nejlepší
+řešení.</p>
+
+<p><a href="http://xdecin.net">XDěčín.net</a>, <a href="http://kecinzer.net">kecinzer.net</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1254" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-7194"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-7194" class="active">jo…ael co když mám fotky</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 16 Říjen, 2007 - 19:43.  </div>
+
+  <div class="content">
+    <p>jo…ael co když mám fotky na ftp v adresáři, zadám mass import a
+importuje se mi jen necela polovian adresare????</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/7194" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-7196"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-7196" class="active">PHP ma casovy limit na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 16 Říjen, 2007 - 20:04.  </div>
+
+  <div class="content">
+    <p>PHP ma casovy limit na vykonavanie dlhsie beziacich skriptov – obycajne
+30 sec. a za ten cas nestihne spracovat vsetky fotky. Riesenie je bud predlzit
+limit (nastavenim php.ini vlastnosti – co moze urobit napr. webhoster) alebo
+importovat fotky po mensich davkach.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/7196" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><a id="comment-1244"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1244" class="active">a este nieco</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/igorik" title="Zobrazit profil uživatele.">igorik</a> dne 27 Listopad, 2006 - 16:59.  </div>
+
+  <div class="content">
+    <p>uz som z viac stran cital ako je super ze acidfree pracuje s obrazkami ako
+s nodmi a ako gallery2 nie je integrovany do drupalu…</p>
+
+<p>skus mi napisat konkretnu jednu vec kde by ti vadilo ze obrazky z galerie
+nie su nody. imho to je nejaky chaby argument uzivatelov acidfree proti
+gallery2… aspon ja som neprisiel na ziadnu vec, kde by mi vadilo ze gallery
+nema obrazky ako node. Aj ked ich nema ako node, aj tak ponuka vsetko to co
+ponuka Acidfree a este ovela viac. tiez si mozes vlozit nahlady na fotky
+z galerie do clankov, atd.</p>
+
+<p>proste keby som mal na somvprahe.sk moznost vypnut safe mode, tak davno tam
+mam gallery2. To odporucam vsetkym uzivatelom ktory chcu mat peknu galeriu na
+stranke.</p>
+
+<p>Teda,keby som teraz zacal menit acidfree na gallery, este by som musel zistit
+ako do gallery naimportit aktualne fotky a albumy ktore su vlozene v acidfree.
+Mate s tym niekto skusenosti?</p>
+
+<p>Acidfree je fajn, ale gallery je bomba :D</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1244" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1246"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1246" class="active"> Predpokladam, ze to byl</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 27 Listopad, 2006 - 19:22.  </div>
+
+  <div class="content">
+    <p>Predpokladam, ze to byl i challenge k tomu, ze o gallery2 ve spolupraci
+s Drupalem napisete clanek :-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1246" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1263"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1263" class="active"> Pokud se mu nebude chtít,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a> dne 28 Listopad, 2006 - 14:41.  </div>
+
+  <div class="content">
+    <p>Pokud se mu nebude chtít, já bych o ní klidně něco napsal, protože
+jsem se s instalací docela pral a rád bych moje zkušenosti
+předal dál.</p>
+
+<p><a href="http://xdecin.net">XDěčín.net</a>, <a href="http://kecinzer.net">kecinzer.net</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1263" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1255"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1255" class="active"> Souhlasím s tím, že</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a> dne 27 Listopad, 2006 - 22:47.  </div>
+
+  <div class="content">
+    <p>Souhlasím s tím, že gallery2 je bomba. Těch možností co nabízí je
+opravdu mnoho. Ale ne všichni uživatelé to prostě využijí. Navíc je tento
+systém dost náročný na server řekl bych, jen se stačí podívat na jeho
+strukturu databáze a samotný kod, jsou ho doslova megabyty. Integrace do
+Drupalu mi nepřijde úplně ideální. Funguje bez problémů to nepopírám,
+ovšem není to prostě ono. Sám momentálně tutu galerii na svém webu
+používám, ale chystám se přejít na acidfree. Mít jednotlivé obrázky
+jako jednotlivé nody má jednak výhodu v tom, že se dají fotky jednoduše
+komentovat (v gallery2 jsou samostatné komentáře) a hlavně jde o tu
+provázanost. Nemusím mít dvakrát uživatele v databázi atd.</p>
+
+<p>Sečteno podtrženo, pro toho kdo funkce gallery2 nevyužije, je pro něj
+tato galerie zbytečná (ve spojení s Drupalem).</p>
+
+<p><a href="http://xdecin.net">XDěčín.net</a>, <a href="http://kecinzer.net">kecinzer.net</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1255" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1245"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1245" class="active">kategorie</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kolja" title="Zobrazit profil uživatele.">kolja</a> dne 27 Listopad, 2006 - 18:13.  </div>
+
+  <div class="content">
+    <p>kecinzer: používám gallery2 už asi pět let, jsem na ni zvyklý, ale ze
+stejného důvodu ji neumím s ničím porovnat – v její integraci do
+Drupalu mi jen vadí, že na ni nemůžu aplikovat kategorie (modul
+category) – nevíš prosímtě, jestli se alba nebo obrázky dají
+v acidfree kategorizovat? Zmiňuješ se o tom, ale neporozuměl jsem tomu
+úplně. Když jsou to nody, tak ny to snad mělo jít.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1245" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1256"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1256" class="active"> Jistě že se dají</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a> dne 27 Listopad, 2006 - 22:49.  </div>
+
+  <div class="content">
+    <p>Jistě že se dají kategorizovat. Popisuji to i v článku. Může se
+vytvářet neomezené množství podkategorií. Tyto kategorie ovšem nejsou
+tvořeny pomcí termínů v taxonomy, ale jako nody, čili podobné modulu
+category.</p>
+
+<p><a href="http://xdecin.net">XDěčín.net</a>, <a href="http://kecinzer.net">kecinzer.net</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1256" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1247"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1247" class="active">Image_import</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/vera-vila" title="Zobrazit profil uživatele.">vera-vila</a> dne 27 Listopad, 2006 - 19:42.  </div>
+
+  <div class="content">
+    <p>Já nevím, ale já jsem s modulem image_import spokojená a nic
+těžkopádného mi na tom nepřipadá… Snad akorát to, že je třeba prvně
+přes FTP nahrát soubory do import-adresáře, a případně si pak ty fotky
+přejmenovat… Ale to se dá ošetřit přes txt soubor.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1247" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1257"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1257" class="active"> Mně verze pro Drupal</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a> dne 27 Listopad, 2006 - 22:51.  </div>
+
+  <div class="content">
+    <p>Mně verze pro Drupal 4.7 pořádně nefungovala. Když jsem přecházel,
+tak neexistovala použitelná. Navíc se mi stávalo, že mi mizely náhledy
+z galerie a místo nich se mi zobrazovaly velké fotky.</p>
+
+<p><a href="http://xdecin.net">XDěčín.net</a>, <a href="http://kecinzer.net">kecinzer.net</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1257" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-1248"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1248" class="active">jak na nejnovější obrázky?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/farey" title="Zobrazit profil uživatele.">farey</a> dne 27 Listopad, 2006 - 19:46.  </div>
+
+  <div class="content">
+    <p>existuje nějaká možnost jak zobrazit nejnvější obrázky z acidfree
+galerií na hlavní stránce v bloku? něco jako poslední obrázky
+z klasických image galleries?</p>
+
+<p><a href="http://www.farey.cz/" title="Zelená vopice - Wii, PS3, Xbox 360, PC hry">Wii, PS3, Xbox 360, PC
+hry</a> | <a href="http://www.hybrid.cz/" title="elektromobily, hybrid, palivové články, alternativní paliva">Hybrid</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1248" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1251"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1251" class="active">acidfree na to ma samostatne bloky</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/igorik" title="Zobrazit profil uživatele.">igorik</a> dne 27 Listopad, 2006 - 20:45.  </div>
+
+  <div class="content">
+    <p>ak mas acidfree tak chod do administer/block a pribudli ti tam 3 bloky,
+najnovsie obrazky, nahodne obrazky a este jeden. u kazdeho si mozes nastavit
+kolko nahladov fotiek sa ma v bloku zobrazovat.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1251" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-1262"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1262" class="active"> aha, uz sem to nasel,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/farey" title="Zobrazit profil uživatele.">farey</a> dne 28 Listopad, 2006 - 10:41.  </div>
+
+  <div class="content">
+    <p>aha, uz sem to nasel, diky!</p>
+
+<p><a href="http://www.farey.cz/" title="Zelená vopice - Wii, PS3, Xbox 360, PC hry">Wii, PS3, Xbox 360, PC
+hry</a> | <a href="http://www.hybrid.cz/" title="elektromobily, hybrid, palivové články, alternativní paliva">Hybrid</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1262" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-1414"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-1414" class="active">Vkládání obráků do článku</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Radek (bez ověření) dne 15 Prosinec, 2006 - 09:42.  </div>
+
+  <div class="content">
+    <p>Chtěl sem se zeptat. Má někdo ověřený způsob, jak vkládat obrázky do
+článku tak aby obrázky tvořily „samostatnou“ galerii z které by se
+dalo vrátit zpět na článek z jakéhokoliv obrázku? Ja jsem zatím použil
+knihu. Skryl sem na konci knihy odkazy na jednotlivé strany. Takže mě zbyl
+jen odkaz na další stranu a na první. Při začlenění obrázku jako stran
+je to dobrá věc. Ale později jsem potřeboval udělat další knihu kde by
+byli odkazy na další strany. Takže teď řeším problém jak co
+upravit. Diky</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/1414" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-2036"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-2036" class="active">zobrazení importu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Michal (bez ověření) dne 21 Leden, 2007 - 19:05.  </div>
+
+  <div class="content">
+    <p>Dobrý den. Na menu používám taxonomy menu a jako galerii Acidfree. Asi to
+bude zcela triviální dotaz, ale… Pokud vkládám obrázky do nějaké
+galerie pomocí mass import, obrázky se sice vloží bezchybně, ale stejně
+tak se zobrazí i mimo galerii jako aktuality (což dosti znepřehledňuje)
+stejně jako je tomu i u stránek.. Jediným řešením,které sem zatím
+udělal je,že sem v možnostech vydání galerie dal přilepit galerii na
+začátek stránky.</p>
+
+<p><b>Př.:</b> Menu: Domů<br />
+Tvorba<br />
+Galerie → Makro<br />
+Škola Letadlo<br />
+Vše</p>
+
+<p>Chtěl bych, aby se galerie nebo fotky například z Makro zobrazovaly pouze
+v této položce (v případě galerie jen jako složka galerie) a nebyly
+vyvěšeny v Galerie a Makro jako aktuality. Snad sem to nenapsal moc
+složitě ;-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/2036" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-3816"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-3816" class="active"> No, ja podobny problem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel standa.e (bez ověření) dne 1 Květen, 2007 - 11:11.  </div>
+
+  <div class="content">
+    <p>No, ja podobny problem resil i s prvni strankou. Tam jsem to udelal tak, ze
+jsem ve vychozich parametrech pro typ souboru Image odfajfkoval zobrazovani na
+prvni strance, takze pokud to u daneho obrazku nepovolim pri vkladani,
+zobrazuji se mi jednotive az v te galerii… Ale souhlasim, ze tahle vlastnost
+mne u Drupalu+AcidFree docela stve.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/3816" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-2175"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-2175" class="active">zelenáč</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/pavla" title="Zobrazit profil uživatele.">Pavla</a> dne 29 Leden, 2007 - 19:03.  </div>
+
+  <div class="content">
+    <p>Chtěla jsem se zeptat, co vše potřebuji, aby mi fungovalo vkládání
+fotek přes Acidfree. Netuším jsem začátečnák… Díky moc.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/2175" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-2988"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-2988" class="active">Nezobrazí se v administraci...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/doxxik" title="Zobrazit profil uživatele.">Doxxik</a> dne 13 Březen, 2007 - 21:29.  </div>
+
+  <div class="content">
+    <p>…mám (snad) Drupal v 5.1, ale v Administraci se mi nezobrazí možnost
+nainstalovat tento modul… prostě tam není… (snad jsem si stáhnul, co jsem
+měl… dali byste link,pls?)</p>
+
+<p>heh</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/2988" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-4463"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-4463" class="active">Tady se píše že musim</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://dee-jay.cz" rel="nofollow">carollac</a> (bez ověření) dne 13 Červen, 2007 - 11:03.  </div>
+
+  <div class="content">
+    <p>Tady se píše že musim mít pro správnou funkčnost nainstalovaný
+filemanager. Ale kde ho mám vzít když pro verzi drupalu 5 jsem ho nikde
+nenašel? Pak mám ještě jeden problem hlavní menu nastavení acidu mám na
+z 10procent česky a zbytek anglicky!</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/4463" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-4616"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-4616" class="active">Článěk je psaný pro</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a> dne 4 Červenec, 2007 - 09:13.  </div>
+
+  <div class="content">
+    <p>Článěk je psaný pro verzi 4.7. Verze 5 je samo trochu jiná. Na
+překladu pracuji.</p>
+
+<p><a href="http://xdecin.net">XDěčín.net</a>, <a href="http://kecinzer.net">kecinzer.net</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/4616" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-4694"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-4694" class="active">Category module vs acidfree</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel clavius (bez ověření) dne 13 Červenec, 2007 - 09:05.  </div>
+
+  <div class="content">
+    <p>zdravim …mam taku otazocku na keczinzera, alebo vlastne aj na ostatnych,
+mozno by mi vedeli poradit …</p>
+
+<p>mam nainstalovany modul Category a vsetko co s nim suvisi a takisto aj
+Acidfree gallery ..... uz som si vytvoril nejaku tu kategoriu obsahu, ale ked
+chcem vytvorit album cez AcidFree, tak mi to vypise taku haluz ze: „Zistená
+neplatná voľba. Kontaktujte administrátora we­bu.“</p>
+
+<p>takato vec sa mi este nestala pri predoslych strankach kde som kategorie
+nepouzival … a takisto ako do sucasnej stranky aj do tych predoslych som
+AcidFree modul aj so vsetkym potrebnym instaloval rovnako …</p>
+
+<p>takze teraz neviem ci ja nemam nieco zle nastavene, alebo ci si Category
+module nerozumie s acidFree …</p>
+
+<p>vedel by niekto co by s tym mohlo byt? …</p>
+
+<p>zatial to skusam na takej haluz stranke kde nema byt ziadny konkretny obsah
+…je to kvazi len testovacia stranka <a href="http://cms.nic.sk">http://cms.nic.sk</a> …kuknite si to a ak by mi
+niekto chcel poradit, tak potom cez moj mail <a href="/cdn-cgi/l/email-protection#ea908b8083898f9daa8b908f9ec49981">zajicew&#64;azet.sk</a> by som mu mohol
+poslat pristupove udaje …</p>
+
+<p>diki moc</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/4694" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-4701"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-4701" class="active">Modul Category je bohužel</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kolja" title="Zobrazit profil uživatele.">kolja</a> dne 13 Červenec, 2007 - 19:51.  </div>
+
+  <div class="content">
+    <p>Modul Category je bohužel v pětce rozhašený, zlobí s Acidfree, Simple
+news a i s Fórem – donutilo mě to vrátit se ke klasické Taxonomy,
+ačkoli jsem byl od Category značně rozmazlenej…</p>
+
+<p>Sleduju to trochu, dlouho žádná náprava, teprve v těchto dnech to
+vypadá na průlom, Jiří Bernášek poslal na drupal.org několik oprav,
+které zdá se zabírají, řádí tam jak ďas! :O) – ale Acidfree mezi
+nimi není.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/4701" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-4703"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-4703" class="active">Jaké problémy dělá category?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/roman" title="Zobrazit profil uživatele.">roman</a> dne 13 Červenec, 2007 - 21:14.  </div>
+
+  <div class="content">
+    <p>Jaké problémy dělal ten modul category? Chceme se do něj teď v jednom
+projektu pustit, bude tam i fórum a další jiné věci. Už kdysi jsem někde
+četl a slyšel, že ten modul dělá problémy. Ale co konkrétně? Mám za to,
+že všechno jde vyřešit, ale pokud by to řešení mělo stát „větší
+než přijatelné množství“… úsilí, tak by stálo zato 2× měřit a
+potom řezat.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/4703" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-9782"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-9782" class="active">Práva</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.honzin.info" rel="nofollow">Honzin</a> (bez ověření) dne 25 Leden, 2008 - 19:12.  </div>
+
+  <div class="content">
+    <p>Dobrý den,</p>
+
+<p>chtěl bych se zeptat jestli tento modul umožňuje udělování práv
+uživatelům abych mohl omezit které fotky kdo uvidí.</p>
+
+<p>Díky</p>
+
+<p>Honzin</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/9782" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-9783"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-9783" class="active">Nebo jestli by jste měl</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/honzin" title="Zobrazit profil uživatele.">Honzin</a> dne 25 Leden, 2008 - 19:17.  </div>
+
+  <div class="content">
+    <p>Nebo jestli by jste měl někdo nějakou jinou galerii ve které by to šlo
+udělat? :-) Popř. kdyby to bylo česky tak bych se nezlobil ;-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/9783" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-9808"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-9808" class="active">Protože v Acidfree jsou</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/kolja" title="Zobrazit profil uživatele.">kolja</a> dne 27 Leden, 2008 - 03:38.  </div>
+
+  <div class="content">
+    <p>Protože v Acidfree jsou obrázky i alba nody, lze je kategorizovat, a pak
+pomocí taxonomy access povolovat přístup různým rolím. Bude asi
+přehlednější, když se budou kategorizovat jen alba, ale možné jsou
+samozřejmě i jednotlivé obrázky, záleží, co chceš.</p>
+
+<p>Gallery2 má teď líp propojené uživatele i role, ale protože její alba
+nejsou nody, nedají se kategorizovat a přístup se musí nastavit v gallery.
+Má trochu jiné rozhraní, ale v podstatě to jde, jak pro alba, tak pro
+jednotlivé obrázky, náhledy, komentáře či hodnocení.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/9808" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10500"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-10500" class="active">Vkládání obrázků</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.ltm-racing.cz/site/" rel="nofollow">mraki</a> (bez ověření) dne 24 Únor, 2008 - 12:19.  </div>
+
+  <div class="content">
+    <p>Dobrý den, jsem v Drupalu věčný začátečník, ale mám taky věčný
+problém. Když vkládám do článku obrázky, tak mě moc mrzí, že nejde
+ošetřit, aby je NEobtékal text… Například napíšu odstavec, pod ten chci
+dát 4 thumbnaily pro ilustraci obsahu k tomu odstavci a když píšu další
+odstavec, tak jeho text obtéká poslední vložený thumbnail.. Alighn mám
+left… Když dám Center, tak to ty obrázky narovná pod sebe a mezera mezi
+textem je zase moc veliká… Zkoušel jsem zadávat path thumnailu rovnou
+z galerie, ale moc mi to nefungovalo… tagy pro zalomení textu to vůbec
+neregistruje… Obvykle to řeším tak, že dám fotky až na konec článku,
+ale to nevypadá moc atraktivně… Mám modul gallery + image assist atd… Kde
+může být problém? V prackách? :-)</p>
+
+<p>taky mě nebaví vkládat obrázky jeden po druhým… Co hromadný plnění
+galerie?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/10500" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-12044"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/clanky/moduly/acidfree-galerie#comment-12044" class="active">Nahrál jsem si gallery2 a</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/dandy" title="Zobrazit profil uživatele.">Dandy</a> dne 14 Květen, 2008 - 10:20.  </div>
+
+  <div class="content">
+    <p>Nahrál jsem si gallery2 a potřeboval bych, abych u uživatelů odstranil
+na albech změnit oprávnění.. aby to mohl vidět pouze admin.. jelikož se mi
+nedaří přesně nastavit práva, aby uživatel mohl mazat a upravovat svoje
+alba a fotografie a ne i cizí. Něco jak je třeba na libimseti… každý
+uživatel má svoje album, do kterého může vkládat fotografie…neporadí
+někdo, jak to nejlépe provést?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/390/12044" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/390"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-a7881c375fb2a51b566ee1cb740042da" value="form-a7881c375fb2a51b566ee1cb740042da"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script><script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/clanky/moduly/acidfree-galerie?destination=node%2F390"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-382c04ee7b5c43aeb36c7611ecc39e98" value="form-382c04ee7b5c43aeb36c7611ecc39e98"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/online-trading" class="tagadelic level1">online trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views" title="2 komentáře">Jak vyhledávat v poli soubor (multiupload) - VIEWS</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 6 hod 53 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 1 den 21 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 2 dny 20 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 27 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 1 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 5 dnů 19 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 5 dnů 23 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 15 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>1 host</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":872,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

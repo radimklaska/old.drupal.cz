@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>kafik&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/kafik</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Vyplatí se přechod na Drupal5?</title>
+ <link>https://www.drupal.cz/blog/kafik/vyplati-se-prechod-na-drupal5</link>
+ <description>&lt;p&gt;Mám strašné starosti s přechodem na drupal 5. tak dlouho mi to firma
+slibuje, až už je na světě drupal 6. Má ještě smysl přecházet na
+předchozí verzi?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kafik/vyplati-se-prechod-na-drupal5#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2234</wfw:commentRss>
+ <pubDate>Thu, 03 Jan 2008 23:48:08 +0000</pubDate>
+ <dc:creator>kafik</dc:creator>
+ <guid isPermaLink="false">2234 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Dominika Jiříková&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/ceska-televize</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Česká televize hledá PROGRAMÁTORA</title>
+ <link>https://www.drupal.cz/blog/dominika-jirikova/ceska-televize-hleda-programatora</link>
+ <description>&lt;p&gt;Požadovaný profil:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;SŠ vzdělání ukončené maturitou&lt;/li&gt;
+
+	&lt;li&gt;Velmi dobrá znalost Drupal, OOP PHP, MySQL, HTML, CSS, JavaScript&lt;/li&gt;
+
+	&lt;li&gt;Výhodou zkušenosti s implementací CMS Drupal pro velké projekty,
+	zkušenosti s tvorbou responzivních webů, znalost Zend Framework, jQuery, Ext
+	JS,Linux&lt;/li&gt;
+
+	&lt;li&gt;Znalost AJ minimálně na úrovni porozumění a zápisu technické
+	dokumentace&lt;/li&gt;
+
+	&lt;li&gt;Praxe v oboru minimálně 2 roky.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/dominika-jirikova/ceska-televize-hleda-programatora&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/dominika-jirikova/ceska-televize-hleda-programatora#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/41711</wfw:commentRss>
+ <pubDate>Tue, 11 Nov 2014 11:38:23 +0000</pubDate>
+ <dc:creator>Dominika Jiříková</dc:creator>
+ <guid isPermaLink="false">41711 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

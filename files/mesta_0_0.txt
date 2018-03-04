@@ -1,0 +1,594 @@
+Abertamy
+Adamov
+Andìlská Hora
+Aš
+Bakov nad Jizerou
+Bavorov
+Beèov nad Teplou
+Bechynì
+Bìlá nad Radbuzou
+Bìlá pod Bezdìzem
+Benátky nad Jizerou
+Benešov
+Benešov nad Plouènicí
+Beroun
+Bezdruice
+Bílina
+Bílovec
+Blansko
+Blatná
+Blovice
+Blšany
+Bohumín
+Bohušovice nad Ohøí
+Bochov
+Bojkovice
+Bor
+Borohrádek
+Borovany
+Boskovice
+Boí Dar
+Brandıs nad Labem-Stará Boleslav
+Brandıs nad Orlicí
+Brno
+Broumov
+Brtnice
+Brumov-Bylnice
+Bruntál
+Brušperk
+Bøeclav
+Bøeznice
+Bøezová
+Bøezová nad Svitavou
+Bøidlièná
+Buèovice
+Budišov nad Budišovkou
+Budynì nad Ohøí
+Buštìhrad
+Bystré
+Bystøice
+Bystøice nad Pernštejnem
+Bystøice pod Hostınem
+Bzenec
+Cvikov
+Èáslav
+Èelákovice
+Èernošice
+Èernošín
+Èernovice
+Èervená Øeèice
+Èervenı Kostelec
+Èeská Kamenice
+Èeská Lípa
+Èeská Skalice
+Èeská Tøebová
+Èeské Budìjovice
+Èeské Velenice
+Èeskı Brod
+Èeskı Dub
+Èeskı Krumlov
+Èeskı Tìšín
+Daèice
+Dašice
+Dìèín
+Desná
+Deštná
+Dobrovice
+Dobruška
+Dobøany
+Dobøichovice
+Dobøíš
+Doksy
+Dolní Benešov
+Dolní Bousov
+Dolní Kounice
+Dolní Poustevna
+Domalice
+Dubá
+Dubí
+Dubòany
+Duchcov
+Dvùr Králové nad Labem
+Františkovy Láznì
+Frenštát pod Radhoštìm
+Frıdek-Místek
+Frıdlant
+Frıdlant nad Ostravicí
+Fryšták
+Fulnek
+Golèùv Jeníkov
+Habartov
+Habry
+Hanušovice
+Harrachov
+Hartmanice
+Havíøov
+Havlíèkùv Brod
+Hejnice
+Heømanùv Mìstec
+Hlinsko
+Hluboká nad Vltavou
+Hluèín
+Hluk
+Hodkovice nad Mohelkou
+Hodonín
+Holešov
+Holice
+Holıšov
+Hora Svaté Kateøiny
+Horaïovice
+Horní Benešov
+Horní Blatná
+Horní Bøíza
+Horní Cerekev
+Horní Jelení
+Horní Jiøetín
+Horní Planá
+Horní Slavkov
+Horšovskı Tın
+Hoøice
+Hoøovice
+Hostinné
+Hostivice
+Hostomice
+Hostouò
+Hoštka
+Hradec Králové
+Hradec nad Moravicí
+Hrádek
+Hrádek nad Nisou
+Hranice (okres Cheb)
+Hranice (okres Pøerov)
+Hrob
+Hronov
+Hrotovice
+Hroznìtín
+Hrušovany nad Jevišovkou
+Hulín
+Humpolec
+Husinec
+Hustopeèe
+Chabaøovice
+Cheb
+Chlumec nad Cidlinou
+Choceò
+Chodov
+Chomutov
+Chotìboø
+Chrast
+Chrastava
+Chropynì
+Chrudim
+Chøibská
+Chvaletice
+Chınov
+Chyše
+Ivanèice
+Ivanovice na Hané
+Jablonec nad Jizerou
+Jablonec nad Nisou
+Jablonné nad Orlicí
+Jablonné v Podještìdí
+Jablunkov
+Jáchymov
+Janov
+Janovice nad Úhlavou
+Janské Láznì
+Jaromìø
+Jaromìøice nad Rokytnou
+Javorník
+Jemnice
+Jesenice
+Jeseník
+Jevíèko
+Jevišovice
+Jièín
+Jihlava
+Jilemnice
+Jílové
+Jílové u Prahy
+Jindøichùv Hradec
+Jirkov
+Jiøíkov
+Kadaò
+Kamenice nad Lipou
+Kamenickı Šenov
+Kaplice
+Kardašova Øeèice
+Karlovy Vary
+Karolinka
+Karviná
+Kasejovice
+Kašperské Hory
+Kaznìjov
+Kdynì
+Kelè
+Kladno
+Kladruby
+Klášterec nad Ohøí
+Klatovy
+Klecany
+Klimkovice
+Klobouky u Brna
+Kojetín
+Kolín
+Konice
+Kopidlno
+Kopøivnice
+Koryèany
+Kosmonosy
+Kostelec na Hané
+Kostelec nad Èernımi lesy
+Kostelec nad Labem
+Kostelec nad Orlicí
+Košany
+Kouøim
+Kolany
+Králíky
+Kralovice
+Kralupy nad Vltavou
+Králùv Dvùr
+Kraslice
+Krásná Lípa
+Krásno
+Kravaøe
+Krnov
+Kromìøí
+Krupka
+Kryry
+Kunovice
+Kunštát
+Kuøim
+Kutná Hora
+Kyjov
+Kynšperk nad Ohøí
+Lanškroun
+Lanhot
+Láznì Bìlohrad
+Láznì Bohdaneè
+Láznì Kynvart
+Ledeè nad Sázavou
+Ledvice
+Letohrad
+Letovice
+Libáò
+Libèice nad Vltavou
+Libìchov
+Liberec
+Libochovice
+Libušín
+Lipník nad Beèvou
+Lišov
+Litomìøice
+Litomyšl
+Litovel
+Litvínov
+Loket
+Lom
+Lomnice nad Lunicí
+Lomnice nad Popelkou
+Loštice
+Louèná pod Klínovcem
+Louny
+Lovosice
+Luby
+Luèany nad Nisou
+Luhaèovice
+Lue
+Lysá nad Labem
+Manìtín
+Mariánské Láznì
+Mašov
+Mìèín
+Mìlník
+Mìstec Králové
+Mìsto Albrechtice
+Mìsto Touškov
+Meziboøí
+Mezimìstí
+Mikulášovice
+Mikulov
+Miletín
+Milevsko
+Milovice
+Mimoò
+Miroslav
+Mirošov
+Mirotice
+Mirovice
+Mladá Boleslav
+Mladá Voice
+Mnichovice
+Mnichovo Hradištì
+Mníšek pod Brdy
+Modøice
+Mohelnice
+Moravská Tøebová
+Moravské Budìjovice
+Moravskı Beroun
+Moravskı Krumlov
+Morkovice-Slíany
+Most
+Mšeno
+Mıto
+Náchod
+Nalovské Hory
+Námìš nad Oslavou
+Napajedla
+Nasavrky
+Nechanice
+Nejdek
+Nìmèice nad Hanou
+Nepomuk
+Neratovice
+Netolice
+Neveklov
+Nová Bystøice
+Nová Paka
+Nová Role
+Nová Vèelnice
+Nové Hrady
+Nové Mìsto na Moravì
+Nové Mìsto nad Metují
+Nové Mìsto pod Smrkem
+Nové Sedlo
+Nové Strašecí
+Novı Bor
+Novı Bydov
+Novı Jièín
+Novı Knín
+Nymburk
+Nırsko
+Nıøany
+Odolena Voda
+Odry
+Olešnice
+Olomouc
+Oloví
+Opava
+Opoèno
+Orlová
+Oseèná
+Osek
+Oslavany
+Ostrava
+Ostrov
+Otrokovice
+Pacov
+Pardubice
+Pec pod Snìkou
+Peèky
+Pelhøimov
+Petøvald
+Pilníkov
+Písek
+Planá
+Planá nad Lunicí
+Plánice
+Plasy
+Plesná
+Plumlov
+Plzeò
+Pobìovice
+Poèátky
+Podboøany
+Podìbrady
+Podivín
+Pohoøelice
+Police nad Metují
+Polièka
+Polná
+Postoloprty
+Potštát
+Praha
+Prachatice
+Prostìjov
+Protivín
+Pøebuz
+Pøelouè
+Pøerov
+Pøeštice
+Pøíbor
+Pøíbram
+Pøibyslav
+Pøimda
+Pyšely
+Rabí
+Radnice
+Rájec-Jestøebí
+Rajhrad
+Rakovník
+Ralsko
+Raspenava
+Rejštejn
+Rokycany
+Rokytnice nad Jizerou
+Rokytnice v Orlickıch horách
+Ronov nad Doubravou
+Rosice
+Rotava
+Roudnice nad Labem
+Rousínov
+Rovensko pod Troskami
+Roztoky
+Romberk nad Vltavou
+Roïalovice
+Romitál pod Tøemšínem
+Ronov pod Radhoštìm
+Rtynì v Podkrkonoší
+Rudná
+Rudolfov
+Rumburk
+Rychnov nad Knìnou
+Rychnov u Jablonce nad Nisou
+Rychvald
+Rımaøov
+Øevnice
+Øíèany
+Sadská
+Sázava
+Seè
+Sedlèany
+Sedlec-Prèice
+Sedlice
+Semily
+Sezemice
+Sezimovo Ústí
+Skalná
+Skuteè
+Slanı
+Slatiòany
+Slavièín
+Slavkov u Brna
+Slavonice
+Slušovice
+Smeèno
+Smiøice
+Smrovka
+Sobìslav
+Sobotka
+Sokolov
+Solnice
+Spálené Poøíèí
+Staòkov
+Staré Mìsto (okres Šumperk)
+Staré Mìsto (okres Uherské Hradištì)
+Stárkov
+Starı Plzenec
+Stod
+Stochov
+Strakonice
+Strá nad Neárkou
+Strá pod Ralskem
+Stránice
+Stráov
+Strmilov
+Støíbro
+Studénka
+Suchdol nad Lunicí
+Sušice
+Svìtlá nad Sázavou
+Svitavy
+Svoboda nad Úpou
+Svratka
+Šenov
+Šlapanice
+Šluknov
+Špindlerùv Mlın
+Šternberk
+Štìtí
+Štíty
+Štramberk
+Šumperk
+Švihov
+Tábor
+Tachov
+Tanvald
+Telè
+Teplá
+Teplice
+Teplice nad Metují
+Terezín
+Tišnov
+Touim
+Tovaèov
+Trhové Sviny
+Trhovı Štìpánov
+Trmice
+Trutnov
+Tøebechovice pod Orebem
+Tøebenice
+Tøebíè
+Tøeboò
+Tøemošná
+Tøemošnice
+Tøeš
+Tøinec
+Turnov
+Tın nad Vltavou
+Tınec nad Labem
+Tınec nad Sázavou
+Tıništì nad Orlicí
+Uherské Hradištì
+Uherskı Brod
+Uherskı Ostroh
+Uhlíøské Janovice
+Unhoš
+Unièov
+Újezd u Brna
+Úpice
+Úsov
+Ústí nad Labem
+Ústí nad Orlicí
+Úštìk
+Úterı
+Úvaly
+Valašské Klobouky
+Valašské Meziøíèí
+Valtice
+Vamberk
+Varnsdorf
+Vejprty
+Velešín
+Velká Bíteš
+Velká Bystøice
+Velké Bílovice
+Velké Hamry
+Velké Meziøíèí
+Velké Opatovice
+Velké Pavlovice
+Velkı Šenov
+Veltrusy
+Velvary
+Verneøice
+Veselí nad Lunicí
+Veselí nad Moravou
+Vidnava
+Vimperk
+Vítkov
+Vizovice
+Vlachovo Bøezí
+Vlašim
+Vodòany
+Volary
+Volynì
+Votice
+Vracov
+Vratimov
+Vrbno pod Pradìdem
+Vrchlabí
+Vroutek
+Vsetín
+Vısluní
+Vysoké Mıto
+Vysoké nad Jizerou
+Vysoké Veselí
+Vyškov
+Vyšší Brod
+Zábøeh
+Zákupy
+Zásmuky
+Zbiroh
+Zbıšov
+Zdice
+Zlaté Hory
+Zlín
+Zliv
+Znojmo
+Zruè nad Sázavou
+Zubøí
+acléø
+amberk
+andov
+atec
+dánice
+ïár nad Sázavou
+dírec nad Doubravou
+ebrák
+elezná Ruda
+eleznice
+eleznı Brod
+idlochovice
+irovnice
+lutice
+ulová

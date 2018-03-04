@@ -1,0 +1,860 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Proč byste měli používat Drupal, třeba pro svůj eshop&quot;" href="/crss/node/18301" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Proč byste měli používat Drupal, třeba pro svůj eshop | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_89f0b64afb4ba47f586bd984f765f0a7.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a></div>        <h2 class="title">Proč byste měli používat Drupal, třeba pro svůj eshop</h2>
+        <div class="tabs"></div>
+                    <div class="article  article-18301">
+    <span class="submitted">Vložil/a <a href="/user/bobik" title="Zobrazit profil uživatele.">Honza Pobořil</a>, 22 Březen, 2013 - 11:57</span>
+    <div class="pcontent"><p><span>V tomto článku bych rád upozornil na temná zákoutí
+proprietárních řešení pro eshop a vyzdvihnul použití open source
+platformy, kterou používají statisíce profesionálů na velké spoustě
+často i vysoce exponovaných projektů. Budu zde obhajovat použití Drupalu,
+ale tyto argumenty se dají vztáhnout i na jiné celosvětově úspěšné
+profesionální platformy.</span></p>
+
+<h3><span>Bezpečnost</span></h3>
+
+<p><span>Bezpečnost je tradiční problém closed source řešení. Málokdy
+totiž vývojáři takových řešení poskytnou kód a dokumentaci cizímu
+odborníkovi k hloubkové analýze. Více hlav více ví a je tak větší
+pravděpodobnost, že výsledná aplikace bude bezpečná a nebude obsahovat
+více chyb než je zdrávo. (Zdravím Jirku Warmuze z <a href="http://www.webmex.cz/">Webmexu</a>, který měl koule to <a href="http://blog.webmex.cz/shrnuti-poslednich-2-mesicu-a-co-bude-nasledovat/">veřejně
+přiznat</a>.) Existují sice nezávislé certifikace, ale kdo to má? Je
+potřeba podotknout, že to nejsou žádné nepodstatné drobnosti
+umožňující „jen“ znefunkčnění aplikace, ale díry umožňující
+únik citlivých dat, manipulaci s objednávkami (třeba objednávat zadarmo,
+mazat objednávky, …) a to může přijít hodně draho. Tím nemám na mysli
+jen mastné pokuty od ÚOOÚ, ale i poškozená pověst, která se velmi
+špatně napravuje. Říkáte si, že na cílený útok jste moc malí a
+nepodstatní? Tak to je dobré si uvědomit, že drtivá většina útoků je
+prováděná automaty, kde člověk nastoupí až po
+objevení díry.</span></p>
+
+<p><span>Open source systémy jsou oproti proprietárním ze svého principu ve
+výhodě, protože hledat a opravovat chyby může každý, komu na tom
+záleží. Pokud je v komunitě kolem daného systému dostatečné množství
+odborníků, tak se to opravdu děje. Takové komunity ale nevznikají kolem
+všeho, je potřeba aby byl daný projekt dostatečně atraktivní pro kvalitní
+vývojáře. Komu by se chtělo věnovat zdarma svůj čas projektu, který je
+v základu zmetek? Lépe na tom jsou projekty, které jsou nejen kvalitně
+navržené a napsané, ale jsou i univerzální. Komunita se tak netříští
+kolem CMS pro eshop, CMS pro blogy a CMS pro fotogalerie, ale spojí síly pro
+jeden univerzální CMS (viz. sekce o univerzálnosti). Kvalitní vývojáří
+půjdou tam, kde jejich práce bude mít větší efekt.</span></p>
+
+<p><span>Asi ale nejsilnějším efektem, který má vliv na bezpečnost je
+modularita. Většina open source specializovaných řešení není
+nebezpečných přímo proto, že by komunita pozdě opravovala zranitelnosti,
+ale proto, že uživatelé neinstalují záplaty včas nebo je neinstalují
+vůbec. Crackerům pak stačí sledovat changelogy a využívat chyby, které
+byly v nových verzích opravené. Proč ale lidé záplaty neinstalují?
+Nejčastěji to je kvůli úpravám, které si do systému přidali a nechtějí
+věnovat prostředky na přepisování svých modifikací pro každou novou
+verzi. Modularita toto řeší jednoduchým principem: Pokud potřebujete
+systém nějak vylepšit nebo upravit jeho chování, stačí jen napsat svůj
+modul a jádro s ostatními moduly můžete aktualizovat bez
+práce navíc.</span></p>
+
+<p><span>Drupal pomáhá řešit všechny tyto problémy. Komunita čítá
+tisíce vývojářů, často profesionálů se zkušenostmi z <a href="http://www.drupalshowcase.com/">prestižních projektů</a> pro
+nadnárodní firmy. <a href="https://drupal.org/security-team">Drupal Security
+Team</a> aktivně vyhledává zranitelnosti nejen v jádru ale
+i v minoritních modulech s několika desítkami stažení (vlastní
+zkušenost :-)). Díky své modularitě a univerzálnosti byl vyzkoušen na
+projektech všech velikostí, komplexnosti i typech zákazníků.
+Aktualizační proces je zjednodušen jak to jen jde, pomocí nástroje drush
+dokonce můžete aktualizovat jedním příkazem do konzole. Osobně mi není
+znám jediný případ hacknutí Drupalu, ale nevylučuji, že se to u špatně
+spravovaných instalací stává (hlavně hack samotného serveru, vyzrazení
+hesel přes spyware a podobně). Samozřejmě tedy je potřeba dbát na
+bezpečnost webserveru, všech přihlašovacích údajů a také konfigurace
+(abyste například nedali nějaké nebezpečné oprávnění cizím
+uživatelům).</span></p>
+
+<h3><span>Customizace</span></h3>
+
+<p><span>Možnosti konfigurace vyplývají z modulární architektury a vysoké
+míry abstrakce, kdy má programátor možnost zasáhnout snad do jakéhokoliv
+procesu v Drupalu jen obyčejným modulem. </span></p>
+
+<p><span>Hotové moduly sdílené a udržované komunitou pokrývají snad
+všechny běžné případy užití, kde modul plní většinou jen abstraktní
+úkoly, ne konkrétní uživatelskou funkcionalitu. To znamená například, že
+neexistuje modul pro fotoalbum, ale že si tuto funkcionalitu musíte poskládat
+z modulů např. pro správu souborů v poli entit, pro rozšíření
+filefield o práci s obrázky, nějaký modul pro komfortnější nahrávání
+obrázků, nastavit deriváty pro generování náhledů, naklikat pohledy na
+data včetně slideshow a podobně. Pro tyto typické případy ale existují
+tzv. features, což je speciální druh modulu, který nese konfiguraci pro
+jiné moduly, nějakou fíčuru pro typické fotoalbum tedy asi
+najdete.</span></p>
+
+<p><span>Velmi silnou schopností Drupalu je jeho uživatelské rozhraní, kde
+se dá naklikat i velmi komplexní chování, včetně libovolných výpisů
+dat, pravidel reagujících na různé události a importu a exportu dat
+v jakémkoliv formátu. </span></p>
+
+<p><span>Celý <a href="http://www.drupalcommerce.org/">Drupal Commerce</a>
+(ekosystém modulů pro eshopy) je založen na univerzálních entitách, tedy
+je možné je zobrazovat, vypisovat nebo naklikat business logiku pomocí
+standardních nástrojů Drupalu. Například je možné reagovat na událost
+„Line item price is being calculated“ a naklikat jakkoliv složitou logiku
+slevy včetně „každé třetí balení zdarma“, „sleva X % na produkt A,
+pokud je v košíku i produkt B“, „sleva X % na skupinu produktů, pokud
+zákazník za poslední měsíc nakoupil za minimálně X peněz“.</span></p>
+
+<p><span>Na současném trhu je v podstatě nutností ladit design celé
+aplikace a tak přijde vhod, pokud budete moci na základě analýzy
+použitelnosti (zdravím kamaráda <a href="http://www.kvasnickajan.cz/">Honzu
+Kvasničku</a> :-)) pohodlně měnit konkrétní detaily uživatelského
+rozhraní. V těchto situacích nejčastěji využijete Drupalových <a href="https://api.drupal.org/api/drupal/includes!theme.inc/function/theme/7">theme
+hooks</a>, kde můžete svým tématem vzhledu (theme) přetížit konkrétní
+šablonu jakéhokoliv modulu.</span></p>
+
+<p><span>Velmi prakticky se také jeví možnost integrace eshopu
+s produktovým webem, podporou a vnitřním IS v jednom rozhraní, jednou
+databází. Nebo co třeba dropshipping platforma, kde klient dostane hotový
+hostovaný eshop ve vlastní grafice na vlastní doméně, ale se společnou
+databází produktů a jednou údržbou?</span></p>
+
+<h3><span>Vendor Lock-in</span></h3>
+
+<p><span>Uzamčení na dodavatele je častý problém proprietárních
+řešení, kdy změna dodavatele je velmi drahá a tak má klient velmi omezený
+vyjednávací prostor v případech, kdy dodavatel například změní cenovou
+politiku nebo směr vývoje někam, kde to klientovi nevyhovuje.</span></p>
+
+<p><span>Podnikání nejen v segmentu českých eshopů je velmi náročné na
+schopnost měnit svou strategii (pivotovat) v reakci na konkurenční
+prostředí, změnu trhu nebo svého produktu. Pokud budete muset měnit svůj
+eshop a proprietární platforma to neumí, tak jste odkázaní na dodavatelův
+ceník speciálních úprav. V horším případě byl vývoj této větve
+ukončen a vy musíte zaplatit upgrade na aktuální verzi.</span></p>
+
+<p><span>Drupal je open source platforma, kterou používají stovky firem od
+nadnárodních korporací po freelancery. Pokud jste se svým dodavatelem
+z jakéhokoliv důvodu nespokojeni, tak se jednoduše ozvete jinému, nebo si
+na to vyškolíte někoho svého.</span></p>
+
+<h3><span>Budoucí rozvoj</span></h3>
+
+<p><span>Při výběru platformy je nutné přemýšlet i o její budoucnosti.
+Mnoho jsem napsal v předchozí sekci, zde upozorním ještě na problém
+související s <a href="https://en.m.wikipedia.org/wiki/Bus_factor">bus/truck
+faktorem</a>. Projekt může být open source, ale co by se třeba stalo, kdyby
+se David na posledním Barcampu v Ostravě přepil metanolu? Myslím, že by
+česká Nette komunita byla ráda, pokud by někdo vůbec vydával hotfixy.
+I open source projekt může umřít, pokud nemá v komunitě příznivý
+poměr uživatelů a vývojářů. A to nemusí lidi rovnou umírat, stačí,
+když se v očích jeho vývojářů jen ukáže jako
+neperspektivní.</span></p>
+
+<h3><span>Kvalita</span></h3>
+
+<p><span>Ne každý projekt je napsán špičkami v oboru (i já můžu na
+GitHubu založit projekt). Ne každý projekt má přísné <a href="https://drupal.org/coding-standards">coding standards</a>, testy pro
+všechny důležité moduly, dokumentaci jak ve formě <a href="https://drupal.org/documentation">článků</a>, tak i <a href="https://api.drupal.org/">webového výstupu</a> z Doxygenu.
+Drupal ano.</span></p>
+
+<p><span>Pokud Vás to zajímá, koukněte jak funguje <a href="https://drupal.org/node/1449736">automatické testování na Drupal.org</a>
+a jak funguje <a href="https://drupal.org/security-team">Drupal Security
+Team</a>.</span></p>
+
+<h3><span>Abstrakce</span></h3>
+
+<p><span>Díky abstrakci je Drupal neuvěřitelně univerzální platforma.
+V databázi nemá produkty s cenou a obrázkem, ale entity typu product,
+které můžou ale nemusí mít pole typu částka (nebo více částek pro
+různé zákazníky) a pole typu Image dědící většinu vlastností z File.
+Data mohou být importována z externího systému, ale modul Image nezajímá,
+jestli data dostal od uživatele, nebo připlula z Pohody.</span></p>
+
+<h3><span>Výkon</span></h3>
+
+<p><span>Kolem Drupalu koluje spousta mýtů, ten o jeho výkonu je jedním
+z nich. Drupal díky své komplexnosti vyhodnocuje mnohem více dat než
+specializovaný systém. To ale nutně nemusí znamenat, že uživatel bude na
+vše čekat déle. Drupal má velmi komplexní systém cachování na mnoha
+úrovních. Cache z důvodu kompatibility standardně uložená v relační
+databázi, což není moc rychlé, ale můžete si stáhnout moduly pro
+napojení cache a dalších kritických částí na různé objektové
+databáze, file storage, memcached, APC a další. Na kvalitním hostingu není
+problém, aby byl Drupal pro běžný provoz srovnatelně rychlý, jako
+statické stránky s pár dynamickými skripty. Kvalitní hosting vhodný pro
+Drupal sice stojí víc peněz než ten nejlevnější, ale za ten komfort
+Drupalu, vyšší spolehlivost a ochotnější helpdesk to
+stojí, ne?</span></p>
+
+<h3><span>Interoperabilita</span></h3>
+
+<p><span>Z pohledu českého prostředí tady Drupal trochu pokulhává, ale
+není to tak strašné, jak by se mohlo zdát. Moduly pro platby pomocí PayPal
+a GoPay (snad všechny české a polské platební brány) jsou
+k dispozici.</span></p>
+
+<p><span>Samostatné moduly pro napojení českých ekonomických systémů sice
+chybí, ale to nevadí, import a export dat se dá pro všechny rozumné
+formáty naklikat pomocí ekosystému kolem modulů Feeds (import) a Views
+(export).</span></p>
+
+<p><span>Pro přihlašování můžete použít všech služeb využívajících
+standardní protokoly jako OAuth, OpenID, LDAP a mnoho dalších. Out-of-box
+podpora pro Facebook, Twitter, Google, MojeID včetně speciáních údajů.
+OAuth navíc podporuje i synchronizaci dodatečných dat včetně profilovek a
+napojení na API pro bližší integraci například s Facebookem.</span></p>
+
+<p><span>Je dobré zmínit i možnosti migrace z jiných systémů pomocí <a href="https://drupal.org/project/migrate">Migrate</a> a jeho ekosystému (<a href="https://drupal.org/project/wordpress_migrate">Wordpress</a>, …)</span></p>
+
+<h3><span>Cena</span></h3>
+
+<p><span>Podstatné mínus Drupalu z pohledu klienta je jeho cena. Samotný
+software je zdarma, ale díky své komplexnosti je z pohledu vývojáře docela
+složitý. Počítejte s tím, že Drupalistovi zaplatíte mnohem větší
+hodinovku než běžnému PHP programátorovi, ale bude mít složité věci
+mnohem rychleji hotové a v mnohem větší kvalitě. Jednoduše, za kvalitu se
+platí. Podle mě ale pro úspěch v tomto segmentu je většinou potřeba to
+dělat lépe než konkurence, málokdy levněji než konkurence.</span></p>
+
+<h4><span>Nauč se sám</span></h4>
+
+<p><span>Můžete se taky naučit Drupal sami. Učící křivku bych přirovnal
+k výstupu na osmitisícovku. Dostat se nahoru je sice fuška, ale pokud se
+vzdáte v polovině, tak nevadí, i tak jste zažili
+úžasné věci.</span></p>
+
+<p><span>Pokud chcete začít, tak je asi nejlepší zajít na některou Drupal
+hospodu, které bývají s různou pravidelností v Praze, Brně i Ostravě
+(sledujte <a href="http://www.drupal.cz/">Drupal.cz</a>). Jako pískoviště
+doporučuji <a href="https://www.drupalgardens.com/">Drupal Gardens</a>, což je
+obdoba Webnode s hezčím rozhraním a většími možnostmi. Za zkoušku
+stojí i nový <a href="http://simplytest.me/project/drupal/8.x">Drupal 8</a>
+(<a href="https://drupalwatchdog.com/2/2/drupal-8-preview">co je nového</a>),
+kde bude mnoho nového a intuitivnějšího. Pokud chcete v Drupalu moderní a
+vyladěný eshop, tak zkuste jeho distribuci <a href="http://www.drupalcommerce.org/product/commerce-kickstart">Drupal Commerce
+Kickstart</a> (vyzkoušejte v <a href="http://simplytest.me/project/commerce_kickstart/7.x-2.4">simplytest.me</a>).
+Pokud Vás zajímají nějaké “reference” Drupalu, koukněte se na <a href="http://www.drupalshowcase.com/">drupalshowcase­.com</a>.</span></p>
+
+<h3><span>Alternativy k Drupalu</span></h3>
+
+<p><span>Nenapadá mě žádná jiná tak všestranná platforma orientovaná na
+„klikací“ konfigurací s tak velkou komunitou. Drupal je nejen CMS ale
+i framework.</span></p>
+
+<p><span>Podobně kvalitní řešení je ale možné postavit na některém
+z čistých frameworků, kde sice máte obrovskou svobodu a kontrolu nad
+výslednou aplikací, ale zaplatíte za to nustností napsat všechno v kódu a
+často i s chybějícími hotovými komponentami. Pokud toto akceptujete, tak
+doporučuji Symphony, Django, Ruby on Rails, Node.js a s přimhouřeným okem
+i Nette.</span></p>
+
+<h3><span>Je Drupal vhodný pro české prostředí?</span></h3>
+
+<p><span>Záleží na případu. Pokud máte nějaký rozpočet a zvažujete,
+jak jej efektivně investovat, tak si můžete nechat na Drupalu postavit
+kvalitní řešení, které bude i do budoucna udržovatelné. Drupal je
+stavěn na pro globální trh a tak občas můžete narazit na drobnosti
+v česku důležité, ale ve světě exotické. V českém prostředí je
+ostatně jako v globále Drupal na vzestupu a postupně se jednotlivé
+nedostatky řeší. Například česká dobírka není v Drupal Commerce “out
+of box”, ale po pochopení jeho filosofie není problém si to <a href="http://www.drupal.cz/forum/po-instalaci/jak-na/commerce-cash-delivery">nakonfigurovat
+ručně</a>. K příjímání plateb je připraven <a href="https://drupal.org/project/commerce_payu">modul pro PayU</a>
+k dispozici zatím jen <a href="https://drupal.org/sandbox/radimklaska/1831634">experimentální modul pro
+Gopay</a>, kterým vyřešite všechny české brány. Propojení s bankou pro
+převody lze vyřešit pomocí <a href="https://drupal.org/project/feeds">Feeds</a>.</span></p>
+
+<p><span>Problém by mohl nastat, pokud nemáte na odborníka a chcete si eshop
+poskládat svépomocí. Drupal pro odpovídající výsledek vyžaduje trochu
+programátorského myšlení. Pokud Vás ale sekce o customizaci a abstrakci
+nevyděsily, zkuste to.</span></p>
+
+<p><span></span></p>
+
+<p><span>Za oponenturu děkuji:</span></p>
+
+<ul>
+	<li><span>Michalu Pazderskému ze <a href="http://www.squelle.com/">Squelle</a></span></li>
+
+	<li><span>freelancerovi <a href="http://klaska.net/">Radimu
+	Klaškovi</a></span></li>
+
+	<li><span>a Petru Okurkovi z <a href="http://www.redweb.cz/">RedWebu</a></span></li>
+</ul><div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-8571" class="social-add digglink" onmouseover="showSocials(8571)" onmouseout="hideSocials(8571)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-8571">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop&amp;title=Proč byste měli používat Drupal, třeba pro svůj eshop" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop&amp;title=Proč byste měli používat Drupal, třeba pro svůj eshop" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop&amp;title=Proč byste měli používat Drupal, třeba pro svůj eshop" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-63576"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-63576" class="active">Působivé</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 26 Březen, 2013 - 22:33.  </div>
+
+  <div class="content">
+    Díky za tento působivý manifest Drupalisty!  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/63576" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-63986"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-63986" class="active">český shop</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 5 Duben, 2013 - 15:48.  </div>
+
+  <div class="content">
+    Ahoj,
+
+článek mě velmi zaujal, kdysi jsem na Drupalu jeden web postavil, ale dál
+jsem se tomu moc nevěnoval. Nemáte na ukázku česká eshop běžící na
+Drupal Commerce Kickstart? Díky Jirka  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/63986" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-64616"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-64616" class="active">Ahoj, postavil jsem na tom</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/finnhappy" title="Zobrazit profil uživatele.">finnhappy</a> dne 8 Leden, 2014 - 11:56.  </div>
+
+  <div class="content">
+    <p>Ahoj, postavil jsem na tom e-shop <a href="http://www.yogaguru.cz">www.yogaguru.cz</a> (plně funkční). Použil
+jsem právě Kickstart,tak mrkni.</p>
+
+<p>P.S. Množí se na tomto webu objednávky, kdy někdo testuje funkčnost
+systému až do dokončení objednávky. Jedná se o funkční shop, tedy ne
+DEMO, prosím respektujte to! Děkuji.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/64616" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-79961"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-79961" class="active">Z hlavy mě napadá třeba</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/bobik" title="Zobrazit profil uživatele.">Honza Pobořil</a> dne 10 Červenec, 2014 - 15:32.  </div>
+
+  <div class="content">
+    <p>Z hlavy mě napadá třeba <a href="http://www.fler.cz">http://www.fler.cz</a> nebo <a href="http://www.melvil.cz">http://www.melvil.cz</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/79961" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-79971"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-79971" class="active">Melvil je podle me teda</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 11 Červenec, 2014 - 10:35.  </div>
+
+  <div class="content">
+    Melvil je podle me teda Ubercart a Fler si myslim na Drupalu
+postaveny neni.  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/79971" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-79976"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-79976" class="active">Ubercart? Tím se vysvětluje,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/bobik" title="Zobrazit profil uživatele.">Honza Pobořil</a> dne 11 Červenec, 2014 - 13:23.  </div>
+
+  <div class="content">
+    <p>Ubercart? Tím se vysvětluje, proč zanevřeli na Drupal :-). Fler jsem
+zkoumal a je na 99% na Drupalu.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/79976" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div><a id="comment-64481"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-64481" class="active">Ahoj pravě jsem si přečtl</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/marinex" title="Zobrazit profil uživatele.">marinex</a> dne 13 Duben, 2013 - 16:19.  </div>
+
+  <div class="content">
+    <p>Ahoj pravě jsem si přečtl tvoje hodnocení ohledně Drupalu jako platforma
+pro eshop. Jen si nejsem jistý tou podporou modulu PayU. Zmiňoval jsem se na
+<a href="http://www.drupal.cz/forum/po-instalaci/jak-na/integrace-s-payu-online-platba">Integrace
+s PAYU (online platba)</a>, že sám autor říká, je to určeno jen pro
+Polsko (This version works only with Payu/platnosci.pl (available at <a href="http://www.payu.pl">www.payu.pl</a>). Takže pokud má někdo zkušenosti
+z provozem tohoto modulu pro Česko bylo by fain kdyby to zde na Drupal.cz bylo
+rozvedeno, aby uživatelé pak nebyli zmatení…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/64481" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-64621"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-64621" class="active">Taky jsem se o toto zajímal a</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/finnhappy" title="Zobrazit profil uživatele.">finnhappy</a> dne 15 Duben, 2013 - 08:43.  </div>
+
+  <div class="content">
+    <p>Taky jsem se o toto zajímal a získal jsem úplně stejný dojem, že to je
+určeno jen pro Polsko. Pro Česko existuje integrace GoPay, ale bohužel zatím
+jen pro Übercart (<a href="https://drupal.org/project/uc_gopay">http://drupal.org/…ect/uc_gopay</a>),
+resp. pro Drupal Commerce v sandboxu (<a href="https://drupal.org/sandbox/radimklaska/1831634">http://drupal.org/…aska/1831634</a>).</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/64621" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-66841"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-66841" class="active">S PayU nemá osobní zkušenost,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/bobik" title="Zobrazit profil uživatele.">Honza Pobořil</a> dne 8 Červen, 2013 - 11:15.  </div>
+
+  <div class="content">
+    <p>S PayU nemá osobní zkušenost, ale v jejich oficiální dokumentaci jsem
+četl něco jako, že Česko má jiný protokol, ale ten bude v blízké době
+nahrazen tím novějším polským, který tehdy měl v Česku běžet
+v nějakém testovacím režmu. Modul tedy má spíše neaktuální popis.</p>
+
+<p>Ruku do ohně bych za to ale nedal, chce to podrobnější zkoumání.
+Zjišťoval to někdo jiný?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/66841" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-72141"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-72141" class="active">Alternativy k Drupalu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 5 Listopad, 2013 - 11:13.  </div>
+
+  <div class="content">
+    Jako alternativu k drupalu bych viděl TYPO3, což je stejně jako drupal
+nejen CMS ale i framework. V Čechách není moc rozšířen, ale
+v ostatních zemí Evropy je hojně rozšířen.  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/72141" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-72156"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop#comment-72156" class="active">kam přejít z Drupalu?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/johhan" title="Zobrazit profil uživatele.">johhan</a> dne 5 Listopad, 2013 - 15:33.  </div>
+
+  <div class="content">
+    <p>Na Typo3? Zatím jsem spíše pro Drupal8 :-)</p>
+
+<p>Zrovna před pár dny jsem si procházel nějaká srovnání zde:<br />
+<a href="https://w3techs.com/technologies/comparison/cm-drupal,cm-typo3">http://w3techs.com/…pal,cm-typo3</a><br />
+a i vzhledem k tomu mi Drupal vychází nejnadějněji (podotýkám, jsem
+zavilý odpůrce php, nicméně zatím nic kloudně rozšířeného na žádné
+lepší technologii není)</p>
+
+<p>Pokud ale znáš alespoň jeden důvod, proč TYPO3, sem s ním ;-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/18301/72156" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/18301"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-7f00bacb418c188a0fc54780aa614bd4" value="form-7f00bacb418c188a0fc54780aa614bd4"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/proc-byste-meli-pouzivat-drupal-treba-pro-svuj-eshop?destination=node%2F18301"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-b130e0339ddff6335377f9277642dc2f" value="form-b130e0339ddff6335377f9277642dc2f"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex" class="tagadelic level1">forex</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 22 hod 45 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 13 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 12 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 4 dny 16 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 17 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 11 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 6 dnů 15 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":511,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

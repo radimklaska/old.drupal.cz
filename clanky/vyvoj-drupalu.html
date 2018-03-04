@@ -1,0 +1,794 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="RSS - vývoj drupalu" href="/clanky/vyvoj-drupalu/feed" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>vývoj drupalu | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_9c9661fe9d26fee53cfd2ed565557070.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_205e2f76c16b8df9f08dad7fc176465b.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a></div>        <h2 class="title">vývoj drupalu</h2>
+        <div class="tabs"></div>
+                  <div class="taxonomy-term-description">Pokud vyvíjíte moduly pro Drupal nebo se dokonce účastníte vývoje jádra, tato kategorie je pro Vás jako dělaná. Návody na Forms API, popis hooků, apod.</div>  <div class="article  article-22956">
+          <h2 class="title"><a href="/blog/frankye/drupal-skolenia-sda">Drupal školenia | SDA</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/frankye" title="Zobrazit profil uživatele.">frankye</a>, 13 Listopad, 2013 - 12:59</span>
+    <div class="pcontent"><p>Slovenská Drupal Asociácia sa chystá organizovať Drupal školenia.
+Základné info na <a href="http://drupal.sk/node/1897">drupal.sk</a> .
+Pomôžte nám získať viac info o vašich požiadavkách v ankete <a href="https://apps.facebook.com/polldaddy-polls/?view=poll&amp;id=7558115">na
+facebooku</a>, alebo v komentároch na drupal.sk, alebo tu.</p>
+
+<p>Ďakujeme</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/blog/frankye" title="Read frankye&#039;s latest blog entries." class="blog_usernames_blog">frankye&#039;s blog</a>
+
+<a href="/blog/frankye/drupal-skolenia-sda#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">2 komentáře</a>
+<div id="social-add-8205" class="social-add digglink" onmouseover="showSocials(8205)" onmouseout="hideSocials(8205)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-8205">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/frankye/drupal-skolenia-sda&amp;title=Drupal školenia | SDA" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/blog/frankye/drupal-skolenia-sda&amp;title=Drupal školenia | SDA" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/blog/frankye/drupal-skolenia-sda" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/frankye/drupal-skolenia-sda&amp;title=Drupal školenia | SDA" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-9259">
+          <h2 class="title"><a href="/ozveny-z-drupal-developer-days-bruxelles-1-dil">Ozvěny z Drupal Developer Days Bruxelles 1. díl</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a>, 1 Březen, 2011 - 12:15</span>
+    <div class="pcontent"><p>S Markem Sotákem (Atomic Ant) a Jakubem Suchým (Acquia) jsme se začátkem
+února jako jediní z Čechoslováků zúčastnili <a href="http://bxl2011.drupaldays.org/">Drupal Developer Days v Bruselu
+(DDDB)</a>. Jakub i Marek si zde vystřihli rovnou i přednášky. Jakub opět
+<a href="http://bxl2011.drupaldays.org/node/244">apeloval na psaní bezpečného
+kódu</a>, Marek zase přednášel <a href="http://bxl2011.drupaldays.org/node/306">jak správně obléci modul</a>
+pomocí nového rendering API v Drupalu 7.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/ozveny-z-drupal-developer-days-bruxelles-1-dil#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">3 komentáře</a>
+
+    <span><a class="node_read_more" href="/ozveny-z-drupal-developer-days-bruxelles-1-dil">Číst dál</a></span>
+<div id="social-add-5208" class="social-add digglink" onmouseover="showSocials(5208)" onmouseout="hideSocials(5208)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-5208">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/ozveny-z-drupal-developer-days-bruxelles-1-dil&amp;title=Ozvěny z Drupal Developer Days Bruxelles 1. díl" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/ozveny-z-drupal-developer-days-bruxelles-1-dil&amp;title=Ozvěny z Drupal Developer Days Bruxelles 1. díl" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/ozveny-z-drupal-developer-days-bruxelles-1-dil" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/ozveny-z-drupal-developer-days-bruxelles-1-dil&amp;title=Ozvěny z Drupal Developer Days Bruxelles 1. díl" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-8135">
+          <h2 class="title"><a href="/blog/kecinzer/sazkovy-system-na-drupalorg">Sázkový systém na Drupal.org</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/kecinzer" title="Zobrazit profil uživatele.">kecinzer</a>, 30 Srpen, 2010 - 15:06</span>
+    <div class="pcontent"><p>Rozhodl jsem se dát svojí roční usilovnou práci na drupal.org jako modul
+(diplomová práce). Jedná se o Sázkový systém (<a href="https://drupal.org/project/betting">Betting system</a>) což je sada
+modulů umožňující vést kurzové sázení. Díky systému je možné snadno
+proměnit svůj web na sázkovou kancelář (jako je např. iFortuna.cz).</p>
+
+<p>Jsem přesvědčen o tom, že pro někoho bude tento modul užitečný.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/blog/kecinzer" title="Read kecinzer&#039;s latest blog entries." class="blog_usernames_blog">kecinzer&#039;s blog</a>
+
+<a href="/blog/kecinzer/sazkovy-system-na-drupalorg#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">2 komentáře</a>
+
+    <span><a class="node_read_more" href="/blog/kecinzer/sazkovy-system-na-drupalorg">Číst dál</a></span>
+<div id="social-add-3036" class="social-add digglink" onmouseover="showSocials(3036)" onmouseout="hideSocials(3036)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-3036">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg&amp;title=Sázkový systém na Drupal.org" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg&amp;title=Sázkový systém na Drupal.org" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/kecinzer/sazkovy-system-na-drupalorg&amp;title=Sázkový systém na Drupal.org" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-7332">
+          <h2 class="title"><a href="/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni">Staň se Drupal profíkem za 20 dní</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a>, 2 Duben, 2010 - 16:05</span>
+    <div class="pcontent"><p>Od včerejška (1.4.2010) začal na blogu poměrné známé „drupal“
+firmy Trellon vycházet 20-ti dílný seriál nazvaný <a href="http://trellon.com/category/blog-tags/20-apis-20-days">„20 APIs in
+20 Days“</a> neboli „20 API za 20 dní“. Během dvaceti dní se proberou
+základy k 20 zajímavým API z různých okruhů a některá témata jsou
+rozhodně zajímavá!</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">12 komentářů</a>
+
+    <span><a class="node_read_more" href="/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni">Číst dál</a></span>
+<div id="social-add-1372" class="social-add digglink" onmouseover="showSocials(1372)" onmouseout="hideSocials(1372)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-1372">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni&amp;title=Staň se Drupal profíkem za 20 dní" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni&amp;title=Staň se Drupal profíkem za 20 dní" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/stan-se-drupal-profikem-za-20-dni&amp;title=Staň se Drupal profíkem za 20 dní" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-7284">
+          <h2 class="title"><a href="/blog/wojtha/kolik-ma-instalace-drupalu-promennych">Kolik má instalace Drupalu proměnných?</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a>, 24 Březen, 2010 - 23:37</span>
+    <div class="pcontent"><p>Při analyzování výkonu jednoho webu mě zajímalo, kolik má proměnných
+(tzn. obsah tabulky variables + globální pole $conf nastavené
+v settings.php) a kolik to je přibližně v bajtech.</p>
+
+<p>Použil jsem k tomu modul <a href="https://drupal.org/project/devel">Devel</a>. Ten sice sám obsahuje
+„Variable editor“ (velký formulář, kde je možné proměnné přímo
+upravit). Člověk se tam ale jednoduše nedozví počet proměnných a navíc
+při pokusu o přístup na tuto stránku jsem dostával <em>PHP memory limit
+error</em>…</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/blog/wojtha" title="Read Vojtěch Kusý&#039;s latest blog entries." class="blog_usernames_blog">Vojtěch Kusý&#039;s blog</a>
+
+<a href="/blog/wojtha/kolik-ma-instalace-drupalu-promennych#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">2 komentáře</a>
+
+    <span><a class="node_read_more" href="/blog/wojtha/kolik-ma-instalace-drupalu-promennych">Číst dál</a></span>
+<div id="social-add-7848" class="social-add digglink" onmouseover="showSocials(7848)" onmouseout="hideSocials(7848)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-7848">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych&amp;title=Kolik má instalace Drupalu proměnných?" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych&amp;title=Kolik má instalace Drupalu proměnných?" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/wojtha/kolik-ma-instalace-drupalu-promennych&amp;title=Kolik má instalace Drupalu proměnných?" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-7282">
+          <h2 class="title"><a href="/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry">Jak na našeptavač (autocomplete) s více parametry</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a>, 24 Březen, 2010 - 21:28</span>
+    <div class="pcontent"><p>Stalo se vám někdy, že jste potřebovali předávat funkci, která
+generuje „nápovědu“ pro textové políčko s automatickým doplňováním
+více parametrů? Mě se to přihodilo zrovna dneska …</p>
+
+<p><em>DISCLAIMER: Jen pro Drupal geeky!</em></p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/blog/wojtha" title="Read Vojtěch Kusý&#039;s latest blog entries." class="blog_usernames_blog">Vojtěch Kusý&#039;s blog</a>
+
+<a href="/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">1 komentář</a>
+
+    <span><a class="node_read_more" href="/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry">Číst dál</a></span>
+<div id="social-add-6840" class="social-add digglink" onmouseover="showSocials(6840)" onmouseout="hideSocials(6840)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-6840">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry&amp;title=Jak na našeptavač (autocomplete) s více parametry" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry&amp;title=Jak na našeptavač (autocomplete) s více parametry" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/wojtha/jak-na-naseptavac-autocomplete-s-vice-parametry&amp;title=Jak na našeptavač (autocomplete) s více parametry" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-7265">
+          <h2 class="title"><a href="/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode">Übercart: jak na &quot;Osobní převzetí zboží v obchodě&quot;?</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a>, 22 Březen, 2010 - 17:48</span>
+    <div class="pcontent"><p>Již několikrát se mi stalo, že se mě někdo ptal, jak vytvořit
+v Čechách celkem běžnou věc – „osobní vyzvednutí zboží
+v obchodě“. Mnoho zvláště menších e-shopů nevyužívá žádné
+platební brány ani dopravce – vystačí si s dobírkou České Pošty.
+Pokud má takový e-shopík nějakou kamennou provozovnu či prodejnu, je
+častým zvykem nabízet kromě dobírky ještě <i>„osobní převzetí
+v obchodě“</i>, zdarma samozřejmě.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/blog/wojtha" title="Read Vojtěch Kusý&#039;s latest blog entries." class="blog_usernames_blog">Vojtěch Kusý&#039;s blog</a>
+
+<a href="/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">15 komentářů</a>
+
+    <span><a class="node_read_more" href="/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode">Číst dál</a></span>
+
+<a href="/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode#attachments" title="Pro zobrazení příloh si přečtěte celý článek." class="upload_attachments">1 příloha</a>
+<div id="social-add-2330" class="social-add digglink" onmouseover="showSocials(2330)" onmouseout="hideSocials(2330)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-2330">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode&amp;title=Übercart: jak na &quot;Osobní převzetí zboží v obchodě&quot;?" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode&amp;title=Übercart: jak na &quot;Osobní převzetí zboží v obchodě&quot;?" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode&amp;title=Übercart: jak na &quot;Osobní převzetí zboží v obchodě&quot;?" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-6363">
+          <h2 class="title"><a href="/blog/havran/serial-o-vyvoji-modulov-na-intervalcz">Seriál o vývoji modulov na Interval.CZ</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a>, 6 Listopad, 2009 - 20:07</span>
+    <div class="pcontent"><p>Na serveri Interval.CZ sa objavil zaujímavo začínajúci seriál o vývoji
+modulov pre Drupal 6.x. Doporučujem.</p>
+
+<ul>
+	<li><a href="http://interval.cz/clanky/vyvoj-modulu-pro-cms-system-drupal-6-x/">Vývoj
+	modulů pro CMS systém Drupal 6.x</a></li>
+
+	<li><a href="http://interval.cz/clanky/vyvoj-modulu-pro-cms-system-drupal-6-x-2-dil/">Vývoj
+	modulů pro CMS systém Drupal 6.x (2. díl)</a></li>
+</ul></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/blog/havran" title="Read Havran&#039;s latest blog entries." class="blog_usernames_blog">Havran&#039;s blog</a>
+
+<a href="/comment/reply/6363#comment-form" title="Přidat komentář k této stránce." class="comment_add">Přidat komentář</a>
+<div id="social-add-7562" class="social-add digglink" onmouseover="showSocials(7562)" onmouseout="hideSocials(7562)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-7562">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz&amp;title=Seriál o vývoji modulov na Interval.CZ" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz&amp;title=Seriál o vývoji modulov na Interval.CZ" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/havran/serial-o-vyvoji-modulov-na-intervalcz&amp;title=Seriál o vývoji modulov na Interval.CZ" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-5980">
+          <h2 class="title"><a href="/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9">Vyšel Drupal 7 UNSTABLE 9</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a>, 16 Září, 2009 - 23:06</span>
+    <div class="pcontent"><p>Včera vyšel Drupal 7 UNSTABLE 9, další z vývojových verzí Drupalu,
+určených hlavně pro testery. Stále nepoužívejte standardně, nicméně
+testujte :-) Jaké jsou změny?</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">7 komentářů</a>
+
+    <span><a class="node_read_more" href="/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9">Číst dál</a></span>
+<div id="social-add-52" class="social-add digglink" onmouseover="showSocials(52)" onmouseout="hideSocials(52)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-52">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9&amp;title=Vyšel Drupal 7 UNSTABLE 9" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9&amp;title=Vyšel Drupal 7 UNSTABLE 9" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/vysel-drupal-7-unstable-9&amp;title=Vyšel Drupal 7 UNSTABLE 9" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-4680">
+          <h2 class="title"><a href="/clanky/vyvoj-drupalu/drupal-org-je-upgradovan-na-drupal-6">Drupal.org je upgradován na Drupal 6</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a>, 19 Únor, 2009 - 10:00</span>
+    <div class="pcontent"><p>Jistě si někteří z Vás všimli včerejšího výpadku mezinárodního
+anglického webu Drupal.org. Ten nakonec trval o něco déle kvůli
+nepředpokládané chybě, ale Drupal.org nyní běží na Drupal 6. Mezi
+novinkami bych já hlavně ocenil nové vyhledávání pomocí ApacheSolr.
+Konečně!</p>
+
+<p>(Drupal.cz se vzápětí přidá, protože jsme upgrade chystali, ale zatím
+nestihli.)</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/vyvoj-drupalu/drupal-org-je-upgradovan-na-drupal-6#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">2 komentáře</a>
+<div id="social-add-2456" class="social-add digglink" onmouseover="showSocials(2456)" onmouseout="hideSocials(2456)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-2456">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-org-je-upgradovan-na-drupal-6&amp;title=Drupal.org je upgradován na Drupal 6" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-org-je-upgradovan-na-drupal-6&amp;title=Drupal.org je upgradován na Drupal 6" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-org-je-upgradovan-na-drupal-6" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-org-je-upgradovan-na-drupal-6&amp;title=Drupal.org je upgradován na Drupal 6" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-3858">
+          <h2 class="title"><a href="/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni">Novinky v Drupalu 7 - popisy oprávnění</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a>, 10 Říjen, 2008 - 17:50</span>
+    <div class="pcontent"><p>Začíná malý občasný seriál o novinkách v Drupalu 7. Tedy v tom,
+na co se zatím můžeme jenom těšit :-) Dnes o oprávněních.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">6 komentářů</a>
+
+    <span><a class="node_read_more" href="/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni">Číst dál</a></span>
+<div id="social-add-6956" class="social-add digglink" onmouseover="showSocials(6956)" onmouseout="hideSocials(6956)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-6956">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni&amp;title=Novinky v Drupalu 7 - popisy oprávnění" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni&amp;title=Novinky v Drupalu 7 - popisy oprávnění" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/novinky-v-drupalu-7-popisy-opravneni&amp;title=Novinky v Drupalu 7 - popisy oprávnění" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-2403">
+          <h2 class="title"><a href="/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky">Drupal 6: Evoluce hezky a česky</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a>, 13 Únor, 2008 - 16:40</span>
+    <div class="pcontent"><p>Je nám ctí ohlásit novinku ve světě Drupalu: <strong>Byl vydán Drupal 6</strong>. Ano, slyšíte dobře, ostrá verze Drupalu 6. Nenechte si ujít nové vlastnosti ani český překlad, čtěte dále.</p>
+</div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">13 komentářů</a>
+
+    <span><a class="node_read_more" href="/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky">Číst dál</a></span>
+<div id="social-add-6485" class="social-add digglink" onmouseover="showSocials(6485)" onmouseout="hideSocials(6485)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-6485">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky&amp;title=Drupal 6: Evoluce hezky a česky" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky&amp;title=Drupal 6: Evoluce hezky a česky" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/novinky-na-webu/drupal-6-evoluce-hezky-i-cesky&amp;title=Drupal 6: Evoluce hezky a česky" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-2456">
+          <h2 class="title"><a href="/clanky/pro-webmastery/jak-upgradovat-na-drupal-6">Jak upgradovat na Drupal 6</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a>, 13 Únor, 2008 - 16:30</span>
+    <div class="pcontent"><p>Byl vydán Drupal 6. Jak na něj upgradovat?</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/pro-webmastery/jak-upgradovat-na-drupal-6#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">11 komentářů</a>
+
+    <span><a class="node_read_more" href="/clanky/pro-webmastery/jak-upgradovat-na-drupal-6">Číst dál</a></span>
+<div id="social-add-4880" class="social-add digglink" onmouseover="showSocials(4880)" onmouseout="hideSocials(4880)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-4880">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6&amp;title=Jak upgradovat na Drupal 6" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6&amp;title=Jak upgradovat na Drupal 6" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/pro-webmastery/jak-upgradovat-na-drupal-6&amp;title=Jak upgradovat na Drupal 6" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-2437">
+          <h2 class="title"><a href="/clanky/vyvoj-drupalu/drupal-6-0-rc4">Drupal 6.0 RC4</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a>, 10 Únor, 2008 - 11:48</span>
+    <div class="pcontent"><p>Vyšel čtvrtý release candidate Drupalu 6. Těšíte se na
+stabilní verzi?</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/comment/reply/2437#comment-form" title="Přidat komentář k této stránce." class="comment_add">Přidat komentář</a>
+
+    <span><a class="node_read_more" href="/clanky/vyvoj-drupalu/drupal-6-0-rc4">Číst dál</a></span>
+<div id="social-add-6210" class="social-add digglink" onmouseover="showSocials(6210)" onmouseout="hideSocials(6210)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-6210">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc4&amp;title=Drupal 6.0 RC4" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc4&amp;title=Drupal 6.0 RC4" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc4" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/vyvoj-drupalu/drupal-6-0-rc4&amp;title=Drupal 6.0 RC4" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+  <div class="article  article-2370">
+          <h2 class="title"><a href="/clanky/moduly/elektronicky-obchod-ubercart">Elektronický obchod Ubercart</a></h2>
+        <span class="submitted">Vložil/a <a href="/user/pepe" title="Zobrazit profil uživatele.">PEpe</a>, 4 Únor, 2008 - 18:45</span>
+    <div class="pcontent"><p><a href="http://www.ubercart.org">Ubercart</a> je elektronický obchod
+postavený na Drupalu. <a href="http://www.ubercart.org">Ubercart</a> je zcela
+integrován s jádrem Drupalu a jeho rozšiřujícími moduly a poskytuje vám
+běh obchodu na vašem běžném komunitním či firemním webu.</p></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/clanky/moduly/elektronicky-obchod-ubercart#comments" title="Skočit na první komentář tohoto příspěvku." class="comment_comments">43 komentářů</a>
+
+    <span><a class="node_read_more" href="/clanky/moduly/elektronicky-obchod-ubercart">Číst dál</a></span>
+<div id="social-add-2236" class="social-add digglink" onmouseover="showSocials(2236)" onmouseout="hideSocials(2236)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-2236">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart&amp;title=Elektronický obchod Ubercart" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart&amp;title=Elektronický obchod Ubercart" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/clanky/moduly/elektronicky-obchod-ubercart&amp;title=Elektronický obchod Ubercart" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/clanky/vyvoj-drupalu?page=1" title="Přejít na stranu 2" class="active">2</a></li>
+<li class="pager-item"><a href="/clanky/vyvoj-drupalu?page=2" title="Přejít na stranu 3" class="active">3</a></li>
+<li class="pager-next"><a href="/clanky/vyvoj-drupalu?page=1" title="Přejít na další stranu" class="active">následující ›</a></li>
+<li class="pager-last last"><a href="/clanky/vyvoj-drupalu?page=2" title="Přejít na poslední stranu" class="active">poslední »</a></li>
+</ul></div>          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/clanky/vyvoj-drupalu?destination=taxonomy%2Fterm%2F22"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-f069da3a44cbebbc5e56a2db09f15675" value="form-f069da3a44cbebbc5e56a2db09f15675"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex" class="tagadelic level1">forex</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views" title="2 komentáře">Jak vyhledávat v poli soubor (multiupload) - VIEWS</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 5 hod 4 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 1 den 19 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 2 dny 18 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 3 dny 22 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 3 dny 23 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 5 dnů 17 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 5 dnů 21 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 14 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTkNVS1dXDFRPbUUAQwxoRFJfXA==","queueTime":0,"applicationTime":364,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

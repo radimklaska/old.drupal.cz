@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>LOKD&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/lokd</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Naruto ARENA</title>
+ <link>https://www.drupal.cz/blog/lokd/naruto-arena</link>
+ <description>&lt;p&gt;NARUTO ARENA&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/lokd/naruto-arena#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2597</wfw:commentRss>
+ <pubDate>Thu, 06 Mar 2008 13:10:19 +0000</pubDate>
+ <dc:creator>LOKD</dc:creator>
+ <guid isPermaLink="false">2597 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>joujou&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/joeeko</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Lightbox 2</title>
+ <link>https://www.drupal.cz/blog/joeeko/lightbox-2</link>
+ <description>&lt;p&gt;Ahoj poraďte prosim někdo jak funguje lightbox 2 přiložil jsem na
+stranku nejake fotky ked som vytvářet stránky přes Internet explorer fotky
+se mi v lightboxu zobrazily. Když jsem si stranku skusal neskor otvorit přes
+mozilla tak mi ty fotky uz nesli ani mi jejich nezobrazilo jakoby na strance ani
+nebyli? pořadí někdo. Předem děkuji?&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/joeeko/lightbox-2#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7472</wfw:commentRss>
+ <pubDate>Wed, 28 Apr 2010 06:47:35 +0000</pubDate>
+ <dc:creator>joujou</dc:creator>
+ <guid isPermaLink="false">7472 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

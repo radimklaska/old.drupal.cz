@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Cogito&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/cogito</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Povzdech</title>
+ <link>https://www.drupal.cz/blog/cogito/povzdech</link>
+ <description>&lt;p&gt;Kéž by z dotazu bylo zřejmé na co se vlastně tazatel ptá.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/cogito/povzdech#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1184</wfw:commentRss>
+ <pubDate>Sat, 26 May 2007 16:14:54 +0000</pubDate>
+ <dc:creator>Cogito</dc:creator>
+ <guid isPermaLink="false">1184 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

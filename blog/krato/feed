@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>krato&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/krato</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>WEDOS: Služby pro všechny a pro webaře a Drupalisty obzvláště</title>
+ <link>https://www.drupal.cz/blog/krato/wedos-sluzby-pro-vsechny-pro-webare-drupalisty-obzvlaste</link>
+ <description>&lt;p&gt;Webhostingová společnost &lt;a href=&quot;http://hosting.wedos.com/d/81278&quot;&gt;WEDOS
+Internet, a.s.&lt;/a&gt;, která se podle statistik CZ.NIC za pouhých 19 měsíců
+&lt;a href=&quot;http://www.netzin.cz/2012/wedos-treti-nejvetsi-v-cr.php&quot;&gt;na třetím
+místě v počtu obsluhovaných .CZ domén&lt;/a&gt;, nabízí několik zajímavých
+služeb. Na ty se nyní stručně podíváme ze tří různých pohledů.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/krato/wedos-sluzby-pro-vsechny-pro-webare-drupalisty-obzvlaste&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/krato/wedos-sluzby-pro-vsechny-pro-webare-drupalisty-obzvlaste#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/webhosting">Webhosting</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/13471</wfw:commentRss>
+ <pubDate>Wed, 25 Jul 2012 18:43:30 +0000</pubDate>
+ <dc:creator>krato</dc:creator>
+ <guid isPermaLink="false">13471 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Pozor na cron v Drupalu 7, v adrese už nestačí jen cron.php</title>
+ <link>https://www.drupal.cz/blog/krato/pozor-na-cron-v-drupalu-7-v-adrese-uz-nestaci-jen-cronphp</link>
+ <description>&lt;p&gt;Pokud spouštíte cron přes crontab či nastavení spouštění cronu
+v administraci vašeho webhostingu, určitě jste byli zvyklí u Drupalu 4.7,
+5 a 6 do cronu přidávat adresu &lt;i&gt;&lt;a href=&quot;http://www.example.com/&quot;&gt;http://www.example.com/&lt;/a&gt;&lt;/i&gt;cron.php .&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/krato/pozor-na-cron-v-drupalu-7-v-adrese-uz-nestaci-jen-cronphp&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/krato/pozor-na-cron-v-drupalu-7-v-adrese-uz-nestaci-jen-cronphp#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/instalace">instalace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8869</wfw:commentRss>
+ <pubDate>Wed, 05 Jan 2011 14:13:06 +0000</pubDate>
+ <dc:creator>krato</dc:creator>
+ <guid isPermaLink="false">8869 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Rychlá instalace Drupalu 7 a modulů přes ssh</title>
+ <link>https://www.drupal.cz/blog/krato/rychla-instalace-drupalu-7-modulu-pres-ssh</link>
+ <description>&lt;p&gt;Drupal 7 vyšel ve své finální verzi. Pro potřeby rychlého
+„nahození“ Drupalu 7 s desítkami oblímených modulů jsem si sepsal dva
+bashové skripty, které by se vám také mohly hodit, alespoň jako inspirace.
+Spouští se v bashi, tudíž potřebujete přístup na webhostingový server
+přes SSH.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/krato/rychla-instalace-drupalu-7-modulu-pres-ssh&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/krato/rychla-instalace-drupalu-7-modulu-pres-ssh#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-7x">Drupal 7.x</category>
+ <category domain="https://www.drupal.cz/clanky/instalace">instalace</category>
+ <enclosure url="https://www.drupal.cz/files/drupal-7.x-download-1.x-alpha1.sh_.txt" length="1336" type="text/plain" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8868</wfw:commentRss>
+ <pubDate>Wed, 05 Jan 2011 14:01:22 +0000</pubDate>
+ <dc:creator>krato</dc:creator>
+ <guid isPermaLink="false">8868 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

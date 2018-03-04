@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - UberCart</title>
+ <link>https://www.drupal.cz/taxonomy/term/573/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>První český platební modul - UC GoPay</title>
+ <link>https://www.drupal.cz/clanky/komerce/platebni-modul-pro-ceske-e-shopy-gopay</link>
+ <description>&lt;p&gt;Ve spolupráci s &lt;a href=&quot;http://drupal.org/user/56154&quot;&gt;Vojtěchem
+Kusým&lt;/a&gt;, vývojářem Drupalu, jsme připravili modul pro integraci platební
+brány GoPay. Modul je volně ke stažení z Drupal.org: &lt;a href=&quot;http://drupal.org/project/uc_gopay&quot;&gt;http://drupal.org/…ect/uc_gopay&lt;/a&gt;.
+Momentálně existují verze pro Drupal 6/Übercart 2 a Drupal 7/Übercart
+3. Díky platební bráně Gopay můžete zákazníkům zpřístupnit většinu
+platebních metod běžných v České republice. V článku se dozvíte jak
+probíhá integrace, jak modul nainstalovat a také jak ho případně
+podpořit, aby se dále rozvíjel.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/komerce/platebni-modul-pro-ceske-e-shopy-gopay&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/komerce/platebni-modul-pro-ceske-e-shopy-gopay#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/drupal7">Drupal7</category>
+ <category domain="https://www.drupal.cz/clanky/e-shop">e-shop</category>
+ <category domain="https://www.drupal.cz/clanky/komerce">komerce</category>
+ <category domain="https://www.drupal.cz/clanky/platby">platby</category>
+ <category domain="https://www.drupal.cz/clanky/platebni-brana">platební brána</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11049</wfw:commentRss>
+ <pubDate>Mon, 21 May 2012 14:00:53 +0000</pubDate>
+ <dc:creator>strep</dc:creator>
+ <guid isPermaLink="false">11049 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>První český platební modul - GoPay</title>
+ <link>https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay</link>
+ <description>&lt;p&gt;Ve spolupráci s vývojářem Drupalu jsme připravili modul pro integraci
+platební brány GoPay. Pro zájemce je modul volně ke stažení &lt;a href=&quot;http://drupal.org/project/uc_gopay&quot;&gt;http://drupal.org/…ect/uc_gopay&lt;/a&gt;.
+V současnosti slouží pro Drupal 7 a Übercart 3. Registrací, která není
+nijak zpoplatněna a je dobrovolná, pomůžete dalšímu vývoj
+modulu (např.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/strep/prvni-cesky-platebni-modul-gopay#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/drupal7">Drupal7</category>
+ <category domain="https://www.drupal.cz/clanky/e-shop">e-shop</category>
+ <category domain="https://www.drupal.cz/clanky/komerce">komerce</category>
+ <category domain="https://www.drupal.cz/clanky/platby">platby</category>
+ <category domain="https://www.drupal.cz/clanky/platebni-brana">platební brána</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <enclosure url="https://www.drupal.cz/files/uc_gopay-7.x-1.0-alpha2.tar_0.gz" length="97417" type="application/octet-stream" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/11058</wfw:commentRss>
+ <pubDate>Mon, 20 Feb 2012 10:28:19 +0000</pubDate>
+ <dc:creator>strep</dc:creator>
+ <guid isPermaLink="false">11058 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Dva nové moduly pro Ubercart 2.4</title>
+ <link>https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24</link>
+ <description>&lt;p&gt;Vydal jsem dva nové užitečné moduly pro Ubercart 2. První je modul pro
+podporu speciálně českého DPH – &lt;a href=&quot;http://drupal.org/project/uc_dph&quot;&gt;Ubercart 2 DPH support&lt;/a&gt;.
+Spolupracuje s taxami v Ubercartu a umožňuje nastavovat, jak cenu zobrazovat
+(jen s DPH, obě ceny) a též je možné vybrat specifické role, kterým se
+bude vždy zobrazovat jen cena bez DPH (pro B2B shopy).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kecinzer/dva-nove-moduly-pro-ubercart-24#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8287</wfw:commentRss>
+ <pubDate>Sat, 18 Sep 2010 06:53:59 +0000</pubDate>
+ <dc:creator>kecinzer</dc:creator>
+ <guid isPermaLink="false">8287 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Übercart: jak na &quot;Osobní převzetí zboží v obchodě&quot;?</title>
+ <link>https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode</link>
+ <description>&lt;p&gt;Již několikrát se mi stalo, že se mě někdo ptal, jak vytvořit
+v Čechách celkem běžnou věc – „osobní vyzvednutí zboží
+v obchodě“. Mnoho zvláště menších e-shopů nevyužívá žádné
+platební brány ani dopravce – vystačí si s dobírkou České Pošty.
+Pokud má takový e-shopík nějakou kamennou provozovnu či prodejnu, je
+častým zvykem nabízet kromě dobírky ještě &lt;i&gt;„osobní převzetí
+v obchodě“&lt;/i&gt;, zdarma samozřejmě.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/wojtha/uebercart-jak-na-osobni-prevzeti-v-obchode#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/vyvoj-drupalu">vývoj drupalu</category>
+ <category domain="https://www.drupal.cz/clanky/tipy-triky">tipy &amp; triky</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <enclosure url="https://www.drupal.cz/files/uc_pickup.zip" length="6751" type="application/zip" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/7265</wfw:commentRss>
+ <pubDate>Mon, 22 Mar 2010 16:48:23 +0000</pubDate>
+ <dc:creator>Vojtěch Kusý</dc:creator>
+ <guid isPermaLink="false">7265 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal + E-shop</title>
+ <link>https://www.drupal.cz/clanky/ubercart/drupal-e-shop</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-author&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Autor:&amp;nbsp;&lt;/div&gt;
+                    Evil        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-filefield field-field-download&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Ke stažení:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file&quot;&gt;&lt;img class=&quot;filefield-icon field-icon-application-vnd.ms-powerpoint&quot;  alt=&quot;application/vnd.ms-powerpoint icon&quot; src=&quot;https://www.drupal.cz/sites/all/modules/filefield/icons/x-office-presentation.png&quot; /&gt;&lt;a href=&quot;https://www.drupal.cz/files/prezentace/Drupal_Eshop_Michal_evil.ppt&quot; type=&quot;application/vnd.ms-powerpoint; length=226304&quot;&gt;Drupal_Eshop_Michal_evil.ppt&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-nodereference field-field-event-reference&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Vztahuje se k akci:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;a href=&quot;/clanky/drupal/drupal-setkani-praha-16-prosinec-2009&quot;&gt;Drupal setkání - Praha - 16. Prosinec 2009&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.drupal.cz/clanky/ubercart/drupal-e-shop#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/e-commerce">e-commerce</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8271</wfw:commentRss>
+ <pubDate>Wed, 16 Dec 2009 11:08:14 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">8271 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Mizící vybraná hodnota přepravní sazby</title>
+ <link>https://www.drupal.cz/blog/markdr/mizici-vybrana-hodnota-prepravni-sazby</link>
+ <description>&lt;p&gt;Ubercart, košík, přihlášený i nepřihlášený uživatel:&lt;/p&gt;
+
+&lt;p&gt;1. problém výpočet poštovného je skryt a musím rozkliknout přes
+tlačítko „Klikněte pro výpočet pošotvného“. Lze toto někde nastavit,
+aby bylo „rozkliknuto“?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/markdr/mizici-vybrana-hodnota-prepravni-sazby&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/markdr/mizici-vybrana-hodnota-prepravni-sazby#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/postovne">poštovné</category>
+ <category domain="https://www.drupal.cz/clanky/prepravni-sazba">přepravní sazba</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6433</wfw:commentRss>
+ <pubDate>Mon, 16 Nov 2009 14:55:58 +0000</pubDate>
+ <dc:creator>MarkDr</dc:creator>
+ <guid isPermaLink="false">6433 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Ubercart 2.0 oficiální release</title>
+ <link>https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release</link>
+ <description>&lt;p&gt;Oficiální release Ubercartu 2.0 pro Drupal 6 už od středy
+21.10. zde:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://drupal.org/project/ubercart&quot;&gt;http://drupal.org/…ect/ubercart&lt;/a&gt;
+nebo &lt;a href=&quot;http://www.ubercart.org/news/oct-21-2009/ubercart_20_drupal_6_released&quot;&gt;http://www.ubercart.org/…l_6_released&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/clanky/moduly/ubercart-20-oficialni-release#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/moduly">moduly</category>
+ <category domain="https://www.drupal.cz/clanky/ostatni">ostatní</category>
+ <category domain="https://www.drupal.cz/clanky/drupal">drupal</category>
+ <category domain="https://www.drupal.cz/clanky/eshop">eshop</category>
+ <category domain="https://www.drupal.cz/clanky/novinka">novinka</category>
+ <category domain="https://www.drupal.cz/clanky/novinky">novinky</category>
+ <category domain="https://www.drupal.cz/clanky/ubercart">UberCart</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6286</wfw:commentRss>
+ <pubDate>Sat, 24 Oct 2009 16:29:29 +0000</pubDate>
+ <dc:creator>johhan</dc:creator>
+ <guid isPermaLink="false">6286 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

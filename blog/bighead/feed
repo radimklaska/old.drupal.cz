@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Petr Illek&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/bighead</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Podpořte projekt který máte rádi</title>
+ <link>https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi</link>
+ <description>&lt;p&gt;Hlavní rolí Drupal Associace je sjednocení komunit z celého světa,
+komunit, které jsou hodně rozdílné.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/petr-illek/podporte-projekt-ktery-mate-radi#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-associace">drupal associace</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52781</wfw:commentRss>
+ <pubDate>Thu, 17 Dec 2015 21:30:22 +0000</pubDate>
+ <dc:creator>Petr Illek</dc:creator>
+ <guid isPermaLink="false">52781 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Změna v nastavení webformu u pole pro nahrávání souborů</title>
+ <link>https://www.drupal.cz/blog/petr-illek/zmena-v-nastaveni-webformu-u-pole-pro-nahravani-souboru</link>
+ <description>&lt;p&gt;Pravděpodobně od verze 3.16, kdy došlo k zavedení Ajax uploadu souborů
+se změnil způsob omezení velikosti souboru (Max Upload size). Předchozí
+formát se zadával jen číslem a byl v KB (proto se omezení na 5 MB
+zapisovalo jako 5000). Nyní je potřeba psát číslo včetně jednotky (nově
+tedy 5 MB).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/petr-illek/zmena-v-nastaveni-webformu-u-pole-pro-nahravani-souboru&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/petr-illek/zmena-v-nastaveni-webformu-u-pole-pro-nahravani-souboru#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/12046</wfw:commentRss>
+ <pubDate>Thu, 17 May 2012 14:38:46 +0000</pubDate>
+ <dc:creator>Petr Illek</dc:creator>
+ <guid isPermaLink="false">12046 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

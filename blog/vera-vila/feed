@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>vera-vila&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/vera-vila</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Živnostenské podnikání - pokračování</title>
+ <link>https://www.drupal.cz/blog/vera-vila/zivnostenske-podnikani-pokracovani</link>
+ <description>&lt;p&gt;Jakub tu před několika týdny sliboval pokračování svého blogu &lt;a href=&quot;http://www.drupal.cz/blog/jakub-suchy/zalozeni-zivnostenskeho-listu-i&quot;&gt;Založení
+živnostenského listu&lt;/a&gt;. A ačkoliv mám málo času, rozhodla jsem se, že
+sem napíšu nějaké doplnění a informace o placení SZP a daní.&lt;/p&gt;
+
+&lt;p&gt;Jakub skončil u toho, že si půjde vyzvednout ŽL a s nimi pak
+&lt;b&gt;nejpozději do 8 dnů od změny&lt;/b&gt; musí jít na Správu sociálního
+zabezpečení a na zdravotní pojišťovnu, kde se přihlásí k sociálnímu a
+zdravotnímu pojištění. Dále je nutná registrace k dani z příjmů
+fyzických osob, případně k dalším daním, na místně příslušném
+finančím úřadě.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/vera-vila/zivnostenske-podnikani-pokracovani&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/vera-vila/zivnostenske-podnikani-pokracovani#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/415</wfw:commentRss>
+ <pubDate>Sat, 02 Dec 2006 23:46:01 +0000</pubDate>
+ <dc:creator>vera-vila</dc:creator>
+ <guid isPermaLink="false">415 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Já a drupal - Dílo je hotovo</title>
+ <link>https://www.drupal.cz/blog/vera-vila/ja-a-drupal-dilo-je-hotovo</link>
+ <description>&lt;p&gt;Tak po několika problémech, které jsem řešila i tady na fóru, se nám
+konečně povedlo předat dílo kompletní a stránky &lt;a href=&quot;http://www.skaliceuznojma.cz&quot;&gt;obce Skalice&lt;/a&gt; jsou hotové…
+Předpokládáme sice ještě nějaké drobné úpravy, ale spíš jen
+kosmetické.&lt;/p&gt;
+
+&lt;p&gt;Při tvorbě jsme se setkali především s problémem ve fotogalerii
+&lt;b&gt;Image_gallery&lt;/b&gt;. Napsala jsem tu o nich &lt;a href=&quot;http://www.drupal.cz/clanky/zacatecnici/fotogalerie-s-image-gallery&quot;&gt;článeček&lt;/a&gt;.
+Snad pomůže hlavně začátečníkům, kteří s Image_gallery zatím dost
+pracovat neumí, nebo se s těmito problémy také setkali.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/vera-vila/ja-a-drupal-dilo-je-hotovo&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/vera-vila/ja-a-drupal-dilo-je-hotovo#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/255</wfw:commentRss>
+ <pubDate>Sun, 22 Oct 2006 10:46:04 +0000</pubDate>
+ <dc:creator>vera-vila</dc:creator>
+ <guid isPermaLink="false">255 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Já a Drupal podruhé</title>
+ <link>https://www.drupal.cz/blog/vera-vila/ja-a-drupal-podruhe</link>
+ <description>&lt;p&gt;Tak se nám stránky obce krásně rýsují, i když zatím jen na
+localhostu, protože obchodní partner zatím nebyl schopný zaplatit doménu,
+abychom mohli pracovat už přímo v prostředí, které vytváříme a které
+bude přístupné „z venku“… Zbývá nám zprovoznit fotogalerii a
+fórum, zadat pár dokumentů a své dílo vystavit… Brácha si trochu vyhrál
+s kaskádovýma stylama a pozměnil barvičky tak, jak si to obec
+představovala.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/vera-vila/ja-a-drupal-podruhe&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/vera-vila/ja-a-drupal-podruhe#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/165</wfw:commentRss>
+ <pubDate>Tue, 03 Oct 2006 09:36:41 +0000</pubDate>
+ <dc:creator>vera-vila</dc:creator>
+ <guid isPermaLink="false">165 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Já a drupal poprvé</title>
+ <link>https://www.drupal.cz/blog/vera-vila/ja-a-drupal-poprve</link>
+ <description>&lt;p&gt;Ahoj, tak jsem se rozhodla sem taky něco písnout o mých zkušenostech
+s drupalem…&lt;/p&gt;
+
+&lt;p&gt;Seznámila jsem se s ním asi před měsícem a půl, když jsem rozhodla,
+že do reality převedeme kamarádův nápad dělat webové stránky obcím a
+městům. Vzhledem k tomu, že on sám vytvořil v drupalu &lt;a href=&quot;http://www.obecvladislav.cz&quot;&gt;www.obecvladislav.cz&lt;/a&gt; nebo &lt;a href=&quot;http://www.renvodin.cz/demo&quot;&gt;www.renvodin.cz/demo&lt;/a&gt; a má s drupalem
+rozhodně větší zkušenosti než já, nehledě na to, že je programátor a
+CSS styly a podobné věci mu nedělají problémy, očekávala jsem od něj
+zaškolení a pomoc… Ale ouha… Zůstala jsem na to učení a zkoušení sama
+:o(. No, nezbylo mi nic jiného, než si na localhosta drupal natáhnout,
+všechno si nastavit, nainstalovat moduly a témata a zkoušet a hrát si
+s tím… Velkou pomocí mi byl i web &lt;a href=&quot;http://www.interval.cz&quot;&gt;www.interval.cz&lt;/a&gt;, kde jsem se dozvěděla
+o tom, jak vůbec dostat drupal do PC, jak „nainstalovat“ např. TinyMCE a
+teď z něj dokonce studuju a zkouším kaskádové styly, protože jsme
+získali JEDNU zakázku na stránky obce a starosta si vymýšlí, že to chce
+jako Vladislav, ale stránky musí mít obecní barvy, jak to mají na svých
+původních stránkách, které před 2 roky programoval nějaký tamní
+kluk… Tak si s tím teď hrajeme… Mimochodem, kamarád od této „akce“
+dává ruce pryč, ale chce za ni nějakou korunu, že nám předal know-how a
+pomohl se zajišťováním zakázky… Co na to říkáte? Já to všechno
+obvolala a zajistila, o nabídkách nemluvě, drupal jsme se taky museli učit
+a zkoušet sami… Myslíte, že si tu odměnu zaslouží akorát za to, že
+nám o drupalu řekl a občas „špatně“ poradil?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/vera-vila/ja-a-drupal-poprve&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/vera-vila/ja-a-drupal-poprve#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/143</wfw:commentRss>
+ <pubDate>Thu, 28 Sep 2006 06:26:03 +0000</pubDate>
+ <dc:creator>vera-vila</dc:creator>
+ <guid isPermaLink="false">143 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

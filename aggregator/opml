@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.1">
+<head>
+<title>Drupal.cz</title>
+<dateModified>Mon, 05 Feb 2018 13:37:56 +0000</dateModified>
+</head>
+<body>
+<outline text="Jakub" xmlUrl="http://twitter.com/statuses/user_timeline/16008970.rss" />
+<outline text="Marek" xmlUrl="http://twitter.com/statuses/user_timeline/14479132.rss" />
+<outline text="Píšou na Slovensku" xmlUrl="https://www.drupal.sk/node/feed" />
+<outline text="Vojta" xmlUrl="http://twitter.com/statuses/user_timeline/14418788.rss" />
+</body>
+</opml>

@@ -1,0 +1,1316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Nejlepší free hosting pro Drupal 6&quot;" href="/crss/node/2420" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Nejlepší free hosting pro Drupal 6 | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_02a36298fc18f7cc1cadbc14f0dcd6ff.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a> » <a href="/forum">Témata fóra</a> » <a href="/forum/vzhled-a-design-webu">Vzhled a design webů</a> » <a href="/forum/webdesign">Webdesign</a></div>        <h2 class="title">Nejlepší free hosting pro Drupal 6</h2>
+        <div class="tabs"></div>
+                  <div class="article  article-2420">
+    <span class="submitted">Vložil/a <a href="/user/yiahimyr" title="Zobrazit profil uživatele.">Yiahimyr</a>, 5 Únor, 2008 - 21:13</span>
+  <div class="pcontent">
+    <div class="forum-kat">
+      <b>Kategorie:</b>
+      Webdesign    </div>
+    <div class="forum-ver">
+      <b>Týká se verze:</b>
+          </div>
+    <p>Ahoj, chci si jen založit takový blog o amatérském filmu a hledám
+vhodný free hosting pro nejnovější verzi Drupalu 6</p>
+
+<p>Například na WebZdarma mají starou verzi PHP (4.3.4. a Drupal
+6 vyžaduje minimálně 4.3.5.), takže nelze vůbec nainstalovat, na profituxu
+mají zase málo PHP paměti (10 MB a Drupal vyžaduje tuším minimálně
+16 MB)</p>
+
+<p>Na InternetCentru jsem to zkusil také a Drupal 6 jsem úspěšně
+nainstaloval, ale hlásí mi to taky nějakou chybu s PHP a s ukládáním
+souborů viz: <a href="http://www.drupal.cz/forum/po-instalaci/php-chyby/problem-s-php-fopen-na-ic-cz">http://www.drupal.cz/…pen-na-ic-cz</a></p>
+
+<p>Prosím tedy o typ, děkuji</p>  <div class="forum-topic-navigation clear-block">
+          <a href="/forum/vzhled-design-webu/webdesign/obrazek-v-nahledu-clanku" class="topic-previous" title="Přejít na předchozí téma.">‹ Obrázek v náhledu článku</a>
+              <a href="/forum/vzhled-design-webu/webdesign/3-obrazky-v-riadku-responzivita-webu" class="topic-next" title="Přejít na následující téma.">3 obrázky v riadku a responzivita webu ›</a>
+      </div>
+  </div>
+  
+  <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+<div id="social-add-2205" class="social-add digglink" onmouseover="showSocials(2205)" onmouseout="hideSocials(2205)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-2205">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6&amp;title=Nejlepší free hosting pro Drupal 6" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6&amp;title=Nejlepší free hosting pro Drupal 6" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6&amp;title=Nejlepší free hosting pro Drupal 6" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div></div> <!-- article end -->
+<div class="article-spacer">&nbsp;</div>
+<div id="comments">
+  <a id="comment-10057"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10057" class="active">nejlepsi free-hosting</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 5 Únor, 2008 - 22:06.  </div>
+
+  <div class="content">
+    <p>pro drupal neexistuje</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10057" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-35818"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-35818" class="active">Zkuste www.endora.cz – budete</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel jiri.vacek (bez ověření) dne 1 Červen, 2011 - 06:45.  </div>
+
+  <div class="content">
+    <p>Zkuste <a href="http://www.endora.cz">www.endora.cz</a> – budete
+překvapeni, byť pro dosažení kýženého není úplně free, ale necelá
+dvě kila v českých na rok … ? :-P</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/35818" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10069"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10069" class="active">Urcite existuje, len treba</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/sonny" title="Zobrazit profil uživatele.">SonnY</a> dne 6 Únor, 2008 - 03:57.  </div>
+
+  <div class="content">
+    <p>Urcite existuje, len treba hladat. U nas zrejme nie ale v zahranici sa
+nejaky urcite najde.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10069" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10273"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10273" class="active">Zahraniční free-hostingy s podporou Drupalu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Epson LQ (bez ověření) dne 15 Únor, 2008 - 12:38.  </div>
+
+  <div class="content">
+    <p>Chystám se začít s Drupalem, takže jsem sháněl nějakej free hosting,
+na kterém bych měl možnost si odzkoušet jeho možnosti na mnou chystaných
+stránkách (demo drupalu super, ale krátká doba trvanlivosti). Zapátral jsem
+tady, ale zatim nic, takže jsem se poohlédl na drupal.org a něco jsem
+nalezl – <a href="https://drupal.org/node/154252">http://drupal.org/node/154252</a> – jsou
+tam asi 3 zahraniční free hostingy pro Drupal (nic moc, ale 6-ka by na nich
+měla běžet). Dneska jsem trochu komunikoval s českým poskytovatelem
+hostingu – hostuju.cz (resp. s panem Daliborem Baníkem – technik) a prý
+by u nich měl Drupal běžet. V černé listině je sice napsáno, že nic
+„příliš malý limit paměti“ (resp. pro PHP), ale možná, že už se
+poměry změnily (zeptal jsem se pana Baníka přímo a odpověď ještě
+nedošla – dám vědět).</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10273" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10275"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10275" class="active">tak Hostuju.cz je predevsim</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 15 Únor, 2008 - 12:42.  </div>
+
+  <div class="content">
+    <p>tak Hostuju.cz je predevsim banan. takze ruce pryc</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10275" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10342"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10342" class="active">Nerozumím...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Epson LQ (bez ověření) dne 17 Únor, 2008 - 19:20.  </div>
+
+  <div class="content">
+    <p>Dobrý den Jakube, trochu nechápu Vaši averzi k banan.cz – jediné, co
+mne napadá, je to, že se nejedná o (dle Vašeho mínění) dobrý hosting. Je
+sice pravda, že upload je trochu utrpení, ale jinak to funguje. Pro
+nezkušené je to možnost free hostingu k odzkoušení drupalu bez nutnosti
+luštit ještě cizí jazyk (i když třeba jen ENG). Moc prosím
+o vysvětlení. Dě­kuji</p>
+
+<p>PS: Bylo by taky dobré, kdybyste Vy sám třeba „nadhodil“ nějaký ze
+„slušnějších“ freehostingů – nebo je snad open source DRUPAL
+v konečném důsledku jen pro platící? Díky za úvahu.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10342" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10344"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10344" class="active">Ja skusenosti s bananom</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 17 Únor, 2008 - 19:34.  </div>
+
+  <div class="content">
+    <p>Ja skusenosti s bananom nemam ale co som zhliadol na internete tak pre
+seriozne pouzitie nic moc. Drupal je dost komplexny system ktory ma svoje
+poziadavky a limity ktore free hostingy typu ic.cz a podobne bud nesplnaju alebo
+ich maju nastavene tak na hranici ze seriozne nie je mozne Drupal vyuzit. Pokial
+to niekto mysli zo svojou strankou seriozne ma moznost odskusat si viac
+platenych hostingov – seriozny hosting poskytne nejake obdobie na odskusanie
+aj zdarma. Pokial sa len hra tak to moze aj doma. Ja mam napr. na svojom PC
+momentalne nahodeny Vmware (virtualny pocitac) s OS FreeBSD na ktorom mam
+nainstalovane komplet prostredie ake pouzivam aj v praci (Apache, Php + vsetky
+mozne kniznice, MySQL, PostgreSQL). A web server mam cez sluzbu <a href="http://www.dyndns.org">www.dyndns.org</a> zverejneny aj na Internet. Na
+hranie to bohate staci. Vid → <a href="http://havran.dyndns.org">http://havran.dyndns.org</a> (vzhladom k tomu
+ze je to obycajne PC tak ked spim ho mam vypnute ;)).</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10344" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-26103"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-26103" class="active">zkus ic.cz – sice se na tom</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/siva01-c" title="Zobrazit profil uživatele.">siva01</a> dne 15 Březen, 2010 - 14:14.  </div>
+
+  <div class="content">
+    <p>zkus ic.cz – sice se na tom Drupal někdy seká, ale na ozkoušení to
+stačí.. aby jsi poznal co asi jde.. ale některé funkce ti tam určitě
+nepůjdou.. třeba jako čistá URL,atd.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/26103" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10346"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10346" class="active">Jakub tu „zhadzuje“</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/sonny" title="Zobrazit profil uživatele.">SonnY</a> dne 17 Únor, 2008 - 20:04.  </div>
+
+  <div class="content">
+    <p>Jakub tu „zhadzuje“ banan z toho dovodu, ze sam poskytuje webhosting a
+teda je prenho reklama konkurencie na jeho vlasnych strankach neprijatelna, co
+je logicke.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10346" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10347"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10347" class="active">Myslim, ze bys mel nechat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 17 Únor, 2008 - 20:15.  </div>
+
+  <div class="content">
+    <p>Myslim, ze bys mel nechat odpoved na me, nemyslis?</p>
+
+<p>Mam averzi ke spamu. Pokud zde nekdo nekdo da odkaz na hosting, tak si ho
+vzdy peclive prohlidnu a udelam si maly screening. Velmi casto zjistim, ze sem
+odkaz dal samotny majitel hostingu se zpravou „Hostuju na XXX a je to super,
+Drupal tam bezi bez problemu“. Takove odkazy mazu (zpravu nechavam, odmazavam
+odkaz). V opacnem pripade je zde nechavam (coz si muzete overit na mnoha
+mistech).</p>
+
+<p>Ma averze k bananu (a to je i odpoved na dotaz vyse) vyplyva z jejich
+proslulosti spamem, jsou snad nejvetsi komentarovi spammeri na ceskem internetu
+(schvalne kouknete do diskusi na lupa.cz). Nehodlam podporovat spammery a jejich
+hostingy, navic s proslule nekompetentni podporou a celkem lzivou nabidkou.</p>
+
+<p>K dalsi casti dotazu: Opravdu bohuzel neznam freehosting pro Drupal :( Za
+urcitych podminek mohu poskytnout misto pro testovani na subdomene Drupal.cz,
+nicmene opravdu pouze pro testovani pod podminkou zaheslovani webu pomoci
+http auth.</p>
+
+<p>Vase paralela OSS Drupal pouze pro platici je naprosto mylna. Drupal nemuze
+za to, ze vetsina provozovatelu hostingu (a natoz freehostingu, ktere se musi
+mirne chranit) s prominutim kripli parametry svych nabidek. Vzdy Drupal muzete
+provozovat na svem vlastnim pocitaci. Zadny konecny dusledek tam neni :-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10347" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10348"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10348" class="active">Ad vlastni hosting: Ano,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 17 Únor, 2008 - 20:19.  </div>
+
+  <div class="content">
+    <p>Ad vlastni hosting: Ano, mame vlastni server, obcas se nekdo ozve, pomaha to
+snizovat naklady na provoz celeho Drupal.cz. Mimochodem z toho duvodu nechci
+jinym hostingum delat reklamu, ale pokud jde o legitimni odkaz, nechavam ho tu.
+Zaroven je tu adsense, kde jsou ted pravidelne dva hostingy.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10348" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-10351"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10351" class="active">Musím se zastat Jakuba! 1.)</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 17 Únor, 2008 - 21:32.  </div>
+
+  <div class="content">
+    <p>Musím se zastat Jakuba! 1.) dost často tady v takových tématech zmiňuju
+jeden kvalitní hosting na který dávám weby všem známým kterým ho
+dělám(a všichni jsou spokojeni) a nikdy mi Jakub ho nesmazal. Na druhou
+stranu když se majitel hostingu(ještě k tomu špatného) vydává za
+zákazníka tak je to unfair. A zatím vždy při smazání odkazu na místě
+zanechal komentář – to je fair.</p>
+
+<p>2.) Drupal.cz je JEHO stránka, platí náklady na její běh tak proč by
+zároveň neudržoval kulturu fóra na dobré úrovni? Záměrně jsem nepoužil
+slovo cenzura protože ta je o něčem jiném.</p>
+
+<p>A komu se to nelíbí at si… …jde jinam.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10351" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-10352"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10352" class="active">Myslim, ze neni ani treba</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 17 Únor, 2008 - 22:37.  </div>
+
+  <div class="content">
+    <p>Myslim, ze neni ani treba byt takhle drsny :-) Zatim si myslim, ze vsichni
+v tomhle vlaknu to mysleli dobre…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10352" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10378"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10378" class="active">Děkuji za odpověď...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Epson LQ (bez ověření) dne 18 Únor, 2008 - 15:10.  </div>
+
+  <div class="content">
+    <p>Děkuji za odpověď i za nabídku – již jsem se pustil do zkoušení na
+tom bananu (resp. hostuju), takže to asi ještě chvilku vydržím. Pod
+„zkoušením Drupalu“ jsem myslel vytvoření webu, který bude bez much,
+aby ho bylo možno implementovat jinam – nejspíš na placený hosting.
+Vyrábím webík pro jedno menší město, takže placení hostingu
+(samozřejmě nijaké přehnané) není až takový problém. Jen z toho taky
+nakonec nemusí nic být, takže si to potřebuju zplodit, odzkoušet a vychytat
+někde bezplatně.</p>
+
+<p>Jinak moc děkuji i za tip na odzkoušení na vlastním počítači, ale
+vhledem k potřebě toho, aby si obsah a funkce mohli odzkoušet i lidé,
+kteří to budou užívat (MěÚ) a nakonec i platit, potřebuji stejně
+hosting.</p>
+
+<p>PS: Důvody ohledně spamerství bananu jsou více než pochopitelné, ale
+snad se mne to při absenci fóra na chystaném webu nebude týkat.</p>
+
+<p>Přeji vše dobré a ještě jednou děkuji.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10378" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-10793"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10793" class="active">Free web v zahranici</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/stanislav" title="Zobrazit profil uživatele.">Stanislav</a> dne 11 Březen, 2008 - 16:11.  </div>
+
+  <div class="content">
+    <p>Seznámil jsem se s <code>Drupalem</code> teprve nedávno, tak jsem si na
+vyzkoušení vybral <a href="http://www.000webhost.com">http://www.000webhost.com</a>. Je tam vše
+<strong>naprosto zadarmo</strong> a mají širokou nabídku. Drupal 6.1 tam
+nemá nejmenších problémů, pokud to já, jako nováček, mohu posoudit.</p>
+
+<p>Problém je jen s vytížeností serverů, jsou na západě USA, posun
+9 hodin, takže večer asi od 19. hodiny, jak Američané začnou pracovat, do
+rána je to pomalé a s výpadky.</p>
+
+<p>Pro stránky s „denním“ provozem mi to vyhovuje. Stanislav</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10793" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-13191"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-13191" class="active">Proboha!!! právě jsem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/bydga" title="Zobrazit profil uživatele.">bydga</a> dne 20 Červenec, 2008 - 08:36.  </div>
+
+  <div class="content">
+    <p>Proboha!!! právě jsem zkoušel ten <a href="http://www.000webhost.com/">http://www.000webhost.com/</a> a ruce pryč!
+ani se nezkoušejte registrovat. Přenášet při registraci data – včetně
+hesla(!!) metodou GET, kdo to kdy viděl. Když jsem spatřil, jak moje heslo
+putuje spolu s URL nevím kam…:(</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/13191" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-10796"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-10796" class="active">proč free hosting?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Zbyněk Š. (bez ověření) dne 11 Březen, 2008 - 17:56.  </div>
+
+  <div class="content">
+    <p>Je takový problém zaplatit si pár kaček za placený hosting? … získat
+technickou podporu atd … Dnes to zase tolik nestojí a pokud si odpustíte
+pár piv, tabulek čokolády, hamburgerů nebo na čem si zrovna ujíždíte,
+tak to určitě váš finanční rozpočet nijak nenaruší…</p>
+
+<p>Zbyněk</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/10796" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-15711"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-15711" class="active">Souhlasim tady se Zbyňkem.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Hawkey (bez ověření) dne 16 Prosinec, 2008 - 18:18.  </div>
+
+  <div class="content">
+    <p>Souhlasim tady se Zbyňkem. Ja osobně nemám s free hostingy dobre
+zkušenosti. Co se týče placených hostingů, tak je naprostá pravda, že
+nejlevnější placený vám dá vše co potřebujete.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/15711" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-11345"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-11345" class="active">banan</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel LakY_cz (bez ověření) dne 7 Duben, 2008 - 16:43.  </div>
+
+  <div class="content">
+    <p>Prave zkousim naistalovat Drupal 6.1 na bananu a kdyz pominu nejake problemy
+s vytvarenim adresare tmp tak dalsi problem s malou pameti jsem vyresil po
+napovede od technika a do souboru .htaccess jsem umistil radek php_value
+memory_limit 32M Tak doufam ze tim taky nekomu pomuzu</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/11345" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-11347"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-11347" class="active">Banan je shit.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 7 Duben, 2008 - 19:21.  </div>
+
+  <div class="content">
+    <p>Banan je shit.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/11347" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-15722"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-15722" class="active">Doporučuji 000webhost, sice</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Banhof (bez ověření) dne 16 Prosinec, 2008 - 22:06.  </div>
+
+  <div class="content">
+    <p>Doporučuji 000webhost, sice zahraniční, ale naprosto bezproblémový,
+32 Mb memory limit, cURL, cron, safe mode off čisté url, možnost vlastní
+domény… Všecko se dá krásně nastavit v jejich administračním
+rozhraní. Škoda jen, že čas od času padá, jinak bych ho používal i pro
+firemní stránky)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/15722" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-15724"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-15724" class="active">000webhost - pomalý</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 16 Prosinec, 2008 - 23:08.  </div>
+
+  <div class="content">
+    <p>Zkoušel jsem to na něm také, ale je strašně pomalý. Buď to dělají
+schválně u bezplatné verze anebo mají zauzlované dráty…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/15724" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-25377"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-25377" class="active">nejen to, ale nepovedlo se mi</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Wolf_Net (bez ověření) dne 11 Únor, 2010 - 22:20.  </div>
+
+  <div class="content">
+    <p>nejen to, ale nepovedlo se mi na to nahodit ani ten Drupal… :-(((((</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/25377" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-19078"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-19078" class="active">Doporučuju vyzkoušet</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 31 Květen, 2009 - 15:07.  </div>
+
+  <div class="content">
+    <p>Doporučuju vyzkoušet <a href="http://www.byethost.com">www.byethost.com</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/19078" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-25376"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-25376" class="active">Díky</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Wolf_Net (bez ověření) dne 11 Únor, 2010 - 21:53.  </div>
+
+  <div class="content">
+    <p>Chci jen poděkovat Standovi za ten link. Chci Drupal jen otestovat a
+v případě úspěchu to přesunu na placenej hosting. Podle mě se hesla
+nikam neposílají, ale možná je někdo chytřejší než já :-) Upload je
+terror, ale lepší než drátem do oka. Resp. Banánem do pr… ehm. Mam
+s těmi spammery své zkušenosti na placeném hostingu. No nic, ještě
+jednou díky…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/25376" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-25750"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-25750" class="active">Endora</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Qitek (bez ověření) dne 3 Březen, 2010 - 08:53.  </div>
+
+  <div class="content">
+    <p>Zdravím všechny Drupalisty. Chtěl bych se zeptat jestli má někdo
+zkušenosti s během drupalu na free hostingu Endora. Předem díky za
+odpovědi.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/25750" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-29580"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-29580" class="active">ahoj, já tam mám free hosting</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/eaon" title="Zobrazit profil uživatele.">Eaon</a> dne 5 Srpen, 2010 - 18:35.  </div>
+
+  <div class="content">
+    <p>ahoj, já tam mám free hosting a zatim vše šlape tak jak má. zanedlouho
+tam zkusim ten plus program a dám vědět.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/29580" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-35819"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-35819" class="active">nemám tám problém, navíc</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel jiri.vacek (bez ověření) dne 1 Červen, 2011 - 06:46.  </div>
+
+  <div class="content">
+    <p>nemám tám problém, navíc průběžně přidávali prostředky takže
+i velikost DB mi bohatě stačí</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/35819" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-33066"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-33066" class="active">kilu.de</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/petostec" title="Zobrazit profil uživatele.">peto.stec</a> dne 11 Leden, 2011 - 17:22.  </div>
+
+  <div class="content">
+    <p>to je asi naj free co može byt pre drupal.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/33066" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-37760"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-37760" class="active">To jste myslel smrtelne</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/zion" title="Zobrazit profil uživatele.">Zion</a> dne 16 Říjen, 2011 - 00:40.  </div>
+
+  <div class="content">
+    <p>To jste myslel smrtelne vazne???? :-O</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/37760" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-33626"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-33626" class="active">endora.cz myslim funguje</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 31 Leden, 2011 - 22:08.  </div>
+
+  <div class="content">
+    <p>endora.cz myslim funguje dobře.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/33626" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-34080"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-34080" class="active">Drupal na Endoře</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel muzikant (bez ověření) dne 19 Únor, 2011 - 11:26.  </div>
+
+  <div class="content">
+    <p>Nemám výraznější problém s Endorou. Pouze mi nejde spustit
+nahrávání souborů na web. Ani těch malých ve verzi + to ale prý Endora
+umožňuje. Zatím to musím řešit jinak. Tak je otázkou nakolik je
+Endora Free</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/34080" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-37202"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-37202" class="active">zkuzte tento zahraniční hosting</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Jindřich (bez ověření) dne 15 Září, 2011 - 08:02.  </div>
+
+  <div class="content">
+    <p>Pokud chcete mít profesionální, spolehlivý a kvalitní webhosting zdarma
+s balíčkem služeb, podporou, s 5 subdoménami, bez reklam, s možností
+vkládat své reklamy atd., doporučuji <a href="https://bit.ly/oSivqu">000webhost</a>. Mám s tímto poskytovatelem
+výborné zkušenosti. Všechny webhostingy co jsem kdy vyzkoušela se tomuto
+zdaleka nevyrovnají. Dále máte možnost si u nich zřídit k free hostigu
+placenou doménu např. mujweb.com, info atd., nebo naopak za velice slušnou
+cenu ( na rozdíl od našich poskytovatelů webhostingu) koupit premium účet
+s doménou zdarma.</p>
+
+<p>Balíček služeb zahrnuje:</p>
+
+<ul>
+	<li>1500 MB prostoru na disku, 100 GB pásma</li>
+
+	<li>CPanel Powered hosting (toto je báječná záležitost, podívejte se co
+	vše panel nabízí a budete mile překvapen))</li>
+
+	<li>Zdarma subdoménu nebo vlastní doménu</li>
+
+	<li>Více než 500 stránek šablon připraveno ke stažení</li>
+
+	<li>Možnost snadného použití webových stránek Builder</li>
+
+	<li>Zdarma POP3 Email Box s Webmail přístupem</li>
+
+	<li>FTP a web se správcem souborů</li>
+
+	<li>PHP, MySQL, Perl, CGI, Ruby.</li>
+</ul>
+
+<p>Jedním kliknutím automaticky nainstalujete tyto skripty:</p>
+
+<ul>
+	<li>WordPress</li>
+
+	<li>Blog b2evolution</li>
+
+	<li>Joomla!</li>
+
+	<li>phpWebSite</li>
+
+	<li>SMF (Simple Machines Forum)</li>
+
+	<li>Coppermine – fotogalerie</li>
+
+	<li>DRUPAL 6</li>
+</ul>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/37202" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-37217"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-37217" class="active">A máte s tímto hostingem</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/agir" title="Zobrazit profil uživatele.">agir</a> dne 15 Září, 2011 - 21:01.  </div>
+
+  <div class="content">
+    <p>A máte s tímto hostingem konkrétní zkušenost? Já jsem při zběžném
+googlování zjistil toto:<br />
+Nikde jsem nenašel, jaký je Memorylimit<br />
+Našel jsem dost negativních zkušeností s tímto hostingem např. <a href="https://drupal.org/node/618912">http://drupal.org/node/618912</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/37217" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-37225"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-37225" class="active">J:pokud už musíte mít Drupal</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/berkas1" title="Zobrazit profil uživatele.">berkas1</a> dne 16 Září, 2011 - 08:12.  </div>
+
+  <div class="content">
+    <p>J:pokud už musíte mít Drupal na freehostingu tak bych šel na českou
+endoru… a odstraňte ten refferal!</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/37225" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-37687"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-37687" class="active">Free? Při dnešních cenách nesmysl</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/marektp" title="Zobrazit profil uživatele.">MarekTP</a> dne 11 Říjen, 2011 - 18:37.  </div>
+
+  <div class="content">
+    <p>Obávám se, že při dnešních cenách je nesmysl řešit Freehosting,
+pokud si nechcete jen chvíli hrát. Já používám snad na všechny weby
+(pokud mne zákazník nepředběhl s výběrem) <a href="http://www.klenot.cz">http://www.klenot.cz</a> a asi tu nejsem jediný
+jejich absolutně spokojený zákazník.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/37687" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-37762"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-37762" class="active">Věřim, že služba bude</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 16 Říjen, 2011 - 09:23.  </div>
+
+  <div class="content">
+    <p>Věřim, že služba bude kvalitní ale peněz chtěj dost.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/37762" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-37693"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-37693" class="active">Ahoj, pokud mas jeste zajem,</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/samgarr" title="Zobrazit profil uživatele.">Samgarr</a> dne 11 Říjen, 2011 - 23:02.  </div>
+
+  <div class="content">
+    <p>Ahoj, pokud mas jeste zajem, muzu ti nabidnout hosting prakticky zadarmo na
+me vps, Drupal tam bezi spolehlive. Staci poslat zpravu a muzem se domluvit.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/37693" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-67511"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-67511" class="active">Nejlepší webhosting</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 26 Červen, 2013 - 11:56.  </div>
+
+  <div class="content">
+    Nejlepší není ten, který je zdarma, ale ten, za který dostaneš prachy
+:-D<br />
+<br />
+Odměna více jak 1 000 Kč za koupi profi hostingu, který je za necelé
+3 stovky za rok (do 30.6. poté je odměna stále něco přes 1000 Kč pro
+nové zákazníky, ale cena hostingu se zvedne) a máš ho na rok bez úvazku.
+Nevěříš? Jedná se o novou službu, o které lidé zatím moc nevědí.<br />
+<br />
+Podrobnosti jsou na adrese:<br />
+ http://www.ziskejte.cz/godaddycom  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/67511" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-67541"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-67541" class="active">Nejlepší webhosting</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 26 Červen, 2013 - 17:40.  </div>
+
+  <div class="content">
+    Díval jsem se na ty stránky www.ziskejte.
+cz a můžu všem vřele doporučit. Kromě hostingu tam mají ještě spoustu
+dalších zajímavých nabídek  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/67541" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-67591"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-67591" class="active">Tenhle SPAM akorát zmněnej</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/gynekolog" title="Zobrazit profil uživatele.">Gynekolog</a> dne 26 Červen, 2013 - 21:55.  </div>
+
+  <div class="content">
+    <p>Tenhle SPAM akorát zmněnej web diskredituje (a dobře mu tak). Už neni
+rok 2004.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/67591" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-82776"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-82776" class="active">nejlepší webhosting</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 20 Říjen, 2014 - 14:56.  </div>
+
+  <div class="content">
+    Pokud nechcete platit moc za hostingy, mrknete treba sem : :-) Vážně
+dobré srovnání na a http://www.nejlepsi-webhostingy.cz/  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/82776" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-82781"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6#comment-82781" class="active">Velmi nadnesene</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/finnhappy" title="Zobrazit profil uživatele.">finnhappy</a> dne 20 Říjen, 2014 - 15:22.  </div>
+
+  <div class="content">
+    <p>Velmi nadnesene hodnoceni…rozhodne si pod „vazne dobre srovnani“
+predstavuju neco zcela jineho. Ale pokud jste chtel udelat reklamu…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/2420/82781" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/2420"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-66b6b96ff96a16a1069473395b326adf" value="form-66b6b96ff96a16a1069473395b326adf"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/forum/vzhled-design-webu/webdesign/nejlepsi-free-hosting-pro-drupal-6?destination=node%2F2420"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-0fa4a6949c24c8af0e737b088d1cf15d" value="form-0fa4a6949c24c8af0e737b088d1cf15d"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/cfd-trading" class="tagadelic level1">cfd trading</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/jak-vyhledavat-v-poli-soubor-multiupload-views" title="2 komentáře">Jak vyhledávat v poli soubor (multiupload) - VIEWS</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 5 hod 55 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 1 den 20 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 2 dny 19 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 3 dny 23 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 4 dny 12 min</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 5 dnů 18 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 5 dnů 22 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 14 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 3 dny</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103991">no ten clon nieje vhodne</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":553,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

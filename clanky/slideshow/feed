@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal.cz - slideshow</title>
+ <link>https://www.drupal.cz/taxonomy/term/524/0</link>
+ <description></description>
+ <language>cs</language>
+<item>
+ <title>Slideshow - srovnání modulů</title>
+ <link>https://www.drupal.cz/blog/ema/slideshow-srovnani-modulu</link>
+ <description>&lt;p&gt;Dotazy typu „poraďte modul na automatické střídání obrázků“
+mívají povahu výstřelu naslepo a dost těžko se na ně odpovídá. Proto se
+mi docela líbí srovnání modulů, které něco v tomto stylu umí: &lt;a href=&quot;http://drupal.org/node/418616&quot;&gt;http://drupal.org/node/418616&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/ema/slideshow-srovnani-modulu#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/image">image</category>
+ <category domain="https://www.drupal.cz/clanky/slideshow">slideshow</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/5621</wfw:commentRss>
+ <pubDate>Mon, 03 Aug 2009 07:41:54 +0000</pubDate>
+ <dc:creator>Eva Rázgová</dc:creator>
+ <guid isPermaLink="false">5621 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

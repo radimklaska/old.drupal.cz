@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>kryber&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/kryber</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Reference</title>
+ <link>https://www.drupal.cz/blog/kryber/reference</link>
+ <description>&lt;p&gt;Dobrý den,&lt;/p&gt;
+
+&lt;p&gt;moje drupal reference jsou&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.602.cz&quot;&gt;www.602.cz&lt;/a&gt; &lt;a href=&quot;http://www.secustamp.com&quot;&gt;www.secustamp.com&lt;/a&gt; &lt;a href=&quot;http://www.kreslenyvtip.cz&quot;&gt;www.kreslenyvtip.cz&lt;/a&gt; &lt;a href=&quot;http://www.bezpapiru.cz&quot;&gt;bezpapiru.cz&lt;/a&gt; &lt;a href=&quot;http://www.jonatanmusic.cz&quot;&gt;jonatanmusic.cz&lt;/a&gt; at­d.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kryber/reference#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/reference">reference</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/18356</wfw:commentRss>
+ <pubDate>Mon, 25 Mar 2013 10:06:06 +0000</pubDate>
+ <dc:creator>kryber</dc:creator>
+ <guid isPermaLink="false">18356 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

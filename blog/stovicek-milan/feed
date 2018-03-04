@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>stovicek.milan&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/stovicek-milan</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Pathauto a nové aliasy</title>
+ <link>https://www.drupal.cz/blog/stovicekmilan/pathauto-nove-aliasy</link>
+ <description>&lt;p&gt;Ahoj,&lt;br /&gt;
+používám v nastavení &lt;a href=&quot;http://drupal.org/project/pathauto&quot;&gt;Pathauto&lt;/a&gt; modulu na možnost&lt;br /&gt;
+&lt;cite&gt;Create a new alias. Leave the existing alias functioning.&lt;/cite&gt;&lt;br /&gt;
+tedy česky&lt;br /&gt;
+&lt;cite&gt;Ponechat starý alias a vytvořit nový.&lt;/cite&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/stovicekmilan/pathauto-nove-aliasy&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/stovicekmilan/pathauto-nove-aliasy#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-6x">Drupal 6.x</category>
+ <category domain="https://www.drupal.cz/clanky/pathinc">path.inc</category>
+ <category domain="https://www.drupal.cz/clanky/pathauto">pathauto</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/6865</wfw:commentRss>
+ <pubDate>Thu, 21 Jan 2010 11:50:10 +0000</pubDate>
+ <dc:creator>stovicek.milan</dc:creator>
+ <guid isPermaLink="false">6865 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>jirkahordas&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/jirkahordas</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Je to dělané v Drupalu? </title>
+ <link>https://www.drupal.cz/blog/jirkahordas/je-delane-v-drupalu</link>
+ <description>&lt;p&gt;Dobrý den,&lt;/p&gt;
+
+&lt;p&gt;rád bych se zeptal, jestli mohou být stránky &lt;a href=&quot;http://www.stavebnichemie.info/izolace-zatepleni/&quot; title=&quot;Izolace a zateplení&quot;&gt;Izolace a zateplení&lt;/a&gt; dělané v Drupalu,
+případně jak se to pozná.&lt;/p&gt;
+
+&lt;p&gt;Díky za radu.&lt;/p&gt;
+
+&lt;p&gt;Jirka&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jirkahordas/je-delane-v-drupalu#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/45911</wfw:commentRss>
+ <pubDate>Sun, 22 Feb 2015 13:33:43 +0000</pubDate>
+ <dc:creator>jirkahordas</dc:creator>
+ <guid isPermaLink="false">45911 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

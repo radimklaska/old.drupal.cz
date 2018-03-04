@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>jasom&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/jasom</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Jak poslat email autorovi nodu po odeslání formuláře (Webform)</title>
+ <link>https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform</link>
+ <description>&lt;p&gt;V tomto návodu vám ukážu jak poslat email autorovi nodu po odeslání
+formuláře pomocí modulů Webform + Token. Ukážu to na příkladu „když
+návštěvník odešle webformový blok, pošli email s nadpisem a URL adresou
+nodu jeho autorovi.“&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jasom/jak-poslat-email-autorovi-nodu-po-odeslani-formulare-webform#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/emaily">emaily</category>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <category domain="https://www.drupal.cz/clanky/token">token</category>
+ <category domain="https://www.drupal.cz/clanky/webform">webform</category>
+ <enclosure url="https://www.drupal.cz/files/webform-contact-author.jpg" length="31968" type="image/jpeg" />
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/52026</wfw:commentRss>
+ <pubDate>Sat, 19 Sep 2015 09:29:50 +0000</pubDate>
+ <dc:creator>jasom</dc:creator>
+ <guid isPermaLink="false">52026 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Hierarchický výpis termínov z taxonomy slovníka pomocou views</title>
+ <link>https://www.drupal.cz/blog/jasom/hierarchicky-vypis-terminov-z-taxonomy-slovnika-pomocou-views</link>
+ <description>&lt;p&gt;Hierarchický výpis termínov z taxonomy slovníka pomocou views – &lt;a href=&quot;http://jasom.net/blog/videonavody/hierarchicky-vypis-terminov-z-taxonomy-slovnika-pomocou-views&quot;&gt;videonavod&lt;/a&gt;.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jasom/hierarchicky-vypis-terminov-z-taxonomy-slovnika-pomocou-views#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/drupal-6x">Drupal 6.x</category>
+ <category domain="https://www.drupal.cz/clanky/hierarchia">hierarchia</category>
+ <category domain="https://www.drupal.cz/clanky/taxonomy">taxonomy</category>
+ <category domain="https://www.drupal.cz/clanky/term">term</category>
+ <category domain="https://www.drupal.cz/clanky/views">views</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8197</wfw:commentRss>
+ <pubDate>Wed, 08 Sep 2010 14:39:39 +0000</pubDate>
+ <dc:creator>jasom</dc:creator>
+ <guid isPermaLink="false">8197 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Drupal webform module to lightbox popup for feedback</title>
+ <link>https://www.drupal.cz/blog/jasom/drupal-webform-module-lightbox-popup-feedback</link>
+ <description>&lt;p&gt;This screencast is about creating own drupal feedback form using &lt;a href=&quot;http://drupal.org/project/webform&quot;&gt;webform&lt;/a&gt; and &lt;a href=&quot;http://drupal.org/project/lightbox2&quot;&gt;lightbox&lt;/a&gt; module. We will need &lt;a href=&quot;http://drupal.org/node/223440&quot;&gt;this&lt;/a&gt; snippet&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/jasom/drupal-webform-module-lightbox-popup-feedback&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/jasom/drupal-webform-module-lightbox-popup-feedback#comments</comments>
+ <category domain="https://www.drupal.cz/clanky/navod">navod</category>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/8044</wfw:commentRss>
+ <pubDate>Wed, 18 Aug 2010 10:35:43 +0000</pubDate>
+ <dc:creator>jasom</dc:creator>
+ <guid isPermaLink="false">8044 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

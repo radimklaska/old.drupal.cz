@@ -1,0 +1,1287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Proboha, přestaňte používat uložená hesla v Total Commanderu&quot;" href="/crss/node/4867" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+ <title>Proboha, přestaňte používat uložená hesla v Total Commanderu | Drupal.cz</title>
+ <link type="text/css" rel="stylesheet" media="all" href="https://www.drupal.cz/files/css/css_89f0b64afb4ba47f586bd984f765f0a7.css" />
+ <script type="text/javascript" src="https://www.drupal.cz/files/js/js_3cffbb4ecbf8b1f233adbe5dbc1766f6.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":1,"disable_zoom":0,"force_show_nav":0,"show_caption":true,"loop_items":0,"node_link_text":"Zobrazit detaily obr\u00e1zku","node_link_target":0,"image_count":"Obr\u00e1zek !current z !total","video_count":"Video !current z !total","page_count":"Str\u00e1nka !current z !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"thickbox":{"close":"Close","next":"Next \u003e","prev":"\u003c Prev","esc_key":"or Esc Key","next_close":"Next \/ Close on last","image_count":"Image !current of !total"},"BUE":{"templates":{"e11":{"iconpath":"\/sites\/all\/modules\/bueditor\/icons","buttons":[["Bold","\u003cstrong\u003e%TEXT%\u003c\/strong\u003e","bold.png","B"],["Italic","\u003cem\u003e%TEXT%\u003c\/em\u003e","italic.png","I"],["tpl:dot","","dot.png",""],["Quote","\u003cblockquote\u003e%TEXT%\u003c\/blockquote\u003e","quote.png","Q"],["Code","\u003ccode\u003e%TEXT%\u003c\/code\u003e","code.png","D"],["tpl:dot","","dot.png",""],["Number list","js:\nvar pos = E.replaceSelection('\u003col\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ol\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ol.png","O"],["Bullet list","js:\nvar pos = E.replaceSelection('\u003cul\u003e\\n  \u003cli\u003e' + E.getSelection().replace(\/\\r\\n?|\\n\/g, '\u003c\/li\u003e\\n  \u003cli\u003e') + '\u003c\/li\u003e\\n\u003c\/ul\u003e').posSelection().end - 11;\nE.makeSelection(pos, pos);","ul.png","N"]],"sprite":{"url":"https:\/\/www.drupal.cz\/files\/bueditor-sprites\/sprite_a0cff729d420b9790b7f6a1df1522495.png","unit":20,"x1":"\/sites\/all\/modules\/bueditor\/icons\/x1.png"}}},"preset":{"edit-comment":"e11"}}});
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "https://www.drupal.cz/sites/all/modules/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="https://www.drupal.cz/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+   <script type="text/javascript"> </script>
+</head>
+<body>
+<div id="container">
+<p id="goto"><a href="#main-text">Přeskočit přímo na text</a></p>
+<div id="header">
+ <h1><a href="/">Drupal.cz<span></span></a></h1>
+  <div id="mainnav">
+   <h4 class="hide">Hlavní navigace</h4>
+  <ul>
+<li><a href="/o-systemu-drupal"><span>O Drupalu</span></a></li>
+<li><a href="/blog"><span>Blogy</span></a></li>
+<li><a href="/faq"><span>FAQ</span></a></li>
+<li><a href="/forum"><span>Fórum</span></a></li>
+<li><a href="/prezentace"><span>Prezentace</span></a></li>
+<li><a href="/preklad-drupalu-do-cestiny-zakladni-informace"><span>Překlady</span></a></li>
+<li><a href="/katalog"><span>Katalog</span></a></li>
+<li><a href="/ke-stazeni"><span>Stáhnout</span></a></li>
+<li><a href="/sluzby"><span>Služby</span></a></li>
+<li><a href="/staff"><span>Drupal.cz tým</span></a></li>
+</ul>
+  </div> <!-- mainnav end -->
+</div> <!-- header end -->
+
+<div id="main">
+  <hr class="block-separator" />
+ <div class="text" id="main-text">
+  <div class="maintext">
+   
+  <div class="articles">
+<!--   <hr />
+   <h2>Články</h2>-->
+  </div> <!-- articles header end -->
+        <div class="breadcrumb"><a href="/">Domů</a> » <a href="/blog">Blogy</a> » <a href="/blog/jakub-suchy">Jakub Suchý&#039;s blog</a></div>        <h2 class="title">Proboha, přestaňte používat uložená hesla v Total Commanderu</h2>
+        <div class="tabs"></div>
+          <div class="messages error">
+ <ul>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+  <li>GeSHi library error: <em>modules/geshifilter/geshi</em> is not a directory.</li>
+ </ul>
+</div>
+          <div class="article  article-4867">
+    <span class="submitted">Vložil/a <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a>, 19 Březen, 2009 - 16:14</span>
+    <div class="pcontent"><p>Dnes řeším teprve druhý hack webu provedený přes uložená hesla
+v Total Commanderu. Copak toho nebude nikdy dost? Nejlepší je, že většina
+lidí nejdříve obviňuje svůj CMS.</p>
+
+<p>První případ se ozval přes e-mail, že prý hacked. Zatím jsme nedošli
+k výsledku, ale symptomy vedou na typický Total Commander.</p>
+
+<p>Druhý případ na jednom dedikovaném serveru od nejmenované společnosti.
+Byl jsem nucen restartovat apache a jelikož má cache souborů, změny se
+neprojeví, dokud to neudělám. Hned po restartu – parse error v index.php.
+Divím se a pohledem nacházím krásný javascript vložený přímo na konec.
+Naštěstí s parse error :-) Zarazil jsem to tedy dříve než se něco mohlo
+stát návštěvníkům webu.</p>
+
+<p>Kontaktoval jsem majitele a říkám rovnou: Máte Total Commander? Ano
+mám…A máte v něm uložená hesla? Ano mám…A jsme doma :-) Druhý
+pohled do logů FTP serveru ukázal nahrané soubory index.php do celého webu.
+Se standardním přihlášením pomocí jména a hesla. To fakt není chyba
+Drupalu.</p>
+
+<h2>Jak to funguje?</h2>
+
+<p>Prvním předpokladem je používání MS Windows a Total Commanderu. Někde
+chytíte virus (no tak, chyťte se za nos, každý koukáme na nahotinky). Ten
+vezme Váš soubor s hesly do TC, rozšifruje ho (dá se tomu pak říkat
+šifrování?) a na každý uložený FTP účet nahraje škodlivý
+javascript kód.</p>
+
+<p>Jednoduché :-)</p>
+
+<h2>Jak se bránit?</h2>
+
+<p>Nejdříve – nepoužívejte Total Commander. Ten program je zlo. Pokud už
+musíte, neukládejte si v něm hesla. Co třeba WinSCP?</p>
+
+<p>Doporučuji rovněž zvážit přechod na Linux. Předpokládám, že
+relativně bezpečnější Firefox místo IE už máte.</p>
+
+<h2>Jsem napaden, co teď?</h2>
+
+<p>Prvním krokem je odvirování Vašeho počítače. Že nic antivirus
+nenachází? Pořiďte si jiný. Co anti-spyware?</p>
+
+<p>Druhým krokem je odstranění škodlivého kódu ze všech webů – virus
+vyhledává všechny index.* soubory ze všech uložených účtů.</p>
+
+<p>Třetím krokem je změna hesel k FTP pro všechny Vaše účty.</p>
+
+<p>Čtvrtým krokem je přechod na Drupal. Proč? Jen tak, s útokem to
+nesouvisí, ale je to lepší než Wordpress :-)</p><div class="nodeauthor-info"><span>About the author</span>není</div></div>
+    <div class="links"></div> <!-- social-links end -->
+</div> <!-- social-add end -->
+<div class="morelinks">
+
+<a href="/blog/jakub-suchy" title="Read Jakub Suchý&#039;s latest blog entries." class="blog_usernames_blog">Jakub Suchý&#039;s blog</a>
+<div id="social-add-8511" class="social-add digglink" onmouseover="showSocials(8511)" onmouseout="hideSocials(8511)"><a class="social-href-link" href="#">Linkni to!</a>
+<div class="social-links" id="social-links-8511">
+
+<a href="http://www.jagg.cz/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu&amp;title=Proboha, přestaňte používat uložená hesla v Total Commanderu" class="cs_social_Jagg.cz">Jagg.cz</a>
+
+<a href="http://linkuj.cz/?id=linkuj&amp;url=https://www.drupal.cz/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu&amp;title=Proboha, přestaňte používat uložená hesla v Total Commanderu" class="cs_social_Linkuj.cz">Linkuj.cz</a>
+
+<a href="http://asdf.sk/submit.php?url=https://www.drupal.cz/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu" class="cs_social_Asdf.sk">Asdf.sk</a>
+
+<a href="http://www.mojelinky.sk/bookmarks.php?action=add&amp;address=https://www.drupal.cz/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu&amp;title=Proboha, přestaňte používat uložená hesla v Total Commanderu" class="cs_social_Mojelinky.sk">Mojelinky.sk</a>
+</div> <!-- morelinks end -->
+ 
+</div>  </div> <!-- article end -->
+  <div class="article-spacer">&nbsp;</div>
+
+
+<div id="comments">
+  <a id="comment-17785"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17785" class="active">Doporučení</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://www.accessdenied.cz/" rel="nofollow">Axis</a> (bez ověření) dne 19 Březen, 2009 - 20:35.  </div>
+
+  <div class="content">
+    <p>Hlavně dopoučuji důrazně nepoužívat dekodér hesel z Total commanderu,
+protože nekterý hesla nejen dekóduje, ale také odesílá na cizí server.
+A mimochodem – pokud spoléháte na na NOD32, zkuste radši Avira
+Antivir.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17785" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-28488"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-28488" class="active">RE: Doporučení</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Karel M. (bez ověření) dne 20 Červen, 2010 - 14:31.  </div>
+
+  <div class="content">
+    <p>Zřejmě pán nemá s antivirem od firmy ESET žádné zkušenosti.
+Domnívám se, že i laik pozná rozdíl mezi kvalitním antivirem, jako je
+ESET a nějaká Avira. Navíc jsou na internetu dostupné
+i výsledky testů!</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/28488" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-17794"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17794" class="active">Nepoužívejte TC a jděte na</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Rotačák (bez ověření) dne 20 Březen, 2009 - 10:17.  </div>
+
+  <div class="content">
+    <p>Nepoužívejte TC a jděte na linux. To je hezkej vtip.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17794" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17802"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17802" class="active">jj, a neukladejte hesla</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 20 Březen, 2009 - 13:46.  </div>
+
+  <div class="content">
+    <p>jj, a neukladejte hesla zrovna tak. jsou to sice vrata jako krava ale proboha
+snad nemyslis vazne prejit na winscp? nepovazuju se za uplnou lamu, ale ja se
+nedokazal ani pripojit, natoz s tim efektivne pracovat. to je to same jako
+napsat neukladejte hesla ve ff a opere.</p>
+
+<p>neni jednodussi proste nelezt na prasarny, warez apod? a ikdyz uz tak ve
+virtualboxu dejme tomu i s linuxem na takove to obcasne pokuseni a hotovo.</p>
+
+<p>dirou nejsou programy ale uzivatele.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17802" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17804"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17804" class="active">Ja vas k nicemu prece</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 20 Březen, 2009 - 16:22.  </div>
+
+  <div class="content">
+    <p>Ja vas k nicemu prece nenutim. Ale WinSCP je suverenne nejlepsi v soucasne
+dobe. Klidne prejdete na FIlezillu nebo jiny FTP klient, je to jedno. Ja mluvim
+o nebezpecnosti TC.</p>
+
+<p>A prechod na Linux? Proc ne? Nikdo Vas zase nenuti. Prestante prosim
+trollovat.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17804" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-25731"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-25731" class="active">Fille Zilla - malware</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="http://.boty-hanak.cz" rel="nofollow">Baxa</a> (bez ověření) dne 2 Březen, 2010 - 12:35.  </div>
+
+  <div class="content">
+    <p>Také mám tu zkušenost s TCommanderem. Bohužel stejnou skušenost jsem
+udělal i u Fille Zilla. Za poměrně bezpečný považuju CuteFp <a href="http://www.cuteftp.com/">http://www.cuteftp.com/</a>.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/25731" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-17820"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17820" class="active">WinSCP je nejlepší klient co</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 20 Březen, 2009 - 19:27.  </div>
+
+  <div class="content">
+    <p>WinSCP je nejlepší klient co znám. Když jsem to před pár měsíci
+zkoušel s Linuxem, marně jsem hledal nějakou alternativu, co by se mu
+vyrovnala…</p>
+
+<p>Největší „úlet“ je funkce sledování adresáře (Ctrl-U), což je
+synchronizace lokálních souborů se serverem v reálném čase…</p>
+
+<p>Kromě toho myslím nemá TC ani synchronizované procházení (Ctrl-Alt-B),
+kdy procházíte v obou panelech adresářovou strukturou synchronně. Nebo
+možnost kdykoliv se přepnout do terminálu putty.</p>
+
+<p>Jediná výhoda TC oproti WinSCP je ta, že je to primárně File Manager,
+takže je více univerzální. Dřív jsem používal spíš TC, WinSCP jen
+výjimečně na SFTP a SCP přístup, ale postupně jsem začal čím dál víc
+oceňovat silné stránky WinSCP. Teď už bych se k TC nevrátil ani
+náhodou.</p>
+
+<p>Ale proti gustu žádný dišputát :-) Každý má právo na „svého
+nejlepšího“ FTP klienta. Ale v případě nutkání skladovt hesla v TC
+raději použijte Keepass Password Safe, obzvlášť pokud tam nemáte účty
+jen ke svým webům. A nebo si zkuste zvyknout na WinSCP ;-)</p>
+
+<p>UPDATE: Jak jsem zjistil, WinSCP je na tom s „ochranou“ hesel k účtům
+pravděpodobně stejně jako TC, viz můj příspěvek níže…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17820" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-19986"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-19986" class="active"> Ten program je zlo.....MAGOR</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 19 Červenec, 2009 - 00:03.  </div>
+
+  <div class="content">
+    <p>Nejdříve – nepoužívejte Total Commander. Ten program je zlo</p>
+
+<p>to snad ani nemá cenu komentovat, ten člověk je duševně postižený</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/19986" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-18392"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-18392" class="active">:-)))))</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Grovik (bez ověření) dne 16 Duben, 2009 - 21:04.  </div>
+
+  <div class="content">
+    <p>tak co jinej FTP klient? :-))</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/18392" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-19416"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-19416" class="active">jj toto může jen tak z fleku</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 19 Červen, 2009 - 15:11.  </div>
+
+  <div class="content">
+    <p>jj toto může jen tak z fleku napsat fakt jednostraně orientovaný n00b…
+jako by nebyla žádná alternativa…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/19416" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-33325"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-33325" class="active">TAKY SEM SE ZASMAL :D</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 22 Leden, 2011 - 20:26.  </div>
+
+  <div class="content">
+    <p>TAKY SEM SE ZASMAL :D</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/33325" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-17806"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17806" class="active">Rozumím tomu tak, že WinSCP</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/libor" title="Zobrazit profil uživatele.">libor</a> dne 20 Březen, 2009 - 16:41.  </div>
+
+  <div class="content">
+    <p>Rozumím tomu tak, že WinSCP má lépe zabezpečená hesla a lze je mít
+v něm uložená? Mne se zdá jinak WinSCP poměrně (práce s ním
+i přihlášení) velmi podobné TC takže bych je někde uložené
+mít chtěl.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17806" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-17814"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17814" class="active">test</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 20 Březen, 2009 - 18:53.  </div>
+
+  <div class="content">
+    <p>test</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17814" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<a id="comment-17832"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17832" class="active">Hmmm</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 20 Březen, 2009 - 23:49.  </div>
+
+  <div class="content">
+    <p>Asi budu ten první případ :-)</p>
+
+<p>Ano, používám TC a Win a mám v něm uložená hesla. Ale proč potom
+tadle svině napadá jen hosting s Drupalem a ne další projekty? Tam se tento
+trojan nikdy nedostal.</p>
+
+<p>A jak ho vlastně může napadat skrz FTP, když mám na PC antivir –
+avast, ten na rozdíl od jiných – např. AVG tento trojan nikdy nenajde –
+spolehlivě detekuje, používám firewall a spybota…</p>
+
+<p>Nebo si někde na zastrčeném serveru ukládá hesla a opakovaně napadá
+servery ze své databáze? Ale pak by taky napadl všechny ostatní, ke kterým
+mám hesla v TC uložená a ne jen ten jeden, kde je Drupal. Náhoda?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17832" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17834"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17834" class="active">Ale to že to napadá “jen”</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 21 Březen, 2009 - 02:09.  </div>
+
+  <div class="content">
+    <p>Ale to že to napadá „jen“ Drupal to tu přece nikdo netvrdí… napadá
+to soubory index.php … a řekl bych že i klidně index.html a index.aspx …
+Jistota je mít hesla uložená jinde … na windows např. v Keepass Password
+Safe. Jen tak pro zajímavost jsem koukal jak zabezpečená hesla jsou ve WinSCP
+… a je na tom asi stejně jako TC, jen se na něj zatím útočníci
+nezaměřili…</p>
+
+<p>Dokumentace WinSCP (<a href="https://winscp.net/eng/docs/security#stored_credentials">http://winscp.net/…ocs/security#…</a>)</p>
+
+<p>„Saved passwords are stored in a manner that they can easily be recovered.
+It is not possible to securely encrypt passwords in a way that still allows for
+automatic use. Do not use the save password feature if you are not absolutely
+sure of the physical and electronic security of the system on which you are
+storing passwords.“</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17834" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17836"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17836" class="active">Zda sa, ze si kupim malu</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/frankye" title="Zobrazit profil uživatele.">frankye</a> dne 21 Březen, 2009 - 08:39.  </div>
+
+  <div class="content">
+    <p>Zda sa, ze si kupim malu nastenku a pripnem tam papierik na ktory si budem
+pisat hesla:-)) A k tomu Avastu …Pri prechode z Avastu na uz zmieneny NOD32
+mi nasiel NOD zhruba 350 infikovanych suborov. A tak podla mna antivir treba,
+ale netreba sa na neho spoliehat.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17836" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17837"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17837" class="active">http://keepass.info
+
+	apt-g</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 21 Březen, 2009 - 10:04.  </div>
+
+  <div class="content">
+    <ul>
+	<li><a href="http://keepass.info">http://keepass.info</a></li>
+
+	<li>apt-get install revelation</li>
+
+	<li>a spousta dalsich</li>
+</ul>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17837" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-22567"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-22567" class="active">seahorse</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel hxpro (bez ověření) dne 5 Listopad, 2009 - 09:33.  </div>
+
+  <div class="content">
+    <p>Jaka je vyhoda revalation oproti seahorse? Pouzivam klasickou klicenku
+v gnome.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/22567" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-22568"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-22568" class="active">keylogger</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel hxpro (bez ověření) dne 5 Listopad, 2009 - 09:38.  </div>
+
+  <div class="content">
+    <p>nejsem si jistej ze nastenka s heslama je zrovna to spravne reseni :D</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/22568" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-17842"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17842" class="active">Re:Ale to že to napadá “jen”</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 21 Březen, 2009 - 12:45.  </div>
+
+  <div class="content">
+    <p>Asi Vám uniklo, kam mířím, kdyby se to skutečně šířilo díky heslům
+uloženým v TC, tak proč to nenapadá všechny projekty, jen ten jeden?
+A zrovna ten, kde je Drupal. Jste si opravdu jistí, že to je díky heslům
+uloženým v TC? Proč pak nenapadá veškeré index.* soubory i na dalších
+projektech?</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17842" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17843"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17843" class="active">Samozrejme si nejsme jisti.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 21 Březen, 2009 - 12:52.  </div>
+
+  <div class="content">
+    <p>Samozrejme si nejsme jisti. Jsou to vase weby, vas pocitac. My vam tam
+nevidime. Uprimne receno – je to hloupa otazka…</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17843" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17874"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17874" class="active">Tak Vám děkujeme za</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 22 Březen, 2009 - 19:20.  </div>
+
+  <div class="content">
+    <p>Tak Vám děkujeme za „nehloupou“ odpověď</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17874" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-17845"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17845" class="active">Pokial ma ten pristup na FTP</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/havran" title="Zobrazit profil uživatele.">Havran</a> dne 21 Březen, 2009 - 14:09.  </div>
+
+  <div class="content">
+    <p>Pokial ma ten pristup na FTP niekto druhy moze to byt jeho problem.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17845" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17865"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17865" class="active">ano, s timto jsem se</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 22 Březen, 2009 - 10:54.  </div>
+
+  <div class="content">
+    <p>ano, s timto jsem se nekolikrat take setkal – sam jedu pres ftps , ale
+nekdo z lidi kteri si pak na web nahravaji fotky do galerii zabezpeceny pristup
+proste nepouzivaji a tam je pak problem. nastesti je v drupalu jen
+1 index.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17865" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div></div></div><a id="comment-17970"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17970" class="active">Total Commander je zlo :-) Aha.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Filip S. (bez ověření) dne 25 Březen, 2009 - 19:30.  </div>
+
+  <div class="content">
+    <p>Tak za a) Tohle neni chyba TC ale uzivatelu b) lepsi spravce souboru neznam
+c) viz. doporuceni prejdete na linux kde nebudete mit viry. No jsem zvedavej
+(az/jestli) bude mit linux napr. 50% misto stavajich 1% jestli bude stale bez
+viru :-D</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17970" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-17978"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-17978" class="active">Viry pro Linux uz existuji.</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 25 Březen, 2009 - 22:20.  </div>
+
+  <div class="content">
+    <p>Viry pro Linux uz existuji. Ale v podstate se nesiri. Protoze filosofie toho
+systemu je uplne jina.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/17978" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-18171"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-18171" class="active">Cizí skript ve všech .php souborech</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ema" title="Zobrazit profil uživatele.">Eva Rázgová</a> dne 2 Duben, 2009 - 08:43.  </div>
+
+  <div class="content">
+    <p>Moc díky za upozornění, teď jsem to s někým taky řešila, takže mi
+to dost pomohlo… Velmi podobné, TC a parse error na webu. S tím rozdílem,
+že skript byl vložený nejen v index.php, ale <strong>ve všech .php
+souborech v kořenovém adresáři s instalací</strong>.<br />
+Btw., asi přidám nějakou „poučku“ o těch heslech do smlouvy pro
+klienty. Ten člověk totiž při zadávání nového připojení v TC vyplnil
+heslo a netušil, že se to i s tím heslem uloží. To je podle mě jedna
+z nevýhod TC; ve WinSCP je k uložení hesla třeba jeden krok navíc
+(zaškrtnutí políčka), což už asi každého trkne.<br />
+</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/18171" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-18181"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-18181" class="active">Já třeba, pokud to klient</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/bobik" title="Zobrazit profil uživatele.">Honza Pobořil</a> dne 2 Duben, 2009 - 18:41.  </div>
+
+  <div class="content">
+    <p>Já třeba, pokud to klient přímo nevyžaduje, mu to heslo nedávám.
+Dostane jen přístup do drupalu a šmitec. A na fotky stačí udělat
+zvláštní ftp účet, který vede jen do toho adresáře (umí to třeba
+Savana).</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/18181" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-83916"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-83916" class="active">Stejně to dělám i já. Heslo</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 14 Listopad, 2014 - 07:30.  </div>
+
+  <div class="content">
+    Stejně to dělám i já. Heslo jen když zákazník „prudí“ :-) A FTP
+jen pro určitý adresářumí i zde zatracovaný TCM  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/83916" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-18387"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-18387" class="active">Píšou jinde...</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/wojtha" title="Zobrazit profil uživatele.">Vojtěch Kusý</a> dne 16 Duben, 2009 - 14:31.  </div>
+
+  <div class="content">
+    <p>Aneb sám největší enfant terrible českého inernetu varuje před TC
+… <a href="http://myego.cz/item/pozor-na-total-commander">http://myego.cz/…al-commander</a></p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/18387" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-18393"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-18393" class="active">Jestli by spis nemel varovat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Grovik (bez ověření) dne 16 Duben, 2009 - 21:09.  </div>
+
+  <div class="content">
+    <p>Jestli by spis nemel varovat pred Windows ;-)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/18393" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-18390"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-18390" class="active">Nevíte proč se nepoužívá SCP a certifikát?</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/ike" title="Zobrazit profil uživatele.">Ike</a> dne 16 Duben, 2009 - 15:51.  </div>
+
+  <div class="content">
+    <p>Nevíte proč se nepoužívá scp s certifikátem? Myslím že by to bylo
+bezpečnější.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/18390" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-18391"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-18391" class="active">Protoze je jen na Vas</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 16 Duben, 2009 - 19:29.  </div>
+
+  <div class="content">
+    <p>Protoze je jen na Vas vygenerovat si SSH klic a dat si ho tam a pouzivat ho?
+Nic vam nebrani…99 % serveru to ma zapnute.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/18391" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-19898"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-19898" class="active">FTP  vs.  FTPs/sFTP/FTPes</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 14 Červenec, 2009 - 13:56.  </div>
+
+  <div class="content">
+    <p>No nechci Vam do toho moc kecat, ale zda se mi, ze hodne lidi aktulizuje
+stranky pouze pres klasicky nesivrovany FTP protokol, a je uz jedno jestli
+z TC, nebo a jineho FTP klienta, a to je podle mne ten nejvetsi kamen urazu.
+Nekdy se staci jedinkrat pripojit klasickym FTP a za chvilku je tam nekde IFRAME
+nekam do ciny a nebo nekde nakonci divoky JS.</p>
+
+<p>Takze bych hlavne doporucoval pouzivat pouze FTP prenosy po SSL/TLS, (ftps,
+sftp, ftpes) a az v druhe rade neukladat hesla.</p>
+
+<p>PS: doufam ze tu nekdo napise, ze kdyz do toho nechci kecat tak at
+nekecam ;)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/19898" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-19899"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-19899" class="active">Ale kecej, myslim si vsak, ze</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/admin" title="Zobrazit profil uživatele.">Jakub Suchý</a> dne 14 Červenec, 2009 - 14:03.  </div>
+
+  <div class="content">
+    <p>Ale kecej, myslim si vsak, ze nemas pravdu. Nemyslim, ze az takova vetsina
+ceskych ISP ma nekde nejake sniffery. Je to spis temi ulozenymi hesly</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/19899" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-19904"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-19904" class="active">To je vec nazoru, ale podle</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous (bez ověření) dne 14 Červenec, 2009 - 17:00.  </div>
+
+  <div class="content">
+    <p>To je vec nazoru, ale podle toho co jsem videl ja, mi to spis pripadalo, ze
+odchyt hesel byl spis nekde venku a pouze na nesifrovanem FTP.</p>
+
+<p>Samozrejmne nemam stoprocentni jistotu, ze zadne z PC co pristupovali
+pouzivali FTP nemeli v sobe nejake svinstvo, ale ve vsech pripadech jsem jen
+zmenil heslo a vsem zakazal (slovne;) pouzivat FTP bez SSL, a uz se nic takoveho
+neopakovalo a to se zadne odvirovavani ani odspywarovani se nekonalo. Takze to
+vypadlo, spis na odchyt hesla. Mimochodem zadny z uzivatelu nebyl
+bezny BFU.</p>
+
+<p>Jak rikam, vec nazoru, mozna mas jine zkusenosti. Chapu, ze u bezneho BFU
+muze byt velky risk hesla ukladat.</p>
+
+<p>Takze zaver by mohl byt spis nejak takhle: Pokud nekomu doporucit bezpecnost,
+tak uplnou. Takze pokud neukladat hesla z duvodu bezpecnosti, tak z tech
+samych duvodu i pouzivat FTP po SSL/TLS a pak bude vetsi jistota ze tajne heslo
+zustane tajnym. Mimochodem i TotalCommander uz umi FTP po SSL ;) .</p>
+
+<p>Na obhajobu Drupalu: Vsechny napadene stranky byly psany rucne, bez zadneho
+RS, az na jeden pripad, kde byla Joomla. Takze Drupal urcite za nic
+nemuze ;)</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/19904" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div></div><a id="comment-20548"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-20548" class="active">Beta 6 TotalCommanderu 7.50</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/bighead" title="Zobrazit profil uživatele.">Petr Illek</a> dne 17 Srpen, 2009 - 15:09.  </div>
+
+  <div class="content">
+    <p>Používá master password na uložená FTP hesla. V souboru wcx_ftp –
+tak už nejsou hesla, ale jen zakódované řetězce. Zkušenost: Nijak
+zvlášť to neotravuje – před přihlášením na první FTP se zeptá na
+master password, a pamatuje si ho do zavření dané instance programu, tedy na
+připojení dalším FTP už ho nepotřebuji zadávat.</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/20548" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-21149"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-21149" class="active">naprosto souhlasim a hned</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel <a href="/user/karlos" title="Zobrazit profil uživatele.">karlos</a> dne 12 Září, 2009 - 16:54.  </div>
+
+  <div class="content">
+    <p>naprosto souhlasim a hned jsem vsechny okolo instruoval ze ihned
+updatují(zkratka to dostali prikazem ze jim jinak zmenim hesla :)) . je to fakt
+v pohode, jedno rozumny heslo se da pamatovat a rychle naklapat, pro kazdy ftp
+nahodne generovane nikoliv. a mit spusteny keypass, porad mackat ctrl+tab ctrl+c
+a ctrl+v. jinak jste si urcite vsimli ze TC 7.5 uz je finalne venku. a super je
+taky ze jdou v pripojenich delat slozky, hodne to zprehledni kdyz mate vic
+pripojeni pro kazdy projekt</p>  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/21149" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-70991"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-70991" class="active">Navod</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 7 Říjen, 2013 - 08:34.  </div>
+
+  <div class="content">
+    Tak zaprve, toto je uz opraveno, jak nekdo psal, staci pouzit master heslo.
+Zadruhe tvrdit ze TC je zlo je mimo. Mel diru, ktera se zneuzila, uz je to
+opravene, mate moznost pouzivat master heslo. TC je jinak celkem nenahraditelny.
+Viry jsou i na jine FTP manazery, celkem zabira nastavit u souboru prava na
+444, viry to zatim neprekonaj. Zatreti, autor tu vsem nuti svuj FTP, prechod na
+linux a redakcni system. To vypovida to o urovni autora. Ze se virus chyti na
+porno serverech? To je tedy hezke, ja bych spise rekl ze je mnohem vice cest jak
+virus chytit a na porno koukat nemusite a predevsim nez porno bych videl jako
+vetsi riziko warez. Tahle recenze me rozcilila, cekal jsem alespon ze napisete
+jak se virus jmenuje a ktery antivirus ho dobre zna, coz zrovna ted hledam.  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/70991" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="indented"><a id="comment-70996"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-70996" class="active">tak hlavne pouzivat</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 7 Říjen, 2013 - 09:21.  </div>
+
+  <div class="content">
+    tak hlavne pouzivat prehistoricky FTP v roce 2013 je peklo. mimochodem je
+to 4 roky stary clanek :)  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/70996" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+</div><a id="comment-87216"></a>
+<div class="comment clear-block">
+  
+
+  <h3><a href="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu#comment-87216" class="active">Nahotinky a warez</a></h3>
+
+  <div class="submitted">
+    Napsal uživatel Anonymous dne 17 Březen, 2015 - 07:20.  </div>
+
+  <div class="content">
+    Vyssie tu bolo zmienene, ze k ukradnutiu hesiel staci pozerat nahotinky
+alebo ist na warez. Pokial pozerate nahotinky iba cez web browser, alebo chodite
+na warez bez installovania ich programov, ako mozete dostat vyrus?  </div>
+<div class="morelinks">
+
+<a href="/comment/reply/4867/87216" class="comment_reply">odpovědět</a>
+</div> <!-- morelinks end -->
+ 
+</div>
+<div class="box">
+
+  <h2>Poslat nový komentář</h2>
+
+  <div class="content"><form action="/comment/reply/4867"  accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-subject-wrapper">
+ <label for="edit-subject">Předmět: </label>
+ <input type="text" maxlength="64" name="subject" id="edit-subject" size="60" value="" class="form-text" />
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Komentář: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment"  class="form-textarea resizable required"></textarea>
+</div>
+<ul class="tips"><li>You can use <a href="https://texy.info/en">Texy!</a> to format and alter entered content.</li><li>Povolené HTML značky: &lt;em&gt; &lt;strong&gt; &lt;b&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;pre&gt; &lt;pre class=&quot;php&quot;&gt;</li><li>You can enable syntax highlighting of source code with the following tags: <code>&lt;code&gt;</code>, <code>&lt;blockcode&gt;</code>. Beside the tag style "<code>&lt;foo&gt;</code>" it is also possible to use "<code>[foo]</code>".</li></ul><p><a href="/filter/tips">Více informací o možnostech formátování</a></p><input type="hidden" name="form_build_id" id="form-b9e0027ab2792007e364a8adabef583b" value="form-b9e0027ab2792007e364a8adabef583b"  />
+<input type="hidden" name="form_id" id="edit-comment-form" value="comment_form"  />
+<input type="hidden" name="mollom[session_id]" id="edit-mollom-session-id" value=""  class="mollom-session-id" />
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input type="text" maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" value="" title="Homepage" autocomplete="off" class="form-text" />
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Uložit"  class="form-submit" />
+<input type="submit" name="op" id="edit-preview" value="Náhled"  class="form-submit" />
+
+</div></form>
+</div>
+</div>
+</div>
+          </div> <!-- maintext end -->
+ </div> <!-- text end -->
+
+<div class="drupal-block">
+     <div class="db-content block-block-51 block" id="block-block-51">
+   <div class="db-article">
+    <h3>Hledat</h3>
+    <div class="db-body">
+     <div>
+     <script>
+  (function() {
+    var cx = '000803493358283862191:qke1sunstco';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only resultsUrl="http://www.drupal.cz/vyhledavani" queryParameterName="search">
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-0 block" id="block-user-0">
+   <div class="db-article">
+    <h3>Přihlášení</h3>
+    <div class="db-body">
+     <div>
+     <form action="/blog/jakub-suchy/proboha-prestante-pouzivat-ulozena-hesla-v-total-commanderu?destination=node%2F4867"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username or e-mail: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Heslo: <span class="form-required" title="Toto pole je vyžadováno.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Přihlásit se"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Vytvořit nový uživatelský účet.">Vytvořit nový účet</a></li>
+<li class="last"><a href="/user/password" title="Požádat o zaslání nového hesla e-mailem.">Zaslat nové heslo</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-08a933f044950fc50e8be8fd1f2096c9" value="form-08a933f044950fc50e8be8fd1f2096c9"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-56 block" id="block-block-56">
+   <div class="db-article">
+    <h3></h3>
+    <div class="db-body">
+     <div>
+     <a href="/node/52781"><img src="/files/podpora-da-banner-2.png" /></a>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-21 block" id="block-block-21">
+   <div class="db-article">
+    <h3>Bezpečnost Drupalu</h3>
+    <div class="db-body">
+     <div>
+     <p>Z hlediska bezpečnosti je Drupal na velmi vysoké úrovni, díky
+propracovanému systému hlášení, prověřování a řešení možných
+problémů.</p>
+
+<p><a href="/bezpecnost">Čtěte více a odebírejte bezpečnostní
+aktuality</a></p>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-tagadelic-4 block" id="block-tagadelic-4">
+   <div class="db-article">
+    <h3>Články, prezentace</h3>
+    <div class="db-body">
+     <div>
+     <a href="/clanky/akce" class="tagadelic level4">akce</a> 
+<a href="/clanky/bezpecnost" class="tagadelic level6">bezpečnost</a> 
+<a href="/clanky/cck" class="tagadelic level2">CCK</a> 
+<a href="/clanky/como-ganhar-dinheiro" class="tagadelic level2">como ganhar dinheiro</a> 
+<a href="/clanky/como-ganhar-dinheiro-na-internet" class="tagadelic level3">como ganhar dinheiro na internet</a> 
+<a href="/clanky/como-ganhar-dinheiro-pela-internet" class="tagadelic level2">como ganhar dinheiro pela internet</a> 
+<a href="/clanky/drupal" class="tagadelic level3">drupal</a> 
+<a href="/clanky/drupalcz" class="tagadelic level4">drupal.cz</a> 
+<a href="/clanky/drupal-7x" class="tagadelic level1">Drupal 7.x</a> 
+<a href="/clanky/drupalcamp" class="tagadelic level1">drupalcamp</a> 
+<a href="/clanky/drupalcon" class="tagadelic level1">drupalcon</a> 
+<a href="/clanky/drupal-setkani" class="tagadelic level2">Drupal setkání</a> 
+<a href="/clanky/forex" class="tagadelic level1">forex</a> 
+<a href="/clanky/forex-broker" class="tagadelic level1">forex broker</a> 
+<a href="/clanky/forex-trading-strategies" class="tagadelic level1">forex trading strategies</a> 
+<a href="/clanky/fx-trading" class="tagadelic level2">FX trading</a> 
+<a href="/clanky/game-war-cheats" class="tagadelic level1">game of war cheats</a> 
+<a href="/clanky/ganhar-dinheiro" class="tagadelic level3">ganhar dinheiro</a> 
+<a href="/clanky/ganhar-dinheiro-na-internet" class="tagadelic level2">ganhar dinheiro na internet</a> 
+<a href="/clanky/godus-cheats" class="tagadelic level1">godus cheats</a> 
+<a href="/clanky/image" class="tagadelic level1">image</a> 
+<a href="/clanky/landlord-house-insurance" class="tagadelic level1">landlord house insurance</a> 
+<a href="/clanky/lokalizace" class="tagadelic level1">lokalizace</a> 
+<a href="/clanky/moduly" class="tagadelic level6">moduly</a> 
+<a href="/clanky/navod" class="tagadelic level2">navod</a> 
+<a href="/clanky/online-forex-trading" class="tagadelic level1">online forex trading</a> 
+<a href="/clanky/ostatni" class="tagadelic level3">ostatní</a> 
+<a href="/clanky/overwatch-aimbot" class="tagadelic level1">Overwatch Aimbot</a> 
+<a href="/clanky/php" class="tagadelic level1">php</a> 
+<a href="/clanky/pro-webmastery" class="tagadelic level5">pro webmastery</a> 
+<a href="/clanky/preklad" class="tagadelic level1">překlad</a> 
+<a href="/clanky/prekladatelsky-sprint" class="tagadelic level1">překladatelský sprint</a> 
+<a href="/clanky/preklady" class="tagadelic level2">překlady</a> 
+<a href="/clanky/pripadove-studie" class="tagadelic level2">případové studie</a> 
+<a href="/clanky/setkani" class="tagadelic level5">setkání</a> 
+<a href="/clanky/setkani-akce" class="tagadelic level5">setkání, akce</a> 
+<a href="/clanky/synthetic-opal" class="tagadelic level3">synthetic opal</a> 
+<a href="/clanky/synthetic-opals" class="tagadelic level3">synthetic opals</a> 
+<a href="/clanky/theming" class="tagadelic level2">theming</a> 
+<a href="/clanky/tipy-triky" class="tagadelic level5">tipy &amp; triky</a> 
+<a href="/clanky/ubercart" class="tagadelic level1">UberCart</a> 
+<a href="/clanky/views" class="tagadelic level2">views</a> 
+<a href="/clanky/vyvoj" class="tagadelic level2">vývoj</a> 
+<a href="/clanky/vyvoj-drupalu" class="tagadelic level5">vývoj drupalu</a> 
+<a href="/clanky/zacatecnici" class="tagadelic level5">začátečníci</a> 
+<a href="/clanky/sablony-vzhled" class="tagadelic level2">šablony a vzhled</a> 
+     </div>
+    </div> <!-- db-body end -->
+    <div class="db-footer">
+     <p>&nbsp;</p>
+    </div>
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-forum-1 block" id="block-forum-1">
+   <div class="db-article">
+    <h3>Nová témata</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac" title="1 komentář">PHP - výpis více hodnot z jednoho sloupce (seskupení + oddělovač)</a></li>
+<li><a href="/forum/po-instalaci/jak-na/zjisteni-block-id" title="1 komentář">Zjištění block ID</a></li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv" title="1 komentář">http://www.oznamkujucitele.cz/ucitel/19362 moc prosím o pomoc s odstraněním komentu co nejdříve je to otázka života a smrti moc </a></li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku" title="5 komentářů">Přehled článků ve Views - zobrazení bloku/kódu po n-tém článku</a></li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node" title="3 komentáře">Webform per user per node</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Přečíst nejnovější diskuse.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-comment-0 block" id="block-comment-0">
+   <div class="db-article">
+    <h3>Poslední komentáře</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first"><a href="/forum/po-instalaci/jak-na/php-vypis-vice-hodnot-z-jednoho-sloupce-seskupeni-oddelovac#comment-104041">Doplnění</a><br />před 9 hod 22 min</li>
+<li><a href="/forum/po-instalaci/jak-na/zjisteni-block-id#comment-104036">HOOK_bloc­k_alter</a><br />před 1 den 8 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104031">Koukám, že je to známá, leč</a><br />před 2 dny 22 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104026">Musel jsem povolit v souboru</a><br />před 3 dny 22 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104021">a kdyz do tech souboru</a><br />před 5 dnů 2 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104016">Zkusil jsem to, ale v šabloně</a><br />před 5 dnů 2 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/httpwwwoznamkujuciteleczucitel19362-moc-prosim-o-pomoc-s-odstranenim-komentu-co-nejdrive-je-otazka-ziv#comment-104011">http://www.oznamkujucitele.cz</a><br />před 6 dnů 21 hod</li>
+<li><a href="/forum/po-instalaci/jak-na/lze-zjistit-ip-adresu-anonyma-ktery-napsal-komentar-k-nejakymu-nodu#comment-104006">potřeboval bych odstranit komentář </a><br />před 1 týden 54 min</li>
+<li><a href="/forum/po-instalaci/jak-na/prehled-clanku-ve-views-zobrazeni-blokukodu-po-n-tem-clanku#comment-104001">mas devel a zapnuty kint?</a><br />před 1 týden 1 den</li>
+<li class="last"><a href="/forum/po-instalaci/jak-na/webform-user-node#comment-103996">Tak imo jedině naprogramovat.</a><br />před 2 týdny 4 dny</li>
+</ul></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-aggregator-feed-1 block" id="block-aggregator-feed-1">
+   <div class="db-article">
+    <h3>Píšou na Slovensku</h3>
+    <div class="db-body">
+     <div>
+     <div class="item-list"><ul><li class="first last"><a href="http://drupal.sk/node/2411">Zhodnotenie roku 2016 a plány na rok 2017</a>
+</li>
+</ul></div><div class="more-link"><a href="/aggregator/pisou-na-slovensku" title="Zobrazit nejnovější zprávy kanálu.">další</a></div>     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-4 block" id="block-block-4">
+   <div class="db-article">
+    <h3>RSS Kanály</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="/rss.xml" title="RSS Kanal"><img src="/misc/feed.png" width="16" height="16" alt="Feed" /> Hlavní RSS kanál</a></p>
+<div class="more-link">
+<a href="/clanky/novinky-na-webu/seznam-rss-zdroju-drupal-cz">všechny kanály</a>
+</div>
+     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-user-3 block" id="block-user-3">
+   <div class="db-article">
+    <h3>Kdo je online</h3>
+    <div class="db-body">
+     <div>
+     Momentálně je online <em>0 uživatelů</em> a <em>0 hostů</em>.     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+   <div class="db-content block-block-8 block" id="block-block-8">
+   <div class="db-article">
+    <h3>Support</h3>
+    <div class="db-body">
+     <div>
+     <p><a href="http://www.psychologie-online.cz">Psychologie - poradenství</a></p>
+<!-- Start Visual Website Optimizer Asynchronous Code --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=31941,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script><!-- End Visual Website Optimizer Asynchronous Code --><!-- End Visual Website Optimizer Asynchronous Code -->     </div>
+    </div> <!-- db-body end -->
+   </div> <!-- db-article end -->
+  </div> <!-- db-content end -->
+</div> <!-- drupal-block end -->
+
+<div class="cleaner">&nbsp;</div>
+</div> <!-- main end -->
+</div> <!-- container end -->
+<div id="footer">
+ (C) Copyright 2012 Jakub Suchý, <a href="/kontakt">kontakt</a>. Chrání nás <a href="http://www.virusfree.cz/antispam-antivir">antispam</a> Virusfree. Drupal je registrovaná ochranná známka <a href="http://buytaert.net">Driese Buytaerta</a>.
+<a href="https://www.acquia.com/products-services/acquia-managed-cloud">Drupal Hosting</a> powered by Acquia Cloud.
+ <div class="preloader">
+  <img src="/sites/all/themes/drupal/images/nav-right.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-left-active.png" width="1" height="1" alt="." />
+  <img src="/sites/all/themes/drupal/images/nav-right-active.png" width="1" height="1" alt="." />
+ </div>
+</div> <!-- footer end -->
+<script type="text/javascript" src="https://www.drupal.cz/files/js/js_944e8a2c810d392d516751e50dc196db.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"cs"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-156212-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1104.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f34920590d","applicationID":"65778001","transactionName":"bgZbYkBQC0IAVEBaV1dMeFVGWApfTllbV11mE1hRV24TWARA","queueTime":0,"applicationTime":651,"atts":"QkFYFAhKGEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>oox&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/oox</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Konfigurovatelnost RSS syndikace?</title>
+ <link>https://www.drupal.cz/blog/oox/konfigurovatelnost-rss-syndikace</link>
+ <description>&lt;ol&gt;
+	&lt;li&gt;Chtěl bych si určit, který obsah se má v hlavním RSS kanále objevit a
+	který ne&lt;/li&gt;
+
+	&lt;li&gt;Pokud mohu na bod A zapomenout, tak alespoň bych si rád udělal několik
+	kanálů pro různé termíny ve slovníku. Například: slovník ČLÁNKY-SPORT
+	obsahuje termín „O HOKEJI“ – veškeré své články o hokeji mám pak
+	„uložené“ v tomto termínu. Mám také články o fotbale ve stejném
+	slovníku, pod termínem „O FOTBALE“. Chtěl bych buďto samostatný RSS
+	kanál pro všechny články o fotbale a další kanál pro všechno, co
+	náleží termínu „O HOKEJI“, tedy pro všechny články o hokeji. Dále
+	bych byl vděčný za jeden souhrnný RSS kanál pro veškerý obsah slovníku
+	„ČLÁNKY-SPORT“, tedy kanál pro články o fotbale i hokeji zároveň
+	(dohromady).&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/oox/konfigurovatelnost-rss-syndikace&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/oox/konfigurovatelnost-rss-syndikace#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/1045</wfw:commentRss>
+ <pubDate>Wed, 25 Apr 2007 18:24:02 +0000</pubDate>
+ <dc:creator>oox</dc:creator>
+ <guid isPermaLink="false">1045 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

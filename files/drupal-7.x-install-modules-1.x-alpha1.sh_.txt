@@ -1,0 +1,20 @@
+#!/bin/bash
+# Script by Petr Kratochvil (c) 2011 (www.krato.cz), use only at your own risk!
+# cz: Skript sepsal Petr Kratochvil (c) 2011 (www.krato.cz), pouzijte jen na sve vlastni riziko, autor skriptu nenese zadnou zodpovednost za pripadne skody!
+# Version: 1.x-alpha1
+
+# Not available yet: cs filefield filefield_sources imagecache imagefield insert taxonomy_menu_hiearchy upload_preview wysiwyg_filter
+
+download="advanced_help backup_migrate captcha cck ckeditor customfilter ctools date devel filefield filefield_sources globalredirect imageapi imagecache imagefield image_resize_filter imce lightbox2 link pathauto poormanscron taxonomy_menu token views wysiwyg_filter"
+
+enable="advanced_help backup_migrate captcha cck ckeditor customfilter date devel filefield filefield_sources globalredirect imageapi imagecache imagefield image_resize_filter imce insert lightbox2 link pathauto poormanscron taxonomy_menu token views wysiwyg_filter   node_reference user_reference"
+
+echo "=== Downloading modules: $modules ==="
+#drush pm-download $download
+
+echo "=== Enabling module extensions: $enable ==="
+#drush pm-enable $enable # don't enable all extensions at once - due to memory_limit
+for module in $enable
+do
+	drush pm-enable -y $module
+done

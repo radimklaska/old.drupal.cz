@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>kubrob&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/kubrob</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>nespravne cislovanie v image gallery</title>
+ <link>https://www.drupal.cz/blog/kubrob/nespravne-cislovanie-v-image-gallery</link>
+ <description>&lt;p&gt;Dobry den,&lt;/p&gt;
+
+&lt;p&gt;prosim pozrite na stranku &lt;a href=&quot;http://www.slovakregion.sk/image&quot;&gt;http://www.slovakregion.sk/image&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vo fotogalerii Slovenska je tam napisane „V tejto galérii sú
+33 obrázky.“ Ako sa to da zmenit na „V tejto galérii sú
+33 obrázkov.“ V preklade je to spravne. Inak to cislovanie bezi tak divne.
+Stretli ste sa s tym? Ako to mozem opravit? Vdaka za odpoved.&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/kubrob/nespravne-cislovanie-v-image-gallery#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/892</wfw:commentRss>
+ <pubDate>Mon, 19 Mar 2007 18:39:56 +0000</pubDate>
+ <dc:creator>kubrob</dc:creator>
+ <guid isPermaLink="false">892 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

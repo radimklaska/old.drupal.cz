@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>pepej&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/pepej</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>Fotky z DrupaConu Praha 2013</title>
+ <link>https://www.drupal.cz/blog/pepej/fotky-z-drupaconu-praha-2013</link>
+ <description>&lt;p&gt;V září se, jak asi víte konal v Praze první „český“ Drupalcon
+Europe.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/pepej/fotky-z-drupaconu-praha-2013&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/pepej/fotky-z-drupaconu-praha-2013#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/22776</wfw:commentRss>
+ <pubDate>Sat, 02 Nov 2013 14:58:02 +0000</pubDate>
+ <dc:creator>pepej</dc:creator>
+ <guid isPermaLink="false">22776 at https://www.drupal.cz</guid>
+</item>
+<item>
+ <title>Info z DrupalConu Mnichov 2012 - kde bude ten další?</title>
+ <link>https://www.drupal.cz/blog/pepej/info-z-drupalconu-mnichov</link>
+ <description>&lt;p&gt;viz fota .. &lt;a href=&quot;http://www.flickr.com/photos/pepej/7865434008/in/set-72157631255391770/&quot;&gt;http://www.flickr.com/…31255391770/&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/pepej/info-z-drupalconu-mnichov#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/14501</wfw:commentRss>
+ <pubDate>Sun, 26 Aug 2012 17:57:19 +0000</pubDate>
+ <dc:creator>pepej</dc:creator>
+ <guid isPermaLink="false">14501 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>

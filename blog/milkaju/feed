@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.cz"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>milkaju&#039;s blog</title>
+ <link>https://www.drupal.cz/blog/milkaju</link>
+ <description>Drupal je populární systém pro správu obsahu (Content Management System - CMS).
+Snadná rozšiřitelnost pomocí modulů a mnoho možností, které poskytuje, z Drupalu dělá jeden z nejlepších redakčních systémů. Navíc je zdarma i se zdrojovými kódy.
+Toto jsou české Drupal stránky. Jsou určeny k podpoře uživatelů a diskusi o jeho používání.</description>
+ <language>cs</language>
+<item>
+ <title>blogovací prostor s galerií</title>
+ <link>https://www.drupal.cz/blog/milkaju/blogovaci-prostor-s-galerii</link>
+ <description>&lt;p&gt;Předem přiznávám, že jsem pouze poučený laik. Chci vytvořit
+blogovací prostor (ne tedy individuální soukromý blog), kde by si mohli lidi
+vyměňovat názory a informace na konkrétní téma. Součástí by měla být
+i galerie a nějaký prostor pro články… Požadavek je, aby tam byla
+nějaká byť jednoduchá správa přístupů tj.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.drupal.cz/blog/milkaju/blogovaci-prostor-s-galerii&quot; target=&quot;_blank&quot;&gt;číst dál&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>https://www.drupal.cz/blog/milkaju/blogovaci-prostor-s-galerii#comments</comments>
+ <wfw:commentRss xmlns:wfw="http://wellformedweb.org/CommentAPI/">https://www.drupal.cz/crss/node/2026</wfw:commentRss>
+ <pubDate>Thu, 15 Nov 2007 13:29:35 +0000</pubDate>
+ <dc:creator>milkaju</dc:creator>
+ <guid isPermaLink="false">2026 at https://www.drupal.cz</guid>
+</item>
+</channel>
+</rss>
